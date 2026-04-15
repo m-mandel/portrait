@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/franklin_roosevelt",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/franklin_roosevelt/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+        "path": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+        "similarity": 0.07038362324237823
+      },
+      {
+        "index": 1,
+        "name": "03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+        "path": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+        "similarity": 0.00860285572707653
+      },
+      {
+        "index": 2,
+        "name": "04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": 0.04150514304637909
+      },
+      {
+        "index": 3,
+        "name": "05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+        "path": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+        "similarity": 0.04129248857498169
+      },
+      {
+        "index": 4,
+        "name": "06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+        "path": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+        "similarity": 0.06855397671461105
+      },
+      {
+        "index": 5,
+        "name": "07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+        "path": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+        "similarity": 0.04429299384355545
+      },
+      {
+        "index": 6,
+        "name": "08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+        "path": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+        "similarity": 0.06199585646390915
+      },
+      {
+        "index": 7,
+        "name": "09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+        "path": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+        "similarity": 0.035109225660562515
+      },
+      {
+        "index": 8,
+        "name": "10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+        "path": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+        "similarity": 0.08757048845291138
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.07038362324237823,
+          0.00860285572707653,
+          0.04150514304637909,
+          0.04129248857498169,
+          0.06855397671461105,
+          0.04429299384355545,
+          0.06199585646390915,
+          0.035109225660562515,
+          0.08757048845291138
+        ],
+        [
+          0.07038362324237823,
+          1.0000001192092896,
+          0.48385822772979736,
+          0.4853491485118866,
+          0.3941885232925415,
+          0.6408494114875793,
+          0.47882628440856934,
+          0.4769359230995178,
+          0.5412968397140503,
+          0.4409409463405609
+        ],
+        [
+          0.00860285572707653,
+          0.48385822772979736,
+          0.9999998807907104,
+          0.5290799736976624,
+          0.5331566333770752,
+          0.4649520218372345,
+          0.583802342414856,
+          0.5139732360839844,
+          0.5480521321296692,
+          0.48420169949531555
+        ],
+        [
+          0.04150514304637909,
+          0.4853491485118866,
+          0.5290799736976624,
+          1.0,
+          0.5206215977668762,
+          0.42879021167755127,
+          0.48272842168807983,
+          0.48676174879074097,
+          0.5248745083808899,
+          0.4998830258846283
+        ],
+        [
+          0.04129248857498169,
+          0.3941885232925415,
+          0.5331566333770752,
+          0.5206215977668762,
+          1.0,
+          0.2586464583873749,
+          0.4828704595565796,
+          0.4755108952522278,
+          0.390125036239624,
+          0.44647738337516785
+        ],
+        [
+          0.06855397671461105,
+          0.6408494114875793,
+          0.4649520218372345,
+          0.42879021167755127,
+          0.2586464583873749,
+          1.0000001192092896,
+          0.3936789929866791,
+          0.4608753025531769,
+          0.5542927980422974,
+          0.40879151225090027
+        ],
+        [
+          0.04429299384355545,
+          0.47882628440856934,
+          0.583802342414856,
+          0.48272842168807983,
+          0.4828704595565796,
+          0.3936789929866791,
+          1.0,
+          0.48841676115989685,
+          0.5056942701339722,
+          0.4806532561779022
+        ],
+        [
+          0.06199585646390915,
+          0.4769359230995178,
+          0.5139732360839844,
+          0.48676174879074097,
+          0.4755108952522278,
+          0.4608753025531769,
+          0.48841676115989685,
+          0.9999998807907104,
+          0.4008088707923889,
+          0.43683022260665894
+        ],
+        [
+          0.035109225660562515,
+          0.5412968397140503,
+          0.5480521321296692,
+          0.5248745083808899,
+          0.390125036239624,
+          0.5542927980422974,
+          0.5056942701339722,
+          0.4008088707923889,
+          1.0,
+          0.5103932619094849
+        ],
+        [
+          0.08757048845291138,
+          0.4409409463405609,
+          0.48420169949531555,
+          0.4998830258846283,
+          0.44647738337516785,
+          0.40879151225090027,
+          0.4806532561779022,
+          0.43683022260665894,
+          0.5103932619094849,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg"
+    },
+    {
+      "name": "03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg"
+    },
+    {
+      "name": "04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg"
+    },
+    {
+      "name": "06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg"
+    },
+    {
+      "name": "07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg"
+    },
+    {
+      "name": "08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg"
+    },
+    {
+      "name": "09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg"
+    },
+    {
+      "name": "10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "similarity": 0.48385822772979736
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4853491485118866
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.3941885232925415
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "similarity": 0.6408494114875793
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "similarity": 0.47882628440856934
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "similarity": 0.4769359230995178
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.5412968397140503
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+      "similarity": 0.4409409463405609
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5290799736976624
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.5331566333770752
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "similarity": 0.4649520218372345
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "similarity": 0.583802342414856
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "similarity": 0.5139732360839844
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.5480521321296692
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+      "similarity": 0.48420169949531555
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.5206215977668762
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "similarity": 0.42879021167755127
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "similarity": 0.48272842168807983
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "similarity": 0.48676174879074097
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.5248745083808899
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+      "similarity": 0.4998830258846283
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "similarity": 0.2586464583873749
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "similarity": 0.4828704595565796
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "similarity": 0.4755108952522278
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.390125036239624
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+      "similarity": 0.44647738337516785
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "similarity": 0.3936789929866791
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "similarity": 0.4608753025531769
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.5542927980422974
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+      "similarity": 0.40879151225090027
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "similarity": 0.48841676115989685
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.5056942701339722
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+      "similarity": 0.4806532561779022
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.4008088707923889
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+      "similarity": 0.43683022260665894
+    },
+    {
+      "left": "/workspace/input/piven/data/franklin_roosevelt/images/09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "right": "/workspace/input/piven/data/franklin_roosevelt/images/10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg",
+      "similarity": 0.5103932619094849
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "02_vincenzo-laviosa-franklin-d-roosevelt-google-art-project-jpg.jpg",
+      "03_fdr-franklin-delano-roosevelt-2-men-at-table-lccn2016894436-jpg.jpg",
+      "04_franklin-roosevelt-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "05_969-franklin-roosevelt-portrait-stock-photos-high-res-pictures-and.jpg",
+      "06_us-president-franklin-d-roosevelt-portrait-photo-artwork-framed-wall.jpg",
+      "07_franklin-d-roosevelt-and-eleanor-roosevelt-in-color.jpg",
+      "08_franklin-roosevelt-portrait-taken-when-he-was-attending-college-r.jpg",
+      "09_president-franklin-roosevelt-portrait-hi-res-stock-photography-and.jpg",
+      "10_franklin-d-roosevelt-visit-the-empire-state-plaza-new-york-state.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.48385822772979736,
+        0.4853491485118866,
+        0.3941885232925415,
+        0.6408494114875793,
+        0.47882628440856934,
+        0.4769359230995178,
+        0.5412968397140503,
+        0.4409409463405609
+      ],
+      [
+        0.48385822772979736,
+        0.9999998807907104,
+        0.5290799736976624,
+        0.5331566333770752,
+        0.4649520218372345,
+        0.583802342414856,
+        0.5139732360839844,
+        0.5480521321296692,
+        0.48420169949531555
+      ],
+      [
+        0.4853491485118866,
+        0.5290799736976624,
+        1.0,
+        0.5206215977668762,
+        0.42879021167755127,
+        0.48272842168807983,
+        0.48676174879074097,
+        0.5248745083808899,
+        0.4998830258846283
+      ],
+      [
+        0.3941885232925415,
+        0.5331566333770752,
+        0.5206215977668762,
+        1.0,
+        0.2586464583873749,
+        0.4828704595565796,
+        0.4755108952522278,
+        0.390125036239624,
+        0.44647738337516785
+      ],
+      [
+        0.6408494114875793,
+        0.4649520218372345,
+        0.42879021167755127,
+        0.2586464583873749,
+        1.0000001192092896,
+        0.3936789929866791,
+        0.4608753025531769,
+        0.5542927980422974,
+        0.40879151225090027
+      ],
+      [
+        0.47882628440856934,
+        0.583802342414856,
+        0.48272842168807983,
+        0.4828704595565796,
+        0.3936789929866791,
+        1.0,
+        0.48841676115989685,
+        0.5056942701339722,
+        0.4806532561779022
+      ],
+      [
+        0.4769359230995178,
+        0.5139732360839844,
+        0.48676174879074097,
+        0.4755108952522278,
+        0.4608753025531769,
+        0.48841676115989685,
+        0.9999998807907104,
+        0.4008088707923889,
+        0.43683022260665894
+      ],
+      [
+        0.5412968397140503,
+        0.5480521321296692,
+        0.5248745083808899,
+        0.390125036239624,
+        0.5542927980422974,
+        0.5056942701339722,
+        0.4008088707923889,
+        1.0,
+        0.5103932619094849
+      ],
+      [
+        0.4409409463405609,
+        0.48420169949531555,
+        0.4998830258846283,
+        0.44647738337516785,
+        0.40879151225090027,
+        0.4806532561779022,
+        0.43683022260665894,
+        0.5103932619094849,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/franklin_roosevelt/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/franklin_roosevelt/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/franklin_roosevelt/images/01_immeuble-4-all-es-du-pr-sident-franklin-roosevelt-jpg.jpg",
+      "error": "No face detected in /workspace/input/piven/data/franklin_roosevelt/images/01_immeuble-4-all-es-du-pr-sident-franklin-roosevelt-jpg.jpg"
+    }
+  ]
+}

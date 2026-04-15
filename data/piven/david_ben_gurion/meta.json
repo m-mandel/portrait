@@ -1,0 +1,95 @@
+{
+  "name": "david ben gurion",
+  "bio": "David Ben-Gurion ( ben GOOR-ee-ən; Hebrew: דָּוִד בֶּן־גּוּרִיּוֹן [daˈvid ben ɡuʁˈjon] ; born David Grün; 16 October 1886 – 1 December 1973) was the primary national founder and first prime minister of the State of Israel. As head of the Jewish Agency from 1935, and later president of the Jewish Agency Executive, he was the de facto leader of the Jewish community in Palestine, and largely led the movement for an independent Jewish state in Mandatory Palestine.\nBorn in Płońsk, then part of Congress Poland, to Polish Jewish parents, he immigrated to the Palestine region of the Ottoman Empire in 1906. Adopting the name of Ben-Gurion in 1909, he rose to become the preeminent leader of the Jewish community in British-ruled Mandatory Palestine from 1935 until the establishment of the State of Israel in 1948, which he led until 1963 with a short break in 1954–55. Ben-Gurion's interest for Zionism developed early in his life, leading him to become a major Zionist leader, and the executive head of the World Zionist Organization in 1946.\nOn 14 May 1948, he formally proclaimed the establishment of Israel, and was the first to sign the Israeli Declaration of Independence, which he had helped to write. Under Ben-Gurion's leadership, the 1948 Arab–Israeli War saw the uniting of the various Jewish militias into the Israel Defense Forces (IDF), the victory of Israel over the Arab League, and the expulsion and flight of a majority of the Palestinian Arab population. Subsequently, he became known as \"Israel's founding father\". Following the war, Ben-Gurion served as Israel's first prime minister and minister of defence. As prime minister, he helped build state institutions, presiding over national projects aimed at the development of the country. He also oversaw the absorption of Jewish immigrants. A major part of his foreign policy was improving relations with West Germany through a reparations agreement in compensation for Nazi confiscation of Jewish property during the Holocaust.\nIn 1954, he resigned as prime minister and minister of defence but remained a member of the Knesset. He returned as minister of defence in 1955 after the Lavon Affair and the resignation of Pinhas Lavon. Later that year he became prime minister again, following the 1955 elections. He backed Israel's reprisal operations to Arab guerrilla attacks and its invasion of Egypt, along with Britain and France, during the Suez Crisis in 1956. He stepped down from office in 1963, and retired from political life in 1970. He then moved to his modest \"hut\" in Sde Boker, a kibbutz in the Negev desert, where he lived until his death. Posthumously, Ben-Gurion was named one of Time magazine's 100 Most Important People of the 20th century.",
+  "bio_sources": [
+    {
+      "subject": "david ben gurion",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/David_Ben-Gurion"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "sponge",
+      "shape_type": "organic object",
+      "meaning": "adds an earthy, bodily note that keeps david ben gurion's nation-building austerity and Zionist history tactile and human."
+    },
+    {
+      "element": "straw",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing david ben gurion's nation-building austerity and Zionist history."
+    },
+    {
+      "element": "glue bottle",
+      "shape_type": "household object",
+      "meaning": "turns an everyday item into a facial feature, emphasizing the handmade reading of david ben gurion's nation-building austerity and Zionist history."
+    },
+    {
+      "element": "cigarette",
+      "shape_type": "smoking object",
+      "meaning": "adds the austerity and old-guard toughness associated with ben-gurion's generation."
+    },
+    {
+      "element": "newspaper",
+      "shape_type": "paper object",
+      "meaning": "anchors the portrait in statehood, politics, and public history."
+    },
+    {
+      "element": "picture frame",
+      "shape_type": "found object",
+      "meaning": "introduces historical memory and the sense of a founding figure being archived."
+    },
+    {
+      "element": "pushpin",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing david ben gurion's nation-building austerity and Zionist history."
+    },
+    {
+      "element": "chain",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing david ben gurion's nation-building austerity and Zionist history."
+    },
+    {
+      "element": "ring",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen david ben gurion's nation-building austerity and Zionist history."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "barbed wire line",
+      "visual_representation": "a thin wire-like line interrupted by sharp barbs",
+      "category": "event",
+      "relevance": "The biography explicitly mentions Holocaust survival or its aftermath.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "name": "rafi ginat",
+  "bio": "Yedioth Ahronoth (Hebrew: יְדִיעוֹת אַחֲרוֹנוֹת, pronounced [jediˈ(ʔ)ot aχ(a)ʁoˈnot] ; lit. \"Latest News\") is an Israeli daily mass market newspaper published in Tel Aviv. Founded in 1939, Yedioth Ahronoth is Israel's largest paid newspaper by sales and circulation and has been described as \"undoubtedly the country's number-one paper.\" It is published in the tabloid format.\nIt is known as centrist, compared to the left-leaning newspaper of record Haaretz and the right-leaning free daily Israel Hayom.",
+  "bio_sources": [
+    {
+      "subject": "rafi ginat",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Yedioth_Ahronoth"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "eyeballs",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen rafi ginat's consumer journalism and exposé theatrics."
+    },
+    {
+      "element": "cleaning bottle",
+      "shape_type": "household object",
+      "meaning": "fits the consumer-watchdog tone of exposing what needs to be cleaned up."
+    },
+    {
+      "element": "model houses",
+      "shape_type": "found object",
+      "meaning": "turn the portrait toward domestic consumer life and investigative reporting."
+    },
+    {
+      "element": "toy crane",
+      "shape_type": "toy object",
+      "meaning": "adds a sense of staged reconstruction and exposé spectacle."
+    },
+    {
+      "element": "toy vehicles",
+      "shape_type": "toy object",
+      "meaning": "extend the consumer-product and street-level reporting atmosphere."
+    },
+    {
+      "element": "red bottle",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing rafi ginat's consumer journalism and exposé theatrics."
+    },
+    {
+      "element": "debris",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing rafi ginat's consumer journalism and exposé theatrics."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "masthead block",
+      "visual_representation": "a bold title band running across the top of a page",
+      "category": "identity",
+      "relevance": "The biography is about a specific daily newspaper and its public identity.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "headline band",
+      "visual_representation": "thick horizontal strips stacked like front-page headlines",
+      "category": "pattern",
+      "relevance": "Mass-market news publishing and circulation are central to the text.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "tabloid grid",
+      "visual_representation": "compact columns and boxes compressed into a busy page grid",
+      "category": "structure",
+      "relevance": "The biography explicitly says the newspaper is published in tabloid format.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "newsprint texture",
+      "visual_representation": "a rough paper surface with faint ink grain",
+      "category": "material",
+      "relevance": "Printed newspaper pages define the subject of the biography.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "press badge",
+      "visual_representation": "a small rectangular badge clipped to a lanyard",
+      "category": "domain",
+      "relevance": "The broader world around the subject is reporting, publishing, and newsroom culture.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "folder": "/workspace/input/piven/data/ephraim_sneh",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/ephraim_sneh/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_dr-ephraim-sneh-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ephraim_sneh/images/01_dr-ephraim-sneh-cropped-jpg.jpg",
+        "similarity": 0.0005994485691189766
+      },
+      {
+        "index": 1,
+        "name": "02_dr-ephraim-sneh-jpg.jpg",
+        "path": "/workspace/input/piven/data/ephraim_sneh/images/02_dr-ephraim-sneh-jpg.jpg",
+        "similarity": 0.006950621958822012
+      },
+      {
+        "index": 2,
+        "name": "03_ephraim-sneh-00340206-jpg.jpg",
+        "path": "/workspace/input/piven/data/ephraim_sneh/images/03_ephraim-sneh-00340206-jpg.jpg",
+        "similarity": -0.04994285851716995
+      },
+      {
+        "index": 3,
+        "name": "04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/ephraim_sneh/images/04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "similarity": -0.05186294764280319
+      },
+      {
+        "index": 4,
+        "name": "05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+        "path": "/workspace/input/piven/data/ephraim_sneh/images/05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+        "similarity": -0.06462536007165909
+      },
+      {
+        "index": 5,
+        "name": "06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+        "path": "/workspace/input/piven/data/ephraim_sneh/images/06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+        "similarity": 0.016994548961520195
+      },
+      {
+        "index": 6,
+        "name": "08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+        "path": "/workspace/input/piven/data/ephraim_sneh/images/08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+        "similarity": -0.07603511214256287
+      },
+      {
+        "index": 7,
+        "name": "09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+        "path": "/workspace/input/piven/data/ephraim_sneh/images/09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+        "similarity": -0.007320186123251915
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "values": [
+        [
+          1.0,
+          0.0005994485691189766,
+          0.006950621958822012,
+          -0.04994285851716995,
+          -0.05186294764280319,
+          -0.06462536007165909,
+          0.016994548961520195,
+          -0.07603511214256287,
+          -0.007320186123251915
+        ],
+        [
+          0.0005994485691189766,
+          1.0,
+          0.933966338634491,
+          0.518137514591217,
+          0.5049535632133484,
+          -0.015831060707569122,
+          -0.008138841949403286,
+          0.2910490930080414,
+          0.40131935477256775
+        ],
+        [
+          0.006950621958822012,
+          0.933966338634491,
+          1.0,
+          0.4718994200229645,
+          0.5181564092636108,
+          -0.0051380726508796215,
+          0.04665810614824295,
+          0.2800195515155792,
+          0.41645190119743347
+        ],
+        [
+          -0.04994285851716995,
+          0.518137514591217,
+          0.4718994200229645,
+          0.9999999403953552,
+          0.5031325221061707,
+          0.044541649520397186,
+          -0.0025980891659855843,
+          0.27315858006477356,
+          0.4399193227291107
+        ],
+        [
+          -0.05186294764280319,
+          0.5049535632133484,
+          0.5181564092636108,
+          0.5031325221061707,
+          0.9999999403953552,
+          0.0009235539473593235,
+          0.026324860751628876,
+          0.3333301842212677,
+          0.4979367256164551
+        ],
+        [
+          -0.06462536007165909,
+          -0.015831060707569122,
+          -0.0051380726508796215,
+          0.044541649520397186,
+          0.0009235539473593235,
+          1.0,
+          0.02168172039091587,
+          -0.03758765384554863,
+          -0.08173901587724686
+        ],
+        [
+          0.016994548961520195,
+          -0.008138841949403286,
+          0.04665810614824295,
+          -0.0025980891659855843,
+          0.026324860751628876,
+          0.02168172039091587,
+          1.0000001192092896,
+          -0.0369977205991745,
+          0.013490487821400166
+        ],
+        [
+          -0.07603511214256287,
+          0.2910490930080414,
+          0.2800195515155792,
+          0.27315858006477356,
+          0.3333301842212677,
+          -0.03758765384554863,
+          -0.0369977205991745,
+          0.9999999403953552,
+          0.2820972204208374
+        ],
+        [
+          -0.007320186123251915,
+          0.40131935477256775,
+          0.41645190119743347,
+          0.4399193227291107,
+          0.4979367256164551,
+          -0.08173901587724686,
+          0.013490487821400166,
+          0.2820972204208374,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_dr-ephraim-sneh-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/01_dr-ephraim-sneh-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_dr-ephraim-sneh-jpg.jpg",
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/02_dr-ephraim-sneh-jpg.jpg"
+    },
+    {
+      "name": "03_ephraim-sneh-00340206-jpg.jpg",
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/03_ephraim-sneh-00340206-jpg.jpg"
+    },
+    {
+      "name": "04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg"
+    },
+    {
+      "name": "06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg"
+    },
+    {
+      "name": "08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/08_a-conversation-with-ephraim-sneh-wilson-center.jpg"
+    },
+    {
+      "name": "09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/01_dr-ephraim-sneh-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/02_dr-ephraim-sneh-jpg.jpg",
+      "similarity": 0.933966338634491
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/01_dr-ephraim-sneh-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/03_ephraim-sneh-00340206-jpg.jpg",
+      "similarity": 0.518137514591217
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/01_dr-ephraim-sneh-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5049535632133484
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/01_dr-ephraim-sneh-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": -0.015831060707569122
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/01_dr-ephraim-sneh-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+      "similarity": -0.008138841949403286
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/01_dr-ephraim-sneh-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+      "similarity": 0.2910490930080414
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/01_dr-ephraim-sneh-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+      "similarity": 0.40131935477256775
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/02_dr-ephraim-sneh-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/03_ephraim-sneh-00340206-jpg.jpg",
+      "similarity": 0.4718994200229645
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/02_dr-ephraim-sneh-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5181564092636108
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/02_dr-ephraim-sneh-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": -0.0051380726508796215
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/02_dr-ephraim-sneh-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+      "similarity": 0.04665810614824295
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/02_dr-ephraim-sneh-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+      "similarity": 0.2800195515155792
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/02_dr-ephraim-sneh-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+      "similarity": 0.41645190119743347
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/03_ephraim-sneh-00340206-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5031325221061707
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/03_ephraim-sneh-00340206-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": 0.044541649520397186
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/03_ephraim-sneh-00340206-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+      "similarity": -0.0025980891659855843
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/03_ephraim-sneh-00340206-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+      "similarity": 0.27315858006477356
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/03_ephraim-sneh-00340206-jpg.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+      "similarity": 0.4399193227291107
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": 0.0009235539473593235
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+      "similarity": 0.026324860751628876
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+      "similarity": 0.3333301842212677
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+      "similarity": 0.4979367256164551
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+      "similarity": 0.02168172039091587
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+      "similarity": -0.03758765384554863
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+      "similarity": -0.08173901587724686
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+      "similarity": -0.0369977205991745
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+      "similarity": 0.013490487821400166
+    },
+    {
+      "left": "/workspace/input/piven/data/ephraim_sneh/images/08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+      "right": "/workspace/input/piven/data/ephraim_sneh/images/09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg",
+      "similarity": 0.2820972204208374
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_dr-ephraim-sneh-cropped-jpg.jpg",
+      "02_dr-ephraim-sneh-jpg.jpg",
+      "03_ephraim-sneh-00340206-jpg.jpg",
+      "04_ephraim-sneh-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "05_44-ephraim-sneh-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "06_sneh-rana-of-india-poses-for-a-portrait-during-the-icc-women-s-news.jpg",
+      "08_a-conversation-with-ephraim-sneh-wilson-center.jpg",
+      "09_former-minister-ephraim-sneh-warns-israeli-palestinian-extremists.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.933966338634491,
+        0.518137514591217,
+        0.5049535632133484,
+        -0.015831060707569122,
+        -0.008138841949403286,
+        0.2910490930080414,
+        0.40131935477256775
+      ],
+      [
+        0.933966338634491,
+        1.0,
+        0.4718994200229645,
+        0.5181564092636108,
+        -0.0051380726508796215,
+        0.04665810614824295,
+        0.2800195515155792,
+        0.41645190119743347
+      ],
+      [
+        0.518137514591217,
+        0.4718994200229645,
+        0.9999999403953552,
+        0.5031325221061707,
+        0.044541649520397186,
+        -0.0025980891659855843,
+        0.27315858006477356,
+        0.4399193227291107
+      ],
+      [
+        0.5049535632133484,
+        0.5181564092636108,
+        0.5031325221061707,
+        0.9999999403953552,
+        0.0009235539473593235,
+        0.026324860751628876,
+        0.3333301842212677,
+        0.4979367256164551
+      ],
+      [
+        -0.015831060707569122,
+        -0.0051380726508796215,
+        0.044541649520397186,
+        0.0009235539473593235,
+        1.0,
+        0.02168172039091587,
+        -0.03758765384554863,
+        -0.08173901587724686
+      ],
+      [
+        -0.008138841949403286,
+        0.04665810614824295,
+        -0.0025980891659855843,
+        0.026324860751628876,
+        0.02168172039091587,
+        1.0000001192092896,
+        -0.0369977205991745,
+        0.013490487821400166
+      ],
+      [
+        0.2910490930080414,
+        0.2800195515155792,
+        0.27315858006477356,
+        0.3333301842212677,
+        -0.03758765384554863,
+        -0.0369977205991745,
+        0.9999999403953552,
+        0.2820972204208374
+      ],
+      [
+        0.40131935477256775,
+        0.41645190119743347,
+        0.4399193227291107,
+        0.4979367256164551,
+        -0.08173901587724686,
+        0.013490487821400166,
+        0.2820972204208374,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/ephraim_sneh/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/ephraim_sneh/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/07_antique-portrait-of-famous-people-george-ephraim-fuller-stock.jpg",
+      "error": "No face detected in /workspace/input/piven/data/ephraim_sneh/images/07_antique-portrait-of-famous-people-george-ephraim-fuller-stock.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/ephraim_sneh/images/10_ephraim-sneh-letter-12-10-94-pdf.webp",
+      "error": "No face detected in /workspace/input/piven/data/ephraim_sneh/images/10_ephraim-sneh-letter-12-10-94-pdf.webp"
+    }
+  ]
+}

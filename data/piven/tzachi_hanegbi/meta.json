@@ -1,0 +1,55 @@
+{
+  "name": "tzachi hanegbi",
+  "bio": "Tzachi Hanegbi (Hebrew: צחי הנגבי‎; born 26 February 1957) is an Israeli politician and national security expert who served as Israel's National Security Advisor from 2023 to 2025. A member of Likud, Hanegbi previously served as Minister of Agriculture and Rural Development, Minister of Regional Cooperation and Minister of Community Affairs.\nHe served as Minister of Justice, Minister of Internal Security, Minister of Intelligence and Nuclear Affairs, and Minister in the Prime Minister's office supervising Israel's intelligence agencies Mossad and Shin Bet. He was also responsible for overseeing Israel's Atomic Energy Agency and served as the minister in charge of Israel's strategic relationship and security dialogue with the United States. He also served as Deputy Minister of Foreign Affairs and as the Chairman of the Knesset Foreign Affairs and Defense Committee and Majority Leader of the Knesset.\nHanegbi was appointed by Prime Minister Benjamin Netanyahu to serve as acting prime minister of Israel, from 10 to 17 September 2017, while the prime minister traveled abroad.\nHe lost his seat in the Knesset in the 2022 Israeli legislative election. In January 2023, Hanegbi was appointed head of the National Security Council. On 21 October 2025, Prime Minister Netanyahu fired Hanegbi, effective immediately, from heading the National Security Council.",
+  "bio_sources": [
+    {
+      "subject": "tzachi hanegbi",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Tzachi_Hanegbi"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "stones",
+      "shape_type": "stone object",
+      "meaning": "gives tzachi hanegbi's portrait a sense of weight and permanence tied to hard-edged political stubbornness."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "campaign current",
+      "visual_representation": "a directional sweep that suggests momentum through public space",
+      "category": "personality",
+      "relevance": "The biography supports a highly public, strategic civic persona.",
+      "grounding": "inferred"
+    }
+  ]
+}

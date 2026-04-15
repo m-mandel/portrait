@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/joan_rivers",
+  "meta_path": "/workspace/input/noma_bar/data/joan_rivers/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Joan Alexandra Molinsky (June 8, 1933 \u2013 September 4, 2014), known professionally as Joan Rivers, was an American comedian, actress, producer, writer and television host. She was noted for her blunt, often controversial comedic persona that was heavily self-deprecating and acerbic, especially towards celebrities and politicians, delivered in her signature New York accent. She is considered a pioneer of women in comedy. She received an Emmy Award and a Grammy Award, as well as nomination for a Tony Award.\nRivers started her career in comedy clubs in Greenwich Village alongside her peers George Carlin, Woody Allen and Richard Pryor. She then rose to prominence in 1965 as a guest on The Tonight Show. Hosted by her mentor, Johnny Carson, the show established Rivers's comedic style. In 1986, with her own rival program, The Late Show with Joan Rivers, Rivers became the first woman to host a late night network television talk show. She subsequently hosted The Joan Rivers Show (1989\u20131993), winning a Daytime Emmy for Outstanding Talk Show Host.  From the mid-1990s, she became known for her comedic red carpet awards show celebrity interviews. Rivers co-hosted the E! celebrity fashion show Fashion Police from 2010 to 2014 and starred in the reality series Joan & Melissa: Joan Knows Best? (2011\u20132014) with daughter Melissa Rivers.\nIn addition to marketing a line of jewelry and apparel on the QVC shopping channel, Rivers authored 12 best-selling books and three LP comedy albums under her own name: Mr. Phyllis and Other Funny Stories (Warner Bros 1965), The Next to Last Joan Rivers Album (Buddah 1969) and What Becomes a Semi-Legend Most? (Geffen 1983).  She was nominated in 1984 for a Grammy Award for her album What Becomes a Semi-Legend Most? and was nominated in 1994 for the Tony Award for Best Actress in a Play for her performance of the title role in Sally Marr ... and Her Escorts. In 2009, Rivers competed alongside her daughter Melissa on the second season of The Celebrity Apprentice, ultimately winning the season. In 2015, Rivers posthumously received a Grammy Award for Best Spoken Word Album for her book, Diary of a Mad Diva.\nIn 1968, The New York Times television critic Jack Gould called Rivers \"quite possibly the most intuitively funny woman alive\". In 2017, Rolling Stone magazine ranked her sixth on its list of the 50 best stand-up comics of all time, and in October the same year, she was inducted into the Television Academy Hall of Fame. She is the subject of the documentary Joan Rivers: A Piece of Work (2010).",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "white upper field"
+    },
+    {
+      "index": 1,
+      "element": "green lower field"
+    },
+    {
+      "index": 2,
+      "element": "blond hair mass"
+    },
+    {
+      "index": 3,
+      "element": "pale face silhouette"
+    },
+    {
+      "index": 4,
+      "element": "two black surgical tool shapes"
+    },
+    {
+      "index": 5,
+      "element": "dotted incision line"
+    },
+    {
+      "index": 6,
+      "element": "red cut shape with dripping edge"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "book stack"
+    },
+    {
+      "index": 2,
+      "element": "typewriter keys"
+    },
+    {
+      "index": 3,
+      "element": "open book"
+    },
+    {
+      "index": 4,
+      "element": "ink pen"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "white upper field",
+      "green lower field",
+      "blond hair mass",
+      "pale face silhouette",
+      "two black surgical tool shapes",
+      "dotted incision line",
+      "red cut shape with dripping edge"
+    ],
+    "values": [
+      [
+        -0.07598507404327393,
+        -0.05965470150113106,
+        0.04021588712930679,
+        -0.003672013059258461,
+        -0.050160665065050125,
+        -0.05053906515240669,
+        0.03128273785114288
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "book stack",
+      "typewriter keys",
+      "open book",
+      "ink pen"
+    ],
+    "column_labels": [
+      "white upper field",
+      "green lower field",
+      "blond hair mass",
+      "pale face silhouette",
+      "two black surgical tool shapes",
+      "dotted incision line",
+      "red cut shape with dripping edge"
+    ],
+    "values": [
+      [
+        0.2504638135433197,
+        0.23828977346420288,
+        0.21422050893306732,
+        0.6320579051971436,
+        0.18001842498779297,
+        0.24086596071720123,
+        0.18193989992141724
+      ],
+      [
+        0.09371215850114822,
+        0.0498923733830452,
+        0.13922783732414246,
+        0.07661628723144531,
+        0.03441988304257393,
+        0.059876710176467896,
+        0.061555951833724976
+      ],
+      [
+        0.04908932372927666,
+        0.041507378220558167,
+        0.09320031106472015,
+        -0.04657264053821564,
+        0.12382994592189789,
+        -0.03372318297624588,
+        -0.013461634516716003
+      ],
+      [
+        0.1593465805053711,
+        0.08442243188619614,
+        0.10211963951587677,
+        0.06391589343547821,
+        0.09523802250623703,
+        -0.00804909598082304,
+        0.01637367345392704
+      ],
+      [
+        0.11758673191070557,
+        0.11423276364803314,
+        0.1536247283220291,
+        0.21780315041542053,
+        0.22255069017410278,
+        0.22589227557182312,
+        0.1403127908706665
+      ]
+    ]
+  }
+}

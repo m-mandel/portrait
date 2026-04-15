@@ -1,0 +1,88 @@
+{
+  "folder": "/workspace/input/piven/data/benjamin_netanyahu",
+  "meta_path": "/workspace/input/piven/data/benjamin_netanyahu/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Benjamin \"Bibi\" Netanyahu (born 21 October 1949) is an Israeli politician and diplomat who has served as Prime Minister of Israel since 2022. Having previously held office from 1996 to 1999 and from 2009 to 2021, Netanyahu is Israel's longest-serving prime minister.\nBorn in Tel Aviv, Netanyahu was raised in West Jerusalem and the United States. He returned to Israel in 1967 to join the Israel Defense Forces and served in the Sayeret Matkal special forces. In 1972, he returned to the US, and after graduating from the Massachusetts Institute of Technology, Netanyahu worked for the Boston Consulting Group. He moved back to Israel in 1978 and founded The Jonathan Institute. Between 1984 and 1988 Netanyahu was Israel's ambassador to the United Nations. Netanyahu rose to prominence after his election as chair of Likud in 1993, becoming leader of the opposition. In the 1996 general election, Netanyahu became the first Israeli prime minister elected directly by popular vote. Netanyahu was defeated in the 1999 election and entered the private sector. He served as minister of foreign affairs and finance, initiating economic reforms, before resigning over the Gaza disengagement plan.\nNetanyahu returned to lead Likud in 2005, leading the opposition between 2006 and 2009. After the 2009 legislative election, Netanyahu formed a coalition and became prime minister again. Netanyahu made his closeness to Donald Trump central to his appeal from 2016. During Trump's first presidency, the US recognized Jerusalem as capital of Israel, Israeli sovereignty over the Golan Heights, and brokered the Abraham Accords between Israel and the Arab world. Netanyahu received criticism over expanding Israeli settlements in the occupied West Bank, deemed illegal under international law. In 2019, Netanyahu was indicted on charges of breach of trust, bribery and fraud, and relinquished all ministerial posts except prime minister. The 2018\u20132022 Israeli political crisis resulted in a rotation agreement between Netanyahu and Benny Gantz. This collapsed in 2020, leading to a 2021 election. In June 2021, Netanyahu was removed as prime minister, before returning after the 2022 election.\nNetanyahu's prime ministerships have been criticized for perceived democratic backsliding and an alleged shift towards authoritarianism. Netanyahu's coalition pursued judicial reform, which was met with large-scale protests in early 2023. The October 7 attacks by Hamas-led Palestinian groups in the same year triggered the Gaza war, with Netanyahu facing nationwide protests for the security lapse and failure to secure the return of Israeli hostages. Escalations with Iran in 2024 saw the countries exchange strikes in April and October. Also in October, he survived an assassination attempt and ordered an invasion of Lebanon with the stated goal of destroying the military capabilities of Hezbollah, a key ally of Hamas. After the fall of the Assad regime in December 2024, Netanyahu directed an invasion of Syria. He presided over the 2025 Israeli strikes on Iran, which started the Twelve-Day War. In February 2026, he launched a major air campaign against Iran, alongside the US, with the stated goal of regime change, beginning the 2026 Iran war. In March, escalations with Hezbollah were followed by a second invasion of Lebanon.  \nNetanyahu's government has been orchestrating the genocide in Gaza, culminating in the South Africa v. Israel case before the International Court of Justice in December 2023. The International Criminal Court (ICC) issued an arrest warrant in November 2024 for Netanyahu for alleged war crimes and crimes against humanity as part of the ICC investigation in Palestine.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "modeling clay"
+    },
+    {
+      "index": 1,
+      "element": "paper border"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "olive branch"
+    },
+    {
+      "index": 1,
+      "element": "podium block"
+    },
+    {
+      "index": 2,
+      "element": "ballot box"
+    },
+    {
+      "index": 3,
+      "element": "medal bar"
+    },
+    {
+      "index": 4,
+      "element": "protest banner"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "modeling clay",
+      "paper border"
+    ],
+    "values": [
+      [
+        0.018136799335479736,
+        -0.040869057178497314
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "olive branch",
+      "podium block",
+      "ballot box",
+      "medal bar",
+      "protest banner"
+    ],
+    "column_labels": [
+      "modeling clay",
+      "paper border"
+    ],
+    "values": [
+      [
+        -0.02378939837217331,
+        0.25765830278396606
+      ],
+      [
+        0.1339665651321411,
+        0.3272666037082672
+      ],
+      [
+        0.06087304651737213,
+        0.3429628014564514
+      ],
+      [
+        -0.035656362771987915,
+        0.20659896731376648
+      ],
+      [
+        0.045448221266269684,
+        0.28742045164108276
+      ]
+    ]
+  }
+}

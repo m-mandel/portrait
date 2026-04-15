@@ -1,0 +1,749 @@
+{
+  "folder": "/workspace/input/piven/data/aharon_barak",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "portrait.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+        "similarity": -0.003980601672083139
+      },
+      {
+        "index": 1,
+        "name": "01_aharon-barak-jpg.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+        "similarity": -0.009373825043439865
+      },
+      {
+        "index": 2,
+        "name": "02_aharon-barak-jpg.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+        "similarity": -0.009011661633849144
+      },
+      {
+        "index": 3,
+        "name": "03_aharon-barak-01-jpg.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+        "similarity": 0.003801410784944892
+      },
+      {
+        "index": 4,
+        "name": "04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+        "similarity": -0.06358915567398071
+      },
+      {
+        "index": 5,
+        "name": "05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+        "similarity": -0.05037059262394905
+      },
+      {
+        "index": 6,
+        "name": "08_aharon-barak-2023-jpg.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+        "similarity": 0.026525937020778656
+      },
+      {
+        "index": 7,
+        "name": "10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+        "similarity": 0.0006714146002195776
+      },
+      {
+        "index": 8,
+        "name": "11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+        "path": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+        "similarity": 0.016341309994459152
+      },
+      {
+        "index": 9,
+        "name": "12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+        "similarity": -0.020100055262446404
+      },
+      {
+        "index": 10,
+        "name": "13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+        "path": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+        "similarity": -0.00762319378554821
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.003980601672083139,
+          -0.009373825043439865,
+          -0.009011661633849144,
+          0.003801410784944892,
+          -0.06358915567398071,
+          -0.05037059262394905,
+          0.026525937020778656,
+          0.0006714146002195776,
+          0.016341309994459152,
+          -0.020100055262446404,
+          -0.00762319378554821
+        ],
+        [
+          -0.003980601672083139,
+          1.0,
+          -0.01890520192682743,
+          -0.04946037009358406,
+          -0.033647675067186356,
+          -0.03206182271242142,
+          -0.0561569407582283,
+          -0.08481568098068237,
+          -0.1401677280664444,
+          -0.034924667328596115,
+          -0.03278025984764099,
+          -0.07881469279527664
+        ],
+        [
+          -0.009373825043439865,
+          -0.01890520192682743,
+          1.0000001192092896,
+          0.4736168086528778,
+          0.6066460013389587,
+          0.01976645179092884,
+          0.02981947921216488,
+          0.33261170983314514,
+          0.20109671354293823,
+          0.5808312296867371,
+          0.684390127658844,
+          0.37376609444618225
+        ],
+        [
+          -0.009011661633849144,
+          -0.04946037009358406,
+          0.4736168086528778,
+          1.0,
+          0.44885024428367615,
+          0.06728123128414154,
+          0.09109873324632645,
+          0.3801099956035614,
+          0.22169457376003265,
+          0.4195813238620758,
+          0.39445072412490845,
+          0.46707916259765625
+        ],
+        [
+          0.003801410784944892,
+          -0.033647675067186356,
+          0.6066460013389587,
+          0.44885024428367615,
+          0.9999999403953552,
+          -0.015709705650806427,
+          -0.011906265281140804,
+          0.34388837218284607,
+          0.19720786809921265,
+          0.9258983731269836,
+          0.5752180218696594,
+          0.39512279629707336
+        ],
+        [
+          -0.06358915567398071,
+          -0.03206182271242142,
+          0.01976645179092884,
+          0.06728123128414154,
+          -0.015709705650806427,
+          1.0000001192092896,
+          0.949587345123291,
+          0.004458986688405275,
+          0.01652236096560955,
+          0.0289921797811985,
+          0.008813844062387943,
+          -0.039089083671569824
+        ],
+        [
+          -0.05037059262394905,
+          -0.0561569407582283,
+          0.02981947921216488,
+          0.09109873324632645,
+          -0.011906265281140804,
+          0.949587345123291,
+          1.0,
+          0.010421747341752052,
+          0.03251054510474205,
+          0.0004043361113872379,
+          0.016501814126968384,
+          -0.02430088259279728
+        ],
+        [
+          0.026525937020778656,
+          -0.08481568098068237,
+          0.33261170983314514,
+          0.3801099956035614,
+          0.34388837218284607,
+          0.004458986688405275,
+          0.010421747341752052,
+          1.0,
+          0.38183167576789856,
+          0.38471460342407227,
+          0.33466923236846924,
+          0.49820083379745483
+        ],
+        [
+          0.0006714146002195776,
+          -0.1401677280664444,
+          0.20109671354293823,
+          0.22169457376003265,
+          0.19720786809921265,
+          0.01652236096560955,
+          0.03251054510474205,
+          0.38183167576789856,
+          1.0,
+          0.20290985703468323,
+          0.19602513313293457,
+          0.2920140027999878
+        ],
+        [
+          0.016341309994459152,
+          -0.034924667328596115,
+          0.5808312296867371,
+          0.4195813238620758,
+          0.9258983731269836,
+          0.0289921797811985,
+          0.0004043361113872379,
+          0.38471460342407227,
+          0.20290985703468323,
+          1.0000001192092896,
+          0.610350489616394,
+          0.3837396502494812
+        ],
+        [
+          -0.020100055262446404,
+          -0.03278025984764099,
+          0.684390127658844,
+          0.39445072412490845,
+          0.5752180218696594,
+          0.008813844062387943,
+          0.016501814126968384,
+          0.33466923236846924,
+          0.19602513313293457,
+          0.610350489616394,
+          1.0000001192092896,
+          0.27264490723609924
+        ],
+        [
+          -0.00762319378554821,
+          -0.07881469279527664,
+          0.37376609444618225,
+          0.46707916259765625,
+          0.39512279629707336,
+          -0.039089083671569824,
+          -0.02430088259279728,
+          0.49820083379745483,
+          0.2920140027999878,
+          0.3837396502494812,
+          0.27264490723609924,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "portrait.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/portrait.jpg"
+    },
+    {
+      "name": "01_aharon-barak-jpg.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg"
+    },
+    {
+      "name": "02_aharon-barak-jpg.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg"
+    },
+    {
+      "name": "03_aharon-barak-01-jpg.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg"
+    },
+    {
+      "name": "04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg"
+    },
+    {
+      "name": "08_aharon-barak-2023-jpg.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg"
+    },
+    {
+      "name": "10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg"
+    },
+    {
+      "name": "11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "path": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png"
+    },
+    {
+      "name": "12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg"
+    },
+    {
+      "name": "13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "path": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "similarity": -0.01890520192682743
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "similarity": -0.04946037009358406
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "similarity": -0.033647675067186356
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "similarity": -0.03206182271242142
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "similarity": -0.0561569407582283
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "similarity": -0.08481568098068237
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "similarity": -0.1401677280664444
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "similarity": -0.034924667328596115
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "similarity": -0.03278025984764099
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/portrait.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": -0.07881469279527664
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "similarity": 0.4736168086528778
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "similarity": 0.6066460013389587
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "similarity": 0.01976645179092884
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "similarity": 0.02981947921216488
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "similarity": 0.33261170983314514
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "similarity": 0.20109671354293823
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "similarity": 0.5808312296867371
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "similarity": 0.684390127658844
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/01_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": 0.37376609444618225
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "similarity": 0.44885024428367615
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "similarity": 0.06728123128414154
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "similarity": 0.09109873324632645
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "similarity": 0.3801099956035614
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "similarity": 0.22169457376003265
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "similarity": 0.4195813238620758
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "similarity": 0.39445072412490845
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/02_aharon-barak-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": 0.46707916259765625
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "similarity": -0.015709705650806427
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "similarity": -0.011906265281140804
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "similarity": 0.34388837218284607
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "similarity": 0.19720786809921265
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "similarity": 0.9258983731269836
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "similarity": 0.5752180218696594
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/03_aharon-barak-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": 0.39512279629707336
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "similarity": 0.949587345123291
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "similarity": 0.004458986688405275
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "similarity": 0.01652236096560955
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "similarity": 0.0289921797811985
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "similarity": 0.008813844062387943
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": -0.039089083671569824
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "similarity": 0.010421747341752052
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "similarity": 0.03251054510474205
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "similarity": 0.0004043361113872379
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "similarity": 0.016501814126968384
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": -0.02430088259279728
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "similarity": 0.38183167576789856
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "similarity": 0.38471460342407227
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "similarity": 0.33466923236846924
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/08_aharon-barak-2023-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": 0.49820083379745483
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "similarity": 0.20290985703468323
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "similarity": 0.19602513313293457
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": 0.2920140027999878
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "right": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "similarity": 0.610350489616394
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": 0.3837396502494812
+    },
+    {
+      "left": "/workspace/input/piven/data/aharon_barak/images/12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "right": "/workspace/input/piven/data/aharon_barak/images/13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg",
+      "similarity": 0.27264490723609924
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "portrait.jpg",
+      "01_aharon-barak-jpg.jpg",
+      "02_aharon-barak-jpg.jpg",
+      "03_aharon-barak-01-jpg.jpg",
+      "04_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-cropped-jpg.jpg",
+      "05_flickr-government-press-office-gpo-supreme-court-president-aharon-barak-and-prime-minister-benjamin-netanayhu-jpg.jpg",
+      "08_aharon-barak-2023-jpg.jpg",
+      "10_yifat-bitton-aviv-basiterman-aharon-barak-2-jpg.jpg",
+      "11_personal-reasons-israeli-judge-aharon-barak-resigns-from-icj.png",
+      "12_barak-aharon-cardozo-israeli-supreme-court-project.jpg",
+      "13_aharon-barak-steps-down-from-role-as-ad-hoc-judge-at-icj-for-personal.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        -0.01890520192682743,
+        -0.04946037009358406,
+        -0.033647675067186356,
+        -0.03206182271242142,
+        -0.0561569407582283,
+        -0.08481568098068237,
+        -0.1401677280664444,
+        -0.034924667328596115,
+        -0.03278025984764099,
+        -0.07881469279527664
+      ],
+      [
+        -0.01890520192682743,
+        1.0000001192092896,
+        0.4736168086528778,
+        0.6066460013389587,
+        0.01976645179092884,
+        0.02981947921216488,
+        0.33261170983314514,
+        0.20109671354293823,
+        0.5808312296867371,
+        0.684390127658844,
+        0.37376609444618225
+      ],
+      [
+        -0.04946037009358406,
+        0.4736168086528778,
+        1.0,
+        0.44885024428367615,
+        0.06728123128414154,
+        0.09109873324632645,
+        0.3801099956035614,
+        0.22169457376003265,
+        0.4195813238620758,
+        0.39445072412490845,
+        0.46707916259765625
+      ],
+      [
+        -0.033647675067186356,
+        0.6066460013389587,
+        0.44885024428367615,
+        0.9999999403953552,
+        -0.015709705650806427,
+        -0.011906265281140804,
+        0.34388837218284607,
+        0.19720786809921265,
+        0.9258983731269836,
+        0.5752180218696594,
+        0.39512279629707336
+      ],
+      [
+        -0.03206182271242142,
+        0.01976645179092884,
+        0.06728123128414154,
+        -0.015709705650806427,
+        1.0000001192092896,
+        0.949587345123291,
+        0.004458986688405275,
+        0.01652236096560955,
+        0.0289921797811985,
+        0.008813844062387943,
+        -0.039089083671569824
+      ],
+      [
+        -0.0561569407582283,
+        0.02981947921216488,
+        0.09109873324632645,
+        -0.011906265281140804,
+        0.949587345123291,
+        1.0,
+        0.010421747341752052,
+        0.03251054510474205,
+        0.0004043361113872379,
+        0.016501814126968384,
+        -0.02430088259279728
+      ],
+      [
+        -0.08481568098068237,
+        0.33261170983314514,
+        0.3801099956035614,
+        0.34388837218284607,
+        0.004458986688405275,
+        0.010421747341752052,
+        1.0,
+        0.38183167576789856,
+        0.38471460342407227,
+        0.33466923236846924,
+        0.49820083379745483
+      ],
+      [
+        -0.1401677280664444,
+        0.20109671354293823,
+        0.22169457376003265,
+        0.19720786809921265,
+        0.01652236096560955,
+        0.03251054510474205,
+        0.38183167576789856,
+        1.0,
+        0.20290985703468323,
+        0.19602513313293457,
+        0.2920140027999878
+      ],
+      [
+        -0.034924667328596115,
+        0.5808312296867371,
+        0.4195813238620758,
+        0.9258983731269836,
+        0.0289921797811985,
+        0.0004043361113872379,
+        0.38471460342407227,
+        0.20290985703468323,
+        1.0000001192092896,
+        0.610350489616394,
+        0.3837396502494812
+      ],
+      [
+        -0.03278025984764099,
+        0.684390127658844,
+        0.39445072412490845,
+        0.5752180218696594,
+        0.008813844062387943,
+        0.016501814126968384,
+        0.33466923236846924,
+        0.19602513313293457,
+        0.610350489616394,
+        1.0000001192092896,
+        0.27264490723609924
+      ],
+      [
+        -0.07881469279527664,
+        0.37376609444618225,
+        0.46707916259765625,
+        0.39512279629707336,
+        -0.039089083671569824,
+        -0.02430088259279728,
+        0.49820083379745483,
+        0.2920140027999878,
+        0.3837396502494812,
+        0.27264490723609924,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": []
+}

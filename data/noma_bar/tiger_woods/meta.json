@@ -1,0 +1,80 @@
+{
+  "name": "tiger woods",
+  "bio": "Eldrick Tont \"Tiger\" Woods (born December 30, 1975) is an American professional golfer. He is tied for first in PGA Tour wins, ranks second in men's major championships, and holds numerous golf records. Woods is widely regarded as one of the greatest golfers of all time and as one of the most famous athletes in modern history. He is an inductee of the World Golf Hall of Fame.\nFollowing an outstanding junior, college, and amateur career, Woods turned professional in 1996 at age 20. By April 1997, he had won three PGA Tour events and his first major, the 1997 Masters, which he won by 12 strokes in a record-setting performance. He reached number one in the Official World Golf Ranking for the first time in June 1997, less than a year after turning professional. Woods dominated men's golf throughout the first decade of the 21st century, holding the world's top ranking from August 1999 to September 2004 (264 consecutive weeks) and again from June 2005 to October 2010 (281 consecutive weeks). The following decade was marked by comebacks from personal issues and injuries. He took a self‑imposed hiatus from professional golf from December 2009 to April 2010 to address marital problems. Woods fell to number 58 in the world rankings in November 2011 before returning to the number‑one position between March 2013 and May 2014. Injuries led to four back surgeries between 2014 and 2017, and he competed in only one tournament between August 2015 and January 2018, dropping out of the world's top 1,000 players. After returning to regular competition, he won the Tour Championship in September 2018—his first victory in five years—and the 2019 Masters, his first major in 11 years.\nWoods holds numerous golf records. He has spent the most consecutive weeks and the most total weeks as the world's number‑one player. He has been named PGA Player of the Year a record 11 times, and he led the PGA Tour money list in 10 seasons. He has won 15 major golf championships (second only to Jack Nicklaus's 18) and 82 PGA Tour events (tied with Sam Snead for the all-time record). Woods is one of six men to complete the career Grand Slam, along with Gene Sarazen, Ben Hogan, Gary Player, Nicklaus, and Rory McIlroy. He is the youngest to do so, and one of two golfers—along with Nicklaus—to achieve the career Grand Slam three times. He was a member of the winning United States team at the 1999 Ryder Cup and received the Presidential Medal of Freedom in May 2019.\nOn February 23, 2021, Woods was hospitalized after a single‑car collision and underwent emergency surgery for compound fractures in his right leg and a shattered ankle. In a November 2021 interview with Golf Digest, he stated that his full‑time professional career was over, though he intended to play a limited schedule. He returned to the PGA Tour at the 2022 Masters. In 2026, Woods was involved in another car crash and was charged with driving under the influence and causing property damage. As of April 2026, his net worth was estimated at US$1.5 billion by Forbes.",
+  "bio_sources": [
+    {
+      "subject": "tiger woods",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Tiger_Woods"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "green background field",
+      "shape_type": "rectangle",
+      "meaning": "suggests a golf-course setting"
+    },
+    {
+      "element": "blue cap with swoosh",
+      "shape_type": "symbol",
+      "meaning": "marks brand-backed sports celebrity"
+    },
+    {
+      "element": "brown face silhouette",
+      "shape_type": "organic shape",
+      "meaning": "keeps the athlete instantly legible"
+    },
+    {
+      "element": "black golf hole at the mouth",
+      "shape_type": "oval",
+      "meaning": "merges the sport into the center of the face"
+    },
+    {
+      "element": "white golf ball inside the hole",
+      "shape_type": "circle",
+      "meaning": "places the game at the core of his identity"
+    },
+    {
+      "element": "black flagstick and flag rising from the mouth",
+      "shape_type": "symbol",
+      "meaning": "turn victory and course play into facial structure"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "golf ball",
+      "visual_representation": "a small dimpled sphere with a bright highlight",
+      "category": "object",
+      "relevance": "The biography explicitly describes professional golf.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "flag pin",
+      "visual_representation": "a thin pole topped by a small fluttering flag",
+      "category": "object",
+      "relevance": "The course and the green are strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "fairway stripes",
+      "visual_representation": "smooth alternating bands running into the distance",
+      "category": "pattern",
+      "relevance": "Golf-course visuals belong to the subject’s public environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "green jacket",
+      "visual_representation": "a formal jacket silhouette with a broad open front",
+      "category": "identity",
+      "relevance": "Major championship imagery is strongly associated with elite golf.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "trophy cup",
+      "visual_representation": "a handled cup silhouette standing on a small base",
+      "category": "object",
+      "relevance": "Victory and competitive success are associated with the subject’s domain.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

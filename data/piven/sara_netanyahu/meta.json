@@ -1,0 +1,75 @@
+{
+  "name": "sara netanyahu",
+  "bio": "Sara Netanyahu (Hebrew: שרה נתניהו; née Ben-Artzi [בן ארצי]; born November 1958) is the spouse of the prime minister of Israel by marriage to Benjamin Netanyahu, holding the role for her third time. By profession, she is an educational and career psychologist.",
+  "bio_sources": [
+    {
+      "subject": "sara netanyahu",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Sara_Netanyahu"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "broom",
+      "shape_type": "household object",
+      "meaning": "turns an everyday item into a facial feature, emphasizing the handmade reading of sara netanyahu's household power and public scrutiny."
+    },
+    {
+      "element": "blue gem",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing sara netanyahu's household power and public scrutiny."
+    },
+    {
+      "element": "badge",
+      "shape_type": "symbolic accessory",
+      "meaning": "points to identity, allegiance, or belief within sara netanyahu's household power and public scrutiny."
+    },
+    {
+      "element": "denture teeth",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing sara netanyahu's household power and public scrutiny."
+    },
+    {
+      "element": "pearl necklace",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen sara netanyahu's household power and public scrutiny."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "therapy couch",
+      "visual_representation": "a long cushioned chaise-like form with a raised end",
+      "category": "object",
+      "relevance": "Psychoanalysis and therapeutic practice are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "spiral coil",
+      "visual_representation": "a tight inward-turning spiral",
+      "category": "shape",
+      "relevance": "Inner life and mental analysis belong to the subject’s intellectual world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "dream mist",
+      "visual_representation": "a soft clouded field with blurred edges",
+      "category": "material",
+      "relevance": "Dreams and the unconscious are strongly associated with the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "layered mask",
+      "visual_representation": "overlapping contour-like masks stacked one over another",
+      "category": "symbol",
+      "relevance": "The biography supports an interpretive world of hidden motives and layered identity.",
+      "grounding": "inferred"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/kevin_bacon",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/kevin_bacon/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+        "similarity": 0.044351909309625626
+      },
+      {
+        "index": 1,
+        "name": "02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+        "similarity": 0.01273086853325367
+      },
+      {
+        "index": 2,
+        "name": "03_kevin-bacon-sdcc-2014-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+        "similarity": 0.015578257851302624
+      },
+      {
+        "index": 3,
+        "name": "07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+        "similarity": -0.004844716750085354
+      },
+      {
+        "index": 4,
+        "name": "08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+        "similarity": 0.032479822635650635
+      },
+      {
+        "index": 5,
+        "name": "09_kevin-bacon-24740203830-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+        "similarity": 0.04429322108626366
+      },
+      {
+        "index": 6,
+        "name": "10_kevin-bacon-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+        "similarity": 0.01807328686118126
+      },
+      {
+        "index": 7,
+        "name": "11_kevin-bacon-in-2022-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+        "similarity": 0.004349538125097752
+      },
+      {
+        "index": 8,
+        "name": "12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+        "similarity": -0.022454295307397842
+      },
+      {
+        "index": 9,
+        "name": "14_kevin-bacon-7606400078-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+        "similarity": -0.003713103011250496
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.044351909309625626,
+          0.01273086853325367,
+          0.015578257851302624,
+          -0.004844716750085354,
+          0.032479822635650635,
+          0.04429322108626366,
+          0.01807328686118126,
+          0.004349538125097752,
+          -0.022454295307397842,
+          -0.003713103011250496
+        ],
+        [
+          0.044351909309625626,
+          0.9999999403953552,
+          0.0496639646589756,
+          0.0025657787919044495,
+          0.09381859004497528,
+          -0.04119039326906204,
+          0.059607382863759995,
+          0.019724078476428986,
+          0.058300141245126724,
+          0.006550417747348547,
+          -0.0786237046122551
+        ],
+        [
+          0.01273086853325367,
+          0.0496639646589756,
+          1.0000001192092896,
+          0.5152332782745361,
+          0.5758447647094727,
+          0.538001298904419,
+          0.46656784415245056,
+          0.5121452212333679,
+          0.4937327802181244,
+          0.5000445246696472,
+          0.4209834933280945
+        ],
+        [
+          0.015578257851302624,
+          0.0025657787919044495,
+          0.5152332782745361,
+          1.0000001192092896,
+          0.49979862570762634,
+          0.41840970516204834,
+          0.47849518060684204,
+          0.5129878520965576,
+          0.49093928933143616,
+          0.624529242515564,
+          0.46779507398605347
+        ],
+        [
+          -0.004844716750085354,
+          0.09381859004497528,
+          0.5758447647094727,
+          0.49979862570762634,
+          0.9999999403953552,
+          0.630082368850708,
+          0.46647879481315613,
+          0.3965282440185547,
+          0.556710422039032,
+          0.4869604706764221,
+          0.3873140215873718
+        ],
+        [
+          0.032479822635650635,
+          -0.04119039326906204,
+          0.538001298904419,
+          0.41840970516204834,
+          0.630082368850708,
+          0.9999999403953552,
+          0.5045912265777588,
+          0.45545530319213867,
+          0.5052930116653442,
+          0.37760329246520996,
+          0.39701494574546814
+        ],
+        [
+          0.04429322108626366,
+          0.059607382863759995,
+          0.46656784415245056,
+          0.47849518060684204,
+          0.46647879481315613,
+          0.5045912265777588,
+          1.0,
+          0.506775975227356,
+          0.5127819776535034,
+          0.49600231647491455,
+          0.5053942203521729
+        ],
+        [
+          0.01807328686118126,
+          0.019724078476428986,
+          0.5121452212333679,
+          0.5129878520965576,
+          0.3965282440185547,
+          0.45545530319213867,
+          0.506775975227356,
+          0.9999999403953552,
+          0.4470777213573456,
+          0.5855639576911926,
+          0.43724343180656433
+        ],
+        [
+          0.004349538125097752,
+          0.058300141245126724,
+          0.4937327802181244,
+          0.49093928933143616,
+          0.556710422039032,
+          0.5052930116653442,
+          0.5127819776535034,
+          0.4470777213573456,
+          0.9999999403953552,
+          0.48717376589775085,
+          0.41861066222190857
+        ],
+        [
+          -0.022454295307397842,
+          0.006550417747348547,
+          0.5000445246696472,
+          0.624529242515564,
+          0.4869604706764221,
+          0.37760329246520996,
+          0.49600231647491455,
+          0.5855639576911926,
+          0.48717376589775085,
+          1.0000001192092896,
+          0.4705187976360321
+        ],
+        [
+          -0.003713103011250496,
+          -0.0786237046122551,
+          0.4209834933280945,
+          0.46779507398605347,
+          0.3873140215873718,
+          0.39701494574546814,
+          0.5053942203521729,
+          0.43724343180656433,
+          0.41861066222190857,
+          0.4705187976360321,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg"
+    },
+    {
+      "name": "07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg"
+    },
+    {
+      "name": "08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg"
+    },
+    {
+      "name": "09_kevin-bacon-24740203830-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg"
+    },
+    {
+      "name": "10_kevin-bacon-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg"
+    },
+    {
+      "name": "11_kevin-bacon-in-2022-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg"
+    },
+    {
+      "name": "12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg"
+    },
+    {
+      "name": "14_kevin-bacon-7606400078-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "similarity": 0.0496639646589756
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "similarity": 0.0025657787919044495
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "similarity": 0.09381859004497528
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "similarity": -0.04119039326906204
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+      "similarity": 0.059607382863759995
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+      "similarity": 0.019724078476428986
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+      "similarity": 0.058300141245126724
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "similarity": 0.006550417747348547
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+      "similarity": -0.0786237046122551
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "similarity": 0.5152332782745361
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "similarity": 0.5758447647094727
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "similarity": 0.538001298904419
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+      "similarity": 0.46656784415245056
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+      "similarity": 0.5121452212333679
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+      "similarity": 0.4937327802181244
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "similarity": 0.5000445246696472
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+      "similarity": 0.4209834933280945
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "similarity": 0.49979862570762634
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "similarity": 0.41840970516204834
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+      "similarity": 0.47849518060684204
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+      "similarity": 0.5129878520965576
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+      "similarity": 0.49093928933143616
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "similarity": 0.624529242515564
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+      "similarity": 0.46779507398605347
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "similarity": 0.630082368850708
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+      "similarity": 0.46647879481315613
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+      "similarity": 0.3965282440185547
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+      "similarity": 0.556710422039032
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "similarity": 0.4869604706764221
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+      "similarity": 0.3873140215873718
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+      "similarity": 0.5045912265777588
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+      "similarity": 0.45545530319213867
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+      "similarity": 0.5052930116653442
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "similarity": 0.37760329246520996
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+      "similarity": 0.39701494574546814
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+      "similarity": 0.506775975227356
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+      "similarity": 0.5127819776535034
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "similarity": 0.49600231647491455
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/09_kevin-bacon-24740203830-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+      "similarity": 0.5053942203521729
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+      "similarity": 0.4470777213573456
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "similarity": 0.5855639576911926
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/10_kevin-bacon-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+      "similarity": 0.43724343180656433
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "similarity": 0.48717376589775085
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/11_kevin-bacon-in-2022-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+      "similarity": 0.41861066222190857
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kevin_bacon/images/12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kevin_bacon/images/14_kevin-bacon-7606400078-jpg.jpg",
+      "similarity": 0.4705187976360321
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_kevin-bacon-ohio-senate-130th-general-assemby-2013-2014-dpla-4dd33bcc8c6b71853ab731d33616f568-page-12-cropped-jpg.jpg",
+      "02_kevin-bacon-the-best-you-can-55-cropped-jpg.jpg",
+      "03_kevin-bacon-sdcc-2014-jpg.jpg",
+      "07_kevin-bacon-the-best-you-can-34-jpg.jpg",
+      "08_kevin-bacon-the-best-you-can-31-jpg.jpg",
+      "09_kevin-bacon-24740203830-jpg.jpg",
+      "10_kevin-bacon-jpg.jpg",
+      "11_kevin-bacon-in-2022-jpg.jpg",
+      "12_kevin-bacon-2-sdcc-2014-jpg.jpg",
+      "14_kevin-bacon-7606400078-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.0496639646589756,
+        0.0025657787919044495,
+        0.09381859004497528,
+        -0.04119039326906204,
+        0.059607382863759995,
+        0.019724078476428986,
+        0.058300141245126724,
+        0.006550417747348547,
+        -0.0786237046122551
+      ],
+      [
+        0.0496639646589756,
+        1.0000001192092896,
+        0.5152332782745361,
+        0.5758447647094727,
+        0.538001298904419,
+        0.46656784415245056,
+        0.5121452212333679,
+        0.4937327802181244,
+        0.5000445246696472,
+        0.4209834933280945
+      ],
+      [
+        0.0025657787919044495,
+        0.5152332782745361,
+        1.0000001192092896,
+        0.49979862570762634,
+        0.41840970516204834,
+        0.47849518060684204,
+        0.5129878520965576,
+        0.49093928933143616,
+        0.624529242515564,
+        0.46779507398605347
+      ],
+      [
+        0.09381859004497528,
+        0.5758447647094727,
+        0.49979862570762634,
+        0.9999999403953552,
+        0.630082368850708,
+        0.46647879481315613,
+        0.3965282440185547,
+        0.556710422039032,
+        0.4869604706764221,
+        0.3873140215873718
+      ],
+      [
+        -0.04119039326906204,
+        0.538001298904419,
+        0.41840970516204834,
+        0.630082368850708,
+        0.9999999403953552,
+        0.5045912265777588,
+        0.45545530319213867,
+        0.5052930116653442,
+        0.37760329246520996,
+        0.39701494574546814
+      ],
+      [
+        0.059607382863759995,
+        0.46656784415245056,
+        0.47849518060684204,
+        0.46647879481315613,
+        0.5045912265777588,
+        1.0,
+        0.506775975227356,
+        0.5127819776535034,
+        0.49600231647491455,
+        0.5053942203521729
+      ],
+      [
+        0.019724078476428986,
+        0.5121452212333679,
+        0.5129878520965576,
+        0.3965282440185547,
+        0.45545530319213867,
+        0.506775975227356,
+        0.9999999403953552,
+        0.4470777213573456,
+        0.5855639576911926,
+        0.43724343180656433
+      ],
+      [
+        0.058300141245126724,
+        0.4937327802181244,
+        0.49093928933143616,
+        0.556710422039032,
+        0.5052930116653442,
+        0.5127819776535034,
+        0.4470777213573456,
+        0.9999999403953552,
+        0.48717376589775085,
+        0.41861066222190857
+      ],
+      [
+        0.006550417747348547,
+        0.5000445246696472,
+        0.624529242515564,
+        0.4869604706764221,
+        0.37760329246520996,
+        0.49600231647491455,
+        0.5855639576911926,
+        0.48717376589775085,
+        1.0000001192092896,
+        0.4705187976360321
+      ],
+      [
+        -0.0786237046122551,
+        0.4209834933280945,
+        0.46779507398605347,
+        0.3873140215873718,
+        0.39701494574546814,
+        0.5053942203521729,
+        0.43724343180656433,
+        0.41861066222190857,
+        0.4705187976360321,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/kevin_bacon/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/kevin_bacon/portrait.jpg"
+    }
+  ]
+}

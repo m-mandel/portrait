@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/adolf_hitler",
+  "meta_path": "/workspace/input/noma_bar/data/adolf_hitler/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Adolf Hitler (20 April 1889 \u2013 30 April 1945) was an Austrian-born  German politician who was the dictator of Germany during the Nazi era from 1933 until his suicide in 1945. He rose to power as the leader of the Nazi Party, becoming the chancellor of Germany in 1933 and then taking the title of F\u00fchrer und Reichskanzler in 1934. Germany's invasion of Poland on 1 September 1939 under his leadership marked the outbreak of the Second World War. Throughout the ensuing conflict, Hitler was closely involved in the direction of German military operations and was central to the perpetration of the Holocaust, the genocide of about six million Jews and millions of other victims.\nHitler was born in Braunau am Inn in Austria-Hungary and moved to Germany in 1913. He was decorated during his service in the German Army in the First World War, receiving the Iron Cross. In 1919, he joined the German Workers' Party (DAP), the precursor of the Nazi Party, and in 1921, was appointed the leader of the Nazi Party. In 1923, he attempted to seize governmental power in a failed coup in Munich and was sentenced to five years in prison, serving just over a year. While there, he dictated the first volume of his autobiography and political manifesto Mein Kampf (lit.\u2009'My Struggle'). After his early release in 1924, he gained popular support by attacking the Treaty of Versailles as well as promoting pan-Germanism, antisemitism, and anti-communism with charismatic oratory and Nazi propaganda. He frequently denounced communism as being part of an international Jewish conspiracy. By November 1932, the Nazi Party held the most seats in the Reichstag, but not a majority. Former chancellor Franz von Papen and other conservative politicians convinced President Paul von Hindenburg to appoint Hitler as chancellor on 30 January 1933. Shortly thereafter on 23 March, the Reichstag passed the Enabling Act of 1933, which ultimately began the Weimar Republic's transformation into Nazi Germany.\nUpon Hindenburg's death on 2 August 1934, Hitler replaced him as head of state and thereafter transformed Germany into a totalitarian dictatorship. Domestically, Hitler implemented numerous racist policies and sought to deport or kill German Jews. His first six years in power resulted in rapid economic recovery from the Great Depression, the abrogation of restrictions imposed on Germany after the First World War, and the annexation of territories inhabited by millions of ethnic Germans, which initially gave him significant popular support. One of Hitler's key goals was Lebensraum (lit.\u2009'living space') for the German people in Eastern Europe, and his aggressive, expansionist foreign policy is considered the primary cause of World War II in Europe. On 1 September 1939, Hitler oversaw the German invasion of Poland, thereby causing Britain and France to declare war on Germany. After ordering an invasion of the Soviet Union in June 1941, he declared war on the United States in December of the same year. By the end of 1941, German forces and the European Axis powers occupied most of Europe and North Africa. These gains were gradually reversed after 1941 until the Allied forces defeated the German military in 1945. On 29 April 1945, Hitler married his longtime partner, Eva Braun, in the F\u00fchrerbunker in Berlin. They committed suicide the next day to avoid capture by the Soviet Red Army.\nThe historian and biographer Ian Kershaw described Hitler as \"the embodiment of modern political evil\". Under Hitler's leadership and racist ideology, the Nazi regime was responsible for the genocide of an estimated six million Jews and millions of other victims, whom he and his followers deemed Untermenschen (lit.\u2009'subhumans') or socially undesirable. Hitler and the Nazis were also responsible for the deliberate killing of an estimated 19.3 million civilians and prisoners of war. In addition, 28.7 million soldiers and civilians died as a result of military action in the European theatre. The number of civilians killed during World War II was unprecedented in warfare, and the casualties make it the deadliest conflict in history.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "red background field"
+    },
+    {
+      "index": 1,
+      "element": "side-parted black hair"
+    },
+    {
+      "index": 2,
+      "element": "white faceless head"
+    },
+    {
+      "index": 3,
+      "element": "barcode over the mouth"
+    },
+    {
+      "index": 4,
+      "element": "black pointed collar"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "barbed wire line"
+    },
+    {
+      "index": 1,
+      "element": "cell door"
+    },
+    {
+      "index": 2,
+      "element": "podium block"
+    },
+    {
+      "index": 3,
+      "element": "ballot box"
+    },
+    {
+      "index": 4,
+      "element": "state seal"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "red background field",
+      "side-parted black hair",
+      "white faceless head",
+      "barcode over the mouth",
+      "black pointed collar"
+    ],
+    "values": [
+      [
+        -0.020391622558236122,
+        0.0014348123222589493,
+        0.03918233513832092,
+        0.015554731711745262,
+        -0.014125015586614609
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "barbed wire line",
+      "cell door",
+      "podium block",
+      "ballot box",
+      "state seal"
+    ],
+    "column_labels": [
+      "red background field",
+      "side-parted black hair",
+      "white faceless head",
+      "barcode over the mouth",
+      "black pointed collar"
+    ],
+    "values": [
+      [
+        0.13159304857254028,
+        0.1757737398147583,
+        0.17715594172477722,
+        0.20113205909729004,
+        0.35432010889053345
+      ],
+      [
+        0.14637550711631775,
+        0.0927986279129982,
+        0.0970756858587265,
+        0.1665414422750473,
+        0.13750681281089783
+      ],
+      [
+        0.16019511222839355,
+        0.043874435126781464,
+        0.17609533667564392,
+        0.22990933060646057,
+        0.1325918436050415
+      ],
+      [
+        0.24248963594436646,
+        0.10967835038900375,
+        0.17111383378505707,
+        0.17923833429813385,
+        0.22396191954612732
+      ],
+      [
+        0.09515468776226044,
+        0.15595650672912598,
+        0.1572178602218628,
+        0.23379014432430267,
+        0.15456029772758484
+      ]
+    ]
+  }
+}

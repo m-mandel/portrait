@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/uri_geller",
+  "meta_path": "/workspace/input/noma_bar/data/uri_geller/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Uri Geller ( OOR-ee GHEL-\u0259r; Hebrew: \u05d0\u05d5\u05e8\u05d9 \u05d2\u05dc\u05e8; born 20 December 1946) is an Israeli-British illusionist, magician, television personality, and self-proclaimed psychic. He is known for his trademark television performances of spoon bending and other illusions. Geller uses conjuring tricks to simulate the effects of psychokinesis and telepathy. Geller's career as an entertainer has spanned more than four decades, with television shows and appearances in many countries. Several magicians have dismissed Geller's claims of possessing psychic powers as magic tricks.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "gray background field"
+    },
+    {
+      "index": 1,
+      "element": "black angular hair cap"
+    },
+    {
+      "index": 2,
+      "element": "white face block"
+    },
+    {
+      "index": 3,
+      "element": "bent spoon-like nose and eye line"
+    },
+    {
+      "index": 4,
+      "element": "black mouth droplet line"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "bent spoon"
+    },
+    {
+      "index": 1,
+      "element": "television screen"
+    },
+    {
+      "index": 2,
+      "element": "signal spiral"
+    },
+    {
+      "index": 3,
+      "element": "stage curtain"
+    },
+    {
+      "index": 4,
+      "element": "conjuring hand"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "gray background field",
+      "black angular hair cap",
+      "white face block",
+      "bent spoon-like nose and eye line",
+      "black mouth droplet line"
+    ],
+    "values": [
+      [
+        0.050166890025138855,
+        0.06070161610841751,
+        0.061407670378685,
+        0.23517535626888275,
+        0.03635066747665405
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "bent spoon",
+      "television screen",
+      "signal spiral",
+      "stage curtain",
+      "conjuring hand"
+    ],
+    "column_labels": [
+      "gray background field",
+      "black angular hair cap",
+      "white face block",
+      "bent spoon-like nose and eye line",
+      "black mouth droplet line"
+    ],
+    "values": [
+      [
+        0.044633325189352036,
+        0.20340216159820557,
+        0.11192980408668518,
+        0.7086141109466553,
+        0.26525068283081055
+      ],
+      [
+        0.24261243641376495,
+        0.09401364624500275,
+        0.28261542320251465,
+        0.19542205333709717,
+        0.14000657200813293
+      ],
+      [
+        0.11768071353435516,
+        0.13725200295448303,
+        0.1109943836927414,
+        0.20156726241111755,
+        0.2179662585258484
+      ],
+      [
+        0.24541127681732178,
+        0.10576798021793365,
+        0.2667751908302307,
+        0.1397666037082672,
+        0.18609485030174255
+      ],
+      [
+        0.12431732565164566,
+        0.16395080089569092,
+        0.15407466888427734,
+        0.1848030388355255,
+        0.14282429218292236
+      ]
+    ]
+  }
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/prince_roger_nelson",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/prince_roger_nelson/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_prince-at-coachella-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+        "similarity": 0.09354876726865768
+      },
+      {
+        "index": 1,
+        "name": "02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+        "similarity": -0.009690651670098305
+      },
+      {
+        "index": 2,
+        "name": "03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+        "similarity": -0.01721123605966568
+      },
+      {
+        "index": 3,
+        "name": "04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+        "similarity": 0.06882443279027939
+      },
+      {
+        "index": 4,
+        "name": "05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+        "similarity": 0.06160596013069153
+      },
+      {
+        "index": 5,
+        "name": "06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+        "similarity": 0.03051748313009739
+      },
+      {
+        "index": 6,
+        "name": "07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+        "similarity": -0.03281611576676369
+      },
+      {
+        "index": 7,
+        "name": "08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+        "similarity": 0.03640231862664223
+      },
+      {
+        "index": 8,
+        "name": "09_prince-jess-ridley-art.jpg",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+        "similarity": 0.12681686878204346
+      },
+      {
+        "index": 9,
+        "name": "10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+        "path": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+        "similarity": -0.01104901172220707
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.09354876726865768,
+          -0.009690651670098305,
+          -0.01721123605966568,
+          0.06882443279027939,
+          0.06160596013069153,
+          0.03051748313009739,
+          -0.03281611576676369,
+          0.03640231862664223,
+          0.12681686878204346,
+          -0.01104901172220707
+        ],
+        [
+          0.09354876726865768,
+          0.9999999403953552,
+          0.09504009783267975,
+          -0.04862230643630028,
+          0.3063696026802063,
+          0.2710852324962616,
+          0.29141291975975037,
+          0.1926453411579132,
+          -0.03802163526415825,
+          0.20612074434757233,
+          0.03667671978473663
+        ],
+        [
+          -0.009690651670098305,
+          0.09504009783267975,
+          0.9999999403953552,
+          0.02850353717803955,
+          0.07677460461854935,
+          0.01849566213786602,
+          0.06976677477359772,
+          0.09263277053833008,
+          0.035371821373701096,
+          0.029610399156808853,
+          0.007524580229073763
+        ],
+        [
+          -0.01721123605966568,
+          -0.04862230643630028,
+          0.02850353717803955,
+          0.9999999403953552,
+          -0.0015568702947348356,
+          0.03158519044518471,
+          -0.05676456168293953,
+          -0.026225702837109566,
+          -0.009074311703443527,
+          -0.04671446979045868,
+          0.020066633820533752
+        ],
+        [
+          0.06882443279027939,
+          0.3063696026802063,
+          0.07677460461854935,
+          -0.0015568702947348356,
+          0.9999999403953552,
+          0.27216047048568726,
+          0.328473299741745,
+          0.15669403970241547,
+          -0.05993187427520752,
+          0.3048563599586487,
+          0.08241933584213257
+        ],
+        [
+          0.06160596013069153,
+          0.2710852324962616,
+          0.01849566213786602,
+          0.03158519044518471,
+          0.27216047048568726,
+          1.0000001192092896,
+          0.26527372002601624,
+          0.13932079076766968,
+          0.05670511722564697,
+          0.1727461963891983,
+          0.13347628712654114
+        ],
+        [
+          0.03051748313009739,
+          0.29141291975975037,
+          0.06976677477359772,
+          -0.05676456168293953,
+          0.328473299741745,
+          0.26527372002601624,
+          1.0,
+          0.27017679810523987,
+          0.08984708786010742,
+          0.22304774820804596,
+          -0.04438008740544319
+        ],
+        [
+          -0.03281611576676369,
+          0.1926453411579132,
+          0.09263277053833008,
+          -0.026225702837109566,
+          0.15669403970241547,
+          0.13932079076766968,
+          0.27017679810523987,
+          0.9999999403953552,
+          -0.012532883323729038,
+          0.2342725396156311,
+          -0.0371154248714447
+        ],
+        [
+          0.03640231862664223,
+          -0.03802163526415825,
+          0.035371821373701096,
+          -0.009074311703443527,
+          -0.05993187427520752,
+          0.05670511722564697,
+          0.08984708786010742,
+          -0.012532883323729038,
+          1.0,
+          -0.009283699095249176,
+          0.02727465145289898
+        ],
+        [
+          0.12681686878204346,
+          0.20612074434757233,
+          0.029610399156808853,
+          -0.04671446979045868,
+          0.3048563599586487,
+          0.1727461963891983,
+          0.22304774820804596,
+          0.2342725396156311,
+          -0.009283699095249176,
+          1.0,
+          -0.06583864241838455
+        ],
+        [
+          -0.01104901172220707,
+          0.03667671978473663,
+          0.007524580229073763,
+          0.020066633820533752,
+          0.08241933584213257,
+          0.13347628712654114,
+          -0.04438008740544319,
+          -0.0371154248714447,
+          0.02727465145289898,
+          -0.06583864241838455,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_prince-at-coachella-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg"
+    },
+    {
+      "name": "03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg"
+    },
+    {
+      "name": "04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg"
+    },
+    {
+      "name": "05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg"
+    },
+    {
+      "name": "06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp"
+    },
+    {
+      "name": "07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg"
+    },
+    {
+      "name": "08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png"
+    },
+    {
+      "name": "09_prince-jess-ridley-art.jpg",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg"
+    },
+    {
+      "name": "10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "path": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "similarity": 0.09504009783267975
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "similarity": -0.04862230643630028
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "similarity": 0.3063696026802063
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "similarity": 0.2710852324962616
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "similarity": 0.29141291975975037
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "similarity": 0.1926453411579132
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "similarity": -0.03802163526415825
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+      "similarity": 0.20612074434757233
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/01_prince-at-coachella-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "similarity": 0.03667671978473663
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "similarity": 0.02850353717803955
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "similarity": 0.07677460461854935
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "similarity": 0.01849566213786602
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "similarity": 0.06976677477359772
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "similarity": 0.09263277053833008
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "similarity": 0.035371821373701096
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+      "similarity": 0.029610399156808853
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "similarity": 0.007524580229073763
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "similarity": -0.0015568702947348356
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "similarity": 0.03158519044518471
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "similarity": -0.05676456168293953
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "similarity": -0.026225702837109566
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "similarity": -0.009074311703443527
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+      "similarity": -0.04671446979045868
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "similarity": 0.020066633820533752
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "similarity": 0.27216047048568726
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "similarity": 0.328473299741745
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "similarity": 0.15669403970241547
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "similarity": -0.05993187427520752
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+      "similarity": 0.3048563599586487
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "similarity": 0.08241933584213257
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "similarity": 0.26527372002601624
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "similarity": 0.13932079076766968
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "similarity": 0.05670511722564697
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+      "similarity": 0.1727461963891983
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "similarity": 0.13347628712654114
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "similarity": 0.27017679810523987
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "similarity": 0.08984708786010742
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+      "similarity": 0.22304774820804596
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "similarity": -0.04438008740544319
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "similarity": -0.012532883323729038
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+      "similarity": 0.2342725396156311
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "similarity": -0.0371154248714447
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+      "similarity": -0.009283699095249176
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "similarity": 0.02727465145289898
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_roger_nelson/images/09_prince-jess-ridley-art.jpg",
+      "right": "/workspace/input/piven/data/prince_roger_nelson/images/10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg",
+      "similarity": -0.06583864241838455
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_prince-at-coachella-cropped-jpg.jpg",
+      "02_prince-azim-asean-autism-network-congress-headshot-jpg.jpg",
+      "03_prince-wasajja-kiwanuka-omulangirizi-jpg.jpg",
+      "04_prince-portrait-annie-leibovitz-annie-leibovitz-photography.jpg",
+      "05_supreme-court-considers-whether-warhol-violated-copyright-law-with.jpg",
+      "06_portrait-of-musician-prince-in-a-purple-jacket-against-a-swirling-gold.webp",
+      "07_pin-van-silvia-sly-seelig-op-my-prince-portret-beroemdheden-mensen.jpg",
+      "08_royal-prince-portrait-prince-portrait-royal-png-transparent-image.png",
+      "09_prince-jess-ridley-art.jpg",
+      "10_prince-william-and-kate-middleton-share-family-photo-from-trooping-the.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.09504009783267975,
+        -0.04862230643630028,
+        0.3063696026802063,
+        0.2710852324962616,
+        0.29141291975975037,
+        0.1926453411579132,
+        -0.03802163526415825,
+        0.20612074434757233,
+        0.03667671978473663
+      ],
+      [
+        0.09504009783267975,
+        0.9999999403953552,
+        0.02850353717803955,
+        0.07677460461854935,
+        0.01849566213786602,
+        0.06976677477359772,
+        0.09263277053833008,
+        0.035371821373701096,
+        0.029610399156808853,
+        0.007524580229073763
+      ],
+      [
+        -0.04862230643630028,
+        0.02850353717803955,
+        0.9999999403953552,
+        -0.0015568702947348356,
+        0.03158519044518471,
+        -0.05676456168293953,
+        -0.026225702837109566,
+        -0.009074311703443527,
+        -0.04671446979045868,
+        0.020066633820533752
+      ],
+      [
+        0.3063696026802063,
+        0.07677460461854935,
+        -0.0015568702947348356,
+        0.9999999403953552,
+        0.27216047048568726,
+        0.328473299741745,
+        0.15669403970241547,
+        -0.05993187427520752,
+        0.3048563599586487,
+        0.08241933584213257
+      ],
+      [
+        0.2710852324962616,
+        0.01849566213786602,
+        0.03158519044518471,
+        0.27216047048568726,
+        1.0000001192092896,
+        0.26527372002601624,
+        0.13932079076766968,
+        0.05670511722564697,
+        0.1727461963891983,
+        0.13347628712654114
+      ],
+      [
+        0.29141291975975037,
+        0.06976677477359772,
+        -0.05676456168293953,
+        0.328473299741745,
+        0.26527372002601624,
+        1.0,
+        0.27017679810523987,
+        0.08984708786010742,
+        0.22304774820804596,
+        -0.04438008740544319
+      ],
+      [
+        0.1926453411579132,
+        0.09263277053833008,
+        -0.026225702837109566,
+        0.15669403970241547,
+        0.13932079076766968,
+        0.27017679810523987,
+        0.9999999403953552,
+        -0.012532883323729038,
+        0.2342725396156311,
+        -0.0371154248714447
+      ],
+      [
+        -0.03802163526415825,
+        0.035371821373701096,
+        -0.009074311703443527,
+        -0.05993187427520752,
+        0.05670511722564697,
+        0.08984708786010742,
+        -0.012532883323729038,
+        1.0,
+        -0.009283699095249176,
+        0.02727465145289898
+      ],
+      [
+        0.20612074434757233,
+        0.029610399156808853,
+        -0.04671446979045868,
+        0.3048563599586487,
+        0.1727461963891983,
+        0.22304774820804596,
+        0.2342725396156311,
+        -0.009283699095249176,
+        1.0,
+        -0.06583864241838455
+      ],
+      [
+        0.03667671978473663,
+        0.007524580229073763,
+        0.020066633820533752,
+        0.08241933584213257,
+        0.13347628712654114,
+        -0.04438008740544319,
+        -0.0371154248714447,
+        0.02727465145289898,
+        -0.06583864241838455,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/prince_roger_nelson/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/prince_roger_nelson/portrait.jpg"
+    }
+  ]
+}

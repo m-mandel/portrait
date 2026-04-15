@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/unibomber",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/unibomber/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_ted-kaczynski-2-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+        "similarity": -0.02858586050570011
+      },
+      {
+        "index": 1,
+        "name": "02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+        "similarity": 0.02179068513214588
+      },
+      {
+        "index": 2,
+        "name": "03_ted-kaczynski-2-jpg.jpg",
+        "path": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+        "similarity": -0.017208537086844444
+      },
+      {
+        "index": 3,
+        "name": "04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+        "path": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+        "similarity": 0.032964665442705154
+      },
+      {
+        "index": 4,
+        "name": "05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+        "path": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+        "similarity": -0.018269075080752373
+      },
+      {
+        "index": 5,
+        "name": "06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+        "path": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+        "similarity": -0.007980696856975555
+      },
+      {
+        "index": 6,
+        "name": "07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+        "path": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+        "similarity": 0.1292935609817505
+      },
+      {
+        "index": 7,
+        "name": "08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+        "path": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+        "similarity": -0.02233404666185379
+      },
+      {
+        "index": 8,
+        "name": "09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+        "path": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+        "similarity": -0.03134582191705704
+      },
+      {
+        "index": 9,
+        "name": "10_40-facts-about-ted-kaczynski-facts-net.jpg",
+        "path": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+        "similarity": 0.005411434918642044
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.02858586050570011,
+          0.02179068513214588,
+          -0.017208537086844444,
+          0.032964665442705154,
+          -0.018269075080752373,
+          -0.007980696856975555,
+          0.1292935609817505,
+          -0.02233404666185379,
+          -0.03134582191705704,
+          0.005411434918642044
+        ],
+        [
+          -0.02858586050570011,
+          0.9999998807907104,
+          0.5332137942314148,
+          0.9324665069580078,
+          0.5026869177818298,
+          0.8420829176902771,
+          0.05033896490931511,
+          0.06934886425733566,
+          0.7752999067306519,
+          0.8546295166015625,
+          0.5453541874885559
+        ],
+        [
+          0.02179068513214588,
+          0.5332137942314148,
+          1.0,
+          0.5317816734313965,
+          0.5162121653556824,
+          0.5215407609939575,
+          0.0038651139475405216,
+          0.0858987495303154,
+          0.5396031737327576,
+          0.5071398615837097,
+          0.46596068143844604
+        ],
+        [
+          -0.017208537086844444,
+          0.9324665069580078,
+          0.5317816734313965,
+          1.0,
+          0.5084530711174011,
+          0.7949429154396057,
+          0.04752316698431969,
+          0.07630650699138641,
+          0.7847629189491272,
+          0.8299230933189392,
+          0.5358669757843018
+        ],
+        [
+          0.032964665442705154,
+          0.5026869177818298,
+          0.5162121653556824,
+          0.5084530711174011,
+          0.9999999403953552,
+          0.4843730628490448,
+          0.09195176512002945,
+          0.13359566032886505,
+          0.47757771611213684,
+          0.515101432800293,
+          0.45072314143180847
+        ],
+        [
+          -0.018269075080752373,
+          0.8420829176902771,
+          0.5215407609939575,
+          0.7949429154396057,
+          0.4843730628490448,
+          0.9999999403953552,
+          0.054750822484493256,
+          0.08317539840936661,
+          0.6716668009757996,
+          0.809150218963623,
+          0.5300167202949524
+        ],
+        [
+          -0.007980696856975555,
+          0.05033896490931511,
+          0.0038651139475405216,
+          0.04752316698431969,
+          0.09195176512002945,
+          0.054750822484493256,
+          0.9999999403953552,
+          -0.018730564042925835,
+          0.09706684947013855,
+          0.055884771049022675,
+          0.10598070919513702
+        ],
+        [
+          0.1292935609817505,
+          0.06934886425733566,
+          0.0858987495303154,
+          0.07630650699138641,
+          0.13359566032886505,
+          0.08317539840936661,
+          -0.018730564042925835,
+          1.0,
+          0.04813176766037941,
+          0.05918507277965546,
+          0.08548294007778168
+        ],
+        [
+          -0.02233404666185379,
+          0.7752999067306519,
+          0.5396031737327576,
+          0.7847629189491272,
+          0.47757771611213684,
+          0.6716668009757996,
+          0.09706684947013855,
+          0.04813176766037941,
+          1.0,
+          0.7296307682991028,
+          0.5572161078453064
+        ],
+        [
+          -0.03134582191705704,
+          0.8546295166015625,
+          0.5071398615837097,
+          0.8299230933189392,
+          0.515101432800293,
+          0.809150218963623,
+          0.055884771049022675,
+          0.05918507277965546,
+          0.7296307682991028,
+          1.0000001192092896,
+          0.5115520358085632
+        ],
+        [
+          0.005411434918642044,
+          0.5453541874885559,
+          0.46596068143844604,
+          0.5358669757843018,
+          0.45072314143180847,
+          0.5300167202949524,
+          0.10598070919513702,
+          0.08548294007778168,
+          0.5572161078453064,
+          0.5115520358085632,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_ted-kaczynski-2-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_ted-kaczynski-2-jpg.jpg",
+      "path": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg"
+    },
+    {
+      "name": "04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "path": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png"
+    },
+    {
+      "name": "05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "path": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg"
+    },
+    {
+      "name": "06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "path": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg"
+    },
+    {
+      "name": "07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "path": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg"
+    },
+    {
+      "name": "08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "path": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg"
+    },
+    {
+      "name": "09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "path": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg"
+    },
+    {
+      "name": "10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "path": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "similarity": 0.5332137942314148
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+      "similarity": 0.9324665069580078
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "similarity": 0.5026869177818298
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "similarity": 0.8420829176902771
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "similarity": 0.05033896490931511
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "similarity": 0.06934886425733566
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "similarity": 0.7752999067306519
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "similarity": 0.8546295166015625
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/01_ted-kaczynski-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "similarity": 0.5453541874885559
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+      "similarity": 0.5317816734313965
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "similarity": 0.5162121653556824
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "similarity": 0.5215407609939575
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "similarity": 0.0038651139475405216
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "similarity": 0.0858987495303154
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "similarity": 0.5396031737327576
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "similarity": 0.5071398615837097
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "similarity": 0.46596068143844604
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "similarity": 0.5084530711174011
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "similarity": 0.7949429154396057
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "similarity": 0.04752316698431969
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "similarity": 0.07630650699138641
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "similarity": 0.7847629189491272
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "similarity": 0.8299230933189392
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/03_ted-kaczynski-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "similarity": 0.5358669757843018
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "right": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "similarity": 0.4843730628490448
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "right": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "similarity": 0.09195176512002945
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "right": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "similarity": 0.13359566032886505
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "right": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "similarity": 0.47757771611213684
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "right": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "similarity": 0.515101432800293
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "right": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "similarity": 0.45072314143180847
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "similarity": 0.054750822484493256
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "similarity": 0.08317539840936661
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "similarity": 0.6716668009757996
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "similarity": 0.809150218963623
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "similarity": 0.5300167202949524
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "similarity": -0.018730564042925835
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "similarity": 0.09706684947013855
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "similarity": 0.055884771049022675
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "similarity": 0.10598070919513702
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "similarity": 0.04813176766037941
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "similarity": 0.05918507277965546
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "similarity": 0.08548294007778168
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "similarity": 0.7296307682991028
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "similarity": 0.5572161078453064
+    },
+    {
+      "left": "/workspace/input/piven/data/unibomber/images/09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "right": "/workspace/input/piven/data/unibomber/images/10_40-facts-about-ted-kaczynski-facts-net.jpg",
+      "similarity": 0.5115520358085632
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_ted-kaczynski-2-cropped-jpg.jpg",
+      "02_ted-kaczynski-drivers-license-illinois-cropped-jpg.jpg",
+      "03_ted-kaczynski-2-jpg.jpg",
+      "04_ted-kaczynski-s-self-portrait-the-ted-k-archive.png",
+      "05_morre-ted-kaczynski-terrorista-americano-conhecido-como-unabomber.jpg",
+      "06_a-photo-of-ted-kaczynski-taking-a-selfie-with-his-new-ip-e3c395dc-d93f.jpg",
+      "07_criminal-ted-kaczynski-geometric-portrait-digital-art-by-christina-f.jpg",
+      "08_muri-theodore-ted-kaczynski-el-unabomber-que-aterroriz-a-estados.jpg",
+      "09_mug-shot-of-the-unabomber-theodore-kaczynski-photo-taken-by-fbi-in.jpg",
+      "10_40-facts-about-ted-kaczynski-facts-net.jpg"
+    ],
+    "values": [
+      [
+        0.9999998807907104,
+        0.5332137942314148,
+        0.9324665069580078,
+        0.5026869177818298,
+        0.8420829176902771,
+        0.05033896490931511,
+        0.06934886425733566,
+        0.7752999067306519,
+        0.8546295166015625,
+        0.5453541874885559
+      ],
+      [
+        0.5332137942314148,
+        1.0,
+        0.5317816734313965,
+        0.5162121653556824,
+        0.5215407609939575,
+        0.0038651139475405216,
+        0.0858987495303154,
+        0.5396031737327576,
+        0.5071398615837097,
+        0.46596068143844604
+      ],
+      [
+        0.9324665069580078,
+        0.5317816734313965,
+        1.0,
+        0.5084530711174011,
+        0.7949429154396057,
+        0.04752316698431969,
+        0.07630650699138641,
+        0.7847629189491272,
+        0.8299230933189392,
+        0.5358669757843018
+      ],
+      [
+        0.5026869177818298,
+        0.5162121653556824,
+        0.5084530711174011,
+        0.9999999403953552,
+        0.4843730628490448,
+        0.09195176512002945,
+        0.13359566032886505,
+        0.47757771611213684,
+        0.515101432800293,
+        0.45072314143180847
+      ],
+      [
+        0.8420829176902771,
+        0.5215407609939575,
+        0.7949429154396057,
+        0.4843730628490448,
+        0.9999999403953552,
+        0.054750822484493256,
+        0.08317539840936661,
+        0.6716668009757996,
+        0.809150218963623,
+        0.5300167202949524
+      ],
+      [
+        0.05033896490931511,
+        0.0038651139475405216,
+        0.04752316698431969,
+        0.09195176512002945,
+        0.054750822484493256,
+        0.9999999403953552,
+        -0.018730564042925835,
+        0.09706684947013855,
+        0.055884771049022675,
+        0.10598070919513702
+      ],
+      [
+        0.06934886425733566,
+        0.0858987495303154,
+        0.07630650699138641,
+        0.13359566032886505,
+        0.08317539840936661,
+        -0.018730564042925835,
+        1.0,
+        0.04813176766037941,
+        0.05918507277965546,
+        0.08548294007778168
+      ],
+      [
+        0.7752999067306519,
+        0.5396031737327576,
+        0.7847629189491272,
+        0.47757771611213684,
+        0.6716668009757996,
+        0.09706684947013855,
+        0.04813176766037941,
+        1.0,
+        0.7296307682991028,
+        0.5572161078453064
+      ],
+      [
+        0.8546295166015625,
+        0.5071398615837097,
+        0.8299230933189392,
+        0.515101432800293,
+        0.809150218963623,
+        0.055884771049022675,
+        0.05918507277965546,
+        0.7296307682991028,
+        1.0000001192092896,
+        0.5115520358085632
+      ],
+      [
+        0.5453541874885559,
+        0.46596068143844604,
+        0.5358669757843018,
+        0.45072314143180847,
+        0.5300167202949524,
+        0.10598070919513702,
+        0.08548294007778168,
+        0.5572161078453064,
+        0.5115520358085632,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/unibomber/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/unibomber/portrait.jpg"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/jay_leno",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/jay_leno/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_jay-leno-1995-jpg.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+        "similarity": 0.013725457713007927
+      },
+      {
+        "index": 1,
+        "name": "02_jay-leno-2077584735-jpg.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+        "similarity": 0.048053160309791565
+      },
+      {
+        "index": 2,
+        "name": "03_jay-leno-1993-by-alan-light-jpg.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+        "similarity": 0.03260057047009468
+      },
+      {
+        "index": 3,
+        "name": "04_jay-leno-portrait-stock-photo-alamy.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+        "similarity": 0.026258964091539383
+      },
+      {
+        "index": 4,
+        "name": "05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+        "similarity": -0.012406672351062298
+      },
+      {
+        "index": 5,
+        "name": "06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+        "similarity": 0.025470787659287453
+      },
+      {
+        "index": 6,
+        "name": "07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+        "similarity": 0.033932775259017944
+      },
+      {
+        "index": 7,
+        "name": "08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+        "similarity": 0.0017553485231474042
+      },
+      {
+        "index": 8,
+        "name": "09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+        "similarity": 0.046974826604127884
+      },
+      {
+        "index": 9,
+        "name": "10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+        "path": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+        "similarity": 0.0005257386364974082
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.013725457713007927,
+          0.048053160309791565,
+          0.03260057047009468,
+          0.026258964091539383,
+          -0.012406672351062298,
+          0.025470787659287453,
+          0.033932775259017944,
+          0.0017553485231474042,
+          0.046974826604127884,
+          0.0005257386364974082
+        ],
+        [
+          0.013725457713007927,
+          1.0,
+          0.005119991488754749,
+          0.5682119131088257,
+          0.561284065246582,
+          0.4350659251213074,
+          0.5430440902709961,
+          0.4645790755748749,
+          0.3977085053920746,
+          0.4544292688369751,
+          0.6237813234329224
+        ],
+        [
+          0.048053160309791565,
+          0.005119991488754749,
+          1.0000001192092896,
+          0.016610117629170418,
+          0.023525508120656013,
+          0.02874356508255005,
+          0.03685753792524338,
+          0.08009070158004761,
+          0.021734125912189484,
+          0.07151506841182709,
+          0.04414669796824455
+        ],
+        [
+          0.03260057047009468,
+          0.5682119131088257,
+          0.016610117629170418,
+          0.9999999403953552,
+          0.5166752338409424,
+          0.45152515172958374,
+          0.49644574522972107,
+          0.5146451592445374,
+          0.43156543374061584,
+          0.5221371054649353,
+          0.44430097937583923
+        ],
+        [
+          0.026258964091539383,
+          0.561284065246582,
+          0.023525508120656013,
+          0.5166752338409424,
+          1.0,
+          0.3756829500198364,
+          0.644449770450592,
+          0.5418317317962646,
+          0.4972079396247864,
+          0.5098214745521545,
+          0.5253883004188538
+        ],
+        [
+          -0.012406672351062298,
+          0.4350659251213074,
+          0.02874356508255005,
+          0.45152515172958374,
+          0.3756829500198364,
+          0.9999999403953552,
+          0.46341678500175476,
+          0.5102578997612,
+          0.5925297141075134,
+          0.43329405784606934,
+          0.4938543140888214
+        ],
+        [
+          0.025470787659287453,
+          0.5430440902709961,
+          0.03685753792524338,
+          0.49644574522972107,
+          0.644449770450592,
+          0.46341678500175476,
+          1.0000001192092896,
+          0.4260687530040741,
+          0.48343127965927124,
+          0.47256720066070557,
+          0.6144967675209045
+        ],
+        [
+          0.033932775259017944,
+          0.4645790755748749,
+          0.08009070158004761,
+          0.5146451592445374,
+          0.5418317317962646,
+          0.5102578997612,
+          0.4260687530040741,
+          0.9999998807907104,
+          0.47761717438697815,
+          0.5532960295677185,
+          0.41930681467056274
+        ],
+        [
+          0.0017553485231474042,
+          0.3977085053920746,
+          0.021734125912189484,
+          0.43156543374061584,
+          0.4972079396247864,
+          0.5925297141075134,
+          0.48343127965927124,
+          0.47761717438697815,
+          1.0,
+          0.559890627861023,
+          0.49110546708106995
+        ],
+        [
+          0.046974826604127884,
+          0.4544292688369751,
+          0.07151506841182709,
+          0.5221371054649353,
+          0.5098214745521545,
+          0.43329405784606934,
+          0.47256720066070557,
+          0.5532960295677185,
+          0.559890627861023,
+          0.9999999403953552,
+          0.5660894513130188
+        ],
+        [
+          0.0005257386364974082,
+          0.6237813234329224,
+          0.04414669796824455,
+          0.44430097937583923,
+          0.5253883004188538,
+          0.4938543140888214,
+          0.6144967675209045,
+          0.41930681467056274,
+          0.49110546708106995,
+          0.5660894513130188,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_jay-leno-1995-jpg.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg"
+    },
+    {
+      "name": "02_jay-leno-2077584735-jpg.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg"
+    },
+    {
+      "name": "03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg"
+    },
+    {
+      "name": "04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg"
+    },
+    {
+      "name": "05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg"
+    },
+    {
+      "name": "06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg"
+    },
+    {
+      "name": "07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg"
+    },
+    {
+      "name": "08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg"
+    },
+    {
+      "name": "09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg"
+    },
+    {
+      "name": "10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "path": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+      "similarity": 0.005119991488754749
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "similarity": 0.5682119131088257
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.561284065246582
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "similarity": 0.4350659251213074
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "similarity": 0.5430440902709961
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "similarity": 0.4645790755748749
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "similarity": 0.3977085053920746
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "similarity": 0.4544292688369751
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/01_jay-leno-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "similarity": 0.6237813234329224
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "similarity": 0.016610117629170418
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.023525508120656013
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "similarity": 0.02874356508255005
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "similarity": 0.03685753792524338
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "similarity": 0.08009070158004761
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "similarity": 0.021734125912189484
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "similarity": 0.07151506841182709
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/02_jay-leno-2077584735-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "similarity": 0.04414669796824455
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.5166752338409424
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "similarity": 0.45152515172958374
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "similarity": 0.49644574522972107
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "similarity": 0.5146451592445374
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "similarity": 0.43156543374061584
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "similarity": 0.5221371054649353
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "similarity": 0.44430097937583923
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "similarity": 0.3756829500198364
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "similarity": 0.644449770450592
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "similarity": 0.5418317317962646
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "similarity": 0.4972079396247864
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "similarity": 0.5098214745521545
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "similarity": 0.5253883004188538
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "similarity": 0.46341678500175476
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "similarity": 0.5102578997612
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "similarity": 0.5925297141075134
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "similarity": 0.43329405784606934
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "similarity": 0.4938543140888214
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "similarity": 0.4260687530040741
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "similarity": 0.48343127965927124
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "similarity": 0.47256720066070557
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "similarity": 0.6144967675209045
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "similarity": 0.47761717438697815
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "similarity": 0.5532960295677185
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "similarity": 0.41930681467056274
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "similarity": 0.559890627861023
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "similarity": 0.49110546708106995
+    },
+    {
+      "left": "/workspace/input/piven/data/jay_leno/images/09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "right": "/workspace/input/piven/data/jay_leno/images/10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg",
+      "similarity": 0.5660894513130188
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_jay-leno-1995-jpg.jpg",
+      "02_jay-leno-2077584735-jpg.jpg",
+      "03_jay-leno-1993-by-alan-light-jpg.jpg",
+      "04_jay-leno-portrait-stock-photo-alamy.jpg",
+      "05_strand-centennial-spotlight-jay-leno-appell-center-for-the.jpg",
+      "06_jay-leno-portrait-in-black-leather-jacket-movie-star-news-comedy.jpg",
+      "07_jay-leno-1980-jay-leno-says-he-tries-to-find-humor-in-the-situation.jpg",
+      "08_photo-jay-leno-discharged-from-hospital-9-days-after-suffering-burns.jpg",
+      "09_comedian-and-talk-show-host-jay-leno-poses-during-a-1989-beverly.jpg",
+      "10_jay-leno-portrait-in-black-polo-shirt-movie-star-news-comedy.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.005119991488754749,
+        0.5682119131088257,
+        0.561284065246582,
+        0.4350659251213074,
+        0.5430440902709961,
+        0.4645790755748749,
+        0.3977085053920746,
+        0.4544292688369751,
+        0.6237813234329224
+      ],
+      [
+        0.005119991488754749,
+        1.0000001192092896,
+        0.016610117629170418,
+        0.023525508120656013,
+        0.02874356508255005,
+        0.03685753792524338,
+        0.08009070158004761,
+        0.021734125912189484,
+        0.07151506841182709,
+        0.04414669796824455
+      ],
+      [
+        0.5682119131088257,
+        0.016610117629170418,
+        0.9999999403953552,
+        0.5166752338409424,
+        0.45152515172958374,
+        0.49644574522972107,
+        0.5146451592445374,
+        0.43156543374061584,
+        0.5221371054649353,
+        0.44430097937583923
+      ],
+      [
+        0.561284065246582,
+        0.023525508120656013,
+        0.5166752338409424,
+        1.0,
+        0.3756829500198364,
+        0.644449770450592,
+        0.5418317317962646,
+        0.4972079396247864,
+        0.5098214745521545,
+        0.5253883004188538
+      ],
+      [
+        0.4350659251213074,
+        0.02874356508255005,
+        0.45152515172958374,
+        0.3756829500198364,
+        0.9999999403953552,
+        0.46341678500175476,
+        0.5102578997612,
+        0.5925297141075134,
+        0.43329405784606934,
+        0.4938543140888214
+      ],
+      [
+        0.5430440902709961,
+        0.03685753792524338,
+        0.49644574522972107,
+        0.644449770450592,
+        0.46341678500175476,
+        1.0000001192092896,
+        0.4260687530040741,
+        0.48343127965927124,
+        0.47256720066070557,
+        0.6144967675209045
+      ],
+      [
+        0.4645790755748749,
+        0.08009070158004761,
+        0.5146451592445374,
+        0.5418317317962646,
+        0.5102578997612,
+        0.4260687530040741,
+        0.9999998807907104,
+        0.47761717438697815,
+        0.5532960295677185,
+        0.41930681467056274
+      ],
+      [
+        0.3977085053920746,
+        0.021734125912189484,
+        0.43156543374061584,
+        0.4972079396247864,
+        0.5925297141075134,
+        0.48343127965927124,
+        0.47761717438697815,
+        1.0,
+        0.559890627861023,
+        0.49110546708106995
+      ],
+      [
+        0.4544292688369751,
+        0.07151506841182709,
+        0.5221371054649353,
+        0.5098214745521545,
+        0.43329405784606934,
+        0.47256720066070557,
+        0.5532960295677185,
+        0.559890627861023,
+        0.9999999403953552,
+        0.5660894513130188
+      ],
+      [
+        0.6237813234329224,
+        0.04414669796824455,
+        0.44430097937583923,
+        0.5253883004188538,
+        0.4938543140888214,
+        0.6144967675209045,
+        0.41930681467056274,
+        0.49110546708106995,
+        0.5660894513130188,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/jay_leno/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/jay_leno/portrait.jpg"
+    }
+  ]
+}

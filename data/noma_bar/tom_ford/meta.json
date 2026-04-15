@@ -1,0 +1,80 @@
+{
+  "name": "tom ford",
+  "bio": "Thomas Carlyle Ford (born August 27, 1961) is an American fashion designer and filmmaker. He launched his eponymous fashion brand in 2005, having previously been the creative director at Gucci and Yves Saint Laurent. He wrote and directed the films A Single Man (2009) and Nocturnal Animals (2016), and served as chairman of the Council of Fashion Designers of America from 2019 to 2022.",
+  "bio_sources": [
+    {
+      "subject": "tom ford",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Tom_Ford"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "black background field",
+      "shape_type": "rectangle",
+      "meaning": "creates luxury-brand starkness and control"
+    },
+    {
+      "element": "pale geometric face block",
+      "shape_type": "geometric shape",
+      "meaning": "conveys sculpted elegance and design discipline"
+    },
+    {
+      "element": "black hair field",
+      "shape_type": "silhouette",
+      "meaning": "frames the face with sleek polish"
+    },
+    {
+      "element": "thin angular eyeglass line at the nose",
+      "shape_type": "line",
+      "meaning": "signals fashion intellect and precision"
+    },
+    {
+      "element": "white collar shapes",
+      "shape_type": "triangle",
+      "meaning": "add tailored sophistication"
+    },
+    {
+      "element": "faint mouth line",
+      "shape_type": "arc",
+      "meaning": "keeps the portrait cool and restrained"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "fabric fold",
+      "visual_representation": "a clean folded swatch of cloth with a visible edge",
+      "category": "material",
+      "relevance": "The biography explicitly describes fashion or modeling.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "mannequin form",
+      "visual_representation": "a simplified torso mounted on a narrow stand",
+      "category": "object",
+      "relevance": "Fashion design and garment presentation belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "measuring tape",
+      "visual_representation": "a flexible ribbon marked by small regular ticks",
+      "category": "object",
+      "relevance": "Tailoring and garment construction are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "fabric swatch",
+      "visual_representation": "a folded textile square with a visible cut edge",
+      "category": "material",
+      "relevance": "Textiles and clothing surfaces define the subject’s fashion environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "runway line",
+      "visual_representation": "a long narrow strip receding toward a bright end point",
+      "category": "structure",
+      "relevance": "Fashion display and presentation belong to the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

@@ -1,0 +1,749 @@
+{
+  "folder": "/workspace/input/piven/data/sara_netanyahu",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "portrait.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+        "similarity": 0.009641985408961773
+      },
+      {
+        "index": 1,
+        "name": "01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+        "similarity": 0.049382515251636505
+      },
+      {
+        "index": 2,
+        "name": "02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+        "similarity": 0.012743048369884491
+      },
+      {
+        "index": 3,
+        "name": "03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+        "similarity": 0.011118785478174686
+      },
+      {
+        "index": 4,
+        "name": "04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+        "similarity": 0.03318026661872864
+      },
+      {
+        "index": 5,
+        "name": "05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": -0.01658833771944046
+      },
+      {
+        "index": 6,
+        "name": "06_sara-netanyahu-vikipedio.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+        "similarity": 0.045325152575969696
+      },
+      {
+        "index": 7,
+        "name": "07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+        "similarity": 0.04152948781847954
+      },
+      {
+        "index": 8,
+        "name": "08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+        "similarity": 0.018482854589819908
+      },
+      {
+        "index": 9,
+        "name": "09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+        "similarity": -0.019990282133221626
+      },
+      {
+        "index": 10,
+        "name": "10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+        "path": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+        "similarity": -0.0044435374438762665
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "values": [
+        [
+          1.0,
+          0.009641985408961773,
+          0.049382515251636505,
+          0.012743048369884491,
+          0.011118785478174686,
+          0.03318026661872864,
+          -0.01658833771944046,
+          0.045325152575969696,
+          0.04152948781847954,
+          0.018482854589819908,
+          -0.019990282133221626,
+          -0.0044435374438762665
+        ],
+        [
+          0.009641985408961773,
+          1.0,
+          -0.0017431745072826743,
+          0.00012193410657346249,
+          0.13886336982250214,
+          0.06768091768026352,
+          0.13476943969726562,
+          0.0005897387163713574,
+          0.04159160330891609,
+          0.09367392957210541,
+          0.10378766804933548,
+          0.12449552118778229
+        ],
+        [
+          0.049382515251636505,
+          -0.0017431745072826743,
+          1.0000001192092896,
+          0.5775734782218933,
+          -0.011762144975364208,
+          0.057260941714048386,
+          0.023879200220108032,
+          0.5298898220062256,
+          0.3844027817249298,
+          0.13760043680667877,
+          0.05700868368148804,
+          -0.03712526708841324
+        ],
+        [
+          0.012743048369884491,
+          0.00012193410657346249,
+          0.5775734782218933,
+          1.0000001192092896,
+          0.01806897670030594,
+          -0.0009774313075467944,
+          0.006023917347192764,
+          0.4890706241130829,
+          0.42402225732803345,
+          0.12608525156974792,
+          0.07279273867607117,
+          0.06306072324514389
+        ],
+        [
+          0.011118785478174686,
+          0.13886336982250214,
+          -0.011762144975364208,
+          0.01806897670030594,
+          1.0,
+          0.28940388560295105,
+          0.617666482925415,
+          0.025401394814252853,
+          0.08347156643867493,
+          0.5634940266609192,
+          0.4541740119457245,
+          0.5464606881141663
+        ],
+        [
+          0.03318026661872864,
+          0.06768091768026352,
+          0.057260941714048386,
+          -0.0009774313075467944,
+          0.28940388560295105,
+          1.0,
+          0.45062166452407837,
+          0.05711102485656738,
+          0.1084211990237236,
+          0.3463112711906433,
+          0.33026739954948425,
+          0.33729422092437744
+        ],
+        [
+          -0.01658833771944046,
+          0.13476943969726562,
+          0.023879200220108032,
+          0.006023917347192764,
+          0.617666482925415,
+          0.45062166452407837,
+          1.0000001192092896,
+          -0.034678589552640915,
+          0.1186443641781807,
+          0.5285806655883789,
+          0.34883224964141846,
+          0.42664700746536255
+        ],
+        [
+          0.045325152575969696,
+          0.0005897387163713574,
+          0.5298898220062256,
+          0.4890706241130829,
+          0.025401394814252853,
+          0.05711102485656738,
+          -0.034678589552640915,
+          0.9999999403953552,
+          0.4589666426181793,
+          0.05446566641330719,
+          -0.024545321241021156,
+          -0.0019336917903274298
+        ],
+        [
+          0.04152948781847954,
+          0.04159160330891609,
+          0.3844027817249298,
+          0.42402225732803345,
+          0.08347156643867493,
+          0.1084211990237236,
+          0.1186443641781807,
+          0.4589666426181793,
+          1.0000001192092896,
+          0.12759752571582794,
+          0.024150334298610687,
+          0.05471750348806381
+        ],
+        [
+          0.018482854589819908,
+          0.09367392957210541,
+          0.13760043680667877,
+          0.12608525156974792,
+          0.5634940266609192,
+          0.3463112711906433,
+          0.5285806655883789,
+          0.05446566641330719,
+          0.12759752571582794,
+          1.0000001192092896,
+          0.39640191197395325,
+          0.44646966457366943
+        ],
+        [
+          -0.019990282133221626,
+          0.10378766804933548,
+          0.05700868368148804,
+          0.07279273867607117,
+          0.4541740119457245,
+          0.33026739954948425,
+          0.34883224964141846,
+          -0.024545321241021156,
+          0.024150334298610687,
+          0.39640191197395325,
+          1.0,
+          0.48899397253990173
+        ],
+        [
+          -0.0044435374438762665,
+          0.12449552118778229,
+          -0.03712526708841324,
+          0.06306072324514389,
+          0.5464606881141663,
+          0.33729422092437744,
+          0.42664700746536255,
+          -0.0019336917903274298,
+          0.05471750348806381,
+          0.44646966457366943,
+          0.48899397253990173,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "portrait.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg"
+    },
+    {
+      "name": "01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg"
+    },
+    {
+      "name": "04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg"
+    },
+    {
+      "name": "05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "06_sara-netanyahu-vikipedio.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg"
+    },
+    {
+      "name": "07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg"
+    },
+    {
+      "name": "08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg"
+    },
+    {
+      "name": "09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg"
+    },
+    {
+      "name": "10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "path": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "similarity": -0.0017431745072826743
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "similarity": 0.00012193410657346249
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "similarity": 0.13886336982250214
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "similarity": 0.06768091768026352
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.13476943969726562
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "similarity": 0.0005897387163713574
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "similarity": 0.04159160330891609
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "similarity": 0.09367392957210541
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "similarity": 0.10378766804933548
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": 0.12449552118778229
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "similarity": 0.5775734782218933
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "similarity": -0.011762144975364208
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "similarity": 0.057260941714048386
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.023879200220108032
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "similarity": 0.5298898220062256
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "similarity": 0.3844027817249298
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "similarity": 0.13760043680667877
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "similarity": 0.05700868368148804
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": -0.03712526708841324
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "similarity": 0.01806897670030594
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "similarity": -0.0009774313075467944
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.006023917347192764
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "similarity": 0.4890706241130829
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "similarity": 0.42402225732803345
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "similarity": 0.12608525156974792
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "similarity": 0.07279273867607117
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": 0.06306072324514389
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "similarity": 0.28940388560295105
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.617666482925415
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "similarity": 0.025401394814252853
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "similarity": 0.08347156643867493
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "similarity": 0.5634940266609192
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "similarity": 0.4541740119457245
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": 0.5464606881141663
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.45062166452407837
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "similarity": 0.05711102485656738
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "similarity": 0.1084211990237236
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "similarity": 0.3463112711906433
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "similarity": 0.33026739954948425
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": 0.33729422092437744
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "similarity": -0.034678589552640915
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "similarity": 0.1186443641781807
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "similarity": 0.5285806655883789
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "similarity": 0.34883224964141846
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": 0.42664700746536255
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "similarity": 0.4589666426181793
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "similarity": 0.05446566641330719
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "similarity": -0.024545321241021156
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/06_sara-netanyahu-vikipedio.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": -0.0019336917903274298
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "similarity": 0.12759752571582794
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "similarity": 0.024150334298610687
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": 0.05471750348806381
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "similarity": 0.39640191197395325
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": 0.44646966457366943
+    },
+    {
+      "left": "/workspace/input/piven/data/sara_netanyahu/images/09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "right": "/workspace/input/piven/data/sara_netanyahu/images/10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg",
+      "similarity": 0.48899397253990173
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "portrait.jpg",
+      "01_sara-netanyahu-40345853590-cropped-jpg.jpg",
+      "02_sara-netanyahu-28063164099-cropped-jpg.jpg",
+      "03_benjamin-sara-netanyahu-dan-shapiro-jpg.jpg",
+      "04_criminal-probe-launched-into-israeli-pm-s-wife-sara-netanyahu-t-rkiye.jpg",
+      "05_face-portrait-jew-hi-res-stock-photography-and-images-alamy.jpg",
+      "06_sara-netanyahu-vikipedio.jpg",
+      "07_sara-netanyahu-bio-age-height-husband-parents-wiki.jpg",
+      "08_benjamin-netanyahu-portrait-high-resolution-stock-photography-and.jpg",
+      "09_sara-netanyahu-to-attend-hollywood-mogul-s-testimony-in-pm-netanyahu.jpg",
+      "10_benjamin-netanyahu-we-re-on-brink-of-very-big-victory-after-israel.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        -0.0017431745072826743,
+        0.00012193410657346249,
+        0.13886336982250214,
+        0.06768091768026352,
+        0.13476943969726562,
+        0.0005897387163713574,
+        0.04159160330891609,
+        0.09367392957210541,
+        0.10378766804933548,
+        0.12449552118778229
+      ],
+      [
+        -0.0017431745072826743,
+        1.0000001192092896,
+        0.5775734782218933,
+        -0.011762144975364208,
+        0.057260941714048386,
+        0.023879200220108032,
+        0.5298898220062256,
+        0.3844027817249298,
+        0.13760043680667877,
+        0.05700868368148804,
+        -0.03712526708841324
+      ],
+      [
+        0.00012193410657346249,
+        0.5775734782218933,
+        1.0000001192092896,
+        0.01806897670030594,
+        -0.0009774313075467944,
+        0.006023917347192764,
+        0.4890706241130829,
+        0.42402225732803345,
+        0.12608525156974792,
+        0.07279273867607117,
+        0.06306072324514389
+      ],
+      [
+        0.13886336982250214,
+        -0.011762144975364208,
+        0.01806897670030594,
+        1.0,
+        0.28940388560295105,
+        0.617666482925415,
+        0.025401394814252853,
+        0.08347156643867493,
+        0.5634940266609192,
+        0.4541740119457245,
+        0.5464606881141663
+      ],
+      [
+        0.06768091768026352,
+        0.057260941714048386,
+        -0.0009774313075467944,
+        0.28940388560295105,
+        1.0,
+        0.45062166452407837,
+        0.05711102485656738,
+        0.1084211990237236,
+        0.3463112711906433,
+        0.33026739954948425,
+        0.33729422092437744
+      ],
+      [
+        0.13476943969726562,
+        0.023879200220108032,
+        0.006023917347192764,
+        0.617666482925415,
+        0.45062166452407837,
+        1.0000001192092896,
+        -0.034678589552640915,
+        0.1186443641781807,
+        0.5285806655883789,
+        0.34883224964141846,
+        0.42664700746536255
+      ],
+      [
+        0.0005897387163713574,
+        0.5298898220062256,
+        0.4890706241130829,
+        0.025401394814252853,
+        0.05711102485656738,
+        -0.034678589552640915,
+        0.9999999403953552,
+        0.4589666426181793,
+        0.05446566641330719,
+        -0.024545321241021156,
+        -0.0019336917903274298
+      ],
+      [
+        0.04159160330891609,
+        0.3844027817249298,
+        0.42402225732803345,
+        0.08347156643867493,
+        0.1084211990237236,
+        0.1186443641781807,
+        0.4589666426181793,
+        1.0000001192092896,
+        0.12759752571582794,
+        0.024150334298610687,
+        0.05471750348806381
+      ],
+      [
+        0.09367392957210541,
+        0.13760043680667877,
+        0.12608525156974792,
+        0.5634940266609192,
+        0.3463112711906433,
+        0.5285806655883789,
+        0.05446566641330719,
+        0.12759752571582794,
+        1.0000001192092896,
+        0.39640191197395325,
+        0.44646966457366943
+      ],
+      [
+        0.10378766804933548,
+        0.05700868368148804,
+        0.07279273867607117,
+        0.4541740119457245,
+        0.33026739954948425,
+        0.34883224964141846,
+        -0.024545321241021156,
+        0.024150334298610687,
+        0.39640191197395325,
+        1.0,
+        0.48899397253990173
+      ],
+      [
+        0.12449552118778229,
+        -0.03712526708841324,
+        0.06306072324514389,
+        0.5464606881141663,
+        0.33729422092437744,
+        0.42664700746536255,
+        -0.0019336917903274298,
+        0.05471750348806381,
+        0.44646966457366943,
+        0.48899397253990173,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": []
+}

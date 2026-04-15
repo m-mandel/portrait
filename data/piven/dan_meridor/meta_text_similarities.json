@@ -1,0 +1,100 @@
+{
+  "folder": "/workspace/input/piven/data/dan_meridor",
+  "meta_path": "/workspace/input/piven/data/dan_meridor/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Dan Meridor (Hebrew: \u05d3\u05df \u05de\u05e8\u05d9\u05d3\u05d5\u05e8; born 23 April 1947) is an Israeli politician and minister. A longtime member of the Likud party, in the late 1990s he became one of the founders of the Center Party. He rejoined Likud a decade later, and returned to the Knesset following the 2009 elections. Meridor served at various times as Deputy Prime Minister, Minister of Finance, Minister of Justice and Minister of Intelligence and Atomic Energy in the Israeli Cabinet. In 2014, Meridor succeeded Avi Primor as president of the Israel Council on Foreign Relations, an institute of international affairs which operates under the auspices of the World Jewish Congress.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "feathers"
+    },
+    {
+      "index": 1,
+      "element": "egg halves"
+    },
+    {
+      "index": 2,
+      "element": "olives"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "podium block"
+    },
+    {
+      "index": 1,
+      "element": "ballot box"
+    },
+    {
+      "index": 2,
+      "element": "state seal"
+    },
+    {
+      "index": 3,
+      "element": "campaign current"
+    },
+    {
+      "index": 4,
+      "element": "flag field"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "feathers",
+      "egg halves",
+      "olives"
+    ],
+    "values": [
+      [
+        0.043507590889930725,
+        0.031227970495820045,
+        0.020606083795428276
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "podium block",
+      "ballot box",
+      "state seal",
+      "campaign current",
+      "flag field"
+    ],
+    "column_labels": [
+      "feathers",
+      "egg halves",
+      "olives"
+    ],
+    "values": [
+      [
+        -0.04087972640991211,
+        0.08168938010931015,
+        0.10940930992364883
+      ],
+      [
+        0.2691504955291748,
+        0.20656326413154602,
+        0.0855952799320221
+      ],
+      [
+        0.26391586661338806,
+        0.14453516900539398,
+        0.18816500902175903
+      ],
+      [
+        0.17082148790359497,
+        0.08428739756345749,
+        0.10845459997653961
+      ],
+      [
+        0.16623380780220032,
+        0.14853838086128235,
+        0.0715055987238884
+      ]
+    ]
+  }
+}

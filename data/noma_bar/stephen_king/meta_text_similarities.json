@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/stephen_king",
+  "meta_path": "/workspace/input/noma_bar/data/stephen_king/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Stephen Edwin King (born September 21, 1947) is an American author. Dubbed the \"King of Horror\", he is widely known for his horror novels and has also explored other genres, among them suspense, crime, science-fiction, fantasy, and mystery. Though known primarily for his novels, he has written approximately 200 short stories, most of which have been published in collections. \nHis debut, Carrie (1974), established him in horror and The Dead Zone (1979) made him a best-selling author in the genre, while Different Seasons (1982), a collection of four novellas, was his first major departure from the genre. Among the films adapted from King's fiction are Carrie (1976), The Shining (1980), The Dead Zone and Christine (both 1983), Stand by Me (1986), Misery (1990), The Shawshank Redemption (1994), Dolores Claiborne (1995), The Green Mile (1999), The Mist (2007), It (2017), and The Long Walk (2025). He has published under the pseudonym Richard Bachman and has co-written works with other authors, notably his friend Peter Straub and sons Joe Hill and Owen King. He has also written nonfiction, notably Danse Macabre (1981) and On Writing: A Memoir of the Craft (2000).\nAmong other awards, King has won the O. Henry Award for \"The Man in the Black Suit\" (1994) and the Los Angeles Times Book Prize for Mystery/Thriller for 11/22/63 (2011). He has also won honors for his overall contributions to literature, including the 2003 Medal for Distinguished Contribution to American Letters, the 2007 Grand Master Award from the Mystery Writers of America and the 2014 National Medal of Arts. Joyce Carol Oates called King \"a brilliantly rooted, psychologically 'realistic' writer for whom the American scene has been a continuous source of inspiration, and American popular culture a vast cornucopia of possibilities.\"",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "red background field"
+    },
+    {
+      "index": 1,
+      "element": "black hair and shoulders"
+    },
+    {
+      "index": 2,
+      "element": "white face mask"
+    },
+    {
+      "index": 3,
+      "element": "blood-like red drips from the nose"
+    },
+    {
+      "index": 4,
+      "element": "stitched mouth line with pin mark"
+    },
+    {
+      "index": 5,
+      "element": "sharp black eye slashes"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "book stack"
+    },
+    {
+      "index": 1,
+      "element": "typewriter keys"
+    },
+    {
+      "index": 2,
+      "element": "open book"
+    },
+    {
+      "index": 3,
+      "element": "ink pen"
+    },
+    {
+      "index": 4,
+      "element": "page margin"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "red background field",
+      "black hair and shoulders",
+      "white face mask",
+      "blood-like red drips from the nose",
+      "stitched mouth line with pin mark",
+      "sharp black eye slashes"
+    ],
+    "values": [
+      [
+        -0.03881550207734108,
+        -0.02106473222374916,
+        0.105096235871315,
+        0.014141133055090904,
+        -0.08262160420417786,
+        0.07899334281682968
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "book stack",
+      "typewriter keys",
+      "open book",
+      "ink pen",
+      "page margin"
+    ],
+    "column_labels": [
+      "red background field",
+      "black hair and shoulders",
+      "white face mask",
+      "blood-like red drips from the nose",
+      "stitched mouth line with pin mark",
+      "sharp black eye slashes"
+    ],
+    "values": [
+      [
+        0.08937852084636688,
+        0.17575794458389282,
+        0.07802939414978027,
+        0.0430782213807106,
+        -8.880067616701126e-05,
+        0.024129727855324745
+      ],
+      [
+        0.05111950635910034,
+        -0.027777019888162613,
+        0.0011684335768222809,
+        -0.008083153516054153,
+        0.13412034511566162,
+        0.16894017159938812
+      ],
+      [
+        0.09068484604358673,
+        0.14446279406547546,
+        0.11949354410171509,
+        -0.0007870011031627655,
+        -0.01388569362461567,
+        0.031423766165971756
+      ],
+      [
+        0.12749479711055756,
+        0.15375308692455292,
+        0.2342868596315384,
+        0.054290302097797394,
+        0.22105079889297485,
+        0.15050429105758667
+      ],
+      [
+        0.1901978850364685,
+        0.16305989027023315,
+        0.10351630300283432,
+        -0.055512867867946625,
+        0.15715545415878296,
+        0.02597157284617424
+      ]
+    ]
+  }
+}

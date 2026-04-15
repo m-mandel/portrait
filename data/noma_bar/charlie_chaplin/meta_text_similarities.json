@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/charlie_chaplin",
+  "meta_path": "/workspace/input/noma_bar/data/charlie_chaplin/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Sir Charles Spencer Chaplin Jr. (16 April 1889 \u2013 25 December 1977) was an English comic actor, filmmaker, film editor and composer who rose to fame in the era of silent film. He became a worldwide icon through his screen persona, the Tramp, and is considered one of the film industry's most important figures. His career spanned more than 75 years, from his childhood in the Victorian era until a year before his death in 1977, and encompassed both accolade and controversy.\nChaplin's childhood in London was one of poverty and hardship. His father was absent and his mother struggled financially \u2013 he was sent to a workhouse twice before the age of nine. When he was 14, his mother was committed to a mental asylum. Chaplin began performing at an early age, touring music halls and later working as a stage actor and comedian. At 19, he was signed to the Fred Karno company, which took him to the United States. In 1914, Chaplin gained widespread popularity through his appearances in Keystone Studios films. He soon introduced and adopted the Tramp as his screen persona. He directed his own films and continued to hone his craft as he moved to Essanay Studios, where the Tramp persona was developed emotionally in The Tramp (1915). He then attracted a large fanbase and demanded more money as he moved to Mutual and First National corporations. By 1918, he was one of the world's best-paid and best-known figures.\nIn 1919, Chaplin co-founded the distribution company United Artists, which gave him complete control over his films. His first feature-length film was The Kid (1921), followed by A Woman of Paris (1923), The Gold Rush (1925), and The Circus (1928). He initially refused to move to sound films in the 1930s, instead producing City Lights (1931) and Modern Times (1936) without dialogue. His first sound film was The Great Dictator (1940), which satirised Adolf Hitler. The 1940s were marked with controversy for Chaplin, and his popularity declined rapidly. He was accused of communist sympathies, and some members of the press and public were scandalised by his involvement in a paternity suit and marriages to much younger women. The Federal Bureau of Investigation (FBI) opened an investigation, and Chaplin was forced to leave the U.S. in 1952 and settle in Switzerland. He abandoned the Tramp in his later films, which include Monsieur Verdoux (1947), Limelight (1952), A King in New York (1957), and A Countess from Hong Kong (1967).\nChaplin wrote, directed, produced, edited, and composed the music for most of his films. He was a perfectionist, and his financial independence enabled him to spend years on the development and production of a picture. His films are characterised by slapstick combined with pathos, typified in the Tramp's struggles against adversity. Many contain social and political themes, as well as autobiographical elements. He received an Honorary Academy Award for \"the incalculable effect he has had in making motion pictures the art form of this century\" in 1972, as part of a renewed appreciation for his work. He continues to be held in high regard, with The Gold Rush, City Lights, Modern Times, and The Great Dictator often ranked on lists of the greatest films.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "white background field"
+    },
+    {
+      "index": 1,
+      "element": "black bowler hat"
+    },
+    {
+      "index": 2,
+      "element": "white face silhouette"
+    },
+    {
+      "index": 3,
+      "element": "looping cane line"
+    },
+    {
+      "index": 4,
+      "element": "small shoe-like moustache"
+    },
+    {
+      "index": 5,
+      "element": "black coat blocks"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "silent-frame card"
+    },
+    {
+      "index": 2,
+      "element": "camera body"
+    },
+    {
+      "index": 3,
+      "element": "film strip"
+    },
+    {
+      "index": 4,
+      "element": "clapboard"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "white background field",
+      "black bowler hat",
+      "white face silhouette",
+      "looping cane line",
+      "small shoe-like moustache",
+      "black coat blocks"
+    ],
+    "values": [
+      [
+        -0.0024502836167812347,
+        -0.008516751229763031,
+        0.03715420141816139,
+        0.022397106513381004,
+        0.09343445301055908,
+        -0.005357071757316589
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "silent-frame card",
+      "camera body",
+      "film strip",
+      "clapboard"
+    ],
+    "column_labels": [
+      "white background field",
+      "black bowler hat",
+      "white face silhouette",
+      "looping cane line",
+      "small shoe-like moustache",
+      "black coat blocks"
+    ],
+    "values": [
+      [
+        0.2906287610530853,
+        0.20300410687923431,
+        0.5890963077545166,
+        0.0816236063838005,
+        0.21791458129882812,
+        0.18767476081848145
+      ],
+      [
+        0.18084834516048431,
+        0.022145520895719528,
+        0.12230947613716125,
+        0.013850830495357513,
+        0.08053363114595413,
+        0.18995451927185059
+      ],
+      [
+        0.26664838194847107,
+        0.16753576695919037,
+        0.38521116971969604,
+        0.040639057755470276,
+        0.1618434190750122,
+        0.08311629295349121
+      ],
+      [
+        0.18157170712947845,
+        0.10154727846384048,
+        0.20152223110198975,
+        0.21045640110969543,
+        0.08798911422491074,
+        0.2939203381538391
+      ],
+      [
+        0.14682497084140778,
+        0.18293291330337524,
+        0.07077547907829285,
+        0.17424042522907257,
+        0.19177594780921936,
+        0.20093181729316711
+      ]
+    ]
+  }
+}

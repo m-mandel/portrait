@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/yitzhak_rabin",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/yitzhak_rabin/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+        "similarity": 0.054191991686820984
+      },
+      {
+        "index": 1,
+        "name": "02_yitzhak-rabin-1986-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+        "similarity": 0.061057887971401215
+      },
+      {
+        "index": 2,
+        "name": "03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+        "similarity": 0.01713964343070984
+      },
+      {
+        "index": 3,
+        "name": "04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+        "similarity": 0.02014276571571827
+      },
+      {
+        "index": 4,
+        "name": "05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+        "similarity": -0.0055123502388596535
+      },
+      {
+        "index": 5,
+        "name": "06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+        "similarity": 0.040646154433488846
+      },
+      {
+        "index": 6,
+        "name": "07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+        "similarity": -0.027467258274555206
+      },
+      {
+        "index": 7,
+        "name": "08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+        "similarity": 0.011202950030565262
+      },
+      {
+        "index": 8,
+        "name": "09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+        "similarity": 0.07537350803613663
+      },
+      {
+        "index": 9,
+        "name": "10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+        "similarity": 0.017130820080637932
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.054191991686820984,
+          0.061057887971401215,
+          0.01713964343070984,
+          0.02014276571571827,
+          -0.0055123502388596535,
+          0.040646154433488846,
+          -0.027467258274555206,
+          0.011202950030565262,
+          0.07537350803613663,
+          0.017130820080637932
+        ],
+        [
+          0.054191991686820984,
+          1.0000001192092896,
+          0.48722246289253235,
+          0.43277159333229065,
+          0.44766315817832947,
+          0.5472148656845093,
+          0.15418890118598938,
+          0.47634732723236084,
+          0.5075207948684692,
+          0.5276983976364136,
+          -0.006132385227829218
+        ],
+        [
+          0.061057887971401215,
+          0.48722246289253235,
+          1.0,
+          0.49719297885894775,
+          0.5422714352607727,
+          0.5627403259277344,
+          0.09008922427892685,
+          0.48559457063674927,
+          0.5080409646034241,
+          0.45710811018943787,
+          0.09453883767127991
+        ],
+        [
+          0.01713964343070984,
+          0.43277159333229065,
+          0.49719297885894775,
+          1.0,
+          0.8517416715621948,
+          0.5722654461860657,
+          0.16176654398441315,
+          0.5135418772697449,
+          0.6201561093330383,
+          0.47343558073043823,
+          0.008014938794076443
+        ],
+        [
+          0.02014276571571827,
+          0.44766315817832947,
+          0.5422714352607727,
+          0.8517416715621948,
+          0.9999998807907104,
+          0.6238008141517639,
+          0.1852426826953888,
+          0.5399175882339478,
+          0.5836907625198364,
+          0.47001805901527405,
+          0.08439022302627563
+        ],
+        [
+          -0.0055123502388596535,
+          0.5472148656845093,
+          0.5627403259277344,
+          0.5722654461860657,
+          0.6238008141517639,
+          1.0,
+          0.20753353834152222,
+          0.669499933719635,
+          0.6138238310813904,
+          0.3786159157752991,
+          0.053468938916921616
+        ],
+        [
+          0.040646154433488846,
+          0.15418890118598938,
+          0.09008922427892685,
+          0.16176654398441315,
+          0.1852426826953888,
+          0.20753353834152222,
+          1.0,
+          0.2790882885456085,
+          0.19437769055366516,
+          0.23615916073322296,
+          0.11429903656244278
+        ],
+        [
+          -0.027467258274555206,
+          0.47634732723236084,
+          0.48559457063674927,
+          0.5135418772697449,
+          0.5399175882339478,
+          0.669499933719635,
+          0.2790882885456085,
+          1.0,
+          0.604049801826477,
+          0.38440006971359253,
+          0.07290299236774445
+        ],
+        [
+          0.011202950030565262,
+          0.5075207948684692,
+          0.5080409646034241,
+          0.6201561093330383,
+          0.5836907625198364,
+          0.6138238310813904,
+          0.19437769055366516,
+          0.604049801826477,
+          0.9999999403953552,
+          0.3901236057281494,
+          -0.03169367089867592
+        ],
+        [
+          0.07537350803613663,
+          0.5276983976364136,
+          0.45710811018943787,
+          0.47343558073043823,
+          0.47001805901527405,
+          0.3786159157752991,
+          0.23615916073322296,
+          0.38440006971359253,
+          0.3901236057281494,
+          1.0000001192092896,
+          0.017818639054894447
+        ],
+        [
+          0.017130820080637932,
+          -0.006132385227829218,
+          0.09453883767127991,
+          0.008014938794076443,
+          0.08439022302627563,
+          0.053468938916921616,
+          0.11429903656244278,
+          0.07290299236774445,
+          -0.03169367089867592,
+          0.017818639054894447,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg"
+    },
+    {
+      "name": "05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg"
+    },
+    {
+      "name": "06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg"
+    },
+    {
+      "name": "07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg"
+    },
+    {
+      "name": "08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg"
+    },
+    {
+      "name": "09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg"
+    },
+    {
+      "name": "10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "similarity": 0.48722246289253235
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "similarity": 0.43277159333229065
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "similarity": 0.44766315817832947
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "similarity": 0.5472148656845093
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.15418890118598938
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "similarity": 0.47634732723236084
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "similarity": 0.5075207948684692
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "similarity": 0.5276983976364136
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "similarity": -0.006132385227829218
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "similarity": 0.49719297885894775
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "similarity": 0.5422714352607727
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "similarity": 0.5627403259277344
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.09008922427892685
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "similarity": 0.48559457063674927
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "similarity": 0.5080409646034241
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "similarity": 0.45710811018943787
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "similarity": 0.09453883767127991
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "similarity": 0.8517416715621948
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "similarity": 0.5722654461860657
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.16176654398441315
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "similarity": 0.5135418772697449
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "similarity": 0.6201561093330383
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "similarity": 0.47343558073043823
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "similarity": 0.008014938794076443
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "similarity": 0.6238008141517639
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.1852426826953888
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "similarity": 0.5399175882339478
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "similarity": 0.5836907625198364
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "similarity": 0.47001805901527405
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "similarity": 0.08439022302627563
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.20753353834152222
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "similarity": 0.669499933719635
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "similarity": 0.6138238310813904
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "similarity": 0.3786159157752991
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "similarity": 0.053468938916921616
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "similarity": 0.2790882885456085
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "similarity": 0.19437769055366516
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "similarity": 0.23615916073322296
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "similarity": 0.11429903656244278
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "similarity": 0.604049801826477
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "similarity": 0.38440006971359253
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "similarity": 0.07290299236774445
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "similarity": 0.3901236057281494
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "similarity": -0.03169367089867592
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_rabin/images/09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_rabin/images/10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg",
+      "similarity": 0.017818639054894447
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_photograph-of-prime-minister-yitzhak-rabin-of-israel-delivering-a-toast-at-a-state-dinner-held-in-his-honor-nara-7839997-cropped-jpg.jpg",
+      "02_yitzhak-rabin-1986-cropped-jpg.jpg",
+      "03_flickr-israel-defense-forces-life-of-lt-gen-yitzhak-rabin-7th-idf-chief-of-staff-cropped-jpg.jpg",
+      "04_4-novembre-1995-le-dernier-jour-d-yitzhak-rabin-lhistoire-fr.jpg",
+      "05_3-879-itzhak-rabin-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "06_646-yitzhak-rabin-square-stock-photos-high-res-pictures-and-images.jpg",
+      "07_tunes-for-an-assassination-danny-paller-the-blogs.jpg",
+      "08_portrait-de-yitzhak-rabin-en-mai-1992-j-rusalem-isra-l-news-photo.jpg",
+      "09_portrait-of-yitzhak-rabin-he-was-a-chief-of-staff-in-the-six-day.jpg",
+      "10_r-sum-et-casting-le-dernier-jour-d-yitzhak-rabin-film-drame-2h33-2015.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.48722246289253235,
+        0.43277159333229065,
+        0.44766315817832947,
+        0.5472148656845093,
+        0.15418890118598938,
+        0.47634732723236084,
+        0.5075207948684692,
+        0.5276983976364136,
+        -0.006132385227829218
+      ],
+      [
+        0.48722246289253235,
+        1.0,
+        0.49719297885894775,
+        0.5422714352607727,
+        0.5627403259277344,
+        0.09008922427892685,
+        0.48559457063674927,
+        0.5080409646034241,
+        0.45710811018943787,
+        0.09453883767127991
+      ],
+      [
+        0.43277159333229065,
+        0.49719297885894775,
+        1.0,
+        0.8517416715621948,
+        0.5722654461860657,
+        0.16176654398441315,
+        0.5135418772697449,
+        0.6201561093330383,
+        0.47343558073043823,
+        0.008014938794076443
+      ],
+      [
+        0.44766315817832947,
+        0.5422714352607727,
+        0.8517416715621948,
+        0.9999998807907104,
+        0.6238008141517639,
+        0.1852426826953888,
+        0.5399175882339478,
+        0.5836907625198364,
+        0.47001805901527405,
+        0.08439022302627563
+      ],
+      [
+        0.5472148656845093,
+        0.5627403259277344,
+        0.5722654461860657,
+        0.6238008141517639,
+        1.0,
+        0.20753353834152222,
+        0.669499933719635,
+        0.6138238310813904,
+        0.3786159157752991,
+        0.053468938916921616
+      ],
+      [
+        0.15418890118598938,
+        0.09008922427892685,
+        0.16176654398441315,
+        0.1852426826953888,
+        0.20753353834152222,
+        1.0,
+        0.2790882885456085,
+        0.19437769055366516,
+        0.23615916073322296,
+        0.11429903656244278
+      ],
+      [
+        0.47634732723236084,
+        0.48559457063674927,
+        0.5135418772697449,
+        0.5399175882339478,
+        0.669499933719635,
+        0.2790882885456085,
+        1.0,
+        0.604049801826477,
+        0.38440006971359253,
+        0.07290299236774445
+      ],
+      [
+        0.5075207948684692,
+        0.5080409646034241,
+        0.6201561093330383,
+        0.5836907625198364,
+        0.6138238310813904,
+        0.19437769055366516,
+        0.604049801826477,
+        0.9999999403953552,
+        0.3901236057281494,
+        -0.03169367089867592
+      ],
+      [
+        0.5276983976364136,
+        0.45710811018943787,
+        0.47343558073043823,
+        0.47001805901527405,
+        0.3786159157752991,
+        0.23615916073322296,
+        0.38440006971359253,
+        0.3901236057281494,
+        1.0000001192092896,
+        0.017818639054894447
+      ],
+      [
+        -0.006132385227829218,
+        0.09453883767127991,
+        0.008014938794076443,
+        0.08439022302627563,
+        0.053468938916921616,
+        0.11429903656244278,
+        0.07290299236774445,
+        -0.03169367089867592,
+        0.017818639054894447,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/yitzhak_rabin/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/yitzhak_rabin/portrait.jpg"
+    }
+  ]
+}

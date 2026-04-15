@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/sigmund_freud",
+  "meta_path": "/workspace/input/piven/data/sigmund_freud/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Sigmund Freud (born Sigismund Schlomo Freud; 6 May 1856 \u2013 23 September 1939) was an Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies arising from conflicts in the psyche through dialogue between patient and psychoanalyst, and the distinctive theory of mind and human agency derived from it. \nIn creating psychoanalysis Freud introduced therapeutic methods such as free association, the interpretation of dreams, and the analysis of  transference phenomena that arise in the clinical setting. Freud's redefinition of sexuality to include infantile stages led him to formulate the Oedipus complex as the central tenet of psychoanalytical theory. His analysis of dreams as wish fulfillments provided him with models for the clinical analysis of symptom formation and the underlying mechanisms of repression. Accordingly, on this basis, Freud elaborated his theory of the unconscious and went on to develop a model of psychic structure comprising id, ego, and superego (a tripartite model of the mind). Freud postulated the existence of libido (sexualised psychic energy), with which mental processes and structures are invested and that generates erotic attachments and a death drive, the source of compulsive repetition, hate, aggression, and neurotic guilt. In his later work, Freud developed a wide-ranging interpretation and critique of religion and culture.\nThough in overall decline as diagnostic and clinical practice, psychoanalysis remains influential within psychology, psychiatry, psychotherapy, and across the humanities. It thus continues to generate extensive and highly contested debate \nconcerning its therapeutic efficacy, its scientific status, and whether it advances or hinders the feminist cause. Nonetheless, Freud's work has suffused contemporary Western thought and popular culture. W. H. Auden's 1940 poetic tribute to Freud describes him as having created \"a whole climate of opinion / under whom we conduct our different lives\".",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "beaded glasses"
+    },
+    {
+      "index": 1,
+      "element": "brooches"
+    },
+    {
+      "index": 2,
+      "element": "lipstick"
+    },
+    {
+      "index": 3,
+      "element": "lace"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "therapy couch"
+    },
+    {
+      "index": 1,
+      "element": "spiral coil"
+    },
+    {
+      "index": 2,
+      "element": "dream mist"
+    },
+    {
+      "index": 3,
+      "element": "layered mask"
+    },
+    {
+      "index": 4,
+      "element": "inkblot card"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "beaded glasses",
+      "brooches",
+      "lipstick",
+      "lace"
+    ],
+    "values": [
+      [
+        0.09107246994972229,
+        -0.011609314940869808,
+        0.027303578332066536,
+        0.06678123772144318
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "therapy couch",
+      "spiral coil",
+      "dream mist",
+      "layered mask",
+      "inkblot card"
+    ],
+    "column_labels": [
+      "beaded glasses",
+      "brooches",
+      "lipstick",
+      "lace"
+    ],
+    "values": [
+      [
+        0.16857671737670898,
+        0.17451156675815582,
+        0.10229592025279999,
+        0.1360313892364502
+      ],
+      [
+        0.16494329273700714,
+        0.20387983322143555,
+        0.1210668534040451,
+        0.2597378194332123
+      ],
+      [
+        0.18891888856887817,
+        0.13011249899864197,
+        0.21544942259788513,
+        0.2014111429452896
+      ],
+      [
+        0.28439825773239136,
+        0.13434383273124695,
+        0.3745437264442444,
+        0.18967217206954956
+      ],
+      [
+        0.29112380743026733,
+        0.11812219023704529,
+        0.24799519777297974,
+        0.23969140648841858
+      ]
+    ]
+  }
+}

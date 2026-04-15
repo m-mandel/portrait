@@ -1,0 +1,100 @@
+{
+  "folder": "/workspace/input/piven/data/yitzhak_shamir",
+  "meta_path": "/workspace/input/piven/data/yitzhak_shamir/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Yitzhak Shamir (Hebrew: \u05d9\u05e6\u05d7\u05e7 \u05e9\u05de\u05d9\u05e8, ; born Yitzhak Yezernitsky; 22 October 1915 \u2013 30 June 2012) was an Israeli politician who served as the seventh prime minister of Israel, serving two terms (1983\u20131984, 1986\u20131992). Before the establishment of the State of Israel, Shamir was a leader of the Zionist terrorist group Lehi, also known as the Stern Gang.\nYitzhak Shamir grew up in interwar Poland. Shamir joined Betar, the paramilitary wing of Revisionist Zionist Ze'ev Jabotinsky's Hatzohar political party. In 1935, Shamir emigrated from Bia\u0142ystok to British Palestine, where he worked in an accountant's office. Shamir joined the Revisionist Zionist Irgun paramilitary group led by Menachem Begin. During World War II the Irgun split over the question of whether to support the Axis powers against the British Empire. Avraham Stern  and Shamir sought an alliance with Fascist Italy and Nazi Germany and formed the breakaway militia group Lehi. Lehi was unable to persuade the Axis powers to lend it support. Shamir led Lehi after Stern's assassination in 1942. In 1944 Shamir married Lehi member Shulamit Levy. During the 1948 Palestine war, Lehi and the Irgun committed the Deir Yassin massacre of over 100 Palestinians.\nAfter the establishment of the Israeli state Shamir served in Mossad between 1955 and 1965. Shamir directed Operation Damocles and resigned from Mossad after Prime Minister David Ben-Gurion ordered an end to the program. In 1969 Shamir joined Menachem Begin's Herut Party. Shamir was first elected to the Knesset in 1973 as a member of the Likud alliance of parties. Shamir served as Speaker of the Knesset after Likud became the first right-wing Israeli government after winning the 1977 Israeli legislative election against Prime Minister Shimon Peres' Alignment. Shamir was named Foreign Minister by Prime Minister Begin in 1980 and would serve in this post until 1986. Shamir was Foreign Minister during the 1982 Israel invasion of Lebanon.\nShamir won the 1983 Herut leadership election to succeed Begin as party leader, which made him Prime Minister and leader of the Likud after a merger. Prime Minister Yitzhak Shamir lost the 1984 election to Peres. Peres and Shamir entered into a grand coalition deal where Peres became prime minister while Shamir remained foreign minister until 1986, when Peres and Shamir traded jobs. The First Intifada began in 1987 and Shamir resisted a two-state solution to the Israeli\u2013Palestinian conflict. Shamir unified the Likud alliance into one party in 1988. Shamir reluctantly restarted the Israeli\u2013Palestinian peace process at the behest of the United States and Soviet Union which culminated in the Madrid Conference of 1991. Shamir lost the 1992 Israeli legislative election to Yitzhak Rabin and in 1993 Benjamin Netanyahu replaced him as Likud leader.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "barbed wire"
+    },
+    {
+      "index": 1,
+      "element": "striped fabric"
+    },
+    {
+      "index": 2,
+      "element": "star charms"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "podium block"
+    },
+    {
+      "index": 1,
+      "element": "ballot box"
+    },
+    {
+      "index": 2,
+      "element": "protest banner"
+    },
+    {
+      "index": 3,
+      "element": "warning ring"
+    },
+    {
+      "index": 4,
+      "element": "state seal"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "barbed wire",
+      "striped fabric",
+      "star charms"
+    ],
+    "values": [
+      [
+        0.016296133399009705,
+        0.013003239408135414,
+        -0.014104416593909264
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "podium block",
+      "ballot box",
+      "protest banner",
+      "warning ring",
+      "state seal"
+    ],
+    "column_labels": [
+      "barbed wire",
+      "striped fabric",
+      "star charms"
+    ],
+    "values": [
+      [
+        0.2697383761405945,
+        0.22787772119045258,
+        -0.023120369762182236
+      ],
+      [
+        0.213662788271904,
+        0.26796549558639526,
+        0.19558566808700562
+      ],
+      [
+        0.2508653700351715,
+        0.3031802177429199,
+        0.20391154289245605
+      ],
+      [
+        0.2547304332256317,
+        0.11622163653373718,
+        0.2548157870769501
+      ],
+      [
+        0.2752845883369446,
+        0.24910330772399902,
+        0.24189642071723938
+      ]
+    ]
+  }
+}

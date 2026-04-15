@@ -1,0 +1,160 @@
+{
+  "folder": "/workspace/input/noma_bar/data/yasser_arafat",
+  "meta_path": "/workspace/input/noma_bar/data/yasser_arafat/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Yasser Arafat (c.\u2009August 1929 \u2013 11 November 2004), also popularly known by his kunya Abu Ammar, was a Palestinian political leader. He was chairman of the Palestine Liberation Organization (PLO) from 1969 to 2004, President of Palestine from 1989 to 2004 and President of the Palestinian Authority (PNA) from 1994 to 2004. Ideologically an Arab nationalist and a socialist, Arafat was a founding member of the Fatah political party, which he led from 1959 until 2004.\nArafat was born to Palestinian parents in Cairo, Egypt, where he spent most of his youth. He studied at the University of King Fuad I. While a student, he embraced Arab nationalist and anti-Zionist ideas. Opposed to the 1948 creation of the State of Israel, he fought alongside the Muslim Brotherhood during the 1948 Arab\u2013Israeli War. Following the defeat of Arab forces, Arafat returned to Cairo and served as president of the General Union of Palestinian Students from 1952 to 1956.\nIn the latter part of the 1950s, Arafat co-founded Fatah, a paramilitary organization which sought Israel's replacement with a Palestinian state. Fatah operated within several Arab countries, from where it launched attacks on Israeli targets. In the latter part of the 1960s Arafat's profile grew; in 1967 he joined the Palestinian Liberation Organization (PLO) and in 1969 was elected chair of the Palestinian National Council (PNC). Fatah's growing presence in Jordan resulted in military clashes with King Hussein's Jordanian government and in the early 1970s it relocated to Lebanon. There, Fatah assisted the Lebanese National Movement during the Lebanese Civil War and continued its attacks on Israel, resulting in the organization becoming a major target of Israeli invasions during the 1978 South Lebanon conflict and 1982 Lebanon War.\nFrom 1983 to 1993, Arafat based himself in Tunisia, and began to shift his approach from open conflict with the Israelis to negotiation. In 1988, he acknowledged Israel's right to exist and sought a two-state solution to the Israeli\u2013Palestinian conflict. In 1994, he returned to Palestine, settling in Gaza City and promoting self-governance for the Palestinian territories. He engaged in a series of negotiations with the Israeli government to end the conflict between it and the PLO. These included the Madrid Conference of 1991, the 1993 Oslo Accords and the 2000 Camp David Summit. The success of the negotiations in Oslo led to Arafat being awarded the Nobel Peace Prize, alongside Israeli prime ministers Yitzhak Rabin and Shimon Peres, in 1994. At the time, Fatah's support among the Palestinians declined with the growth of Hamas and other militant rivals. In late 2004, after effectively being confined within his Ramallah compound for over two years by the Israeli army, Arafat fell into a coma and died. The cause of Arafat's death remains the subject of speculation. Investigations by Russian and French teams determined no foul play was involved, while a Swiss team determined he was radiologically poisoned.\nArafat remains a controversial figure. Palestinians generally view him as a martyr who symbolized the national aspirations of his people, while many Israelis regarded him as a terrorist. Palestinian rivals, including Islamists and several PLO radicals, frequently denounced him as corrupt or too submissive in his concessions to the Israeli government.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "green background field"
+    },
+    {
+      "index": 1,
+      "element": "patterned keffiyeh"
+    },
+    {
+      "index": 2,
+      "element": "curved black headband stripes"
+    },
+    {
+      "index": 3,
+      "element": "black ornamental nose symbol"
+    },
+    {
+      "index": 4,
+      "element": "red geometric lips"
+    },
+    {
+      "index": 5,
+      "element": "white arrow field across the cheek"
+    },
+    {
+      "index": 6,
+      "element": "black jacket blocks with green arrow accents"
+    },
+    {
+      "index": 7,
+      "element": "small black diamond at the chin"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "podium block"
+    },
+    {
+      "index": 1,
+      "element": "ballot box"
+    },
+    {
+      "index": 2,
+      "element": "state seal"
+    },
+    {
+      "index": 3,
+      "element": "flag field"
+    },
+    {
+      "index": 4,
+      "element": "medal bar"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "green background field",
+      "patterned keffiyeh",
+      "curved black headband stripes",
+      "black ornamental nose symbol",
+      "red geometric lips",
+      "white arrow field across the cheek",
+      "black jacket blocks with green arrow accents",
+      "small black diamond at the chin"
+    ],
+    "values": [
+      [
+        -0.0419921949505806,
+        0.22147820889949799,
+        0.028254985809326172,
+        -0.0004700124263763428,
+        0.02466847002506256,
+        -0.01817978173494339,
+        -0.02694717049598694,
+        -0.08294142782688141
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "podium block",
+      "ballot box",
+      "state seal",
+      "flag field",
+      "medal bar"
+    ],
+    "column_labels": [
+      "green background field",
+      "patterned keffiyeh",
+      "curved black headband stripes",
+      "black ornamental nose symbol",
+      "red geometric lips",
+      "white arrow field across the cheek",
+      "black jacket blocks with green arrow accents",
+      "small black diamond at the chin"
+    ],
+    "values": [
+      [
+        0.1710091233253479,
+        0.10558591037988663,
+        0.09087405353784561,
+        0.030179021880030632,
+        0.22983142733573914,
+        0.16762712597846985,
+        0.31238389015197754,
+        0.09177176654338837
+      ],
+      [
+        0.26059961318969727,
+        0.21319431066513062,
+        0.1948435753583908,
+        0.16539138555526733,
+        0.1500738263130188,
+        0.1511886566877365,
+        0.050707392394542694,
+        0.09990284591913223
+      ],
+      [
+        0.10554003715515137,
+        0.2490040361881256,
+        0.11408637464046478,
+        0.21157307922840118,
+        0.21606597304344177,
+        0.14641593396663666,
+        0.14776387810707092,
+        0.18591982126235962
+      ],
+      [
+        0.3987060785293579,
+        0.12857486307621002,
+        0.14145322144031525,
+        0.22041776776313782,
+        0.0648670494556427,
+        0.2067706137895584,
+        0.0017163455486297607,
+        0.08879286050796509
+      ],
+      [
+        0.1572086215019226,
+        0.14777705073356628,
+        0.16877102851867676,
+        0.14576512575149536,
+        0.07318126410245895,
+        0.23478613793849945,
+        0.2311783730983734,
+        0.2584613561630249
+      ]
+    ]
+  }
+}

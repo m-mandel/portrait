@@ -1,0 +1,80 @@
+{
+  "name": "ephraim sneh",
+  "bio": "Ephraim Sneh (Hebrew: אפרים סנה, romanized: Efraim Sneh, born 19 September 1944) is an Israeli politician, physician, and a retired brigadier general in the Israel Defense Forces. He was a member of the Knesset for the Labor Party between 1992 and 2008 and served in several ministerial posts. He headed the Yisrael Hazaka party, which he established in May 2008 but failed to pass the electoral threshold in the 2009 Israeli legislative election and has been inactive since then.",
+  "bio_sources": [
+    {
+      "subject": "ephraim sneh",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Efraim_Sneh"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "hairbrush",
+      "shape_type": "household object",
+      "meaning": "turns an everyday item into a facial feature, emphasizing the handmade reading of ephraim sneh's surgical precision and security-minded seriousness."
+    },
+    {
+      "element": "cutting board",
+      "shape_type": "household object",
+      "meaning": "turns an everyday item into a facial feature, emphasizing the handmade reading of ephraim sneh's surgical precision and security-minded seriousness."
+    },
+    {
+      "element": "springs",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing ephraim sneh's surgical precision and security-minded seriousness."
+    },
+    {
+      "element": "wood slices",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing ephraim sneh's surgical precision and security-minded seriousness."
+    },
+    {
+      "element": "screws",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing ephraim sneh's surgical precision and security-minded seriousness."
+    },
+    {
+      "element": "nail",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing ephraim sneh's surgical precision and security-minded seriousness."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "campaign current",
+      "visual_representation": "a directional sweep that suggests momentum through public space",
+      "category": "personality",
+      "relevance": "The biography supports a highly public, strategic civic persona.",
+      "grounding": "inferred"
+    }
+  ]
+}

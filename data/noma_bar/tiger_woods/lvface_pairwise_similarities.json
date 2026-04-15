@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/tiger_woods",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/tiger_woods/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+        "similarity": -0.042078688740730286
+      },
+      {
+        "index": 1,
+        "name": "02_tiger-woods-june-2014-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+        "similarity": -0.032229870557785034
+      },
+      {
+        "index": 2,
+        "name": "03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+        "similarity": -0.00881821196526289
+      },
+      {
+        "index": 3,
+        "name": "05_tiger-woods02-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+        "similarity": -0.04005098715424538
+      },
+      {
+        "index": 4,
+        "name": "07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+        "similarity": -0.003462237771600485
+      },
+      {
+        "index": 5,
+        "name": "07_tiger-woods-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+        "similarity": -0.00979117676615715
+      },
+      {
+        "index": 6,
+        "name": "08_tiger-woods-20180927-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+        "similarity": 0.24029354751110077
+      },
+      {
+        "index": 7,
+        "name": "09_2025-tiger-woods-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+        "similarity": -0.0179021917283535
+      },
+      {
+        "index": 8,
+        "name": "10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+        "similarity": 0.020727554336190224
+      },
+      {
+        "index": 9,
+        "name": "12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+        "similarity": -0.014141754247248173
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.042078688740730286,
+          -0.032229870557785034,
+          -0.00881821196526289,
+          -0.04005098715424538,
+          -0.003462237771600485,
+          -0.00979117676615715,
+          0.24029354751110077,
+          -0.0179021917283535,
+          0.020727554336190224,
+          -0.014141754247248173
+        ],
+        [
+          -0.042078688740730286,
+          1.0,
+          0.45907047390937805,
+          0.3853135406970978,
+          0.5954827070236206,
+          0.4978869557380676,
+          0.4917161166667938,
+          0.08394934982061386,
+          0.36991265416145325,
+          0.0038694203831255436,
+          0.4476621448993683
+        ],
+        [
+          -0.032229870557785034,
+          0.45907047390937805,
+          1.0000001192092896,
+          0.41158154606819153,
+          0.4236578643321991,
+          0.4999985694885254,
+          0.49815478920936584,
+          0.07657388597726822,
+          0.3199445307254791,
+          0.025568624958395958,
+          0.40684568881988525
+        ],
+        [
+          -0.00881821196526289,
+          0.3853135406970978,
+          0.41158154606819153,
+          1.0,
+          0.33172571659088135,
+          0.4126855731010437,
+          0.46199455857276917,
+          0.06696363538503647,
+          0.3179016709327698,
+          0.17307548224925995,
+          0.4086749255657196
+        ],
+        [
+          -0.04005098715424538,
+          0.5954827070236206,
+          0.4236578643321991,
+          0.33172571659088135,
+          1.0,
+          0.42663684487342834,
+          0.3895278871059418,
+          0.09657944738864899,
+          0.39458224177360535,
+          -0.03423985093832016,
+          0.4800996780395508
+        ],
+        [
+          -0.003462237771600485,
+          0.4978869557380676,
+          0.4999985694885254,
+          0.4126855731010437,
+          0.42663684487342834,
+          0.9999999403953552,
+          0.4696856439113617,
+          0.08340299129486084,
+          0.5301856398582458,
+          -0.002514614723622799,
+          0.4153745174407959
+        ],
+        [
+          -0.00979117676615715,
+          0.4917161166667938,
+          0.49815478920936584,
+          0.46199455857276917,
+          0.3895278871059418,
+          0.4696856439113617,
+          1.0,
+          0.10175740718841553,
+          0.5307143330574036,
+          0.023960400372743607,
+          0.41707372665405273
+        ],
+        [
+          0.24029354751110077,
+          0.08394934982061386,
+          0.07657388597726822,
+          0.06696363538503647,
+          0.09657944738864899,
+          0.08340299129486084,
+          0.10175740718841553,
+          1.0000001192092896,
+          0.06633614003658295,
+          -0.02324577048420906,
+          0.14004142582416534
+        ],
+        [
+          -0.0179021917283535,
+          0.36991265416145325,
+          0.3199445307254791,
+          0.3179016709327698,
+          0.39458224177360535,
+          0.5301856398582458,
+          0.5307143330574036,
+          0.06633614003658295,
+          1.0,
+          -0.024228308349847794,
+          0.35772520303726196
+        ],
+        [
+          0.020727554336190224,
+          0.0038694203831255436,
+          0.025568624958395958,
+          0.17307548224925995,
+          -0.03423985093832016,
+          -0.002514614723622799,
+          0.023960400372743607,
+          -0.02324577048420906,
+          -0.024228308349847794,
+          1.0000001192092896,
+          0.05387609452009201
+        ],
+        [
+          -0.014141754247248173,
+          0.4476621448993683,
+          0.40684568881988525,
+          0.4086749255657196,
+          0.4800996780395508,
+          0.4153745174407959,
+          0.41707372665405273,
+          0.14004142582416534,
+          0.35772520303726196,
+          0.05387609452009201,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg"
+    },
+    {
+      "name": "02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg"
+    },
+    {
+      "name": "05_tiger-woods02-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg"
+    },
+    {
+      "name": "07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_tiger-woods-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg"
+    },
+    {
+      "name": "08_tiger-woods-20180927-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg"
+    },
+    {
+      "name": "09_2025-tiger-woods-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "similarity": 0.45907047390937805
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "similarity": 0.3853135406970978
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+      "similarity": 0.5954827070236206
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "similarity": 0.4978869557380676
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+      "similarity": 0.4917161166667938
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+      "similarity": 0.08394934982061386
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+      "similarity": 0.36991265416145325
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "similarity": 0.0038694203831255436
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "similarity": 0.4476621448993683
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "similarity": 0.41158154606819153
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+      "similarity": 0.4236578643321991
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "similarity": 0.4999985694885254
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+      "similarity": 0.49815478920936584
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+      "similarity": 0.07657388597726822
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+      "similarity": 0.3199445307254791
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "similarity": 0.025568624958395958
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "similarity": 0.40684568881988525
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+      "similarity": 0.33172571659088135
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "similarity": 0.4126855731010437
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+      "similarity": 0.46199455857276917
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+      "similarity": 0.06696363538503647
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+      "similarity": 0.3179016709327698
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "similarity": 0.17307548224925995
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "similarity": 0.4086749255657196
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "similarity": 0.42663684487342834
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+      "similarity": 0.3895278871059418
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+      "similarity": 0.09657944738864899
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+      "similarity": 0.39458224177360535
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "similarity": -0.03423985093832016
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/05_tiger-woods02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "similarity": 0.4800996780395508
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+      "similarity": 0.4696856439113617
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+      "similarity": 0.08340299129486084
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+      "similarity": 0.5301856398582458
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "similarity": -0.002514614723622799
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "similarity": 0.4153745174407959
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+      "similarity": 0.10175740718841553
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+      "similarity": 0.5307143330574036
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "similarity": 0.023960400372743607
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/07_tiger-woods-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "similarity": 0.41707372665405273
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+      "similarity": 0.06633614003658295
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "similarity": -0.02324577048420906
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/08_tiger-woods-20180927-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "similarity": 0.14004142582416534
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "similarity": -0.024228308349847794
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/09_2025-tiger-woods-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "similarity": 0.35772520303726196
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tiger_woods/images/10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tiger_woods/images/12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg",
+      "similarity": 0.05387609452009201
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_us-navy-040303-n-5319a-016-crewmembers-photograph-professional-golfer-tiger-woods-as-he-walks-through-the-hanger-bay-of-the-nuclear-powered-aircraft-carrier-uss-george-washington-cvn-73-jpg.jpg",
+      "02_tiger-woods-june-2014-cropped-jpg.jpg",
+      "03_tiger-woods-arrest-photo-may-2017-jpg.jpg",
+      "05_tiger-woods02-jpg.jpg",
+      "07_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-cropped-jpg.jpg",
+      "07_tiger-woods-jpg.jpg",
+      "08_tiger-woods-20180927-jpg.jpg",
+      "09_2025-tiger-woods-cropped-jpg.jpg",
+      "10_president-trump-presents-the-medal-of-freedom-to-tiger-woods-47813420571-cropped-jpg.jpg",
+      "12_tiger-woods-signed-photo-collage-and-golf-ball-2013-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.45907047390937805,
+        0.3853135406970978,
+        0.5954827070236206,
+        0.4978869557380676,
+        0.4917161166667938,
+        0.08394934982061386,
+        0.36991265416145325,
+        0.0038694203831255436,
+        0.4476621448993683
+      ],
+      [
+        0.45907047390937805,
+        1.0000001192092896,
+        0.41158154606819153,
+        0.4236578643321991,
+        0.4999985694885254,
+        0.49815478920936584,
+        0.07657388597726822,
+        0.3199445307254791,
+        0.025568624958395958,
+        0.40684568881988525
+      ],
+      [
+        0.3853135406970978,
+        0.41158154606819153,
+        1.0,
+        0.33172571659088135,
+        0.4126855731010437,
+        0.46199455857276917,
+        0.06696363538503647,
+        0.3179016709327698,
+        0.17307548224925995,
+        0.4086749255657196
+      ],
+      [
+        0.5954827070236206,
+        0.4236578643321991,
+        0.33172571659088135,
+        1.0,
+        0.42663684487342834,
+        0.3895278871059418,
+        0.09657944738864899,
+        0.39458224177360535,
+        -0.03423985093832016,
+        0.4800996780395508
+      ],
+      [
+        0.4978869557380676,
+        0.4999985694885254,
+        0.4126855731010437,
+        0.42663684487342834,
+        0.9999999403953552,
+        0.4696856439113617,
+        0.08340299129486084,
+        0.5301856398582458,
+        -0.002514614723622799,
+        0.4153745174407959
+      ],
+      [
+        0.4917161166667938,
+        0.49815478920936584,
+        0.46199455857276917,
+        0.3895278871059418,
+        0.4696856439113617,
+        1.0,
+        0.10175740718841553,
+        0.5307143330574036,
+        0.023960400372743607,
+        0.41707372665405273
+      ],
+      [
+        0.08394934982061386,
+        0.07657388597726822,
+        0.06696363538503647,
+        0.09657944738864899,
+        0.08340299129486084,
+        0.10175740718841553,
+        1.0000001192092896,
+        0.06633614003658295,
+        -0.02324577048420906,
+        0.14004142582416534
+      ],
+      [
+        0.36991265416145325,
+        0.3199445307254791,
+        0.3179016709327698,
+        0.39458224177360535,
+        0.5301856398582458,
+        0.5307143330574036,
+        0.06633614003658295,
+        1.0,
+        -0.024228308349847794,
+        0.35772520303726196
+      ],
+      [
+        0.0038694203831255436,
+        0.025568624958395958,
+        0.17307548224925995,
+        -0.03423985093832016,
+        -0.002514614723622799,
+        0.023960400372743607,
+        -0.02324577048420906,
+        -0.024228308349847794,
+        1.0000001192092896,
+        0.05387609452009201
+      ],
+      [
+        0.4476621448993683,
+        0.40684568881988525,
+        0.4086749255657196,
+        0.4800996780395508,
+        0.4153745174407959,
+        0.41707372665405273,
+        0.14004142582416534,
+        0.35772520303726196,
+        0.05387609452009201,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/tiger_woods/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/tiger_woods/portrait.jpg"
+    }
+  ]
+}

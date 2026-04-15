@@ -1,0 +1,75 @@
+{
+  "name": "ned kelly",
+  "bio": "Edward Kelly (December 1854 – 11 November 1880) was an Australian bushranger, gang leader and police-murderer. One of the last bushrangers, he is known for wearing a suit of bulletproof armour during his final shootout with the police.\nKelly was born and raised in rural Victoria, the third of eight children to Irish parents. His father, a transported convict, died in 1866, leaving Kelly, then aged 12, as the eldest male of the household. The Kellys were a poor selector family who saw themselves as downtrodden by the squattocracy and as victims of persecution by the Victoria Police. While a teenager, Kelly was arrested for associating with bushranger Harry Power and served two prison terms for a variety of offences, the longest stretch being from 1871 to 1874. He later joined the \"Greta Mob\", a group of bush larrikins known for stock theft. A violent confrontation with a policeman occurred at the Kelly family's home in 1878, and Kelly was indicted for his attempted murder. Fleeing to the bush, Kelly vowed to avenge his mother, who was imprisoned for her role in the incident. After he, his brother Dan, and associates Joe Byrne and Steve Hart shot dead three policemen, the government of Victoria proclaimed them outlaws.\nKelly and his gang, with the help of a network of sympathisers, evaded the police for two years. The gang's crime spree included raids on Euroa and Jerilderie, and the killing of Aaron Sherritt, a sympathiser turned police informer. In a manifesto letter, Kelly—denouncing the police, the Victorian government and the British Empire—set down his own account of the events leading up to his outlawry. Demanding justice for his family and the rural poor, he threatened dire consequences for his enemies. In 1880, the gang tried to derail and ambush a police train as a prelude to attacking Benalla, the base of police operations in the region. The police, tipped off, confronted them at Glenrowan, where the gang held dozens of hostages in a hotel. In the ensuing 12-hour siege and gunfight, the outlaws wore armour fashioned from plough mouldboards. Kelly, the only gang member to survive, was severely wounded by police fire and captured. Despite thousands of supporters rallying and petitioning for his reprieve, Kelly was tried for murder, convicted and hanged at the Melbourne Gaol.\nHistorian Geoffrey Serle called Kelly and his gang \"the last expression of the lawless frontier in what was becoming a highly organised and educated society, the last protest of the mighty bush now tethered with iron rails to Melbourne and the world\". In the century after his death, Kelly became a cultural icon, inspiring numerous depictions in popular culture, and is the subject of more biographies than any other Australian. Kelly remains a divisive figure in Australia, regarded variously as a Robin Hood-like folk hero and symbol of national identity, or as a murderous villain and terrorist. The journalist Martin Flanagan wrote: \"What makes Ned a legend is not that everyone sees him the same—it's that everyone sees him. Like a bushfire on the horizon casting its red glow into the night.\"",
+  "bio_sources": [
+    {
+      "subject": "ned kelly",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Ned_Kelly"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "beige background field",
+      "shape_type": "rectangle",
+      "meaning": "echoes dust and outback dryness"
+    },
+    {
+      "element": "black helmet block",
+      "shape_type": "geometric shape",
+      "meaning": "references his armor and outlaw legend"
+    },
+    {
+      "element": "horizontal gun barrel through the visor slit",
+      "shape_type": "symbol",
+      "meaning": "merges the outlaw with weaponry"
+    },
+    {
+      "element": "red circle inside the barrel",
+      "shape_type": "circle",
+      "meaning": "creates a target-like threatening eye"
+    },
+    {
+      "element": "dark shoulder blocks",
+      "shape_type": "geometric shape",
+      "meaning": "anchor the armored figure with weight"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "iron helmet",
+      "visual_representation": "a blocky metal helmet with a narrow horizontal slit",
+      "category": "object",
+      "relevance": "The biography explicitly says he is known for wearing a suit of bulletproof armour.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "armour plates",
+      "visual_representation": "stacked rectangular metal plates fastened together",
+      "category": "material",
+      "relevance": "Bulletproof armour is directly described in the biography.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "horse silhouette",
+      "visual_representation": "a compact horse form in side profile",
+      "category": "domain",
+      "relevance": "Bushranger imagery is strongly associated with the outlaw world described in the biography.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "wanted poster",
+      "visual_representation": "a paper sheet with a bold header and rough edges",
+      "category": "domain",
+      "relevance": "The biography places him in the world of outlaw pursuit and public notoriety.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "gallows rope",
+      "visual_representation": "a coarse rope loop hanging in a simple arc",
+      "category": "event",
+      "relevance": "His biography belongs to the violent final era of bushrangers and execution.",
+      "grounding": "inferred"
+    }
+  ]
+}

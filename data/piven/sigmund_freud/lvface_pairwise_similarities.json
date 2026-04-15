@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/sigmund_freud",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/sigmund_freud/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+        "similarity": -0.029760930687189102
+      },
+      {
+        "index": 1,
+        "name": "02_sigmund-freud-1926-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+        "similarity": -0.015322048217058182
+      },
+      {
+        "index": 2,
+        "name": "03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+        "similarity": -0.05667848140001297
+      },
+      {
+        "index": 3,
+        "name": "04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+        "similarity": -0.012275297194719315
+      },
+      {
+        "index": 4,
+        "name": "05_sigmund-freud-portrait-on-craiyon.webp",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+        "similarity": -0.009822476655244827
+      },
+      {
+        "index": 5,
+        "name": "06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+        "similarity": -0.09960972517728806
+      },
+      {
+        "index": 6,
+        "name": "07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+        "similarity": -0.017130505293607712
+      },
+      {
+        "index": 7,
+        "name": "08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+        "similarity": -0.020656801760196686
+      },
+      {
+        "index": 8,
+        "name": "09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+        "similarity": -0.012912435457110405
+      },
+      {
+        "index": 9,
+        "name": "10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+        "path": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+        "similarity": 0.0033796753268688917
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.029760930687189102,
+          -0.015322048217058182,
+          -0.05667848140001297,
+          -0.012275297194719315,
+          -0.009822476655244827,
+          -0.09960972517728806,
+          -0.017130505293607712,
+          -0.020656801760196686,
+          -0.012912435457110405,
+          0.0033796753268688917
+        ],
+        [
+          -0.029760930687189102,
+          0.9999999403953552,
+          0.4469795823097229,
+          0.501646876335144,
+          0.4527389407157898,
+          0.3426543176174164,
+          0.47189754247665405,
+          0.05386751890182495,
+          0.6805220246315002,
+          0.8064584136009216,
+          0.28229543566703796
+        ],
+        [
+          -0.015322048217058182,
+          0.4469795823097229,
+          1.0000001192092896,
+          0.5405499935150146,
+          0.9209124445915222,
+          0.30145618319511414,
+          0.560321569442749,
+          0.08978381007909775,
+          0.5977620482444763,
+          0.5061376094818115,
+          0.32898783683776855
+        ],
+        [
+          -0.05667848140001297,
+          0.501646876335144,
+          0.5405499935150146,
+          1.0,
+          0.4899740517139435,
+          0.3396688997745514,
+          0.6432405710220337,
+          0.06894229352474213,
+          0.4371449649333954,
+          0.44343385100364685,
+          0.2897588014602661
+        ],
+        [
+          -0.012275297194719315,
+          0.4527389407157898,
+          0.9209124445915222,
+          0.4899740517139435,
+          1.0,
+          0.3157827854156494,
+          0.5302670001983643,
+          0.09725182503461838,
+          0.6261117458343506,
+          0.5145143270492554,
+          0.332547128200531
+        ],
+        [
+          -0.009822476655244827,
+          0.3426543176174164,
+          0.30145618319511414,
+          0.3396688997745514,
+          0.3157827854156494,
+          1.0000001192092896,
+          0.3537723124027252,
+          0.08001809567213058,
+          0.31377607583999634,
+          0.3337806165218353,
+          0.2326340675354004
+        ],
+        [
+          -0.09960972517728806,
+          0.47189754247665405,
+          0.560321569442749,
+          0.6432405710220337,
+          0.5302670001983643,
+          0.3537723124027252,
+          1.0,
+          0.06789076328277588,
+          0.4406452476978302,
+          0.4954053461551666,
+          0.32894235849380493
+        ],
+        [
+          -0.017130505293607712,
+          0.05386751890182495,
+          0.08978381007909775,
+          0.06894229352474213,
+          0.09725182503461838,
+          0.08001809567213058,
+          0.06789076328277588,
+          1.0000001192092896,
+          0.11159689724445343,
+          0.07700975984334946,
+          0.10411682724952698
+        ],
+        [
+          -0.020656801760196686,
+          0.6805220246315002,
+          0.5977620482444763,
+          0.4371449649333954,
+          0.6261117458343506,
+          0.31377607583999634,
+          0.4406452476978302,
+          0.11159689724445343,
+          1.0,
+          0.7305691242218018,
+          0.21020452678203583
+        ],
+        [
+          -0.012912435457110405,
+          0.8064584136009216,
+          0.5061376094818115,
+          0.44343385100364685,
+          0.5145143270492554,
+          0.3337806165218353,
+          0.4954053461551666,
+          0.07700975984334946,
+          0.7305691242218018,
+          1.0,
+          0.25263866782188416
+        ],
+        [
+          0.0033796753268688917,
+          0.28229543566703796,
+          0.32898783683776855,
+          0.2897588014602661,
+          0.332547128200531,
+          0.2326340675354004,
+          0.32894235849380493,
+          0.10411682724952698,
+          0.21020452678203583,
+          0.25263866782188416,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_sigmund-freud-1926-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp"
+    },
+    {
+      "name": "04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg"
+    },
+    {
+      "name": "05_sigmund-freud-portrait-on-craiyon.webp",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp"
+    },
+    {
+      "name": "06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg"
+    },
+    {
+      "name": "07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg"
+    },
+    {
+      "name": "08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png"
+    },
+    {
+      "name": "09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg"
+    },
+    {
+      "name": "10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "path": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+      "similarity": 0.4469795823097229
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "similarity": 0.501646876335144
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "similarity": 0.4527389407157898
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+      "similarity": 0.3426543176174164
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "similarity": 0.47189754247665405
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.05386751890182495
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "similarity": 0.6805220246315002
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "similarity": 0.8064584136009216
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "similarity": 0.28229543566703796
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "similarity": 0.5405499935150146
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "similarity": 0.9209124445915222
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+      "similarity": 0.30145618319511414
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "similarity": 0.560321569442749
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.08978381007909775
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "similarity": 0.5977620482444763
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "similarity": 0.5061376094818115
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/02_sigmund-freud-1926-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "similarity": 0.32898783683776855
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "similarity": 0.4899740517139435
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+      "similarity": 0.3396688997745514
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "similarity": 0.6432405710220337
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.06894229352474213
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "similarity": 0.4371449649333954
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "similarity": 0.44343385100364685
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "similarity": 0.2897588014602661
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+      "similarity": 0.3157827854156494
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "similarity": 0.5302670001983643
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.09725182503461838
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "similarity": 0.6261117458343506
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "similarity": 0.5145143270492554
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "similarity": 0.332547128200531
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "similarity": 0.3537723124027252
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.08001809567213058
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "similarity": 0.31377607583999634
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "similarity": 0.3337806165218353
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/05_sigmund-freud-portrait-on-craiyon.webp",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "similarity": 0.2326340675354004
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.06789076328277588
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "similarity": 0.4406452476978302
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "similarity": 0.4954053461551666
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "similarity": 0.32894235849380493
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "similarity": 0.11159689724445343
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "similarity": 0.07700975984334946
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "similarity": 0.10411682724952698
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "similarity": 0.7305691242218018
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "similarity": 0.21020452678203583
+    },
+    {
+      "left": "/workspace/input/piven/data/sigmund_freud/images/09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "right": "/workspace/input/piven/data/sigmund_freud/images/10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg",
+      "similarity": 0.25263866782188416
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_sigmund-freud-by-max-halberstadt-cropped-jpg.jpg",
+      "02_sigmund-freud-1926-cropped-jpg.jpg",
+      "03_austrian-psychoanalyst-sigmund-freud-1935-webp.webp",
+      "04_plus-de-30-photos-gratuites-de-sigmund-freud-et-de-freud-pixabay.jpg",
+      "05_sigmund-freud-portrait-on-craiyon.webp",
+      "06_portrait-of-sigmund-freud-by-max-halberstadt-circa-1921-stock-photo.jpg",
+      "07_sigmund-freud-portrait-stable-diffusion-online.jpg",
+      "08_pin-de-vladimir-krupnov-en-portraits-psicoanalisis-sigmund-freud.png",
+      "09_sigmund-freud-psychoanalysis-psychology-theory-britannica.jpg",
+      "10_sigmund-freud-dr-freud-psychology-wallpaper-art-psychology.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.4469795823097229,
+        0.501646876335144,
+        0.4527389407157898,
+        0.3426543176174164,
+        0.47189754247665405,
+        0.05386751890182495,
+        0.6805220246315002,
+        0.8064584136009216,
+        0.28229543566703796
+      ],
+      [
+        0.4469795823097229,
+        1.0000001192092896,
+        0.5405499935150146,
+        0.9209124445915222,
+        0.30145618319511414,
+        0.560321569442749,
+        0.08978381007909775,
+        0.5977620482444763,
+        0.5061376094818115,
+        0.32898783683776855
+      ],
+      [
+        0.501646876335144,
+        0.5405499935150146,
+        1.0,
+        0.4899740517139435,
+        0.3396688997745514,
+        0.6432405710220337,
+        0.06894229352474213,
+        0.4371449649333954,
+        0.44343385100364685,
+        0.2897588014602661
+      ],
+      [
+        0.4527389407157898,
+        0.9209124445915222,
+        0.4899740517139435,
+        1.0,
+        0.3157827854156494,
+        0.5302670001983643,
+        0.09725182503461838,
+        0.6261117458343506,
+        0.5145143270492554,
+        0.332547128200531
+      ],
+      [
+        0.3426543176174164,
+        0.30145618319511414,
+        0.3396688997745514,
+        0.3157827854156494,
+        1.0000001192092896,
+        0.3537723124027252,
+        0.08001809567213058,
+        0.31377607583999634,
+        0.3337806165218353,
+        0.2326340675354004
+      ],
+      [
+        0.47189754247665405,
+        0.560321569442749,
+        0.6432405710220337,
+        0.5302670001983643,
+        0.3537723124027252,
+        1.0,
+        0.06789076328277588,
+        0.4406452476978302,
+        0.4954053461551666,
+        0.32894235849380493
+      ],
+      [
+        0.05386751890182495,
+        0.08978381007909775,
+        0.06894229352474213,
+        0.09725182503461838,
+        0.08001809567213058,
+        0.06789076328277588,
+        1.0000001192092896,
+        0.11159689724445343,
+        0.07700975984334946,
+        0.10411682724952698
+      ],
+      [
+        0.6805220246315002,
+        0.5977620482444763,
+        0.4371449649333954,
+        0.6261117458343506,
+        0.31377607583999634,
+        0.4406452476978302,
+        0.11159689724445343,
+        1.0,
+        0.7305691242218018,
+        0.21020452678203583
+      ],
+      [
+        0.8064584136009216,
+        0.5061376094818115,
+        0.44343385100364685,
+        0.5145143270492554,
+        0.3337806165218353,
+        0.4954053461551666,
+        0.07700975984334946,
+        0.7305691242218018,
+        1.0,
+        0.25263866782188416
+      ],
+      [
+        0.28229543566703796,
+        0.32898783683776855,
+        0.2897588014602661,
+        0.332547128200531,
+        0.2326340675354004,
+        0.32894235849380493,
+        0.10411682724952698,
+        0.21020452678203583,
+        0.25263866782188416,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/sigmund_freud/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/sigmund_freud/portrait.jpg"
+    }
+  ]
+}

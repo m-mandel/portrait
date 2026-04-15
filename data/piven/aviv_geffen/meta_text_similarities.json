@@ -1,0 +1,88 @@
+{
+  "folder": "/workspace/input/piven/data/aviv_geffen",
+  "meta_path": "/workspace/input/piven/data/aviv_geffen/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Aviv Geffen (Hebrew: \u05d0\u05d1\u05d9\u05d1 \u05d2\u05e4\u05df; born 10 May 1973) is an Israeli rock musician, singer-songwriter, music producer and author. In addition to his solo career, Geffen performs with his band HaTauyot (the \"Mistakes\"). He is the co-founding member of the band Blackfield along with Steven Wilson                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           . He was also the global music director for WeWork.\nGeffen was popular among Israeli youth who were known during the 1990s as the \"Moonlight Children\" (\u05d9\u05dc\u05d3\u05d9 \u05d0\u05d5\u05e8 \u05d4\u05d9\u05e8\u05d7). Politically, he associates with the Israeli left. His music deals with subjects such as love, peace, death, suicide, politics, and the army (in particular, the IDF). He is often criticized for singing about the IDF while not having served, though he was discharged for medical reasons.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "eyeglass frames"
+    },
+    {
+      "index": 1,
+      "element": "ketchup bottle"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 1,
+      "element": "vinyl record"
+    },
+    {
+      "index": 2,
+      "element": "medal bar"
+    },
+    {
+      "index": 3,
+      "element": "stage lights"
+    },
+    {
+      "index": 4,
+      "element": "spotlight oval"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "eyeglass frames",
+      "ketchup bottle"
+    ],
+    "values": [
+      [
+        0.010172203183174133,
+        -0.04081731289625168
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "microphone silhouette",
+      "vinyl record",
+      "medal bar",
+      "stage lights",
+      "spotlight oval"
+    ],
+    "column_labels": [
+      "eyeglass frames",
+      "ketchup bottle"
+    ],
+    "values": [
+      [
+        0.20571404695510864,
+        0.1250002682209015
+      ],
+      [
+        0.0592721588909626,
+        0.09027557820081711
+      ],
+      [
+        0.11775917559862137,
+        0.1581190526485443
+      ],
+      [
+        0.2594783902168274,
+        0.11060796678066254
+      ],
+      [
+        0.22401586174964905,
+        0.1596079170703888
+      ]
+    ]
+  }
+}

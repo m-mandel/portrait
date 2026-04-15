@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/piven/data/bill_clinton",
+  "meta_path": "/workspace/input/piven/data/bill_clinton/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "William Jefferson  Clinton (n\u00e9 Blythe III; born August 19, 1946) is an American politician and lawyer  who served as the 42nd president of the United States from 1993 to 2001. A member of the Democratic Party, he previously served as the attorney general of Arkansas from 1977 to 1979 and as the governor of Arkansas from 1979 to 1981, and again from 1983 to 1992. His centrist \"Third Way\" political philosophy became known as Clintonism, which dominated his presidency and the succeeding decades of Democratic Party history.\nBorn and raised in Arkansas, Clinton graduated from Georgetown University in 1968, and later from Yale Law School, where he met his future wife, Hillary Rodham. After graduating from law school, Clinton returned to Arkansas and won election as state attorney general, followed by two non-consecutive tenures as Arkansas governor. As governor, he overhauled the state's education system and served as chairman of the National Governors Association. Running as a \"New Democrat\", Clinton was elected president in the 1992 election, defeating the incumbent Republican president George H. W. Bush, and the independent businessman Ross Perot. He became the first president to be born in the Baby Boomer generation and the youngest to serve two full terms.\nClinton presided over the second longest period of peacetime economic expansion in American history. He signed into law the North American Free Trade Agreement, the Brady Handgun Violence Prevention Act and the Violent Crime Control and Law Enforcement Act but failed to pass his plan for national health care reform, and accepted a controversial compromise policy to his original plan to allow gay and lesbian servicemembers serve openly in the military. Starting in the mid-1990s, after Democrats were soundly defeated in the 1994 midterms, he began an ideological evolution as he became much more conservative in his domestic policy, advocating for and signing the Personal Responsibility and Work Opportunity Act and Republican-led financial deregulation measures, while still championing liberal policy such as the State Children's Health Insurance Program. He appointed Ruth Bader Ginsburg and Stephen Breyer to the U.S. Supreme Court. In foreign policy, Clinton ordered U.S. military intervention in the Bosnian and Kosovo wars, eventually signing the Dayton Peace agreement. He also called for the expansion of NATO in Eastern Europe and many former Warsaw Pact members joined NATO during his presidency. Clinton's foreign policy in the Middle East saw him sign the Iraq Liberation Act which gave aid to groups against Saddam Hussein. He also participated in the Oslo I Accord and Camp David Summit to advance the Israeli\u2013Palestinian peace process, and assisted the Northern Ireland peace process.\nClinton won re-election in the 1996 election, defeating Republican nominee Bob Dole and returning Reform Party nominee Ross Perot. In his second term, Clinton made use of permanent normal trade. Many of his second term accomplishments were overshadowed by his highly publicised affair with White House intern Monica Lewinsky, when it was revealed in early 1998 that the two had been engaging in an eighteen-month-long sexual relationship. This scandal escalated throughout the year, culminating in December when Clinton was impeached by the House of Representatives, becoming the first U.S. president to be impeached since Andrew Johnson. The two impeachment articles that the House passed were centered around perjury and Clinton using the powers of the presidency to commit obstruction of justice. In January 1999, Clinton's impeachment trial began in the Senate, where he was acquitted two months later on both charges. During the last three years of Clinton's presidency, the Congressional Budget Office reported a budget surplus\u2014the first and only such surplus since 1969.\nClinton left office in 2001 with the joint-highest approval rating of any U.S. president. His presidency ranks among the middle to upper tier in historical rankings of U.S. presidents. His personal conduct and misconduct allegations have made him the subject of substantial scrutiny. Since leaving office, Clinton has been involved in public speaking and humanitarian work. He created the Clinton Foundation to address international causes such as the prevention of HIV/AIDS and global warming. In 2009, he was named the United Nations special envoy to Haiti. After the 2010 Haiti earthquake, Clinton founded the Clinton Bush Haiti Fund with George W. Bush. He has remained active in Democratic Party politics, campaigning for his wife's 2008 and 2016 presidential campaigns. Following Jimmy Carter's death in December 2024, he is the earliest-serving living former U.S. president and the last surviving president to have served in the 20th century.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "tablets"
+    },
+    {
+      "index": 1,
+      "element": "bottle caps"
+    },
+    {
+      "index": 2,
+      "element": "buttons"
+    },
+    {
+      "index": 3,
+      "element": "marshmallow"
+    },
+    {
+      "index": 4,
+      "element": "candies"
+    },
+    {
+      "index": 5,
+      "element": "flexible hose"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "court bench"
+    },
+    {
+      "index": 1,
+      "element": "gavel block"
+    },
+    {
+      "index": 2,
+      "element": "scales emblem"
+    },
+    {
+      "index": 3,
+      "element": "podium block"
+    },
+    {
+      "index": 4,
+      "element": "circuit grid"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "tablets",
+      "bottle caps",
+      "buttons",
+      "marshmallow",
+      "candies",
+      "flexible hose"
+    ],
+    "values": [
+      [
+        0.020165055990219116,
+        0.028337810188531876,
+        -0.027383361011743546,
+        0.11276467889547348,
+        0.10013112425804138,
+        0.12547585368156433
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "court bench",
+      "gavel block",
+      "scales emblem",
+      "podium block",
+      "circuit grid"
+    ],
+    "column_labels": [
+      "tablets",
+      "bottle caps",
+      "buttons",
+      "marshmallow",
+      "candies",
+      "flexible hose"
+    ],
+    "values": [
+      [
+        0.24045699834823608,
+        0.1620572805404663,
+        0.11559648811817169,
+        0.17083556950092316,
+        0.03473425284028053,
+        0.10002824664115906
+      ],
+      [
+        0.16753169894218445,
+        0.11569656431674957,
+        0.1747666895389557,
+        0.15562766790390015,
+        0.17674678564071655,
+        -0.039428744465112686
+      ],
+      [
+        0.06752102077007294,
+        0.2544151544570923,
+        0.21701087057590485,
+        0.13521891832351685,
+        0.13303342461585999,
+        -0.035463325679302216
+      ],
+      [
+        0.1504647135734558,
+        0.2498612403869629,
+        0.295212984085083,
+        -0.03346918523311615,
+        0.05326579511165619,
+        0.026937201619148254
+      ],
+      [
+        0.10226614773273468,
+        -0.005973786115646362,
+        0.2541104555130005,
+        0.016096925362944603,
+        0.17852157354354858,
+        0.02745477482676506
+      ]
+    ]
+  }
+}

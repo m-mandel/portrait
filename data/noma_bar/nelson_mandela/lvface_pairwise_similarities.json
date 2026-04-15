@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/nelson_mandela",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/nelson_mandela/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_nelson-mandela-2000-5-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg",
+        "similarity": 0.014855103567242622
+      },
+      {
+        "index": 1,
+        "name": "02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+        "similarity": -0.008223896846175194
+      },
+      {
+        "index": 2,
+        "name": "03_nelson-mandela-1994-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg",
+        "similarity": 0.03328906372189522
+      },
+      {
+        "index": 3,
+        "name": "05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+        "similarity": -0.0048578097485005856
+      },
+      {
+        "index": 4,
+        "name": "06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+        "similarity": 0.006137000396847725
+      },
+      {
+        "index": 5,
+        "name": "07_nelson-mandela-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg",
+        "similarity": 0.005067721474915743
+      },
+      {
+        "index": 6,
+        "name": "08_nelson-mandela-full-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg",
+        "similarity": -0.005915644578635693
+      },
+      {
+        "index": 7,
+        "name": "11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+        "similarity": -0.0014261486940085888
+      },
+      {
+        "index": 8,
+        "name": "12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+        "similarity": -0.007855772972106934
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.014855103567242622,
+          -0.008223896846175194,
+          0.03328906372189522,
+          -0.0048578097485005856,
+          0.006137000396847725,
+          0.005067721474915743,
+          -0.005915644578635693,
+          -0.0014261486940085888,
+          -0.007855772972106934
+        ],
+        [
+          0.014855103567242622,
+          0.9999999403953552,
+          0.39710330963134766,
+          0.5388720035552979,
+          0.0885874330997467,
+          0.1860082447528839,
+          0.5160531997680664,
+          0.37169191241264343,
+          0.44161516427993774,
+          0.24018795788288116
+        ],
+        [
+          -0.008223896846175194,
+          0.39710330963134766,
+          1.0000001192092896,
+          0.5088447332382202,
+          0.09535372257232666,
+          0.15686558187007904,
+          0.47787147760391235,
+          0.7426989078521729,
+          0.41113221645355225,
+          0.31153586506843567
+        ],
+        [
+          0.03328906372189522,
+          0.5388720035552979,
+          0.5088447332382202,
+          0.9999999403953552,
+          0.07838885486125946,
+          0.16724851727485657,
+          0.5321099758148193,
+          0.5390975475311279,
+          0.5330788493156433,
+          0.2867860198020935
+        ],
+        [
+          -0.0048578097485005856,
+          0.0885874330997467,
+          0.09535372257232666,
+          0.07838885486125946,
+          1.0,
+          0.09046418219804764,
+          0.09388681501150131,
+          0.09247764945030212,
+          0.06935274600982666,
+          0.08016178756952286
+        ],
+        [
+          0.006137000396847725,
+          0.1860082447528839,
+          0.15686558187007904,
+          0.16724851727485657,
+          0.09046418219804764,
+          1.0,
+          0.21117468178272247,
+          0.18554764986038208,
+          0.19675320386886597,
+          0.3779137432575226
+        ],
+        [
+          0.005067721474915743,
+          0.5160531997680664,
+          0.47787147760391235,
+          0.5321099758148193,
+          0.09388681501150131,
+          0.21117468178272247,
+          1.0,
+          0.4129684269428253,
+          0.4115789532661438,
+          0.3157098591327667
+        ],
+        [
+          -0.005915644578635693,
+          0.37169191241264343,
+          0.7426989078521729,
+          0.5390975475311279,
+          0.09247764945030212,
+          0.18554764986038208,
+          0.4129684269428253,
+          1.0000001192092896,
+          0.5412003397941589,
+          0.23440097272396088
+        ],
+        [
+          -0.0014261486940085888,
+          0.44161516427993774,
+          0.41113221645355225,
+          0.5330788493156433,
+          0.06935274600982666,
+          0.19675320386886597,
+          0.4115789532661438,
+          0.5412003397941589,
+          1.0000001192092896,
+          0.29833677411079407
+        ],
+        [
+          -0.007855772972106934,
+          0.24018795788288116,
+          0.31153586506843567,
+          0.2867860198020935,
+          0.08016178756952286,
+          0.3779137432575226,
+          0.3157098591327667,
+          0.23440097272396088,
+          0.29833677411079407,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_nelson-mandela-1994-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg"
+    },
+    {
+      "name": "05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg"
+    },
+    {
+      "name": "06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg"
+    },
+    {
+      "name": "07_nelson-mandela-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_nelson-mandela-full-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg"
+    },
+    {
+      "name": "11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "similarity": 0.39710330963134766
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg",
+      "similarity": 0.5388720035552979
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "similarity": 0.0885874330997467
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "similarity": 0.1860082447528839
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg",
+      "similarity": 0.5160531997680664
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg",
+      "similarity": 0.37169191241264343
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "similarity": 0.44161516427993774
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+      "similarity": 0.24018795788288116
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg",
+      "similarity": 0.5088447332382202
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "similarity": 0.09535372257232666
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "similarity": 0.15686558187007904
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg",
+      "similarity": 0.47787147760391235
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg",
+      "similarity": 0.7426989078521729
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "similarity": 0.41113221645355225
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+      "similarity": 0.31153586506843567
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "similarity": 0.07838885486125946
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "similarity": 0.16724851727485657
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg",
+      "similarity": 0.5321099758148193
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg",
+      "similarity": 0.5390975475311279
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "similarity": 0.5330788493156433
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/03_nelson-mandela-1994-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+      "similarity": 0.2867860198020935
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "similarity": 0.09046418219804764
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg",
+      "similarity": 0.09388681501150131
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg",
+      "similarity": 0.09247764945030212
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "similarity": 0.06935274600982666
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+      "similarity": 0.08016178756952286
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg",
+      "similarity": 0.21117468178272247
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg",
+      "similarity": 0.18554764986038208
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "similarity": 0.19675320386886597
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+      "similarity": 0.3779137432575226
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg",
+      "similarity": 0.4129684269428253
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "similarity": 0.4115789532661438
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/07_nelson-mandela-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+      "similarity": 0.3157098591327667
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "similarity": 0.5412003397941589
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-full-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+      "similarity": 0.23440097272396088
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nelson_mandela/images/11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nelson_mandela/images/12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg",
+      "similarity": 0.29833677411079407
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_nelson-mandela-2000-5-cropped-jpg.jpg",
+      "02_nelson-mandela-2008-edit-cropped-jpg.jpg",
+      "03_nelson-mandela-1994-jpg.jpg",
+      "05_nelson-mandela-walk-photo-by-djuradj-vujcic-jpg.jpg",
+      "06_glasgow-city-chambers-nelson-mandela-1-jpg.jpg",
+      "07_nelson-mandela-cropped-jpg.jpg",
+      "08_nelson-mandela-full-cropped-jpg.jpg",
+      "11_niall-andrews-and-nelson-mandela-june-1990-cropped-jpg.jpg",
+      "12_bust-of-nelson-mandela-national-portrait-gallery-london-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.39710330963134766,
+        0.5388720035552979,
+        0.0885874330997467,
+        0.1860082447528839,
+        0.5160531997680664,
+        0.37169191241264343,
+        0.44161516427993774,
+        0.24018795788288116
+      ],
+      [
+        0.39710330963134766,
+        1.0000001192092896,
+        0.5088447332382202,
+        0.09535372257232666,
+        0.15686558187007904,
+        0.47787147760391235,
+        0.7426989078521729,
+        0.41113221645355225,
+        0.31153586506843567
+      ],
+      [
+        0.5388720035552979,
+        0.5088447332382202,
+        0.9999999403953552,
+        0.07838885486125946,
+        0.16724851727485657,
+        0.5321099758148193,
+        0.5390975475311279,
+        0.5330788493156433,
+        0.2867860198020935
+      ],
+      [
+        0.0885874330997467,
+        0.09535372257232666,
+        0.07838885486125946,
+        1.0,
+        0.09046418219804764,
+        0.09388681501150131,
+        0.09247764945030212,
+        0.06935274600982666,
+        0.08016178756952286
+      ],
+      [
+        0.1860082447528839,
+        0.15686558187007904,
+        0.16724851727485657,
+        0.09046418219804764,
+        1.0,
+        0.21117468178272247,
+        0.18554764986038208,
+        0.19675320386886597,
+        0.3779137432575226
+      ],
+      [
+        0.5160531997680664,
+        0.47787147760391235,
+        0.5321099758148193,
+        0.09388681501150131,
+        0.21117468178272247,
+        1.0,
+        0.4129684269428253,
+        0.4115789532661438,
+        0.3157098591327667
+      ],
+      [
+        0.37169191241264343,
+        0.7426989078521729,
+        0.5390975475311279,
+        0.09247764945030212,
+        0.18554764986038208,
+        0.4129684269428253,
+        1.0000001192092896,
+        0.5412003397941589,
+        0.23440097272396088
+      ],
+      [
+        0.44161516427993774,
+        0.41113221645355225,
+        0.5330788493156433,
+        0.06935274600982666,
+        0.19675320386886597,
+        0.4115789532661438,
+        0.5412003397941589,
+        1.0000001192092896,
+        0.29833677411079407
+      ],
+      [
+        0.24018795788288116,
+        0.31153586506843567,
+        0.2867860198020935,
+        0.08016178756952286,
+        0.3779137432575226,
+        0.3157098591327667,
+        0.23440097272396088,
+        0.29833677411079407,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/nelson_mandela/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-as-a-freedom-fighter-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/nelson_mandela/images/08_nelson-mandela-as-a-freedom-fighter-jpg.jpg"
+    }
+  ]
+}

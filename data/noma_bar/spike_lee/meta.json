@@ -1,0 +1,85 @@
+{
+  "name": "spike lee",
+  "bio": "Shelton Jackson \"Spike\" Lee (born March 20, 1957) is an American filmmaker and actor. His work has continually explored race relations, issues within the black community, the role of media in contemporary life, urban crime and poverty, and other political issues. Lee received numerous accolades for his work, including an Academy Award, a British Academy Film Award, two Primetime Emmy Awards, and two Peabody Awards as well as nominations for three Golden Globe Awards and a Grammy Award.\nLee studied filmmaking at both Morehouse College and New York University Tisch School of the Arts, where he directed his student film Joe's Bed-Stuy Barbershop: We Cut Heads (1983), which won a Student Academy Award. He later started the production company, 40 Acres and a Mule Filmworks, where he has produced more than 35 films. He made his directorial debut with the comedy She's Gotta Have It (1986). He received widespread critical acclaim for the drama Do the Right Thing (1989), for which he was nominated for the Academy Award for Best Original Screenplay. He directed the historical epic Malcolm X (1992), which was nominated for the Berlin International Film Festival's Golden Bear. With the biographical crime dramedy BlacKkKlansman (2018), he won the Academy Award for Best Adapted Screenplay and the Cannes Film Festival Grand Prix Award.\nHe has also written and directed films such as School Daze (1988), Mo' Better Blues (1990), Jungle Fever (1991), Crooklyn (1994), Clockers (1995), Bamboozled (2000), 25th Hour (2002), Inside Man (2006), Chi-Raq (2015), Da 5 Bloods (2020), and Highest 2 Lowest (2025). Lee has also acted in eleven of his feature films. He is also known for directing numerous documentary projects including 4 Little Girls (1997), which was nominated for the Academy Award for Best Documentary Feature Film. He directed the HBO series When the Levees Broke (2006), which won two Primetime Emmy Awards for Outstanding Directing for a Documentary/Nonfiction Program and Exceptional Merit in Documentary Filmmaking. He also directed the HBO documentary If God Is Willing and da Creek Don't Rise (2010) and the David Byrne concert film American Utopia (2020).\nLee has received several honors including the Honorary BAFTA Award in 2002, an Honorary César in 2003, the Academy Honorary Award in 2015, and the National Medal of Arts in 2023. Five of his films have been selected by the Library of Congress for preservation in the National Film Registry for being \"culturally, historically, or aesthetically significant\". He has received a Gala Tribute from the Film Society of Lincoln Center as well as the Dorothy and Lillian Gish Prize. His films have featured breakthrough performances from actors such as Denzel Washington, Laurence Fishburne, Samuel L. Jackson, Giancarlo Esposito, Rosie Perez, Delroy Lindo, John Turturro, and John David Washington.",
+  "bio_sources": [
+    {
+      "subject": "spike lee",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Spike_Lee"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "deep brown background field",
+      "shape_type": "rectangle",
+      "meaning": "evokes dark theater space"
+    },
+    {
+      "element": "film-strip hair",
+      "shape_type": "film strip",
+      "meaning": "makes cinema his defining material"
+    },
+    {
+      "element": "film-strip glasses",
+      "shape_type": "symbol",
+      "meaning": "suggest he sees the world through film"
+    },
+    {
+      "element": "film-strip goatee and beard",
+      "shape_type": "symbol",
+      "meaning": "extends filmmaking into facial identity"
+    },
+    {
+      "element": "slanted film-strip eyebrows",
+      "shape_type": "symbol",
+      "meaning": "add argumentative intensity"
+    },
+    {
+      "element": "small white earring",
+      "shape_type": "circle",
+      "meaning": "adds personal style and specificity"
+    },
+    {
+      "element": "brown face silhouette",
+      "shape_type": "organic shape",
+      "meaning": "anchors the symbolic collage into a portrait"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen performance define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "film strip",
+      "visual_representation": "a narrow strip with evenly spaced rectangular frames",
+      "category": "object",
+      "relevance": "Cinema and edited moving images belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "clapboard",
+      "visual_representation": "a hinged slate with diagonal stripes on its top edge",
+      "category": "object",
+      "relevance": "Film sets and screen production are strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "projector beam",
+      "visual_representation": "a clean triangular beam of projected light",
+      "category": "shape",
+      "relevance": "The biography supports a public identity centered on image-making and spectacle.",
+      "grounding": "inferred"
+    }
+  ]
+}

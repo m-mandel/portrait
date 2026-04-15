@@ -1,0 +1,75 @@
+{
+  "name": "david levy",
+  "bio": "David Levy may refer to:\n\nDavid A. Levy (born 1953), American politician\nDavid Benjamin Levy (fl. 2000s), American musicologist\nDavid H. Levy (born 1948), Canadian astronomer and science writer\nDavid Levy Yulee (1810–1886), American politician and attorney\nDavid L. Levy (1936–2014), children's rights activist\nDavid Levy (chess player) (born 1945), British chess player\nDavid Levy (historian) (born 1937), American historian\nDavid Levy (inventor) (born c. 1962), American inventor\nDavid Levy (Israeli politician) (1937–2024), Israeli politician\nDavid Levy (psychologist) (born 1954), American psychologist, author, actor\nDavid Levy (footballer) (born 1963), Israeli footballer\nDavid Levy (economist), American economist and author\nDavid Guy Levy, president and CEO of Periscope Entertainment\nDavid Levy, former CEO of the Brooklyn Nets and former president of the Turner Broadcasting System\nDavid M. Levy, American computer scientist\nDavid C. Levy (born 1938), museum director\nDavid Levy, creator and executive producer of The Addams Family (1964 TV series)",
+  "bio_sources": [
+    {
+      "subject": "david levy",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/David_Levy"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "mop",
+      "shape_type": "household object",
+      "meaning": "turns an everyday item into a facial feature, emphasizing the handmade reading of david levy's populist political warmth."
+    },
+    {
+      "element": "mop handle",
+      "shape_type": "household object",
+      "meaning": "turns an everyday item into a facial feature, emphasizing the handmade reading of david levy's populist political warmth."
+    },
+    {
+      "element": "toy eyes",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen david levy's populist political warmth."
+    },
+    {
+      "element": "wire glasses",
+      "shape_type": "wearable object",
+      "meaning": "helps anchor the gaze and reinforces david levy's populist political warmth."
+    },
+    {
+      "element": "balloon",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen david levy's populist political warmth."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "split nameplate",
+      "visual_representation": "repeated name labels arranged in a staggered stack",
+      "category": "identity",
+      "relevance": "The biography is a disambiguation list built around one shared name.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "branching index",
+      "visual_representation": "forking lines that divide into many labeled paths",
+      "category": "structure",
+      "relevance": "The text separates multiple distinct people and professions connected to the same name.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "list column",
+      "visual_representation": "stacked rows arranged as a tall reference list",
+      "category": "pattern",
+      "relevance": "The biography is presented as a list of possible referents.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "directory tabs",
+      "visual_representation": "small side tabs attached to a column of entries",
+      "category": "object",
+      "relevance": "The page functions like an index or directory rather than a single biography.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "orbit of roles",
+      "visual_representation": "small distinct icons circling a common center",
+      "category": "concept",
+      "relevance": "Many public roles are grouped under one repeated identity label.",
+      "grounding": "inferred"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/nick_hornby",
+  "meta_path": "/workspace/input/noma_bar/data/nick_hornby/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Nicholas Peter John Hornby (born 17 April 1957) is an English writer. He is best known for his memoir Fever Pitch (1992) and novels High Fidelity (1995) and About a Boy (1998), all of which were adapted into feature films. Hornby's work frequently touches upon music, sport, and the aimless and obsessive natures of his protagonists. His books have sold more than 5 million copies worldwide as of 2018. In a 2004 poll for the BBC, Hornby was named the 29th most influential person in British culture. He has received two Academy Award for Best Adapted Screenplay nominations for An Education (2009), and Brooklyn (2015).",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "red background field"
+    },
+    {
+      "index": 1,
+      "element": "pale blue bald head"
+    },
+    {
+      "index": 2,
+      "element": "black nose formed like a tonearm"
+    },
+    {
+      "index": 3,
+      "element": "small hanging disc-like eye"
+    },
+    {
+      "index": 4,
+      "element": "spiral ear"
+    },
+    {
+      "index": 5,
+      "element": "curved smile lines"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "book stack"
+    },
+    {
+      "index": 2,
+      "element": "typewriter keys"
+    },
+    {
+      "index": 3,
+      "element": "open book"
+    },
+    {
+      "index": 4,
+      "element": "ink pen"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "red background field",
+      "pale blue bald head",
+      "black nose formed like a tonearm",
+      "small hanging disc-like eye",
+      "spiral ear",
+      "curved smile lines"
+    ],
+    "values": [
+      [
+        0.03223608434200287,
+        0.09366784244775772,
+        0.07176527380943298,
+        -0.07116186618804932,
+        0.09532171487808228,
+        -0.03668809309601784
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "book stack",
+      "typewriter keys",
+      "open book",
+      "ink pen"
+    ],
+    "column_labels": [
+      "red background field",
+      "pale blue bald head",
+      "black nose formed like a tonearm",
+      "small hanging disc-like eye",
+      "spiral ear",
+      "curved smile lines"
+    ],
+    "values": [
+      [
+        0.25222742557525635,
+        0.3402734100818634,
+        0.1407807171344757,
+        0.19601058959960938,
+        0.12281784415245056,
+        0.19517149031162262
+      ],
+      [
+        0.08937852829694748,
+        0.19495555758476257,
+        -0.0074599310755729675,
+        0.04292381554841995,
+        0.10253088921308517,
+        0.0002232138067483902
+      ],
+      [
+        0.05111950263381004,
+        0.11569743603467941,
+        0.08069725334644318,
+        0.08389674872159958,
+        0.1072518527507782,
+        0.08663632720708847
+      ],
+      [
+        0.09068487584590912,
+        0.10035232454538345,
+        0.005038756877183914,
+        0.07805052399635315,
+        0.10754409432411194,
+        0.049535974860191345
+      ],
+      [
+        0.12749481201171875,
+        0.2045835256576538,
+        0.1747657060623169,
+        0.19908128678798676,
+        0.2823799252510071,
+        0.17353764176368713
+      ]
+    ]
+  }
+}

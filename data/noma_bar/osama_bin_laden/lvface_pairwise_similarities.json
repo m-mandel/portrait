@@ -1,0 +1,380 @@
+{
+  "folder": "/workspace/input/noma_bar/data/osama_bin_laden",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/osama_bin_laden/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+        "similarity": 0.02526499517261982
+      },
+      {
+        "index": 1,
+        "name": "03_osama-bin-laden-portrait-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/03_osama-bin-laden-portrait-jpg.jpg",
+        "similarity": 0.01735096611082554
+      },
+      {
+        "index": 2,
+        "name": "07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+        "similarity": 0.04760737717151642
+      },
+      {
+        "index": 3,
+        "name": "08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+        "similarity": 0.013672281056642532
+      },
+      {
+        "index": 4,
+        "name": "09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+        "similarity": 0.008019030094146729
+      },
+      {
+        "index": 5,
+        "name": "10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+        "similarity": 0.01326706912368536
+      },
+      {
+        "index": 6,
+        "name": "11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg",
+        "similarity": 0.024540552869439125
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "values": [
+        [
+          1.0,
+          0.02526499517261982,
+          0.01735096611082554,
+          0.04760737717151642,
+          0.013672281056642532,
+          0.008019030094146729,
+          0.01326706912368536,
+          0.024540552869439125
+        ],
+        [
+          0.02526499517261982,
+          1.0,
+          0.45217809081077576,
+          -0.04182986170053482,
+          0.4456358850002289,
+          0.4547252357006073,
+          0.4400118291378021,
+          0.899431586265564
+        ],
+        [
+          0.01735096611082554,
+          0.45217809081077576,
+          1.0,
+          -0.07416020333766937,
+          0.7008965611457825,
+          0.8236097693443298,
+          0.8280889987945557,
+          0.46816718578338623
+        ],
+        [
+          0.04760737717151642,
+          -0.04182986170053482,
+          -0.07416020333766937,
+          1.0,
+          -0.07341031730175018,
+          -0.07130537927150726,
+          -0.07469944655895233,
+          -0.030704447999596596
+        ],
+        [
+          0.013672281056642532,
+          0.4456358850002289,
+          0.7008965611457825,
+          -0.07341031730175018,
+          0.9999999403953552,
+          0.8717674612998962,
+          0.8786357045173645,
+          0.4161803722381592
+        ],
+        [
+          0.008019030094146729,
+          0.4547252357006073,
+          0.8236097693443298,
+          -0.07130537927150726,
+          0.8717674612998962,
+          1.0,
+          0.9063350558280945,
+          0.39974427223205566
+        ],
+        [
+          0.01326706912368536,
+          0.4400118291378021,
+          0.8280889987945557,
+          -0.07469944655895233,
+          0.8786357045173645,
+          0.9063350558280945,
+          1.0000001192092896,
+          0.440982848405838
+        ],
+        [
+          0.024540552869439125,
+          0.899431586265564,
+          0.46816718578338623,
+          -0.030704447999596596,
+          0.4161803722381592,
+          0.39974427223205566,
+          0.440982848405838,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/01_osama-bin-laden-in-2001-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_osama-bin-laden-portrait-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/03_osama-bin-laden-portrait-jpg.jpg"
+    },
+    {
+      "name": "07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg"
+    },
+    {
+      "name": "08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/08_osama-bin-laden-full-portrait-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg"
+    },
+    {
+      "name": "10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/03_osama-bin-laden-portrait-jpg.jpg",
+      "similarity": 0.45217809081077576
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+      "similarity": -0.04182986170053482
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+      "similarity": 0.4456358850002289
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+      "similarity": 0.4547252357006073
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+      "similarity": 0.4400118291378021
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg",
+      "similarity": 0.899431586265564
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/03_osama-bin-laden-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+      "similarity": -0.07416020333766937
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/03_osama-bin-laden-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+      "similarity": 0.7008965611457825
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/03_osama-bin-laden-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+      "similarity": 0.8236097693443298
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/03_osama-bin-laden-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+      "similarity": 0.8280889987945557
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/03_osama-bin-laden-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg",
+      "similarity": 0.46816718578338623
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+      "similarity": -0.07341031730175018
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+      "similarity": -0.07130537927150726
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+      "similarity": -0.07469944655895233
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg",
+      "similarity": -0.030704447999596596
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+      "similarity": 0.8717674612998962
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+      "similarity": 0.8786357045173645
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg",
+      "similarity": 0.4161803722381592
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+      "similarity": 0.9063350558280945
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg",
+      "similarity": 0.39974427223205566
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/osama_bin_laden/images/10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/osama_bin_laden/images/11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg",
+      "similarity": 0.440982848405838
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_osama-bin-laden-in-2001-cropped-jpg.jpg",
+      "03_osama-bin-laden-portrait-jpg.jpg",
+      "07_hamid-mir-interviewing-osama-bin-laden-jpg.jpg",
+      "08_osama-bin-laden-full-portrait-cropped-jpg.jpg",
+      "09_osama-bin-laden-portrait-3x4-cropped-b-jpg.jpg",
+      "10_osama-bin-laden-full-portrait-3x4-cropped-jpg.jpg",
+      "11_osama-bin-laden-in-2001-3x4-cropped-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.45217809081077576,
+        -0.04182986170053482,
+        0.4456358850002289,
+        0.4547252357006073,
+        0.4400118291378021,
+        0.899431586265564
+      ],
+      [
+        0.45217809081077576,
+        1.0,
+        -0.07416020333766937,
+        0.7008965611457825,
+        0.8236097693443298,
+        0.8280889987945557,
+        0.46816718578338623
+      ],
+      [
+        -0.04182986170053482,
+        -0.07416020333766937,
+        1.0,
+        -0.07341031730175018,
+        -0.07130537927150726,
+        -0.07469944655895233,
+        -0.030704447999596596
+      ],
+      [
+        0.4456358850002289,
+        0.7008965611457825,
+        -0.07341031730175018,
+        0.9999999403953552,
+        0.8717674612998962,
+        0.8786357045173645,
+        0.4161803722381592
+      ],
+      [
+        0.4547252357006073,
+        0.8236097693443298,
+        -0.07130537927150726,
+        0.8717674612998962,
+        1.0,
+        0.9063350558280945,
+        0.39974427223205566
+      ],
+      [
+        0.4400118291378021,
+        0.8280889987945557,
+        -0.07469944655895233,
+        0.8786357045173645,
+        0.9063350558280945,
+        1.0000001192092896,
+        0.440982848405838
+      ],
+      [
+        0.899431586265564,
+        0.46816718578338623,
+        -0.030704447999596596,
+        0.4161803722381592,
+        0.39974427223205566,
+        0.440982848405838,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/osama_bin_laden/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/02_us-navy-011218-f-3961r-003-army-civial-affairs-distibute-leaflets-in-their-serach-for-osama-bin-laden-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/osama_bin_laden/images/02_us-navy-011218-f-3961r-003-army-civial-affairs-distibute-leaflets-in-their-serach-for-osama-bin-laden-jpg.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/08_visitas-201105-osama-bin-laden-es-png.png",
+      "error": "No face detected in /workspace/input/noma_bar/data/osama_bin_laden/images/08_visitas-201105-osama-bin-laden-es-png.png"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/osama_bin_laden/images/09_abc-news-osama-bin-laden-dead-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/osama_bin_laden/images/09_abc-news-osama-bin-laden-dead-jpg.jpg"
+    }
+  ]
+}

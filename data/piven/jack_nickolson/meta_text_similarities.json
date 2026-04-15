@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/jack_nickolson",
+  "meta_path": "/workspace/input/piven/data/jack_nickolson/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "John Joseph Nicholson (born April 22, 1937) is an American retired actor and filmmaker. Nicholson is widely regarded as one of the greatest actors of the 20th century, often playing charismatic rebels fighting against the social structure. Over his five-decade-long career, he received numerous accolades, including three Academy Awards, three British Academy Film Awards, six Golden Globe Awards, and a Grammy Award.\nNicholson won Academy Awards for Best Actor for playing Randle McMurphy in One Flew Over the Cuckoo's Nest (1975) and an author with OCD in As Good as It Gets (1997), as well as for Best Supporting Actor for playing an aging playboy in Terms of Endearment (1983). He received further Oscar nominations for Easy Rider (1969), Five Easy Pieces (1970), The Last Detail (1973), Chinatown (1974), Reds (1981), Prizzi's Honor (1985), Ironweed (1987), A Few Good Men (1992), and About Schmidt (2002). \nNicholson made his film debut in Roger Corman's The Cry Baby Killer (1958). His other notable roles were in Psych-Out (1968), Carnal Knowledge (1971), The King of Marvin Gardens (1972), The Passenger (1975), The Missouri Breaks (1976), The Shining (1980), Broadcast News (1987), Batman (1989), Hoffa (1992), Mars Attacks! (1996), Anger Management, Something's Gotta Give (both 2003), The Departed (2006), and The Bucket List (2007). He also had a cameo in Corman's cult classic The Little Shop of Horrors (1960), which has been heavily promoted on home video releases. As a director, Nicholson has helmed three films: Drive, He Said (1971), Goin' South (1978), and The Two Jakes (1990). Nicholson has also written several films, including The Monkees' vehicle Head (1968). He took a break from acting after starring in How Do You Know (2010). \nNicholson is one of four male actors to win three Academy Awards and one of only two actors to be nominated for an Academy Award for acting in films made in every decade from the 1960s to the 2000s (the other is Michael Caine). His 12 Academy Award nominations make him the most nominated male actor in the Academy's history. He was honored with the AFI Life Achievement Award in 1994, the Cecil B. DeMille Award in 1999 and the Kennedy Center Honor in 2001.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "film strips"
+    },
+    {
+      "index": 1,
+      "element": "sunglasses"
+    },
+    {
+      "index": 2,
+      "element": "denture teeth"
+    },
+    {
+      "index": 3,
+      "element": "cigar"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "camera body"
+    },
+    {
+      "index": 2,
+      "element": "film strip"
+    },
+    {
+      "index": 3,
+      "element": "clapboard"
+    },
+    {
+      "index": 4,
+      "element": "projector beam"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "film strips",
+      "sunglasses",
+      "denture teeth",
+      "cigar"
+    ],
+    "values": [
+      [
+        0.0707269161939621,
+        -0.009825548157095909,
+        -0.01873311586678028,
+        -0.00786447525024414
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "camera body",
+      "film strip",
+      "clapboard",
+      "projector beam"
+    ],
+    "column_labels": [
+      "film strips",
+      "sunglasses",
+      "denture teeth",
+      "cigar"
+    ],
+    "values": [
+      [
+        0.2096674144268036,
+        0.3087005615234375,
+        0.11964821815490723,
+        0.2424701750278473
+      ],
+      [
+        0.24697032570838928,
+        0.32390984892845154,
+        0.12448152154684067,
+        0.14369627833366394
+      ],
+      [
+        0.8935824632644653,
+        0.18802770972251892,
+        0.12564389407634735,
+        0.17169177532196045
+      ],
+      [
+        0.22958111763000488,
+        0.2238355576992035,
+        0.08949559926986694,
+        0.2027672529220581
+      ],
+      [
+        0.26427778601646423,
+        0.16543948650360107,
+        0.015025355853140354,
+        -0.016054697334766388
+      ]
+    ]
+  }
+}

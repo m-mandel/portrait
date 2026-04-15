@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/jamie_oliver",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/jamie_oliver/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_jamie-oliver-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg",
+        "similarity": 0.00919255893677473
+      },
+      {
+        "index": 1,
+        "name": "02_jamie-oliver-cropped-png.png",
+        "path": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png",
+        "similarity": 0.004850514233112335
+      },
+      {
+        "index": 2,
+        "name": "03_jamie-oliver-retouched-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg",
+        "similarity": -0.003172678407281637
+      },
+      {
+        "index": 3,
+        "name": "06_jamie-oliver-1360930760-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg",
+        "similarity": 0.02367500402033329
+      },
+      {
+        "index": 4,
+        "name": "08_jamie-oliver-png.png",
+        "path": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png",
+        "similarity": 0.013762182556092739
+      },
+      {
+        "index": 5,
+        "name": "09_jamie-oliver-cooking-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg",
+        "similarity": 0.021064769476652145
+      },
+      {
+        "index": 6,
+        "name": "13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+        "similarity": -0.018815992400050163
+      },
+      {
+        "index": 7,
+        "name": "15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+        "similarity": -0.009837447665631771
+      },
+      {
+        "index": 8,
+        "name": "16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+        "similarity": 0.014192573726177216
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.00919255893677473,
+          0.004850514233112335,
+          -0.003172678407281637,
+          0.02367500402033329,
+          0.013762182556092739,
+          0.021064769476652145,
+          -0.018815992400050163,
+          -0.009837447665631771,
+          0.014192573726177216
+        ],
+        [
+          0.00919255893677473,
+          1.0,
+          0.3814753592014313,
+          0.42550128698349,
+          0.29369932413101196,
+          0.43584057688713074,
+          0.43084654211997986,
+          -0.03300740197300911,
+          0.4108375906944275,
+          0.41723933815956116
+        ],
+        [
+          0.004850514233112335,
+          0.3814753592014313,
+          1.0000001192092896,
+          0.8877484798431396,
+          0.3057573735713959,
+          0.9103584885597229,
+          0.445170521736145,
+          -0.013810383155941963,
+          0.43191975355148315,
+          0.564121663570404
+        ],
+        [
+          -0.003172678407281637,
+          0.42550128698349,
+          0.8877484798431396,
+          1.0,
+          0.3235187530517578,
+          0.9395754337310791,
+          0.4743165969848633,
+          -0.008979329839348793,
+          0.42722856998443604,
+          0.4900852143764496
+        ],
+        [
+          0.02367500402033329,
+          0.29369932413101196,
+          0.3057573735713959,
+          0.3235187530517578,
+          1.0,
+          0.3105646073818207,
+          0.26358821988105774,
+          -0.001073385588824749,
+          0.2941669225692749,
+          0.2798730134963989
+        ],
+        [
+          0.013762182556092739,
+          0.43584057688713074,
+          0.9103584885597229,
+          0.9395754337310791,
+          0.3105646073818207,
+          1.0,
+          0.4974318742752075,
+          -0.013521907851099968,
+          0.4483797252178192,
+          0.5274184942245483
+        ],
+        [
+          0.021064769476652145,
+          0.43084654211997986,
+          0.445170521736145,
+          0.4743165969848633,
+          0.26358821988105774,
+          0.4974318742752075,
+          1.0,
+          -0.049212053418159485,
+          0.4845457375049591,
+          0.4787726104259491
+        ],
+        [
+          -0.018815992400050163,
+          -0.03300740197300911,
+          -0.013810383155941963,
+          -0.008979329839348793,
+          -0.001073385588824749,
+          -0.013521907851099968,
+          -0.049212053418159485,
+          0.9999999403953552,
+          0.02155333198606968,
+          -0.002075762255117297
+        ],
+        [
+          -0.009837447665631771,
+          0.4108375906944275,
+          0.43191975355148315,
+          0.42722856998443604,
+          0.2941669225692749,
+          0.4483797252178192,
+          0.4845457375049591,
+          0.02155333198606968,
+          1.0,
+          0.5016343593597412
+        ],
+        [
+          0.014192573726177216,
+          0.41723933815956116,
+          0.564121663570404,
+          0.4900852143764496,
+          0.2798730134963989,
+          0.5274184942245483,
+          0.4787726104259491,
+          -0.002075762255117297,
+          0.5016343593597412,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_jamie-oliver-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_jamie-oliver-cropped-png.png",
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png"
+    },
+    {
+      "name": "03_jamie-oliver-retouched-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg"
+    },
+    {
+      "name": "06_jamie-oliver-1360930760-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg"
+    },
+    {
+      "name": "08_jamie-oliver-png.png",
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png"
+    },
+    {
+      "name": "09_jamie-oliver-cooking-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg"
+    },
+    {
+      "name": "13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg"
+    },
+    {
+      "name": "15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg"
+    },
+    {
+      "name": "16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png",
+      "similarity": 0.3814753592014313
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg",
+      "similarity": 0.42550128698349
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg",
+      "similarity": 0.29369932413101196
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png",
+      "similarity": 0.43584057688713074
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg",
+      "similarity": 0.43084654211997986
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "similarity": -0.03300740197300911
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "similarity": 0.4108375906944275
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/01_jamie-oliver-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+      "similarity": 0.41723933815956116
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg",
+      "similarity": 0.8877484798431396
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg",
+      "similarity": 0.3057573735713959
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png",
+      "similarity": 0.9103584885597229
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg",
+      "similarity": 0.445170521736145
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "similarity": -0.013810383155941963
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "similarity": 0.43191975355148315
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/02_jamie-oliver-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+      "similarity": 0.564121663570404
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg",
+      "similarity": 0.3235187530517578
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png",
+      "similarity": 0.9395754337310791
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg",
+      "similarity": 0.4743165969848633
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "similarity": -0.008979329839348793
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "similarity": 0.42722856998443604
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/03_jamie-oliver-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+      "similarity": 0.4900852143764496
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png",
+      "similarity": 0.3105646073818207
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg",
+      "similarity": 0.26358821988105774
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "similarity": -0.001073385588824749
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "similarity": 0.2941669225692749
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/06_jamie-oliver-1360930760-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+      "similarity": 0.2798730134963989
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg",
+      "similarity": 0.4974318742752075
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "similarity": -0.013521907851099968
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "similarity": 0.4483797252178192
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/08_jamie-oliver-png.png",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+      "similarity": 0.5274184942245483
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "similarity": -0.049212053418159485
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "similarity": 0.4845457375049591
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/09_jamie-oliver-cooking-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+      "similarity": 0.4787726104259491
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "similarity": 0.02155333198606968
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+      "similarity": -0.002075762255117297
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jamie_oliver/images/15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jamie_oliver/images/16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg",
+      "similarity": 0.5016343593597412
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_jamie-oliver-cropped-jpg.jpg",
+      "02_jamie-oliver-cropped-png.png",
+      "03_jamie-oliver-retouched-jpg.jpg",
+      "06_jamie-oliver-1360930760-jpg.jpg",
+      "08_jamie-oliver-png.png",
+      "09_jamie-oliver-cooking-jpg.jpg",
+      "13_restaurant-jamie-oliver-a-roport-de-vienne-juin-2022-jpg.jpg",
+      "15_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9792-7402341406-jpg.jpg",
+      "16_jamie-oliver-television-personality-kevin-systrom-co-founder-ceo-instagram-leweb-london-2012-central-hall-westminster-9803-7402340568-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.3814753592014313,
+        0.42550128698349,
+        0.29369932413101196,
+        0.43584057688713074,
+        0.43084654211997986,
+        -0.03300740197300911,
+        0.4108375906944275,
+        0.41723933815956116
+      ],
+      [
+        0.3814753592014313,
+        1.0000001192092896,
+        0.8877484798431396,
+        0.3057573735713959,
+        0.9103584885597229,
+        0.445170521736145,
+        -0.013810383155941963,
+        0.43191975355148315,
+        0.564121663570404
+      ],
+      [
+        0.42550128698349,
+        0.8877484798431396,
+        1.0,
+        0.3235187530517578,
+        0.9395754337310791,
+        0.4743165969848633,
+        -0.008979329839348793,
+        0.42722856998443604,
+        0.4900852143764496
+      ],
+      [
+        0.29369932413101196,
+        0.3057573735713959,
+        0.3235187530517578,
+        1.0,
+        0.3105646073818207,
+        0.26358821988105774,
+        -0.001073385588824749,
+        0.2941669225692749,
+        0.2798730134963989
+      ],
+      [
+        0.43584057688713074,
+        0.9103584885597229,
+        0.9395754337310791,
+        0.3105646073818207,
+        1.0,
+        0.4974318742752075,
+        -0.013521907851099968,
+        0.4483797252178192,
+        0.5274184942245483
+      ],
+      [
+        0.43084654211997986,
+        0.445170521736145,
+        0.4743165969848633,
+        0.26358821988105774,
+        0.4974318742752075,
+        1.0,
+        -0.049212053418159485,
+        0.4845457375049591,
+        0.4787726104259491
+      ],
+      [
+        -0.03300740197300911,
+        -0.013810383155941963,
+        -0.008979329839348793,
+        -0.001073385588824749,
+        -0.013521907851099968,
+        -0.049212053418159485,
+        0.9999999403953552,
+        0.02155333198606968,
+        -0.002075762255117297
+      ],
+      [
+        0.4108375906944275,
+        0.43191975355148315,
+        0.42722856998443604,
+        0.2941669225692749,
+        0.4483797252178192,
+        0.4845457375049591,
+        0.02155333198606968,
+        1.0,
+        0.5016343593597412
+      ],
+      [
+        0.41723933815956116,
+        0.564121663570404,
+        0.4900852143764496,
+        0.2798730134963989,
+        0.5274184942245483,
+        0.4787726104259491,
+        -0.002075762255117297,
+        0.5016343593597412,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/jamie_oliver/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/jamie_oliver/images/14_jamie-oliver-s-italian-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/jamie_oliver/images/14_jamie-oliver-s-italian-jpg.jpg"
+    }
+  ]
+}

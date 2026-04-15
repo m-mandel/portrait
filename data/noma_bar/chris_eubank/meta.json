@@ -1,0 +1,75 @@
+{
+  "name": "chris eubank",
+  "bio": "Christopher Livingstone Eubank (also Christopher Livingstone Eubank Sr. born 8 August 1966) is a British former professional boxer who competed from 1985 to 1998. He held the World Boxing Organization (WBO) middleweight and super-middleweight titles between 1990 and 1995, and is ranked by BoxRec as the third best British super-middleweight boxer of all time.\nHe reigned as world champion for over five years, was undefeated in his first 10 years as a professional, and remained undefeated at middleweight. His world title contests against fellow Britons Nigel Benn and Michael Watson helped British boxing ride a peak of popularity in the 1990s, with Eubank's eccentric personality making him one of the most recognisable celebrities of the period.\nIn his final two years of boxing he challenged then-up and coming contender Joe Calzaghe in a bid to reclaim his WBO super-middleweight title, with a victorious Calzaghe later claiming that it was the toughest fight of his whole career. Eubank's last two fights were against WBO junior-heavyweight champion Carl Thompson, both of which were brutal encounters. In the rematch, Eubank was stopped for the first and only time in his career.\nEubank is credited for his bravery in the ring, in which he was able to take considerable amounts of punishment from power punchers en route to his victories and defeats, and for this he is said to have a \"granite\" chin. He is also known for his heel-like elitist persona: Speaking and dressing like an upper-class elite, vaulting over the ring ropes as an entrance, but also the art of mental warfare, notably against Nigel Benn for their first bout. His son, Chris Eubank Jr., is also a professional boxer.",
+  "bio_sources": [
+    {
+      "subject": "chris eubank",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Chris_Eubank"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "beige background field",
+      "shape_type": "rectangle",
+      "meaning": "keeps the portrait quiet and stately"
+    },
+    {
+      "element": "angular brown face",
+      "shape_type": "organic shape",
+      "meaning": "creates a sculpted and aristocratic profile"
+    },
+    {
+      "element": "flat black hair block",
+      "shape_type": "silhouette",
+      "meaning": "suggests polished flamboyant grooming"
+    },
+    {
+      "element": "small curled eye motifs",
+      "shape_type": "symbol",
+      "meaning": "give him a theatrical dandyish stare"
+    },
+    {
+      "element": "long yellow collar",
+      "shape_type": "triangle",
+      "meaning": "exaggerates elegance and showmanship"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "championship medallion",
+      "visual_representation": "a large circular medallion mounted on a broad plate",
+      "category": "symbol",
+      "relevance": "The biography explicitly describes championship boxing.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "boxing gloves",
+      "visual_representation": "a pair of padded gloves tied together at the wrists",
+      "category": "object",
+      "relevance": "Boxing equipment is strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ring ropes",
+      "visual_representation": "parallel ropes stretched across a square frame",
+      "category": "structure",
+      "relevance": "Prizefighting belongs to the subject’s professional world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "championship belt",
+      "visual_representation": "a wide belt with a large central medallion",
+      "category": "object",
+      "relevance": "Title fights and championships are central to the boxing domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "bell circle",
+      "visual_representation": "a compact circular bell form with a small hanging lip",
+      "category": "object",
+      "relevance": "Rounds and ring ritual belong to the broader boxing world around the subject.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

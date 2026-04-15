@@ -1,0 +1,60 @@
+{
+  "name": "ronald reagan",
+  "bio": "Ronald Wilson Reagan (February 6, 1911 – June 5, 2004) was an American politician and actor who served as the 40th president of the United States from 1981 to 1989. A member of the Republican Party, he became an important figure in the American conservative movement. The period encompassing his presidency is known as the Reagan era.\nBorn in Tampico, Illinois, Reagan graduated from Eureka College in 1932 and was hired the next year as a sports broadcaster in Iowa. In 1937, he moved to California where he became a well-known film actor. During his acting career, Reagan was president of the Screen Actors Guild twice from 1947 to 1952 and from 1959 to 1960. In the 1950s, he hosted General Electric Theater and worked as a motivational speaker for General Electric. During the 1964 presidential election, Reagan's \"A Time for Choosing\" speech launched his rise as a leading conservative figure. After being elected governor of California in 1966, he raised state taxes, turned the state budget deficit into a surplus and implemented crackdowns on university protests. Following his loss to Gerald Ford in the 1976 Republican Party presidential primaries, Reagan won the Republican Party's nomination and then obtained a landslide victory over President Jimmy Carter in the 1980 presidential election.\nIn his first term as president, Reagan began implementing \"Reaganomics\", a policy involving economic deregulation and cuts in both taxes and government spending during a period of stagflation. On the world stage, he escalated the arms race, increased military spending, transitioned Cold War policy away from détente, and ordered the 1983 invasion of Grenada. Reagan's first term was also notable for his survival of an assassination attempt, a well-publicized fight with public-sector labor unions, an expansion of the war on drugs, and his slow response to the AIDS epidemic. In the 1984 presidential election, Reagan was elected to a second term upon defeating former vice president Walter Mondale in one of the largest landslide victories in American history. Foreign affairs dominated Reagan's second term, including the 1986 bombing of Libya, the secret and illegal sale of arms to Iran to fund the Contras, and engaging in negotiations with Soviet leader Mikhail Gorbachev, which culminated in the Intermediate-Range Nuclear Forces Treaty.\nReagan left the presidency in 1989 with the American economy having seen a significant reduction of inflation, a fall in the unemployment rate, and the longest peacetime economic expansion in US history at that time; the national debt had nearly tripled since 1981 as a result of his tax cuts and increased military spending outweighing his cuts to domestic discretionary spending. Reagan's foreign policies also contributed to the end of the Cold War. Though he planned an active post-presidency, it was hindered after he was diagnosed with Alzheimer's disease in 1994, and his physical and mental capacities gradually deteriorated due to it, leading to his death in 2004. His tenure constituted a realignment toward conservative policies in the United States, and he is often considered an icon of American conservatism. Historical rankings of US presidents have typically placed Reagan in the middle to upper tier, and his post-presidential approval ratings by the general public are usually high.",
+  "bio_sources": [
+    {
+      "subject": "ronald reagan",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Ronald_Reagan"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "modeling clay",
+      "shape_type": "moldable material",
+      "meaning": "makes the face feel deliberately shaped and managed, reinforcing ronald reagan's performed optimism and polished political branding."
+    },
+    {
+      "element": "white plastic piece",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing ronald reagan's performed optimism and polished political branding."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen production define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "studio microphone",
+      "visual_representation": "a suspended microphone with a visible cable or stand",
+      "category": "object",
+      "relevance": "Hosting, presenting, or broadcasting are central to the subject’s media world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

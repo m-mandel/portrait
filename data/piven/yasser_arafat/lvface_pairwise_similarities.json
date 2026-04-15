@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/yasser_arafat",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/yasser_arafat/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+        "path": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+        "similarity": -0.030090628191828728
+      },
+      {
+        "index": 1,
+        "name": "03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+        "path": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+        "similarity": 0.029145732522010803
+      },
+      {
+        "index": 2,
+        "name": "04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+        "path": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+        "similarity": 0.0034117375034838915
+      },
+      {
+        "index": 3,
+        "name": "05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+        "path": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+        "similarity": -0.0027749266009777784
+      },
+      {
+        "index": 4,
+        "name": "06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+        "path": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+        "similarity": 0.042804963886737823
+      },
+      {
+        "index": 5,
+        "name": "07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+        "similarity": 0.008758037351071835
+      },
+      {
+        "index": 6,
+        "name": "08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": -0.0005825440166518092
+      },
+      {
+        "index": 7,
+        "name": "09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+        "path": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+        "similarity": -0.03222957253456116
+      },
+      {
+        "index": 8,
+        "name": "10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+        "path": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+        "similarity": 0.004188522696495056
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.030090628191828728,
+          0.029145732522010803,
+          0.0034117375034838915,
+          -0.0027749266009777784,
+          0.042804963886737823,
+          0.008758037351071835,
+          -0.0005825440166518092,
+          -0.03222957253456116,
+          0.004188522696495056
+        ],
+        [
+          -0.030090628191828728,
+          1.0000001192092896,
+          0.03812715783715248,
+          0.5631631016731262,
+          0.5633697509765625,
+          0.6802453398704529,
+          0.4390721619129181,
+          0.4921911358833313,
+          -0.005078441463410854,
+          0.5343016386032104
+        ],
+        [
+          0.029145732522010803,
+          0.03812715783715248,
+          1.0000001192092896,
+          0.027692843228578568,
+          -0.044361408799886703,
+          -0.03479976952075958,
+          0.00024185339862015098,
+          0.0017576823011040688,
+          -0.012918700464069843,
+          0.0900135263800621
+        ],
+        [
+          0.0034117375034838915,
+          0.5631631016731262,
+          0.027692843228578568,
+          0.9999998807907104,
+          0.5180920958518982,
+          0.5233876705169678,
+          0.49181854724884033,
+          0.5010037422180176,
+          -0.01594064198434353,
+          0.487454891204834
+        ],
+        [
+          -0.0027749266009777784,
+          0.5633697509765625,
+          -0.044361408799886703,
+          0.5180920958518982,
+          0.9999999403953552,
+          0.5283752083778381,
+          0.3774680495262146,
+          0.46895530819892883,
+          0.004049173090606928,
+          0.4720223844051361
+        ],
+        [
+          0.042804963886737823,
+          0.6802453398704529,
+          -0.03479976952075958,
+          0.5233876705169678,
+          0.5283752083778381,
+          1.0000001192092896,
+          0.4767269194126129,
+          0.5205410122871399,
+          -0.018925778567790985,
+          0.4223286807537079
+        ],
+        [
+          0.008758037351071835,
+          0.4390721619129181,
+          0.00024185339862015098,
+          0.49181854724884033,
+          0.3774680495262146,
+          0.4767269194126129,
+          1.0,
+          0.47757259011268616,
+          0.04030875489115715,
+          0.401223361492157
+        ],
+        [
+          -0.0005825440166518092,
+          0.4921911358833313,
+          0.0017576823011040688,
+          0.5010037422180176,
+          0.46895530819892883,
+          0.5205410122871399,
+          0.47757259011268616,
+          1.0,
+          -0.04590427130460739,
+          0.39584118127822876
+        ],
+        [
+          -0.03222957253456116,
+          -0.005078441463410854,
+          -0.012918700464069843,
+          -0.01594064198434353,
+          0.004049173090606928,
+          -0.018925778567790985,
+          0.04030875489115715,
+          -0.04590427130460739,
+          0.9999999403953552,
+          0.01726948283612728
+        ],
+        [
+          0.004188522696495056,
+          0.5343016386032104,
+          0.0900135263800621,
+          0.487454891204834,
+          0.4720223844051361,
+          0.4223286807537079,
+          0.401223361492157,
+          0.39584118127822876,
+          0.01726948283612728,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "path": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg"
+    },
+    {
+      "name": "03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "path": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg"
+    },
+    {
+      "name": "04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "path": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg"
+    },
+    {
+      "name": "05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "path": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg"
+    },
+    {
+      "name": "06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "path": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg"
+    },
+    {
+      "name": "07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "path": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg"
+    },
+    {
+      "name": "10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+      "path": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "similarity": 0.03812715783715248
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "similarity": 0.5631631016731262
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "similarity": 0.5633697509765625
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "similarity": 0.6802453398704529
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4390721619129181
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4921911358833313
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "similarity": -0.005078441463410854
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+      "similarity": 0.5343016386032104
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "similarity": 0.027692843228578568
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "similarity": -0.044361408799886703
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "similarity": -0.03479976952075958
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.00024185339862015098
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.0017576823011040688
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "similarity": -0.012918700464069843
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+      "similarity": 0.0900135263800621
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "similarity": 0.5180920958518982
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "similarity": 0.5233876705169678
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.49181854724884033
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5010037422180176
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "similarity": -0.01594064198434353
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+      "similarity": 0.487454891204834
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "similarity": 0.5283752083778381
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3774680495262146
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.46895530819892883
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "similarity": 0.004049173090606928
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+      "similarity": 0.4720223844051361
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4767269194126129
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5205410122871399
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "similarity": -0.018925778567790985
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+      "similarity": 0.4223286807537079
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.47757259011268616
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "similarity": 0.04030875489115715
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+      "similarity": 0.401223361492157
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "similarity": -0.04590427130460739
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+      "similarity": 0.39584118127822876
+    },
+    {
+      "left": "/workspace/input/piven/data/yasser_arafat/images/09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "right": "/workspace/input/piven/data/yasser_arafat/images/10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg",
+      "similarity": 0.01726948283612728
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "03_shimon-peres-yasser-arafat-world-economic-forum-annual-meeting-davos-2001-jpg.jpg",
+      "04_portrait-of-plo-leader-yasser-arafat-december-9-1993-in-tunis-news.jpg",
+      "05_headshot-portrait-of-palestinian-born-leader-of-the-plo-yasser-arafat.jpg",
+      "06_palestine-middle-east-people-politicians-plo-leader-yasser-arafat-stock.jpg",
+      "07_31-amar-fatah-photos-high-res-pictures-getty-images.jpg",
+      "08_yasser-arafat-hi-res-stock-photography-and-images-alamy.jpg",
+      "09_palestinian-artist-in-gaza-honors-yasser-arafat-with-portrait-drawn.jpg",
+      "10_gregory-heisler-50-portraits-the-eye-of-photography-magazine.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.03812715783715248,
+        0.5631631016731262,
+        0.5633697509765625,
+        0.6802453398704529,
+        0.4390721619129181,
+        0.4921911358833313,
+        -0.005078441463410854,
+        0.5343016386032104
+      ],
+      [
+        0.03812715783715248,
+        1.0000001192092896,
+        0.027692843228578568,
+        -0.044361408799886703,
+        -0.03479976952075958,
+        0.00024185339862015098,
+        0.0017576823011040688,
+        -0.012918700464069843,
+        0.0900135263800621
+      ],
+      [
+        0.5631631016731262,
+        0.027692843228578568,
+        0.9999998807907104,
+        0.5180920958518982,
+        0.5233876705169678,
+        0.49181854724884033,
+        0.5010037422180176,
+        -0.01594064198434353,
+        0.487454891204834
+      ],
+      [
+        0.5633697509765625,
+        -0.044361408799886703,
+        0.5180920958518982,
+        0.9999999403953552,
+        0.5283752083778381,
+        0.3774680495262146,
+        0.46895530819892883,
+        0.004049173090606928,
+        0.4720223844051361
+      ],
+      [
+        0.6802453398704529,
+        -0.03479976952075958,
+        0.5233876705169678,
+        0.5283752083778381,
+        1.0000001192092896,
+        0.4767269194126129,
+        0.5205410122871399,
+        -0.018925778567790985,
+        0.4223286807537079
+      ],
+      [
+        0.4390721619129181,
+        0.00024185339862015098,
+        0.49181854724884033,
+        0.3774680495262146,
+        0.4767269194126129,
+        1.0,
+        0.47757259011268616,
+        0.04030875489115715,
+        0.401223361492157
+      ],
+      [
+        0.4921911358833313,
+        0.0017576823011040688,
+        0.5010037422180176,
+        0.46895530819892883,
+        0.5205410122871399,
+        0.47757259011268616,
+        1.0,
+        -0.04590427130460739,
+        0.39584118127822876
+      ],
+      [
+        -0.005078441463410854,
+        -0.012918700464069843,
+        -0.01594064198434353,
+        0.004049173090606928,
+        -0.018925778567790985,
+        0.04030875489115715,
+        -0.04590427130460739,
+        0.9999999403953552,
+        0.01726948283612728
+      ],
+      [
+        0.5343016386032104,
+        0.0900135263800621,
+        0.487454891204834,
+        0.4720223844051361,
+        0.4223286807537079,
+        0.401223361492157,
+        0.39584118127822876,
+        0.01726948283612728,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/yasser_arafat/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/yasser_arafat/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/yasser_arafat/images/02_yasser-arafat-1999-2-jpg.jpg",
+      "error": "No face detected in /workspace/input/piven/data/yasser_arafat/images/02_yasser-arafat-1999-2-jpg.jpg"
+    }
+  ]
+}

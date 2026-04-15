@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/piven/data/david_levy",
+  "meta_path": "/workspace/input/piven/data/david_levy/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "David Levy may refer to:\n\nDavid A. Levy (born 1953), American politician\nDavid Benjamin Levy (fl. 2000s), American musicologist\nDavid H. Levy (born 1948), Canadian astronomer and science writer\nDavid Levy Yulee (1810\u20131886), American politician and attorney\nDavid L. Levy (1936\u20132014), children's rights activist\nDavid Levy (chess player) (born 1945), British chess player\nDavid Levy (historian) (born 1937), American historian\nDavid Levy (inventor) (born c. 1962), American inventor\nDavid Levy (Israeli politician) (1937\u20132024), Israeli politician\nDavid Levy (psychologist) (born 1954), American psychologist, author, actor\nDavid Levy (footballer) (born 1963), Israeli footballer\nDavid Levy (economist), American economist and author\nDavid Guy Levy, president and CEO of Periscope Entertainment\nDavid Levy, former CEO of the Brooklyn Nets and former president of the Turner Broadcasting System\nDavid M. Levy, American computer scientist\nDavid C. Levy (born 1938), museum director\nDavid Levy, creator and executive producer of The Addams Family (1964 TV series)",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "mop"
+    },
+    {
+      "index": 1,
+      "element": "mop handle"
+    },
+    {
+      "index": 2,
+      "element": "toy eyes"
+    },
+    {
+      "index": 3,
+      "element": "wire glasses"
+    },
+    {
+      "index": 4,
+      "element": "balloon"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "split nameplate"
+    },
+    {
+      "index": 1,
+      "element": "branching index"
+    },
+    {
+      "index": 2,
+      "element": "list column"
+    },
+    {
+      "index": 3,
+      "element": "directory tabs"
+    },
+    {
+      "index": 4,
+      "element": "orbit of roles"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "mop",
+      "mop handle",
+      "toy eyes",
+      "wire glasses",
+      "balloon"
+    ],
+    "values": [
+      [
+        -0.017581285908818245,
+        -0.020708546042442322,
+        0.09702421724796295,
+        0.09350194036960602,
+        0.05490707606077194
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "split nameplate",
+      "branching index",
+      "list column",
+      "directory tabs",
+      "orbit of roles"
+    ],
+    "column_labels": [
+      "mop",
+      "mop handle",
+      "toy eyes",
+      "wire glasses",
+      "balloon"
+    ],
+    "values": [
+      [
+        0.029175791889429092,
+        0.06366885453462601,
+        0.005069822072982788,
+        0.03051343932747841,
+        -0.032245781272649765
+      ],
+      [
+        0.03831624239683151,
+        0.004047221504151821,
+        0.14250528812408447,
+        0.10579535365104675,
+        0.08460419625043869
+      ],
+      [
+        0.06831008195877075,
+        0.07543689757585526,
+        0.03275427594780922,
+        -0.05043382570147514,
+        0.08431831747293472
+      ],
+      [
+        0.11316989362239838,
+        0.10925686359405518,
+        0.062134116888046265,
+        0.09038630872964859,
+        0.026974717155098915
+      ],
+      [
+        0.054767459630966187,
+        0.13322164118289948,
+        0.10111498832702637,
+        -0.10416075587272644,
+        0.0325092151761055
+      ]
+    ]
+  }
+}

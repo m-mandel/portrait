@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/chris_eubank",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/chris_eubank/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_chris-eubank-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+        "similarity": 0.038240574300289154
+      },
+      {
+        "index": 1,
+        "name": "02_chris-eubank-jr-2015-png.png",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+        "similarity": 0.08275990933179855
+      },
+      {
+        "index": 2,
+        "name": "03_chris-eubank-jr-2017-png.png",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+        "similarity": 0.018187854439020157
+      },
+      {
+        "index": 3,
+        "name": "04_chris-eubank-jr-2017-cropped-png.png",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+        "similarity": 0.007611478678882122
+      },
+      {
+        "index": 4,
+        "name": "05_chriseubank-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+        "similarity": 0.02186620980501175
+      },
+      {
+        "index": 5,
+        "name": "07_chris-eubank-jr-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+        "similarity": 0.08538628369569778
+      },
+      {
+        "index": 6,
+        "name": "12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+        "similarity": 0.2860032916069031
+      },
+      {
+        "index": 7,
+        "name": "13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+        "similarity": 0.05116591602563858
+      },
+      {
+        "index": 8,
+        "name": "14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+        "similarity": 0.08055229485034943
+      },
+      {
+        "index": 9,
+        "name": "15_chris-eubank-jr-2015-2-png.png",
+        "path": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+        "similarity": 0.07858926057815552
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.038240574300289154,
+          0.08275990933179855,
+          0.018187854439020157,
+          0.007611478678882122,
+          0.02186620980501175,
+          0.08538628369569778,
+          0.2860032916069031,
+          0.05116591602563858,
+          0.08055229485034943,
+          0.07858926057815552
+        ],
+        [
+          0.038240574300289154,
+          1.0,
+          0.0976465716958046,
+          0.14236919581890106,
+          0.06535961478948593,
+          0.47386106848716736,
+          0.09815707057714462,
+          -0.009494718164205551,
+          0.08652011305093765,
+          -0.029789969325065613,
+          0.10568953305482864
+        ],
+        [
+          0.08275990933179855,
+          0.0976465716958046,
+          1.0,
+          0.555851936340332,
+          0.5609843730926514,
+          0.023159120231866837,
+          0.3975030481815338,
+          0.0009252835880033672,
+          0.07650803029537201,
+          -0.005715758074074984,
+          0.9684509634971619
+        ],
+        [
+          0.018187854439020157,
+          0.14236919581890106,
+          0.555851936340332,
+          1.0,
+          0.9073512554168701,
+          0.1382901668548584,
+          0.4377616047859192,
+          -0.006369748152792454,
+          0.11222880333662033,
+          0.004046199843287468,
+          0.5383069515228271
+        ],
+        [
+          0.007611478678882122,
+          0.06535961478948593,
+          0.5609843730926514,
+          0.9073512554168701,
+          1.0000001192092896,
+          0.14879997074604034,
+          0.411021888256073,
+          -0.024837743490934372,
+          0.07094413042068481,
+          -0.006220932584255934,
+          0.5414029359817505
+        ],
+        [
+          0.02186620980501175,
+          0.47386106848716736,
+          0.023159120231866837,
+          0.1382901668548584,
+          0.14879997074604034,
+          0.9999999403953552,
+          0.07709044218063354,
+          -0.029295941814780235,
+          0.06645292788743973,
+          0.04694213345646858,
+          0.026633357629179955
+        ],
+        [
+          0.08538628369569778,
+          0.09815707057714462,
+          0.3975030481815338,
+          0.4377616047859192,
+          0.411021888256073,
+          0.07709044218063354,
+          1.0,
+          0.009760584682226181,
+          0.06786683946847916,
+          -0.04264204204082489,
+          0.38022226095199585
+        ],
+        [
+          0.2860032916069031,
+          -0.009494718164205551,
+          0.0009252835880033672,
+          -0.006369748152792454,
+          -0.024837743490934372,
+          -0.029295941814780235,
+          0.009760584682226181,
+          1.0,
+          -0.013922154903411865,
+          0.02375267818570137,
+          0.035984210669994354
+        ],
+        [
+          0.05116591602563858,
+          0.08652011305093765,
+          0.07650803029537201,
+          0.11222880333662033,
+          0.07094413042068481,
+          0.06645292788743973,
+          0.06786683946847916,
+          -0.013922154903411865,
+          1.0000001192092896,
+          0.03016059659421444,
+          0.07758761942386627
+        ],
+        [
+          0.08055229485034943,
+          -0.029789969325065613,
+          -0.005715758074074984,
+          0.004046199843287468,
+          -0.006220932584255934,
+          0.04694213345646858,
+          -0.04264204204082489,
+          0.02375267818570137,
+          0.03016059659421444,
+          0.9999999403953552,
+          -0.0006918280269019306
+        ],
+        [
+          0.07858926057815552,
+          0.10568953305482864,
+          0.9684509634971619,
+          0.5383069515228271,
+          0.5414029359817505,
+          0.026633357629179955,
+          0.38022226095199585,
+          0.035984210669994354,
+          0.07758761942386627,
+          -0.0006918280269019306,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_chris-eubank-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg"
+    },
+    {
+      "name": "02_chris-eubank-jr-2015-png.png",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png"
+    },
+    {
+      "name": "03_chris-eubank-jr-2017-png.png",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png"
+    },
+    {
+      "name": "04_chris-eubank-jr-2017-cropped-png.png",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png"
+    },
+    {
+      "name": "05_chriseubank-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg"
+    },
+    {
+      "name": "07_chris-eubank-jr-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg"
+    },
+    {
+      "name": "12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg"
+    },
+    {
+      "name": "13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg"
+    },
+    {
+      "name": "14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg"
+    },
+    {
+      "name": "15_chris-eubank-jr-2015-2-png.png",
+      "path": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+      "similarity": 0.0976465716958046
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+      "similarity": 0.14236919581890106
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+      "similarity": 0.06535961478948593
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+      "similarity": 0.47386106848716736
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+      "similarity": 0.09815707057714462
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "similarity": -0.009494718164205551
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "similarity": 0.08652011305093765
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "similarity": -0.029789969325065613
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/01_chris-eubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+      "similarity": 0.10568953305482864
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+      "similarity": 0.555851936340332
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+      "similarity": 0.5609843730926514
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+      "similarity": 0.023159120231866837
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+      "similarity": 0.3975030481815338
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "similarity": 0.0009252835880033672
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "similarity": 0.07650803029537201
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "similarity": -0.005715758074074984
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/02_chris-eubank-jr-2015-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+      "similarity": 0.9684509634971619
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+      "similarity": 0.9073512554168701
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+      "similarity": 0.1382901668548584
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+      "similarity": 0.4377616047859192
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "similarity": -0.006369748152792454
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "similarity": 0.11222880333662033
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "similarity": 0.004046199843287468
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/03_chris-eubank-jr-2017-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+      "similarity": 0.5383069515228271
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+      "similarity": 0.14879997074604034
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+      "similarity": 0.411021888256073
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "similarity": -0.024837743490934372
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "similarity": 0.07094413042068481
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "similarity": -0.006220932584255934
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/04_chris-eubank-jr-2017-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+      "similarity": 0.5414029359817505
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+      "similarity": 0.07709044218063354
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "similarity": -0.029295941814780235
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "similarity": 0.06645292788743973
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "similarity": 0.04694213345646858
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/05_chriseubank-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+      "similarity": 0.026633357629179955
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "similarity": 0.009760584682226181
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "similarity": 0.06786683946847916
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "similarity": -0.04264204204082489
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/07_chris-eubank-jr-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+      "similarity": 0.38022226095199585
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "similarity": -0.013922154903411865
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "similarity": 0.02375267818570137
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+      "similarity": 0.035984210669994354
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "similarity": 0.03016059659421444
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+      "similarity": 0.07758761942386627
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/chris_eubank/images/14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/chris_eubank/images/15_chris-eubank-jr-2015-2-png.png",
+      "similarity": -0.0006918280269019306
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_chris-eubank-jpg.jpg",
+      "02_chris-eubank-jr-2015-png.png",
+      "03_chris-eubank-jr-2017-png.png",
+      "04_chris-eubank-jr-2017-cropped-png.png",
+      "05_chriseubank-jpg.jpg",
+      "07_chris-eubank-jr-jpg.jpg",
+      "12_chris-eubanks-roland-garros-2023-02-jpg.jpg",
+      "13_chris-eubanks-roland-garros-2023-01-jpg.jpg",
+      "14_georgia-tech-tennis-chris-eubanks-43696496311-jpg.jpg",
+      "15_chris-eubank-jr-2015-2-png.png"
+    ],
+    "values": [
+      [
+        1.0,
+        0.0976465716958046,
+        0.14236919581890106,
+        0.06535961478948593,
+        0.47386106848716736,
+        0.09815707057714462,
+        -0.009494718164205551,
+        0.08652011305093765,
+        -0.029789969325065613,
+        0.10568953305482864
+      ],
+      [
+        0.0976465716958046,
+        1.0,
+        0.555851936340332,
+        0.5609843730926514,
+        0.023159120231866837,
+        0.3975030481815338,
+        0.0009252835880033672,
+        0.07650803029537201,
+        -0.005715758074074984,
+        0.9684509634971619
+      ],
+      [
+        0.14236919581890106,
+        0.555851936340332,
+        1.0,
+        0.9073512554168701,
+        0.1382901668548584,
+        0.4377616047859192,
+        -0.006369748152792454,
+        0.11222880333662033,
+        0.004046199843287468,
+        0.5383069515228271
+      ],
+      [
+        0.06535961478948593,
+        0.5609843730926514,
+        0.9073512554168701,
+        1.0000001192092896,
+        0.14879997074604034,
+        0.411021888256073,
+        -0.024837743490934372,
+        0.07094413042068481,
+        -0.006220932584255934,
+        0.5414029359817505
+      ],
+      [
+        0.47386106848716736,
+        0.023159120231866837,
+        0.1382901668548584,
+        0.14879997074604034,
+        0.9999999403953552,
+        0.07709044218063354,
+        -0.029295941814780235,
+        0.06645292788743973,
+        0.04694213345646858,
+        0.026633357629179955
+      ],
+      [
+        0.09815707057714462,
+        0.3975030481815338,
+        0.4377616047859192,
+        0.411021888256073,
+        0.07709044218063354,
+        1.0,
+        0.009760584682226181,
+        0.06786683946847916,
+        -0.04264204204082489,
+        0.38022226095199585
+      ],
+      [
+        -0.009494718164205551,
+        0.0009252835880033672,
+        -0.006369748152792454,
+        -0.024837743490934372,
+        -0.029295941814780235,
+        0.009760584682226181,
+        1.0,
+        -0.013922154903411865,
+        0.02375267818570137,
+        0.035984210669994354
+      ],
+      [
+        0.08652011305093765,
+        0.07650803029537201,
+        0.11222880333662033,
+        0.07094413042068481,
+        0.06645292788743973,
+        0.06786683946847916,
+        -0.013922154903411865,
+        1.0000001192092896,
+        0.03016059659421444,
+        0.07758761942386627
+      ],
+      [
+        -0.029789969325065613,
+        -0.005715758074074984,
+        0.004046199843287468,
+        -0.006220932584255934,
+        0.04694213345646858,
+        -0.04264204204082489,
+        0.02375267818570137,
+        0.03016059659421444,
+        0.9999999403953552,
+        -0.0006918280269019306
+      ],
+      [
+        0.10568953305482864,
+        0.9684509634971619,
+        0.5383069515228271,
+        0.5414029359817505,
+        0.026633357629179955,
+        0.38022226095199585,
+        0.035984210669994354,
+        0.07758761942386627,
+        -0.0006918280269019306,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/chris_eubank/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/chris_eubank/portrait.jpg"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/matisyahu",
+  "meta_path": "/workspace/input/noma_bar/data/matisyahu/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Matthew Paul Miller (born June 30, 1979), known by his stage name Matisyahu ( ; \u05de\u05ea\u05ea\u05d9\u05d4\u05d5\u200e), is an American singer, rapper, beatboxer, and musician.\nKnown for blending spiritual themes with reggae, rock and hip hop beatboxing sounds, Matisyahu's 2005 single \"King Without a Crown\" was a Top 40 hit in the United States. Since 2004, he has released seven studio albums as well as five live albums, two remix CDs and two DVDs featuring live concerts. Throughout his career, Matisyahu has worked with Bill Laswell and reggae producers Sly & Robbie and Kool Kojak. He has also appeared as an actor in films.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "white background field"
+    },
+    {
+      "index": 1,
+      "element": "black hat filled with Hebrew letter pattern"
+    },
+    {
+      "index": 2,
+      "element": "thick black beard"
+    },
+    {
+      "index": 3,
+      "element": "microphone-shaped lower beard"
+    },
+    {
+      "index": 4,
+      "element": "dark eyebrow arc"
+    },
+    {
+      "index": 5,
+      "element": "small floating eyes"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "championship medallion"
+    },
+    {
+      "index": 1,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 2,
+      "element": "vinyl record"
+    },
+    {
+      "index": 3,
+      "element": "stage lights"
+    },
+    {
+      "index": 4,
+      "element": "soundwave ribbon"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "white background field",
+      "black hat filled with Hebrew letter pattern",
+      "thick black beard",
+      "microphone-shaped lower beard",
+      "dark eyebrow arc",
+      "small floating eyes"
+    ],
+    "values": [
+      [
+        0.04370054602622986,
+        -0.009845241904258728,
+        0.18249255418777466,
+        0.20337361097335815,
+        -0.03118755668401718,
+        0.04608185589313507
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "championship medallion",
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights",
+      "soundwave ribbon"
+    ],
+    "column_labels": [
+      "white background field",
+      "black hat filled with Hebrew letter pattern",
+      "thick black beard",
+      "microphone-shaped lower beard",
+      "dark eyebrow arc",
+      "small floating eyes"
+    ],
+    "values": [
+      [
+        0.10555683076381683,
+        0.04780542105436325,
+        0.21341806650161743,
+        0.08257737755775452,
+        0.15193961560726166,
+        0.07934201508760452
+      ],
+      [
+        0.3227623701095581,
+        0.2113877236843109,
+        0.23062600195407867,
+        0.580406665802002,
+        0.1674579232931137,
+        0.14713604748249054
+      ],
+      [
+        0.09493513405323029,
+        0.051511697471141815,
+        0.10710886120796204,
+        0.2127998173236847,
+        0.0032190699130296707,
+        0.052380260080099106
+      ],
+      [
+        0.22052818536758423,
+        0.08810646831989288,
+        0.055973365902900696,
+        0.08315221965312958,
+        0.23401887714862823,
+        0.18578609824180603
+      ],
+      [
+        0.1111041009426117,
+        -0.03187087923288345,
+        0.12667399644851685,
+        0.34677040576934814,
+        0.14388516545295715,
+        0.03276939317584038
+      ]
+    ]
+  }
+}

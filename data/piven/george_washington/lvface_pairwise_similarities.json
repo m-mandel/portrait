@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/george_washington",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/george_washington/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_george-washington-carver-c1910-restoration-jpg.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+        "similarity": -0.052803874015808105
+      },
+      {
+        "index": 1,
+        "name": "02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+        "similarity": 0.00905896257609129
+      },
+      {
+        "index": 2,
+        "name": "03_george-washington-by-john-trumbull-1780-jpg.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+        "similarity": 0.04567844420671463
+      },
+      {
+        "index": 3,
+        "name": "04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+        "similarity": -0.028145907446742058
+      },
+      {
+        "index": 4,
+        "name": "05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+        "similarity": 0.0022831910755485296
+      },
+      {
+        "index": 5,
+        "name": "06_george-washington-portrait.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+        "similarity": -0.021199852228164673
+      },
+      {
+        "index": 6,
+        "name": "07_george-washington-portrait-stable-diffusion-online.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+        "similarity": 0.019227128475904465
+      },
+      {
+        "index": 7,
+        "name": "08_george-washington.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+        "similarity": 0.027715738862752914
+      },
+      {
+        "index": 8,
+        "name": "09_george-washington-portrait-stock-photo-alamy.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+        "similarity": 0.0012385264271870255
+      },
+      {
+        "index": 9,
+        "name": "10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+        "path": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+        "similarity": -0.03223412111401558
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.052803874015808105,
+          0.00905896257609129,
+          0.04567844420671463,
+          -0.028145907446742058,
+          0.0022831910755485296,
+          -0.021199852228164673,
+          0.019227128475904465,
+          0.027715738862752914,
+          0.0012385264271870255,
+          -0.03223412111401558
+        ],
+        [
+          -0.052803874015808105,
+          1.0000001192092896,
+          0.023194491863250732,
+          -0.04845324903726578,
+          0.041143424808979034,
+          -0.0012203658698126674,
+          -0.027619505301117897,
+          -0.05263257771730423,
+          0.03539750725030899,
+          -0.021639754995703697,
+          0.05807776004076004
+        ],
+        [
+          0.00905896257609129,
+          0.023194491863250732,
+          0.9999999403953552,
+          0.08912549167871475,
+          0.7060946226119995,
+          0.6264797449111938,
+          0.5297349691390991,
+          0.2828878164291382,
+          0.7107687592506409,
+          0.5329844355583191,
+          0.39041128754615784
+        ],
+        [
+          0.04567844420671463,
+          -0.04845324903726578,
+          0.08912549167871475,
+          0.9999998807907104,
+          0.13664226233959198,
+          0.18891839683055878,
+          0.08133936673402786,
+          0.06357698887586594,
+          0.16458050906658173,
+          0.09259545803070068,
+          0.07031438499689102
+        ],
+        [
+          -0.028145907446742058,
+          0.041143424808979034,
+          0.7060946226119995,
+          0.13664226233959198,
+          0.9999998807907104,
+          0.6754082441329956,
+          0.6078283786773682,
+          0.25285661220550537,
+          0.554375410079956,
+          0.525685727596283,
+          0.35507676005363464
+        ],
+        [
+          0.0022831910755485296,
+          -0.0012203658698126674,
+          0.6264797449111938,
+          0.18891839683055878,
+          0.6754082441329956,
+          1.0,
+          0.4681215286254883,
+          0.2534569203853607,
+          0.587889552116394,
+          0.4462123215198517,
+          0.358335018157959
+        ],
+        [
+          -0.021199852228164673,
+          -0.027619505301117897,
+          0.5297349691390991,
+          0.08133936673402786,
+          0.6078283786773682,
+          0.4681215286254883,
+          1.0,
+          0.08591772615909576,
+          0.429211288690567,
+          0.39368677139282227,
+          0.22183768451213837
+        ],
+        [
+          0.019227128475904465,
+          -0.05263257771730423,
+          0.2828878164291382,
+          0.06357698887586594,
+          0.25285661220550537,
+          0.2534569203853607,
+          0.08591772615909576,
+          1.0000001192092896,
+          0.17610621452331543,
+          0.18785591423511505,
+          0.3387717306613922
+        ],
+        [
+          0.027715738862752914,
+          0.03539750725030899,
+          0.7107687592506409,
+          0.16458050906658173,
+          0.554375410079956,
+          0.587889552116394,
+          0.429211288690567,
+          0.17610621452331543,
+          0.9999999403953552,
+          0.4206581115722656,
+          0.2979455292224884
+        ],
+        [
+          0.0012385264271870255,
+          -0.021639754995703697,
+          0.5329844355583191,
+          0.09259545803070068,
+          0.525685727596283,
+          0.4462123215198517,
+          0.39368677139282227,
+          0.18785591423511505,
+          0.4206581115722656,
+          1.0000001192092896,
+          0.2311132848262787
+        ],
+        [
+          -0.03223412111401558,
+          0.05807776004076004,
+          0.39041128754615784,
+          0.07031438499689102,
+          0.35507676005363464,
+          0.358335018157959,
+          0.22183768451213837,
+          0.3387717306613922,
+          0.2979455292224884,
+          0.2311132848262787,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg"
+    },
+    {
+      "name": "02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg"
+    },
+    {
+      "name": "03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg"
+    },
+    {
+      "name": "04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg"
+    },
+    {
+      "name": "05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg"
+    },
+    {
+      "name": "06_george-washington-portrait.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg"
+    },
+    {
+      "name": "07_george-washington-portrait-stable-diffusion-online.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg"
+    },
+    {
+      "name": "08_george-washington.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg"
+    },
+    {
+      "name": "09_george-washington-portrait-stock-photo-alamy.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg"
+    },
+    {
+      "name": "10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "path": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "similarity": 0.023194491863250732
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "similarity": -0.04845324903726578
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "similarity": 0.041143424808979034
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "similarity": -0.0012203658698126674
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+      "similarity": -0.027619505301117897
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+      "similarity": -0.05263257771730423
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+      "similarity": 0.03539750725030899
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+      "similarity": -0.021639754995703697
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "similarity": 0.05807776004076004
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "similarity": 0.08912549167871475
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "similarity": 0.7060946226119995
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "similarity": 0.6264797449111938
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+      "similarity": 0.5297349691390991
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.2828878164291382
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+      "similarity": 0.7107687592506409
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.5329844355583191
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "similarity": 0.39041128754615784
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "similarity": 0.13664226233959198
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "similarity": 0.18891839683055878
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+      "similarity": 0.08133936673402786
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.06357698887586594
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+      "similarity": 0.16458050906658173
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.09259545803070068
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "similarity": 0.07031438499689102
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "similarity": 0.6754082441329956
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+      "similarity": 0.6078283786773682
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.25285661220550537
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+      "similarity": 0.554375410079956
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.525685727596283
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "similarity": 0.35507676005363464
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+      "similarity": 0.4681215286254883
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.2534569203853607
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+      "similarity": 0.587889552116394
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.4462123215198517
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "similarity": 0.358335018157959
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.08591772615909576
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+      "similarity": 0.429211288690567
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.39368677139282227
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/06_george-washington-portrait.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "similarity": 0.22183768451213837
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+      "similarity": 0.17610621452331543
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.18785591423511505
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/07_george-washington-portrait-stable-diffusion-online.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "similarity": 0.3387717306613922
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.4206581115722656
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/08_george-washington.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "similarity": 0.2979455292224884
+    },
+    {
+      "left": "/workspace/input/piven/data/george_washington/images/09_george-washington-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/george_washington/images/10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg",
+      "similarity": 0.2311132848262787
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_george-washington-carver-c1910-restoration-jpg.jpg",
+      "02_portrait-of-george-washington-by-john-vanderlyn-jpg.jpg",
+      "03_george-washington-by-john-trumbull-1780-jpg.jpg",
+      "04_george-washington-founding-father-leader-of-the-continental-army.jpg",
+      "05_how-george-washington-learned-to-lead-from-a-series-of-mistakes-in-the.jpg",
+      "06_george-washington-portrait.jpg",
+      "07_george-washington-portrait-stable-diffusion-online.jpg",
+      "08_george-washington.jpg",
+      "09_george-washington-portrait-stock-photo-alamy.jpg",
+      "10_george-washington-scraping-boots-prompts-stable-diffusion-online.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.023194491863250732,
+        -0.04845324903726578,
+        0.041143424808979034,
+        -0.0012203658698126674,
+        -0.027619505301117897,
+        -0.05263257771730423,
+        0.03539750725030899,
+        -0.021639754995703697,
+        0.05807776004076004
+      ],
+      [
+        0.023194491863250732,
+        0.9999999403953552,
+        0.08912549167871475,
+        0.7060946226119995,
+        0.6264797449111938,
+        0.5297349691390991,
+        0.2828878164291382,
+        0.7107687592506409,
+        0.5329844355583191,
+        0.39041128754615784
+      ],
+      [
+        -0.04845324903726578,
+        0.08912549167871475,
+        0.9999998807907104,
+        0.13664226233959198,
+        0.18891839683055878,
+        0.08133936673402786,
+        0.06357698887586594,
+        0.16458050906658173,
+        0.09259545803070068,
+        0.07031438499689102
+      ],
+      [
+        0.041143424808979034,
+        0.7060946226119995,
+        0.13664226233959198,
+        0.9999998807907104,
+        0.6754082441329956,
+        0.6078283786773682,
+        0.25285661220550537,
+        0.554375410079956,
+        0.525685727596283,
+        0.35507676005363464
+      ],
+      [
+        -0.0012203658698126674,
+        0.6264797449111938,
+        0.18891839683055878,
+        0.6754082441329956,
+        1.0,
+        0.4681215286254883,
+        0.2534569203853607,
+        0.587889552116394,
+        0.4462123215198517,
+        0.358335018157959
+      ],
+      [
+        -0.027619505301117897,
+        0.5297349691390991,
+        0.08133936673402786,
+        0.6078283786773682,
+        0.4681215286254883,
+        1.0,
+        0.08591772615909576,
+        0.429211288690567,
+        0.39368677139282227,
+        0.22183768451213837
+      ],
+      [
+        -0.05263257771730423,
+        0.2828878164291382,
+        0.06357698887586594,
+        0.25285661220550537,
+        0.2534569203853607,
+        0.08591772615909576,
+        1.0000001192092896,
+        0.17610621452331543,
+        0.18785591423511505,
+        0.3387717306613922
+      ],
+      [
+        0.03539750725030899,
+        0.7107687592506409,
+        0.16458050906658173,
+        0.554375410079956,
+        0.587889552116394,
+        0.429211288690567,
+        0.17610621452331543,
+        0.9999999403953552,
+        0.4206581115722656,
+        0.2979455292224884
+      ],
+      [
+        -0.021639754995703697,
+        0.5329844355583191,
+        0.09259545803070068,
+        0.525685727596283,
+        0.4462123215198517,
+        0.39368677139282227,
+        0.18785591423511505,
+        0.4206581115722656,
+        1.0000001192092896,
+        0.2311132848262787
+      ],
+      [
+        0.05807776004076004,
+        0.39041128754615784,
+        0.07031438499689102,
+        0.35507676005363464,
+        0.358335018157959,
+        0.22183768451213837,
+        0.3387717306613922,
+        0.2979455292224884,
+        0.2311132848262787,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/george_washington/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/george_washington/portrait.jpg"
+    }
+  ]
+}

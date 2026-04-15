@@ -1,0 +1,70 @@
+{
+  "name": "menachem begin",
+  "bio": "Menachem Begin (16 August 1913 – 9 March 1992) was an Israeli politician who founded Herut and Likud and served as prime minister of Israel from 1977 to 1983.\nBefore the creation of the state of Israel, Begin was the leader of the Zionist militant group Irgun, the Revisionist breakaway from the larger Jewish paramilitary organization Haganah. He proclaimed a revolt, on 1 February 1944, against the British mandatory government, which was opposed by the Jewish Agency. As head of the Irgun, he targeted the British in Palestine, with a notable attack being the King David Hotel bombing. Later, the Irgun fought the Arabs during the 1947–48 civil war in Mandatory Palestine and, as its chief, Begin was described by the British government as the \"leader of the notorious terrorist organisation\". It declined him an entry visa to the United Kingdom between 1953 and 1955. However, Begin's overtures of friendship eventually paid off and he was granted a visa in 1972, five years prior to becoming prime minister.\nBegin was elected to the first Knesset, as head of Herut, the party he founded, and was at first on the political fringe, embodying the opposition to the Mapai-led government and Israeli establishment. He remained in opposition in the eight consecutive elections (except for a national unity government around the Six-Day War), but became more acceptable to the political center. His 1977 electoral victory and premiership ended three decades of Labor Party political dominance.\nBegin's most significant achievement as prime minister was the signing of a peace treaty with Egypt in 1979, for which he and Anwar Sadat shared the Nobel Peace Prize. In the wake of the Camp David Accords, the Israel Defense Forces (IDF) withdrew from the Sinai Peninsula, which had been captured from Egypt in the Six-Day War. Later, Begin's government promoted the construction of Israeli settlements in the West Bank and the Gaza Strip. Begin authorized the bombing of the Osirak nuclear plant in Iraq and the invasion of Lebanon in 1982 to fight Palestine Liberation Organization strongholds there, igniting the 1982 Lebanon War. As Israeli military involvement in Lebanon deepened, and the Sabra and Shatila massacre, carried out by Christian Phalangist militia allies of the Israelis, shocked world public opinion, Begin grew increasingly isolated. As IDF forces remained mired in Lebanon and the economy suffered from hyperinflation, the public pressure on Begin mounted. Depressed by the death of his wife Aliza in November 1982, he gradually withdrew from public life, until his resignation in October 1983.",
+  "bio_sources": [
+    {
+      "subject": "menachem begin",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Menachem_Begin"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "glasses",
+      "shape_type": "wearable object",
+      "meaning": "helps anchor the gaze and reinforces menachem begin's stern statesmanship and rhetoric."
+    },
+    {
+      "element": "toy eyeballs",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen menachem begin's stern statesmanship and rhetoric."
+    },
+    {
+      "element": "speaker grill",
+      "shape_type": "sound object",
+      "meaning": "makes performance, speech, or listening central to menachem begin's stern statesmanship and rhetoric."
+    },
+    {
+      "element": "paper clips",
+      "shape_type": "paper object",
+      "meaning": "adds a documentary or constructed layer to menachem begin's stern statesmanship and rhetoric."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "olive branch",
+      "visual_representation": "a slim stem with small paired leaves",
+      "category": "symbol",
+      "relevance": "The biography explicitly includes diplomacy, peace work, or negotiation.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "campaign map",
+      "visual_representation": "directional arrows moving over a gridded field",
+      "category": "structure",
+      "relevance": "Strategy, operations, and command planning belong to the subject’s military world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "warning ring",
+      "visual_representation": "a hard circular warning sign with sharp internal divisions",
+      "category": "symbol",
+      "relevance": "Danger, explosive violence, or weapons culture belong to the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

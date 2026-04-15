@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/bruce_lee",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/bruce_lee/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+        "similarity": -0.012023250572383404
+      },
+      {
+        "index": 1,
+        "name": "02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+        "similarity": 0.05646856129169464
+      },
+      {
+        "index": 2,
+        "name": "03_bruce-lee-1973-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+        "similarity": 0.01929846964776516
+      },
+      {
+        "index": 3,
+        "name": "07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+        "similarity": -0.009367198683321476
+      },
+      {
+        "index": 4,
+        "name": "08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+        "similarity": 0.23026932775974274
+      },
+      {
+        "index": 5,
+        "name": "09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+        "similarity": 0.016702333465218544
+      },
+      {
+        "index": 6,
+        "name": "12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+        "similarity": 0.005513670388609171
+      },
+      {
+        "index": 7,
+        "name": "14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+        "similarity": -0.004200773313641548
+      },
+      {
+        "index": 8,
+        "name": "15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+        "similarity": 0.037998005747795105
+      },
+      {
+        "index": 9,
+        "name": "16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+        "similarity": 0.1001286506652832
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.012023250572383404,
+          0.05646856129169464,
+          0.01929846964776516,
+          -0.009367198683321476,
+          0.23026932775974274,
+          0.016702333465218544,
+          0.005513670388609171,
+          -0.004200773313641548,
+          0.037998005747795105,
+          0.1001286506652832
+        ],
+        [
+          -0.012023250572383404,
+          1.0,
+          0.6071339845657349,
+          0.5774304866790771,
+          0.9272732734680176,
+          -0.06759286671876907,
+          0.20572473108768463,
+          0.49478811025619507,
+          0.38105693459510803,
+          0.31381064653396606,
+          0.0024664250668138266
+        ],
+        [
+          0.05646856129169464,
+          0.6071339845657349,
+          0.9999999403953552,
+          0.5622201561927795,
+          0.5830928087234497,
+          -0.004462085664272308,
+          0.08371834456920624,
+          0.4800352156162262,
+          0.36025354266166687,
+          0.30059775710105896,
+          -0.004394836258143187
+        ],
+        [
+          0.01929846964776516,
+          0.5774304866790771,
+          0.5622201561927795,
+          0.9999998807907104,
+          0.5728318691253662,
+          -0.01900302991271019,
+          0.1309085488319397,
+          0.5026628375053406,
+          0.35739415884017944,
+          0.40150120854377747,
+          -0.03945279121398926
+        ],
+        [
+          -0.009367198683321476,
+          0.9272732734680176,
+          0.5830928087234497,
+          0.5728318691253662,
+          1.0,
+          -0.059513576328754425,
+          0.19682073593139648,
+          0.4789744019508362,
+          0.3926616609096527,
+          0.33229124546051025,
+          0.0014550375053659081
+        ],
+        [
+          0.23026932775974274,
+          -0.06759286671876907,
+          -0.004462085664272308,
+          -0.01900302991271019,
+          -0.059513576328754425,
+          1.0000001192092896,
+          7.176765939220786e-05,
+          -0.014003745280206203,
+          -0.039039500057697296,
+          0.06338302046060562,
+          -0.005981850437819958
+        ],
+        [
+          0.016702333465218544,
+          0.20572473108768463,
+          0.08371834456920624,
+          0.1309085488319397,
+          0.19682073593139648,
+          7.176765939220786e-05,
+          1.0,
+          0.17405609786510468,
+          0.10849215090274811,
+          0.10596022754907608,
+          -0.11056894063949585
+        ],
+        [
+          0.005513670388609171,
+          0.49478811025619507,
+          0.4800352156162262,
+          0.5026628375053406,
+          0.4789744019508362,
+          -0.014003745280206203,
+          0.17405609786510468,
+          1.0000001192092896,
+          0.4083500802516937,
+          0.39105215668678284,
+          0.01601959764957428
+        ],
+        [
+          -0.004200773313641548,
+          0.38105693459510803,
+          0.36025354266166687,
+          0.35739415884017944,
+          0.3926616609096527,
+          -0.039039500057697296,
+          0.10849215090274811,
+          0.4083500802516937,
+          1.0,
+          0.3134192228317261,
+          -0.018799414858222008
+        ],
+        [
+          0.037998005747795105,
+          0.31381064653396606,
+          0.30059775710105896,
+          0.40150120854377747,
+          0.33229124546051025,
+          0.06338302046060562,
+          0.10596022754907608,
+          0.39105215668678284,
+          0.3134192228317261,
+          0.9999998807907104,
+          -0.004335878416895866
+        ],
+        [
+          0.1001286506652832,
+          0.0024664250668138266,
+          -0.004394836258143187,
+          -0.03945279121398926,
+          0.0014550375053659081,
+          -0.005981850437819958,
+          -0.11056894063949585,
+          0.01601959764957428,
+          -0.018799414858222008,
+          -0.004335878416895866,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg"
+    },
+    {
+      "name": "03_bruce-lee-1973-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg"
+    },
+    {
+      "name": "08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg"
+    },
+    {
+      "name": "09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg"
+    },
+    {
+      "name": "14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg"
+    },
+    {
+      "name": "15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg"
+    },
+    {
+      "name": "16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "similarity": 0.6071339845657349
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+      "similarity": 0.5774304866790771
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "similarity": 0.9272732734680176
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "similarity": -0.06759286671876907
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "similarity": 0.20572473108768463
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "similarity": 0.49478811025619507
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "similarity": 0.38105693459510803
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "similarity": 0.31381064653396606
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "similarity": 0.0024664250668138266
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+      "similarity": 0.5622201561927795
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "similarity": 0.5830928087234497
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "similarity": -0.004462085664272308
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "similarity": 0.08371834456920624
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "similarity": 0.4800352156162262
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "similarity": 0.36025354266166687
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "similarity": 0.30059775710105896
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "similarity": -0.004394836258143187
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "similarity": 0.5728318691253662
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "similarity": -0.01900302991271019
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "similarity": 0.1309085488319397
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "similarity": 0.5026628375053406
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "similarity": 0.35739415884017944
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "similarity": 0.40150120854377747
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/03_bruce-lee-1973-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "similarity": -0.03945279121398926
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "similarity": -0.059513576328754425
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "similarity": 0.19682073593139648
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "similarity": 0.4789744019508362
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "similarity": 0.3926616609096527
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "similarity": 0.33229124546051025
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "similarity": 0.0014550375053659081
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "similarity": 7.176765939220786e-05
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "similarity": -0.014003745280206203
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "similarity": -0.039039500057697296
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "similarity": 0.06338302046060562
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "similarity": -0.005981850437819958
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "similarity": 0.17405609786510468
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "similarity": 0.10849215090274811
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "similarity": 0.10596022754907608
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "similarity": -0.11056894063949585
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "similarity": 0.4083500802516937
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "similarity": 0.39105215668678284
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "similarity": 0.01601959764957428
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "similarity": 0.3134192228317261
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "similarity": -0.018799414858222008
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bruce_lee/images/15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bruce_lee/images/16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg",
+      "similarity": -0.004335878416895866
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_bruce-lee-1971-national-general-pictures-publicity-photo-cropped-jpg.jpg",
+      "02_photo-of-bruce-lee-distributed-by-the-associated-press-after-his-death-jpg.jpg",
+      "03_bruce-lee-1973-cropped-jpg.jpg",
+      "07_bruce-lee-1971-national-general-pictures-publicity-photo-jpg.jpg",
+      "08_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-17-jpg.jpg",
+      "09_bruce-lee-as-kato-in-the-green-hornet-1966-cropped-jpg.jpg",
+      "12_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-19-jpg.jpg",
+      "14_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-22-jpg.jpg",
+      "15_gd-guangdong-guangzhou-liwan-yong-qing-fang-bruce-lee-ancestral-home-photograph-exhibition-hall-june-2025-r12s-11-jpg.jpg",
+      "16_hk-wcd-hkcec-wcn-wan-chai-north-hong-kong-book-fair-the-dragon-legend-of-bruce-lee-at-80th-photo-exhibition-july-2021-ss2-30-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.6071339845657349,
+        0.5774304866790771,
+        0.9272732734680176,
+        -0.06759286671876907,
+        0.20572473108768463,
+        0.49478811025619507,
+        0.38105693459510803,
+        0.31381064653396606,
+        0.0024664250668138266
+      ],
+      [
+        0.6071339845657349,
+        0.9999999403953552,
+        0.5622201561927795,
+        0.5830928087234497,
+        -0.004462085664272308,
+        0.08371834456920624,
+        0.4800352156162262,
+        0.36025354266166687,
+        0.30059775710105896,
+        -0.004394836258143187
+      ],
+      [
+        0.5774304866790771,
+        0.5622201561927795,
+        0.9999998807907104,
+        0.5728318691253662,
+        -0.01900302991271019,
+        0.1309085488319397,
+        0.5026628375053406,
+        0.35739415884017944,
+        0.40150120854377747,
+        -0.03945279121398926
+      ],
+      [
+        0.9272732734680176,
+        0.5830928087234497,
+        0.5728318691253662,
+        1.0,
+        -0.059513576328754425,
+        0.19682073593139648,
+        0.4789744019508362,
+        0.3926616609096527,
+        0.33229124546051025,
+        0.0014550375053659081
+      ],
+      [
+        -0.06759286671876907,
+        -0.004462085664272308,
+        -0.01900302991271019,
+        -0.059513576328754425,
+        1.0000001192092896,
+        7.176765939220786e-05,
+        -0.014003745280206203,
+        -0.039039500057697296,
+        0.06338302046060562,
+        -0.005981850437819958
+      ],
+      [
+        0.20572473108768463,
+        0.08371834456920624,
+        0.1309085488319397,
+        0.19682073593139648,
+        7.176765939220786e-05,
+        1.0,
+        0.17405609786510468,
+        0.10849215090274811,
+        0.10596022754907608,
+        -0.11056894063949585
+      ],
+      [
+        0.49478811025619507,
+        0.4800352156162262,
+        0.5026628375053406,
+        0.4789744019508362,
+        -0.014003745280206203,
+        0.17405609786510468,
+        1.0000001192092896,
+        0.4083500802516937,
+        0.39105215668678284,
+        0.01601959764957428
+      ],
+      [
+        0.38105693459510803,
+        0.36025354266166687,
+        0.35739415884017944,
+        0.3926616609096527,
+        -0.039039500057697296,
+        0.10849215090274811,
+        0.4083500802516937,
+        1.0,
+        0.3134192228317261,
+        -0.018799414858222008
+      ],
+      [
+        0.31381064653396606,
+        0.30059775710105896,
+        0.40150120854377747,
+        0.33229124546051025,
+        0.06338302046060562,
+        0.10596022754907608,
+        0.39105215668678284,
+        0.3134192228317261,
+        0.9999998807907104,
+        -0.004335878416895866
+      ],
+      [
+        0.0024664250668138266,
+        -0.004394836258143187,
+        -0.03945279121398926,
+        0.0014550375053659081,
+        -0.005981850437819958,
+        -0.11056894063949585,
+        0.01601959764957428,
+        -0.018799414858222008,
+        -0.004335878416895866,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/bruce_lee/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/bruce_lee/portrait.jpg"
+    }
+  ]
+}

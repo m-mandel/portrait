@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/piven/data/barbara_pierce_bush",
+  "meta_path": "/workspace/input/piven/data/barbara_pierce_bush/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Barbara Bush (n\u00e9e Pierce; June 8, 1925 \u2013 April 17, 2018) was the first lady of the United States from 1989 to 1993, as the wife of George H. W. Bush, the 41st president of the United States. She was previously second lady of the United States from 1981 to 1989, when her husband was vice president under President Ronald Reagan, and founded the Barbara Bush Foundation for Family Literacy. Among her children are George W. Bush, the 43rd president of the United States, and Jeb Bush, the 43rd governor of Florida. Bush and Abigail Adams are the only two women to be the wife of one U.S. president and the mother of another. At the time she became first lady, she was the second oldest woman to hold the position, behind only Anna Harrison, who never lived in the capital. Bush was generally popular as first lady, recognized for her apolitical grandmotherly image.\nBarbara Pierce was born in New York City and grew up in Rye, New York. She met George H. W. Bush at the age of 16, and the two married in 1945. They moved to Texas in 1948, where George was successful in the oil industry and later began his political career. The couple had six children between 1946 and 1959, and endured the loss of their three-year-old daughter Robin to leukemia in 1953. Bush lived in Washington, D.C., New York, and China while accompanying her husband in his various political roles in the 1960s and 1970s. She became an active campaigner for her husband whenever he stood for election. Bush became second lady after her husband became vice president in 1981. She took on the role of a social hostess as second lady, holding frequent events at the vice president's residence, and she traveled to many countries with her husband on his diplomatic missions.\nBush became First Lady in 1989 after her husband was inaugurated as president. She enjoyed the role and life in the White House, though her experience as first lady was complicated by her protectiveness over her family and her diagnosis of Graves' disease in 1989. She frequently carried out charity work, including her projects to promote literacy and her support for people with AIDS. Among the most prominent of her actions as first lady was the commencement speech she gave at Wellesley College; it saw considerable publicity and her selection was controversial, but it was widely regarded as a success. She remained active in political campaigning after leaving the White House, as two of her sons ran for office in both gubernatorial and presidential campaigns.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "cotton"
+    },
+    {
+      "index": 1,
+      "element": "patterned fabric"
+    },
+    {
+      "index": 2,
+      "element": "bead necklace"
+    },
+    {
+      "index": 3,
+      "element": "earring bead"
+    },
+    {
+      "index": 4,
+      "element": "buttons"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "olive branch"
+    },
+    {
+      "index": 1,
+      "element": "city skyline"
+    },
+    {
+      "index": 2,
+      "element": "podium block"
+    },
+    {
+      "index": 3,
+      "element": "ballot box"
+    },
+    {
+      "index": 4,
+      "element": "state seal"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "cotton",
+      "patterned fabric",
+      "bead necklace",
+      "earring bead",
+      "buttons"
+    ],
+    "values": [
+      [
+        0.061391670256853104,
+        -0.07406695187091827,
+        0.09534510970115662,
+        0.0717497318983078,
+        0.005790211260318756
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "olive branch",
+      "city skyline",
+      "podium block",
+      "ballot box",
+      "state seal"
+    ],
+    "column_labels": [
+      "cotton",
+      "patterned fabric",
+      "bead necklace",
+      "earring bead",
+      "buttons"
+    ],
+    "values": [
+      [
+        0.3151669204235077,
+        0.11770962923765182,
+        0.2752923369407654,
+        0.2600988745689392,
+        0.08461619168519974
+      ],
+      [
+        0.06573739647865295,
+        0.1261172890663147,
+        0.06571188569068909,
+        0.02369089052081108,
+        0.10164935141801834
+      ],
+      [
+        0.045977883040905,
+        0.12683072686195374,
+        -0.02112923562526703,
+        -0.020634450018405914,
+        0.2952129542827606
+      ],
+      [
+        0.2050127387046814,
+        0.2627221345901489,
+        0.23289287090301514,
+        0.22695666551589966,
+        0.2676774263381958
+      ],
+      [
+        0.2531185448169708,
+        0.2149968445301056,
+        0.16556379199028015,
+        0.20115149021148682,
+        0.12316040694713593
+      ]
+    ]
+  }
+}

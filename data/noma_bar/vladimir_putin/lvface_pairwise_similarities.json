@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/vladimir_putin",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/vladimir_putin/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+        "similarity": 0.012126024812459946
+      },
+      {
+        "index": 1,
+        "name": "02_vladimir-putin-official-photo-08-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+        "similarity": 0.06421955674886703
+      },
+      {
+        "index": 2,
+        "name": "03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+        "similarity": 0.0525517575442791
+      },
+      {
+        "index": 3,
+        "name": "04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+        "similarity": 0.03145476430654526
+      },
+      {
+        "index": 4,
+        "name": "06_vladimir-putin-official-photo-02-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+        "similarity": 0.07728101313114166
+      },
+      {
+        "index": 5,
+        "name": "07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+        "similarity": 0.012929256074130535
+      },
+      {
+        "index": 6,
+        "name": "08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+        "similarity": 0.04380493238568306
+      },
+      {
+        "index": 7,
+        "name": "08_vladimir-putin-portrait-gray-background-cropped-png.png",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+        "similarity": 0.01665898598730564
+      },
+      {
+        "index": 8,
+        "name": "09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+        "similarity": 0.004311905242502689
+      },
+      {
+        "index": 9,
+        "name": "12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+        "similarity": 0.06523779779672623
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.012126024812459946,
+          0.06421955674886703,
+          0.0525517575442791,
+          0.03145476430654526,
+          0.07728101313114166,
+          0.012929256074130535,
+          0.04380493238568306,
+          0.01665898598730564,
+          0.004311905242502689,
+          0.06523779779672623
+        ],
+        [
+          0.012126024812459946,
+          1.0000001192092896,
+          0.48389875888824463,
+          0.5184985399246216,
+          0.36769354343414307,
+          0.4596395790576935,
+          0.4658386707305908,
+          0.33762770891189575,
+          0.3970520794391632,
+          0.42946168780326843,
+          0.5317084789276123
+        ],
+        [
+          0.06421955674886703,
+          0.48389875888824463,
+          1.0,
+          0.497041791677475,
+          0.4328787326812744,
+          0.47263428568840027,
+          0.4596504867076874,
+          0.5207725167274475,
+          0.506304919719696,
+          0.43869832158088684,
+          0.4219873547554016
+        ],
+        [
+          0.0525517575442791,
+          0.5184985399246216,
+          0.497041791677475,
+          0.9999999403953552,
+          0.3850052058696747,
+          0.5472589731216431,
+          0.3923349380493164,
+          0.42941105365753174,
+          0.3970731496810913,
+          0.34335625171661377,
+          0.4103547930717468
+        ],
+        [
+          0.03145476430654526,
+          0.36769354343414307,
+          0.4328787326812744,
+          0.3850052058696747,
+          1.0,
+          0.4577888548374176,
+          0.5314521789550781,
+          0.5415931940078735,
+          0.540730893611908,
+          0.5696098804473877,
+          0.3832292854785919
+        ],
+        [
+          0.07728101313114166,
+          0.4596395790576935,
+          0.47263428568840027,
+          0.5472589731216431,
+          0.4577888548374176,
+          1.0,
+          0.45472782850265503,
+          0.42468756437301636,
+          0.4342139959335327,
+          0.3961767554283142,
+          0.3874165415763855
+        ],
+        [
+          0.012929256074130535,
+          0.4658386707305908,
+          0.4596504867076874,
+          0.3923349380493164,
+          0.5314521789550781,
+          0.45472782850265503,
+          1.0,
+          0.5908687710762024,
+          0.8415860533714294,
+          0.8462305068969727,
+          0.27592581510543823
+        ],
+        [
+          0.04380493238568306,
+          0.33762770891189575,
+          0.5207725167274475,
+          0.42941105365753174,
+          0.5415931940078735,
+          0.42468756437301636,
+          0.5908687710762024,
+          1.0,
+          0.5947186350822449,
+          0.6250366568565369,
+          0.35458654165267944
+        ],
+        [
+          0.01665898598730564,
+          0.3970520794391632,
+          0.506304919719696,
+          0.3970731496810913,
+          0.540730893611908,
+          0.4342139959335327,
+          0.8415860533714294,
+          0.5947186350822449,
+          1.0,
+          0.8199558854103088,
+          0.2839352786540985
+        ],
+        [
+          0.004311905242502689,
+          0.42946168780326843,
+          0.43869832158088684,
+          0.34335625171661377,
+          0.5696098804473877,
+          0.3961767554283142,
+          0.8462305068969727,
+          0.6250366568565369,
+          0.8199558854103088,
+          0.9999999403953552,
+          0.27000871300697327
+        ],
+        [
+          0.06523779779672623,
+          0.5317084789276123,
+          0.4219873547554016,
+          0.4103547930717468,
+          0.3832292854785919,
+          0.3874165415763855,
+          0.27592581510543823,
+          0.35458654165267944,
+          0.2839352786540985,
+          0.27000871300697327,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_vladimir-putin-official-photo-08-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg"
+    },
+    {
+      "name": "03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg"
+    },
+    {
+      "name": "06_vladimir-putin-official-photo-02-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg"
+    },
+    {
+      "name": "07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg"
+    },
+    {
+      "name": "08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png"
+    },
+    {
+      "name": "09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+      "similarity": 0.48389875888824463
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "similarity": 0.5184985399246216
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "similarity": 0.36769354343414307
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+      "similarity": 0.4596395790576935
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "similarity": 0.4658386707305908
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "similarity": 0.33762770891189575
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "similarity": 0.3970520794391632
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "similarity": 0.42946168780326843
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "similarity": 0.5317084789276123
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "similarity": 0.497041791677475
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "similarity": 0.4328787326812744
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+      "similarity": 0.47263428568840027
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "similarity": 0.4596504867076874
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "similarity": 0.5207725167274475
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "similarity": 0.506304919719696
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "similarity": 0.43869832158088684
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/02_vladimir-putin-official-photo-08-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "similarity": 0.4219873547554016
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "similarity": 0.3850052058696747
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+      "similarity": 0.5472589731216431
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "similarity": 0.3923349380493164
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "similarity": 0.42941105365753174
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "similarity": 0.3970731496810913
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "similarity": 0.34335625171661377
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "similarity": 0.4103547930717468
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+      "similarity": 0.4577888548374176
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "similarity": 0.5314521789550781
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "similarity": 0.5415931940078735
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "similarity": 0.540730893611908
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "similarity": 0.5696098804473877
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "similarity": 0.3832292854785919
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "similarity": 0.45472782850265503
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "similarity": 0.42468756437301636
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "similarity": 0.4342139959335327
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "similarity": 0.3961767554283142
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/06_vladimir-putin-official-photo-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "similarity": 0.3874165415763855
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "similarity": 0.5908687710762024
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "similarity": 0.8415860533714294
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "similarity": 0.8462305068969727
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "similarity": 0.27592581510543823
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "similarity": 0.5947186350822449
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "similarity": 0.6250366568565369
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "similarity": 0.35458654165267944
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "similarity": 0.8199558854103088
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "similarity": 0.2839352786540985
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/vladimir_putin/images/09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/vladimir_putin/images/12_vladimir-putin-2022-09-1-headshot-jpg.jpg",
+      "similarity": 0.27000871300697327
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_vladimir-putin-17-11-2021-cropped-jpg.jpg",
+      "02_vladimir-putin-official-photo-08-jpg.jpg",
+      "03_vladimir-putin-2018-03-01-03-cropped-jpg.jpg",
+      "04_vladimir-putin-taking-the-presidential-oath-7-may-2000-jpg.jpg",
+      "06_vladimir-putin-official-photo-02-jpg.jpg",
+      "07_vladimir-putin-official-portrait-cropped-jpg.jpg",
+      "08_rian-archive-100306-vladimir-putin-federal-security-service-director-jpg.jpg",
+      "08_vladimir-putin-portrait-gray-background-cropped-png.png",
+      "09_vladimir-putin-official-portrait-1-cropped-jpg.jpg",
+      "12_vladimir-putin-2022-09-1-headshot-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.48389875888824463,
+        0.5184985399246216,
+        0.36769354343414307,
+        0.4596395790576935,
+        0.4658386707305908,
+        0.33762770891189575,
+        0.3970520794391632,
+        0.42946168780326843,
+        0.5317084789276123
+      ],
+      [
+        0.48389875888824463,
+        1.0,
+        0.497041791677475,
+        0.4328787326812744,
+        0.47263428568840027,
+        0.4596504867076874,
+        0.5207725167274475,
+        0.506304919719696,
+        0.43869832158088684,
+        0.4219873547554016
+      ],
+      [
+        0.5184985399246216,
+        0.497041791677475,
+        0.9999999403953552,
+        0.3850052058696747,
+        0.5472589731216431,
+        0.3923349380493164,
+        0.42941105365753174,
+        0.3970731496810913,
+        0.34335625171661377,
+        0.4103547930717468
+      ],
+      [
+        0.36769354343414307,
+        0.4328787326812744,
+        0.3850052058696747,
+        1.0,
+        0.4577888548374176,
+        0.5314521789550781,
+        0.5415931940078735,
+        0.540730893611908,
+        0.5696098804473877,
+        0.3832292854785919
+      ],
+      [
+        0.4596395790576935,
+        0.47263428568840027,
+        0.5472589731216431,
+        0.4577888548374176,
+        1.0,
+        0.45472782850265503,
+        0.42468756437301636,
+        0.4342139959335327,
+        0.3961767554283142,
+        0.3874165415763855
+      ],
+      [
+        0.4658386707305908,
+        0.4596504867076874,
+        0.3923349380493164,
+        0.5314521789550781,
+        0.45472782850265503,
+        1.0,
+        0.5908687710762024,
+        0.8415860533714294,
+        0.8462305068969727,
+        0.27592581510543823
+      ],
+      [
+        0.33762770891189575,
+        0.5207725167274475,
+        0.42941105365753174,
+        0.5415931940078735,
+        0.42468756437301636,
+        0.5908687710762024,
+        1.0,
+        0.5947186350822449,
+        0.6250366568565369,
+        0.35458654165267944
+      ],
+      [
+        0.3970520794391632,
+        0.506304919719696,
+        0.3970731496810913,
+        0.540730893611908,
+        0.4342139959335327,
+        0.8415860533714294,
+        0.5947186350822449,
+        1.0,
+        0.8199558854103088,
+        0.2839352786540985
+      ],
+      [
+        0.42946168780326843,
+        0.43869832158088684,
+        0.34335625171661377,
+        0.5696098804473877,
+        0.3961767554283142,
+        0.8462305068969727,
+        0.6250366568565369,
+        0.8199558854103088,
+        0.9999999403953552,
+        0.27000871300697327
+      ],
+      [
+        0.5317084789276123,
+        0.4219873547554016,
+        0.4103547930717468,
+        0.3832292854785919,
+        0.3874165415763855,
+        0.27592581510543823,
+        0.35458654165267944,
+        0.2839352786540985,
+        0.27000871300697327,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/vladimir_putin/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/vladimir_putin/portrait.jpg"
+    }
+  ]
+}

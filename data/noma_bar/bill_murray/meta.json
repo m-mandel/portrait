@@ -1,0 +1,80 @@
+{
+  "name": "bill murray",
+  "bio": "William James Murray (born September 21, 1950) is an American actor and comedian, known for his deadpan delivery in roles ranging from studio comedies to independent dramas. He has received several accolades including a BAFTA Award, a Golden Globe Award, and two Primetime Emmy Awards as well as a nomination for an Academy Award. Murray was awarded the Mark Twain Prize for American Humor in 2016.\nMurray became a national presence on Saturday Night Live from 1977 to 1980, receiving a Primetime Emmy Award for Outstanding Writing for a Variety Series. He established his stardom by acting in a string of successful comedy films, including Meatballs (1979), Caddyshack (1980), Stripes (1981), Scrooged (1988), What About Bob? (1991), and Groundhog Day (1993). He also had supporting roles in Tootsie (1982), Little Shop of Horrors (1986), Ed Wood (1994), Kingpin (1996) and Osmosis Jones (2001). Murray also starred as Dr. Peter Venkman in Ghostbusters (1984), and Ghostbusters II (1989) and has reprised his role in various projects within the Ghostbusters franchise. He has done voice acting work in films, such as Garfield (2004), Garfield: A Tail of Two Kitties (2006), and The Jungle Book (2016).\nHe has frequently collaborated with director Wes Anderson, acting in ten of his films starting with Rushmore (1998), followed by roles in films such as The Royal Tenenbaums (2001), The Life Aquatic with Steve Zissou (2004), Fantastic Mr. Fox (2009), Moonrise Kingdom (2012), The Grand Budapest Hotel (2014), and Isle of Dogs (2018). He played an aging actor in Sofia Coppola's dramedy Lost in Translation (2003), earning Golden Globe and BAFTA Awards as well as a nomination for the Academy Award for Best Actor. He also acted in films such as Broken Flowers (2005), Zombieland (2009), Get Low (2010),  Hyde Park on Hudson (2012), St. Vincent (2014), On the Rocks (2020), and The Friend (2024).",
+  "bio_sources": [
+    {
+      "subject": "bill murray",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Bill_Murray"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "white background field",
+      "shape_type": "rectangle",
+      "meaning": "keeps the composition spare and deadpan"
+    },
+    {
+      "element": "black hair cap",
+      "shape_type": "silhouette",
+      "meaning": "identifies the face with minimal visual information"
+    },
+    {
+      "element": "black ghost figure",
+      "shape_type": "symbol",
+      "meaning": "evokes Ghostbusters and his comic film legacy"
+    },
+    {
+      "element": "small creature figure",
+      "shape_type": "symbol",
+      "meaning": "adds an offbeat eccentric note that fits his quirky screen persona"
+    },
+    {
+      "element": "white face silhouette",
+      "shape_type": "organic shape",
+      "meaning": "turns him into a blank comic mask"
+    },
+    {
+      "element": "tan jacket block",
+      "shape_type": "geometric shape",
+      "meaning": "anchors the portrait in subdued everyday costume"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen performance define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "film strip",
+      "visual_representation": "a narrow strip with evenly spaced rectangular frames",
+      "category": "object",
+      "relevance": "Cinema and edited moving images belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "clapboard",
+      "visual_representation": "a hinged slate with diagonal stripes on its top edge",
+      "category": "object",
+      "relevance": "Film sets and screen production are strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "projector beam",
+      "visual_representation": "a clean triangular beam of projected light",
+      "category": "shape",
+      "relevance": "The biography supports a public identity centered on image-making and spectacle.",
+      "grounding": "inferred"
+    }
+  ]
+}

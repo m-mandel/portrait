@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/bill_clinton",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/bill_clinton/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_bill-clinton-jpg.jpg",
+        "path": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg",
+        "similarity": 0.08638206869363785
+      },
+      {
+        "index": 1,
+        "name": "02_44-bill-clinton-3x4-jpg.jpg",
+        "path": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg",
+        "similarity": 0.0740651860833168
+      },
+      {
+        "index": 2,
+        "name": "03_bill-clinton-cropped-3-jpg.jpg",
+        "path": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg",
+        "similarity": 0.08002270758152008
+      },
+      {
+        "index": 3,
+        "name": "04_bill-clinton-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg",
+        "similarity": 0.05743878334760666
+      },
+      {
+        "index": 4,
+        "name": "05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+        "similarity": 0.07371934503316879
+      },
+      {
+        "index": 5,
+        "name": "07_44-bill-clinton-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg",
+        "similarity": 0.10232705622911453
+      },
+      {
+        "index": 6,
+        "name": "08_bill-clinton-30349165325-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg",
+        "similarity": 0.04593570902943611
+      },
+      {
+        "index": 7,
+        "name": "09_bill-clinton-closeup-204565687-jpg.jpg",
+        "path": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg",
+        "similarity": 0.12941977381706238
+      },
+      {
+        "index": 8,
+        "name": "10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+        "similarity": 0.058054421097040176
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.08638206869363785,
+          0.0740651860833168,
+          0.08002270758152008,
+          0.05743878334760666,
+          0.07371934503316879,
+          0.10232705622911453,
+          0.04593570902943611,
+          0.12941977381706238,
+          0.058054421097040176
+        ],
+        [
+          0.08638206869363785,
+          1.0,
+          0.9188374876976013,
+          0.8895613551139832,
+          0.4545342028141022,
+          0.9226560592651367,
+          0.8685494065284729,
+          0.5105820894241333,
+          0.4010825455188751,
+          0.6740800142288208
+        ],
+        [
+          0.0740651860833168,
+          0.9188374876976013,
+          1.0000001192092896,
+          0.9018332958221436,
+          0.4576767683029175,
+          0.9145095348358154,
+          0.848182201385498,
+          0.4473317861557007,
+          0.4166979491710663,
+          0.6567309498786926
+        ],
+        [
+          0.08002270758152008,
+          0.8895613551139832,
+          0.9018332958221436,
+          1.0,
+          0.45992493629455566,
+          0.9293913245201111,
+          0.8934087753295898,
+          0.40712109208106995,
+          0.39038407802581787,
+          0.6690163612365723
+        ],
+        [
+          0.05743878334760666,
+          0.4545342028141022,
+          0.4576767683029175,
+          0.45992493629455566,
+          1.0,
+          0.48046907782554626,
+          0.44397085905075073,
+          0.3771335184574127,
+          0.452613890171051,
+          0.5032832026481628
+        ],
+        [
+          0.07371934503316879,
+          0.9226560592651367,
+          0.9145095348358154,
+          0.9293913245201111,
+          0.48046907782554626,
+          1.0000001192092896,
+          0.8422133922576904,
+          0.43639448285102844,
+          0.4362882077693939,
+          0.7100121974945068
+        ],
+        [
+          0.10232705622911453,
+          0.8685494065284729,
+          0.848182201385498,
+          0.8934087753295898,
+          0.44397085905075073,
+          0.8422133922576904,
+          1.0,
+          0.4044496417045593,
+          0.3884202837944031,
+          0.6630162000656128
+        ],
+        [
+          0.04593570902943611,
+          0.5105820894241333,
+          0.4473317861557007,
+          0.40712109208106995,
+          0.3771335184574127,
+          0.43639448285102844,
+          0.4044496417045593,
+          1.0,
+          0.4503347873687744,
+          0.4465222656726837
+        ],
+        [
+          0.12941977381706238,
+          0.4010825455188751,
+          0.4166979491710663,
+          0.39038407802581787,
+          0.452613890171051,
+          0.4362882077693939,
+          0.3884202837944031,
+          0.4503347873687744,
+          1.0,
+          0.44938069581985474
+        ],
+        [
+          0.058054421097040176,
+          0.6740800142288208,
+          0.6567309498786926,
+          0.6690163612365723,
+          0.5032832026481628,
+          0.7100121974945068,
+          0.6630162000656128,
+          0.4465222656726837,
+          0.44938069581985474,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_bill-clinton-jpg.jpg",
+      "path": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg"
+    },
+    {
+      "name": "02_44-bill-clinton-3x4-jpg.jpg",
+      "path": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg"
+    },
+    {
+      "name": "03_bill-clinton-cropped-3-jpg.jpg",
+      "path": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg"
+    },
+    {
+      "name": "04_bill-clinton-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_bill-clinton-closeup-204565687-jpg.jpg",
+      "path": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg"
+    },
+    {
+      "name": "10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg",
+      "similarity": 0.9188374876976013
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg",
+      "similarity": 0.8895613551139832
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg",
+      "similarity": 0.4545342028141022
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "similarity": 0.9226560592651367
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "similarity": 0.8685494065284729
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "similarity": 0.5105820894241333
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg",
+      "similarity": 0.4010825455188751
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/01_bill-clinton-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+      "similarity": 0.6740800142288208
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg",
+      "similarity": 0.9018332958221436
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg",
+      "similarity": 0.4576767683029175
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "similarity": 0.9145095348358154
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "similarity": 0.848182201385498
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "similarity": 0.4473317861557007
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg",
+      "similarity": 0.4166979491710663
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/02_44-bill-clinton-3x4-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+      "similarity": 0.6567309498786926
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg",
+      "similarity": 0.45992493629455566
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "similarity": 0.9293913245201111
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "similarity": 0.8934087753295898
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "similarity": 0.40712109208106995
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg",
+      "similarity": 0.39038407802581787
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/03_bill-clinton-cropped-3-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+      "similarity": 0.6690163612365723
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "similarity": 0.48046907782554626
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "similarity": 0.44397085905075073
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "similarity": 0.3771335184574127
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg",
+      "similarity": 0.452613890171051
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/04_bill-clinton-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+      "similarity": 0.5032832026481628
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "similarity": 0.8422133922576904
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "similarity": 0.43639448285102844
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg",
+      "similarity": 0.4362882077693939
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+      "similarity": 0.7100121974945068
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "similarity": 0.4044496417045593
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg",
+      "similarity": 0.3884202837944031
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+      "similarity": 0.6630162000656128
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg",
+      "similarity": 0.4503347873687744
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+      "similarity": 0.4465222656726837
+    },
+    {
+      "left": "/workspace/input/piven/data/bill_clinton/images/09_bill-clinton-closeup-204565687-jpg.jpg",
+      "right": "/workspace/input/piven/data/bill_clinton/images/10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg",
+      "similarity": 0.44938069581985474
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_bill-clinton-jpg.jpg",
+      "02_44-bill-clinton-3x4-jpg.jpg",
+      "03_bill-clinton-cropped-3-jpg.jpg",
+      "04_bill-clinton-cropped-jpg.jpg",
+      "05_bill-clinton-portrait-3x4-cropped-jpg.jpg",
+      "07_44-bill-clinton-3x4-cropped-jpg.jpg",
+      "08_bill-clinton-30349165325-cropped-jpg.jpg",
+      "09_bill-clinton-closeup-204565687-jpg.jpg",
+      "10_president-bill-clinton-half-length-portrait-seated-at-desk-facing-front-color-cropped-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.9188374876976013,
+        0.8895613551139832,
+        0.4545342028141022,
+        0.9226560592651367,
+        0.8685494065284729,
+        0.5105820894241333,
+        0.4010825455188751,
+        0.6740800142288208
+      ],
+      [
+        0.9188374876976013,
+        1.0000001192092896,
+        0.9018332958221436,
+        0.4576767683029175,
+        0.9145095348358154,
+        0.848182201385498,
+        0.4473317861557007,
+        0.4166979491710663,
+        0.6567309498786926
+      ],
+      [
+        0.8895613551139832,
+        0.9018332958221436,
+        1.0,
+        0.45992493629455566,
+        0.9293913245201111,
+        0.8934087753295898,
+        0.40712109208106995,
+        0.39038407802581787,
+        0.6690163612365723
+      ],
+      [
+        0.4545342028141022,
+        0.4576767683029175,
+        0.45992493629455566,
+        1.0,
+        0.48046907782554626,
+        0.44397085905075073,
+        0.3771335184574127,
+        0.452613890171051,
+        0.5032832026481628
+      ],
+      [
+        0.9226560592651367,
+        0.9145095348358154,
+        0.9293913245201111,
+        0.48046907782554626,
+        1.0000001192092896,
+        0.8422133922576904,
+        0.43639448285102844,
+        0.4362882077693939,
+        0.7100121974945068
+      ],
+      [
+        0.8685494065284729,
+        0.848182201385498,
+        0.8934087753295898,
+        0.44397085905075073,
+        0.8422133922576904,
+        1.0,
+        0.4044496417045593,
+        0.3884202837944031,
+        0.6630162000656128
+      ],
+      [
+        0.5105820894241333,
+        0.4473317861557007,
+        0.40712109208106995,
+        0.3771335184574127,
+        0.43639448285102844,
+        0.4044496417045593,
+        1.0,
+        0.4503347873687744,
+        0.4465222656726837
+      ],
+      [
+        0.4010825455188751,
+        0.4166979491710663,
+        0.39038407802581787,
+        0.452613890171051,
+        0.4362882077693939,
+        0.3884202837944031,
+        0.4503347873687744,
+        1.0,
+        0.44938069581985474
+      ],
+      [
+        0.6740800142288208,
+        0.6567309498786926,
+        0.6690163612365723,
+        0.5032832026481628,
+        0.7100121974945068,
+        0.6630162000656128,
+        0.4465222656726837,
+        0.44938069581985474,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/bill_clinton/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/bill_clinton/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/bill_clinton/images/11_bill-clinton-rally-closeup-of-hands-30041626024-jpg.jpg",
+      "error": "No face detected in /workspace/input/piven/data/bill_clinton/images/11_bill-clinton-rally-closeup-of-hands-30041626024-jpg.jpg"
+    }
+  ]
+}

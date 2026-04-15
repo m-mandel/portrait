@@ -1,0 +1,459 @@
+{
+  "folder": "/workspace/input/piven/data/haim_yavin",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/haim_yavin/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_haim-yavin-jpg.jpg",
+        "path": "/workspace/input/piven/data/haim_yavin/images/01_haim-yavin-jpg.jpg",
+        "similarity": 0.04185277596116066
+      },
+      {
+        "index": 1,
+        "name": "02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+        "path": "/workspace/input/piven/data/haim_yavin/images/02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+        "similarity": 0.0960877537727356
+      },
+      {
+        "index": 2,
+        "name": "03_elyasaf-kowner-portraits.jpg",
+        "path": "/workspace/input/piven/data/haim_yavin/images/03_elyasaf-kowner-portraits.jpg",
+        "similarity": 0.0919613242149353
+      },
+      {
+        "index": 3,
+        "name": "04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+        "path": "/workspace/input/piven/data/haim_yavin/images/04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+        "similarity": 0.0568966418504715
+      },
+      {
+        "index": 4,
+        "name": "05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+        "path": "/workspace/input/piven/data/haim_yavin/images/05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+        "similarity": 0.04310660809278488
+      },
+      {
+        "index": 5,
+        "name": "07_image.jpg",
+        "path": "/workspace/input/piven/data/haim_yavin/images/07_image.jpg",
+        "similarity": -0.16416436433792114
+      },
+      {
+        "index": 6,
+        "name": "08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+        "path": "/workspace/input/piven/data/haim_yavin/images/08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+        "similarity": 0.058899886906147
+      },
+      {
+        "index": 7,
+        "name": "10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+        "path": "/workspace/input/piven/data/haim_yavin/images/10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+        "similarity": 0.0074356612749397755
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "values": [
+        [
+          1.0,
+          0.04185277596116066,
+          0.0960877537727356,
+          0.0919613242149353,
+          0.0568966418504715,
+          0.04310660809278488,
+          -0.16416436433792114,
+          0.058899886906147,
+          0.0074356612749397755
+        ],
+        [
+          0.04185277596116066,
+          1.0000001192092896,
+          0.4569219946861267,
+          0.47252964973449707,
+          0.44506514072418213,
+          0.5897836089134216,
+          0.010172916576266289,
+          0.03923645243048668,
+          0.031093502417206764
+        ],
+        [
+          0.0960877537727356,
+          0.4569219946861267,
+          1.0000001192092896,
+          0.38985803723335266,
+          0.36293771862983704,
+          0.40367430448532104,
+          0.021058812737464905,
+          -0.010459842160344124,
+          0.024225281551480293
+        ],
+        [
+          0.0919613242149353,
+          0.47252964973449707,
+          0.38985803723335266,
+          0.9999998807907104,
+          0.47935768961906433,
+          0.6021665930747986,
+          0.010725382715463638,
+          -0.00826356653124094,
+          0.01632866822183132
+        ],
+        [
+          0.0568966418504715,
+          0.44506514072418213,
+          0.36293771862983704,
+          0.47935768961906433,
+          1.0,
+          0.520984947681427,
+          0.004504804965108633,
+          -0.06701317429542542,
+          0.008291281759738922
+        ],
+        [
+          0.04310660809278488,
+          0.5897836089134216,
+          0.40367430448532104,
+          0.6021665930747986,
+          0.520984947681427,
+          0.9999999403953552,
+          0.029269946739077568,
+          0.012230008840560913,
+          0.010779807344079018
+        ],
+        [
+          -0.16416436433792114,
+          0.010172916576266289,
+          0.021058812737464905,
+          0.010725382715463638,
+          0.004504804965108633,
+          0.029269946739077568,
+          1.0000001192092896,
+          -0.015595010481774807,
+          -0.0220402330160141
+        ],
+        [
+          0.058899886906147,
+          0.03923645243048668,
+          -0.010459842160344124,
+          -0.00826356653124094,
+          -0.06701317429542542,
+          0.012230008840560913,
+          -0.015595010481774807,
+          1.0000001192092896,
+          -0.060010846704244614
+        ],
+        [
+          0.0074356612749397755,
+          0.031093502417206764,
+          0.024225281551480293,
+          0.01632866822183132,
+          0.008291281759738922,
+          0.010779807344079018,
+          -0.0220402330160141,
+          -0.060010846704244614,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_haim-yavin-jpg.jpg",
+      "path": "/workspace/input/piven/data/haim_yavin/images/01_haim-yavin-jpg.jpg"
+    },
+    {
+      "name": "02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+      "path": "/workspace/input/piven/data/haim_yavin/images/02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg"
+    },
+    {
+      "name": "03_elyasaf-kowner-portraits.jpg",
+      "path": "/workspace/input/piven/data/haim_yavin/images/03_elyasaf-kowner-portraits.jpg"
+    },
+    {
+      "name": "04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+      "path": "/workspace/input/piven/data/haim_yavin/images/04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg"
+    },
+    {
+      "name": "05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+      "path": "/workspace/input/piven/data/haim_yavin/images/05_haim-yavin-alchetron-the-free-social-encyclopedia.png"
+    },
+    {
+      "name": "07_image.jpg",
+      "path": "/workspace/input/piven/data/haim_yavin/images/07_image.jpg"
+    },
+    {
+      "name": "08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+      "path": "/workspace/input/piven/data/haim_yavin/images/08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg"
+    },
+    {
+      "name": "10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+      "path": "/workspace/input/piven/data/haim_yavin/images/10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/01_haim-yavin-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+      "similarity": 0.4569219946861267
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/01_haim-yavin-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/03_elyasaf-kowner-portraits.jpg",
+      "similarity": 0.47252964973449707
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/01_haim-yavin-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+      "similarity": 0.44506514072418213
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/01_haim-yavin-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+      "similarity": 0.5897836089134216
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/01_haim-yavin-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/07_image.jpg",
+      "similarity": 0.010172916576266289
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/01_haim-yavin-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+      "similarity": 0.03923645243048668
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/01_haim-yavin-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+      "similarity": 0.031093502417206764
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/03_elyasaf-kowner-portraits.jpg",
+      "similarity": 0.38985803723335266
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+      "similarity": 0.36293771862983704
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+      "similarity": 0.40367430448532104
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/07_image.jpg",
+      "similarity": 0.021058812737464905
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+      "similarity": -0.010459842160344124
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+      "similarity": 0.024225281551480293
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/03_elyasaf-kowner-portraits.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+      "similarity": 0.47935768961906433
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/03_elyasaf-kowner-portraits.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+      "similarity": 0.6021665930747986
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/03_elyasaf-kowner-portraits.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/07_image.jpg",
+      "similarity": 0.010725382715463638
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/03_elyasaf-kowner-portraits.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+      "similarity": -0.00826356653124094
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/03_elyasaf-kowner-portraits.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+      "similarity": 0.01632866822183132
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+      "similarity": 0.520984947681427
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/07_image.jpg",
+      "similarity": 0.004504804965108633
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+      "similarity": -0.06701317429542542
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+      "similarity": 0.008291281759738922
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+      "right": "/workspace/input/piven/data/haim_yavin/images/07_image.jpg",
+      "similarity": 0.029269946739077568
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+      "right": "/workspace/input/piven/data/haim_yavin/images/08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+      "similarity": 0.012230008840560913
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+      "right": "/workspace/input/piven/data/haim_yavin/images/10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+      "similarity": 0.010779807344079018
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/07_image.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+      "similarity": -0.015595010481774807
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/07_image.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+      "similarity": -0.0220402330160141
+    },
+    {
+      "left": "/workspace/input/piven/data/haim_yavin/images/08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+      "right": "/workspace/input/piven/data/haim_yavin/images/10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg",
+      "similarity": -0.060010846704244614
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_haim-yavin-jpg.jpg",
+      "02_haim-yavin-at-zucky-crystal-exhibition-for-the-memory-of-hanna-zemer-jpg.jpg",
+      "03_elyasaf-kowner-portraits.jpg",
+      "04_calls-to-sack-israeli-anchorman-camera-snapshots.jpg",
+      "05_haim-yavin-alchetron-the-free-social-encyclopedia.png",
+      "07_image.jpg",
+      "08_journalist-accuses-famed-news-anchor-haim-yavin-of-sexual-misconduct.jpg",
+      "10_pin-by-rick-haim-on-r-h-mix-profile-picture-character-portraits.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.4569219946861267,
+        0.47252964973449707,
+        0.44506514072418213,
+        0.5897836089134216,
+        0.010172916576266289,
+        0.03923645243048668,
+        0.031093502417206764
+      ],
+      [
+        0.4569219946861267,
+        1.0000001192092896,
+        0.38985803723335266,
+        0.36293771862983704,
+        0.40367430448532104,
+        0.021058812737464905,
+        -0.010459842160344124,
+        0.024225281551480293
+      ],
+      [
+        0.47252964973449707,
+        0.38985803723335266,
+        0.9999998807907104,
+        0.47935768961906433,
+        0.6021665930747986,
+        0.010725382715463638,
+        -0.00826356653124094,
+        0.01632866822183132
+      ],
+      [
+        0.44506514072418213,
+        0.36293771862983704,
+        0.47935768961906433,
+        1.0,
+        0.520984947681427,
+        0.004504804965108633,
+        -0.06701317429542542,
+        0.008291281759738922
+      ],
+      [
+        0.5897836089134216,
+        0.40367430448532104,
+        0.6021665930747986,
+        0.520984947681427,
+        0.9999999403953552,
+        0.029269946739077568,
+        0.012230008840560913,
+        0.010779807344079018
+      ],
+      [
+        0.010172916576266289,
+        0.021058812737464905,
+        0.010725382715463638,
+        0.004504804965108633,
+        0.029269946739077568,
+        1.0000001192092896,
+        -0.015595010481774807,
+        -0.0220402330160141
+      ],
+      [
+        0.03923645243048668,
+        -0.010459842160344124,
+        -0.00826356653124094,
+        -0.06701317429542542,
+        0.012230008840560913,
+        -0.015595010481774807,
+        1.0000001192092896,
+        -0.060010846704244614
+      ],
+      [
+        0.031093502417206764,
+        0.024225281551480293,
+        0.01632866822183132,
+        0.008291281759738922,
+        0.010779807344079018,
+        -0.0220402330160141,
+        -0.060010846704244614,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/haim_yavin/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/haim_yavin/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/haim_yavin/images/06_haim-yavin-spotify.jpg",
+      "error": "No face detected in /workspace/input/piven/data/haim_yavin/images/06_haim-yavin-spotify.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/haim_yavin/images/09_guttmam-haim-fonts-free-download-onlinewebfonts-com.jpg",
+      "error": "No face detected in /workspace/input/piven/data/haim_yavin/images/09_guttmam-haim-fonts-free-download-onlinewebfonts-com.jpg"
+    }
+  ]
+}

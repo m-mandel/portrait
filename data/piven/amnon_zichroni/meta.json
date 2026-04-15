@@ -1,0 +1,70 @@
+{
+  "name": "amnon zichroni",
+  "bio": "Mordechai Vanunu (Hebrew: מרדכי ואנונו‎; Hebrew pronunciation: [moʁdeˈχaj vaˈnunu]; ; Arabic: مردخاي فعنونو; Arabic pronunciation: [murdaxaj faʕnuːnu]; born 14 October 1952), also known as John Crossman, is an Israeli former nuclear technician and peace activist who, citing his opposition to weapons of mass destruction, revealed details of Israel's nuclear weapons program to the British press in 1986. He was subsequently lured from Britain to Italy by the Israeli intelligence agency Mossad, where he was drugged and abducted. He was secretly transported to Israel and ultimately convicted in a trial that was held behind closed doors.\nVanunu spent 18 years in prison, including more than 11 in solitary confinement, though no such restriction is mentioned in Israel's penal code, nor imposed by his verdict. Released from prison in 2004, he was further subjected to a broad array of restrictions on his speech and his movement and arrested several times for violations of his parole terms, giving interviews to foreign journalists and attempting to leave Israel. He claims to have suffered from \"cruel and barbaric treatment\" at the hands of prison authorities and suggests that things would have been different if he had not converted to Christianity.\nIn 2007 Vanunu was sentenced to six months in prison for violating terms of his parole. The sentence was considered unusually severe even by the prosecution, who expected a suspended sentence. In response, Amnesty International issued a press release in July 2007, stating that \"The organization considers Mordechai Vanunu to be a prisoner of conscience and calls for his immediate and unconditional release.\" In May 2010 Vanunu was arrested again and sentenced to three months in jail on a charge that he had met foreigners, in violation of conditions of his 2004 release from prison.\nVanunu has been characterized internationally as a whistleblower.  American whistleblower Daniel Ellsberg has referred to him as \"the preeminent hero of the nuclear era\". In 1987, he was awarded the Right Livelihood Award for \"his courage and self-sacrifice in revealing the extent of Israel's nuclear weapons program\". Israel claims and regards Vanunu as a traitor.",
+  "bio_sources": [
+    {
+      "subject": "amnon zichroni",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Mordechai_Vanunu"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "pastries",
+      "shape_type": "organic object",
+      "meaning": "adds an earthy, bodily note that keeps amnon zichroni's a flamboyant legal persona tactile and human."
+    },
+    {
+      "element": "garlic bulb",
+      "shape_type": "organic object",
+      "meaning": "adds an earthy, bodily note that keeps amnon zichroni's a flamboyant legal persona tactile and human."
+    },
+    {
+      "element": "fish",
+      "shape_type": "organic object",
+      "meaning": "adds an earthy, bodily note that keeps amnon zichroni's a flamboyant legal persona tactile and human."
+    },
+    {
+      "element": "cigar",
+      "shape_type": "smoking object",
+      "meaning": "adds swagger, vice, or old-guard bravado to amnon zichroni's a flamboyant legal persona."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "radiation ring",
+      "visual_representation": "a stark hazard-like circle with radiating wedges",
+      "category": "symbol",
+      "relevance": "The biography centers on revealing details of a nuclear weapons program.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "newspaper sheet",
+      "visual_representation": "a folded page with dense narrow text columns",
+      "category": "object",
+      "relevance": "He is described as giving information to the British press.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "sealed cell",
+      "visual_representation": "a tight enclosure with heavy walls and almost no openings",
+      "category": "place",
+      "relevance": "Prison and long solitary confinement are directly described.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "checkpoint line",
+      "visual_representation": "a broken directional line interrupted by barrier marks",
+      "category": "structure",
+      "relevance": "Abduction, cross-border movement, and later restrictions on movement are central to the biography.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "classified dossier",
+      "visual_representation": "stacked dark folders with clipped document tabs",
+      "category": "domain",
+      "relevance": "The broader world around the subject is nuclear secrecy, intelligence, and state security.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

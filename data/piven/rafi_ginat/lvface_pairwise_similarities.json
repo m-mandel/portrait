@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/rafi_ginat",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/rafi_ginat/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_rafi-ginat-2015-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+        "similarity": 0.023864133283495903
+      },
+      {
+        "index": 1,
+        "name": "02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+        "similarity": 0.016480276361107826
+      },
+      {
+        "index": 2,
+        "name": "03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+        "similarity": -0.06040700152516365
+      },
+      {
+        "index": 3,
+        "name": "04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+        "similarity": 0.02477213181555271
+      },
+      {
+        "index": 4,
+        "name": "05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+        "similarity": 0.015763990581035614
+      },
+      {
+        "index": 5,
+        "name": "06_rafi-ginat-spotify.jpg",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+        "similarity": 0.06326009333133698
+      },
+      {
+        "index": 6,
+        "name": "07_image.jpg",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+        "similarity": -0.003825252642855048
+      },
+      {
+        "index": 7,
+        "name": "08_rafi-ginat.jpg",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+        "similarity": 0.0010525109246373177
+      },
+      {
+        "index": 8,
+        "name": "09_interview-with-rafi-ginat-youtube.jpg",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+        "similarity": 0.07184647023677826
+      },
+      {
+        "index": 9,
+        "name": "10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+        "path": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+        "similarity": -0.009354373440146446
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.023864133283495903,
+          0.016480276361107826,
+          -0.06040700152516365,
+          0.02477213181555271,
+          0.015763990581035614,
+          0.06326009333133698,
+          -0.003825252642855048,
+          0.0010525109246373177,
+          0.07184647023677826,
+          -0.009354373440146446
+        ],
+        [
+          0.023864133283495903,
+          0.9999999403953552,
+          0.3850075304508209,
+          0.4573071300983429,
+          0.5258480906486511,
+          0.5899187326431274,
+          0.4924377202987671,
+          0.45347219705581665,
+          0.4219893217086792,
+          0.4443562626838684,
+          0.4559014141559601
+        ],
+        [
+          0.016480276361107826,
+          0.3850075304508209,
+          0.9999998807907104,
+          0.7585442066192627,
+          0.39391377568244934,
+          0.30011820793151855,
+          0.33609244227409363,
+          0.3271515667438507,
+          0.25857385993003845,
+          0.3426547944545746,
+          0.35196632146835327
+        ],
+        [
+          -0.06040700152516365,
+          0.4573071300983429,
+          0.7585442066192627,
+          1.0,
+          0.466261625289917,
+          0.3904726505279541,
+          0.396180659532547,
+          0.339778333902359,
+          0.29018786549568176,
+          0.35977739095687866,
+          0.4281836152076721
+        ],
+        [
+          0.02477213181555271,
+          0.5258480906486511,
+          0.39391377568244934,
+          0.466261625289917,
+          1.0,
+          0.5595570802688599,
+          0.5452916622161865,
+          0.44241419434547424,
+          0.4257548153400421,
+          0.3929829001426697,
+          0.4321379065513611
+        ],
+        [
+          0.015763990581035614,
+          0.5899187326431274,
+          0.30011820793151855,
+          0.3904726505279541,
+          0.5595570802688599,
+          1.0,
+          0.4616457521915436,
+          0.45106881856918335,
+          0.41292956471443176,
+          0.4587346911430359,
+          0.4668107032775879
+        ],
+        [
+          0.06326009333133698,
+          0.4924377202987671,
+          0.33609244227409363,
+          0.396180659532547,
+          0.5452916622161865,
+          0.4616457521915436,
+          1.0000001192092896,
+          0.4110858738422394,
+          0.4644310176372528,
+          0.4325230121612549,
+          0.40996381640434265
+        ],
+        [
+          -0.003825252642855048,
+          0.45347219705581665,
+          0.3271515667438507,
+          0.339778333902359,
+          0.44241419434547424,
+          0.45106881856918335,
+          0.4110858738422394,
+          0.9999998807907104,
+          0.4151287078857422,
+          0.4332612454891205,
+          0.3415946960449219
+        ],
+        [
+          0.0010525109246373177,
+          0.4219893217086792,
+          0.25857385993003845,
+          0.29018786549568176,
+          0.4257548153400421,
+          0.41292956471443176,
+          0.4644310176372528,
+          0.4151287078857422,
+          1.0,
+          0.3912982642650604,
+          0.4025726318359375
+        ],
+        [
+          0.07184647023677826,
+          0.4443562626838684,
+          0.3426547944545746,
+          0.35977739095687866,
+          0.3929829001426697,
+          0.4587346911430359,
+          0.4325230121612549,
+          0.4332612454891205,
+          0.3912982642650604,
+          1.0000001192092896,
+          0.3317020833492279
+        ],
+        [
+          -0.009354373440146446,
+          0.4559014141559601,
+          0.35196632146835327,
+          0.4281836152076721,
+          0.4321379065513611,
+          0.4668107032775879,
+          0.40996381640434265,
+          0.3415946960449219,
+          0.4025726318359375,
+          0.3317020833492279,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_rafi-ginat-2015-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg"
+    },
+    {
+      "name": "03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg"
+    },
+    {
+      "name": "04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg"
+    },
+    {
+      "name": "05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png"
+    },
+    {
+      "name": "06_rafi-ginat-spotify.jpg",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg"
+    },
+    {
+      "name": "07_image.jpg",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg"
+    },
+    {
+      "name": "08_rafi-ginat.jpg",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg"
+    },
+    {
+      "name": "09_interview-with-rafi-ginat-youtube.jpg",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg"
+    },
+    {
+      "name": "10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "path": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "similarity": 0.3850075304508209
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "similarity": 0.4573071300983429
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "similarity": 0.5258480906486511
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "similarity": 0.5899187326431274
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+      "similarity": 0.4924377202987671
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+      "similarity": 0.45347219705581665
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+      "similarity": 0.4219893217086792
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+      "similarity": 0.4443562626838684
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/01_rafi-ginat-2015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "similarity": 0.4559014141559601
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "similarity": 0.7585442066192627
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "similarity": 0.39391377568244934
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "similarity": 0.30011820793151855
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+      "similarity": 0.33609244227409363
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+      "similarity": 0.3271515667438507
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+      "similarity": 0.25857385993003845
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+      "similarity": 0.3426547944545746
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "similarity": 0.35196632146835327
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "similarity": 0.466261625289917
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "similarity": 0.3904726505279541
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+      "similarity": 0.396180659532547
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+      "similarity": 0.339778333902359
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+      "similarity": 0.29018786549568176
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+      "similarity": 0.35977739095687866
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "similarity": 0.4281836152076721
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "similarity": 0.5595570802688599
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+      "similarity": 0.5452916622161865
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+      "similarity": 0.44241419434547424
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+      "similarity": 0.4257548153400421
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+      "similarity": 0.3929829001426697
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "similarity": 0.4321379065513611
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+      "similarity": 0.4616457521915436
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+      "similarity": 0.45106881856918335
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+      "similarity": 0.41292956471443176
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+      "similarity": 0.4587346911430359
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "similarity": 0.4668107032775879
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+      "similarity": 0.4110858738422394
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+      "similarity": 0.4644310176372528
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+      "similarity": 0.4325230121612549
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/06_rafi-ginat-spotify.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "similarity": 0.40996381640434265
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+      "similarity": 0.4151287078857422
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+      "similarity": 0.4332612454891205
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/07_image.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "similarity": 0.3415946960449219
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+      "similarity": 0.3912982642650604
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/08_rafi-ginat.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "similarity": 0.4025726318359375
+    },
+    {
+      "left": "/workspace/input/piven/data/rafi_ginat/images/09_interview-with-rafi-ginat-youtube.jpg",
+      "right": "/workspace/input/piven/data/rafi_ginat/images/10_rafi-ginat-sinner-man-mp3-youtube.jpg",
+      "similarity": 0.3317020833492279
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_rafi-ginat-2015-cropped-jpg.jpg",
+      "02_the-director-of-the-kolbotek-rafi-ginat-fl45846398-jpg.jpg",
+      "03_the-director-of-the-kolbotek-rafi-ginat-fl45846443-jpg.jpg",
+      "04_maccabi-hall-of-fame-member-rafi-ginat-youtube.jpg",
+      "05_biography-of-rafi-ginat-rafi-salutes-leonard.png",
+      "06_rafi-ginat-spotify.jpg",
+      "07_image.jpg",
+      "08_rafi-ginat.jpg",
+      "09_interview-with-rafi-ginat-youtube.jpg",
+      "10_rafi-ginat-sinner-man-mp3-youtube.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.3850075304508209,
+        0.4573071300983429,
+        0.5258480906486511,
+        0.5899187326431274,
+        0.4924377202987671,
+        0.45347219705581665,
+        0.4219893217086792,
+        0.4443562626838684,
+        0.4559014141559601
+      ],
+      [
+        0.3850075304508209,
+        0.9999998807907104,
+        0.7585442066192627,
+        0.39391377568244934,
+        0.30011820793151855,
+        0.33609244227409363,
+        0.3271515667438507,
+        0.25857385993003845,
+        0.3426547944545746,
+        0.35196632146835327
+      ],
+      [
+        0.4573071300983429,
+        0.7585442066192627,
+        1.0,
+        0.466261625289917,
+        0.3904726505279541,
+        0.396180659532547,
+        0.339778333902359,
+        0.29018786549568176,
+        0.35977739095687866,
+        0.4281836152076721
+      ],
+      [
+        0.5258480906486511,
+        0.39391377568244934,
+        0.466261625289917,
+        1.0,
+        0.5595570802688599,
+        0.5452916622161865,
+        0.44241419434547424,
+        0.4257548153400421,
+        0.3929829001426697,
+        0.4321379065513611
+      ],
+      [
+        0.5899187326431274,
+        0.30011820793151855,
+        0.3904726505279541,
+        0.5595570802688599,
+        1.0,
+        0.4616457521915436,
+        0.45106881856918335,
+        0.41292956471443176,
+        0.4587346911430359,
+        0.4668107032775879
+      ],
+      [
+        0.4924377202987671,
+        0.33609244227409363,
+        0.396180659532547,
+        0.5452916622161865,
+        0.4616457521915436,
+        1.0000001192092896,
+        0.4110858738422394,
+        0.4644310176372528,
+        0.4325230121612549,
+        0.40996381640434265
+      ],
+      [
+        0.45347219705581665,
+        0.3271515667438507,
+        0.339778333902359,
+        0.44241419434547424,
+        0.45106881856918335,
+        0.4110858738422394,
+        0.9999998807907104,
+        0.4151287078857422,
+        0.4332612454891205,
+        0.3415946960449219
+      ],
+      [
+        0.4219893217086792,
+        0.25857385993003845,
+        0.29018786549568176,
+        0.4257548153400421,
+        0.41292956471443176,
+        0.4644310176372528,
+        0.4151287078857422,
+        1.0,
+        0.3912982642650604,
+        0.4025726318359375
+      ],
+      [
+        0.4443562626838684,
+        0.3426547944545746,
+        0.35977739095687866,
+        0.3929829001426697,
+        0.4587346911430359,
+        0.4325230121612549,
+        0.4332612454891205,
+        0.3912982642650604,
+        1.0000001192092896,
+        0.3317020833492279
+      ],
+      [
+        0.4559014141559601,
+        0.35196632146835327,
+        0.4281836152076721,
+        0.4321379065513611,
+        0.4668107032775879,
+        0.40996381640434265,
+        0.3415946960449219,
+        0.4025726318359375,
+        0.3317020833492279,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/rafi_ginat/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/rafi_ginat/portrait.jpg"
+    }
+  ]
+}

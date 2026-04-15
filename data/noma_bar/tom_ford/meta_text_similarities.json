@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/tom_ford",
+  "meta_path": "/workspace/input/noma_bar/data/tom_ford/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Thomas Carlyle Ford (born August 27, 1961) is an American fashion designer and filmmaker. He launched his eponymous fashion brand in 2005, having previously been the creative director at Gucci and Yves Saint Laurent. He wrote and directed the films A Single Man (2009) and Nocturnal Animals (2016), and served as chairman of the Council of Fashion Designers of America from 2019 to 2022.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "black background field"
+    },
+    {
+      "index": 1,
+      "element": "pale geometric face block"
+    },
+    {
+      "index": 2,
+      "element": "black hair field"
+    },
+    {
+      "index": 3,
+      "element": "thin angular eyeglass line at the nose"
+    },
+    {
+      "index": 4,
+      "element": "white collar shapes"
+    },
+    {
+      "index": 5,
+      "element": "faint mouth line"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "fabric fold"
+    },
+    {
+      "index": 1,
+      "element": "mannequin form"
+    },
+    {
+      "index": 2,
+      "element": "measuring tape"
+    },
+    {
+      "index": 3,
+      "element": "fabric swatch"
+    },
+    {
+      "index": 4,
+      "element": "runway line"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "black background field",
+      "pale geometric face block",
+      "black hair field",
+      "thin angular eyeglass line at the nose",
+      "white collar shapes",
+      "faint mouth line"
+    ],
+    "values": [
+      [
+        0.015597159042954445,
+        -0.008252312429249287,
+        0.06370198726654053,
+        0.08540894091129303,
+        0.11094555258750916,
+        -0.0034769177436828613
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "fabric fold",
+      "mannequin form",
+      "measuring tape",
+      "fabric swatch",
+      "runway line"
+    ],
+    "column_labels": [
+      "black background field",
+      "pale geometric face block",
+      "black hair field",
+      "thin angular eyeglass line at the nose",
+      "white collar shapes",
+      "faint mouth line"
+    ],
+    "values": [
+      [
+        0.09009920060634613,
+        0.17345774173736572,
+        0.06440284103155136,
+        0.12804843485355377,
+        0.19841022789478302,
+        0.019750263541936874
+      ],
+      [
+        0.13732287287712097,
+        0.24492327868938446,
+        0.24988731741905212,
+        0.21177347004413605,
+        0.22147653996944427,
+        0.1536906212568283
+      ],
+      [
+        0.021408703178167343,
+        0.11057713627815247,
+        0.007392682135105133,
+        0.2291782647371292,
+        0.25556376576423645,
+        0.10829776525497437
+      ],
+      [
+        0.17921723425388336,
+        0.12173110991716385,
+        0.21006867289543152,
+        0.1537526249885559,
+        0.31965532898902893,
+        0.03200298920273781
+      ],
+      [
+        0.27504563331604004,
+        0.15647487342357635,
+        0.3102338910102844,
+        0.18824151158332825,
+        0.1958739459514618,
+        0.34798476099967957
+      ]
+    ]
+  }
+}

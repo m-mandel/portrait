@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/sylvester_stallone",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/sylvester_stallone/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+        "similarity": 0.002779515227302909
+      },
+      {
+        "index": 1,
+        "name": "02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+        "similarity": -0.009343600831925869
+      },
+      {
+        "index": 2,
+        "name": "03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+        "similarity": 0.03604923188686371
+      },
+      {
+        "index": 3,
+        "name": "04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+        "similarity": 0.015936896204948425
+      },
+      {
+        "index": 4,
+        "name": "08_sylvester-stallone-1978-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+        "similarity": 0.04728759825229645
+      },
+      {
+        "index": 5,
+        "name": "08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+        "similarity": 0.009368671104311943
+      },
+      {
+        "index": 6,
+        "name": "09_sylvester-stallone-4840005067-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+        "similarity": 0.038119837641716
+      },
+      {
+        "index": 7,
+        "name": "10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+        "similarity": 0.05646369233727455
+      },
+      {
+        "index": 8,
+        "name": "11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+        "similarity": -0.008966244757175446
+      },
+      {
+        "index": 9,
+        "name": "12_sylvester-stallone-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+        "similarity": 0.017938993871212006
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.002779515227302909,
+          -0.009343600831925869,
+          0.03604923188686371,
+          0.015936896204948425,
+          0.04728759825229645,
+          0.009368671104311943,
+          0.038119837641716,
+          0.05646369233727455,
+          -0.008966244757175446,
+          0.017938993871212006
+        ],
+        [
+          0.002779515227302909,
+          1.0,
+          0.016204548999667168,
+          -0.07914706319570541,
+          0.04496876150369644,
+          0.05246740207076073,
+          0.7698066234588623,
+          0.03494426608085632,
+          0.1684107929468155,
+          0.12013505399227142,
+          0.07690006494522095
+        ],
+        [
+          -0.009343600831925869,
+          0.016204548999667168,
+          1.0,
+          0.5003847479820251,
+          0.46570703387260437,
+          0.368895947933197,
+          0.07040286064147949,
+          0.508492112159729,
+          -0.0010704613523557782,
+          0.4578297734260559,
+          0.44454047083854675
+        ],
+        [
+          0.03604923188686371,
+          -0.07914706319570541,
+          0.5003847479820251,
+          1.0,
+          0.4688507616519928,
+          0.48169565200805664,
+          0.024863220751285553,
+          0.5301799178123474,
+          -0.0012165838852524757,
+          0.42863893508911133,
+          0.47774070501327515
+        ],
+        [
+          0.015936896204948425,
+          0.04496876150369644,
+          0.46570703387260437,
+          0.4688507616519928,
+          1.0,
+          0.39082786440849304,
+          0.04869810491800308,
+          0.447084903717041,
+          -0.023965153843164444,
+          0.4910074770450592,
+          0.4724613428115845
+        ],
+        [
+          0.04728759825229645,
+          0.05246740207076073,
+          0.368895947933197,
+          0.48169565200805664,
+          0.39082786440849304,
+          1.0,
+          0.03786826133728027,
+          0.4923531711101532,
+          0.017050575464963913,
+          0.37241968512535095,
+          0.5187538862228394
+        ],
+        [
+          0.009368671104311943,
+          0.7698066234588623,
+          0.07040286064147949,
+          0.024863220751285553,
+          0.04869810491800308,
+          0.03786826133728027,
+          1.0000001192092896,
+          0.002793565858155489,
+          0.09385165572166443,
+          -0.02194133959710598,
+          0.043627627193927765
+        ],
+        [
+          0.038119837641716,
+          0.03494426608085632,
+          0.508492112159729,
+          0.5301799178123474,
+          0.447084903717041,
+          0.4923531711101532,
+          0.002793565858155489,
+          1.0000001192092896,
+          0.03937926143407822,
+          0.43052011728286743,
+          0.6034333109855652
+        ],
+        [
+          0.05646369233727455,
+          0.1684107929468155,
+          -0.0010704613523557782,
+          -0.0012165838852524757,
+          -0.023965153843164444,
+          0.017050575464963913,
+          0.09385165572166443,
+          0.03937926143407822,
+          1.0,
+          0.0606808178126812,
+          -0.015845125541090965
+        ],
+        [
+          -0.008966244757175446,
+          0.12013505399227142,
+          0.4578297734260559,
+          0.42863893508911133,
+          0.4910074770450592,
+          0.37241968512535095,
+          -0.02194133959710598,
+          0.43052011728286743,
+          0.0606808178126812,
+          1.0,
+          0.5160152912139893
+        ],
+        [
+          0.017938993871212006,
+          0.07690006494522095,
+          0.44454047083854675,
+          0.47774070501327515,
+          0.4724613428115845,
+          0.5187538862228394,
+          0.043627627193927765,
+          0.6034333109855652,
+          -0.015845125541090965,
+          0.5160152912139893,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg"
+    },
+    {
+      "name": "03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg"
+    },
+    {
+      "name": "04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg"
+    },
+    {
+      "name": "08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_sylvester-stallone-4840005067-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg"
+    },
+    {
+      "name": "10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg"
+    },
+    {
+      "name": "11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg"
+    },
+    {
+      "name": "12_sylvester-stallone-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "similarity": 0.016204548999667168
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "similarity": -0.07914706319570541
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "similarity": 0.04496876150369644
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "similarity": 0.05246740207076073
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "similarity": 0.7698066234588623
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+      "similarity": 0.03494426608085632
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "similarity": 0.1684107929468155
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "similarity": 0.12013505399227142
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+      "similarity": 0.07690006494522095
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "similarity": 0.5003847479820251
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "similarity": 0.46570703387260437
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "similarity": 0.368895947933197
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "similarity": 0.07040286064147949
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+      "similarity": 0.508492112159729
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "similarity": -0.0010704613523557782
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "similarity": 0.4578297734260559
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+      "similarity": 0.44454047083854675
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "similarity": 0.4688507616519928
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "similarity": 0.48169565200805664
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "similarity": 0.024863220751285553
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+      "similarity": 0.5301799178123474
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "similarity": -0.0012165838852524757
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "similarity": 0.42863893508911133
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+      "similarity": 0.47774070501327515
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "similarity": 0.39082786440849304
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "similarity": 0.04869810491800308
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+      "similarity": 0.447084903717041
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "similarity": -0.023965153843164444
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "similarity": 0.4910074770450592
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+      "similarity": 0.4724613428115845
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "similarity": 0.03786826133728027
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+      "similarity": 0.4923531711101532
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "similarity": 0.017050575464963913
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "similarity": 0.37241968512535095
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+      "similarity": 0.5187538862228394
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+      "similarity": 0.002793565858155489
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "similarity": 0.09385165572166443
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "similarity": -0.02194133959710598
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+      "similarity": 0.043627627193927765
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "similarity": 0.03937926143407822
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "similarity": 0.43052011728286743
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/09_sylvester-stallone-4840005067-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+      "similarity": 0.6034333109855652
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "similarity": 0.0606808178126812
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+      "similarity": -0.015845125541090965
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sylvester_stallone/images/11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sylvester_stallone/images/12_sylvester-stallone-jpg.jpg",
+      "similarity": 0.5160152912139893
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_sylvester-stallone-arnold-schwarzenegger-7588431980-cropped-jpg.jpg",
+      "02_sylvester-stallone-photo-by-pouria-afkhami-jpg.jpg",
+      "03_flickr-nicogenin-66-me-festival-de-venise-mostra-sylvester-stallone-26-jpg.jpg",
+      "04_sylvester-stallone-rocky-vi-2005-jpg.jpg",
+      "08_sylvester-stallone-1978-cropped-jpg.jpg",
+      "08_sylvester-stallone-arnold-schwarzenegger-7588432508-cropped-jpg.jpg",
+      "09_sylvester-stallone-4840005067-jpg.jpg",
+      "10_sylvester-stallone-brigitte-nielsen-cropped-jpg.jpg",
+      "11_p20251206dt-0472-cropped-sylvester-stallone-jpg.jpg",
+      "12_sylvester-stallone-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.016204548999667168,
+        -0.07914706319570541,
+        0.04496876150369644,
+        0.05246740207076073,
+        0.7698066234588623,
+        0.03494426608085632,
+        0.1684107929468155,
+        0.12013505399227142,
+        0.07690006494522095
+      ],
+      [
+        0.016204548999667168,
+        1.0,
+        0.5003847479820251,
+        0.46570703387260437,
+        0.368895947933197,
+        0.07040286064147949,
+        0.508492112159729,
+        -0.0010704613523557782,
+        0.4578297734260559,
+        0.44454047083854675
+      ],
+      [
+        -0.07914706319570541,
+        0.5003847479820251,
+        1.0,
+        0.4688507616519928,
+        0.48169565200805664,
+        0.024863220751285553,
+        0.5301799178123474,
+        -0.0012165838852524757,
+        0.42863893508911133,
+        0.47774070501327515
+      ],
+      [
+        0.04496876150369644,
+        0.46570703387260437,
+        0.4688507616519928,
+        1.0,
+        0.39082786440849304,
+        0.04869810491800308,
+        0.447084903717041,
+        -0.023965153843164444,
+        0.4910074770450592,
+        0.4724613428115845
+      ],
+      [
+        0.05246740207076073,
+        0.368895947933197,
+        0.48169565200805664,
+        0.39082786440849304,
+        1.0,
+        0.03786826133728027,
+        0.4923531711101532,
+        0.017050575464963913,
+        0.37241968512535095,
+        0.5187538862228394
+      ],
+      [
+        0.7698066234588623,
+        0.07040286064147949,
+        0.024863220751285553,
+        0.04869810491800308,
+        0.03786826133728027,
+        1.0000001192092896,
+        0.002793565858155489,
+        0.09385165572166443,
+        -0.02194133959710598,
+        0.043627627193927765
+      ],
+      [
+        0.03494426608085632,
+        0.508492112159729,
+        0.5301799178123474,
+        0.447084903717041,
+        0.4923531711101532,
+        0.002793565858155489,
+        1.0000001192092896,
+        0.03937926143407822,
+        0.43052011728286743,
+        0.6034333109855652
+      ],
+      [
+        0.1684107929468155,
+        -0.0010704613523557782,
+        -0.0012165838852524757,
+        -0.023965153843164444,
+        0.017050575464963913,
+        0.09385165572166443,
+        0.03937926143407822,
+        1.0,
+        0.0606808178126812,
+        -0.015845125541090965
+      ],
+      [
+        0.12013505399227142,
+        0.4578297734260559,
+        0.42863893508911133,
+        0.4910074770450592,
+        0.37241968512535095,
+        -0.02194133959710598,
+        0.43052011728286743,
+        0.0606808178126812,
+        1.0,
+        0.5160152912139893
+      ],
+      [
+        0.07690006494522095,
+        0.44454047083854675,
+        0.47774070501327515,
+        0.4724613428115845,
+        0.5187538862228394,
+        0.043627627193927765,
+        0.6034333109855652,
+        -0.015845125541090965,
+        0.5160152912139893,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/sylvester_stallone/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/sylvester_stallone/portrait.jpg"
+    }
+  ]
+}

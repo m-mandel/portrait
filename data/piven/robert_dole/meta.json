@@ -1,0 +1,70 @@
+{
+  "name": "robert dole",
+  "bio": "Robert Joseph  Dole (July 22, 1923 – December 5, 2021) was an American politician, attorney, and U.S. Army officer who represented Kansas in the United States Senate from 1969 to 1996. He was the Republican leader of the U.S. Senate during the final 11 years of his tenure, including three non-consecutive years as Majority Leader of the U.S. Senate. Prior to his 27 years in the Senate, he served in the United States House of Representatives from 1961 to 1969. Dole was also the Republican presidential nominee in the 1996 presidential election and the vice presidential nominee in the 1976 presidential election.\nDole was born and raised in Russell, Kansas, where he established a legal career after serving with distinction in the United States Army during World War II. Following a period as county attorney for Russell County, he won election to the House of Representatives in 1960. In 1968, Dole was elected to the Senate, where he served as chairman of the Republican National Committee from 1971 to 1973 and chairman of the United States Senate Committee on Finance from 1981 to 1985. He led the U.S. Senate Republican members from 1985 to his resignation in 1996, and served as Senate Majority Leader from 1985 to 1987 and from 1995 to 1996. In his role as Republican leader, he helped defeat the Clinton health care plan of 1993, proposed by Democratic president Bill Clinton.\nPresident Gerald Ford chose Dole as his running mate in the 1976 election after Vice President Nelson Rockefeller withdrew from seeking a full term. The Ford–Dole ticket was defeated by the Democratic ticket of Jimmy Carter and Walter Mondale in the general election. Dole sought the Republican presidential nomination in 1980, but quickly dropped out of the race. He experienced more success in the 1988 Republican primaries but was defeated by Vice President George H. W. Bush. Dole won the Republican presidential nomination in 1996 and selected Jack Kemp as his running mate. The Republican ticket lost in the general election to Clinton. He resigned from the Senate during the 1996 campaign and did not seek public office again after the election.\nDole remained active after retiring from public office. His second wife Elizabeth served one term as U.S. Senator from North Carolina from 2003 to 2009. Dole appeared in numerous commercials and television programs and served on various councils, including the advisory council for the Victims of Communism Memorial Foundation and special counsel at the Washington, D.C., office of law firm Alston & Bird. In 2012, he unsuccessfully advocated Senate ratification of the Convention on the Rights of Persons with Disabilities. Dole was the only former Republican presidential nominee to endorse Donald Trump in the 2016 and 2020 presidential elections, though he initially supported Jeb Bush in the 2016 Republican Party presidential primaries. Dole was awarded the Congressional Gold Medal on January 17, 2018.",
+  "bio_sources": [
+    {
+      "subject": "robert dole",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Bob_Dole"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "rifle",
+      "shape_type": "found object",
+      "meaning": "points to war service, toughness, and martial biography."
+    },
+    {
+      "element": "american flag pins",
+      "shape_type": "linear object",
+      "meaning": "foreground patriotic branding and veteran identity."
+    },
+    {
+      "element": "lemon slice",
+      "shape_type": "organic object",
+      "meaning": "adds an earthy, bodily note that keeps robert dole's war service, patriotism, and political toughness tactile and human."
+    },
+    {
+      "element": "cigarette",
+      "shape_type": "smoking object",
+      "meaning": "adds swagger, vice, or old-guard bravado to robert dole's war service, patriotism, and political toughness."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "gavel block",
+      "visual_representation": "a small hammer-like form resting on a square base",
+      "category": "object",
+      "relevance": "Judicial decision-making is strongly associated with the legal world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "scales emblem",
+      "visual_representation": "a balanced two-pan scale reduced to a simple icon",
+      "category": "symbol",
+      "relevance": "Law and judgment are central to the subject’s professional domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "legal dossier",
+      "visual_representation": "stacked paper files tied with a band",
+      "category": "object",
+      "relevance": "Legal practice and casework belong to the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/menachem_begin",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/menachem_begin/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_menachem-begin-2-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg",
+        "similarity": 0.06258275359869003
+      },
+      {
+        "index": 1,
+        "name": "02_menachem-begin-997008136790205171-jpg.jpg",
+        "path": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg",
+        "similarity": -0.002828197553753853
+      },
+      {
+        "index": 2,
+        "name": "03_menachem-begin-997008136789905171-jpg.jpg",
+        "path": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg",
+        "similarity": 0.10677258670330048
+      },
+      {
+        "index": 3,
+        "name": "04_biografia-de-menachem-begin.jpg",
+        "path": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg",
+        "similarity": 0.03245526924729347
+      },
+      {
+        "index": 4,
+        "name": "06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+        "path": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+        "similarity": 0.002145184203982353
+      },
+      {
+        "index": 5,
+        "name": "07_menachem-begin-national-portrait-gallery.jpg",
+        "path": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg",
+        "similarity": 0.04461449012160301
+      },
+      {
+        "index": 6,
+        "name": "08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+        "path": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+        "similarity": 0.07642071694135666
+      },
+      {
+        "index": 7,
+        "name": "09_menachem-begin-22-portraits.jpg",
+        "path": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg",
+        "similarity": -0.02840379998087883
+      },
+      {
+        "index": 8,
+        "name": "10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+        "path": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+        "similarity": 0.03831622004508972
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.06258275359869003,
+          -0.002828197553753853,
+          0.10677258670330048,
+          0.03245526924729347,
+          0.002145184203982353,
+          0.04461449012160301,
+          0.07642071694135666,
+          -0.02840379998087883,
+          0.03831622004508972
+        ],
+        [
+          0.06258275359869003,
+          1.0000001192092896,
+          0.023444490507245064,
+          0.011770014651119709,
+          0.5873146653175354,
+          0.48775604367256165,
+          0.383169561624527,
+          0.5059417486190796,
+          0.08599228411912918,
+          0.6456706523895264
+        ],
+        [
+          -0.002828197553753853,
+          0.023444490507245064,
+          1.0,
+          -0.006315154489129782,
+          0.11114155501127243,
+          0.07997698336839676,
+          0.06366880983114243,
+          0.10875993967056274,
+          0.08441172540187836,
+          0.0400129072368145
+        ],
+        [
+          0.10677258670330048,
+          0.011770014651119709,
+          -0.006315154489129782,
+          1.0,
+          0.039737898856401443,
+          -0.014464451000094414,
+          0.02366657927632332,
+          0.04083653911948204,
+          0.06903088837862015,
+          -0.0012903338065370917
+        ],
+        [
+          0.03245526924729347,
+          0.5873146653175354,
+          0.11114155501127243,
+          0.039737898856401443,
+          1.0,
+          0.6063628792762756,
+          0.429584801197052,
+          0.47292935848236084,
+          0.13321633636951447,
+          0.5772251486778259
+        ],
+        [
+          0.002145184203982353,
+          0.48775604367256165,
+          0.07997698336839676,
+          -0.014464451000094414,
+          0.6063628792762756,
+          1.0000001192092896,
+          0.43424901366233826,
+          0.46985405683517456,
+          0.15679629147052765,
+          0.47500067949295044
+        ],
+        [
+          0.04461449012160301,
+          0.383169561624527,
+          0.06366880983114243,
+          0.02366657927632332,
+          0.429584801197052,
+          0.43424901366233826,
+          1.0000001192092896,
+          0.515278160572052,
+          0.1363368183374405,
+          0.39633041620254517
+        ],
+        [
+          0.07642071694135666,
+          0.5059417486190796,
+          0.10875993967056274,
+          0.04083653911948204,
+          0.47292935848236084,
+          0.46985405683517456,
+          0.515278160572052,
+          1.0000001192092896,
+          0.2457474023103714,
+          0.5132524967193604
+        ],
+        [
+          -0.02840379998087883,
+          0.08599228411912918,
+          0.08441172540187836,
+          0.06903088837862015,
+          0.13321633636951447,
+          0.15679629147052765,
+          0.1363368183374405,
+          0.2457474023103714,
+          0.9999999403953552,
+          0.11761918663978577
+        ],
+        [
+          0.03831622004508972,
+          0.6456706523895264,
+          0.0400129072368145,
+          -0.0012903338065370917,
+          0.5772251486778259,
+          0.47500067949295044,
+          0.39633041620254517,
+          0.5132524967193604,
+          0.11761918663978577,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_menachem-begin-2-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_menachem-begin-997008136790205171-jpg.jpg",
+      "path": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg"
+    },
+    {
+      "name": "03_menachem-begin-997008136789905171-jpg.jpg",
+      "path": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg"
+    },
+    {
+      "name": "04_biografia-de-menachem-begin.jpg",
+      "path": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg"
+    },
+    {
+      "name": "06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "path": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg"
+    },
+    {
+      "name": "07_menachem-begin-national-portrait-gallery.jpg",
+      "path": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg"
+    },
+    {
+      "name": "08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "path": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg"
+    },
+    {
+      "name": "09_menachem-begin-22-portraits.jpg",
+      "path": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg"
+    },
+    {
+      "name": "10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+      "path": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg",
+      "similarity": 0.023444490507245064
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg",
+      "similarity": 0.011770014651119709
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg",
+      "similarity": 0.5873146653175354
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "similarity": 0.48775604367256165
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg",
+      "similarity": 0.383169561624527
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "similarity": 0.5059417486190796
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg",
+      "similarity": 0.08599228411912918
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/01_menachem-begin-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+      "similarity": 0.6456706523895264
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg",
+      "similarity": -0.006315154489129782
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg",
+      "similarity": 0.11114155501127243
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "similarity": 0.07997698336839676
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg",
+      "similarity": 0.06366880983114243
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "similarity": 0.10875993967056274
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg",
+      "similarity": 0.08441172540187836
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/02_menachem-begin-997008136790205171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+      "similarity": 0.0400129072368145
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg",
+      "similarity": 0.039737898856401443
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "similarity": -0.014464451000094414
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg",
+      "similarity": 0.02366657927632332
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "similarity": 0.04083653911948204
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg",
+      "similarity": 0.06903088837862015
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/03_menachem-begin-997008136789905171-jpg.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+      "similarity": -0.0012903338065370917
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "similarity": 0.6063628792762756
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg",
+      "similarity": 0.429584801197052
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "similarity": 0.47292935848236084
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg",
+      "similarity": 0.13321633636951447
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/04_biografia-de-menachem-begin.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+      "similarity": 0.5772251486778259
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg",
+      "similarity": 0.43424901366233826
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "similarity": 0.46985405683517456
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg",
+      "similarity": 0.15679629147052765
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+      "similarity": 0.47500067949295044
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "similarity": 0.515278160572052
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg",
+      "similarity": 0.1363368183374405
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/07_menachem-begin-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+      "similarity": 0.39633041620254517
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg",
+      "similarity": 0.2457474023103714
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+      "similarity": 0.5132524967193604
+    },
+    {
+      "left": "/workspace/input/piven/data/menachem_begin/images/09_menachem-begin-22-portraits.jpg",
+      "right": "/workspace/input/piven/data/menachem_begin/images/10_geburtstag-am-16-august-2025-vor-0-jahren.webp",
+      "similarity": 0.11761918663978577
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_menachem-begin-2-cropped-jpg.jpg",
+      "02_menachem-begin-997008136790205171-jpg.jpg",
+      "03_menachem-begin-997008136789905171-jpg.jpg",
+      "04_biografia-de-menachem-begin.jpg",
+      "06_menachem-begin-israeli-prime-minister-nobel-peace-prize-winner.jpg",
+      "07_menachem-begin-national-portrait-gallery.jpg",
+      "08_menachem-begin-portrait-of-a-leader-a-biography-grosbard-ofer.jpg",
+      "09_menachem-begin-22-portraits.jpg",
+      "10_geburtstag-am-16-august-2025-vor-0-jahren.webp"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.023444490507245064,
+        0.011770014651119709,
+        0.5873146653175354,
+        0.48775604367256165,
+        0.383169561624527,
+        0.5059417486190796,
+        0.08599228411912918,
+        0.6456706523895264
+      ],
+      [
+        0.023444490507245064,
+        1.0,
+        -0.006315154489129782,
+        0.11114155501127243,
+        0.07997698336839676,
+        0.06366880983114243,
+        0.10875993967056274,
+        0.08441172540187836,
+        0.0400129072368145
+      ],
+      [
+        0.011770014651119709,
+        -0.006315154489129782,
+        1.0,
+        0.039737898856401443,
+        -0.014464451000094414,
+        0.02366657927632332,
+        0.04083653911948204,
+        0.06903088837862015,
+        -0.0012903338065370917
+      ],
+      [
+        0.5873146653175354,
+        0.11114155501127243,
+        0.039737898856401443,
+        1.0,
+        0.6063628792762756,
+        0.429584801197052,
+        0.47292935848236084,
+        0.13321633636951447,
+        0.5772251486778259
+      ],
+      [
+        0.48775604367256165,
+        0.07997698336839676,
+        -0.014464451000094414,
+        0.6063628792762756,
+        1.0000001192092896,
+        0.43424901366233826,
+        0.46985405683517456,
+        0.15679629147052765,
+        0.47500067949295044
+      ],
+      [
+        0.383169561624527,
+        0.06366880983114243,
+        0.02366657927632332,
+        0.429584801197052,
+        0.43424901366233826,
+        1.0000001192092896,
+        0.515278160572052,
+        0.1363368183374405,
+        0.39633041620254517
+      ],
+      [
+        0.5059417486190796,
+        0.10875993967056274,
+        0.04083653911948204,
+        0.47292935848236084,
+        0.46985405683517456,
+        0.515278160572052,
+        1.0000001192092896,
+        0.2457474023103714,
+        0.5132524967193604
+      ],
+      [
+        0.08599228411912918,
+        0.08441172540187836,
+        0.06903088837862015,
+        0.13321633636951447,
+        0.15679629147052765,
+        0.1363368183374405,
+        0.2457474023103714,
+        0.9999999403953552,
+        0.11761918663978577
+      ],
+      [
+        0.6456706523895264,
+        0.0400129072368145,
+        -0.0012903338065370917,
+        0.5772251486778259,
+        0.47500067949295044,
+        0.39633041620254517,
+        0.5132524967193604,
+        0.11761918663978577,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/menachem_begin/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/menachem_begin/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/menachem_begin/images/05_menachem-begin-speed-read-nobelprize-org.jpg",
+      "error": "No face detected in /workspace/input/piven/data/menachem_begin/images/05_menachem-begin-speed-read-nobelprize-org.jpg"
+    }
+  ]
+}

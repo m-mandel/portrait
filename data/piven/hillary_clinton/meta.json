@@ -1,0 +1,70 @@
+{
+  "name": "hillary clinton",
+  "bio": "Hillary Diane Rodham Clinton (née Rodham; born October 26, 1947) is an American politician, lawyer, and diplomat. She was the 67th United States secretary of state in the administration of Barack Obama from 2009 to 2013, a U.S. senator representing New York from 2001 to 2009, and the first lady of the United States from 1993 to 2001 as the wife of Bill Clinton. A member of the Democratic Party, she was the party's nominee in the 2016 presidential election, becoming the first woman to win a presidential nomination by a major U.S. political party and the only woman to win the popular vote for U.S. president. Clinton lost the United States Electoral College vote to Republican Party nominee Donald Trump. She is the only first lady of the United States to have run for elected office.\nBorn and raised in Chicago, Rodham graduated from Wellesley College in 1969 and from Yale Law School in 1973. After serving as a congressional legal counsel, she moved to Arkansas and, in 1975, married Bill Clinton. In 1977, Clinton co-founded Arkansas Advocates for Children and Families, and two years later became the first woman partner at Little Rock's Rose Law Firm. She was the first lady of Arkansas from 1979 to 1981 and again from 1983 to 1992. As the first lady of the U.S., Clinton advocated for healthcare reform. In 1994, her health care plan failed to gain approval from Congress. In 1997 and 1999, Clinton played a leading role in promoting the creation of the State Children's Health Insurance Program, the Adoption and Safe Families Act, and the Foster Care Independence Act. In 1998, Clinton's marital relationship came under public scrutiny during the Clinton–Lewinsky scandal, which led her to publicly reaffirm her commitment to the marriage.\nClinton was first elected to the U.S. Senate in 2000, becoming the first female senator from New York. As a senator, she chaired the Senate Democratic Steering and Outreach Committee from 2003 to 2007. Clinton ran for president in 2008, and lost to Barack Obama in the Democratic primaries. During 2009, she resigned from the Senate to become Obama's secretary of state. She responded to the Arab Spring by advocating the 2011 military intervention in Libya, but was harshly criticized by Republicans for the failure to prevent or adequately respond to the 2012 Benghazi attack. Clinton helped to organize a regime of international sanctions against Iran in an effort to force it to curtail its nuclear program, which eventually led to the multinational Joint Comprehensive Plan of Action in 2015. The strategic pivot to Asia was a central aspect of her tenure. Her use of a private email server as secretary was the subject of intense scrutiny; while no charges were filed, the controversy was the single-most-covered topic during her second presidential run in 2016. \nFollowing her loss, Clinton wrote multiple books and launched Onward Together, a political action organization dedicated to fundraising for progressive political groups. In 2011, she was appointed the Honorary Founding Chair of the Institute for Women, Peace and Security at Georgetown University, and the awards named in her name has been awarded annually at the university. Since 2020, Clinton has served as Chancellor of Queen's University Belfast. During 2023, she joined Columbia University as a Professor of Practice at the School of International and Public Affairs.",
+  "bio_sources": [
+    {
+      "subject": "hillary clinton",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Hillary_Clinton"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "button",
+      "shape_type": "circular object",
+      "meaning": "reads like a campaign button and reinforces hillary clinton's disciplined political branding."
+    },
+    {
+      "element": "pills",
+      "shape_type": "medicine object",
+      "meaning": "point directly to healthcare policy and the medical focus of her public role at the time."
+    },
+    {
+      "element": "capsules",
+      "shape_type": "medicine object",
+      "meaning": "extend the healthcare reference while keeping the portrait tactile and satirical."
+    },
+    {
+      "element": "paper card",
+      "shape_type": "paper object",
+      "meaning": "adds a documentary or constructed layer to hillary clinton's policy discipline and healthcare politics."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "olive branch",
+      "visual_representation": "a slim stem with small paired leaves",
+      "category": "symbol",
+      "relevance": "The biography explicitly includes diplomacy, peace work, or negotiation.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "gavel block",
+      "visual_representation": "a small hammer-like form resting on a square base",
+      "category": "object",
+      "relevance": "Judicial decision-making is strongly associated with the legal world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

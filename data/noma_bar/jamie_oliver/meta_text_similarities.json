@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/jamie_oliver",
+  "meta_path": "/workspace/input/noma_bar/data/jamie_oliver/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Jamie Trevor Oliver   (born 27 May 1975) is an English celebrity chef, restaurateur and cookbook author. He is known for his casual approach to cuisine, and he has fronted many television shows and opened numerous restaurants.\nOliver reached the public eye when his BBC Two series The Naked Chef premiered in 1999. In 2005, he started a campaign, Feed Me Better, to introduce schoolchildren to healthier foods, which was later backed by the government. He was the owner of a restaurant chain, Jamie Oliver Restaurant Group, which opened its first restaurant, Jamie's Italian, in 2008. The chain went into administration in May 2019.\nOliver is a best-selling British non-fiction author. As of February 2019, Oliver had sold more than 14.55 million books. His TED Talk won him the 2010 TED Prize. In June 2003, Oliver was made a Member of the Order of the British Empire for \"services to the hospitality industry\".",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "yellow background field"
+    },
+    {
+      "index": 1,
+      "element": "jagged blond hair"
+    },
+    {
+      "index": 2,
+      "element": "white face silhouette"
+    },
+    {
+      "index": 3,
+      "element": "red nose shape"
+    },
+    {
+      "index": 4,
+      "element": "red smiling mouth with visible tongue"
+    },
+    {
+      "index": 5,
+      "element": "blue shirt block"
+    },
+    {
+      "index": 6,
+      "element": "thin eyebrow arcs"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "plate ring"
+    },
+    {
+      "index": 1,
+      "element": "book stack"
+    },
+    {
+      "index": 2,
+      "element": "chef knife"
+    },
+    {
+      "index": 3,
+      "element": "frying pan"
+    },
+    {
+      "index": 4,
+      "element": "cookbook pages"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "yellow background field",
+      "jagged blond hair",
+      "white face silhouette",
+      "red nose shape",
+      "red smiling mouth with visible tongue",
+      "blue shirt block",
+      "thin eyebrow arcs"
+    ],
+    "values": [
+      [
+        -0.13962318003177643,
+        -0.07063914090394974,
+        -0.04081600159406662,
+        -0.058160267770290375,
+        0.08335228264331818,
+        0.09572330117225647,
+        -0.09037372469902039
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "plate ring",
+      "book stack",
+      "chef knife",
+      "frying pan",
+      "cookbook pages"
+    ],
+    "column_labels": [
+      "yellow background field",
+      "jagged blond hair",
+      "white face silhouette",
+      "red nose shape",
+      "red smiling mouth with visible tongue",
+      "blue shirt block",
+      "thin eyebrow arcs"
+    ],
+    "values": [
+      [
+        0.20792441070079803,
+        0.09206919372081757,
+        0.1514969766139984,
+        0.2317623645067215,
+        0.14096099138259888,
+        0.2655167281627655,
+        0.1825505793094635
+      ],
+      [
+        0.06050015985965729,
+        0.135425865650177,
+        0.042202211916446686,
+        0.09315723180770874,
+        -0.010326819494366646,
+        0.17498928308486938,
+        0.09228429943323135
+      ],
+      [
+        0.058790989220142365,
+        0.15189126133918762,
+        0.1763807088136673,
+        0.1392134130001068,
+        0.15725991129875183,
+        0.1606888622045517,
+        0.1444760411977768
+      ],
+      [
+        0.08899299800395966,
+        0.03553057834506035,
+        0.07653389126062393,
+        0.05521935969591141,
+        0.025267766788601875,
+        0.05233808979392052,
+        0.0009716711938381195
+      ],
+      [
+        -0.006646499969065189,
+        -0.009526543319225311,
+        0.007202068343758583,
+        -0.012253005057573318,
+        -0.011887896806001663,
+        0.08058822154998779,
+        -0.050133343786001205
+      ]
+    ]
+  }
+}

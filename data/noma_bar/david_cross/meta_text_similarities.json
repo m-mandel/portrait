@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/david_cross",
+  "meta_path": "/workspace/input/noma_bar/data/david_cross/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "David Cross (born April 4, 1964) is an American stand-up comedian, actor, writer, and television producer. Cross is best known for his stand-up performances, the HBO sketch comedy series Mr. Show with Bob and David (1995\u20131998), his role as Ian Hawke in the first three Alvin and the Chipmunks movies, and his role as Tobias F\u00fcnke in the Fox/Netflix sitcom Arrested Development (2003\u20132006, 2013\u20132019). He has been described as \"one of the defining figures of cult Gen X comedy\".\nCross created, wrote, executive produced, and starred in The Increasingly Poor Decisions of Todd Margaret (2010\u20132016); developed and had a prominent role in Freak Show (2006); appeared on Modern Family (2011\u20132012); and portrayed Ian Hawke in Alvin and the Chipmunks (2007), Alvin and the Chipmunks: The Squeakquel (2009), and Alvin and the Chipmunks: Chipwrecked (2011). Cross has also done voice work for the sitcom Oliver Beene (2003\u20132004), and has had lead voice-over roles in Curious George (2006), Battle for Terra (2007), the Kung Fu Panda film franchise (2008\u20132016), Megamind (2010), and Next Gen (2018).\nIn 1993, he won a Primetime Emmy Award for Outstanding Writing for a Variety Series for his work on The Ben Stiller Show. For Mr. Show with Bob and David, he gained three Primetime Emmy Award nominations, and for Arrested Development, Cross was nominated for a Satellite Award for Best Supporting Actor \u2013 Television Series, and, along with his cast, for three Screen Actors Guild Award for Outstanding Performance by an Ensemble in a Comedy Series. For his stand-up specials, he was nominated for several Grammy Awards.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "blue background field"
+    },
+    {
+      "index": 1,
+      "element": "bald white head silhouette"
+    },
+    {
+      "index": 2,
+      "element": "round glasses arcs"
+    },
+    {
+      "index": 3,
+      "element": "large blue lens"
+    },
+    {
+      "index": 4,
+      "element": "denim moustache and goatee"
+    },
+    {
+      "index": 5,
+      "element": "single hair flick"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "book stack"
+    },
+    {
+      "index": 2,
+      "element": "spotlight cone"
+    },
+    {
+      "index": 3,
+      "element": "theater mask"
+    },
+    {
+      "index": 4,
+      "element": "comic microphone"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "blue background field",
+      "bald white head silhouette",
+      "round glasses arcs",
+      "large blue lens",
+      "denim moustache and goatee",
+      "single hair flick"
+    ],
+    "values": [
+      [
+        -0.06471450626850128,
+        0.061742253601551056,
+        0.05996008217334747,
+        -0.019674178212881088,
+        0.05957799777388573,
+        -0.014220855198800564
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "book stack",
+      "spotlight cone",
+      "theater mask",
+      "comic microphone"
+    ],
+    "column_labels": [
+      "blue background field",
+      "bald white head silhouette",
+      "round glasses arcs",
+      "large blue lens",
+      "denim moustache and goatee",
+      "single hair flick"
+    ],
+    "values": [
+      [
+        0.243075430393219,
+        0.5084611177444458,
+        0.3169745206832886,
+        0.12395313382148743,
+        0.31632351875305176,
+        0.22166727483272552
+      ],
+      [
+        0.060562025755643845,
+        0.14917054772377014,
+        0.08368266373872757,
+        0.04925993084907532,
+        0.08472464978694916,
+        0.120726078748703
+      ],
+      [
+        0.22445258498191833,
+        0.21140843629837036,
+        0.34555548429489136,
+        0.22765207290649414,
+        0.06389836966991425,
+        0.22150500118732452
+      ],
+      [
+        0.132388636469841,
+        0.2750307023525238,
+        0.2990429699420929,
+        0.22336114943027496,
+        0.2995797395706177,
+        0.17347626388072968
+      ],
+      [
+        0.11763449758291245,
+        0.1717546135187149,
+        0.20334991812705994,
+        0.20719504356384277,
+        0.2912212908267975,
+        0.1969519555568695
+      ]
+    ]
+  }
+}

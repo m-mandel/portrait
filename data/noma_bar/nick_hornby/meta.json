@@ -1,0 +1,80 @@
+{
+  "name": "nick hornby",
+  "bio": "Nicholas Peter John Hornby (born 17 April 1957) is an English writer. He is best known for his memoir Fever Pitch (1992) and novels High Fidelity (1995) and About a Boy (1998), all of which were adapted into feature films. Hornby's work frequently touches upon music, sport, and the aimless and obsessive natures of his protagonists. His books have sold more than 5 million copies worldwide as of 2018. In a 2004 poll for the BBC, Hornby was named the 29th most influential person in British culture. He has received two Academy Award for Best Adapted Screenplay nominations for An Education (2009), and Brooklyn (2015).",
+  "bio_sources": [
+    {
+      "subject": "nick hornby",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Nick_Hornby"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "red background field",
+      "shape_type": "rectangle",
+      "meaning": "keeps the minimalist portrait vivid and direct"
+    },
+    {
+      "element": "pale blue bald head",
+      "shape_type": "organic shape",
+      "meaning": "creates an introspective stripped-back presence"
+    },
+    {
+      "element": "black nose formed like a tonearm",
+      "shape_type": "symbol",
+      "meaning": "suggests his deep connection to music culture"
+    },
+    {
+      "element": "small hanging disc-like eye",
+      "shape_type": "circle",
+      "meaning": "reads like a record element and listening cue"
+    },
+    {
+      "element": "spiral ear",
+      "shape_type": "spiral",
+      "meaning": "adds a literal listening motif"
+    },
+    {
+      "element": "curved smile lines",
+      "shape_type": "arc",
+      "meaning": "evoke wit and conversational warmth"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "book stack",
+      "visual_representation": "stacked books with staggered page edges",
+      "category": "object",
+      "relevance": "The biography explicitly describes literary work.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "typewriter keys",
+      "visual_representation": "a cluster of round or square keys arranged in rows",
+      "category": "object",
+      "relevance": "Writing and authorship are central to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "open book",
+      "visual_representation": "a spread book with two visible pages",
+      "category": "object",
+      "relevance": "Published writing belongs to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ink pen",
+      "visual_representation": "a long pen shape with a pointed nib",
+      "category": "object",
+      "relevance": "Literary creation is strongly associated with the subject’s domain.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

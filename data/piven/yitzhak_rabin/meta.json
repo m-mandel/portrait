@@ -1,0 +1,55 @@
+{
+  "name": "yitzhak rabin",
+  "bio": "Yitzhak Rabin (; Hebrew: יִצְחָק רַבִּין, IPA: [itsˈχak ˈʁabin]; 1 March 1922 – 4 November 1995) was an Israeli statesman and general who was the prime minister of Israel, having served two terms in office, 1974–1977, and from 1992 until his assassination in 1995. He was the first prime minister to have been born in the region of Palestine, at the time under British control.\nRabin was born in Jerusalem to Jewish immigrants from Eastern Europe and was raised in a Labor Zionist household. He learned agriculture in school and excelled as a student. As a teenager, he joined the Palmach, the commando force of the Yishuv. He eventually rose through its ranks to become its chief of operations during the 1948 Arab–Israeli War. In late 1948, he joined the newly formed Israel Defense Forces and continued to rise as a promising officer, with a 27-year career as a professional soldier. He ultimately attained the rank of Rav Aluf, the most senior rank in the Israeli Defense Force (often translated as lieutenant general). In the 1950s, Rabin helped shape the training doctrine of the IDF and he led its Operations Directorate from 1959 to 1963. He was appointed chief of the general staff in 1964 and oversaw Israel's victory in the 1967 Six-Day War.\nRabin served as Israel's ambassador to the United States from 1968 to 1973, during a period of deepening U.S.–Israel ties. He was appointed Prime Minister of Israel in 1974 after the resignation of Golda Meir. In his first term, Rabin signed the Sinai Interim Agreement and ordered the Entebbe raid. He resigned in 1977 in the wake of a financial scandal. Rabin was Israel's minister of defense for much of the 1980s, including during the outbreak of the First Intifada.\nIn 1992, Rabin was re-elected as prime minister on a platform embracing the Israeli–Palestinian peace process. He signed several historic agreements with the Palestinian leadership as part of the Oslo Accords.  In 1994, Rabin won the Nobel Peace Prize together with long-time political rival Shimon Peres and Palestinian leader Yasser Arafat. Rabin also signed a peace treaty with Jordan in 1994. In November 1995, he was assassinated by Yigal Amir, an extremist who opposed the terms of the Oslo Accords. Amir was convicted of Rabin's murder and sentenced to life imprisonment. Rabin was the first native-born prime minister of Israel, the only prime minister to be assassinated, and the second to die in office after Levi Eshkol. Rabin has become a symbol of the Israeli–Palestinian peace process.",
+  "bio_sources": [
+    {
+      "subject": "yitzhak rabin",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Yitzhak_Rabin"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "rice",
+      "shape_type": "organic object",
+      "meaning": "gives the portrait a fragile, grain-by-grain memorial quality instead of heroic solidity."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "olive branch",
+      "visual_representation": "a slim stem with small paired leaves",
+      "category": "symbol",
+      "relevance": "The biography explicitly includes diplomacy, peace work, or negotiation.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "cell door",
+      "visual_representation": "a heavy rectangular door with a small viewing slot",
+      "category": "place",
+      "relevance": "The biography explicitly refers to prison or confinement.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "campaign map",
+      "visual_representation": "directional arrows moving over a gridded field",
+      "category": "structure",
+      "relevance": "Strategy, operations, and command planning belong to the subject’s military world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

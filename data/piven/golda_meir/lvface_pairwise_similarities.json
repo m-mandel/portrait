@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/golda_meir",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/golda_meir/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_golda-meir-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+        "similarity": 0.01823950558900833
+      },
+      {
+        "index": 1,
+        "name": "02_golda-meir-1964-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+        "similarity": 0.06149258464574814
+      },
+      {
+        "index": 2,
+        "name": "03_golda-meir-03265u-2-jpg.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+        "similarity": 0.02378995716571808
+      },
+      {
+        "index": 3,
+        "name": "04_golda-meir-person-national-portrait-gallery.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+        "similarity": 0.006468940060585737
+      },
+      {
+        "index": 4,
+        "name": "05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+        "similarity": -0.023909589275717735
+      },
+      {
+        "index": 5,
+        "name": "06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+        "similarity": 0.022536903619766235
+      },
+      {
+        "index": 6,
+        "name": "07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+        "similarity": 0.0021517458371818066
+      },
+      {
+        "index": 7,
+        "name": "08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+        "similarity": 0.0007577667711302638
+      },
+      {
+        "index": 8,
+        "name": "09_golda-meir.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+        "similarity": 0.020159171894192696
+      },
+      {
+        "index": 9,
+        "name": "10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+        "path": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+        "similarity": -0.056671444326639175
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.01823950558900833,
+          0.06149258464574814,
+          0.02378995716571808,
+          0.006468940060585737,
+          -0.023909589275717735,
+          0.022536903619766235,
+          0.0021517458371818066,
+          0.0007577667711302638,
+          0.020159171894192696,
+          -0.056671444326639175
+        ],
+        [
+          0.01823950558900833,
+          1.0,
+          0.5135238170623779,
+          0.5587141513824463,
+          0.5410669445991516,
+          0.511059582233429,
+          0.6116544008255005,
+          0.5188292860984802,
+          0.42723140120506287,
+          0.5264025330543518,
+          0.46915319561958313
+        ],
+        [
+          0.06149258464574814,
+          0.5135238170623779,
+          1.0000001192092896,
+          0.4954885244369507,
+          0.43831148743629456,
+          0.46194010972976685,
+          0.5984475016593933,
+          0.49203893542289734,
+          0.40552037954330444,
+          0.4833797514438629,
+          0.4163816273212433
+        ],
+        [
+          0.02378995716571808,
+          0.5587141513824463,
+          0.4954885244369507,
+          0.9999998807907104,
+          0.5026994347572327,
+          0.5199739336967468,
+          0.48638230562210083,
+          0.5345551371574402,
+          0.48067593574523926,
+          0.40054577589035034,
+          0.435675710439682
+        ],
+        [
+          0.006468940060585737,
+          0.5410669445991516,
+          0.43831148743629456,
+          0.5026994347572327,
+          1.0,
+          0.47281622886657715,
+          0.4503408372402191,
+          0.5657336115837097,
+          0.39504507184028625,
+          0.42496347427368164,
+          0.5425320863723755
+        ],
+        [
+          -0.023909589275717735,
+          0.511059582233429,
+          0.46194010972976685,
+          0.5199739336967468,
+          0.47281622886657715,
+          1.0,
+          0.5271960496902466,
+          0.508127748966217,
+          0.47208160161972046,
+          0.4197116196155548,
+          0.6025420427322388
+        ],
+        [
+          0.022536903619766235,
+          0.6116544008255005,
+          0.5984475016593933,
+          0.48638230562210083,
+          0.4503408372402191,
+          0.5271960496902466,
+          1.0,
+          0.49952632188796997,
+          0.40676119923591614,
+          0.45275551080703735,
+          0.5356807708740234
+        ],
+        [
+          0.0021517458371818066,
+          0.5188292860984802,
+          0.49203893542289734,
+          0.5345551371574402,
+          0.5657336115837097,
+          0.508127748966217,
+          0.49952632188796997,
+          1.0000001192092896,
+          0.46703389286994934,
+          0.36265477538108826,
+          0.48727408051490784
+        ],
+        [
+          0.0007577667711302638,
+          0.42723140120506287,
+          0.40552037954330444,
+          0.48067593574523926,
+          0.39504507184028625,
+          0.47208160161972046,
+          0.40676119923591614,
+          0.46703389286994934,
+          1.0,
+          0.36447200179100037,
+          0.3274991512298584
+        ],
+        [
+          0.020159171894192696,
+          0.5264025330543518,
+          0.4833797514438629,
+          0.40054577589035034,
+          0.42496347427368164,
+          0.4197116196155548,
+          0.45275551080703735,
+          0.36265477538108826,
+          0.36447200179100037,
+          1.0,
+          0.41175925731658936
+        ],
+        [
+          -0.056671444326639175,
+          0.46915319561958313,
+          0.4163816273212433,
+          0.435675710439682,
+          0.5425320863723755,
+          0.6025420427322388,
+          0.5356807708740234,
+          0.48727408051490784,
+          0.3274991512298584,
+          0.41175925731658936,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_golda-meir-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_golda-meir-1964-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_golda-meir-03265u-2-jpg.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg"
+    },
+    {
+      "name": "04_golda-meir-person-national-portrait-gallery.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg"
+    },
+    {
+      "name": "05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg"
+    },
+    {
+      "name": "06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg"
+    },
+    {
+      "name": "07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg"
+    },
+    {
+      "name": "08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg"
+    },
+    {
+      "name": "09_golda-meir.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg"
+    },
+    {
+      "name": "10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "path": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+      "similarity": 0.5135238170623779
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+      "similarity": 0.5587141513824463
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+      "similarity": 0.5410669445991516
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.511059582233429
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "similarity": 0.6116544008255005
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "similarity": 0.5188292860984802
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "similarity": 0.42723140120506287
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+      "similarity": 0.5264025330543518
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/01_golda-meir-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.46915319561958313
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+      "similarity": 0.4954885244369507
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+      "similarity": 0.43831148743629456
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.46194010972976685
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "similarity": 0.5984475016593933
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "similarity": 0.49203893542289734
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "similarity": 0.40552037954330444
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+      "similarity": 0.4833797514438629
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/02_golda-meir-1964-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.4163816273212433
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+      "similarity": 0.5026994347572327
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.5199739336967468
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "similarity": 0.48638230562210083
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "similarity": 0.5345551371574402
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "similarity": 0.48067593574523926
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+      "similarity": 0.40054577589035034
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/03_golda-meir-03265u-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.435675710439682
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.47281622886657715
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "similarity": 0.4503408372402191
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "similarity": 0.5657336115837097
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "similarity": 0.39504507184028625
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+      "similarity": 0.42496347427368164
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/04_golda-meir-person-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.5425320863723755
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "similarity": 0.5271960496902466
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "similarity": 0.508127748966217
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "similarity": 0.47208160161972046
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+      "similarity": 0.4197116196155548
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.6025420427322388
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "similarity": 0.49952632188796997
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "similarity": 0.40676119923591614
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+      "similarity": 0.45275551080703735
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.5356807708740234
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "similarity": 0.46703389286994934
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+      "similarity": 0.36265477538108826
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.48727408051490784
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+      "similarity": 0.36447200179100037
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.3274991512298584
+    },
+    {
+      "left": "/workspace/input/piven/data/golda_meir/images/09_golda-meir.jpg",
+      "right": "/workspace/input/piven/data/golda_meir/images/10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.41175925731658936
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_golda-meir-cropped-jpg.jpg",
+      "02_golda-meir-1964-cropped-jpg.jpg",
+      "03_golda-meir-03265u-2-jpg.jpg",
+      "04_golda-meir-person-national-portrait-gallery.jpg",
+      "05_npg-x173120-golda-meir-portrait-national-portrait-gallery.jpg",
+      "06_portrait-of-prime-minister-golda-meir-stock-photo-alamy.jpg",
+      "07_golda-meir-by-javakun-redbubble-pop-art-portraits-golda-meir-pop-art.jpg",
+      "08_portrait-du-premier-ministre-isra-lien-golda-meir-et-du-diplomate.jpg",
+      "09_golda-meir.jpg",
+      "10_npg-x174601-golda-meir-portrait-national-portrait-gallery.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.5135238170623779,
+        0.5587141513824463,
+        0.5410669445991516,
+        0.511059582233429,
+        0.6116544008255005,
+        0.5188292860984802,
+        0.42723140120506287,
+        0.5264025330543518,
+        0.46915319561958313
+      ],
+      [
+        0.5135238170623779,
+        1.0000001192092896,
+        0.4954885244369507,
+        0.43831148743629456,
+        0.46194010972976685,
+        0.5984475016593933,
+        0.49203893542289734,
+        0.40552037954330444,
+        0.4833797514438629,
+        0.4163816273212433
+      ],
+      [
+        0.5587141513824463,
+        0.4954885244369507,
+        0.9999998807907104,
+        0.5026994347572327,
+        0.5199739336967468,
+        0.48638230562210083,
+        0.5345551371574402,
+        0.48067593574523926,
+        0.40054577589035034,
+        0.435675710439682
+      ],
+      [
+        0.5410669445991516,
+        0.43831148743629456,
+        0.5026994347572327,
+        1.0,
+        0.47281622886657715,
+        0.4503408372402191,
+        0.5657336115837097,
+        0.39504507184028625,
+        0.42496347427368164,
+        0.5425320863723755
+      ],
+      [
+        0.511059582233429,
+        0.46194010972976685,
+        0.5199739336967468,
+        0.47281622886657715,
+        1.0,
+        0.5271960496902466,
+        0.508127748966217,
+        0.47208160161972046,
+        0.4197116196155548,
+        0.6025420427322388
+      ],
+      [
+        0.6116544008255005,
+        0.5984475016593933,
+        0.48638230562210083,
+        0.4503408372402191,
+        0.5271960496902466,
+        1.0,
+        0.49952632188796997,
+        0.40676119923591614,
+        0.45275551080703735,
+        0.5356807708740234
+      ],
+      [
+        0.5188292860984802,
+        0.49203893542289734,
+        0.5345551371574402,
+        0.5657336115837097,
+        0.508127748966217,
+        0.49952632188796997,
+        1.0000001192092896,
+        0.46703389286994934,
+        0.36265477538108826,
+        0.48727408051490784
+      ],
+      [
+        0.42723140120506287,
+        0.40552037954330444,
+        0.48067593574523926,
+        0.39504507184028625,
+        0.47208160161972046,
+        0.40676119923591614,
+        0.46703389286994934,
+        1.0,
+        0.36447200179100037,
+        0.3274991512298584
+      ],
+      [
+        0.5264025330543518,
+        0.4833797514438629,
+        0.40054577589035034,
+        0.42496347427368164,
+        0.4197116196155548,
+        0.45275551080703735,
+        0.36265477538108826,
+        0.36447200179100037,
+        1.0,
+        0.41175925731658936
+      ],
+      [
+        0.46915319561958313,
+        0.4163816273212433,
+        0.435675710439682,
+        0.5425320863723755,
+        0.6025420427322388,
+        0.5356807708740234,
+        0.48727408051490784,
+        0.3274991512298584,
+        0.41175925731658936,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/golda_meir/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/golda_meir/portrait.jpg"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "John Travolta and Samuel L. Jackson",
+  "bio": "John Joseph Travolta (born February 18, 1954) is an American actor. He began acting in television before transitioning into a leading man in films. His accolades include a Primetime Emmy Award and three Golden Globe Awards, in addition to nominations for two Academy Awards, a British Academy Film Award, and three Screen Actors Guild Awards.\nTravolta came to prominence starring in the sitcom Welcome Back, Kotter (1975–1979), followed by a supporting performance in Carrie (1976) and then leading roles in Grease (1978), Urban Cowboy (1980), and Blow Out (1981). He earned nominations for the Academy Award for Best Actor for his roles in Saturday Night Fever (1977) and Pulp Fiction (1994). His other notable films include Get Shorty (1995), Broken Arrow (1996), Michael (1996), Face/Off (1997), A Civil Action (1998), Primary Colors (1998), The General's Daughter (1999), The Punisher (2004), Wild Hogs (2007), Hairspray (2007), Bolt (2008), and Savages (2012).\nTravolta returned to television portraying lawyer Robert Shapiro in the series The People v. O. J. Simpson: American Crime Story. He received an Emmy Award as a producer as well as nominations for a Primetime Emmy Award for Outstanding Supporting Actor in a Limited Series or Movie. He was also Emmy-nominated for his role in the action-comedy web series Die Hart (2021).\nOutside of acting, Travolta has released nine albums, including four singles that have charted on the Billboard Hot 100's Top 40. His albums have typically accompanied films he has starred in, such as Grease: The Original Soundtrack from the Motion Picture (1978), which topped the Billboard 200. Travolta is also a private pilot.\n\nSamuel Leroy Jackson (born December 21, 1948) is an American actor and film producer. He is one of the most widely recognized actors of his generation. The films in which he has appeared have collectively grossed more than $27 billion worldwide, making him the highest-grossing actor of all time. In 2022, he received the Academy Honorary Award as \"a cultural icon whose dynamic work has resonated across genres and generations and audiences worldwide\".\nJackson made his professional theater debut in Mother Courage and Her Children in 1980 at The Public Theater in New York City. From 1981 to 1983, he originated the role of Private Louis Henderson in Charles Fuller's A Soldier's Play off-Broadway. He also originated the role of Boy Willie in August Wilson's The Piano Lesson in 1987 at the Yale Repertory Theatre. He portrayed Martin Luther King Jr. in the Broadway play The Mountaintop (2011). He returned to Broadway in the 2022 revival of The Piano Lesson playing Doaker Charles, for which he received a Tony Award for Best Featured Actor in a Play nomination.\nJackson's early film roles include Coming to America (1988), Juice (1992), True Romance (1993), Jurassic Park (1993), Menace II Society (1993), and Fresh (1994). His early collaborations with Spike Lee led to greater prominence with films such as School Daze (1988), Do the Right Thing (1989), Mo' Better Blues (1990), and Jungle Fever (1991). Jackson's breakout performance was as Jules Winnfield in Quentin Tarantino's crime drama Pulp Fiction (1994), for which he won the BAFTA Award for Best Actor in a Supporting Role and received a nomination for the Academy Award for Best Supporting Actor. He has continued to collaborate with Lee (Oldboy in 2013, Chi-Raq in 2015, and Highest 2 Lowest in 2025) and Tarantino, with the latter including prominent roles in Jackie Brown (1997), Kill Bill: Volume 2 (2004), Django Unchained (2012), and The Hateful Eight (2015).\nHe also gained widespread recognition as the Jedi Mace Windu in the Star Wars prequel trilogy (1999–2005), and Nick Fury in 11 Marvel Cinematic Universe films, beginning with Iron Man (2008), as well as in the Disney+ series Secret Invasion (2023) and What If...? (2021–2024) and guest-starring in the ABC series Agents of S.H.I.E.L.D. (2013–2014). Jackson has provided his voice for Lucius Best / Frozone in the Pixar films The Incredibles (2004) and Incredibles 2 (2018). He has also acted in a number of big-budget films, including Die Hard with a Vengeance (1995), A Time to Kill (1996), Unbreakable (2000), Shaft (2000) and its reboot (2019), XXX (2002–2017), Coach Carter (2005), Snakes on a Plane (2006), Kingsman: The Secret Service (2014), Kong: Skull Island (2017), and Glass (2019).",
+  "bio_sources": [
+    {
+      "subject": "John Travolta",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/John_Travolta"
+    },
+    {
+      "subject": "Samuel L. Jackson",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Samuel_L._Jackson"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "yellow background field",
+      "shape_type": "rectangle",
+      "meaning": "references the film's bold pulp styling"
+    },
+    {
+      "element": "long black pompadour hair",
+      "shape_type": "silhouette",
+      "meaning": "identifies Travolta's character"
+    },
+    {
+      "element": "brown afro-backed second face",
+      "shape_type": "silhouette",
+      "meaning": "identifies Jackson's character"
+    },
+    {
+      "element": "gun-shaped black bar across the center",
+      "shape_type": "symbol",
+      "meaning": "foregrounds violence and hitman cool"
+    },
+    {
+      "element": "small earring ring",
+      "shape_type": "circle",
+      "meaning": "adds character-specific styling"
+    },
+    {
+      "element": "sharp brown goatee triangle",
+      "shape_type": "triangle",
+      "meaning": "reinforces swagger and menace"
+    },
+    {
+      "element": "merged double-face composition",
+      "shape_type": "organic shape",
+      "meaning": "fuses the duo into one iconic movie image"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "soundwave ribbon",
+      "visual_representation": "a flowing band of rising and falling wave peaks",
+      "category": "pattern",
+      "relevance": "The biography supports a public identity built around sound and performance.",
+      "grounding": "inferred"
+    }
+  ]
+}

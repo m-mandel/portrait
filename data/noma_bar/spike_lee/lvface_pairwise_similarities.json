@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/spike_lee",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/spike_lee/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_spike-lee-2025-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+        "similarity": 0.02245645970106125
+      },
+      {
+        "index": 1,
+        "name": "02_spike-lee-headshot-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+        "similarity": 0.07671374827623367
+      },
+      {
+        "index": 2,
+        "name": "03_lois-brown-spike-lee-54367945048-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+        "similarity": -0.05974946171045303
+      },
+      {
+        "index": 3,
+        "name": "05_spike-lee-54366842607-cropped2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+        "similarity": 0.03230559080839157
+      },
+      {
+        "index": 4,
+        "name": "08_spike-lee-54366842607-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+        "similarity": 0.051191240549087524
+      },
+      {
+        "index": 5,
+        "name": "08_spike-lee-54367921434-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+        "similarity": 0.08267803490161896
+      },
+      {
+        "index": 6,
+        "name": "09_spike-lee-54368114015-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+        "similarity": 0.07214180380105972
+      },
+      {
+        "index": 7,
+        "name": "09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+        "similarity": 0.020431142300367355
+      },
+      {
+        "index": 8,
+        "name": "10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+        "similarity": 0.06105897203087807
+      },
+      {
+        "index": 9,
+        "name": "12_spike-lee-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+        "similarity": 0.01084790751338005
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.02245645970106125,
+          0.07671374827623367,
+          -0.05974946171045303,
+          0.03230559080839157,
+          0.051191240549087524,
+          0.08267803490161896,
+          0.07214180380105972,
+          0.020431142300367355,
+          0.06105897203087807,
+          0.01084790751338005
+        ],
+        [
+          0.02245645970106125,
+          1.0000001192092896,
+          0.5126956701278687,
+          -0.06926232576370239,
+          0.4324794411659241,
+          0.44774389266967773,
+          0.5158451199531555,
+          0.49046698212623596,
+          0.6040080189704895,
+          0.45760107040405273,
+          0.3391592800617218
+        ],
+        [
+          0.07671374827623367,
+          0.5126956701278687,
+          1.0000001192092896,
+          -0.0034607138950377703,
+          0.45499488711357117,
+          0.4320903718471527,
+          0.4870690405368805,
+          0.4802573621273041,
+          0.4983258843421936,
+          0.3852403163909912,
+          0.4262339174747467
+        ],
+        [
+          -0.05974946171045303,
+          -0.06926232576370239,
+          -0.0034607138950377703,
+          1.0,
+          -0.051957644522190094,
+          -0.06666382402181625,
+          -0.019211696460843086,
+          -0.012978482991456985,
+          -0.027812708169221878,
+          -0.015607880428433418,
+          -0.007658714894205332
+        ],
+        [
+          0.03230559080839157,
+          0.4324794411659241,
+          0.45499488711357117,
+          -0.051957644522190094,
+          1.0000001192092896,
+          0.8536741137504578,
+          0.513536810874939,
+          0.6480533480644226,
+          0.44181951880455017,
+          0.4496003985404968,
+          0.2854914367198944
+        ],
+        [
+          0.051191240549087524,
+          0.44774389266967773,
+          0.4320903718471527,
+          -0.06666382402181625,
+          0.8536741137504578,
+          1.0,
+          0.47459205985069275,
+          0.6813713312149048,
+          0.4752064049243927,
+          0.4177135229110718,
+          0.30441269278526306
+        ],
+        [
+          0.08267803490161896,
+          0.5158451199531555,
+          0.4870690405368805,
+          -0.019211696460843086,
+          0.513536810874939,
+          0.47459205985069275,
+          1.0000001192092896,
+          0.6465389728546143,
+          0.4807893931865692,
+          0.46046316623687744,
+          0.40857478976249695
+        ],
+        [
+          0.07214180380105972,
+          0.49046698212623596,
+          0.4802573621273041,
+          -0.012978482991456985,
+          0.6480533480644226,
+          0.6813713312149048,
+          0.6465389728546143,
+          1.0,
+          0.5142455697059631,
+          0.4742552936077118,
+          0.43323400616645813
+        ],
+        [
+          0.020431142300367355,
+          0.6040080189704895,
+          0.4983258843421936,
+          -0.027812708169221878,
+          0.44181951880455017,
+          0.4752064049243927,
+          0.4807893931865692,
+          0.5142455697059631,
+          1.0,
+          0.5328339338302612,
+          0.3950246274471283
+        ],
+        [
+          0.06105897203087807,
+          0.45760107040405273,
+          0.3852403163909912,
+          -0.015607880428433418,
+          0.4496003985404968,
+          0.4177135229110718,
+          0.46046316623687744,
+          0.4742552936077118,
+          0.5328339338302612,
+          1.0,
+          0.3811842203140259
+        ],
+        [
+          0.01084790751338005,
+          0.3391592800617218,
+          0.4262339174747467,
+          -0.007658714894205332,
+          0.2854914367198944,
+          0.30441269278526306,
+          0.40857478976249695,
+          0.43323400616645813,
+          0.3950246274471283,
+          0.3811842203140259,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_spike-lee-2025-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_spike-lee-headshot-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg"
+    },
+    {
+      "name": "03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg"
+    },
+    {
+      "name": "05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg"
+    },
+    {
+      "name": "08_spike-lee-54366842607-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_spike-lee-54367921434-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg"
+    },
+    {
+      "name": "09_spike-lee-54368114015-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg"
+    },
+    {
+      "name": "09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_spike-lee-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+      "similarity": 0.5126956701278687
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "similarity": -0.06926232576370239
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "similarity": 0.4324794411659241
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+      "similarity": 0.44774389266967773
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+      "similarity": 0.5158451199531555
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+      "similarity": 0.49046698212623596
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "similarity": 0.6040080189704895
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "similarity": 0.45760107040405273
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/01_spike-lee-2025-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+      "similarity": 0.3391592800617218
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "similarity": -0.0034607138950377703
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "similarity": 0.45499488711357117
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+      "similarity": 0.4320903718471527
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+      "similarity": 0.4870690405368805
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+      "similarity": 0.4802573621273041
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "similarity": 0.4983258843421936
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "similarity": 0.3852403163909912
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/02_spike-lee-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+      "similarity": 0.4262339174747467
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "similarity": -0.051957644522190094
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+      "similarity": -0.06666382402181625
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+      "similarity": -0.019211696460843086
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+      "similarity": -0.012978482991456985
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "similarity": -0.027812708169221878
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "similarity": -0.015607880428433418
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+      "similarity": -0.007658714894205332
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+      "similarity": 0.8536741137504578
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+      "similarity": 0.513536810874939
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+      "similarity": 0.6480533480644226
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "similarity": 0.44181951880455017
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "similarity": 0.4496003985404968
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+      "similarity": 0.2854914367198944
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+      "similarity": 0.47459205985069275
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+      "similarity": 0.6813713312149048
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "similarity": 0.4752064049243927
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "similarity": 0.4177135229110718
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54366842607-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+      "similarity": 0.30441269278526306
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+      "similarity": 0.6465389728546143
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "similarity": 0.4807893931865692
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "similarity": 0.46046316623687744
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/08_spike-lee-54367921434-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+      "similarity": 0.40857478976249695
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "similarity": 0.5142455697059631
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "similarity": 0.4742552936077118
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-54368114015-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+      "similarity": 0.43323400616645813
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "similarity": 0.5328339338302612
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+      "similarity": 0.3950246274471283
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/spike_lee/images/10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/spike_lee/images/12_spike-lee-jpg.jpg",
+      "similarity": 0.3811842203140259
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_spike-lee-2025-cropped-jpg.jpg",
+      "02_spike-lee-headshot-jpg.jpg",
+      "03_lois-brown-spike-lee-54367945048-jpg.jpg",
+      "05_spike-lee-54366842607-cropped2-jpg.jpg",
+      "08_spike-lee-54366842607-cropped-jpg.jpg",
+      "08_spike-lee-54367921434-jpg.jpg",
+      "09_spike-lee-54368114015-jpg.jpg",
+      "09_spike-lee-at-the-american-pavilion-during-cannes-2025-01-cropped-jpg.jpg",
+      "10_spike-lee-peabody-awards-2011-cropped-jpg.jpg",
+      "12_spike-lee-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.5126956701278687,
+        -0.06926232576370239,
+        0.4324794411659241,
+        0.44774389266967773,
+        0.5158451199531555,
+        0.49046698212623596,
+        0.6040080189704895,
+        0.45760107040405273,
+        0.3391592800617218
+      ],
+      [
+        0.5126956701278687,
+        1.0000001192092896,
+        -0.0034607138950377703,
+        0.45499488711357117,
+        0.4320903718471527,
+        0.4870690405368805,
+        0.4802573621273041,
+        0.4983258843421936,
+        0.3852403163909912,
+        0.4262339174747467
+      ],
+      [
+        -0.06926232576370239,
+        -0.0034607138950377703,
+        1.0,
+        -0.051957644522190094,
+        -0.06666382402181625,
+        -0.019211696460843086,
+        -0.012978482991456985,
+        -0.027812708169221878,
+        -0.015607880428433418,
+        -0.007658714894205332
+      ],
+      [
+        0.4324794411659241,
+        0.45499488711357117,
+        -0.051957644522190094,
+        1.0000001192092896,
+        0.8536741137504578,
+        0.513536810874939,
+        0.6480533480644226,
+        0.44181951880455017,
+        0.4496003985404968,
+        0.2854914367198944
+      ],
+      [
+        0.44774389266967773,
+        0.4320903718471527,
+        -0.06666382402181625,
+        0.8536741137504578,
+        1.0,
+        0.47459205985069275,
+        0.6813713312149048,
+        0.4752064049243927,
+        0.4177135229110718,
+        0.30441269278526306
+      ],
+      [
+        0.5158451199531555,
+        0.4870690405368805,
+        -0.019211696460843086,
+        0.513536810874939,
+        0.47459205985069275,
+        1.0000001192092896,
+        0.6465389728546143,
+        0.4807893931865692,
+        0.46046316623687744,
+        0.40857478976249695
+      ],
+      [
+        0.49046698212623596,
+        0.4802573621273041,
+        -0.012978482991456985,
+        0.6480533480644226,
+        0.6813713312149048,
+        0.6465389728546143,
+        1.0,
+        0.5142455697059631,
+        0.4742552936077118,
+        0.43323400616645813
+      ],
+      [
+        0.6040080189704895,
+        0.4983258843421936,
+        -0.027812708169221878,
+        0.44181951880455017,
+        0.4752064049243927,
+        0.4807893931865692,
+        0.5142455697059631,
+        1.0,
+        0.5328339338302612,
+        0.3950246274471283
+      ],
+      [
+        0.45760107040405273,
+        0.3852403163909912,
+        -0.015607880428433418,
+        0.4496003985404968,
+        0.4177135229110718,
+        0.46046316623687744,
+        0.4742552936077118,
+        0.5328339338302612,
+        1.0,
+        0.3811842203140259
+      ],
+      [
+        0.3391592800617218,
+        0.4262339174747467,
+        -0.007658714894205332,
+        0.2854914367198944,
+        0.30441269278526306,
+        0.40857478976249695,
+        0.43323400616645813,
+        0.3950246274471283,
+        0.3811842203140259,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/spike_lee/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/spike_lee/portrait.jpg"
+    }
+  ]
+}

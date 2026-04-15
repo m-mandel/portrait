@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/piven/data/shlomo_scharf",
+  "meta_path": "/workspace/input/piven/data/shlomo_scharf/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Shlomo Scharf (Hebrew: \u05e9\u05dc\u05de\u05d4 \u05e9\u05e8\u05e3; born 1 January 1943) is an Israeli former football coach and player who works as a commentator on Israeli Sport 5 TV channel. Scharf managed Maccabi Haifa to three championships, and was Israel national team manager from 1992 to 1999.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "burlap"
+    },
+    {
+      "index": 1,
+      "element": "steel wool"
+    },
+    {
+      "index": 2,
+      "element": "soccer balls"
+    },
+    {
+      "index": 3,
+      "element": "stamp"
+    },
+    {
+      "index": 4,
+      "element": "chain"
+    },
+    {
+      "index": 5,
+      "element": "pendant"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "ball seam"
+    },
+    {
+      "index": 1,
+      "element": "field stripes"
+    },
+    {
+      "index": 2,
+      "element": "trophy cup"
+    },
+    {
+      "index": 3,
+      "element": "motion arc"
+    },
+    {
+      "index": 4,
+      "element": "jersey stripes"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "burlap",
+      "steel wool",
+      "soccer balls",
+      "stamp",
+      "chain",
+      "pendant"
+    ],
+    "values": [
+      [
+        0.12931190431118011,
+        0.004434114322066307,
+        0.1158987432718277,
+        0.015399366617202759,
+        0.04353172704577446,
+        -0.05921439081430435
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "ball seam",
+      "field stripes",
+      "trophy cup",
+      "motion arc",
+      "jersey stripes"
+    ],
+    "column_labels": [
+      "burlap",
+      "steel wool",
+      "soccer balls",
+      "stamp",
+      "chain",
+      "pendant"
+    ],
+    "values": [
+      [
+        0.22451268136501312,
+        0.20989765226840973,
+        0.5903818607330322,
+        0.22746722400188446,
+        0.1807204782962799,
+        0.2087862491607666
+      ],
+      [
+        0.10382471978664398,
+        0.21722638607025146,
+        0.4527183473110199,
+        0.38442766666412354,
+        0.18073055148124695,
+        0.3071053624153137
+      ],
+      [
+        0.25994497537612915,
+        0.20081724226474762,
+        0.3918991982936859,
+        0.24073654413223267,
+        0.17187723517417908,
+        0.27065083384513855
+      ],
+      [
+        0.13503216207027435,
+        0.0559714213013649,
+        0.20494651794433594,
+        0.10604359209537506,
+        0.2512260675430298,
+        0.23452869057655334
+      ],
+      [
+        0.1402701586484909,
+        0.2699998617172241,
+        0.4049586057662964,
+        0.37286263704299927,
+        0.27498725056648254,
+        0.3433903455734253
+      ]
+    ]
+  }
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/bill_murray",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/bill_murray/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_bill-murray-2019-cropped2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+        "similarity": -0.017968863248825073
+      },
+      {
+        "index": 1,
+        "name": "02_bill-murray-8810-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+        "similarity": 0.0005446617142297328
+      },
+      {
+        "index": 2,
+        "name": "03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+        "similarity": 0.02771122194826603
+      },
+      {
+        "index": 3,
+        "name": "04_bill-murray-fighting-illini-2005-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+        "similarity": 0.042534809559583664
+      },
+      {
+        "index": 4,
+        "name": "06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+        "similarity": 0.037243835628032684
+      },
+      {
+        "index": 5,
+        "name": "07_bill-murray-1989-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+        "similarity": 0.003389164339751005
+      },
+      {
+        "index": 6,
+        "name": "12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+        "similarity": 0.028874825686216354
+      },
+      {
+        "index": 7,
+        "name": "13_bill-murray-2019-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+        "similarity": 0.003862261539325118
+      },
+      {
+        "index": 8,
+        "name": "14_bill-murray-8882-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+        "similarity": 0.023224540054798126
+      },
+      {
+        "index": 9,
+        "name": "15_chicago-bears-bill-murray-portrait-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+        "similarity": -0.019852912053465843
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.017968863248825073,
+          0.0005446617142297328,
+          0.02771122194826603,
+          0.042534809559583664,
+          0.037243835628032684,
+          0.003389164339751005,
+          0.028874825686216354,
+          0.003862261539325118,
+          0.023224540054798126,
+          -0.019852912053465843
+        ],
+        [
+          -0.017968863248825073,
+          1.0000001192092896,
+          0.48559847474098206,
+          0.6150189638137817,
+          0.5797519683837891,
+          0.40967193245887756,
+          0.6441131830215454,
+          0.5773277878761292,
+          0.7414178252220154,
+          0.5311737656593323,
+          -0.04897915571928024
+        ],
+        [
+          0.0005446617142297328,
+          0.48559847474098206,
+          1.0000001192092896,
+          0.454669713973999,
+          0.4042426645755768,
+          0.40265384316444397,
+          0.3674054741859436,
+          0.4649198055267334,
+          0.5367647409439087,
+          0.4994189739227295,
+          -0.04463883489370346
+        ],
+        [
+          0.02771122194826603,
+          0.6150189638137817,
+          0.454669713973999,
+          1.0,
+          0.440086305141449,
+          0.3745642602443695,
+          0.5227010250091553,
+          0.7896305322647095,
+          0.5709496736526489,
+          0.40106600522994995,
+          0.05259503424167633
+        ],
+        [
+          0.042534809559583664,
+          0.5797519683837891,
+          0.4042426645755768,
+          0.440086305141449,
+          1.0000001192092896,
+          0.41192346811294556,
+          0.5985313057899475,
+          0.3289475440979004,
+          0.49897998571395874,
+          0.39323192834854126,
+          -0.03828319534659386
+        ],
+        [
+          0.037243835628032684,
+          0.40967193245887756,
+          0.40265384316444397,
+          0.3745642602443695,
+          0.41192346811294556,
+          0.9999999403953552,
+          0.5137506723403931,
+          0.3970769941806793,
+          0.4397987425327301,
+          0.5009413361549377,
+          0.05792301893234253
+        ],
+        [
+          0.003389164339751005,
+          0.6441131830215454,
+          0.3674054741859436,
+          0.5227010250091553,
+          0.5985313057899475,
+          0.5137506723403931,
+          1.0,
+          0.46459248661994934,
+          0.5754606127738953,
+          0.39368394017219543,
+          0.04079487547278404
+        ],
+        [
+          0.028874825686216354,
+          0.5773277878761292,
+          0.4649198055267334,
+          0.7896305322647095,
+          0.3289475440979004,
+          0.3970769941806793,
+          0.46459248661994934,
+          1.0,
+          0.5373680591583252,
+          0.4392164647579193,
+          -0.00501221651211381
+        ],
+        [
+          0.003862261539325118,
+          0.7414178252220154,
+          0.5367647409439087,
+          0.5709496736526489,
+          0.49897998571395874,
+          0.4397987425327301,
+          0.5754606127738953,
+          0.5373680591583252,
+          1.0000001192092896,
+          0.5054152607917786,
+          -0.0431898757815361
+        ],
+        [
+          0.023224540054798126,
+          0.5311737656593323,
+          0.4994189739227295,
+          0.40106600522994995,
+          0.39323192834854126,
+          0.5009413361549377,
+          0.39368394017219543,
+          0.4392164647579193,
+          0.5054152607917786,
+          0.9999999403953552,
+          -0.029688218608498573
+        ],
+        [
+          -0.019852912053465843,
+          -0.04897915571928024,
+          -0.04463883489370346,
+          0.05259503424167633,
+          -0.03828319534659386,
+          0.05792301893234253,
+          0.04079487547278404,
+          -0.00501221651211381,
+          -0.0431898757815361,
+          -0.029688218608498573,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_bill-murray-2019-cropped2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg"
+    },
+    {
+      "name": "02_bill-murray-8810-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg"
+    },
+    {
+      "name": "06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg"
+    },
+    {
+      "name": "07_bill-murray-1989-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg"
+    },
+    {
+      "name": "13_bill-murray-2019-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg"
+    },
+    {
+      "name": "14_bill-murray-8882-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg"
+    },
+    {
+      "name": "15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+      "similarity": 0.48559847474098206
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "similarity": 0.6150189638137817
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "similarity": 0.5797519683837891
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "similarity": 0.40967193245887756
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+      "similarity": 0.6441131830215454
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "similarity": 0.5773277878761292
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+      "similarity": 0.7414178252220154
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+      "similarity": 0.5311737656593323
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/01_bill-murray-2019-cropped2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "similarity": -0.04897915571928024
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "similarity": 0.454669713973999
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "similarity": 0.4042426645755768
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "similarity": 0.40265384316444397
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+      "similarity": 0.3674054741859436
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "similarity": 0.4649198055267334
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+      "similarity": 0.5367647409439087
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+      "similarity": 0.4994189739227295
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/02_bill-murray-8810-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "similarity": -0.04463883489370346
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "similarity": 0.440086305141449
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "similarity": 0.3745642602443695
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+      "similarity": 0.5227010250091553
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "similarity": 0.7896305322647095
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+      "similarity": 0.5709496736526489
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+      "similarity": 0.40106600522994995
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "similarity": 0.05259503424167633
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "similarity": 0.41192346811294556
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+      "similarity": 0.5985313057899475
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "similarity": 0.3289475440979004
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+      "similarity": 0.49897998571395874
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+      "similarity": 0.39323192834854126
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "similarity": -0.03828319534659386
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+      "similarity": 0.5137506723403931
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "similarity": 0.3970769941806793
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+      "similarity": 0.4397987425327301
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+      "similarity": 0.5009413361549377
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "similarity": 0.05792301893234253
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "similarity": 0.46459248661994934
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+      "similarity": 0.5754606127738953
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+      "similarity": 0.39368394017219543
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/07_bill-murray-1989-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "similarity": 0.04079487547278404
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+      "similarity": 0.5373680591583252
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+      "similarity": 0.4392164647579193
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "similarity": -0.00501221651211381
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+      "similarity": 0.5054152607917786
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/13_bill-murray-2019-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "similarity": -0.0431898757815361
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bill_murray/images/14_bill-murray-8882-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bill_murray/images/15_chicago-bears-bill-murray-portrait-jpg.jpg",
+      "similarity": -0.029688218608498573
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_bill-murray-2019-cropped2-jpg.jpg",
+      "02_bill-murray-8810-cropped-jpg.jpg",
+      "03_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-3x4-cropped-jpg.jpg",
+      "04_bill-murray-fighting-illini-2005-jpg.jpg",
+      "06_bill-murray-saturday-night-live-1979-nbc-press-photo-jpg.jpg",
+      "07_bill-murray-1989-cropped-jpg.jpg",
+      "12_bill-murray-at-the-2024-toronto-international-film-festival-riff-raff-2-cropped-jpg.jpg",
+      "13_bill-murray-2019-cropped-jpg.jpg",
+      "14_bill-murray-8882-jpg.jpg",
+      "15_chicago-bears-bill-murray-portrait-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.48559847474098206,
+        0.6150189638137817,
+        0.5797519683837891,
+        0.40967193245887756,
+        0.6441131830215454,
+        0.5773277878761292,
+        0.7414178252220154,
+        0.5311737656593323,
+        -0.04897915571928024
+      ],
+      [
+        0.48559847474098206,
+        1.0000001192092896,
+        0.454669713973999,
+        0.4042426645755768,
+        0.40265384316444397,
+        0.3674054741859436,
+        0.4649198055267334,
+        0.5367647409439087,
+        0.4994189739227295,
+        -0.04463883489370346
+      ],
+      [
+        0.6150189638137817,
+        0.454669713973999,
+        1.0,
+        0.440086305141449,
+        0.3745642602443695,
+        0.5227010250091553,
+        0.7896305322647095,
+        0.5709496736526489,
+        0.40106600522994995,
+        0.05259503424167633
+      ],
+      [
+        0.5797519683837891,
+        0.4042426645755768,
+        0.440086305141449,
+        1.0000001192092896,
+        0.41192346811294556,
+        0.5985313057899475,
+        0.3289475440979004,
+        0.49897998571395874,
+        0.39323192834854126,
+        -0.03828319534659386
+      ],
+      [
+        0.40967193245887756,
+        0.40265384316444397,
+        0.3745642602443695,
+        0.41192346811294556,
+        0.9999999403953552,
+        0.5137506723403931,
+        0.3970769941806793,
+        0.4397987425327301,
+        0.5009413361549377,
+        0.05792301893234253
+      ],
+      [
+        0.6441131830215454,
+        0.3674054741859436,
+        0.5227010250091553,
+        0.5985313057899475,
+        0.5137506723403931,
+        1.0,
+        0.46459248661994934,
+        0.5754606127738953,
+        0.39368394017219543,
+        0.04079487547278404
+      ],
+      [
+        0.5773277878761292,
+        0.4649198055267334,
+        0.7896305322647095,
+        0.3289475440979004,
+        0.3970769941806793,
+        0.46459248661994934,
+        1.0,
+        0.5373680591583252,
+        0.4392164647579193,
+        -0.00501221651211381
+      ],
+      [
+        0.7414178252220154,
+        0.5367647409439087,
+        0.5709496736526489,
+        0.49897998571395874,
+        0.4397987425327301,
+        0.5754606127738953,
+        0.5373680591583252,
+        1.0000001192092896,
+        0.5054152607917786,
+        -0.0431898757815361
+      ],
+      [
+        0.5311737656593323,
+        0.4994189739227295,
+        0.40106600522994995,
+        0.39323192834854126,
+        0.5009413361549377,
+        0.39368394017219543,
+        0.4392164647579193,
+        0.5054152607917786,
+        0.9999999403953552,
+        -0.029688218608498573
+      ],
+      [
+        -0.04897915571928024,
+        -0.04463883489370346,
+        0.05259503424167633,
+        -0.03828319534659386,
+        0.05792301893234253,
+        0.04079487547278404,
+        -0.00501221651211381,
+        -0.0431898757815361,
+        -0.029688218608498573,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/bill_murray/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/bill_murray/portrait.jpg"
+    }
+  ]
+}

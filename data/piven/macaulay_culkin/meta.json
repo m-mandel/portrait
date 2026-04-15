@@ -1,0 +1,60 @@
+{
+  "name": "macaulay culkin",
+  "bio": "Macaulay Macaulay Culkin Culkin (born Macaulay Carson Culkin; August 26, 1980 (1980-08-26)) is an American actor and musician. Considered one of the most successful child actors of the 1990s, Culkin has received several accolades including a Golden Globe Award nomination. In 2005, he was ranked second on VH1's list of the \"100 Greatest Kid-Stars\". In 2023, he received a star on the Hollywood Walk of Fame.\nCulkin earned recognition for playing Kevin McCallister in the Christmas comedy Home Alone (1990), and reprised the role in Home Alone 2: Lost in New York (1992). He furthered his success with the coming-of-age film My Girl (1991), the psychological thriller film The Good Son (1993), and the comedy films Getting Even with Dad and Richie Rich (both 1994). He took a hiatus starting in 1995, and returned to acting with the biographical drama film Party Monster (2003). Culkin appeared in the independent films Saved! (2004) and Sex and Breakfast (2007), and two projects by Adam Green: The Wrong Ferarri (2011) and Adam Green's Aladdin (2016). He starred in the comedy film Changeland (2019) and the tenth season of the anthology series American Horror Story (2021), followed by voice roles in Kid Cudi's television special Entergalactic (2022) and in Zootopia 2 (2025)—the second-highest-grossing animated film. Since 2025, he has had a recurring role in the television series Fallout.\nCulkin wrote the autobiography Junior (2006), which describes his experiences with stardom and relationship with his father. From 2013 to 2016, he was a member of the comedy rock band the Pizza Underground, serving as the lead vocalist. In 2018, Culkin became the publisher and CEO of Bunny Ears, a satirical popular culture website and podcast.",
+  "bio_sources": [
+    {
+      "subject": "macaulay culkin",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Macaulay_Culkin"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "marbles",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen macaulay culkin's child-star innocence and vulnerability."
+    },
+    {
+      "element": "wooden bowl",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing macaulay culkin's child-star innocence and vulnerability."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen production define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "circuit grid",
+      "visual_representation": "a network of thin lines connecting small square nodes",
+      "category": "structure",
+      "relevance": "Technology and systems building are part of the subject’s field.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

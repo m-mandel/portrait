@@ -1,0 +1,749 @@
+{
+  "folder": "/workspace/input/piven/data/elizebeth_taylor",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "portrait.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+        "similarity": 0.1842654049396515
+      },
+      {
+        "index": 1,
+        "name": "01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+        "similarity": -0.0035080858506262302
+      },
+      {
+        "index": 2,
+        "name": "02_elizabeth-taylor-late-1950s-jpg.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+        "similarity": 0.009741672314703465
+      },
+      {
+        "index": 3,
+        "name": "03_studio-publicity-elizabeth-taylor-jpg.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+        "similarity": -0.007211979944258928
+      },
+      {
+        "index": 4,
+        "name": "05_elizabeth-taylor-1952-portrait-jpg.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+        "similarity": 0.029688764363527298
+      },
+      {
+        "index": 5,
+        "name": "06_elizabeth-taylor-portrait-artofit.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+        "similarity": -0.004665942396968603
+      },
+      {
+        "index": 6,
+        "name": "07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+        "similarity": -0.026540115475654602
+      },
+      {
+        "index": 7,
+        "name": "08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+        "similarity": 0.02309480495750904
+      },
+      {
+        "index": 8,
+        "name": "09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+        "similarity": 0.020708151161670685
+      },
+      {
+        "index": 9,
+        "name": "10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+        "similarity": 0.013766304589807987
+      },
+      {
+        "index": 10,
+        "name": "11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+        "similarity": 0.044837817549705505
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "values": [
+        [
+          1.0,
+          0.1842654049396515,
+          -0.0035080858506262302,
+          0.009741672314703465,
+          -0.007211979944258928,
+          0.029688764363527298,
+          -0.004665942396968603,
+          -0.026540115475654602,
+          0.02309480495750904,
+          0.020708151161670685,
+          0.013766304589807987,
+          0.044837817549705505
+        ],
+        [
+          0.1842654049396515,
+          1.0000001192092896,
+          0.06718890368938446,
+          -0.03090696968138218,
+          -0.019633080810308456,
+          -0.013514319434762001,
+          -0.027075834572315216,
+          -0.05877881497144699,
+          0.008310050703585148,
+          -0.0068412055261433125,
+          -0.0011179930297657847,
+          -0.0019275565864518285
+        ],
+        [
+          -0.0035080858506262302,
+          0.06718890368938446,
+          1.0000001192092896,
+          0.03907226026058197,
+          0.044406142085790634,
+          0.039171185344457626,
+          -0.053108181804418564,
+          0.08383005857467651,
+          -0.03188342601060867,
+          -0.043524369597435,
+          -0.11329176276922226,
+          0.022795584052801132
+        ],
+        [
+          0.009741672314703465,
+          -0.03090696968138218,
+          0.03907226026058197,
+          0.9999998807907104,
+          0.4288489818572998,
+          0.4663180112838745,
+          0.40012064576148987,
+          0.49764859676361084,
+          0.5133307576179504,
+          0.5766857266426086,
+          0.33041247725486755,
+          0.5501410961151123
+        ],
+        [
+          -0.007211979944258928,
+          -0.019633080810308456,
+          0.044406142085790634,
+          0.4288489818572998,
+          0.9999999403953552,
+          0.5097444653511047,
+          0.4729783236980438,
+          0.45222780108451843,
+          0.48808133602142334,
+          0.4288290739059448,
+          0.16929185390472412,
+          0.5058048963546753
+        ],
+        [
+          0.029688764363527298,
+          -0.013514319434762001,
+          0.039171185344457626,
+          0.4663180112838745,
+          0.5097444653511047,
+          1.0,
+          0.4994775950908661,
+          0.4817914366722107,
+          0.3680276870727539,
+          0.4908311367034912,
+          0.19522961974143982,
+          0.36747193336486816
+        ],
+        [
+          -0.004665942396968603,
+          -0.027075834572315216,
+          -0.053108181804418564,
+          0.40012064576148987,
+          0.4729783236980438,
+          0.4994775950908661,
+          1.0,
+          0.4440394639968872,
+          0.5880085825920105,
+          0.4898267090320587,
+          0.2867414653301239,
+          0.3428639769554138
+        ],
+        [
+          -0.026540115475654602,
+          -0.05877881497144699,
+          0.08383005857467651,
+          0.49764859676361084,
+          0.45222780108451843,
+          0.4817914366722107,
+          0.4440394639968872,
+          1.0,
+          0.46619510650634766,
+          0.529771089553833,
+          0.20857828855514526,
+          0.551253080368042
+        ],
+        [
+          0.02309480495750904,
+          0.008310050703585148,
+          -0.03188342601060867,
+          0.5133307576179504,
+          0.48808133602142334,
+          0.3680276870727539,
+          0.5880085825920105,
+          0.46619510650634766,
+          1.0000001192092896,
+          0.4144401252269745,
+          0.25467368960380554,
+          0.562527060508728
+        ],
+        [
+          0.020708151161670685,
+          -0.0068412055261433125,
+          -0.043524369597435,
+          0.5766857266426086,
+          0.4288290739059448,
+          0.4908311367034912,
+          0.4898267090320587,
+          0.529771089553833,
+          0.4144401252269745,
+          1.0,
+          0.2769373059272766,
+          0.4034487307071686
+        ],
+        [
+          0.013766304589807987,
+          -0.0011179930297657847,
+          -0.11329176276922226,
+          0.33041247725486755,
+          0.16929185390472412,
+          0.19522961974143982,
+          0.2867414653301239,
+          0.20857828855514526,
+          0.25467368960380554,
+          0.2769373059272766,
+          1.0,
+          0.23537257313728333
+        ],
+        [
+          0.044837817549705505,
+          -0.0019275565864518285,
+          0.022795584052801132,
+          0.5501410961151123,
+          0.5058048963546753,
+          0.36747193336486816,
+          0.3428639769554138,
+          0.551253080368042,
+          0.562527060508728,
+          0.4034487307071686,
+          0.23537257313728333,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "portrait.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg"
+    },
+    {
+      "name": "01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg"
+    },
+    {
+      "name": "03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg"
+    },
+    {
+      "name": "05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg"
+    },
+    {
+      "name": "06_elizabeth-taylor-portrait-artofit.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg"
+    },
+    {
+      "name": "07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg"
+    },
+    {
+      "name": "08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg"
+    },
+    {
+      "name": "09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png"
+    },
+    {
+      "name": "10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg"
+    },
+    {
+      "name": "11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "similarity": 0.06718890368938446
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "similarity": -0.03090696968138218
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "similarity": -0.019633080810308456
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "similarity": -0.013514319434762001
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "similarity": -0.027075834572315216
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "similarity": -0.05877881497144699
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.008310050703585148
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "similarity": -0.0068412055261433125
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "similarity": -0.0011179930297657847
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/portrait.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.0019275565864518285
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "similarity": 0.03907226026058197
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "similarity": 0.044406142085790634
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "similarity": 0.039171185344457626
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "similarity": -0.053108181804418564
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.08383005857467651
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": -0.03188342601060867
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "similarity": -0.043524369597435
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "similarity": -0.11329176276922226
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.022795584052801132
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "similarity": 0.4288489818572998
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "similarity": 0.4663180112838745
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "similarity": 0.40012064576148987
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.49764859676361084
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.5133307576179504
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "similarity": 0.5766857266426086
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "similarity": 0.33041247725486755
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5501410961151123
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "similarity": 0.5097444653511047
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "similarity": 0.4729783236980438
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.45222780108451843
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.48808133602142334
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "similarity": 0.4288290739059448
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "similarity": 0.16929185390472412
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5058048963546753
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "similarity": 0.4994775950908661
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.4817914366722107
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.3680276870727539
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "similarity": 0.4908311367034912
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "similarity": 0.19522961974143982
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.36747193336486816
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "similarity": 0.4440394639968872
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.5880085825920105
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "similarity": 0.4898267090320587
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "similarity": 0.2867414653301239
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/06_elizabeth-taylor-portrait-artofit.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3428639769554138
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.46619510650634766
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "similarity": 0.529771089553833
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "similarity": 0.20857828855514526
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.551253080368042
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "similarity": 0.4144401252269745
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "similarity": 0.25467368960380554
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.562527060508728
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "similarity": 0.2769373059272766
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4034487307071686
+    },
+    {
+      "left": "/workspace/input/piven/data/elizebeth_taylor/images/10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "right": "/workspace/input/piven/data/elizebeth_taylor/images/11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.23537257313728333
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "portrait.jpg",
+      "01_mary-elizabeth-taylor-official-photo-cropped-jpg.jpg",
+      "02_elizabeth-taylor-late-1950s-jpg.jpg",
+      "03_studio-publicity-elizabeth-taylor-jpg.jpg",
+      "05_elizabeth-taylor-1952-portrait-jpg.jpg",
+      "06_elizabeth-taylor-portrait-artofit.jpg",
+      "07_npg-x14216-dame-elizabeth-taylor-portrait-national-portrait-gallery.jpg",
+      "08_3-120-elizabeth-taylor-portrait-stock-photos-high-res-pictures-and.jpg",
+      "09_pin-by-diana-on-elizabeth-taylor-elizabeth-taylor-eyes-elizabeth.png",
+      "10_elizabeth-taylor-portrait-by-russell-young-strauss-co.jpg",
+      "11_30-902-elizabeth-taylor-photos-high-res-pictures-getty-images.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.06718890368938446,
+        -0.03090696968138218,
+        -0.019633080810308456,
+        -0.013514319434762001,
+        -0.027075834572315216,
+        -0.05877881497144699,
+        0.008310050703585148,
+        -0.0068412055261433125,
+        -0.0011179930297657847,
+        -0.0019275565864518285
+      ],
+      [
+        0.06718890368938446,
+        1.0000001192092896,
+        0.03907226026058197,
+        0.044406142085790634,
+        0.039171185344457626,
+        -0.053108181804418564,
+        0.08383005857467651,
+        -0.03188342601060867,
+        -0.043524369597435,
+        -0.11329176276922226,
+        0.022795584052801132
+      ],
+      [
+        -0.03090696968138218,
+        0.03907226026058197,
+        0.9999998807907104,
+        0.4288489818572998,
+        0.4663180112838745,
+        0.40012064576148987,
+        0.49764859676361084,
+        0.5133307576179504,
+        0.5766857266426086,
+        0.33041247725486755,
+        0.5501410961151123
+      ],
+      [
+        -0.019633080810308456,
+        0.044406142085790634,
+        0.4288489818572998,
+        0.9999999403953552,
+        0.5097444653511047,
+        0.4729783236980438,
+        0.45222780108451843,
+        0.48808133602142334,
+        0.4288290739059448,
+        0.16929185390472412,
+        0.5058048963546753
+      ],
+      [
+        -0.013514319434762001,
+        0.039171185344457626,
+        0.4663180112838745,
+        0.5097444653511047,
+        1.0,
+        0.4994775950908661,
+        0.4817914366722107,
+        0.3680276870727539,
+        0.4908311367034912,
+        0.19522961974143982,
+        0.36747193336486816
+      ],
+      [
+        -0.027075834572315216,
+        -0.053108181804418564,
+        0.40012064576148987,
+        0.4729783236980438,
+        0.4994775950908661,
+        1.0,
+        0.4440394639968872,
+        0.5880085825920105,
+        0.4898267090320587,
+        0.2867414653301239,
+        0.3428639769554138
+      ],
+      [
+        -0.05877881497144699,
+        0.08383005857467651,
+        0.49764859676361084,
+        0.45222780108451843,
+        0.4817914366722107,
+        0.4440394639968872,
+        1.0,
+        0.46619510650634766,
+        0.529771089553833,
+        0.20857828855514526,
+        0.551253080368042
+      ],
+      [
+        0.008310050703585148,
+        -0.03188342601060867,
+        0.5133307576179504,
+        0.48808133602142334,
+        0.3680276870727539,
+        0.5880085825920105,
+        0.46619510650634766,
+        1.0000001192092896,
+        0.4144401252269745,
+        0.25467368960380554,
+        0.562527060508728
+      ],
+      [
+        -0.0068412055261433125,
+        -0.043524369597435,
+        0.5766857266426086,
+        0.4288290739059448,
+        0.4908311367034912,
+        0.4898267090320587,
+        0.529771089553833,
+        0.4144401252269745,
+        1.0,
+        0.2769373059272766,
+        0.4034487307071686
+      ],
+      [
+        -0.0011179930297657847,
+        -0.11329176276922226,
+        0.33041247725486755,
+        0.16929185390472412,
+        0.19522961974143982,
+        0.2867414653301239,
+        0.20857828855514526,
+        0.25467368960380554,
+        0.2769373059272766,
+        1.0,
+        0.23537257313728333
+      ],
+      [
+        -0.0019275565864518285,
+        0.022795584052801132,
+        0.5501410961151123,
+        0.5058048963546753,
+        0.36747193336486816,
+        0.3428639769554138,
+        0.551253080368042,
+        0.562527060508728,
+        0.4034487307071686,
+        0.23537257313728333,
+        1.0
+      ]
+    ]
+  },
+  "errors": []
+}

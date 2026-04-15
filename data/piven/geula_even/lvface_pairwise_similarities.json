@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/geula_even",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/geula_even/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_geula-even-saar-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+        "similarity": -0.017745990306138992
+      },
+      {
+        "index": 1,
+        "name": "02_geula-even-saar-jpg.jpg",
+        "path": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+        "similarity": -0.0470292791724205
+      },
+      {
+        "index": 2,
+        "name": "03_geula-even-jpg.jpg",
+        "path": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+        "similarity": 0.006521240808069706
+      },
+      {
+        "index": 3,
+        "name": "04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": 0.01784508489072323
+      },
+      {
+        "index": 4,
+        "name": "05_category-geula-even-wikimedia-commons.jpg",
+        "path": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+        "similarity": -0.014998890459537506
+      },
+      {
+        "index": 5,
+        "name": "06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+        "path": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+        "similarity": 0.008705138228833675
+      },
+      {
+        "index": 6,
+        "name": "07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+        "path": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+        "similarity": 0.0008668976370245218
+      },
+      {
+        "index": 7,
+        "name": "08_geula-even.jpg",
+        "path": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+        "similarity": 0.021793942898511887
+      },
+      {
+        "index": 8,
+        "name": "09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+        "path": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+        "similarity": -0.009932268410921097
+      },
+      {
+        "index": 9,
+        "name": "10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+        "path": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+        "similarity": 0.035737402737140656
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.017745990306138992,
+          -0.0470292791724205,
+          0.006521240808069706,
+          0.01784508489072323,
+          -0.014998890459537506,
+          0.008705138228833675,
+          0.0008668976370245218,
+          0.021793942898511887,
+          -0.009932268410921097,
+          0.035737402737140656
+        ],
+        [
+          -0.017745990306138992,
+          1.0,
+          0.7073859572410583,
+          0.3798697590827942,
+          0.3646547496318817,
+          0.6665860414505005,
+          0.21533575654029846,
+          -0.08037449419498444,
+          0.33696073293685913,
+          0.254443883895874,
+          0.3420218825340271
+        ],
+        [
+          -0.0470292791724205,
+          0.7073859572410583,
+          1.0,
+          0.30787989497184753,
+          0.29973626136779785,
+          0.578181266784668,
+          0.215791255235672,
+          -0.05945563688874245,
+          0.3111869990825653,
+          0.2601841390132904,
+          0.3369957208633423
+        ],
+        [
+          0.006521240808069706,
+          0.3798697590827942,
+          0.30787989497184753,
+          1.0000001192092896,
+          0.734889566898346,
+          0.286224365234375,
+          0.35577666759490967,
+          -0.0636068731546402,
+          0.3392922282218933,
+          0.21076007187366486,
+          0.2130812704563141
+        ],
+        [
+          0.01784508489072323,
+          0.3646547496318817,
+          0.29973626136779785,
+          0.734889566898346,
+          1.0000001192092896,
+          0.28155821561813354,
+          0.32479622960090637,
+          0.022976042702794075,
+          0.33502718806266785,
+          0.23621773719787598,
+          0.23481710255146027
+        ],
+        [
+          -0.014998890459537506,
+          0.6665860414505005,
+          0.578181266784668,
+          0.286224365234375,
+          0.28155821561813354,
+          0.9999999403953552,
+          0.20842473208904266,
+          -0.02159806713461876,
+          0.2694721519947052,
+          0.2237847000360489,
+          0.38532209396362305
+        ],
+        [
+          0.008705138228833675,
+          0.21533575654029846,
+          0.215791255235672,
+          0.35577666759490967,
+          0.32479622960090637,
+          0.20842473208904266,
+          1.0,
+          -0.04901345446705818,
+          0.5167878866195679,
+          0.2853512763977051,
+          0.2843964099884033
+        ],
+        [
+          0.0008668976370245218,
+          -0.08037449419498444,
+          -0.05945563688874245,
+          -0.0636068731546402,
+          0.022976042702794075,
+          -0.02159806713461876,
+          -0.04901345446705818,
+          1.0,
+          -0.028044050559401512,
+          -0.0834144800901413,
+          -0.03336614742875099
+        ],
+        [
+          0.021793942898511887,
+          0.33696073293685913,
+          0.3111869990825653,
+          0.3392922282218933,
+          0.33502718806266785,
+          0.2694721519947052,
+          0.5167878866195679,
+          -0.028044050559401512,
+          0.9999999403953552,
+          0.39498457312583923,
+          0.3069363534450531
+        ],
+        [
+          -0.009932268410921097,
+          0.254443883895874,
+          0.2601841390132904,
+          0.21076007187366486,
+          0.23621773719787598,
+          0.2237847000360489,
+          0.2853512763977051,
+          -0.0834144800901413,
+          0.39498457312583923,
+          1.0,
+          0.29342344403266907
+        ],
+        [
+          0.035737402737140656,
+          0.3420218825340271,
+          0.3369957208633423,
+          0.2130812704563141,
+          0.23481710255146027,
+          0.38532209396362305,
+          0.2843964099884033,
+          -0.03336614742875099,
+          0.3069363534450531,
+          0.29342344403266907,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_geula-even-saar-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_geula-even-saar-jpg.jpg",
+      "path": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg"
+    },
+    {
+      "name": "03_geula-even-jpg.jpg",
+      "path": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg"
+    },
+    {
+      "name": "04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "05_category-geula-even-wikimedia-commons.jpg",
+      "path": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg"
+    },
+    {
+      "name": "06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "path": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg"
+    },
+    {
+      "name": "07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "path": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg"
+    },
+    {
+      "name": "08_geula-even.jpg",
+      "path": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg"
+    },
+    {
+      "name": "09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "path": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp"
+    },
+    {
+      "name": "10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "path": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+      "similarity": 0.7073859572410583
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+      "similarity": 0.3798697590827942
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.3646547496318817
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+      "similarity": 0.6665860414505005
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "similarity": 0.21533575654029846
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": -0.08037449419498444
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+      "similarity": 0.33696073293685913
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "similarity": 0.254443883895874
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/01_geula-even-saar-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "similarity": 0.3420218825340271
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+      "similarity": 0.30787989497184753
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.29973626136779785
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+      "similarity": 0.578181266784668
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "similarity": 0.215791255235672
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": -0.05945563688874245
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+      "similarity": 0.3111869990825653
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "similarity": 0.2601841390132904
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/02_geula-even-saar-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "similarity": 0.3369957208633423
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.734889566898346
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+      "similarity": 0.286224365234375
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "similarity": 0.35577666759490967
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": -0.0636068731546402
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+      "similarity": 0.3392922282218933
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "similarity": 0.21076007187366486
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/03_geula-even-jpg.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "similarity": 0.2130812704563141
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+      "similarity": 0.28155821561813354
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "similarity": 0.32479622960090637
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": 0.022976042702794075
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+      "similarity": 0.33502718806266785
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "similarity": 0.23621773719787598
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "similarity": 0.23481710255146027
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "similarity": 0.20842473208904266
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": -0.02159806713461876
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+      "similarity": 0.2694721519947052
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "similarity": 0.2237847000360489
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/05_category-geula-even-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "similarity": 0.38532209396362305
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": -0.04901345446705818
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+      "similarity": 0.5167878866195679
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "similarity": 0.2853512763977051
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "similarity": 0.2843964099884033
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+      "similarity": -0.028044050559401512
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "similarity": -0.0834144800901413
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "similarity": -0.03336614742875099
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "similarity": 0.39498457312583923
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/08_geula-even.jpg",
+      "right": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "similarity": 0.3069363534450531
+    },
+    {
+      "left": "/workspace/input/piven/data/geula_even/images/09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "right": "/workspace/input/piven/data/geula_even/images/10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg",
+      "similarity": 0.29342344403266907
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_geula-even-saar-cropped-jpg.jpg",
+      "02_geula-even-saar-jpg.jpg",
+      "03_geula-even-jpg.jpg",
+      "04_geula-hi-res-stock-photography-and-images-alamy.jpg",
+      "05_category-geula-even-wikimedia-commons.jpg",
+      "06_geula-even-y-bar-refaeli-primeros-nombres-sobre-la-mesa-para-conducir.jpg",
+      "07_15-geula-even-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "08_geula-even.jpg",
+      "09_geula-even-sa-ar-takes-vacation-from-tv-show-israel-national-news.webp",
+      "10_2-geula-even-royalty-free-images-stock-photos-pictures-shutterstock.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.7073859572410583,
+        0.3798697590827942,
+        0.3646547496318817,
+        0.6665860414505005,
+        0.21533575654029846,
+        -0.08037449419498444,
+        0.33696073293685913,
+        0.254443883895874,
+        0.3420218825340271
+      ],
+      [
+        0.7073859572410583,
+        1.0,
+        0.30787989497184753,
+        0.29973626136779785,
+        0.578181266784668,
+        0.215791255235672,
+        -0.05945563688874245,
+        0.3111869990825653,
+        0.2601841390132904,
+        0.3369957208633423
+      ],
+      [
+        0.3798697590827942,
+        0.30787989497184753,
+        1.0000001192092896,
+        0.734889566898346,
+        0.286224365234375,
+        0.35577666759490967,
+        -0.0636068731546402,
+        0.3392922282218933,
+        0.21076007187366486,
+        0.2130812704563141
+      ],
+      [
+        0.3646547496318817,
+        0.29973626136779785,
+        0.734889566898346,
+        1.0000001192092896,
+        0.28155821561813354,
+        0.32479622960090637,
+        0.022976042702794075,
+        0.33502718806266785,
+        0.23621773719787598,
+        0.23481710255146027
+      ],
+      [
+        0.6665860414505005,
+        0.578181266784668,
+        0.286224365234375,
+        0.28155821561813354,
+        0.9999999403953552,
+        0.20842473208904266,
+        -0.02159806713461876,
+        0.2694721519947052,
+        0.2237847000360489,
+        0.38532209396362305
+      ],
+      [
+        0.21533575654029846,
+        0.215791255235672,
+        0.35577666759490967,
+        0.32479622960090637,
+        0.20842473208904266,
+        1.0,
+        -0.04901345446705818,
+        0.5167878866195679,
+        0.2853512763977051,
+        0.2843964099884033
+      ],
+      [
+        -0.08037449419498444,
+        -0.05945563688874245,
+        -0.0636068731546402,
+        0.022976042702794075,
+        -0.02159806713461876,
+        -0.04901345446705818,
+        1.0,
+        -0.028044050559401512,
+        -0.0834144800901413,
+        -0.03336614742875099
+      ],
+      [
+        0.33696073293685913,
+        0.3111869990825653,
+        0.3392922282218933,
+        0.33502718806266785,
+        0.2694721519947052,
+        0.5167878866195679,
+        -0.028044050559401512,
+        0.9999999403953552,
+        0.39498457312583923,
+        0.3069363534450531
+      ],
+      [
+        0.254443883895874,
+        0.2601841390132904,
+        0.21076007187366486,
+        0.23621773719787598,
+        0.2237847000360489,
+        0.2853512763977051,
+        -0.0834144800901413,
+        0.39498457312583923,
+        1.0,
+        0.29342344403266907
+      ],
+      [
+        0.3420218825340271,
+        0.3369957208633423,
+        0.2130812704563141,
+        0.23481710255146027,
+        0.38532209396362305,
+        0.2843964099884033,
+        -0.03336614742875099,
+        0.3069363534450531,
+        0.29342344403266907,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/geula_even/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/geula_even/portrait.jpg"
+    }
+  ]
+}

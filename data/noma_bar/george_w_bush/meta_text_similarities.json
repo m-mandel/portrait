@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/george_w_bush",
+  "meta_path": "/workspace/input/noma_bar/data/george_w_bush/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "George Walker Bush (born July 6, 1946) is an American politician, businessman, and former United States Air Force officer who was the 43rd president of the United States, serving from 2001 to 2009. The eldest son of George H. W. Bush, the 41st president of the United States, he was the governor of Texas from 1995 to 2000.\nBorn into the prominent Bush family in New Haven, Connecticut, Bush flew warplanes in the Texas Air National Guard in his twenties. After graduating from Harvard Business School in 1975, he worked in the oil industry. He later co-owned the Major League Baseball team Texas Rangers before being elected governor of Texas in 1994. As governor, Bush successfully sponsored legislation for tort reform, increased education funding, set higher standards for schools, and reformed the criminal justice system. He also helped make Texas the leading producer of wind-generated electricity in the United States. In the 2000 presidential election, he defeated Democratic incumbent vice president Al Gore while losing the popular vote after a narrow and contested United States Electoral College win, which involved the Supreme Court decision Bush v. Gore to stop a recount in Florida.\nIn his first term, Bush signed a major tax-cut program and an education-reform bill, the No Child Left Behind Act. He pushed for socially conservative efforts such as the Partial-Birth Abortion Ban Act, restrictions on same-sex marriage, and faith-based initiatives. He also initiated the President's Emergency Plan for AIDS Relief, in 2003, to address the global AIDS epidemic. The September 11 attacks during 2001 decisively reshaped his administration, resulting in the start of the war on terror and the creation of the Department of Homeland Security. Bush ordered the invasion of Afghanistan in an effort to overthrow the Taliban, destroy al-Qaeda, and capture Osama bin Laden. He signed the Patriot Act to authorize surveillance of suspected terrorists. He also ordered the 2003 invasion of Iraq to overthrow Saddam Hussein's regime, falsely claiming it possessed weapons of mass destruction (WMDs) and had ties with al-Qaeda. Bush later signed the Medicare Modernization Act, which created Medicare Part D. In 2004, Bush was re-elected president in a close race, beating Democratic opponent John Kerry and winning the popular vote.\nDuring his second term, Bush made various free trade agreements, appointed John Roberts and Samuel Alito to the Supreme Court, and sought major changes to Social Security and immigration laws, with both efforts failing in Congress. He was widely criticized for his administration's handling of Hurricane Katrina and revelations of torture against detainees at Abu Ghraib prison in Iraq. Amid his unpopularity, the Democrats regained control of Congress in the 2006 elections. Meanwhile, the Afghanistan and Iraq wars continued. In January 2007, Bush launched a surge of troops in Iraq. As his presidency came to a close, the country experienced a financial crisis, resulting the Great Recession, prompting his administration and Congress to push through economic programs intended to preserve the country's financial system, including the Troubled Asset Relief Program.\nAfter his second term, he returned to Texas, and has maintained a low public profile there. At various points in his presidency, Bush was among both the most popular and the most unpopular presidents in U.S. history. He received the highest recorded approval ratings in the wake of the September 11 attacks, and one of the lowest ratings during the 2008 financial crisis. Bush left office as one of the most unpopular U.S. presidents; however, public opinion of him has improved in his post-presidency. Scholars and historians rank Bush as a below-average president.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "white background field"
+    },
+    {
+      "index": 1,
+      "element": "single-line head outline"
+    },
+    {
+      "index": 2,
+      "element": "broad rectangular hairline"
+    },
+    {
+      "index": 3,
+      "element": "black airplane shape at the center"
+    },
+    {
+      "index": 4,
+      "element": "curved ear loops"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "cell door"
+    },
+    {
+      "index": 1,
+      "element": "podium block"
+    },
+    {
+      "index": 2,
+      "element": "ballot box"
+    },
+    {
+      "index": 3,
+      "element": "state seal"
+    },
+    {
+      "index": 4,
+      "element": "flag field"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "white background field",
+      "single-line head outline",
+      "broad rectangular hairline",
+      "black airplane shape at the center",
+      "curved ear loops"
+    ],
+    "values": [
+      [
+        -0.06527406722307205,
+        -0.008349597454071045,
+        0.02469279058277607,
+        -0.1120564267039299,
+        -0.005971129052340984
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "cell door",
+      "podium block",
+      "ballot box",
+      "state seal",
+      "flag field"
+    ],
+    "column_labels": [
+      "white background field",
+      "single-line head outline",
+      "broad rectangular hairline",
+      "black airplane shape at the center",
+      "curved ear loops"
+    ],
+    "values": [
+      [
+        0.1647958904504776,
+        0.042169392108917236,
+        0.1545354127883911,
+        0.07564271241426468,
+        0.07468719780445099
+      ],
+      [
+        0.15733309090137482,
+        0.21941113471984863,
+        0.08947717398405075,
+        0.12770023941993713,
+        0.03971805423498154
+      ],
+      [
+        0.24025608599185944,
+        0.1729913055896759,
+        0.1989123821258545,
+        0.1127331554889679,
+        0.12088371813297272
+      ],
+      [
+        0.10880500078201294,
+        0.04837691783905029,
+        0.07800310105085373,
+        0.08171676844358444,
+        0.1038583517074585
+      ],
+      [
+        0.39439690113067627,
+        0.18964223563671112,
+        0.15536944568157196,
+        0.1209137961268425,
+        -0.03489487245678902
+      ]
+    ]
+  }
+}

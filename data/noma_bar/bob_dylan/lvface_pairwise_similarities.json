@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/bob_dylan",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/bob_dylan/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+        "similarity": 0.060981519520282745
+      },
+      {
+        "index": 1,
+        "name": "02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+        "path": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+        "similarity": 0.06589815020561218
+      },
+      {
+        "index": 2,
+        "name": "03_bob-dylan-1965-publicity-photo-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg",
+        "similarity": 0.08844618499279022
+      },
+      {
+        "index": 3,
+        "name": "04_joan-baez-bob-dylan-crop-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg",
+        "similarity": 0.08252750337123871
+      },
+      {
+        "index": 4,
+        "name": "11_bob-dylan-in-november-1963-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg",
+        "similarity": 0.06270251423120499
+      },
+      {
+        "index": 5,
+        "name": "12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+        "similarity": 0.08846016228199005
+      },
+      {
+        "index": 6,
+        "name": "13_bob-dylan-1984-barcelona-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg",
+        "similarity": 0.0466609001159668
+      },
+      {
+        "index": 7,
+        "name": "15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+        "similarity": 0.036456599831581116
+      },
+      {
+        "index": 8,
+        "name": "16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+        "similarity": 0.10141469538211823
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.060981519520282745,
+          0.06589815020561218,
+          0.08844618499279022,
+          0.08252750337123871,
+          0.06270251423120499,
+          0.08846016228199005,
+          0.0466609001159668,
+          0.036456599831581116,
+          0.10141469538211823
+        ],
+        [
+          0.060981519520282745,
+          0.9999998807907104,
+          0.9475745558738708,
+          0.4724602997303009,
+          0.5272169709205627,
+          0.44910991191864014,
+          0.22541022300720215,
+          0.32472169399261475,
+          0.3680519461631775,
+          0.39028075337409973
+        ],
+        [
+          0.06589815020561218,
+          0.9475745558738708,
+          0.9999998807907104,
+          0.4047768712043762,
+          0.5458095669746399,
+          0.46147453784942627,
+          0.24039170145988464,
+          0.33574485778808594,
+          0.3583144545555115,
+          0.4002232849597931
+        ],
+        [
+          0.08844618499279022,
+          0.4724602997303009,
+          0.4047768712043762,
+          1.0,
+          0.4499773681163788,
+          0.4660506248474121,
+          0.2255553901195526,
+          0.37766432762145996,
+          0.32975438237190247,
+          0.4107677936553955
+        ],
+        [
+          0.08252750337123871,
+          0.5272169709205627,
+          0.5458095669746399,
+          0.4499773681163788,
+          1.0,
+          0.46501243114471436,
+          0.29455092549324036,
+          0.4784702956676483,
+          0.34511539340019226,
+          0.3650645613670349
+        ],
+        [
+          0.06270251423120499,
+          0.44910991191864014,
+          0.46147453784942627,
+          0.4660506248474121,
+          0.46501243114471436,
+          0.9999999403953552,
+          0.24892915785312653,
+          0.4615963101387024,
+          0.41601935029029846,
+          0.3979882597923279
+        ],
+        [
+          0.08846016228199005,
+          0.22541022300720215,
+          0.24039170145988464,
+          0.2255553901195526,
+          0.29455092549324036,
+          0.24892915785312653,
+          1.0,
+          0.20526796579360962,
+          0.294181764125824,
+          0.24355486035346985
+        ],
+        [
+          0.0466609001159668,
+          0.32472169399261475,
+          0.33574485778808594,
+          0.37766432762145996,
+          0.4784702956676483,
+          0.4615963101387024,
+          0.20526796579360962,
+          1.0,
+          0.37589865922927856,
+          0.43031153082847595
+        ],
+        [
+          0.036456599831581116,
+          0.3680519461631775,
+          0.3583144545555115,
+          0.32975438237190247,
+          0.34511539340019226,
+          0.41601935029029846,
+          0.294181764125824,
+          0.37589865922927856,
+          1.0,
+          0.27673470973968506
+        ],
+        [
+          0.10141469538211823,
+          0.39028075337409973,
+          0.4002232849597931,
+          0.4107677936553955,
+          0.3650645613670349,
+          0.3979882597923279,
+          0.24355486035346985,
+          0.43031153082847595,
+          0.27673470973968506,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg"
+    },
+    {
+      "name": "02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png"
+    },
+    {
+      "name": "03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg"
+    },
+    {
+      "name": "04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg"
+    },
+    {
+      "name": "11_bob-dylan-in-november-1963-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg"
+    },
+    {
+      "name": "12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg"
+    },
+    {
+      "name": "13_bob-dylan-1984-barcelona-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg"
+    },
+    {
+      "name": "15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg"
+    },
+    {
+      "name": "16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "similarity": 0.9475745558738708
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "similarity": 0.4724602997303009
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "similarity": 0.5272169709205627
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.44910991191864014
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "similarity": 0.22541022300720215
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg",
+      "similarity": 0.32472169399261475
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "similarity": 0.3680519461631775
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "similarity": 0.39028075337409973
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "similarity": 0.4047768712043762
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "similarity": 0.5458095669746399
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.46147453784942627
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "similarity": 0.24039170145988464
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg",
+      "similarity": 0.33574485778808594
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "similarity": 0.3583144545555115
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "similarity": 0.4002232849597931
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "similarity": 0.4499773681163788
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.4660506248474121
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "similarity": 0.2255553901195526
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg",
+      "similarity": 0.37766432762145996
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "similarity": 0.32975438237190247
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "similarity": 0.4107677936553955
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.46501243114471436
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "similarity": 0.29455092549324036
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg",
+      "similarity": 0.4784702956676483
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "similarity": 0.34511539340019226
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "similarity": 0.3650645613670349
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "similarity": 0.24892915785312653
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg",
+      "similarity": 0.4615963101387024
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "similarity": 0.41601935029029846
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/11_bob-dylan-in-november-1963-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "similarity": 0.3979882597923279
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg",
+      "similarity": 0.20526796579360962
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "similarity": 0.294181764125824
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "similarity": 0.24355486035346985
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "similarity": 0.37589865922927856
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/13_bob-dylan-1984-barcelona-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "similarity": 0.43031153082847595
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/bob_dylan/images/15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/bob_dylan/images/16_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "similarity": 0.27673470973968506
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "02_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "03_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "04_joan-baez-bob-dylan-crop-jpg.jpg",
+      "11_bob-dylan-in-november-1963-jpg.jpg",
+      "12_bob-dylan-center-exterior-tulsa-ok-2024-03-01-18-41-05-jpg.jpg",
+      "13_bob-dylan-1984-barcelona-jpg.jpg",
+      "15_bob-dylan-azkena-rock-festival-2010-2-jpg.jpg",
+      "16_chrisburbach-bob-dylan-portrait-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999998807907104,
+        0.9475745558738708,
+        0.4724602997303009,
+        0.5272169709205627,
+        0.44910991191864014,
+        0.22541022300720215,
+        0.32472169399261475,
+        0.3680519461631775,
+        0.39028075337409973
+      ],
+      [
+        0.9475745558738708,
+        0.9999998807907104,
+        0.4047768712043762,
+        0.5458095669746399,
+        0.46147453784942627,
+        0.24039170145988464,
+        0.33574485778808594,
+        0.3583144545555115,
+        0.4002232849597931
+      ],
+      [
+        0.4724602997303009,
+        0.4047768712043762,
+        1.0,
+        0.4499773681163788,
+        0.4660506248474121,
+        0.2255553901195526,
+        0.37766432762145996,
+        0.32975438237190247,
+        0.4107677936553955
+      ],
+      [
+        0.5272169709205627,
+        0.5458095669746399,
+        0.4499773681163788,
+        1.0,
+        0.46501243114471436,
+        0.29455092549324036,
+        0.4784702956676483,
+        0.34511539340019226,
+        0.3650645613670349
+      ],
+      [
+        0.44910991191864014,
+        0.46147453784942627,
+        0.4660506248474121,
+        0.46501243114471436,
+        0.9999999403953552,
+        0.24892915785312653,
+        0.4615963101387024,
+        0.41601935029029846,
+        0.3979882597923279
+      ],
+      [
+        0.22541022300720215,
+        0.24039170145988464,
+        0.2255553901195526,
+        0.29455092549324036,
+        0.24892915785312653,
+        1.0,
+        0.20526796579360962,
+        0.294181764125824,
+        0.24355486035346985
+      ],
+      [
+        0.32472169399261475,
+        0.33574485778808594,
+        0.37766432762145996,
+        0.4784702956676483,
+        0.4615963101387024,
+        0.20526796579360962,
+        1.0,
+        0.37589865922927856,
+        0.43031153082847595
+      ],
+      [
+        0.3680519461631775,
+        0.3583144545555115,
+        0.32975438237190247,
+        0.34511539340019226,
+        0.41601935029029846,
+        0.294181764125824,
+        0.37589865922927856,
+        1.0,
+        0.27673470973968506
+      ],
+      [
+        0.39028075337409973,
+        0.4002232849597931,
+        0.4107677936553955,
+        0.3650645613670349,
+        0.3979882597923279,
+        0.24355486035346985,
+        0.43031153082847595,
+        0.27673470973968506,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/bob_dylan/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/bob_dylan/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/bob_dylan/images/17_chrisburbach-bob-dylan-portrait-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/bob_dylan/images/17_chrisburbach-bob-dylan-portrait-jpg.jpg"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/oj_simpson",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/oj_simpson/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+        "similarity": 0.0011717129964381456
+      },
+      {
+        "index": 1,
+        "name": "02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+        "similarity": 0.0030487084295600653
+      },
+      {
+        "index": 2,
+        "name": "03_lot-340-1969-oj-simpson.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+        "similarity": -0.00015204546798486263
+      },
+      {
+        "index": 3,
+        "name": "04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": -0.02397730201482773
+      },
+      {
+        "index": 4,
+        "name": "05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+        "similarity": 0.043432898819446564
+      },
+      {
+        "index": 5,
+        "name": "06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+        "similarity": 0.026890380308032036
+      },
+      {
+        "index": 6,
+        "name": "07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+        "similarity": -0.03192541375756264
+      },
+      {
+        "index": 7,
+        "name": "08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+        "similarity": 0.013295923359692097
+      },
+      {
+        "index": 8,
+        "name": "09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+        "similarity": -0.06477570533752441
+      },
+      {
+        "index": 9,
+        "name": "10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+        "path": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+        "similarity": 0.010538476519286633
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.0011717129964381456,
+          0.0030487084295600653,
+          -0.00015204546798486263,
+          -0.02397730201482773,
+          0.043432898819446564,
+          0.026890380308032036,
+          -0.03192541375756264,
+          0.013295923359692097,
+          -0.06477570533752441,
+          0.010538476519286633
+        ],
+        [
+          0.0011717129964381456,
+          1.0,
+          0.5729930996894836,
+          0.5938717126846313,
+          0.5767741203308105,
+          0.5411044955253601,
+          0.5100969672203064,
+          0.5020196437835693,
+          0.503287136554718,
+          0.48686328530311584,
+          0.4668160080909729
+        ],
+        [
+          0.0030487084295600653,
+          0.5729930996894836,
+          1.0,
+          0.6310087442398071,
+          0.44473007321357727,
+          0.5756622552871704,
+          0.4846421182155609,
+          0.585568368434906,
+          0.5315837860107422,
+          0.42734894156455994,
+          0.5905668139457703
+        ],
+        [
+          -0.00015204546798486263,
+          0.5938717126846313,
+          0.6310087442398071,
+          1.0,
+          0.5817842483520508,
+          0.5242425799369812,
+          0.5173283815383911,
+          0.6717075109481812,
+          0.5984920859336853,
+          0.5336551070213318,
+          0.5871196389198303
+        ],
+        [
+          -0.02397730201482773,
+          0.5767741203308105,
+          0.44473007321357727,
+          0.5817842483520508,
+          1.0000001192092896,
+          0.5380268692970276,
+          0.46946975588798523,
+          0.6199325919151306,
+          0.5092605352401733,
+          0.5662115216255188,
+          0.4790894091129303
+        ],
+        [
+          0.043432898819446564,
+          0.5411044955253601,
+          0.5756622552871704,
+          0.5242425799369812,
+          0.5380268692970276,
+          1.0000001192092896,
+          0.57823646068573,
+          0.46873387694358826,
+          0.4532265365123749,
+          0.4088858962059021,
+          0.5809840559959412
+        ],
+        [
+          0.026890380308032036,
+          0.5100969672203064,
+          0.4846421182155609,
+          0.5173283815383911,
+          0.46946975588798523,
+          0.57823646068573,
+          1.0,
+          0.4344227910041809,
+          0.4957771599292755,
+          0.4006008505821228,
+          0.5497257113456726
+        ],
+        [
+          -0.03192541375756264,
+          0.5020196437835693,
+          0.585568368434906,
+          0.6717075109481812,
+          0.6199325919151306,
+          0.46873387694358826,
+          0.4344227910041809,
+          1.0,
+          0.560002326965332,
+          0.4920460879802704,
+          0.46351659297943115
+        ],
+        [
+          0.013295923359692097,
+          0.503287136554718,
+          0.5315837860107422,
+          0.5984920859336853,
+          0.5092605352401733,
+          0.4532265365123749,
+          0.4957771599292755,
+          0.560002326965332,
+          1.0000001192092896,
+          0.5190765261650085,
+          0.6054121851921082
+        ],
+        [
+          -0.06477570533752441,
+          0.48686328530311584,
+          0.42734894156455994,
+          0.5336551070213318,
+          0.5662115216255188,
+          0.4088858962059021,
+          0.4006008505821228,
+          0.4920460879802704,
+          0.5190765261650085,
+          0.9999999403953552,
+          0.4847430884838104
+        ],
+        [
+          0.010538476519286633,
+          0.4668160080909729,
+          0.5905668139457703,
+          0.5871196389198303,
+          0.4790894091129303,
+          0.5809840559959412,
+          0.5497257113456726,
+          0.46351659297943115,
+          0.6054121851921082,
+          0.4847430884838104,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg"
+    },
+    {
+      "name": "02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg"
+    },
+    {
+      "name": "03_lot-340-1969-oj-simpson.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg"
+    },
+    {
+      "name": "04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg"
+    },
+    {
+      "name": "06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg"
+    },
+    {
+      "name": "07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg"
+    },
+    {
+      "name": "08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg"
+    },
+    {
+      "name": "09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg"
+    },
+    {
+      "name": "10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "path": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "similarity": 0.5729930996894836
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+      "similarity": 0.5938717126846313
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5767741203308105
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "similarity": 0.5411044955253601
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "similarity": 0.5100969672203064
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.5020196437835693
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "similarity": 0.503287136554718
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.48686328530311584
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "similarity": 0.4668160080909729
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+      "similarity": 0.6310087442398071
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.44473007321357727
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "similarity": 0.5756622552871704
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "similarity": 0.4846421182155609
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.585568368434906
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "similarity": 0.5315837860107422
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.42734894156455994
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "similarity": 0.5905668139457703
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5817842483520508
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "similarity": 0.5242425799369812
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "similarity": 0.5173283815383911
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.6717075109481812
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "similarity": 0.5984920859336853
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.5336551070213318
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/03_lot-340-1969-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "similarity": 0.5871196389198303
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "similarity": 0.5380268692970276
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "similarity": 0.46946975588798523
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.6199325919151306
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "similarity": 0.5092605352401733
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.5662115216255188
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "similarity": 0.4790894091129303
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "similarity": 0.57823646068573
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.46873387694358826
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "similarity": 0.4532265365123749
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.4088858962059021
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "similarity": 0.5809840559959412
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.4344227910041809
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "similarity": 0.4957771599292755
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.4006008505821228
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "similarity": 0.5497257113456726
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "similarity": 0.560002326965332
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.4920460879802704
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "similarity": 0.46351659297943115
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "similarity": 0.5190765261650085
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "similarity": 0.6054121851921082
+    },
+    {
+      "left": "/workspace/input/piven/data/oj_simpson/images/09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "right": "/workspace/input/piven/data/oj_simpson/images/10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg",
+      "similarity": 0.4847430884838104
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_oj-simpson-s-driver-s-license-1995-jpg.jpg",
+      "02_hyde-soit-bilt-shoes-advertising-oj-simpson-boys-life-magazine-november-1976-12834380273-jpg.jpg",
+      "03_lot-340-1969-oj-simpson.jpg",
+      "04_oj-simpson-hi-res-stock-photography-and-images-alamy.jpg",
+      "05_warhol-andy-oj-simpson-for-sale-at-1stdibs-andy-warhol-oj-simpson.jpg",
+      "06_andy-warhol-portrait-of-oj-simpson-goes-on-auction-block-art-and.jpg",
+      "07_oj-simpson-trial-black-and-white-stock-photos-images-alamy.jpg",
+      "08_portrait-d-oj-simpson-lors-de-son-arrestation-en-1994-purepeople.jpg",
+      "09_oj-simpson-and-nicole-brown-portrait-hi-res-stock-photography-and.jpg",
+      "10_andy-warhol-andy-warhol-polaroid-photograph-of-oj-simpson-with-a.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.5729930996894836,
+        0.5938717126846313,
+        0.5767741203308105,
+        0.5411044955253601,
+        0.5100969672203064,
+        0.5020196437835693,
+        0.503287136554718,
+        0.48686328530311584,
+        0.4668160080909729
+      ],
+      [
+        0.5729930996894836,
+        1.0,
+        0.6310087442398071,
+        0.44473007321357727,
+        0.5756622552871704,
+        0.4846421182155609,
+        0.585568368434906,
+        0.5315837860107422,
+        0.42734894156455994,
+        0.5905668139457703
+      ],
+      [
+        0.5938717126846313,
+        0.6310087442398071,
+        1.0,
+        0.5817842483520508,
+        0.5242425799369812,
+        0.5173283815383911,
+        0.6717075109481812,
+        0.5984920859336853,
+        0.5336551070213318,
+        0.5871196389198303
+      ],
+      [
+        0.5767741203308105,
+        0.44473007321357727,
+        0.5817842483520508,
+        1.0000001192092896,
+        0.5380268692970276,
+        0.46946975588798523,
+        0.6199325919151306,
+        0.5092605352401733,
+        0.5662115216255188,
+        0.4790894091129303
+      ],
+      [
+        0.5411044955253601,
+        0.5756622552871704,
+        0.5242425799369812,
+        0.5380268692970276,
+        1.0000001192092896,
+        0.57823646068573,
+        0.46873387694358826,
+        0.4532265365123749,
+        0.4088858962059021,
+        0.5809840559959412
+      ],
+      [
+        0.5100969672203064,
+        0.4846421182155609,
+        0.5173283815383911,
+        0.46946975588798523,
+        0.57823646068573,
+        1.0,
+        0.4344227910041809,
+        0.4957771599292755,
+        0.4006008505821228,
+        0.5497257113456726
+      ],
+      [
+        0.5020196437835693,
+        0.585568368434906,
+        0.6717075109481812,
+        0.6199325919151306,
+        0.46873387694358826,
+        0.4344227910041809,
+        1.0,
+        0.560002326965332,
+        0.4920460879802704,
+        0.46351659297943115
+      ],
+      [
+        0.503287136554718,
+        0.5315837860107422,
+        0.5984920859336853,
+        0.5092605352401733,
+        0.4532265365123749,
+        0.4957771599292755,
+        0.560002326965332,
+        1.0000001192092896,
+        0.5190765261650085,
+        0.6054121851921082
+      ],
+      [
+        0.48686328530311584,
+        0.42734894156455994,
+        0.5336551070213318,
+        0.5662115216255188,
+        0.4088858962059021,
+        0.4006008505821228,
+        0.4920460879802704,
+        0.5190765261650085,
+        0.9999999403953552,
+        0.4847430884838104
+      ],
+      [
+        0.4668160080909729,
+        0.5905668139457703,
+        0.5871196389198303,
+        0.4790894091129303,
+        0.5809840559959412,
+        0.5497257113456726,
+        0.46351659297943115,
+        0.6054121851921082,
+        0.4847430884838104,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/oj_simpson/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/oj_simpson/portrait.jpg"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/vladimir_putin",
+  "meta_path": "/workspace/input/noma_bar/data/vladimir_putin/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Vladimir Vladimirovich Putin (born 7 October 1952) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, having previously served from 2000 to 2008. Putin also served as Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012. He has been described as the de facto leader of Russia since 2000.\nBorn in Leningrad (now Saint Petersburg), Putin worked as a KGB foreign intelligence officer for 16 years, rising to the rank of lieutenant colonel. He resigned in 1991 to begin a political career in Saint Petersburg. In 1996, Putin moved to Moscow to join the administration of President Boris Yeltsin. He briefly served as the director of the Federal Security Service (FSB) and then as secretary of the Security Council of Russia before being appointed prime minister in August 1999. Following Yeltsin's resignation, Putin became acting president and, less than three months later in March 2000, was elected to his first term as president. He was reelected in 2004. Due to constitutional limitations on two consecutive presidential terms, Putin served as prime minister again from 2008 to 2012 under Dmitry Medvedev. He returned to the presidency in 2012, following an election marked by allegations of fraud and protests, and was reelected in 2018.\nDuring Putin's initial presidential tenure, the Russian economy grew on average by seven percent per year as a result of economic reforms and a fivefold increase in the price of oil and gas. Additionally, Putin led Russia in a conflict against Chechen separatists, re-establishing federal control over the region. While serving as prime minister under Medvedev, he oversaw the Russo-Georgian War, alongside enacting military and police reforms. In his third presidential term, Russia occupied and annexed Crimea as well as supported a war in eastern Ukraine through several military incursions, resulting in international sanctions, which, together with a drop in oil prices on the international markets, led to the financial crisis in Russia. Additionally, he ordered a military intervention in Syria to support his ally, President Bashar al-Assad, during the Syrian civil war. In April 2021, after a referendum, he signed constitutional amendments into law that included one allowing him to run for reelection twice more, potentially extending his presidency to 2036. In February 2022, during his fourth presidential term, Putin launched a full-scale invasion of Ukraine, which prompted international condemnation and led to expanded sanctions. In September 2022, he announced a partial mobilization and forcibly annexed four Ukrainian oblasts into Russia. In March 2023, the International Criminal Court issued an arrest warrant for Putin for war crimes related to his alleged criminal responsibility for illegal child abductions during the war. In March 2024, he was reelected to another term.\nUnder Putin's rule, the Russian political system has been transformed into an authoritarian dictatorship with a personality cult. His rule has been marked by endemic corruption and widespread human rights violations, including the imprisonment and suppression of political opponents, intimidation and censorship of independent media in Russia, and a lack of free and fair elections. Russia has consistently received very low scores on Transparency International's Corruption Perceptions Index, The Economist Democracy Index, Freedom House's Freedom in the World index, and the Reporters Without Borders' World Press Freedom Index.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "red background field"
+    },
+    {
+      "index": 1,
+      "element": "light brown hair cap"
+    },
+    {
+      "index": 2,
+      "element": "white face silhouette"
+    },
+    {
+      "index": 3,
+      "element": "long thin nose formed like a rigid bar"
+    },
+    {
+      "index": 4,
+      "element": "brown moustache-like mouth strip"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "cell door"
+    },
+    {
+      "index": 1,
+      "element": "podium block"
+    },
+    {
+      "index": 2,
+      "element": "ballot box"
+    },
+    {
+      "index": 3,
+      "element": "state seal"
+    },
+    {
+      "index": 4,
+      "element": "flag field"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "red background field",
+      "light brown hair cap",
+      "white face silhouette",
+      "long thin nose formed like a rigid bar",
+      "brown moustache-like mouth strip"
+    ],
+    "values": [
+      [
+        0.06804095208644867,
+        0.01452160719782114,
+        -0.01450207270681858,
+        -0.03648774325847626,
+        0.02031484991312027
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "cell door",
+      "podium block",
+      "ballot box",
+      "state seal",
+      "flag field"
+    ],
+    "column_labels": [
+      "red background field",
+      "light brown hair cap",
+      "white face silhouette",
+      "long thin nose formed like a rigid bar",
+      "brown moustache-like mouth strip"
+    ],
+    "values": [
+      [
+        0.14637541770935059,
+        0.018400808796286583,
+        0.1389765739440918,
+        0.04497258737683296,
+        0.04095206409692764
+      ],
+      [
+        0.16019511222839355,
+        -0.006168510764837265,
+        0.16724015772342682,
+        0.14610639214515686,
+        0.1739383339881897
+      ],
+      [
+        0.24248959124088287,
+        0.11919870227575302,
+        0.1670880913734436,
+        0.06510739773511887,
+        0.039613232016563416
+      ],
+      [
+        0.09515464305877686,
+        0.1844315081834793,
+        0.2220410704612732,
+        0.06924740970134735,
+        0.2600526213645935
+      ],
+      [
+        0.40709447860717773,
+        0.10040624439716339,
+        0.16252528131008148,
+        0.06748481839895248,
+        -0.125775545835495
+      ]
+    ]
+  }
+}

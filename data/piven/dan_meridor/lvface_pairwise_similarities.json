@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/dan_meridor",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/dan_meridor/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_dan-meridor-meir-shamger-jpg.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+        "similarity": 0.07748351246118546
+      },
+      {
+        "index": 1,
+        "name": "02_dan-meridor-00320632-jpg.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+        "similarity": 0.014816127717494965
+      },
+      {
+        "index": 2,
+        "name": "03_dan-meridor-ih002605277017-jpg.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+        "similarity": 0.03684230521321297
+      },
+      {
+        "index": 3,
+        "name": "06_dan-meridor-00390033-jpg.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+        "similarity": 0.03204784542322159
+      },
+      {
+        "index": 4,
+        "name": "07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+        "similarity": 0.06545291095972061
+      },
+      {
+        "index": 5,
+        "name": "08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+        "similarity": 0.05210243538022041
+      },
+      {
+        "index": 6,
+        "name": "09_dan-meridor.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+        "similarity": 0.049445584416389465
+      },
+      {
+        "index": 7,
+        "name": "10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+        "similarity": 0.02414332516491413
+      },
+      {
+        "index": 8,
+        "name": "11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+        "similarity": 0.018780246376991272
+      },
+      {
+        "index": 9,
+        "name": "12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+        "path": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+        "similarity": 0.05148372799158096
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.07748351246118546,
+          0.014816127717494965,
+          0.03684230521321297,
+          0.03204784542322159,
+          0.06545291095972061,
+          0.05210243538022041,
+          0.049445584416389465,
+          0.02414332516491413,
+          0.018780246376991272,
+          0.05148372799158096
+        ],
+        [
+          0.07748351246118546,
+          1.0000001192092896,
+          -0.03862454742193222,
+          -0.07349376380443573,
+          -0.0492204949259758,
+          -0.03770090639591217,
+          0.016213541850447655,
+          -0.04873261600732803,
+          -0.06573458760976791,
+          -0.058905262500047684,
+          -0.03143719956278801
+        ],
+        [
+          0.014816127717494965,
+          -0.03862454742193222,
+          1.0,
+          0.4777064919471741,
+          0.6936410665512085,
+          0.5434142351150513,
+          0.39123547077178955,
+          0.5924866199493408,
+          0.4806700050830841,
+          0.49972227215766907,
+          0.5242894291877747
+        ],
+        [
+          0.03684230521321297,
+          -0.07349376380443573,
+          0.4777064919471741,
+          1.0,
+          0.4960368275642395,
+          0.35208579897880554,
+          0.38078558444976807,
+          0.5334876775741577,
+          0.38927319645881653,
+          0.32384106516838074,
+          0.3866364061832428
+        ],
+        [
+          0.03204784542322159,
+          -0.0492204949259758,
+          0.6936410665512085,
+          0.4960368275642395,
+          1.0,
+          0.5387683510780334,
+          0.49235397577285767,
+          0.618651270866394,
+          0.4992861747741699,
+          0.3805384933948517,
+          0.4746069610118866
+        ],
+        [
+          0.06545291095972061,
+          -0.03770090639591217,
+          0.5434142351150513,
+          0.35208579897880554,
+          0.5387683510780334,
+          1.0000001192092896,
+          0.4913312494754791,
+          0.48581138253211975,
+          0.5573853850364685,
+          0.40485477447509766,
+          0.6327372789382935
+        ],
+        [
+          0.05210243538022041,
+          0.016213541850447655,
+          0.39123547077178955,
+          0.38078558444976807,
+          0.49235397577285767,
+          0.4913312494754791,
+          1.0,
+          0.4826790690422058,
+          0.5092865228652954,
+          0.4677140712738037,
+          0.38743856549263
+        ],
+        [
+          0.049445584416389465,
+          -0.04873261600732803,
+          0.5924866199493408,
+          0.5334876775741577,
+          0.618651270866394,
+          0.48581138253211975,
+          0.4826790690422058,
+          1.0,
+          0.5640110969543457,
+          0.35473138093948364,
+          0.41128429770469666
+        ],
+        [
+          0.02414332516491413,
+          -0.06573458760976791,
+          0.4806700050830841,
+          0.38927319645881653,
+          0.4992861747741699,
+          0.5573853850364685,
+          0.5092865228652954,
+          0.5640110969543457,
+          1.0000001192092896,
+          0.45564618706703186,
+          0.5161999464035034
+        ],
+        [
+          0.018780246376991272,
+          -0.058905262500047684,
+          0.49972227215766907,
+          0.32384106516838074,
+          0.3805384933948517,
+          0.40485477447509766,
+          0.4677140712738037,
+          0.35473138093948364,
+          0.45564618706703186,
+          0.9999999403953552,
+          0.4545828104019165
+        ],
+        [
+          0.05148372799158096,
+          -0.03143719956278801,
+          0.5242894291877747,
+          0.3866364061832428,
+          0.4746069610118866,
+          0.6327372789382935,
+          0.38743856549263,
+          0.41128429770469666,
+          0.5161999464035034,
+          0.4545828104019165,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_dan-meridor-meir-shamger-jpg.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg"
+    },
+    {
+      "name": "02_dan-meridor-00320632-jpg.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg"
+    },
+    {
+      "name": "03_dan-meridor-ih002605277017-jpg.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg"
+    },
+    {
+      "name": "06_dan-meridor-00390033-jpg.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg"
+    },
+    {
+      "name": "07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg"
+    },
+    {
+      "name": "08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "09_dan-meridor.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg"
+    },
+    {
+      "name": "10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg"
+    },
+    {
+      "name": "12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "path": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+      "similarity": -0.03862454742193222
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+      "similarity": -0.07349376380443573
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+      "similarity": -0.0492204949259758
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "similarity": -0.03770090639591217
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.016213541850447655
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+      "similarity": -0.04873261600732803
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.06573458760976791
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "similarity": -0.058905262500047684
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/01_dan-meridor-meir-shamger-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "similarity": -0.03143719956278801
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+      "similarity": 0.4777064919471741
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+      "similarity": 0.6936410665512085
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "similarity": 0.5434142351150513
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.39123547077178955
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+      "similarity": 0.5924866199493408
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4806700050830841
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "similarity": 0.49972227215766907
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/02_dan-meridor-00320632-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "similarity": 0.5242894291877747
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+      "similarity": 0.4960368275642395
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "similarity": 0.35208579897880554
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.38078558444976807
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+      "similarity": 0.5334876775741577
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.38927319645881653
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "similarity": 0.32384106516838074
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/03_dan-meridor-ih002605277017-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "similarity": 0.3866364061832428
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "similarity": 0.5387683510780334
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.49235397577285767
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+      "similarity": 0.618651270866394
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4992861747741699
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "similarity": 0.3805384933948517
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/06_dan-meridor-00390033-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "similarity": 0.4746069610118866
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4913312494754791
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+      "similarity": 0.48581138253211975
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5573853850364685
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "similarity": 0.40485477447509766
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "similarity": 0.6327372789382935
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+      "similarity": 0.4826790690422058
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5092865228652954
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "similarity": 0.4677140712738037
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "similarity": 0.38743856549263
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5640110969543457
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "similarity": 0.35473138093948364
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/09_dan-meridor.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "similarity": 0.41128429770469666
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "similarity": 0.45564618706703186
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "similarity": 0.5161999464035034
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_meridor/images/11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "right": "/workspace/input/piven/data/dan_meridor/images/12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg",
+      "similarity": 0.4545828104019165
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_dan-meridor-meir-shamger-jpg.jpg",
+      "02_dan-meridor-00320632-jpg.jpg",
+      "03_dan-meridor-ih002605277017-jpg.jpg",
+      "06_dan-meridor-00390033-jpg.jpg",
+      "07_dan-meridor-alchetron-the-free-social-encyclopedia.jpg",
+      "08_90-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "09_dan-meridor.jpg",
+      "10_91-israel-dan-meridor-photos-high-res-pictures-getty-images.jpg",
+      "11_dan-meridor-and-ronen-bergman-on-israel-s-political-future-video.jpg",
+      "12_uk-palestinian-rights-groups-call-on-met-to-arrest-former-israeli.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        -0.03862454742193222,
+        -0.07349376380443573,
+        -0.0492204949259758,
+        -0.03770090639591217,
+        0.016213541850447655,
+        -0.04873261600732803,
+        -0.06573458760976791,
+        -0.058905262500047684,
+        -0.03143719956278801
+      ],
+      [
+        -0.03862454742193222,
+        1.0,
+        0.4777064919471741,
+        0.6936410665512085,
+        0.5434142351150513,
+        0.39123547077178955,
+        0.5924866199493408,
+        0.4806700050830841,
+        0.49972227215766907,
+        0.5242894291877747
+      ],
+      [
+        -0.07349376380443573,
+        0.4777064919471741,
+        1.0,
+        0.4960368275642395,
+        0.35208579897880554,
+        0.38078558444976807,
+        0.5334876775741577,
+        0.38927319645881653,
+        0.32384106516838074,
+        0.3866364061832428
+      ],
+      [
+        -0.0492204949259758,
+        0.6936410665512085,
+        0.4960368275642395,
+        1.0,
+        0.5387683510780334,
+        0.49235397577285767,
+        0.618651270866394,
+        0.4992861747741699,
+        0.3805384933948517,
+        0.4746069610118866
+      ],
+      [
+        -0.03770090639591217,
+        0.5434142351150513,
+        0.35208579897880554,
+        0.5387683510780334,
+        1.0000001192092896,
+        0.4913312494754791,
+        0.48581138253211975,
+        0.5573853850364685,
+        0.40485477447509766,
+        0.6327372789382935
+      ],
+      [
+        0.016213541850447655,
+        0.39123547077178955,
+        0.38078558444976807,
+        0.49235397577285767,
+        0.4913312494754791,
+        1.0,
+        0.4826790690422058,
+        0.5092865228652954,
+        0.4677140712738037,
+        0.38743856549263
+      ],
+      [
+        -0.04873261600732803,
+        0.5924866199493408,
+        0.5334876775741577,
+        0.618651270866394,
+        0.48581138253211975,
+        0.4826790690422058,
+        1.0,
+        0.5640110969543457,
+        0.35473138093948364,
+        0.41128429770469666
+      ],
+      [
+        -0.06573458760976791,
+        0.4806700050830841,
+        0.38927319645881653,
+        0.4992861747741699,
+        0.5573853850364685,
+        0.5092865228652954,
+        0.5640110969543457,
+        1.0000001192092896,
+        0.45564618706703186,
+        0.5161999464035034
+      ],
+      [
+        -0.058905262500047684,
+        0.49972227215766907,
+        0.32384106516838074,
+        0.3805384933948517,
+        0.40485477447509766,
+        0.4677140712738037,
+        0.35473138093948364,
+        0.45564618706703186,
+        0.9999999403953552,
+        0.4545828104019165
+      ],
+      [
+        -0.03143719956278801,
+        0.5242894291877747,
+        0.3866364061832428,
+        0.4746069610118866,
+        0.6327372789382935,
+        0.38743856549263,
+        0.41128429770469666,
+        0.5161999464035034,
+        0.4545828104019165,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/dan_meridor/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/dan_meridor/portrait.jpg"
+    }
+  ]
+}

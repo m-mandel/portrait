@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/saddam_hussein",
+  "meta_path": "/workspace/input/noma_bar/data/saddam_hussein/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Saddam Hussein (28 April 1937 \u2013 30 December 2006) was an Iraqi politician and revolutionary who served as the fifth president of Iraq from 1979 until his overthrow in 2003 during the United States-led invasion of Iraq. He previously served as the vice president from 1968 to 1979 and also as the prime minister from 1979 to 1991 and later from 1994 to 2003. A leading member of the Ba'ath Party (Iraqi-dominated faction), he was a proponent of Ba'athism, a mix of Arab nationalism and Arab socialism. The policies and ideologies he championed are collectively known as Saddamism, a right-wing variant of Ba'athism.\nBorn near the city of Tikrit to a Sunni Arab family, Saddam joined the revolutionary Ba'ath Party in 1957. He played a key role in the 17 July Revolution that brought the Ba'athists to power in Iraq and made him vice president under Ahmed Hassan al-Bakr. During his tenure as vice president, Saddam nationalized the Iraq Petroleum Company, diversified the economy, introduced free healthcare and education, and supported women's rights. He also presided over the defeat of the Kurdish insurgency in the Second Iraqi\u2013Kurdish War and signed the Algiers Agreement with Iran in 1975, thereby settling territorial disputes along the Iran\u2013Iraq border. Following al-Bakr's resignation in 1979, Saddam formally took power. During his presidency, positions of power in the country were mostly filled with Sunni Arabs, a minority that made up only about a fifth of the Iraqi population.\nUpon taking office as president in 1979, Saddam purged rivals within his party. In 1980, he ordered the invasion of Iran, purportedly to capture Iran's Arab-majority Khuzestan province, and end Iranian attempts to export its Islamic Revolution to the Arab world. In 1988, as the war with Iran ended in a stalemate, he ordered the Anfal campaign against Kurdish rebels who had sided with Iran. Later, he accused his former ally Kuwait of slant-drilling Iraq's oil reserves and subsequently invaded the country in 1990. This ultimately led to the Gulf War in 1991, which ended in Iraq's defeat by a United States-led coalition. In the war's aftermath, Saddam's forces suppressed the 1991 Iraqi uprisings launched by Kurds and Shias seeking regime change, as well as further uprisings in 1999. After reconsolidating his hold on power, Saddam pursued an Islamist agenda for Iraq through the Faith Campaign. In 2003, a US-led coalition invaded Iraq, incorrectly accusing him of developing weapons of mass destruction and of having ties with al-Qaeda. Coalition forces toppled Saddam's regime and captured him. During his trial, Saddam was convicted by the Iraqi High Tribunal of crimes against humanity and sentenced to death by hanging. He was executed on 30 December 2006.\nA polarizing and controversial figure, Saddam dominated Iraqi politics for 35 years and was the subject of a cult of personality. Many Arabs regard Saddam as a resolute leader who challenged American imperialism, opposed the Israeli occupation of Palestine, and resisted foreign intervention in the region. Conversely, many Iraqis, particularly Shias and Kurds, perceive him as a tyrant responsible for acts of repression, mass killing and other injustices. Human Rights Watch estimated that Saddam's regime was responsible for the murder or disappearance of 250,000 to 290,000 Iraqis. Saddam's government has been described by several analysts as authoritarian and totalitarian, and by some as fascist, although the applicability of those labels has been contested.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "pale background field"
+    },
+    {
+      "index": 1,
+      "element": "black hanging noose"
+    },
+    {
+      "index": 2,
+      "element": "looped rope at the center"
+    },
+    {
+      "index": 3,
+      "element": "frayed rope ends"
+    },
+    {
+      "index": 4,
+      "element": "olive moustache-like curved shape"
+    },
+    {
+      "index": 5,
+      "element": "dark corner wedges"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "podium block"
+    },
+    {
+      "index": 1,
+      "element": "ballot box"
+    },
+    {
+      "index": 2,
+      "element": "state seal"
+    },
+    {
+      "index": 3,
+      "element": "flag field"
+    },
+    {
+      "index": 4,
+      "element": "prayer shawl fold"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "pale background field",
+      "black hanging noose",
+      "looped rope at the center",
+      "frayed rope ends",
+      "olive moustache-like curved shape",
+      "dark corner wedges"
+    ],
+    "values": [
+      [
+        -0.03156866878271103,
+        -0.021461371332406998,
+        -0.027045104652643204,
+        -0.04170561581850052,
+        0.037884604185819626,
+        -0.027764245867729187
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "podium block",
+      "ballot box",
+      "state seal",
+      "flag field",
+      "prayer shawl fold"
+    ],
+    "column_labels": [
+      "pale background field",
+      "black hanging noose",
+      "looped rope at the center",
+      "frayed rope ends",
+      "olive moustache-like curved shape",
+      "dark corner wedges"
+    ],
+    "values": [
+      [
+        0.11114062368869781,
+        0.1451576203107834,
+        0.14146509766578674,
+        0.08497364819049835,
+        0.10021035373210907,
+        0.3287694454193115
+      ],
+      [
+        0.11445964127779007,
+        0.20299383997917175,
+        0.057299353182315826,
+        0.07374472171068192,
+        0.03540325164794922,
+        0.256661593914032
+      ],
+      [
+        0.15020474791526794,
+        0.19326314330101013,
+        0.02406761422753334,
+        0.11157357692718506,
+        0.19804994761943817,
+        0.1657908856868744
+      ],
+      [
+        0.28128287196159363,
+        0.10187514871358871,
+        0.09573807567358017,
+        0.06167478486895561,
+        -0.06564339995384216,
+        0.1309542953968048
+      ],
+      [
+        0.048849642276763916,
+        0.16458743810653687,
+        0.22388766705989838,
+        0.25142887234687805,
+        0.12507718801498413,
+        0.23696637153625488
+      ]
+    ]
+  }
+}

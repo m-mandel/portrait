@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/ariel_sharon",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/ariel_sharon/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+        "similarity": 0.0032943314872682095
+      },
+      {
+        "index": 1,
+        "name": "02_ariel-sharon-headshot-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+        "similarity": -0.02441493794322014
+      },
+      {
+        "index": 2,
+        "name": "03_ariel-sharon-headshot-1-jpg.jpg",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+        "similarity": -0.010778035037219524
+      },
+      {
+        "index": 3,
+        "name": "05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+        "similarity": 0.009275756776332855
+      },
+      {
+        "index": 4,
+        "name": "06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+        "similarity": 0.025301305577158928
+      },
+      {
+        "index": 5,
+        "name": "08_ariel-sharon-headshot-jpg.jpg",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+        "similarity": -0.021675270050764084
+      },
+      {
+        "index": 6,
+        "name": "09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+        "similarity": 0.005274602677673101
+      },
+      {
+        "index": 7,
+        "name": "10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+        "similarity": 0.0017397503834217787
+      },
+      {
+        "index": 8,
+        "name": "11_ariel-sharon-official-portrait-2001-webp.webp",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+        "similarity": 0.008587607182562351
+      },
+      {
+        "index": 9,
+        "name": "12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+        "similarity": -0.0331973060965538
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.0032943314872682095,
+          -0.02441493794322014,
+          -0.010778035037219524,
+          0.009275756776332855,
+          0.025301305577158928,
+          -0.021675270050764084,
+          0.005274602677673101,
+          0.0017397503834217787,
+          0.008587607182562351,
+          -0.0331973060965538
+        ],
+        [
+          0.0032943314872682095,
+          0.9999999403953552,
+          0.511036217212677,
+          0.4690440893173218,
+          0.3314514458179474,
+          0.41106081008911133,
+          0.4520360231399536,
+          0.4129532277584076,
+          0.8961300849914551,
+          0.398021936416626,
+          0.024862859398126602
+        ],
+        [
+          -0.02441493794322014,
+          0.511036217212677,
+          1.0000001192092896,
+          0.887664258480072,
+          0.3784838616847992,
+          0.5164623260498047,
+          0.8712180852890015,
+          0.5743118524551392,
+          0.5812938809394836,
+          0.5903683304786682,
+          0.01879345253109932
+        ],
+        [
+          -0.010778035037219524,
+          0.4690440893173218,
+          0.887664258480072,
+          1.0000001192092896,
+          0.35620614886283875,
+          0.5105602741241455,
+          0.876707136631012,
+          0.6318949460983276,
+          0.5580398440361023,
+          0.6061689853668213,
+          0.02966783568263054
+        ],
+        [
+          0.009275756776332855,
+          0.3314514458179474,
+          0.3784838616847992,
+          0.35620614886283875,
+          1.0000001192092896,
+          0.35806313157081604,
+          0.3566179871559143,
+          0.3748636841773987,
+          0.347013384103775,
+          0.37040653824806213,
+          0.04835325479507446
+        ],
+        [
+          0.025301305577158928,
+          0.41106081008911133,
+          0.5164623260498047,
+          0.5105602741241455,
+          0.35806313157081604,
+          1.0,
+          0.49872487783432007,
+          0.7625356316566467,
+          0.45039647817611694,
+          0.742713451385498,
+          0.0471394844353199
+        ],
+        [
+          -0.021675270050764084,
+          0.4520360231399536,
+          0.8712180852890015,
+          0.876707136631012,
+          0.3566179871559143,
+          0.49872487783432007,
+          0.9999999403953552,
+          0.5839032530784607,
+          0.5033844113349915,
+          0.6062526106834412,
+          0.030186017975211143
+        ],
+        [
+          0.005274602677673101,
+          0.4129532277584076,
+          0.5743118524551392,
+          0.6318949460983276,
+          0.3748636841773987,
+          0.7625356316566467,
+          0.5839032530784607,
+          1.0,
+          0.4456295669078827,
+          0.9236679673194885,
+          0.03601164370775223
+        ],
+        [
+          0.0017397503834217787,
+          0.8961300849914551,
+          0.5812938809394836,
+          0.5580398440361023,
+          0.347013384103775,
+          0.45039647817611694,
+          0.5033844113349915,
+          0.4456295669078827,
+          1.0,
+          0.45735421776771545,
+          0.027403071522712708
+        ],
+        [
+          0.008587607182562351,
+          0.398021936416626,
+          0.5903683304786682,
+          0.6061689853668213,
+          0.37040653824806213,
+          0.742713451385498,
+          0.6062526106834412,
+          0.9236679673194885,
+          0.45735421776771545,
+          0.9999999403953552,
+          0.03695414960384369
+        ],
+        [
+          -0.0331973060965538,
+          0.024862859398126602,
+          0.01879345253109932,
+          0.02966783568263054,
+          0.04835325479507446,
+          0.0471394844353199,
+          0.030186017975211143,
+          0.03601164370775223,
+          0.027403071522712708,
+          0.03695414960384369,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg"
+    },
+    {
+      "name": "02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_ariel-sharon-headshot-1-jpg.jpg",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg"
+    },
+    {
+      "name": "05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_ariel-sharon-headshot-jpg.jpg",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg"
+    },
+    {
+      "name": "09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp"
+    },
+    {
+      "name": "10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg"
+    },
+    {
+      "name": "11_ariel-sharon-official-portrait-2001-webp.webp",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp"
+    },
+    {
+      "name": "12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "similarity": 0.511036217212677
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+      "similarity": 0.4690440893173218
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "similarity": 0.3314514458179474
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "similarity": 0.41106081008911133
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+      "similarity": 0.4520360231399536
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "similarity": 0.4129532277584076
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "similarity": 0.8961300849914551
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+      "similarity": 0.398021936416626
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "similarity": 0.024862859398126602
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+      "similarity": 0.887664258480072
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "similarity": 0.3784838616847992
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "similarity": 0.5164623260498047
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+      "similarity": 0.8712180852890015
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "similarity": 0.5743118524551392
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "similarity": 0.5812938809394836
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+      "similarity": 0.5903683304786682
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "similarity": 0.01879345253109932
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "similarity": 0.35620614886283875
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "similarity": 0.5105602741241455
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+      "similarity": 0.876707136631012
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "similarity": 0.6318949460983276
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "similarity": 0.5580398440361023
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+      "similarity": 0.6061689853668213
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/03_ariel-sharon-headshot-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "similarity": 0.02966783568263054
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "similarity": 0.35806313157081604
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+      "similarity": 0.3566179871559143
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "similarity": 0.3748636841773987
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "similarity": 0.347013384103775
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+      "similarity": 0.37040653824806213
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "similarity": 0.04835325479507446
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+      "similarity": 0.49872487783432007
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "similarity": 0.7625356316566467
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "similarity": 0.45039647817611694
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+      "similarity": 0.742713451385498
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "similarity": 0.0471394844353199
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "similarity": 0.5839032530784607
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "similarity": 0.5033844113349915
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+      "similarity": 0.6062526106834412
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/08_ariel-sharon-headshot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "similarity": 0.030186017975211143
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "similarity": 0.4456295669078827
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+      "similarity": 0.9236679673194885
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "similarity": 0.03601164370775223
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+      "similarity": 0.45735421776771545
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "similarity": 0.027403071522712708
+    },
+    {
+      "left": "/workspace/input/piven/data/ariel_sharon/images/11_ariel-sharon-official-portrait-2001-webp.webp",
+      "right": "/workspace/input/piven/data/ariel_sharon/images/12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg",
+      "similarity": 0.03695414960384369
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_ariel-sharon-by-jim-wallace-smithsonian-institution-jpg.jpg",
+      "02_ariel-sharon-headshot-cropped-jpg.jpg",
+      "03_ariel-sharon-headshot-1-jpg.jpg",
+      "05_ariel-sharon-and-eitan-raf-d723-043-cropped-jpg.jpg",
+      "06_ariel-sharon-official-portrait-cropped-jpg.jpg",
+      "08_ariel-sharon-headshot-jpg.jpg",
+      "09_ariel-sharon-official-portrait-2001-cropped-webp.webp",
+      "10_ariel-sharon-by-jim-wallace-smithsonian-institution-cropped-jpg.jpg",
+      "11_ariel-sharon-official-portrait-2001-webp.webp",
+      "12_arielsharonanddonaldrumsfeld2-cropped-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.511036217212677,
+        0.4690440893173218,
+        0.3314514458179474,
+        0.41106081008911133,
+        0.4520360231399536,
+        0.4129532277584076,
+        0.8961300849914551,
+        0.398021936416626,
+        0.024862859398126602
+      ],
+      [
+        0.511036217212677,
+        1.0000001192092896,
+        0.887664258480072,
+        0.3784838616847992,
+        0.5164623260498047,
+        0.8712180852890015,
+        0.5743118524551392,
+        0.5812938809394836,
+        0.5903683304786682,
+        0.01879345253109932
+      ],
+      [
+        0.4690440893173218,
+        0.887664258480072,
+        1.0000001192092896,
+        0.35620614886283875,
+        0.5105602741241455,
+        0.876707136631012,
+        0.6318949460983276,
+        0.5580398440361023,
+        0.6061689853668213,
+        0.02966783568263054
+      ],
+      [
+        0.3314514458179474,
+        0.3784838616847992,
+        0.35620614886283875,
+        1.0000001192092896,
+        0.35806313157081604,
+        0.3566179871559143,
+        0.3748636841773987,
+        0.347013384103775,
+        0.37040653824806213,
+        0.04835325479507446
+      ],
+      [
+        0.41106081008911133,
+        0.5164623260498047,
+        0.5105602741241455,
+        0.35806313157081604,
+        1.0,
+        0.49872487783432007,
+        0.7625356316566467,
+        0.45039647817611694,
+        0.742713451385498,
+        0.0471394844353199
+      ],
+      [
+        0.4520360231399536,
+        0.8712180852890015,
+        0.876707136631012,
+        0.3566179871559143,
+        0.49872487783432007,
+        0.9999999403953552,
+        0.5839032530784607,
+        0.5033844113349915,
+        0.6062526106834412,
+        0.030186017975211143
+      ],
+      [
+        0.4129532277584076,
+        0.5743118524551392,
+        0.6318949460983276,
+        0.3748636841773987,
+        0.7625356316566467,
+        0.5839032530784607,
+        1.0,
+        0.4456295669078827,
+        0.9236679673194885,
+        0.03601164370775223
+      ],
+      [
+        0.8961300849914551,
+        0.5812938809394836,
+        0.5580398440361023,
+        0.347013384103775,
+        0.45039647817611694,
+        0.5033844113349915,
+        0.4456295669078827,
+        1.0,
+        0.45735421776771545,
+        0.027403071522712708
+      ],
+      [
+        0.398021936416626,
+        0.5903683304786682,
+        0.6061689853668213,
+        0.37040653824806213,
+        0.742713451385498,
+        0.6062526106834412,
+        0.9236679673194885,
+        0.45735421776771545,
+        0.9999999403953552,
+        0.03695414960384369
+      ],
+      [
+        0.024862859398126602,
+        0.01879345253109932,
+        0.02966783568263054,
+        0.04835325479507446,
+        0.0471394844353199,
+        0.030186017975211143,
+        0.03601164370775223,
+        0.027403071522712708,
+        0.03695414960384369,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/ariel_sharon/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/ariel_sharon/portrait.jpg"
+    }
+  ]
+}

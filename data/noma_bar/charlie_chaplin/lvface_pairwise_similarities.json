@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/charlie_chaplin",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/charlie_chaplin/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_charlie-chaplin-in-unknown-year-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+        "similarity": 0.037759050726890564
+      },
+      {
+        "index": 1,
+        "name": "02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+        "similarity": -0.05060344189405441
+      },
+      {
+        "index": 2,
+        "name": "03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+        "similarity": -0.013031563721597195
+      },
+      {
+        "index": 3,
+        "name": "05_charlie-chaplin-portrait-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+        "similarity": -0.0007926317630335689
+      },
+      {
+        "index": 4,
+        "name": "06_charlie-chaplin-a-waterville-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+        "similarity": -0.03061605617403984
+      },
+      {
+        "index": 5,
+        "name": "09_charlie-chaplin-circa-1916-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+        "similarity": 0.027667373418807983
+      },
+      {
+        "index": 6,
+        "name": "10_charlie-chaplin-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+        "similarity": 0.1041748970746994
+      },
+      {
+        "index": 7,
+        "name": "13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+        "similarity": 0.008662055246531963
+      },
+      {
+        "index": 8,
+        "name": "14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+        "similarity": -0.026842406019568443
+      },
+      {
+        "index": 9,
+        "name": "15_charlie-chaplin-1922-png.png",
+        "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+        "similarity": 0.12759949266910553
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.037759050726890564,
+          -0.05060344189405441,
+          -0.013031563721597195,
+          -0.0007926317630335689,
+          -0.03061605617403984,
+          0.027667373418807983,
+          0.1041748970746994,
+          0.008662055246531963,
+          -0.026842406019568443,
+          0.12759949266910553
+        ],
+        [
+          0.037759050726890564,
+          1.0,
+          -0.041727278381586075,
+          0.023951157927513123,
+          0.4167134761810303,
+          -0.005573654547333717,
+          0.4805693030357361,
+          0.21091678738594055,
+          0.008418147452175617,
+          0.011971145868301392,
+          0.1845816671848297
+        ],
+        [
+          -0.05060344189405441,
+          -0.041727278381586075,
+          1.0000001192092896,
+          0.6115387082099915,
+          0.08067408949136734,
+          0.15710397064685822,
+          0.05434678494930267,
+          0.0816732868552208,
+          0.08295632153749466,
+          0.02164001390337944,
+          0.11103761196136475
+        ],
+        [
+          -0.013031563721597195,
+          0.023951157927513123,
+          0.6115387082099915,
+          1.0000001192092896,
+          0.0875413715839386,
+          0.14539353549480438,
+          0.05002056807279587,
+          0.10792046040296555,
+          0.045763567090034485,
+          0.0036856550723314285,
+          0.08212830871343613
+        ],
+        [
+          -0.0007926317630335689,
+          0.4167134761810303,
+          0.08067408949136734,
+          0.0875413715839386,
+          0.9999999403953552,
+          0.12011634558439255,
+          0.36652860045433044,
+          0.264556348323822,
+          0.0330081582069397,
+          0.07552317529916763,
+          0.1073659360408783
+        ],
+        [
+          -0.03061605617403984,
+          -0.005573654547333717,
+          0.15710397064685822,
+          0.14539353549480438,
+          0.12011634558439255,
+          1.0000001192092896,
+          0.031047945842146873,
+          0.153887540102005,
+          0.07248544692993164,
+          0.0007688493933528662,
+          0.07997141778469086
+        ],
+        [
+          0.027667373418807983,
+          0.4805693030357361,
+          0.05434678494930267,
+          0.05002056807279587,
+          0.36652860045433044,
+          0.031047945842146873,
+          1.0,
+          0.17961230874061584,
+          0.03407035395503044,
+          0.04532920569181442,
+          0.17480196058750153
+        ],
+        [
+          0.1041748970746994,
+          0.21091678738594055,
+          0.0816732868552208,
+          0.10792046040296555,
+          0.264556348323822,
+          0.153887540102005,
+          0.17961230874061584,
+          1.0,
+          0.16480551660060883,
+          0.005560392048209906,
+          0.18259164690971375
+        ],
+        [
+          0.008662055246531963,
+          0.008418147452175617,
+          0.08295632153749466,
+          0.045763567090034485,
+          0.0330081582069397,
+          0.07248544692993164,
+          0.03407035395503044,
+          0.16480551660060883,
+          1.0,
+          -0.025157788768410683,
+          0.06021502986550331
+        ],
+        [
+          -0.026842406019568443,
+          0.011971145868301392,
+          0.02164001390337944,
+          0.0036856550723314285,
+          0.07552317529916763,
+          0.0007688493933528662,
+          0.04532920569181442,
+          0.005560392048209906,
+          -0.025157788768410683,
+          1.0,
+          0.0431424044072628
+        ],
+        [
+          0.12759949266910553,
+          0.1845816671848297,
+          0.11103761196136475,
+          0.08212830871343613,
+          0.1073659360408783,
+          0.07997141778469086,
+          0.17480196058750153,
+          0.18259164690971375,
+          0.06021502986550331,
+          0.0431424044072628,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg"
+    },
+    {
+      "name": "02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg"
+    },
+    {
+      "name": "03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg"
+    },
+    {
+      "name": "05_charlie-chaplin-portrait-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg"
+    },
+    {
+      "name": "06_charlie-chaplin-a-waterville-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg"
+    },
+    {
+      "name": "09_charlie-chaplin-circa-1916-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg"
+    },
+    {
+      "name": "10_charlie-chaplin-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg"
+    },
+    {
+      "name": "13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg"
+    },
+    {
+      "name": "14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg"
+    },
+    {
+      "name": "15_charlie-chaplin-1922-png.png",
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "similarity": -0.041727278381586075
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "similarity": 0.023951157927513123
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+      "similarity": 0.4167134761810303
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+      "similarity": -0.005573654547333717
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+      "similarity": 0.4805693030357361
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+      "similarity": 0.21091678738594055
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "similarity": 0.008418147452175617
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "similarity": 0.011971145868301392
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+      "similarity": 0.1845816671848297
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "similarity": 0.6115387082099915
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+      "similarity": 0.08067408949136734
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+      "similarity": 0.15710397064685822
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+      "similarity": 0.05434678494930267
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+      "similarity": 0.0816732868552208
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "similarity": 0.08295632153749466
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "similarity": 0.02164001390337944
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+      "similarity": 0.11103761196136475
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+      "similarity": 0.0875413715839386
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+      "similarity": 0.14539353549480438
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+      "similarity": 0.05002056807279587
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+      "similarity": 0.10792046040296555
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "similarity": 0.045763567090034485
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "similarity": 0.0036856550723314285
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+      "similarity": 0.08212830871343613
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+      "similarity": 0.12011634558439255
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+      "similarity": 0.36652860045433044
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+      "similarity": 0.264556348323822
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "similarity": 0.0330081582069397
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "similarity": 0.07552317529916763
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/05_charlie-chaplin-portrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+      "similarity": 0.1073659360408783
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+      "similarity": 0.031047945842146873
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+      "similarity": 0.153887540102005
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "similarity": 0.07248544692993164
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "similarity": 0.0007688493933528662
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/06_charlie-chaplin-a-waterville-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+      "similarity": 0.07997141778469086
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+      "similarity": 0.17961230874061584
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "similarity": 0.03407035395503044
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "similarity": 0.04532920569181442
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/09_charlie-chaplin-circa-1916-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+      "similarity": 0.17480196058750153
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "similarity": 0.16480551660060883
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "similarity": 0.005560392048209906
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/10_charlie-chaplin-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+      "similarity": 0.18259164690971375
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "similarity": -0.025157788768410683
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+      "similarity": 0.06021502986550331
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/charlie_chaplin/images/14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/charlie_chaplin/images/15_charlie-chaplin-1922-png.png",
+      "similarity": 0.0431424044072628
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_charlie-chaplin-in-unknown-year-jpg.jpg",
+      "02_charlie-chaplin-john-doubleday-vevey-01-jpg.jpg",
+      "03_charlie-chaplin-john-doubleday-vevey-02-jpg.jpg",
+      "05_charlie-chaplin-portrait-jpg.jpg",
+      "06_charlie-chaplin-a-waterville-jpg.jpg",
+      "09_charlie-chaplin-circa-1916-jpg.jpg",
+      "10_charlie-chaplin-cropped-jpg.jpg",
+      "13_charlie-chaplin-marionette-classic-gala-2021-1x7a0218-jpg.jpg",
+      "14_apr2024-charlie-chaplin-mural-in-canoa-quebrada-state-of-cear-brazil-01-jpg.jpg",
+      "15_charlie-chaplin-1922-png.png"
+    ],
+    "values": [
+      [
+        1.0,
+        -0.041727278381586075,
+        0.023951157927513123,
+        0.4167134761810303,
+        -0.005573654547333717,
+        0.4805693030357361,
+        0.21091678738594055,
+        0.008418147452175617,
+        0.011971145868301392,
+        0.1845816671848297
+      ],
+      [
+        -0.041727278381586075,
+        1.0000001192092896,
+        0.6115387082099915,
+        0.08067408949136734,
+        0.15710397064685822,
+        0.05434678494930267,
+        0.0816732868552208,
+        0.08295632153749466,
+        0.02164001390337944,
+        0.11103761196136475
+      ],
+      [
+        0.023951157927513123,
+        0.6115387082099915,
+        1.0000001192092896,
+        0.0875413715839386,
+        0.14539353549480438,
+        0.05002056807279587,
+        0.10792046040296555,
+        0.045763567090034485,
+        0.0036856550723314285,
+        0.08212830871343613
+      ],
+      [
+        0.4167134761810303,
+        0.08067408949136734,
+        0.0875413715839386,
+        0.9999999403953552,
+        0.12011634558439255,
+        0.36652860045433044,
+        0.264556348323822,
+        0.0330081582069397,
+        0.07552317529916763,
+        0.1073659360408783
+      ],
+      [
+        -0.005573654547333717,
+        0.15710397064685822,
+        0.14539353549480438,
+        0.12011634558439255,
+        1.0000001192092896,
+        0.031047945842146873,
+        0.153887540102005,
+        0.07248544692993164,
+        0.0007688493933528662,
+        0.07997141778469086
+      ],
+      [
+        0.4805693030357361,
+        0.05434678494930267,
+        0.05002056807279587,
+        0.36652860045433044,
+        0.031047945842146873,
+        1.0,
+        0.17961230874061584,
+        0.03407035395503044,
+        0.04532920569181442,
+        0.17480196058750153
+      ],
+      [
+        0.21091678738594055,
+        0.0816732868552208,
+        0.10792046040296555,
+        0.264556348323822,
+        0.153887540102005,
+        0.17961230874061584,
+        1.0,
+        0.16480551660060883,
+        0.005560392048209906,
+        0.18259164690971375
+      ],
+      [
+        0.008418147452175617,
+        0.08295632153749466,
+        0.045763567090034485,
+        0.0330081582069397,
+        0.07248544692993164,
+        0.03407035395503044,
+        0.16480551660060883,
+        1.0,
+        -0.025157788768410683,
+        0.06021502986550331
+      ],
+      [
+        0.011971145868301392,
+        0.02164001390337944,
+        0.0036856550723314285,
+        0.07552317529916763,
+        0.0007688493933528662,
+        0.04532920569181442,
+        0.005560392048209906,
+        -0.025157788768410683,
+        1.0,
+        0.0431424044072628
+      ],
+      [
+        0.1845816671848297,
+        0.11103761196136475,
+        0.08212830871343613,
+        0.1073659360408783,
+        0.07997141778469086,
+        0.17480196058750153,
+        0.18259164690971375,
+        0.06021502986550331,
+        0.0431424044072628,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/charlie_chaplin/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/charlie_chaplin/portrait.jpg"
+    }
+  ]
+}

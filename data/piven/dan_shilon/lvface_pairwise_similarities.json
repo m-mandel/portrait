@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/dan_shilon",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/dan_shilon/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_dan-shilon-portret-jpg.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+        "similarity": 0.0033077700063586235
+      },
+      {
+        "index": 1,
+        "name": "02_dan-shilon-gabriel-baharlia.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+        "similarity": 0.03014989197254181
+      },
+      {
+        "index": 2,
+        "name": "03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+        "similarity": 0.006483557168394327
+      },
+      {
+        "index": 3,
+        "name": "04_14.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+        "similarity": 0.06662445515394211
+      },
+      {
+        "index": 4,
+        "name": "05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+        "similarity": 0.01164111029356718
+      },
+      {
+        "index": 5,
+        "name": "06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+        "similarity": 0.07556018978357315
+      },
+      {
+        "index": 6,
+        "name": "07_image.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+        "similarity": -0.03455430641770363
+      },
+      {
+        "index": 7,
+        "name": "08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+        "similarity": 0.04944255203008652
+      },
+      {
+        "index": 8,
+        "name": "09_dan-levy-stamford.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+        "similarity": 0.014782778918743134
+      },
+      {
+        "index": 9,
+        "name": "10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+        "path": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+        "similarity": -0.0764705240726471
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.0033077700063586235,
+          0.03014989197254181,
+          0.006483557168394327,
+          0.06662445515394211,
+          0.01164111029356718,
+          0.07556018978357315,
+          -0.03455430641770363,
+          0.04944255203008652,
+          0.014782778918743134,
+          -0.0764705240726471
+        ],
+        [
+          0.0033077700063586235,
+          0.9999999403953552,
+          0.38980817794799805,
+          0.07025276869535446,
+          0.35054582357406616,
+          0.9465579986572266,
+          0.3227006494998932,
+          0.3186405599117279,
+          -0.04838007315993309,
+          0.05585815757513046,
+          0.007612100802361965
+        ],
+        [
+          0.03014989197254181,
+          0.38980817794799805,
+          0.9999999403953552,
+          -0.05508838966488838,
+          0.3827451765537262,
+          0.4045621454715729,
+          0.3375980257987976,
+          0.42565828561782837,
+          -0.061038386076688766,
+          -0.03836072236299515,
+          -0.004386416636407375
+        ],
+        [
+          0.006483557168394327,
+          0.07025276869535446,
+          -0.05508838966488838,
+          1.0000001192092896,
+          0.017583182081580162,
+          0.024927586317062378,
+          0.016220897436141968,
+          0.05578724667429924,
+          0.08894144743680954,
+          -0.019560476765036583,
+          -0.05061443895101547
+        ],
+        [
+          0.06662445515394211,
+          0.35054582357406616,
+          0.3827451765537262,
+          0.017583182081580162,
+          0.9999998807907104,
+          0.3273182213306427,
+          0.34364423155784607,
+          0.3239697515964508,
+          -0.032405294477939606,
+          0.00691821426153183,
+          -0.00950319692492485
+        ],
+        [
+          0.01164111029356718,
+          0.9465579986572266,
+          0.4045621454715729,
+          0.024927586317062378,
+          0.3273182213306427,
+          1.0000001192092896,
+          0.32126718759536743,
+          0.32962968945503235,
+          -0.0742298886179924,
+          0.037756867706775665,
+          0.022960413247346878
+        ],
+        [
+          0.07556018978357315,
+          0.3227006494998932,
+          0.3375980257987976,
+          0.016220897436141968,
+          0.34364423155784607,
+          0.32126718759536743,
+          1.0,
+          0.22664137184619904,
+          -0.060174375772476196,
+          0.022259999066591263,
+          -0.015620095655322075
+        ],
+        [
+          -0.03455430641770363,
+          0.3186405599117279,
+          0.42565828561782837,
+          0.05578724667429924,
+          0.3239697515964508,
+          0.32962968945503235,
+          0.22664137184619904,
+          1.0000001192092896,
+          -0.01982233114540577,
+          -0.010983207263052464,
+          -0.055153295397758484
+        ],
+        [
+          0.04944255203008652,
+          -0.04838007315993309,
+          -0.061038386076688766,
+          0.08894144743680954,
+          -0.032405294477939606,
+          -0.0742298886179924,
+          -0.060174375772476196,
+          -0.01982233114540577,
+          1.0,
+          -0.11895229667425156,
+          0.053862065076828
+        ],
+        [
+          0.014782778918743134,
+          0.05585815757513046,
+          -0.03836072236299515,
+          -0.019560476765036583,
+          0.00691821426153183,
+          0.037756867706775665,
+          0.022259999066591263,
+          -0.010983207263052464,
+          -0.11895229667425156,
+          0.9999999403953552,
+          -0.037994783371686935
+        ],
+        [
+          -0.0764705240726471,
+          0.007612100802361965,
+          -0.004386416636407375,
+          -0.05061443895101547,
+          -0.00950319692492485,
+          0.022960413247346878,
+          -0.015620095655322075,
+          -0.055153295397758484,
+          0.053862065076828,
+          -0.037994783371686935,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_dan-shilon-portret-jpg.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg"
+    },
+    {
+      "name": "02_dan-shilon-gabriel-baharlia.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg"
+    },
+    {
+      "name": "03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg"
+    },
+    {
+      "name": "04_14.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg"
+    },
+    {
+      "name": "05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg"
+    },
+    {
+      "name": "06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg"
+    },
+    {
+      "name": "07_image.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg"
+    },
+    {
+      "name": "08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg"
+    },
+    {
+      "name": "09_dan-levy-stamford.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg"
+    },
+    {
+      "name": "10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "path": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+      "similarity": 0.38980817794799805
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "similarity": 0.07025276869535446
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+      "similarity": 0.35054582357406616
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "similarity": 0.9465579986572266
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "similarity": 0.3227006494998932
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+      "similarity": 0.3186405599117279
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "similarity": -0.04838007315993309
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+      "similarity": 0.05585815757513046
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/01_dan-shilon-portret-jpg.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "similarity": 0.007612100802361965
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "similarity": -0.05508838966488838
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+      "similarity": 0.3827451765537262
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "similarity": 0.4045621454715729
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "similarity": 0.3375980257987976
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+      "similarity": 0.42565828561782837
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "similarity": -0.061038386076688766
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+      "similarity": -0.03836072236299515
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/02_dan-shilon-gabriel-baharlia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "similarity": -0.004386416636407375
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+      "similarity": 0.017583182081580162
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "similarity": 0.024927586317062378
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "similarity": 0.016220897436141968
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+      "similarity": 0.05578724667429924
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "similarity": 0.08894144743680954
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+      "similarity": -0.019560476765036583
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "similarity": -0.05061443895101547
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "similarity": 0.3273182213306427
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "similarity": 0.34364423155784607
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+      "similarity": 0.3239697515964508
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "similarity": -0.032405294477939606
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+      "similarity": 0.00691821426153183
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/04_14.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "similarity": -0.00950319692492485
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "similarity": 0.32126718759536743
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+      "similarity": 0.32962968945503235
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "similarity": -0.0742298886179924
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+      "similarity": 0.037756867706775665
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "similarity": 0.022960413247346878
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+      "similarity": 0.22664137184619904
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "similarity": -0.060174375772476196
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+      "similarity": 0.022259999066591263
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "similarity": -0.015620095655322075
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "similarity": -0.01982233114540577
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+      "similarity": -0.010983207263052464
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/07_image.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "similarity": -0.055153295397758484
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+      "similarity": -0.11895229667425156
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "similarity": 0.053862065076828
+    },
+    {
+      "left": "/workspace/input/piven/data/dan_shilon/images/09_dan-levy-stamford.jpg",
+      "right": "/workspace/input/piven/data/dan_shilon/images/10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg",
+      "similarity": -0.037994783371686935
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_dan-shilon-portret-jpg.jpg",
+      "02_dan-shilon-gabriel-baharlia.jpg",
+      "03_dan-shilon-in-conversation-with-gurudev-sri-sri-ravi-shankar-youtube.jpg",
+      "04_14.jpg",
+      "05_dan-shilon-alchetron-the-free-social-encyclopedia.jpg",
+      "06_dan-shilon-reveals-shocking-detail-about-sarah-s-jealous-relationship.jpg",
+      "07_image.jpg",
+      "08_dan-winters-photography-actors-3-dan-winters-photography-walton.jpg",
+      "09_dan-levy-stamford.jpg",
+      "10_show-me-ofra-haza-live-the-dan-shilon-show-1998-youtube.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.38980817794799805,
+        0.07025276869535446,
+        0.35054582357406616,
+        0.9465579986572266,
+        0.3227006494998932,
+        0.3186405599117279,
+        -0.04838007315993309,
+        0.05585815757513046,
+        0.007612100802361965
+      ],
+      [
+        0.38980817794799805,
+        0.9999999403953552,
+        -0.05508838966488838,
+        0.3827451765537262,
+        0.4045621454715729,
+        0.3375980257987976,
+        0.42565828561782837,
+        -0.061038386076688766,
+        -0.03836072236299515,
+        -0.004386416636407375
+      ],
+      [
+        0.07025276869535446,
+        -0.05508838966488838,
+        1.0000001192092896,
+        0.017583182081580162,
+        0.024927586317062378,
+        0.016220897436141968,
+        0.05578724667429924,
+        0.08894144743680954,
+        -0.019560476765036583,
+        -0.05061443895101547
+      ],
+      [
+        0.35054582357406616,
+        0.3827451765537262,
+        0.017583182081580162,
+        0.9999998807907104,
+        0.3273182213306427,
+        0.34364423155784607,
+        0.3239697515964508,
+        -0.032405294477939606,
+        0.00691821426153183,
+        -0.00950319692492485
+      ],
+      [
+        0.9465579986572266,
+        0.4045621454715729,
+        0.024927586317062378,
+        0.3273182213306427,
+        1.0000001192092896,
+        0.32126718759536743,
+        0.32962968945503235,
+        -0.0742298886179924,
+        0.037756867706775665,
+        0.022960413247346878
+      ],
+      [
+        0.3227006494998932,
+        0.3375980257987976,
+        0.016220897436141968,
+        0.34364423155784607,
+        0.32126718759536743,
+        1.0,
+        0.22664137184619904,
+        -0.060174375772476196,
+        0.022259999066591263,
+        -0.015620095655322075
+      ],
+      [
+        0.3186405599117279,
+        0.42565828561782837,
+        0.05578724667429924,
+        0.3239697515964508,
+        0.32962968945503235,
+        0.22664137184619904,
+        1.0000001192092896,
+        -0.01982233114540577,
+        -0.010983207263052464,
+        -0.055153295397758484
+      ],
+      [
+        -0.04838007315993309,
+        -0.061038386076688766,
+        0.08894144743680954,
+        -0.032405294477939606,
+        -0.0742298886179924,
+        -0.060174375772476196,
+        -0.01982233114540577,
+        1.0,
+        -0.11895229667425156,
+        0.053862065076828
+      ],
+      [
+        0.05585815757513046,
+        -0.03836072236299515,
+        -0.019560476765036583,
+        0.00691821426153183,
+        0.037756867706775665,
+        0.022259999066591263,
+        -0.010983207263052464,
+        -0.11895229667425156,
+        0.9999999403953552,
+        -0.037994783371686935
+      ],
+      [
+        0.007612100802361965,
+        -0.004386416636407375,
+        -0.05061443895101547,
+        -0.00950319692492485,
+        0.022960413247346878,
+        -0.015620095655322075,
+        -0.055153295397758484,
+        0.053862065076828,
+        -0.037994783371686935,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/dan_shilon/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/dan_shilon/portrait.jpg"
+    }
+  ]
+}

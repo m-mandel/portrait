@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/bruce_springsteen",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/bruce_springsteen/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+        "similarity": -0.015713708475232124
+      },
+      {
+        "index": 1,
+        "name": "02_bruce-springsteen-springsteen-81-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+        "similarity": 0.005612746346741915
+      },
+      {
+        "index": 2,
+        "name": "03_bruce-springsteen-springsteen-76-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+        "similarity": 0.004593544639647007
+      },
+      {
+        "index": 3,
+        "name": "04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+        "similarity": 0.011613194830715656
+      },
+      {
+        "index": 4,
+        "name": "05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+        "similarity": 0.010811490938067436
+      },
+      {
+        "index": 5,
+        "name": "06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+        "similarity": 0.013412064872682095
+      },
+      {
+        "index": 6,
+        "name": "07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+        "similarity": 0.00932807382196188
+      },
+      {
+        "index": 7,
+        "name": "09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+        "similarity": 0.030809830874204636
+      },
+      {
+        "index": 8,
+        "name": "10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+        "similarity": 0.030069774016737938
+      },
+      {
+        "index": 9,
+        "name": "11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+        "path": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+        "similarity": 0.011048984713852406
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.015713708475232124,
+          0.005612746346741915,
+          0.004593544639647007,
+          0.011613194830715656,
+          0.010811490938067436,
+          0.013412064872682095,
+          0.00932807382196188,
+          0.030809830874204636,
+          0.030069774016737938,
+          0.011048984713852406
+        ],
+        [
+          -0.015713708475232124,
+          1.0000001192092896,
+          0.44511476159095764,
+          0.4534759819507599,
+          0.5067143440246582,
+          -0.06184997037053108,
+          0.48575839400291443,
+          0.5605390071868896,
+          0.507276177406311,
+          0.4781220257282257,
+          0.49855101108551025
+        ],
+        [
+          0.005612746346741915,
+          0.44511476159095764,
+          1.0,
+          0.4852336645126343,
+          0.6884346604347229,
+          -0.04323215410113335,
+          0.26080000400543213,
+          0.4032752215862274,
+          0.3967828154563904,
+          0.3503064811229706,
+          0.2820819914340973
+        ],
+        [
+          0.004593544639647007,
+          0.4534759819507599,
+          0.4852336645126343,
+          1.0000001192092896,
+          0.6109979152679443,
+          -0.05790364369750023,
+          0.33235931396484375,
+          0.5214674472808838,
+          0.5984448790550232,
+          0.42137646675109863,
+          0.3151355981826782
+        ],
+        [
+          0.011613194830715656,
+          0.5067143440246582,
+          0.6884346604347229,
+          0.6109979152679443,
+          1.0000001192092896,
+          -0.04483603686094284,
+          0.32102787494659424,
+          0.4945838153362274,
+          0.49034175276756287,
+          0.49161264300346375,
+          0.3209850490093231
+        ],
+        [
+          0.010811490938067436,
+          -0.06184997037053108,
+          -0.04323215410113335,
+          -0.05790364369750023,
+          -0.04483603686094284,
+          0.9999999403953552,
+          -0.05954635143280029,
+          -0.06223985552787781,
+          -0.06222428381443024,
+          -0.07242489606142044,
+          -0.006702718324959278
+        ],
+        [
+          0.013412064872682095,
+          0.48575839400291443,
+          0.26080000400543213,
+          0.33235931396484375,
+          0.32102787494659424,
+          -0.05954635143280029,
+          1.0000001192092896,
+          0.4595097005367279,
+          0.4116443395614624,
+          0.42804333567619324,
+          0.5032384991645813
+        ],
+        [
+          0.00932807382196188,
+          0.5605390071868896,
+          0.4032752215862274,
+          0.5214674472808838,
+          0.4945838153362274,
+          -0.06223985552787781,
+          0.4595097005367279,
+          1.0,
+          0.8239006996154785,
+          0.7167263627052307,
+          0.3866730034351349
+        ],
+        [
+          0.030809830874204636,
+          0.507276177406311,
+          0.3967828154563904,
+          0.5984448790550232,
+          0.49034175276756287,
+          -0.06222428381443024,
+          0.4116443395614624,
+          0.8239006996154785,
+          1.0000001192092896,
+          0.5977563858032227,
+          0.4267403185367584
+        ],
+        [
+          0.030069774016737938,
+          0.4781220257282257,
+          0.3503064811229706,
+          0.42137646675109863,
+          0.49161264300346375,
+          -0.07242489606142044,
+          0.42804333567619324,
+          0.7167263627052307,
+          0.5977563858032227,
+          1.0,
+          0.3590201735496521
+        ],
+        [
+          0.011048984713852406,
+          0.49855101108551025,
+          0.2820819914340973,
+          0.3151355981826782,
+          0.3209850490093231,
+          -0.006702718324959278,
+          0.5032384991645813,
+          0.3866730034351349,
+          0.4267403185367584,
+          0.3590201735496521,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg"
+    },
+    {
+      "name": "02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg"
+    },
+    {
+      "name": "03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg"
+    },
+    {
+      "name": "04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg"
+    },
+    {
+      "name": "10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg"
+    },
+    {
+      "name": "11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "path": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "similarity": 0.44511476159095764
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "similarity": 0.4534759819507599
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "similarity": 0.5067143440246582
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "similarity": -0.06184997037053108
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "similarity": 0.48575839400291443
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "similarity": 0.5605390071868896
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "similarity": 0.507276177406311
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "similarity": 0.4781220257282257
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "similarity": 0.49855101108551025
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "similarity": 0.4852336645126343
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "similarity": 0.6884346604347229
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "similarity": -0.04323215410113335
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "similarity": 0.26080000400543213
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "similarity": 0.4032752215862274
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "similarity": 0.3967828154563904
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "similarity": 0.3503064811229706
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "similarity": 0.2820819914340973
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "similarity": 0.6109979152679443
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "similarity": -0.05790364369750023
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "similarity": 0.33235931396484375
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "similarity": 0.5214674472808838
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "similarity": 0.5984448790550232
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "similarity": 0.42137646675109863
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "similarity": 0.3151355981826782
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "similarity": -0.04483603686094284
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "similarity": 0.32102787494659424
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "similarity": 0.4945838153362274
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "similarity": 0.49034175276756287
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "similarity": 0.49161264300346375
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "similarity": 0.3209850490093231
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "similarity": -0.05954635143280029
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "similarity": -0.06223985552787781
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "similarity": -0.06222428381443024
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "similarity": -0.07242489606142044
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "similarity": -0.006702718324959278
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "similarity": 0.4595097005367279
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "similarity": 0.4116443395614624
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "similarity": 0.42804333567619324
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "similarity": 0.5032384991645813
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "similarity": 0.8239006996154785
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "similarity": 0.7167263627052307
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "similarity": 0.3866730034351349
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "similarity": 0.5977563858032227
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "similarity": 0.4267403185367584
+    },
+    {
+      "left": "/workspace/input/piven/data/bruce_springsteen/images/10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "right": "/workspace/input/piven/data/bruce_springsteen/images/11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg",
+      "similarity": 0.3590201735496521
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_bruce-springsteen-roskilde-festival-2012-jpg.jpg",
+      "02_bruce-springsteen-springsteen-81-jpg.jpg",
+      "03_bruce-springsteen-springsteen-76-jpg.jpg",
+      "04_bruce-springsteen-springsteen-79-cropped-jpg.jpg",
+      "05_bruce-springsteen-performing-in-auckland-2017-cropped-jpg.jpg",
+      "06_bruce-springsteen-steven-van-zandt-7479347764-cropped-jpg.jpg",
+      "07_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-cropped-jpg.jpg",
+      "09_bruce-springsteen-at-the-2024-toronto-international-film-festival-3-jpg.jpg",
+      "10_bruce-springsteen-at-the-2024-toronto-international-film-festival-5-jpg.jpg",
+      "11_bundesarchiv-bild-183-1988-0719-38-bruce-springsteen-konzert-in-der-ddr-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.44511476159095764,
+        0.4534759819507599,
+        0.5067143440246582,
+        -0.06184997037053108,
+        0.48575839400291443,
+        0.5605390071868896,
+        0.507276177406311,
+        0.4781220257282257,
+        0.49855101108551025
+      ],
+      [
+        0.44511476159095764,
+        1.0,
+        0.4852336645126343,
+        0.6884346604347229,
+        -0.04323215410113335,
+        0.26080000400543213,
+        0.4032752215862274,
+        0.3967828154563904,
+        0.3503064811229706,
+        0.2820819914340973
+      ],
+      [
+        0.4534759819507599,
+        0.4852336645126343,
+        1.0000001192092896,
+        0.6109979152679443,
+        -0.05790364369750023,
+        0.33235931396484375,
+        0.5214674472808838,
+        0.5984448790550232,
+        0.42137646675109863,
+        0.3151355981826782
+      ],
+      [
+        0.5067143440246582,
+        0.6884346604347229,
+        0.6109979152679443,
+        1.0000001192092896,
+        -0.04483603686094284,
+        0.32102787494659424,
+        0.4945838153362274,
+        0.49034175276756287,
+        0.49161264300346375,
+        0.3209850490093231
+      ],
+      [
+        -0.06184997037053108,
+        -0.04323215410113335,
+        -0.05790364369750023,
+        -0.04483603686094284,
+        0.9999999403953552,
+        -0.05954635143280029,
+        -0.06223985552787781,
+        -0.06222428381443024,
+        -0.07242489606142044,
+        -0.006702718324959278
+      ],
+      [
+        0.48575839400291443,
+        0.26080000400543213,
+        0.33235931396484375,
+        0.32102787494659424,
+        -0.05954635143280029,
+        1.0000001192092896,
+        0.4595097005367279,
+        0.4116443395614624,
+        0.42804333567619324,
+        0.5032384991645813
+      ],
+      [
+        0.5605390071868896,
+        0.4032752215862274,
+        0.5214674472808838,
+        0.4945838153362274,
+        -0.06223985552787781,
+        0.4595097005367279,
+        1.0,
+        0.8239006996154785,
+        0.7167263627052307,
+        0.3866730034351349
+      ],
+      [
+        0.507276177406311,
+        0.3967828154563904,
+        0.5984448790550232,
+        0.49034175276756287,
+        -0.06222428381443024,
+        0.4116443395614624,
+        0.8239006996154785,
+        1.0000001192092896,
+        0.5977563858032227,
+        0.4267403185367584
+      ],
+      [
+        0.4781220257282257,
+        0.3503064811229706,
+        0.42137646675109863,
+        0.49161264300346375,
+        -0.07242489606142044,
+        0.42804333567619324,
+        0.7167263627052307,
+        0.5977563858032227,
+        1.0,
+        0.3590201735496521
+      ],
+      [
+        0.49855101108551025,
+        0.2820819914340973,
+        0.3151355981826782,
+        0.3209850490093231,
+        -0.006702718324959278,
+        0.5032384991645813,
+        0.3866730034351349,
+        0.4267403185367584,
+        0.3590201735496521,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/bruce_springsteen/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/bruce_springsteen/portrait.jpg"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/yitzhak_mordechai",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/yitzhak_mordechai/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_yitzhak-mordechai-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+        "similarity": -0.012794123031198978
+      },
+      {
+        "index": 1,
+        "name": "02_yitzhak-mordechai-jpg.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+        "similarity": 0.006902450695633888
+      },
+      {
+        "index": 2,
+        "name": "03_william-cohen-yitzhak-mordechai-jpg.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+        "similarity": -0.004935931880027056
+      },
+      {
+        "index": 3,
+        "name": "04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+        "similarity": -0.04214062541723251
+      },
+      {
+        "index": 4,
+        "name": "05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+        "similarity": -0.007764199748635292
+      },
+      {
+        "index": 5,
+        "name": "06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+        "similarity": -0.006538682151585817
+      },
+      {
+        "index": 6,
+        "name": "07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+        "similarity": 0.041345421224832535
+      },
+      {
+        "index": 7,
+        "name": "08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+        "similarity": 0.0006638388731516898
+      },
+      {
+        "index": 8,
+        "name": "09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+        "similarity": -0.03249885514378548
+      },
+      {
+        "index": 9,
+        "name": "10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+        "similarity": -0.018436932936310768
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.012794123031198978,
+          0.006902450695633888,
+          -0.004935931880027056,
+          -0.04214062541723251,
+          -0.007764199748635292,
+          -0.006538682151585817,
+          0.041345421224832535,
+          0.0006638388731516898,
+          -0.03249885514378548,
+          -0.018436932936310768
+        ],
+        [
+          -0.012794123031198978,
+          0.9999999403953552,
+          0.5269994139671326,
+          0.5168939828872681,
+          0.06859555840492249,
+          0.4996431767940521,
+          0.48599815368652344,
+          -0.053734008222818375,
+          0.5367608666419983,
+          0.4201730787754059,
+          0.38396286964416504
+        ],
+        [
+          0.006902450695633888,
+          0.5269994139671326,
+          0.9999999403953552,
+          0.7769154906272888,
+          0.06124101206660271,
+          0.5111616849899292,
+          0.4143794775009155,
+          -0.029784327372908592,
+          0.4301106631755829,
+          0.47346439957618713,
+          0.4509161412715912
+        ],
+        [
+          -0.004935931880027056,
+          0.5168939828872681,
+          0.7769154906272888,
+          1.0,
+          0.021036555990576744,
+          0.5201228857040405,
+          0.41987067461013794,
+          -0.017398739233613014,
+          0.5085456967353821,
+          0.5168388485908508,
+          0.505577027797699
+        ],
+        [
+          -0.04214062541723251,
+          0.06859555840492249,
+          0.06124101206660271,
+          0.021036555990576744,
+          1.0,
+          0.05612368509173393,
+          0.1030968725681305,
+          0.07008284330368042,
+          0.08025312423706055,
+          0.03165390342473984,
+          0.04062133654952049
+        ],
+        [
+          -0.007764199748635292,
+          0.4996431767940521,
+          0.5111616849899292,
+          0.5201228857040405,
+          0.05612368509173393,
+          1.0000001192092896,
+          0.37856024503707886,
+          -0.05135712772607803,
+          0.5252410173416138,
+          0.3974829614162445,
+          0.4531579613685608
+        ],
+        [
+          -0.006538682151585817,
+          0.48599815368652344,
+          0.4143794775009155,
+          0.41987067461013794,
+          0.1030968725681305,
+          0.37856024503707886,
+          1.0,
+          0.020494865253567696,
+          0.44141101837158203,
+          0.2857273817062378,
+          0.3345760107040405
+        ],
+        [
+          0.041345421224832535,
+          -0.053734008222818375,
+          -0.029784327372908592,
+          -0.017398739233613014,
+          0.07008284330368042,
+          -0.05135712772607803,
+          0.020494865253567696,
+          0.9999999403953552,
+          0.02992815524339676,
+          -0.01901562698185444,
+          -0.04254739359021187
+        ],
+        [
+          0.0006638388731516898,
+          0.5367608666419983,
+          0.4301106631755829,
+          0.5085456967353821,
+          0.08025312423706055,
+          0.5252410173416138,
+          0.44141101837158203,
+          0.02992815524339676,
+          1.0,
+          0.4672122299671173,
+          0.46051734685897827
+        ],
+        [
+          -0.03249885514378548,
+          0.4201730787754059,
+          0.47346439957618713,
+          0.5168388485908508,
+          0.03165390342473984,
+          0.3974829614162445,
+          0.2857273817062378,
+          -0.01901562698185444,
+          0.4672122299671173,
+          1.0,
+          0.5204774141311646
+        ],
+        [
+          -0.018436932936310768,
+          0.38396286964416504,
+          0.4509161412715912,
+          0.505577027797699,
+          0.04062133654952049,
+          0.4531579613685608,
+          0.3345760107040405,
+          -0.04254739359021187,
+          0.46051734685897827,
+          0.5204774141311646,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_yitzhak-mordechai-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_yitzhak-mordechai-jpg.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg"
+    },
+    {
+      "name": "03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg"
+    },
+    {
+      "name": "04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg"
+    },
+    {
+      "name": "06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg"
+    },
+    {
+      "name": "08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg"
+    },
+    {
+      "name": "09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+      "similarity": 0.5269994139671326
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "similarity": 0.5168939828872681
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.06859555840492249
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "similarity": 0.4996431767940521
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.48599815368652344
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": -0.053734008222818375
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "similarity": 0.5367608666419983
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4201730787754059
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/01_yitzhak-mordechai-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "similarity": 0.38396286964416504
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "similarity": 0.7769154906272888
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.06124101206660271
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "similarity": 0.5111616849899292
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4143794775009155
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": -0.029784327372908592
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "similarity": 0.4301106631755829
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.47346439957618713
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/02_yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "similarity": 0.4509161412715912
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.021036555990576744
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "similarity": 0.5201228857040405
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.41987067461013794
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": -0.017398739233613014
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "similarity": 0.5085456967353821
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5168388485908508
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "similarity": 0.505577027797699
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "similarity": 0.05612368509173393
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.1030968725681305
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.07008284330368042
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "similarity": 0.08025312423706055
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.03165390342473984
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "similarity": 0.04062133654952049
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.37856024503707886
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": -0.05135712772607803
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "similarity": 0.5252410173416138
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3974829614162445
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "similarity": 0.4531579613685608
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.020494865253567696
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "similarity": 0.44141101837158203
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.2857273817062378
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "similarity": 0.3345760107040405
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "similarity": 0.02992815524339676
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.01901562698185444
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "similarity": -0.04254739359021187
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4672122299671173
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "similarity": 0.46051734685897827
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_mordechai/images/09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_mordechai/images/10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg",
+      "similarity": 0.5204774141311646
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_yitzhak-mordechai-cropped-jpg.jpg",
+      "02_yitzhak-mordechai-jpg.jpg",
+      "03_william-cohen-yitzhak-mordechai-jpg.jpg",
+      "04_167-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "05_israeli-defence-minister-yitzhak-mordechai-arrives-at-his-home-23.jpg",
+      "06_137-yitzhak-mordecai-photos-high-res-pictures-getty-images.jpg",
+      "07_49-island-of-peace-massacre-stock-photos-high-res-pictures-and-images.jpg",
+      "08_yitzhak-mordechai-1-stock-photo-alamy.jpg",
+      "09_163-yitzhak-mordechai-photos-high-res-pictures-getty-images.jpg",
+      "10_israeli-defence-minister-yitzhak-mordechai-shares-a-laugh-with-us.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.5269994139671326,
+        0.5168939828872681,
+        0.06859555840492249,
+        0.4996431767940521,
+        0.48599815368652344,
+        -0.053734008222818375,
+        0.5367608666419983,
+        0.4201730787754059,
+        0.38396286964416504
+      ],
+      [
+        0.5269994139671326,
+        0.9999999403953552,
+        0.7769154906272888,
+        0.06124101206660271,
+        0.5111616849899292,
+        0.4143794775009155,
+        -0.029784327372908592,
+        0.4301106631755829,
+        0.47346439957618713,
+        0.4509161412715912
+      ],
+      [
+        0.5168939828872681,
+        0.7769154906272888,
+        1.0,
+        0.021036555990576744,
+        0.5201228857040405,
+        0.41987067461013794,
+        -0.017398739233613014,
+        0.5085456967353821,
+        0.5168388485908508,
+        0.505577027797699
+      ],
+      [
+        0.06859555840492249,
+        0.06124101206660271,
+        0.021036555990576744,
+        1.0,
+        0.05612368509173393,
+        0.1030968725681305,
+        0.07008284330368042,
+        0.08025312423706055,
+        0.03165390342473984,
+        0.04062133654952049
+      ],
+      [
+        0.4996431767940521,
+        0.5111616849899292,
+        0.5201228857040405,
+        0.05612368509173393,
+        1.0000001192092896,
+        0.37856024503707886,
+        -0.05135712772607803,
+        0.5252410173416138,
+        0.3974829614162445,
+        0.4531579613685608
+      ],
+      [
+        0.48599815368652344,
+        0.4143794775009155,
+        0.41987067461013794,
+        0.1030968725681305,
+        0.37856024503707886,
+        1.0,
+        0.020494865253567696,
+        0.44141101837158203,
+        0.2857273817062378,
+        0.3345760107040405
+      ],
+      [
+        -0.053734008222818375,
+        -0.029784327372908592,
+        -0.017398739233613014,
+        0.07008284330368042,
+        -0.05135712772607803,
+        0.020494865253567696,
+        0.9999999403953552,
+        0.02992815524339676,
+        -0.01901562698185444,
+        -0.04254739359021187
+      ],
+      [
+        0.5367608666419983,
+        0.4301106631755829,
+        0.5085456967353821,
+        0.08025312423706055,
+        0.5252410173416138,
+        0.44141101837158203,
+        0.02992815524339676,
+        1.0,
+        0.4672122299671173,
+        0.46051734685897827
+      ],
+      [
+        0.4201730787754059,
+        0.47346439957618713,
+        0.5168388485908508,
+        0.03165390342473984,
+        0.3974829614162445,
+        0.2857273817062378,
+        -0.01901562698185444,
+        0.4672122299671173,
+        1.0,
+        0.5204774141311646
+      ],
+      [
+        0.38396286964416504,
+        0.4509161412715912,
+        0.505577027797699,
+        0.04062133654952049,
+        0.4531579613685608,
+        0.3345760107040405,
+        -0.04254739359021187,
+        0.46051734685897827,
+        0.5204774141311646,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/yitzhak_mordechai/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/yitzhak_mordechai/portrait.jpg"
+    }
+  ]
+}

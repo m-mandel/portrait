@@ -1,0 +1,70 @@
+{
+  "name": "aryeh deri",
+  "bio": "Aryeh Makhlouf Deri (Hebrew: אריה מכלוף דרעי; Arabic: أريه مخلوف درعي), also Arie Deri, Arye Deri, or Arieh Deri (born 17 February 1959), is an Israeli politician and one of the founders of the Shas political party who served as the Vice Prime Minister, Minister of Health, and Minister of the Interior and Periphery under Prime Minister Benjamin Netanyahu from December 2022 to January 2023. Previously he served as the Minister of the Interior, Minister of the Development of the Negev and Galilee, Minister of the Economy, as well as a member in the Security Cabinet of Israel.\nIn 1999, Deri was convicted of bribery, fraud, and breach of trust; he was given a three-year jail sentence. At the end of 2012, ahead of the elections for the nineteenth Knesset, he returned to lead the Shas party. He was placed in second position on the list, thus being re-elected to the Knesset. In May 2013, he was re-appointed to the role of Shas chairman. In December 2021, it was reported that Deri would resign from the Knesset as part of a plea deal for tax offenses. After re-entering the Knesset in the 2022 elections, he was appointed as Vice Prime Minister, Interior Minister, and Health Minister in the thirty-seventh government in December 2022. However, due to a January 2023 ruling by the Supreme Court of Israel that Deri was not eligible for a ministerial position due to his criminal convictions and the terms of his plea deal, he was dismissed from his official posts in the Israeli cabinet.",
+  "bio_sources": [
+    {
+      "subject": "aryeh deri",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Aryeh_Deri"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "soap bars",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing aryeh deri's religious politics and earthy populism."
+    },
+    {
+      "element": "hamsa charms",
+      "shape_type": "symbolic accessory",
+      "meaning": "points to identity, allegiance, or belief within aryeh deri's religious politics and earthy populism."
+    },
+    {
+      "element": "coffee beans",
+      "shape_type": "organic object",
+      "meaning": "adds an earthy, bodily note that keeps aryeh deri's religious politics and earthy populism tactile and human."
+    },
+    {
+      "element": "coffee bean shell",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing aryeh deri's religious politics and earthy populism."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "court bench",
+      "visual_representation": "a long horizontal bench-like block with a rigid front edge",
+      "category": "place",
+      "relevance": "The biography explicitly places the subject in the Supreme Court.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "gavel block",
+      "visual_representation": "a small hammer-like form resting on a square base",
+      "category": "object",
+      "relevance": "Judicial decision-making is strongly associated with the legal world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

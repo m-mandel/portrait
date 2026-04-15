@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/david_beckham",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/david_beckham/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_david-beckham-unicef-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+        "similarity": 0.03230583295226097
+      },
+      {
+        "index": 1,
+        "name": "02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+        "similarity": 0.06443239748477936
+      },
+      {
+        "index": 2,
+        "name": "03_david-beckham-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+        "similarity": 0.03348909690976143
+      },
+      {
+        "index": 3,
+        "name": "04_david-beckham-2005-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+        "similarity": 0.054471518844366074
+      },
+      {
+        "index": 4,
+        "name": "06_david-beckham-2490888839-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+        "similarity": 0.03501834720373154
+      },
+      {
+        "index": 5,
+        "name": "09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+        "similarity": 0.07009183615446091
+      },
+      {
+        "index": 6,
+        "name": "10_david-beckham-2008-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+        "similarity": 0.15790610015392303
+      },
+      {
+        "index": 7,
+        "name": "10_david-beckham-nov-11-2007-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+        "similarity": 0.09247516095638275
+      },
+      {
+        "index": 8,
+        "name": "13_david-beckham-120630-f-na343-022-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+        "similarity": 0.0917472392320633
+      },
+      {
+        "index": 9,
+        "name": "14_david-beckham-2012-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+        "similarity": 0.10109565407037735
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.03230583295226097,
+          0.06443239748477936,
+          0.03348909690976143,
+          0.054471518844366074,
+          0.03501834720373154,
+          0.07009183615446091,
+          0.15790610015392303,
+          0.09247516095638275,
+          0.0917472392320633,
+          0.10109565407037735
+        ],
+        [
+          0.03230583295226097,
+          1.0000001192092896,
+          0.5127783417701721,
+          0.32544851303100586,
+          0.33665549755096436,
+          0.3155704140663147,
+          0.23341004550457,
+          0.0965995192527771,
+          0.44621729850769043,
+          0.30249786376953125,
+          0.3408222198486328
+        ],
+        [
+          0.06443239748477936,
+          0.5127783417701721,
+          1.0,
+          0.3796866536140442,
+          0.4748757481575012,
+          0.35228264331817627,
+          0.16818223893642426,
+          0.05784144997596741,
+          0.5244069695472717,
+          0.5141861438751221,
+          0.45805153250694275
+        ],
+        [
+          0.03348909690976143,
+          0.32544851303100586,
+          0.3796866536140442,
+          1.0,
+          0.38546618819236755,
+          0.3904231786727905,
+          0.26147210597991943,
+          0.06972096115350723,
+          0.44450992345809937,
+          0.40896883606910706,
+          0.45370247960090637
+        ],
+        [
+          0.054471518844366074,
+          0.33665549755096436,
+          0.4748757481575012,
+          0.38546618819236755,
+          1.0,
+          0.3560766279697418,
+          0.2497667372226715,
+          0.03209074214100838,
+          0.44588521122932434,
+          0.44380849599838257,
+          0.4793674945831299
+        ],
+        [
+          0.03501834720373154,
+          0.3155704140663147,
+          0.35228264331817627,
+          0.3904231786727905,
+          0.3560766279697418,
+          1.0000001192092896,
+          0.2758108377456665,
+          0.06618113070726395,
+          0.452004075050354,
+          0.4475056529045105,
+          0.45037975907325745
+        ],
+        [
+          0.07009183615446091,
+          0.23341004550457,
+          0.16818223893642426,
+          0.26147210597991943,
+          0.2497667372226715,
+          0.2758108377456665,
+          1.0,
+          0.06689921021461487,
+          0.3073886036872864,
+          0.22595855593681335,
+          0.25353044271469116
+        ],
+        [
+          0.15790610015392303,
+          0.0965995192527771,
+          0.05784144997596741,
+          0.06972096115350723,
+          0.03209074214100838,
+          0.06618113070726395,
+          0.06689921021461487,
+          1.0,
+          0.04061279073357582,
+          0.06209916993975639,
+          0.08030182868242264
+        ],
+        [
+          0.09247516095638275,
+          0.44621729850769043,
+          0.5244069695472717,
+          0.44450992345809937,
+          0.44588521122932434,
+          0.452004075050354,
+          0.3073886036872864,
+          0.04061279073357582,
+          1.0000001192092896,
+          0.4725847840309143,
+          0.5990738272666931
+        ],
+        [
+          0.0917472392320633,
+          0.30249786376953125,
+          0.5141861438751221,
+          0.40896883606910706,
+          0.44380849599838257,
+          0.4475056529045105,
+          0.22595855593681335,
+          0.06209916993975639,
+          0.4725847840309143,
+          0.9999998807907104,
+          0.5508424043655396
+        ],
+        [
+          0.10109565407037735,
+          0.3408222198486328,
+          0.45805153250694275,
+          0.45370247960090637,
+          0.4793674945831299,
+          0.45037975907325745,
+          0.25353044271469116,
+          0.08030182868242264,
+          0.5990738272666931,
+          0.5508424043655396,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_david-beckham-unicef-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg"
+    },
+    {
+      "name": "03_david-beckham-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg"
+    },
+    {
+      "name": "04_david-beckham-2005-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg"
+    },
+    {
+      "name": "06_david-beckham-2490888839-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg"
+    },
+    {
+      "name": "09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg"
+    },
+    {
+      "name": "10_david-beckham-2008-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_david-beckham-nov-11-2007-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg"
+    },
+    {
+      "name": "13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg"
+    },
+    {
+      "name": "14_david-beckham-2012-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "similarity": 0.5127783417701721
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+      "similarity": 0.32544851303100586
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+      "similarity": 0.33665549755096436
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+      "similarity": 0.3155704140663147
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "similarity": 0.23341004550457
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+      "similarity": 0.0965995192527771
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+      "similarity": 0.44621729850769043
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "similarity": 0.30249786376953125
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/01_david-beckham-unicef-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+      "similarity": 0.3408222198486328
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+      "similarity": 0.3796866536140442
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+      "similarity": 0.4748757481575012
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+      "similarity": 0.35228264331817627
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "similarity": 0.16818223893642426
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+      "similarity": 0.05784144997596741
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+      "similarity": 0.5244069695472717
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "similarity": 0.5141861438751221
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+      "similarity": 0.45805153250694275
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+      "similarity": 0.38546618819236755
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+      "similarity": 0.3904231786727905
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "similarity": 0.26147210597991943
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+      "similarity": 0.06972096115350723
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+      "similarity": 0.44450992345809937
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "similarity": 0.40896883606910706
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/03_david-beckham-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+      "similarity": 0.45370247960090637
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+      "similarity": 0.3560766279697418
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "similarity": 0.2497667372226715
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+      "similarity": 0.03209074214100838
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+      "similarity": 0.44588521122932434
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "similarity": 0.44380849599838257
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/04_david-beckham-2005-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+      "similarity": 0.4793674945831299
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "similarity": 0.2758108377456665
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+      "similarity": 0.06618113070726395
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+      "similarity": 0.452004075050354
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "similarity": 0.4475056529045105
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/06_david-beckham-2490888839-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+      "similarity": 0.45037975907325745
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+      "similarity": 0.06689921021461487
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+      "similarity": 0.3073886036872864
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "similarity": 0.22595855593681335
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+      "similarity": 0.25353044271469116
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+      "similarity": 0.04061279073357582
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "similarity": 0.06209916993975639
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+      "similarity": 0.08030182868242264
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "similarity": 0.4725847840309143
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/10_david-beckham-nov-11-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+      "similarity": 0.5990738272666931
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_beckham/images/13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_beckham/images/14_david-beckham-2012-jpg.jpg",
+      "similarity": 0.5508424043655396
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_david-beckham-unicef-cropped-jpg.jpg",
+      "02_david-beckham-at-us-embassy-in-london-jpg.jpg",
+      "03_david-beckham-jpg.jpg",
+      "04_david-beckham-2005-jpg.jpg",
+      "06_david-beckham-2490888839-jpg.jpg",
+      "09_david-beckham-at-madame-tussauds-london-jpg.jpg",
+      "10_david-beckham-2008-cropped-jpg.jpg",
+      "10_david-beckham-nov-11-2007-jpg.jpg",
+      "13_david-beckham-120630-f-na343-022-jpg.jpg",
+      "14_david-beckham-2012-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.5127783417701721,
+        0.32544851303100586,
+        0.33665549755096436,
+        0.3155704140663147,
+        0.23341004550457,
+        0.0965995192527771,
+        0.44621729850769043,
+        0.30249786376953125,
+        0.3408222198486328
+      ],
+      [
+        0.5127783417701721,
+        1.0,
+        0.3796866536140442,
+        0.4748757481575012,
+        0.35228264331817627,
+        0.16818223893642426,
+        0.05784144997596741,
+        0.5244069695472717,
+        0.5141861438751221,
+        0.45805153250694275
+      ],
+      [
+        0.32544851303100586,
+        0.3796866536140442,
+        1.0,
+        0.38546618819236755,
+        0.3904231786727905,
+        0.26147210597991943,
+        0.06972096115350723,
+        0.44450992345809937,
+        0.40896883606910706,
+        0.45370247960090637
+      ],
+      [
+        0.33665549755096436,
+        0.4748757481575012,
+        0.38546618819236755,
+        1.0,
+        0.3560766279697418,
+        0.2497667372226715,
+        0.03209074214100838,
+        0.44588521122932434,
+        0.44380849599838257,
+        0.4793674945831299
+      ],
+      [
+        0.3155704140663147,
+        0.35228264331817627,
+        0.3904231786727905,
+        0.3560766279697418,
+        1.0000001192092896,
+        0.2758108377456665,
+        0.06618113070726395,
+        0.452004075050354,
+        0.4475056529045105,
+        0.45037975907325745
+      ],
+      [
+        0.23341004550457,
+        0.16818223893642426,
+        0.26147210597991943,
+        0.2497667372226715,
+        0.2758108377456665,
+        1.0,
+        0.06689921021461487,
+        0.3073886036872864,
+        0.22595855593681335,
+        0.25353044271469116
+      ],
+      [
+        0.0965995192527771,
+        0.05784144997596741,
+        0.06972096115350723,
+        0.03209074214100838,
+        0.06618113070726395,
+        0.06689921021461487,
+        1.0,
+        0.04061279073357582,
+        0.06209916993975639,
+        0.08030182868242264
+      ],
+      [
+        0.44621729850769043,
+        0.5244069695472717,
+        0.44450992345809937,
+        0.44588521122932434,
+        0.452004075050354,
+        0.3073886036872864,
+        0.04061279073357582,
+        1.0000001192092896,
+        0.4725847840309143,
+        0.5990738272666931
+      ],
+      [
+        0.30249786376953125,
+        0.5141861438751221,
+        0.40896883606910706,
+        0.44380849599838257,
+        0.4475056529045105,
+        0.22595855593681335,
+        0.06209916993975639,
+        0.4725847840309143,
+        0.9999998807907104,
+        0.5508424043655396
+      ],
+      [
+        0.3408222198486328,
+        0.45805153250694275,
+        0.45370247960090637,
+        0.4793674945831299,
+        0.45037975907325745,
+        0.25353044271469116,
+        0.08030182868242264,
+        0.5990738272666931,
+        0.5508424043655396,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/david_beckham/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/david_beckham/portrait.jpg"
+    }
+  ]
+}

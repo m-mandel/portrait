@@ -1,0 +1,749 @@
+{
+  "folder": "/workspace/input/piven/data/david_ben_gurion",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "portrait.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+        "similarity": -0.056054987013339996
+      },
+      {
+        "index": 1,
+        "name": "01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+        "similarity": -0.006718322169035673
+      },
+      {
+        "index": 2,
+        "name": "02_david-ben-gurion-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+        "similarity": 0.010312472470104694
+      },
+      {
+        "index": 3,
+        "name": "03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+        "similarity": 0.003758443519473076
+      },
+      {
+        "index": 4,
+        "name": "04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+        "similarity": 0.00040141851059161127
+      },
+      {
+        "index": 5,
+        "name": "05_david-ben-gurion-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+        "similarity": -0.027647316455841064
+      },
+      {
+        "index": 6,
+        "name": "06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+        "similarity": -0.021593397483229637
+      },
+      {
+        "index": 7,
+        "name": "08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+        "similarity": 0.056892916560173035
+      },
+      {
+        "index": 8,
+        "name": "09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+        "similarity": -0.0245019793510437
+      },
+      {
+        "index": 9,
+        "name": "10_david-ben-gurion-summary-britannica.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+        "similarity": 0.04158549755811691
+      },
+      {
+        "index": 10,
+        "name": "11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+        "path": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+        "similarity": -0.015002529136836529
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.056054987013339996,
+          -0.006718322169035673,
+          0.010312472470104694,
+          0.003758443519473076,
+          0.00040141851059161127,
+          -0.027647316455841064,
+          -0.021593397483229637,
+          0.056892916560173035,
+          -0.0245019793510437,
+          0.04158549755811691,
+          -0.015002529136836529
+        ],
+        [
+          -0.056054987013339996,
+          1.0,
+          -0.024148166179656982,
+          -0.000835294951684773,
+          0.0171637125313282,
+          -0.04794467240571976,
+          0.010012617334723473,
+          0.016178002581000328,
+          0.023595260456204414,
+          0.025969743728637695,
+          -0.008252491243183613,
+          0.0011377071496099234
+        ],
+        [
+          -0.006718322169035673,
+          -0.024148166179656982,
+          1.0,
+          0.44105327129364014,
+          0.42166611552238464,
+          0.4525600075721741,
+          0.44022229313850403,
+          0.4086696207523346,
+          -0.010464380495250225,
+          0.41368210315704346,
+          0.4269804358482361,
+          0.3931688666343689
+        ],
+        [
+          0.010312472470104694,
+          -0.000835294951684773,
+          0.44105327129364014,
+          1.0,
+          0.3761594295501709,
+          0.44038355350494385,
+          0.7701855897903442,
+          0.8542993068695068,
+          0.058760132640600204,
+          0.7769874930381775,
+          0.58736252784729,
+          0.42614129185676575
+        ],
+        [
+          0.003758443519473076,
+          0.0171637125313282,
+          0.42166611552238464,
+          0.3761594295501709,
+          1.0,
+          0.41881033778190613,
+          0.3867048919200897,
+          0.4333578050136566,
+          0.04019254818558693,
+          0.47780483961105347,
+          0.38662973046302795,
+          0.2733781635761261
+        ],
+        [
+          0.00040141851059161127,
+          -0.04794467240571976,
+          0.4525600075721741,
+          0.44038355350494385,
+          0.41881033778190613,
+          1.0,
+          0.5123603343963623,
+          0.41081079840660095,
+          0.04148891940712929,
+          0.4823703169822693,
+          0.5542444586753845,
+          0.3364207446575165
+        ],
+        [
+          -0.027647316455841064,
+          0.010012617334723473,
+          0.44022229313850403,
+          0.7701855897903442,
+          0.3867048919200897,
+          0.5123603343963623,
+          1.0,
+          0.8016292452812195,
+          0.04094395413994789,
+          0.794032096862793,
+          0.49914056062698364,
+          0.40989479422569275
+        ],
+        [
+          -0.021593397483229637,
+          0.016178002581000328,
+          0.4086696207523346,
+          0.8542993068695068,
+          0.4333578050136566,
+          0.41081079840660095,
+          0.8016292452812195,
+          1.0,
+          0.030476436018943787,
+          0.8277488350868225,
+          0.5307309627532959,
+          0.40526169538497925
+        ],
+        [
+          0.056892916560173035,
+          0.023595260456204414,
+          -0.010464380495250225,
+          0.058760132640600204,
+          0.04019254818558693,
+          0.04148891940712929,
+          0.04094395413994789,
+          0.030476436018943787,
+          1.0,
+          0.06504704803228378,
+          -0.0076183234341442585,
+          0.08873017877340317
+        ],
+        [
+          -0.0245019793510437,
+          0.025969743728637695,
+          0.41368210315704346,
+          0.7769874930381775,
+          0.47780483961105347,
+          0.4823703169822693,
+          0.794032096862793,
+          0.8277488350868225,
+          0.06504704803228378,
+          1.0,
+          0.4935387670993805,
+          0.3944968581199646
+        ],
+        [
+          0.04158549755811691,
+          -0.008252491243183613,
+          0.4269804358482361,
+          0.58736252784729,
+          0.38662973046302795,
+          0.5542444586753845,
+          0.49914056062698364,
+          0.5307309627532959,
+          -0.0076183234341442585,
+          0.4935387670993805,
+          1.0,
+          0.41994917392730713
+        ],
+        [
+          -0.015002529136836529,
+          0.0011377071496099234,
+          0.3931688666343689,
+          0.42614129185676575,
+          0.2733781635761261,
+          0.3364207446575165,
+          0.40989479422569275,
+          0.40526169538497925,
+          0.08873017877340317,
+          0.3944968581199646,
+          0.41994917392730713,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "portrait.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg"
+    },
+    {
+      "name": "01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg"
+    },
+    {
+      "name": "02_david-ben-gurion-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg"
+    },
+    {
+      "name": "03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg"
+    },
+    {
+      "name": "04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg"
+    },
+    {
+      "name": "09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg"
+    },
+    {
+      "name": "10_david-ben-gurion-summary-britannica.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg"
+    },
+    {
+      "name": "11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "path": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "similarity": -0.024148166179656982
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "similarity": -0.000835294951684773
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "similarity": 0.0171637125313282
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "similarity": -0.04794467240571976
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "similarity": 0.010012617334723473
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "similarity": 0.016178002581000328
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "similarity": 0.023595260456204414
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.025969743728637695
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "similarity": -0.008252491243183613
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/portrait.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.0011377071496099234
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "similarity": 0.44105327129364014
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "similarity": 0.42166611552238464
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "similarity": 0.4525600075721741
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "similarity": 0.44022229313850403
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "similarity": 0.4086696207523346
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "similarity": -0.010464380495250225
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.41368210315704346
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "similarity": 0.4269804358482361
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.3931688666343689
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "similarity": 0.3761594295501709
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "similarity": 0.44038355350494385
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "similarity": 0.7701855897903442
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "similarity": 0.8542993068695068
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "similarity": 0.058760132640600204
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.7769874930381775
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "similarity": 0.58736252784729
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/02_david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.42614129185676575
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "similarity": 0.41881033778190613
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "similarity": 0.3867048919200897
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "similarity": 0.4333578050136566
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "similarity": 0.04019254818558693
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.47780483961105347
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "similarity": 0.38662973046302795
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.2733781635761261
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "similarity": 0.5123603343963623
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "similarity": 0.41081079840660095
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "similarity": 0.04148891940712929
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.4823703169822693
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "similarity": 0.5542444586753845
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.3364207446575165
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "similarity": 0.8016292452812195
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "similarity": 0.04094395413994789
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.794032096862793
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "similarity": 0.49914056062698364
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.40989479422569275
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "similarity": 0.030476436018943787
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.8277488350868225
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "similarity": 0.5307309627532959
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.40526169538497925
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.06504704803228378
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "similarity": -0.0076183234341442585
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.08873017877340317
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "similarity": 0.4935387670993805
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.3944968581199646
+    },
+    {
+      "left": "/workspace/input/piven/data/david_ben_gurion/images/10_david-ben-gurion-summary-britannica.jpg",
+      "right": "/workspace/input/piven/data/david_ben_gurion/images/11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg",
+      "similarity": 0.41994917392730713
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "portrait.jpg",
+      "01_pikiwiki-israel-46706-david-ben-gurion-jpg.jpg",
+      "02_david-ben-gurion-jpg.jpg",
+      "03_flickr-government-press-office-gpo-portrait-of-pm-david-ben-gurion-jpg.jpg",
+      "04_prime-minister-david-ben-gurion-1951-cropped-jpg.jpg",
+      "05_david-ben-gurion-3x4-cropped-jpg.jpg",
+      "06_david-ben-gurion-d597-087-cropped-jpg.jpg",
+      "08_david-ben-gurion-addressing-the-sefardi-rally-for-the-keren-hayesod-in-tel-aviv-d594-048-jpg.jpg",
+      "09_israel-community-black-and-white-stock-photos-images-alamy.jpg",
+      "10_david-ben-gurion-summary-britannica.jpg",
+      "11_centennial-portrait-of-david-ben-gurion-1987-by-michel-schwartz-for.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        -0.024148166179656982,
+        -0.000835294951684773,
+        0.0171637125313282,
+        -0.04794467240571976,
+        0.010012617334723473,
+        0.016178002581000328,
+        0.023595260456204414,
+        0.025969743728637695,
+        -0.008252491243183613,
+        0.0011377071496099234
+      ],
+      [
+        -0.024148166179656982,
+        1.0,
+        0.44105327129364014,
+        0.42166611552238464,
+        0.4525600075721741,
+        0.44022229313850403,
+        0.4086696207523346,
+        -0.010464380495250225,
+        0.41368210315704346,
+        0.4269804358482361,
+        0.3931688666343689
+      ],
+      [
+        -0.000835294951684773,
+        0.44105327129364014,
+        1.0,
+        0.3761594295501709,
+        0.44038355350494385,
+        0.7701855897903442,
+        0.8542993068695068,
+        0.058760132640600204,
+        0.7769874930381775,
+        0.58736252784729,
+        0.42614129185676575
+      ],
+      [
+        0.0171637125313282,
+        0.42166611552238464,
+        0.3761594295501709,
+        1.0,
+        0.41881033778190613,
+        0.3867048919200897,
+        0.4333578050136566,
+        0.04019254818558693,
+        0.47780483961105347,
+        0.38662973046302795,
+        0.2733781635761261
+      ],
+      [
+        -0.04794467240571976,
+        0.4525600075721741,
+        0.44038355350494385,
+        0.41881033778190613,
+        1.0,
+        0.5123603343963623,
+        0.41081079840660095,
+        0.04148891940712929,
+        0.4823703169822693,
+        0.5542444586753845,
+        0.3364207446575165
+      ],
+      [
+        0.010012617334723473,
+        0.44022229313850403,
+        0.7701855897903442,
+        0.3867048919200897,
+        0.5123603343963623,
+        1.0,
+        0.8016292452812195,
+        0.04094395413994789,
+        0.794032096862793,
+        0.49914056062698364,
+        0.40989479422569275
+      ],
+      [
+        0.016178002581000328,
+        0.4086696207523346,
+        0.8542993068695068,
+        0.4333578050136566,
+        0.41081079840660095,
+        0.8016292452812195,
+        1.0,
+        0.030476436018943787,
+        0.8277488350868225,
+        0.5307309627532959,
+        0.40526169538497925
+      ],
+      [
+        0.023595260456204414,
+        -0.010464380495250225,
+        0.058760132640600204,
+        0.04019254818558693,
+        0.04148891940712929,
+        0.04094395413994789,
+        0.030476436018943787,
+        1.0,
+        0.06504704803228378,
+        -0.0076183234341442585,
+        0.08873017877340317
+      ],
+      [
+        0.025969743728637695,
+        0.41368210315704346,
+        0.7769874930381775,
+        0.47780483961105347,
+        0.4823703169822693,
+        0.794032096862793,
+        0.8277488350868225,
+        0.06504704803228378,
+        1.0,
+        0.4935387670993805,
+        0.3944968581199646
+      ],
+      [
+        -0.008252491243183613,
+        0.4269804358482361,
+        0.58736252784729,
+        0.38662973046302795,
+        0.5542444586753845,
+        0.49914056062698364,
+        0.5307309627532959,
+        -0.0076183234341442585,
+        0.4935387670993805,
+        1.0,
+        0.41994917392730713
+      ],
+      [
+        0.0011377071496099234,
+        0.3931688666343689,
+        0.42614129185676575,
+        0.2733781635761261,
+        0.3364207446575165,
+        0.40989479422569275,
+        0.40526169538497925,
+        0.08873017877340317,
+        0.3944968581199646,
+        0.41994917392730713,
+        1.0
+      ]
+    ]
+  },
+  "errors": []
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/jeremy_clarkson",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/jeremy_clarkson/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+        "similarity": 0.02544906921684742
+      },
+      {
+        "index": 1,
+        "name": "02_jeremy-clarkson-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+        "similarity": 0.025681013241410255
+      },
+      {
+        "index": 2,
+        "name": "03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+        "similarity": -0.0017127629835158587
+      },
+      {
+        "index": 3,
+        "name": "06_jeremy-clarkson-hawkstone-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+        "similarity": 0.04494836553931236
+      },
+      {
+        "index": 4,
+        "name": "06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+        "similarity": 0.02615804225206375
+      },
+      {
+        "index": 5,
+        "name": "08_jeremy-clarkson-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+        "similarity": 0.02388905920088291
+      },
+      {
+        "index": 6,
+        "name": "08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+        "similarity": -0.006295348517596722
+      },
+      {
+        "index": 7,
+        "name": "09_jeremy-clarkson-2008-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+        "similarity": 0.023366056382656097
+      },
+      {
+        "index": 8,
+        "name": "09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+        "similarity": 0.046754829585552216
+      },
+      {
+        "index": 9,
+        "name": "10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+        "similarity": 0.025736410170793533
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.02544906921684742,
+          0.025681013241410255,
+          -0.0017127629835158587,
+          0.04494836553931236,
+          0.02615804225206375,
+          0.02388905920088291,
+          -0.006295348517596722,
+          0.023366056382656097,
+          0.046754829585552216,
+          0.025736410170793533
+        ],
+        [
+          0.02544906921684742,
+          1.0,
+          0.4346228539943695,
+          0.3575986921787262,
+          0.394366055727005,
+          0.9297103881835938,
+          0.4669342041015625,
+          0.4534548819065094,
+          0.4961233139038086,
+          0.4213504493236542,
+          0.9120789170265198
+        ],
+        [
+          0.025681013241410255,
+          0.4346228539943695,
+          0.9999999403953552,
+          0.4169358015060425,
+          0.37624305486679077,
+          0.41291725635528564,
+          0.6641556024551392,
+          0.5644732117652893,
+          0.5340223908424377,
+          0.46475255489349365,
+          0.41421806812286377
+        ],
+        [
+          -0.0017127629835158587,
+          0.3575986921787262,
+          0.4169358015060425,
+          1.0000001192092896,
+          0.349490761756897,
+          0.360431969165802,
+          0.3923434317111969,
+          0.4760083854198456,
+          0.365504652261734,
+          0.35856562852859497,
+          0.36292925477027893
+        ],
+        [
+          0.04494836553931236,
+          0.394366055727005,
+          0.37624305486679077,
+          0.349490761756897,
+          1.0,
+          0.40085092186927795,
+          0.38205134868621826,
+          0.40996626019477844,
+          0.46611103415489197,
+          0.42348942160606384,
+          0.41600272059440613
+        ],
+        [
+          0.02615804225206375,
+          0.9297103881835938,
+          0.41291725635528564,
+          0.360431969165802,
+          0.40085092186927795,
+          1.0000001192092896,
+          0.4595247209072113,
+          0.45924773812294006,
+          0.4918368458747864,
+          0.41668495535850525,
+          0.9850436449050903
+        ],
+        [
+          0.02388905920088291,
+          0.4669342041015625,
+          0.6641556024551392,
+          0.3923434317111969,
+          0.38205134868621826,
+          0.4595247209072113,
+          1.0000001192092896,
+          0.45973795652389526,
+          0.47374850511550903,
+          0.419303834438324,
+          0.46771156787872314
+        ],
+        [
+          -0.006295348517596722,
+          0.4534548819065094,
+          0.5644732117652893,
+          0.4760083854198456,
+          0.40996626019477844,
+          0.45924773812294006,
+          0.45973795652389526,
+          1.0,
+          0.48645782470703125,
+          0.48374858498573303,
+          0.4715856611728668
+        ],
+        [
+          0.023366056382656097,
+          0.4961233139038086,
+          0.5340223908424377,
+          0.365504652261734,
+          0.46611103415489197,
+          0.4918368458747864,
+          0.47374850511550903,
+          0.48645782470703125,
+          1.0,
+          0.44960540533065796,
+          0.49984264373779297
+        ],
+        [
+          0.046754829585552216,
+          0.4213504493236542,
+          0.46475255489349365,
+          0.35856562852859497,
+          0.42348942160606384,
+          0.41668495535850525,
+          0.419303834438324,
+          0.48374858498573303,
+          0.44960540533065796,
+          0.9999999403953552,
+          0.42773571610450745
+        ],
+        [
+          0.025736410170793533,
+          0.9120789170265198,
+          0.41421806812286377,
+          0.36292925477027893,
+          0.41600272059440613,
+          0.9850436449050903,
+          0.46771156787872314,
+          0.4715856611728668,
+          0.49984264373779297,
+          0.42773571610450745,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_jeremy-clarkson-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg"
+    },
+    {
+      "name": "03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg"
+    },
+    {
+      "name": "06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg"
+    },
+    {
+      "name": "06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_jeremy-clarkson-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg"
+    },
+    {
+      "name": "09_jeremy-clarkson-2008-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg"
+    },
+    {
+      "name": "09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg"
+    },
+    {
+      "name": "10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+      "similarity": 0.4346228539943695
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "similarity": 0.3575986921787262
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "similarity": 0.394366055727005
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "similarity": 0.9297103881835938
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+      "similarity": 0.4669342041015625
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "similarity": 0.4534548819065094
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+      "similarity": 0.4961233139038086
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "similarity": 0.4213504493236542
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "similarity": 0.9120789170265198
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "similarity": 0.4169358015060425
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "similarity": 0.37624305486679077
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "similarity": 0.41291725635528564
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+      "similarity": 0.6641556024551392
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "similarity": 0.5644732117652893
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+      "similarity": 0.5340223908424377
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "similarity": 0.46475255489349365
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/02_jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "similarity": 0.41421806812286377
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "similarity": 0.349490761756897
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "similarity": 0.360431969165802
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+      "similarity": 0.3923434317111969
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "similarity": 0.4760083854198456
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+      "similarity": 0.365504652261734
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "similarity": 0.35856562852859497
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "similarity": 0.36292925477027893
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "similarity": 0.40085092186927795
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+      "similarity": 0.38205134868621826
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "similarity": 0.40996626019477844
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+      "similarity": 0.46611103415489197
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "similarity": 0.42348942160606384
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "similarity": 0.41600272059440613
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+      "similarity": 0.4595247209072113
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "similarity": 0.45924773812294006
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+      "similarity": 0.4918368458747864
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "similarity": 0.41668495535850525
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "similarity": 0.9850436449050903
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "similarity": 0.45973795652389526
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+      "similarity": 0.47374850511550903
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "similarity": 0.419303834438324
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_jeremy-clarkson-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "similarity": 0.46771156787872314
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+      "similarity": 0.48645782470703125
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "similarity": 0.48374858498573303
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "similarity": 0.4715856611728668
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "similarity": 0.44960540533065796
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "similarity": 0.49984264373779297
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/jeremy_clarkson/images/09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/jeremy_clarkson/images/10_jeremy-clarkson-top-gear-live-2012-jpg.jpg",
+      "similarity": 0.42773571610450745
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_jeremy-clarkson-top-gear-live-2012-cropped-jpg.jpg",
+      "02_jeremy-clarkson-jpg.jpg",
+      "03_top-gear-live-italia-2014-richard-hammond-james-may-jeremy-clarkson-jpg.jpg",
+      "06_jeremy-clarkson-hawkstone-jpg.jpg",
+      "06_jeremy-clarkson-top-gear-live-2012-4x5-cropped-jpg.jpg",
+      "08_jeremy-clarkson-cropped-jpg.jpg",
+      "08_top-gear-team-richard-hammond-james-may-and-jeremy-clarkson-31-october-2008-jpg.jpg",
+      "09_jeremy-clarkson-2008-jpg.jpg",
+      "09_jeremy-clarkson-portrait-by-louise-pragnell-jpg.jpg",
+      "10_jeremy-clarkson-top-gear-live-2012-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.4346228539943695,
+        0.3575986921787262,
+        0.394366055727005,
+        0.9297103881835938,
+        0.4669342041015625,
+        0.4534548819065094,
+        0.4961233139038086,
+        0.4213504493236542,
+        0.9120789170265198
+      ],
+      [
+        0.4346228539943695,
+        0.9999999403953552,
+        0.4169358015060425,
+        0.37624305486679077,
+        0.41291725635528564,
+        0.6641556024551392,
+        0.5644732117652893,
+        0.5340223908424377,
+        0.46475255489349365,
+        0.41421806812286377
+      ],
+      [
+        0.3575986921787262,
+        0.4169358015060425,
+        1.0000001192092896,
+        0.349490761756897,
+        0.360431969165802,
+        0.3923434317111969,
+        0.4760083854198456,
+        0.365504652261734,
+        0.35856562852859497,
+        0.36292925477027893
+      ],
+      [
+        0.394366055727005,
+        0.37624305486679077,
+        0.349490761756897,
+        1.0,
+        0.40085092186927795,
+        0.38205134868621826,
+        0.40996626019477844,
+        0.46611103415489197,
+        0.42348942160606384,
+        0.41600272059440613
+      ],
+      [
+        0.9297103881835938,
+        0.41291725635528564,
+        0.360431969165802,
+        0.40085092186927795,
+        1.0000001192092896,
+        0.4595247209072113,
+        0.45924773812294006,
+        0.4918368458747864,
+        0.41668495535850525,
+        0.9850436449050903
+      ],
+      [
+        0.4669342041015625,
+        0.6641556024551392,
+        0.3923434317111969,
+        0.38205134868621826,
+        0.4595247209072113,
+        1.0000001192092896,
+        0.45973795652389526,
+        0.47374850511550903,
+        0.419303834438324,
+        0.46771156787872314
+      ],
+      [
+        0.4534548819065094,
+        0.5644732117652893,
+        0.4760083854198456,
+        0.40996626019477844,
+        0.45924773812294006,
+        0.45973795652389526,
+        1.0,
+        0.48645782470703125,
+        0.48374858498573303,
+        0.4715856611728668
+      ],
+      [
+        0.4961233139038086,
+        0.5340223908424377,
+        0.365504652261734,
+        0.46611103415489197,
+        0.4918368458747864,
+        0.47374850511550903,
+        0.48645782470703125,
+        1.0,
+        0.44960540533065796,
+        0.49984264373779297
+      ],
+      [
+        0.4213504493236542,
+        0.46475255489349365,
+        0.35856562852859497,
+        0.42348942160606384,
+        0.41668495535850525,
+        0.419303834438324,
+        0.48374858498573303,
+        0.44960540533065796,
+        0.9999999403953552,
+        0.42773571610450745
+      ],
+      [
+        0.9120789170265198,
+        0.41421806812286377,
+        0.36292925477027893,
+        0.41600272059440613,
+        0.9850436449050903,
+        0.46771156787872314,
+        0.4715856611728668,
+        0.49984264373779297,
+        0.42773571610450745,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/jeremy_clarkson/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/jeremy_clarkson/portrait.jpg"
+    }
+  ]
+}

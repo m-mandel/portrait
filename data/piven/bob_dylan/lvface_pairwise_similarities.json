@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/bob_dylan",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/bob_dylan/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_joan-baez-bob-dylan-crop-jpg.jpg",
+        "path": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+        "similarity": -0.015468521974980831
+      },
+      {
+        "index": 1,
+        "name": "02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+        "path": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+        "similarity": 0.03206219896674156
+      },
+      {
+        "index": 2,
+        "name": "03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+        "path": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+        "similarity": 0.030962279066443443
+      },
+      {
+        "index": 3,
+        "name": "04_bob-dylan-1963-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+        "similarity": 0.016328155994415283
+      },
+      {
+        "index": 4,
+        "name": "05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+        "path": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+        "similarity": -0.002386996289715171
+      },
+      {
+        "index": 5,
+        "name": "07_bobdylanclydieking1981-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+        "similarity": -0.06608445942401886
+      },
+      {
+        "index": 6,
+        "name": "09_bob-dylan-1965-publicity-photo-jpg.jpg",
+        "path": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+        "similarity": 0.03011658973991871
+      },
+      {
+        "index": 7,
+        "name": "11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+        "path": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+        "similarity": 0.03077680803835392
+      },
+      {
+        "index": 8,
+        "name": "12_joan-baez-and-bob-dylan-jpg.jpg",
+        "path": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+        "similarity": 0.0007851639529690146
+      },
+      {
+        "index": 9,
+        "name": "13_bob-dylan-in-november-1963-jpg.jpg",
+        "path": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+        "similarity": 0.05324988812208176
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.015468521974980831,
+          0.03206219896674156,
+          0.030962279066443443,
+          0.016328155994415283,
+          -0.002386996289715171,
+          -0.06608445942401886,
+          0.03011658973991871,
+          0.03077680803835392,
+          0.0007851639529690146,
+          0.05324988812208176
+        ],
+        [
+          -0.015468521974980831,
+          1.0,
+          0.5250731110572815,
+          0.5494261384010315,
+          0.40786656737327576,
+          0.7862069010734558,
+          -0.05817569047212601,
+          0.4506354033946991,
+          -0.029878612607717514,
+          0.6993298530578613,
+          0.46501991152763367
+        ],
+        [
+          0.03206219896674156,
+          0.5250731110572815,
+          1.0,
+          0.9485036134719849,
+          0.5025278925895691,
+          0.4788903594017029,
+          -0.055424489080905914,
+          0.47228366136550903,
+          -0.07030167430639267,
+          0.5149733424186707,
+          0.4490736722946167
+        ],
+        [
+          0.030962279066443443,
+          0.5494261384010315,
+          0.9485036134719849,
+          1.0,
+          0.5291140079498291,
+          0.486788272857666,
+          -0.05490497127175331,
+          0.40977296233177185,
+          -0.07851079106330872,
+          0.4913505017757416,
+          0.4641146957874298
+        ],
+        [
+          0.016328155994415283,
+          0.40786656737327576,
+          0.5025278925895691,
+          0.5291140079498291,
+          0.9999998807907104,
+          0.3828805983066559,
+          -0.0611138753592968,
+          0.45551571249961853,
+          -0.01977144181728363,
+          0.41968828439712524,
+          0.5158284902572632
+        ],
+        [
+          -0.002386996289715171,
+          0.7862069010734558,
+          0.4788903594017029,
+          0.486788272857666,
+          0.3828805983066559,
+          1.0000001192092896,
+          -0.032841313630342484,
+          0.446152925491333,
+          -0.02627522498369217,
+          0.7510989308357239,
+          0.4566057324409485
+        ],
+        [
+          -0.06608445942401886,
+          -0.05817569047212601,
+          -0.055424489080905914,
+          -0.05490497127175331,
+          -0.0611138753592968,
+          -0.032841313630342484,
+          1.0,
+          -0.03206002339720726,
+          0.003568541258573532,
+          -0.01690143346786499,
+          0.002221533562988043
+        ],
+        [
+          0.03011658973991871,
+          0.4506354033946991,
+          0.47228366136550903,
+          0.40977296233177185,
+          0.45551571249961853,
+          0.446152925491333,
+          -0.03206002339720726,
+          1.0000001192092896,
+          -0.03245040774345398,
+          0.4923167824745178,
+          0.4667339324951172
+        ],
+        [
+          0.03077680803835392,
+          -0.029878612607717514,
+          -0.07030167430639267,
+          -0.07851079106330872,
+          -0.01977144181728363,
+          -0.02627522498369217,
+          0.003568541258573532,
+          -0.03245040774345398,
+          1.0,
+          -0.008388517424464226,
+          -0.01865282841026783
+        ],
+        [
+          0.0007851639529690146,
+          0.6993298530578613,
+          0.5149733424186707,
+          0.4913505017757416,
+          0.41968828439712524,
+          0.7510989308357239,
+          -0.01690143346786499,
+          0.4923167824745178,
+          -0.008388517424464226,
+          1.0,
+          0.4558785557746887
+        ],
+        [
+          0.05324988812208176,
+          0.46501991152763367,
+          0.4490736722946167,
+          0.4641146957874298,
+          0.5158284902572632,
+          0.4566057324409485,
+          0.002221533562988043,
+          0.4667339324951172,
+          -0.01865282841026783,
+          0.4558785557746887,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "path": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg"
+    },
+    {
+      "name": "02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "path": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg"
+    },
+    {
+      "name": "03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "path": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png"
+    },
+    {
+      "name": "04_bob-dylan-1963-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "path": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg"
+    },
+    {
+      "name": "07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "path": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg"
+    },
+    {
+      "name": "11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "path": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg"
+    },
+    {
+      "name": "12_joan-baez-and-bob-dylan-jpg.jpg",
+      "path": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg"
+    },
+    {
+      "name": "13_bob-dylan-in-november-1963-jpg.jpg",
+      "path": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "similarity": 0.5250731110572815
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "similarity": 0.5494261384010315
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+      "similarity": 0.40786656737327576
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "similarity": 0.7862069010734558
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "similarity": -0.05817569047212601
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "similarity": 0.4506354033946991
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "similarity": -0.029878612607717514
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+      "similarity": 0.6993298530578613
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.46501991152763367
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "similarity": 0.9485036134719849
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+      "similarity": 0.5025278925895691
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "similarity": 0.4788903594017029
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "similarity": -0.055424489080905914
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "similarity": 0.47228366136550903
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "similarity": -0.07030167430639267
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+      "similarity": 0.5149733424186707
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.4490736722946167
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+      "similarity": 0.5291140079498291
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "similarity": 0.486788272857666
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "similarity": -0.05490497127175331
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "similarity": 0.40977296233177185
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "similarity": -0.07851079106330872
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+      "similarity": 0.4913505017757416
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "right": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.4641146957874298
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "similarity": 0.3828805983066559
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "similarity": -0.0611138753592968
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "similarity": 0.45551571249961853
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "similarity": -0.01977144181728363
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+      "similarity": 0.41968828439712524
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/04_bob-dylan-1963-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.5158284902572632
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "similarity": -0.032841313630342484
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "similarity": 0.446152925491333
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "similarity": -0.02627522498369217
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+      "similarity": 0.7510989308357239
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.4566057324409485
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "similarity": -0.03206002339720726
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "similarity": 0.003568541258573532
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+      "similarity": -0.01690143346786499
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.002221533562988043
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "similarity": -0.03245040774345398
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+      "similarity": 0.4923167824745178
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.4667339324951172
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+      "similarity": -0.008388517424464226
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": -0.01865282841026783
+    },
+    {
+      "left": "/workspace/input/piven/data/bob_dylan/images/12_joan-baez-and-bob-dylan-jpg.jpg",
+      "right": "/workspace/input/piven/data/bob_dylan/images/13_bob-dylan-in-november-1963-jpg.jpg",
+      "similarity": 0.4558785557746887
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_joan-baez-bob-dylan-crop-jpg.jpg",
+      "02_bob-dylan-1963-promo-photo-by-don-hunstein-jpg.jpg",
+      "03_bob-dylan-1963-promo-photo-by-don-hunstein-png.png",
+      "04_bob-dylan-1963-cropped-jpg.jpg",
+      "05_joan-baez-bob-dylan-cropped-to-dylan-jpg.jpg",
+      "07_bobdylanclydieking1981-cropped-jpg.jpg",
+      "09_bob-dylan-1965-publicity-photo-jpg.jpg",
+      "11_allen-ginsberg-and-bob-dylan-by-elsa-dorfman-jpg.jpg",
+      "12_joan-baez-and-bob-dylan-jpg.jpg",
+      "13_bob-dylan-in-november-1963-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.5250731110572815,
+        0.5494261384010315,
+        0.40786656737327576,
+        0.7862069010734558,
+        -0.05817569047212601,
+        0.4506354033946991,
+        -0.029878612607717514,
+        0.6993298530578613,
+        0.46501991152763367
+      ],
+      [
+        0.5250731110572815,
+        1.0,
+        0.9485036134719849,
+        0.5025278925895691,
+        0.4788903594017029,
+        -0.055424489080905914,
+        0.47228366136550903,
+        -0.07030167430639267,
+        0.5149733424186707,
+        0.4490736722946167
+      ],
+      [
+        0.5494261384010315,
+        0.9485036134719849,
+        1.0,
+        0.5291140079498291,
+        0.486788272857666,
+        -0.05490497127175331,
+        0.40977296233177185,
+        -0.07851079106330872,
+        0.4913505017757416,
+        0.4641146957874298
+      ],
+      [
+        0.40786656737327576,
+        0.5025278925895691,
+        0.5291140079498291,
+        0.9999998807907104,
+        0.3828805983066559,
+        -0.0611138753592968,
+        0.45551571249961853,
+        -0.01977144181728363,
+        0.41968828439712524,
+        0.5158284902572632
+      ],
+      [
+        0.7862069010734558,
+        0.4788903594017029,
+        0.486788272857666,
+        0.3828805983066559,
+        1.0000001192092896,
+        -0.032841313630342484,
+        0.446152925491333,
+        -0.02627522498369217,
+        0.7510989308357239,
+        0.4566057324409485
+      ],
+      [
+        -0.05817569047212601,
+        -0.055424489080905914,
+        -0.05490497127175331,
+        -0.0611138753592968,
+        -0.032841313630342484,
+        1.0,
+        -0.03206002339720726,
+        0.003568541258573532,
+        -0.01690143346786499,
+        0.002221533562988043
+      ],
+      [
+        0.4506354033946991,
+        0.47228366136550903,
+        0.40977296233177185,
+        0.45551571249961853,
+        0.446152925491333,
+        -0.03206002339720726,
+        1.0000001192092896,
+        -0.03245040774345398,
+        0.4923167824745178,
+        0.4667339324951172
+      ],
+      [
+        -0.029878612607717514,
+        -0.07030167430639267,
+        -0.07851079106330872,
+        -0.01977144181728363,
+        -0.02627522498369217,
+        0.003568541258573532,
+        -0.03245040774345398,
+        1.0,
+        -0.008388517424464226,
+        -0.01865282841026783
+      ],
+      [
+        0.6993298530578613,
+        0.5149733424186707,
+        0.4913505017757416,
+        0.41968828439712524,
+        0.7510989308357239,
+        -0.01690143346786499,
+        0.4923167824745178,
+        -0.008388517424464226,
+        1.0,
+        0.4558785557746887
+      ],
+      [
+        0.46501991152763367,
+        0.4490736722946167,
+        0.4641146957874298,
+        0.5158284902572632,
+        0.4566057324409485,
+        0.002221533562988043,
+        0.4667339324951172,
+        -0.01865282841026783,
+        0.4558785557746887,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/bob_dylan/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/bob_dylan/portrait.jpg"
+    }
+  ]
+}

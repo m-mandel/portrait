@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/yasser_arafat",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/yasser_arafat/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+        "similarity": -0.05315443128347397
+      },
+      {
+        "index": 1,
+        "name": "02_yasser-arafat-close-up-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+        "similarity": -0.035222701728343964
+      },
+      {
+        "index": 2,
+        "name": "03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+        "similarity": -0.09892135113477707
+      },
+      {
+        "index": 3,
+        "name": "06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+        "similarity": -0.04183497652411461
+      },
+      {
+        "index": 4,
+        "name": "07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+        "similarity": -0.035775333642959595
+      },
+      {
+        "index": 5,
+        "name": "08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+        "similarity": -0.039803050458431244
+      },
+      {
+        "index": 6,
+        "name": "08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+        "similarity": 0.0030486236792057753
+      },
+      {
+        "index": 7,
+        "name": "09_arafateconomicforum-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+        "similarity": -0.0324891023337841
+      },
+      {
+        "index": 8,
+        "name": "09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+        "similarity": -0.013112181797623634
+      },
+      {
+        "index": 9,
+        "name": "10_yasser-arafat-1999-3-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+        "similarity": -0.038720037788152695
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.05315443128347397,
+          -0.035222701728343964,
+          -0.09892135113477707,
+          -0.04183497652411461,
+          -0.035775333642959595,
+          -0.039803050458431244,
+          0.0030486236792057753,
+          -0.0324891023337841,
+          -0.013112181797623634,
+          -0.038720037788152695
+        ],
+        [
+          -0.05315443128347397,
+          0.9999999403953552,
+          0.830164909362793,
+          -0.022775206714868546,
+          -0.004964981693774462,
+          0.8756280541419983,
+          0.5263085961341858,
+          -0.01565469242632389,
+          0.5848894715309143,
+          -0.09998221695423126,
+          -0.07324882596731186
+        ],
+        [
+          -0.035222701728343964,
+          0.830164909362793,
+          0.9999999403953552,
+          -0.035293757915496826,
+          -0.019359227269887924,
+          0.8652372360229492,
+          0.4735846221446991,
+          -0.0073074521496891975,
+          0.5383509397506714,
+          -0.044217053800821304,
+          -0.07762707769870758
+        ],
+        [
+          -0.09892135113477707,
+          -0.022775206714868546,
+          -0.035293757915496826,
+          0.9999999403953552,
+          -0.04345683380961418,
+          -0.03864258900284767,
+          -0.01861211284995079,
+          0.016380412504076958,
+          0.01679430902004242,
+          -0.051854539662599564,
+          0.057726480066776276
+        ],
+        [
+          -0.04183497652411461,
+          -0.004964981693774462,
+          -0.019359227269887924,
+          -0.04345683380961418,
+          1.0000001192092896,
+          -0.026661761105060577,
+          -0.024795858189463615,
+          -0.01944458857178688,
+          0.015306788496673107,
+          0.03314909338951111,
+          -0.018660584464669228
+        ],
+        [
+          -0.035775333642959595,
+          0.8756280541419983,
+          0.8652372360229492,
+          -0.03864258900284767,
+          -0.026661761105060577,
+          1.0,
+          0.4529576897621155,
+          -0.03252420201897621,
+          0.5443447232246399,
+          -0.05495527386665344,
+          -0.07676449418067932
+        ],
+        [
+          -0.039803050458431244,
+          0.5263085961341858,
+          0.4735846221446991,
+          -0.01861211284995079,
+          -0.024795858189463615,
+          0.4529576897621155,
+          1.0,
+          -0.05370653048157692,
+          0.5114059448242188,
+          -0.010183954611420631,
+          0.00304076517932117
+        ],
+        [
+          0.0030486236792057753,
+          -0.01565469242632389,
+          -0.0073074521496891975,
+          0.016380412504076958,
+          -0.01944458857178688,
+          -0.03252420201897621,
+          -0.05370653048157692,
+          1.0000001192092896,
+          -0.022062821313738823,
+          -0.01766122132539749,
+          -0.04544736072421074
+        ],
+        [
+          -0.0324891023337841,
+          0.5848894715309143,
+          0.5383509397506714,
+          0.01679430902004242,
+          0.015306788496673107,
+          0.5443447232246399,
+          0.5114059448242188,
+          -0.022062821313738823,
+          0.9999998807907104,
+          -0.023420492187142372,
+          0.008905055932700634
+        ],
+        [
+          -0.013112181797623634,
+          -0.09998221695423126,
+          -0.044217053800821304,
+          -0.051854539662599564,
+          0.03314909338951111,
+          -0.05495527386665344,
+          -0.010183954611420631,
+          -0.01766122132539749,
+          -0.023420492187142372,
+          1.0,
+          -0.02463449165225029
+        ],
+        [
+          -0.038720037788152695,
+          -0.07324882596731186,
+          -0.07762707769870758,
+          0.057726480066776276,
+          -0.018660584464669228,
+          -0.07676449418067932,
+          0.00304076517932117,
+          -0.04544736072421074,
+          0.008905055932700634,
+          -0.02463449165225029,
+          0.9999998807907104
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg"
+    },
+    {
+      "name": "02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg"
+    },
+    {
+      "name": "06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg"
+    },
+    {
+      "name": "07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png"
+    },
+    {
+      "name": "09_arafateconomicforum-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg"
+    },
+    {
+      "name": "10_yasser-arafat-1999-3-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "similarity": 0.830164909362793
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "similarity": -0.022775206714868546
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "similarity": -0.004964981693774462
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "similarity": 0.8756280541419983
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "similarity": 0.5263085961341858
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "similarity": -0.01565469242632389
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+      "similarity": 0.5848894715309143
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "similarity": -0.09998221695423126
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+      "similarity": -0.07324882596731186
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "similarity": -0.035293757915496826
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "similarity": -0.019359227269887924
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "similarity": 0.8652372360229492
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "similarity": 0.4735846221446991
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "similarity": -0.0073074521496891975
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+      "similarity": 0.5383509397506714
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "similarity": -0.044217053800821304
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+      "similarity": -0.07762707769870758
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "similarity": -0.04345683380961418
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "similarity": -0.03864258900284767
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "similarity": -0.01861211284995079
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "similarity": 0.016380412504076958
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+      "similarity": 0.01679430902004242
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "similarity": -0.051854539662599564
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+      "similarity": 0.057726480066776276
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "similarity": -0.026661761105060577
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "similarity": -0.024795858189463615
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "similarity": -0.01944458857178688
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+      "similarity": 0.015306788496673107
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "similarity": 0.03314909338951111
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+      "similarity": -0.018660584464669228
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "similarity": 0.4529576897621155
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "similarity": -0.03252420201897621
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+      "similarity": 0.5443447232246399
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "similarity": -0.05495527386665344
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+      "similarity": -0.07676449418067932
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "similarity": -0.05370653048157692
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+      "similarity": 0.5114059448242188
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "similarity": -0.010183954611420631
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+      "similarity": 0.00304076517932117
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+      "similarity": -0.022062821313738823
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "similarity": -0.01766122132539749
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+      "similarity": -0.04544736072421074
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "similarity": -0.023420492187142372
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/09_arafateconomicforum-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+      "similarity": 0.008905055932700634
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/yasser_arafat/images/09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/yasser_arafat/images/10_yasser-arafat-1999-3-jpg.jpg",
+      "similarity": -0.02463449165225029
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-jpg.jpg",
+      "02_yasser-arafat-close-up-cropped-jpg.jpg",
+      "03_bundesarchiv-bild-183-1982-0310-027-berlin-yasser-arafat-erich-honecker-jpg.jpg",
+      "06_bhim-singh-and-yasser-arafat-in-syria-jpg.jpg",
+      "07_leader-of-the-plo-yasser-arafat-1996-dan-hadani-archive-3x4-cropped-jpg.jpg",
+      "08_1974-ceausescu-yasser-araffat-in-bucharest-cropped-jpg.jpg",
+      "08_yasser-arafat-and-king-hassan-ii-of-morocco-png.png",
+      "09_arafateconomicforum-cropped-jpg.jpg",
+      "09_then-president-of-palestine-yasser-arafat-and-prime-minister-of-bangladesh-mizanur-rahman-chowdhury-jpg.jpg",
+      "10_yasser-arafat-1999-3-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.830164909362793,
+        -0.022775206714868546,
+        -0.004964981693774462,
+        0.8756280541419983,
+        0.5263085961341858,
+        -0.01565469242632389,
+        0.5848894715309143,
+        -0.09998221695423126,
+        -0.07324882596731186
+      ],
+      [
+        0.830164909362793,
+        0.9999999403953552,
+        -0.035293757915496826,
+        -0.019359227269887924,
+        0.8652372360229492,
+        0.4735846221446991,
+        -0.0073074521496891975,
+        0.5383509397506714,
+        -0.044217053800821304,
+        -0.07762707769870758
+      ],
+      [
+        -0.022775206714868546,
+        -0.035293757915496826,
+        0.9999999403953552,
+        -0.04345683380961418,
+        -0.03864258900284767,
+        -0.01861211284995079,
+        0.016380412504076958,
+        0.01679430902004242,
+        -0.051854539662599564,
+        0.057726480066776276
+      ],
+      [
+        -0.004964981693774462,
+        -0.019359227269887924,
+        -0.04345683380961418,
+        1.0000001192092896,
+        -0.026661761105060577,
+        -0.024795858189463615,
+        -0.01944458857178688,
+        0.015306788496673107,
+        0.03314909338951111,
+        -0.018660584464669228
+      ],
+      [
+        0.8756280541419983,
+        0.8652372360229492,
+        -0.03864258900284767,
+        -0.026661761105060577,
+        1.0,
+        0.4529576897621155,
+        -0.03252420201897621,
+        0.5443447232246399,
+        -0.05495527386665344,
+        -0.07676449418067932
+      ],
+      [
+        0.5263085961341858,
+        0.4735846221446991,
+        -0.01861211284995079,
+        -0.024795858189463615,
+        0.4529576897621155,
+        1.0,
+        -0.05370653048157692,
+        0.5114059448242188,
+        -0.010183954611420631,
+        0.00304076517932117
+      ],
+      [
+        -0.01565469242632389,
+        -0.0073074521496891975,
+        0.016380412504076958,
+        -0.01944458857178688,
+        -0.03252420201897621,
+        -0.05370653048157692,
+        1.0000001192092896,
+        -0.022062821313738823,
+        -0.01766122132539749,
+        -0.04544736072421074
+      ],
+      [
+        0.5848894715309143,
+        0.5383509397506714,
+        0.01679430902004242,
+        0.015306788496673107,
+        0.5443447232246399,
+        0.5114059448242188,
+        -0.022062821313738823,
+        0.9999998807907104,
+        -0.023420492187142372,
+        0.008905055932700634
+      ],
+      [
+        -0.09998221695423126,
+        -0.044217053800821304,
+        -0.051854539662599564,
+        0.03314909338951111,
+        -0.05495527386665344,
+        -0.010183954611420631,
+        -0.01766122132539749,
+        -0.023420492187142372,
+        1.0,
+        -0.02463449165225029
+      ],
+      [
+        -0.07324882596731186,
+        -0.07762707769870758,
+        0.057726480066776276,
+        -0.018660584464669228,
+        -0.07676449418067932,
+        0.00304076517932117,
+        -0.04544736072421074,
+        0.008905055932700634,
+        -0.02463449165225029,
+        0.9999998807907104
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/yasser_arafat/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/yasser_arafat/portrait.jpg"
+    }
+  ]
+}

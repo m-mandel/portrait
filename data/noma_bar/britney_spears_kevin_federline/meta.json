@@ -1,0 +1,80 @@
+{
+  "name": "Britney Spears and Kevin Federline",
+  "bio": "Britney Jean Spears (born December 2, 1981) is an American singer. Referred to as the \"Princess of Pop\", she is widely regarded as one of the most influential entertainers of the 21st century. Her impact on pop music—particularly her role in reviving teen pop—and energetic stage performances contributed to her widespread success.\nSpears began her professional career in 1992 as a cast member for the musical Ruthless! and the final two seasons of The All-New Mickey Mouse Club television series before signing with Jive Records in 1997. She rose to prominence with \"...Baby One More Time\", which became a global chart-topper and one of the best-selling singles in history. Her first two albums—...Baby One More Time (1999) and Oops!... I Did It Again (2000)—rank among the best-selling of all time. Her third album, Britney (2001), is one of the best-selling albums of the 21st century. After starring in the films Longshot (2001)  and Crossroads (2002), she released the albums In the Zone (2003) and Blackout (2007). The former spawned the top-ten single \"Toxic\", which won the Grammy Award for Best Dance/Electronic Recording.\nFacing lifelong public scrutiny and struggles with mental illness, Spears was placed under a controversial conservatorship in 2008. During this period, she recorded Circus (2008) and Femme Fatale (2011) for Jive, and Britney Jean (2013) and Glory (2016) for RCA Records. With the singles \"Womanizer\" (2008), \"3\" (2009), and \"Hold It Against Me\" (2011), she became the third woman to top the US Billboard Hot 100 in three decades. In 2019, Spears withdrew from regular concert touring to focus on her conservatorship case, leading to the #FreeBritney movement and the 2021 documentary Framing Britney Spears. Also in 2021, the conservatorship was dissolved after she publicly testified against her family and management for maltreatment. Her 2023 memoir, The Woman in Me, debuted atop The New York Times Best Seller list.\nSpears is one of the best-selling music artists of all time, with estimated sales of over 150 million records. Forbes named her as the world's highest-paid female musician in 2000 and 2012. She ranked among the 100 most influential people in the world by Time (2021) and the greatest pop stars of the 21st century by Billboard (2023). Her accolades include one Grammy Award, six MTV Video Music Awards (including the Michael Jackson Video Vanguard Award), seven Billboard Music Awards and a star on the Hollywood Walk of Fame. Outside of music, Spears has launched numerous products over the years, with her 2005 fragrance Fantasy with Elizabeth Arden, Inc. generating over $1.5 billion in sales by 2011.\n\nKevin Earl Federline (born March 21, 1978), also known as K-Fed, is an American dancer, actor, and DJ. He is known for being the ex husband of singer Britney Spears and the public child custody battle that followed their divorce. In 2006, Federline released a debut album, Playing with Fire, which was panned by critics as one of the worst albums ever released. He has since made a number of television and film appearances, and also worked as a DJ. His memoir, You Thought You Knew  was published on October 21, 2025.",
+  "bio_sources": [
+    {
+      "subject": "Britney Spears",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Britney_Spears"
+    },
+    {
+      "subject": "Kevin Federline",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Kevin_Federline"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "near-white background field",
+      "shape_type": "rectangle",
+      "meaning": "emphasizes the washed-out and fragile nature of the merged image"
+    },
+    {
+      "element": "overlapping pale face silhouettes",
+      "shape_type": "organic shape",
+      "meaning": "merges the couple into one unstable celebrity identity"
+    },
+    {
+      "element": "faint round pacifier-like eye",
+      "shape_type": "circle",
+      "meaning": "links the portrait to motherhood and dependence"
+    },
+    {
+      "element": "pale hair masses",
+      "shape_type": "organic shape",
+      "meaning": "separates the two figures within the blended composition"
+    },
+    {
+      "element": "angular pale jaw and collar shapes",
+      "shape_type": "geometric shape",
+      "meaning": "suggest a constructed, media-made relationship image"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "performance crown",
+      "visual_representation": "a small crown-like crest with sharp peaks",
+      "category": "symbol",
+      "relevance": "The biography explicitly uses a signature performance title.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/ehud_barak",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/ehud_barak/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_ehud-barak-1999-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+        "similarity": -0.0483948215842247
+      },
+      {
+        "index": 1,
+        "name": "02_ehud-barak-official-portrait-1999-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+        "similarity": -0.03986632823944092
+      },
+      {
+        "index": 2,
+        "name": "03_ehud-barak-1999-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+        "similarity": -0.04035503417253494
+      },
+      {
+        "index": 3,
+        "name": "05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+        "similarity": 0.00060156179824844
+      },
+      {
+        "index": 4,
+        "name": "07_blackstar-ehud-barak-portrait-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+        "similarity": -0.06022963672876358
+      },
+      {
+        "index": 5,
+        "name": "09_ehud-barak-official-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+        "similarity": -0.11517880111932755
+      },
+      {
+        "index": 6,
+        "name": "10_ehud-barak-00370493-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+        "similarity": -0.0029099062085151672
+      },
+      {
+        "index": 7,
+        "name": "11_ehud-barak-chief-of-general-staff-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+        "similarity": 7.349812221946195e-05
+      },
+      {
+        "index": 8,
+        "name": "12_ehud-barak-family-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+        "similarity": -0.004580697510391474
+      },
+      {
+        "index": 9,
+        "name": "13_ehud-barak-jpg.jpg",
+        "path": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+        "similarity": -0.02472097985446453
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.0483948215842247,
+          -0.03986632823944092,
+          -0.04035503417253494,
+          0.00060156179824844,
+          -0.06022963672876358,
+          -0.11517880111932755,
+          -0.0029099062085151672,
+          7.349812221946195e-05,
+          -0.004580697510391474,
+          -0.02472097985446453
+        ],
+        [
+          -0.0483948215842247,
+          0.9999999403953552,
+          0.7086024880409241,
+          0.8780457377433777,
+          0.5006564855575562,
+          0.5619094967842102,
+          0.46134132146835327,
+          0.5716402530670166,
+          0.5135199427604675,
+          0.054548557847738266,
+          0.5382677316665649
+        ],
+        [
+          -0.03986632823944092,
+          0.7086024880409241,
+          0.9999999403953552,
+          0.6713902950286865,
+          0.5251448750495911,
+          0.5328361392021179,
+          0.4339176416397095,
+          0.5410849452018738,
+          0.49199825525283813,
+          0.11452139914035797,
+          0.5684022903442383
+        ],
+        [
+          -0.04035503417253494,
+          0.8780457377433777,
+          0.6713902950286865,
+          0.9999999403953552,
+          0.503909170627594,
+          0.5024256706237793,
+          0.5290161371231079,
+          0.5477041006088257,
+          0.4939397871494293,
+          0.05187055468559265,
+          0.5068516135215759
+        ],
+        [
+          0.00060156179824844,
+          0.5006564855575562,
+          0.5251448750495911,
+          0.503909170627594,
+          1.0000001192092896,
+          0.5267353653907776,
+          0.5994579792022705,
+          0.5013746619224548,
+          0.4388875663280487,
+          0.0123716089874506,
+          0.4848228991031647
+        ],
+        [
+          -0.06022963672876358,
+          0.5619094967842102,
+          0.5328361392021179,
+          0.5024256706237793,
+          0.5267353653907776,
+          0.9999999403953552,
+          0.4992997646331787,
+          0.5903323888778687,
+          0.383201003074646,
+          0.03152037784457207,
+          0.4234495162963867
+        ],
+        [
+          -0.11517880111932755,
+          0.46134132146835327,
+          0.4339176416397095,
+          0.5290161371231079,
+          0.5994579792022705,
+          0.4992997646331787,
+          0.9999999403953552,
+          0.5557624697685242,
+          0.5474454164505005,
+          0.0830523893237114,
+          0.4794856011867523
+        ],
+        [
+          -0.0029099062085151672,
+          0.5716402530670166,
+          0.5410849452018738,
+          0.5477041006088257,
+          0.5013746619224548,
+          0.5903323888778687,
+          0.5557624697685242,
+          0.9999999403953552,
+          0.6134325265884399,
+          0.06668934971094131,
+          0.48329535126686096
+        ],
+        [
+          7.349812221946195e-05,
+          0.5135199427604675,
+          0.49199825525283813,
+          0.4939397871494293,
+          0.4388875663280487,
+          0.383201003074646,
+          0.5474454164505005,
+          0.6134325265884399,
+          1.0000001192092896,
+          0.04499436914920807,
+          0.5232306122779846
+        ],
+        [
+          -0.004580697510391474,
+          0.054548557847738266,
+          0.11452139914035797,
+          0.05187055468559265,
+          0.0123716089874506,
+          0.03152037784457207,
+          0.0830523893237114,
+          0.06668934971094131,
+          0.04499436914920807,
+          1.0000001192092896,
+          0.04811762645840645
+        ],
+        [
+          -0.02472097985446453,
+          0.5382677316665649,
+          0.5684022903442383,
+          0.5068516135215759,
+          0.4848228991031647,
+          0.4234495162963867,
+          0.4794856011867523,
+          0.48329535126686096,
+          0.5232306122779846,
+          0.04811762645840645,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_ehud-barak-1999-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg"
+    },
+    {
+      "name": "03_ehud-barak-1999-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg"
+    },
+    {
+      "name": "05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg"
+    },
+    {
+      "name": "09_ehud-barak-official-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg"
+    },
+    {
+      "name": "10_ehud-barak-00370493-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg"
+    },
+    {
+      "name": "11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg"
+    },
+    {
+      "name": "12_ehud-barak-family-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg"
+    },
+    {
+      "name": "13_ehud-barak-jpg.jpg",
+      "path": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "similarity": 0.7086024880409241
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+      "similarity": 0.8780457377433777
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "similarity": 0.5006564855575562
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "similarity": 0.5619094967842102
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+      "similarity": 0.46134132146835327
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+      "similarity": 0.5716402530670166
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "similarity": 0.5135199427604675
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+      "similarity": 0.054548557847738266
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/01_ehud-barak-1999-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+      "similarity": 0.5382677316665649
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+      "similarity": 0.6713902950286865
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "similarity": 0.5251448750495911
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "similarity": 0.5328361392021179
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+      "similarity": 0.4339176416397095
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+      "similarity": 0.5410849452018738
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "similarity": 0.49199825525283813
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+      "similarity": 0.11452139914035797
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+      "similarity": 0.5684022903442383
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "similarity": 0.503909170627594
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "similarity": 0.5024256706237793
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+      "similarity": 0.5290161371231079
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+      "similarity": 0.5477041006088257
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "similarity": 0.4939397871494293
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+      "similarity": 0.05187055468559265
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/03_ehud-barak-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+      "similarity": 0.5068516135215759
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "similarity": 0.5267353653907776
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+      "similarity": 0.5994579792022705
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+      "similarity": 0.5013746619224548
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "similarity": 0.4388875663280487
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+      "similarity": 0.0123716089874506
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+      "similarity": 0.4848228991031647
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+      "similarity": 0.4992997646331787
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+      "similarity": 0.5903323888778687
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "similarity": 0.383201003074646
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+      "similarity": 0.03152037784457207
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+      "similarity": 0.4234495162963867
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+      "similarity": 0.5557624697685242
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "similarity": 0.5474454164505005
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+      "similarity": 0.0830523893237114
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/09_ehud-barak-official-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+      "similarity": 0.4794856011867523
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "similarity": 0.6134325265884399
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+      "similarity": 0.06668934971094131
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/10_ehud-barak-00370493-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+      "similarity": 0.48329535126686096
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+      "similarity": 0.04499436914920807
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+      "similarity": 0.5232306122779846
+    },
+    {
+      "left": "/workspace/input/piven/data/ehud_barak/images/12_ehud-barak-family-jpg.jpg",
+      "right": "/workspace/input/piven/data/ehud_barak/images/13_ehud-barak-jpg.jpg",
+      "similarity": 0.04811762645840645
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_ehud-barak-1999-cropped-jpg.jpg",
+      "02_ehud-barak-official-portrait-1999-jpg.jpg",
+      "03_ehud-barak-1999-jpg.jpg",
+      "05_ehud-barak-2016-herzliya-conference-2016-3015-cropped-jpg.jpg",
+      "07_blackstar-ehud-barak-portrait-jpg.jpg",
+      "09_ehud-barak-official-jpg.jpg",
+      "10_ehud-barak-00370493-jpg.jpg",
+      "11_ehud-barak-chief-of-general-staff-jpg.jpg",
+      "12_ehud-barak-family-jpg.jpg",
+      "13_ehud-barak-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.7086024880409241,
+        0.8780457377433777,
+        0.5006564855575562,
+        0.5619094967842102,
+        0.46134132146835327,
+        0.5716402530670166,
+        0.5135199427604675,
+        0.054548557847738266,
+        0.5382677316665649
+      ],
+      [
+        0.7086024880409241,
+        0.9999999403953552,
+        0.6713902950286865,
+        0.5251448750495911,
+        0.5328361392021179,
+        0.4339176416397095,
+        0.5410849452018738,
+        0.49199825525283813,
+        0.11452139914035797,
+        0.5684022903442383
+      ],
+      [
+        0.8780457377433777,
+        0.6713902950286865,
+        0.9999999403953552,
+        0.503909170627594,
+        0.5024256706237793,
+        0.5290161371231079,
+        0.5477041006088257,
+        0.4939397871494293,
+        0.05187055468559265,
+        0.5068516135215759
+      ],
+      [
+        0.5006564855575562,
+        0.5251448750495911,
+        0.503909170627594,
+        1.0000001192092896,
+        0.5267353653907776,
+        0.5994579792022705,
+        0.5013746619224548,
+        0.4388875663280487,
+        0.0123716089874506,
+        0.4848228991031647
+      ],
+      [
+        0.5619094967842102,
+        0.5328361392021179,
+        0.5024256706237793,
+        0.5267353653907776,
+        0.9999999403953552,
+        0.4992997646331787,
+        0.5903323888778687,
+        0.383201003074646,
+        0.03152037784457207,
+        0.4234495162963867
+      ],
+      [
+        0.46134132146835327,
+        0.4339176416397095,
+        0.5290161371231079,
+        0.5994579792022705,
+        0.4992997646331787,
+        0.9999999403953552,
+        0.5557624697685242,
+        0.5474454164505005,
+        0.0830523893237114,
+        0.4794856011867523
+      ],
+      [
+        0.5716402530670166,
+        0.5410849452018738,
+        0.5477041006088257,
+        0.5013746619224548,
+        0.5903323888778687,
+        0.5557624697685242,
+        0.9999999403953552,
+        0.6134325265884399,
+        0.06668934971094131,
+        0.48329535126686096
+      ],
+      [
+        0.5135199427604675,
+        0.49199825525283813,
+        0.4939397871494293,
+        0.4388875663280487,
+        0.383201003074646,
+        0.5474454164505005,
+        0.6134325265884399,
+        1.0000001192092896,
+        0.04499436914920807,
+        0.5232306122779846
+      ],
+      [
+        0.054548557847738266,
+        0.11452139914035797,
+        0.05187055468559265,
+        0.0123716089874506,
+        0.03152037784457207,
+        0.0830523893237114,
+        0.06668934971094131,
+        0.04499436914920807,
+        1.0000001192092896,
+        0.04811762645840645
+      ],
+      [
+        0.5382677316665649,
+        0.5684022903442383,
+        0.5068516135215759,
+        0.4848228991031647,
+        0.4234495162963867,
+        0.4794856011867523,
+        0.48329535126686096,
+        0.5232306122779846,
+        0.04811762645840645,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/ehud_barak/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/ehud_barak/portrait.jpg"
+    }
+  ]
+}

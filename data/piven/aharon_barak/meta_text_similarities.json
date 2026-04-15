@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/piven/data/aharon_barak",
+  "meta_path": "/workspace/input/piven/data/aharon_barak/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Aharon Barak (Hebrew: \u05d0\u05d4\u05e8\u05df \u05d1\u05e8\u05e7; born Erik Brick; 16 September 1936) is an Israeli lawyer and jurist who served as President of the Supreme Court of Israel from 1995 to 2006. Prior to this, Barak served as a Justice of the Supreme Court of Israel from 1978 to 1995, and before this as Attorney General of Israel from 1975 to 1978.\nBorn in Lithuania in 1936 and having survived the Holocaust, he and his family later immigrated to Mandatory Palestine in 1947. He studied law, international relations and economics at the Hebrew University of Jerusalem, and obtained his Bachelor of Laws in 1958. Between 1958 and 1960, he was drafted into the Israeli military.\nFrom 1974 to 1975, Barak was dean of the law faculty of the Hebrew University of Jerusalem. Barak is currently a law professor at Reichman University in Herzliya, and has taught at institutions including Yale Law School, Central European University, Georgetown University Law Center, and the University of Toronto Faculty of Law.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "yarn"
+    },
+    {
+      "index": 1,
+      "element": "clock faces"
+    },
+    {
+      "index": 2,
+      "element": "rubber rings"
+    },
+    {
+      "index": 3,
+      "element": "clothespin"
+    },
+    {
+      "index": 4,
+      "element": "wire"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "court bench"
+    },
+    {
+      "index": 1,
+      "element": "barbed wire line"
+    },
+    {
+      "index": 2,
+      "element": "gavel block"
+    },
+    {
+      "index": 3,
+      "element": "scales emblem"
+    },
+    {
+      "index": 4,
+      "element": "medal bar"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "yarn",
+      "clock faces",
+      "rubber rings",
+      "clothespin",
+      "wire"
+    ],
+    "values": [
+      [
+        0.008284389972686768,
+        0.004531431943178177,
+        0.049830079078674316,
+        -0.04238962009549141,
+        -0.04822669178247452
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "court bench",
+      "barbed wire line",
+      "gavel block",
+      "scales emblem",
+      "medal bar"
+    ],
+    "column_labels": [
+      "yarn",
+      "clock faces",
+      "rubber rings",
+      "clothespin",
+      "wire"
+    ],
+    "values": [
+      [
+        0.11583872884511948,
+        0.12942105531692505,
+        0.005337398499250412,
+        0.0753355473279953,
+        0.10256681591272354
+      ],
+      [
+        0.17889150977134705,
+        0.18144457042217255,
+        0.21781322360038757,
+        0.33111774921417236,
+        0.48481494188308716
+      ],
+      [
+        0.11785992980003357,
+        0.16495509445667267,
+        0.10652722418308258,
+        0.21814846992492676,
+        0.15892907977104187
+      ],
+      [
+        0.2375853806734085,
+        0.2728174924850464,
+        0.12380598485469818,
+        0.18078014254570007,
+        0.1526699811220169
+      ],
+      [
+        0.07652640342712402,
+        0.13247938454151154,
+        0.1328698694705963,
+        0.25681453943252563,
+        0.1858041137456894
+      ]
+    ]
+  }
+}

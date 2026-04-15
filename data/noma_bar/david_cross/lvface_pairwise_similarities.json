@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/david_cross",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/david_cross/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "02_david-cross-32840211217-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+        "similarity": 0.027721809223294258
+      },
+      {
+        "index": 1,
+        "name": "03_david-cross-26420122915-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+        "similarity": 0.07559466361999512
+      },
+      {
+        "index": 2,
+        "name": "06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+        "similarity": 0.009249606169760227
+      },
+      {
+        "index": 3,
+        "name": "07_david-cross-4380487236-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+        "similarity": 0.12916091084480286
+      },
+      {
+        "index": 4,
+        "name": "08_david-cross-26420122915-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+        "similarity": 0.07837628573179245
+      },
+      {
+        "index": 5,
+        "name": "10_david-cross-32840211217-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+        "similarity": 0.03734629973769188
+      },
+      {
+        "index": 6,
+        "name": "11_david-cross-at-2007-plug-awards-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+        "similarity": -0.02641197480261326
+      },
+      {
+        "index": 7,
+        "name": "12_david-cross-2007-plug-awards-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+        "similarity": -0.107671357691288
+      },
+      {
+        "index": 8,
+        "name": "14_glover-talking-to-david-cross-2012-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+        "similarity": 0.2143547683954239
+      },
+      {
+        "index": 9,
+        "name": "david_cross.webp",
+        "path": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+        "similarity": 0.05965813249349594
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.027721809223294258,
+          0.07559466361999512,
+          0.009249606169760227,
+          0.12916091084480286,
+          0.07837628573179245,
+          0.03734629973769188,
+          -0.02641197480261326,
+          -0.107671357691288,
+          0.2143547683954239,
+          0.05965813249349594
+        ],
+        [
+          0.027721809223294258,
+          0.9999998807907104,
+          0.5308017134666443,
+          0.5074014663696289,
+          0.057055309414863586,
+          0.5694214105606079,
+          0.884417712688446,
+          0.406600683927536,
+          0.47470101714134216,
+          -0.028848223388195038,
+          0.4938880503177643
+        ],
+        [
+          0.07559466361999512,
+          0.5308017134666443,
+          1.0,
+          0.569427490234375,
+          0.07837744802236557,
+          0.8962452411651611,
+          0.5083509087562561,
+          0.3874242305755615,
+          0.417103111743927,
+          0.003289391752332449,
+          0.4616985619068146
+        ],
+        [
+          0.009249606169760227,
+          0.5074014663696289,
+          0.569427490234375,
+          0.9999998807907104,
+          0.07284726947546005,
+          0.561592161655426,
+          0.4754795730113983,
+          0.42615485191345215,
+          0.4370235800743103,
+          0.0379328690469265,
+          0.4306846857070923
+        ],
+        [
+          0.12916091084480286,
+          0.057055309414863586,
+          0.07837744802236557,
+          0.07284726947546005,
+          1.0,
+          0.08278491348028183,
+          0.07162752002477646,
+          0.009093977510929108,
+          0.017649514600634575,
+          0.013005604967474937,
+          0.041713640093803406
+        ],
+        [
+          0.07837628573179245,
+          0.5694214105606079,
+          0.8962452411651611,
+          0.561592161655426,
+          0.08278491348028183,
+          1.0,
+          0.5409115552902222,
+          0.4406788647174835,
+          0.44970160722732544,
+          0.011618048883974552,
+          0.48677071928977966
+        ],
+        [
+          0.03734629973769188,
+          0.884417712688446,
+          0.5083509087562561,
+          0.4754795730113983,
+          0.07162752002477646,
+          0.5409115552902222,
+          1.0,
+          0.39810967445373535,
+          0.45746973156929016,
+          0.00890287198126316,
+          0.478603333234787
+        ],
+        [
+          -0.02641197480261326,
+          0.406600683927536,
+          0.3874242305755615,
+          0.42615485191345215,
+          0.009093977510929108,
+          0.4406788647174835,
+          0.39810967445373535,
+          1.0,
+          0.4953606128692627,
+          0.00983879528939724,
+          0.5030731558799744
+        ],
+        [
+          -0.107671357691288,
+          0.47470101714134216,
+          0.417103111743927,
+          0.4370235800743103,
+          0.017649514600634575,
+          0.44970160722732544,
+          0.45746973156929016,
+          0.4953606128692627,
+          1.0,
+          -0.019719742238521576,
+          0.4942426085472107
+        ],
+        [
+          0.2143547683954239,
+          -0.028848223388195038,
+          0.003289391752332449,
+          0.0379328690469265,
+          0.013005604967474937,
+          0.011618048883974552,
+          0.00890287198126316,
+          0.00983879528939724,
+          -0.019719742238521576,
+          1.0000001192092896,
+          -0.0013792128302156925
+        ],
+        [
+          0.05965813249349594,
+          0.4938880503177643,
+          0.4616985619068146,
+          0.4306846857070923,
+          0.041713640093803406,
+          0.48677071928977966,
+          0.478603333234787,
+          0.5030731558799744,
+          0.4942426085472107,
+          -0.0013792128302156925,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "02_david-cross-32840211217-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_david-cross-26420122915-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg"
+    },
+    {
+      "name": "07_david-cross-4380487236-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg"
+    },
+    {
+      "name": "08_david-cross-26420122915-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg"
+    },
+    {
+      "name": "10_david-cross-32840211217-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg"
+    },
+    {
+      "name": "11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg"
+    },
+    {
+      "name": "12_david-cross-2007-plug-awards-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg"
+    },
+    {
+      "name": "14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg"
+    },
+    {
+      "name": "david_cross.webp",
+      "path": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+      "similarity": 0.5308017134666443
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "similarity": 0.5074014663696289
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+      "similarity": 0.057055309414863586
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+      "similarity": 0.5694214105606079
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+      "similarity": 0.884417712688446
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "similarity": 0.406600683927536
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+      "similarity": 0.47470101714134216
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "similarity": -0.028848223388195038
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/02_david-cross-32840211217-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+      "similarity": 0.4938880503177643
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "similarity": 0.569427490234375
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+      "similarity": 0.07837744802236557
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+      "similarity": 0.8962452411651611
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+      "similarity": 0.5083509087562561
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "similarity": 0.3874242305755615
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+      "similarity": 0.417103111743927
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "similarity": 0.003289391752332449
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/03_david-cross-26420122915-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+      "similarity": 0.4616985619068146
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+      "similarity": 0.07284726947546005
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+      "similarity": 0.561592161655426
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+      "similarity": 0.4754795730113983
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "similarity": 0.42615485191345215
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+      "similarity": 0.4370235800743103
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "similarity": 0.0379328690469265
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+      "similarity": 0.4306846857070923
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+      "similarity": 0.08278491348028183
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+      "similarity": 0.07162752002477646
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "similarity": 0.009093977510929108
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+      "similarity": 0.017649514600634575
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "similarity": 0.013005604967474937
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/07_david-cross-4380487236-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+      "similarity": 0.041713640093803406
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+      "similarity": 0.5409115552902222
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "similarity": 0.4406788647174835
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+      "similarity": 0.44970160722732544
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "similarity": 0.011618048883974552
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/08_david-cross-26420122915-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+      "similarity": 0.48677071928977966
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "similarity": 0.39810967445373535
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+      "similarity": 0.45746973156929016
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "similarity": 0.00890287198126316
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/10_david-cross-32840211217-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+      "similarity": 0.478603333234787
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+      "similarity": 0.4953606128692627
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "similarity": 0.00983879528939724
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+      "similarity": 0.5030731558799744
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "similarity": -0.019719742238521576
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/12_david-cross-2007-plug-awards-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+      "similarity": 0.4942426085472107
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/david_cross/images/14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/david_cross/images/david_cross.webp",
+      "similarity": -0.0013792128302156925
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "02_david-cross-32840211217-cropped-jpg.jpg",
+      "03_david-cross-26420122915-cropped-jpg.jpg",
+      "06_david-cross-dan-depew-wikiportrait-jpg.jpg",
+      "07_david-cross-4380487236-jpg.jpg",
+      "08_david-cross-26420122915-jpg.jpg",
+      "10_david-cross-32840211217-jpg.jpg",
+      "11_david-cross-at-2007-plug-awards-jpg.jpg",
+      "12_david-cross-2007-plug-awards-jpg.jpg",
+      "14_glover-talking-to-david-cross-2012-jpg.jpg",
+      "david_cross.webp"
+    ],
+    "values": [
+      [
+        0.9999998807907104,
+        0.5308017134666443,
+        0.5074014663696289,
+        0.057055309414863586,
+        0.5694214105606079,
+        0.884417712688446,
+        0.406600683927536,
+        0.47470101714134216,
+        -0.028848223388195038,
+        0.4938880503177643
+      ],
+      [
+        0.5308017134666443,
+        1.0,
+        0.569427490234375,
+        0.07837744802236557,
+        0.8962452411651611,
+        0.5083509087562561,
+        0.3874242305755615,
+        0.417103111743927,
+        0.003289391752332449,
+        0.4616985619068146
+      ],
+      [
+        0.5074014663696289,
+        0.569427490234375,
+        0.9999998807907104,
+        0.07284726947546005,
+        0.561592161655426,
+        0.4754795730113983,
+        0.42615485191345215,
+        0.4370235800743103,
+        0.0379328690469265,
+        0.4306846857070923
+      ],
+      [
+        0.057055309414863586,
+        0.07837744802236557,
+        0.07284726947546005,
+        1.0,
+        0.08278491348028183,
+        0.07162752002477646,
+        0.009093977510929108,
+        0.017649514600634575,
+        0.013005604967474937,
+        0.041713640093803406
+      ],
+      [
+        0.5694214105606079,
+        0.8962452411651611,
+        0.561592161655426,
+        0.08278491348028183,
+        1.0,
+        0.5409115552902222,
+        0.4406788647174835,
+        0.44970160722732544,
+        0.011618048883974552,
+        0.48677071928977966
+      ],
+      [
+        0.884417712688446,
+        0.5083509087562561,
+        0.4754795730113983,
+        0.07162752002477646,
+        0.5409115552902222,
+        1.0,
+        0.39810967445373535,
+        0.45746973156929016,
+        0.00890287198126316,
+        0.478603333234787
+      ],
+      [
+        0.406600683927536,
+        0.3874242305755615,
+        0.42615485191345215,
+        0.009093977510929108,
+        0.4406788647174835,
+        0.39810967445373535,
+        1.0,
+        0.4953606128692627,
+        0.00983879528939724,
+        0.5030731558799744
+      ],
+      [
+        0.47470101714134216,
+        0.417103111743927,
+        0.4370235800743103,
+        0.017649514600634575,
+        0.44970160722732544,
+        0.45746973156929016,
+        0.4953606128692627,
+        1.0,
+        -0.019719742238521576,
+        0.4942426085472107
+      ],
+      [
+        -0.028848223388195038,
+        0.003289391752332449,
+        0.0379328690469265,
+        0.013005604967474937,
+        0.011618048883974552,
+        0.00890287198126316,
+        0.00983879528939724,
+        -0.019719742238521576,
+        1.0000001192092896,
+        -0.0013792128302156925
+      ],
+      [
+        0.4938880503177643,
+        0.4616985619068146,
+        0.4306846857070923,
+        0.041713640093803406,
+        0.48677071928977966,
+        0.478603333234787,
+        0.5030731558799744,
+        0.4942426085472107,
+        -0.0013792128302156925,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/david_cross/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/david_cross/portrait.jpg"
+    }
+  ]
+}

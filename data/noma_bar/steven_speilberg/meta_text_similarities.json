@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/steven_speilberg",
+  "meta_path": "/workspace/input/noma_bar/data/steven_speilberg/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Steven Allan Spielberg (; born December 18, 1946) is an American filmmaker. A major figure of the New Hollywood era and pioneer of the modern blockbuster, Spielberg is widely regarded as one of the greatest and most influential filmmakers in the history of cinema and is the highest-grossing film director of all time. Among other accolades, he has received three Academy Awards, four Golden Globe Awards, four BAFTA Awards, twelve Emmy Awards, a Tony Award, and a Grammy Award, as well as the AFI Life Achievement Award in 1995, an honorary knighthood in 2001, the Kennedy Center Honor in 2006, the Cecil B. DeMille Award in 2009, the Presidential Medal of Freedom in 2015, and the National Medal of Arts in 2023. According to Forbes, he is the world's wealthiest celebrity. He is one of 22 people to achieve EGOT status.\nSpielberg was born in Cincinnati, Ohio, and grew up in Phoenix, Arizona. He moved to California and studied film in college. After directing several episodes for television, including Night Gallery and Columbo, he directed the television film Duel (1971), which was approved by Barry Diller. He made his theatrical debut with The Sugarland Express (1974), also beginning his decades-long collaboration with composer John Williams, with whom he has worked with for all but five of his theatrical releases. He became a household name with the summer blockbuster Jaws (1975), and continuously directed more acclaimed escapist box-office blockbusters with Close Encounters of the Third Kind (1977), E.T. the Extra-Terrestrial (1982) and the original Indiana Jones trilogy (1981\u20131989). He also explored drama in The Color Purple (1985) and Empire of the Sun (1987).\nIn 1993, Spielberg directed back-to-back hits with the science fiction film Jurassic Park, the highest-grossing film ever at the time, and the epic historical drama Schindler's List, which has often been listed as one of the greatest films ever made. He won the Academy Award for Best Director for the latter as well as for the World War II epic Saving Private Ryan (1998). Spielberg has since directed the science fiction films A.I. Artificial Intelligence (2001), Minority Report (2002), War of the Worlds (2005) and Ready Player One (2018); the historical dramas Amistad (1997), Munich (2005), War Horse (2011), Lincoln (2012), Bridge of Spies (2015) and The Post (2017); the comedies Catch Me If You Can (2002) and The Terminal (2004); the animated film The Adventures of Tintin (2011); the musical West Side Story (2021); and the family drama The Fabelmans (2022).\nSpielberg co-founded Amblin Entertainment and DreamWorks Pictures, and he has served as a producer for many successful films and television series, among them Poltergeist (1982), Gremlins (1984), Back to the Future (1985), An American Tail (1986), Who Framed Roger Rabbit (1988), Animaniacs (1993), Freakazoid! (1995), Twister (1996), Band of Brothers (2001) and Transformers (2007\u2013present). Several of Spielberg's works are considered among the greatest films in history, and some are among the highest-grossing films ever.\nSeven of his films have been inducted into the National Film Registry by the Library of Congress as being \"culturally, historically or aesthetically significant\". In 2013, Time listed him as one of the 100 most influential people, and in 2023, Spielberg was the recipient of the first ever Time 100 Impact Award in the US.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "pale background field"
+    },
+    {
+      "index": 1,
+      "element": "blue cap shape"
+    },
+    {
+      "index": 2,
+      "element": "black camera body as lower face"
+    },
+    {
+      "index": 3,
+      "element": "camera lens cone on the right"
+    },
+    {
+      "index": 4,
+      "element": "tripod legs below"
+    },
+    {
+      "index": 5,
+      "element": "large round eyes"
+    },
+    {
+      "index": 6,
+      "element": "small red smile line"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "camera body"
+    },
+    {
+      "index": 2,
+      "element": "film strip"
+    },
+    {
+      "index": 3,
+      "element": "clapboard"
+    },
+    {
+      "index": 4,
+      "element": "projector beam"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "pale background field",
+      "blue cap shape",
+      "black camera body as lower face",
+      "camera lens cone on the right",
+      "tripod legs below",
+      "large round eyes",
+      "small red smile line"
+    ],
+    "values": [
+      [
+        0.028167376294732094,
+        -0.12166504561901093,
+        0.04377152770757675,
+        0.0798085480928421,
+        0.07519969344139099,
+        0.057886797934770584,
+        -0.12058943510055542
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "camera body",
+      "film strip",
+      "clapboard",
+      "projector beam"
+    ],
+    "column_labels": [
+      "pale background field",
+      "blue cap shape",
+      "black camera body as lower face",
+      "camera lens cone on the right",
+      "tripod legs below",
+      "large round eyes",
+      "small red smile line"
+    ],
+    "values": [
+      [
+        0.4451000988483429,
+        0.2952088415622711,
+        0.24352622032165527,
+        0.16048532724380493,
+        0.23108232021331787,
+        0.23729877173900604,
+        0.19758254289627075
+      ],
+      [
+        0.2966110110282898,
+        0.18654277920722961,
+        0.6202083826065063,
+        0.4078828692436218,
+        0.3823656439781189,
+        0.23800620436668396,
+        0.17787614464759827
+      ],
+      [
+        0.2914186120033264,
+        0.14380362629890442,
+        0.1330549269914627,
+        0.16005587577819824,
+        0.18434545397758484,
+        0.06505827605724335,
+        0.1256532520055771
+      ],
+      [
+        0.12268950045108795,
+        0.21977072954177856,
+        0.07337778806686401,
+        0.08939821273088455,
+        0.1364174783229828,
+        0.11868486553430557,
+        0.19239647686481476
+      ],
+      [
+        0.17482677102088928,
+        0.05681920796632767,
+        0.10031701624393463,
+        0.3540710508823395,
+        0.15912233293056488,
+        0.0875450074672699,
+        0.07024835795164108
+      ]
+    ]
+  }
+}

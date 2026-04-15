@@ -1,0 +1,75 @@
+{
+  "name": "dan shilon",
+  "bio": "Dan Shilon (Hebrew: דן שילון; born 24 October 1940) is an Israeli television host, director, and producer.",
+  "bio_sources": [
+    {
+      "subject": "dan shilon",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Dan_Shilon"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "plate",
+      "shape_type": "household object",
+      "meaning": "turns an everyday item into a facial feature, emphasizing the handmade reading of dan shilon's television hosting and light entertainment."
+    },
+    {
+      "element": "licorice strips",
+      "shape_type": "organic object",
+      "meaning": "adds an earthy, bodily note that keeps dan shilon's television hosting and light entertainment tactile and human."
+    },
+    {
+      "element": "ring candies",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen dan shilon's television hosting and light entertainment."
+    },
+    {
+      "element": "candy",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing dan shilon's television hosting and light entertainment."
+    },
+    {
+      "element": "striped candy",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing dan shilon's television hosting and light entertainment."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "studio microphone",
+      "visual_representation": "a suspended microphone with a visible cable or stand",
+      "category": "object",
+      "relevance": "Hosting, presenting, or broadcasting are central to the subject’s media world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "signal waves",
+      "visual_representation": "radiating curved lines spreading from a single point",
+      "category": "pattern",
+      "relevance": "Transmission and broadcast media belong to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "screen frame",
+      "visual_representation": "a bright rectangular frame with a clear border",
+      "category": "structure",
+      "relevance": "Television and mediated public communication are part of the subject’s environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "headline band",
+      "visual_representation": "stacked horizontal bands like captions or headline strips",
+      "category": "pattern",
+      "relevance": "The biography supports a media persona built around public communication.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "control panel",
+      "visual_representation": "a row of sliders and small lit buttons",
+      "category": "object",
+      "relevance": "Studios and live production equipment belong to the subject’s broadcast environment.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

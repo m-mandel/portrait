@@ -1,0 +1,249 @@
+{
+  "folder": "/workspace/input/noma_bar/data/ned_kelly",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/ned_kelly/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_ned-kelly-deathmask-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ned_kelly/images/01_ned-kelly-deathmask-2-jpg.jpg",
+        "similarity": -0.05595143884420395
+      },
+      {
+        "index": 1,
+        "name": "02_ned-kelly-in-1880-png.png",
+        "path": "/workspace/input/noma_bar/data/ned_kelly/images/02_ned-kelly-in-1880-png.png",
+        "similarity": -0.036833636462688446
+      },
+      {
+        "index": 2,
+        "name": "03_ned-kelly-1874-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ned_kelly/images/03_ned-kelly-1874-jpg.jpg",
+        "similarity": -0.05457485467195511
+      },
+      {
+        "index": 3,
+        "name": "09_ned-kelly-mugshot-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ned_kelly/images/09_ned-kelly-mugshot-jpg.jpg",
+        "similarity": -0.04254276677966118
+      },
+      {
+        "index": 4,
+        "name": "11_ned-kelly-attemps-to-derail-train-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ned_kelly/images/11_ned-kelly-attemps-to-derail-train-jpg.jpg",
+        "similarity": -0.10394861549139023
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.05595143884420395,
+          -0.036833636462688446,
+          -0.05457485467195511,
+          -0.04254276677966118,
+          -0.10394861549139023
+        ],
+        [
+          -0.05595143884420395,
+          1.0,
+          0.1564074605703354,
+          0.17454780638217926,
+          0.1716192066669464,
+          0.02387845516204834
+        ],
+        [
+          -0.036833636462688446,
+          0.1564074605703354,
+          0.9999999403953552,
+          0.19904479384422302,
+          0.17722511291503906,
+          -0.0633983314037323
+        ],
+        [
+          -0.05457485467195511,
+          0.17454780638217926,
+          0.19904479384422302,
+          1.0,
+          0.5327438116073608,
+          -0.009577004238963127
+        ],
+        [
+          -0.04254276677966118,
+          0.1716192066669464,
+          0.17722511291503906,
+          0.5327438116073608,
+          1.0000001192092896,
+          -0.09322479367256165
+        ],
+        [
+          -0.10394861549139023,
+          0.02387845516204834,
+          -0.0633983314037323,
+          -0.009577004238963127,
+          -0.09322479367256165,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_ned-kelly-deathmask-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/01_ned-kelly-deathmask-2-jpg.jpg"
+    },
+    {
+      "name": "02_ned-kelly-in-1880-png.png",
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/02_ned-kelly-in-1880-png.png"
+    },
+    {
+      "name": "03_ned-kelly-1874-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/03_ned-kelly-1874-jpg.jpg"
+    },
+    {
+      "name": "09_ned-kelly-mugshot-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/09_ned-kelly-mugshot-jpg.jpg"
+    },
+    {
+      "name": "11_ned-kelly-attemps-to-derail-train-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/11_ned-kelly-attemps-to-derail-train-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/01_ned-kelly-deathmask-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/02_ned-kelly-in-1880-png.png",
+      "similarity": 0.1564074605703354
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/01_ned-kelly-deathmask-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/03_ned-kelly-1874-jpg.jpg",
+      "similarity": 0.17454780638217926
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/01_ned-kelly-deathmask-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/09_ned-kelly-mugshot-jpg.jpg",
+      "similarity": 0.1716192066669464
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/01_ned-kelly-deathmask-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/11_ned-kelly-attemps-to-derail-train-jpg.jpg",
+      "similarity": 0.02387845516204834
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/02_ned-kelly-in-1880-png.png",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/03_ned-kelly-1874-jpg.jpg",
+      "similarity": 0.19904479384422302
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/02_ned-kelly-in-1880-png.png",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/09_ned-kelly-mugshot-jpg.jpg",
+      "similarity": 0.17722511291503906
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/02_ned-kelly-in-1880-png.png",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/11_ned-kelly-attemps-to-derail-train-jpg.jpg",
+      "similarity": -0.0633983314037323
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/03_ned-kelly-1874-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/09_ned-kelly-mugshot-jpg.jpg",
+      "similarity": 0.5327438116073608
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/03_ned-kelly-1874-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/11_ned-kelly-attemps-to-derail-train-jpg.jpg",
+      "similarity": -0.009577004238963127
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ned_kelly/images/09_ned-kelly-mugshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ned_kelly/images/11_ned-kelly-attemps-to-derail-train-jpg.jpg",
+      "similarity": -0.09322479367256165
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_ned-kelly-deathmask-2-jpg.jpg",
+      "02_ned-kelly-in-1880-png.png",
+      "03_ned-kelly-1874-jpg.jpg",
+      "09_ned-kelly-mugshot-jpg.jpg",
+      "11_ned-kelly-attemps-to-derail-train-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.1564074605703354,
+        0.17454780638217926,
+        0.1716192066669464,
+        0.02387845516204834
+      ],
+      [
+        0.1564074605703354,
+        0.9999999403953552,
+        0.19904479384422302,
+        0.17722511291503906,
+        -0.0633983314037323
+      ],
+      [
+        0.17454780638217926,
+        0.19904479384422302,
+        1.0,
+        0.5327438116073608,
+        -0.009577004238963127
+      ],
+      [
+        0.1716192066669464,
+        0.17722511291503906,
+        0.5327438116073608,
+        1.0000001192092896,
+        -0.09322479367256165
+      ],
+      [
+        0.02387845516204834,
+        -0.0633983314037323,
+        -0.009577004238963127,
+        -0.09322479367256165,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/ned_kelly/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/ned_kelly/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/07_ned-kelly-pie-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/ned_kelly/images/07_ned-kelly-pie-jpg.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/08_ned-kelly-arrmour-1-5521432930-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/ned_kelly/images/08_ned-kelly-arrmour-1-5521432930-jpg.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/14_ned-kelly-guarding-the-mail-boxes-1-2155822264-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/ned_kelly/images/14_ned-kelly-guarding-the-mail-boxes-1-2155822264-jpg.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/15_image-taken-from-page-297-of-ned-kelly-the-ironclad-australian-bushranger-by-j-s-borlase-11186906935-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/ned_kelly/images/15_image-taken-from-page-297-of-ned-kelly-the-ironclad-australian-bushranger-by-j-s-borlase-11186906935-jpg.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/ned_kelly/images/16_ned-kelly-green-sash-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/ned_kelly/images/16_ned-kelly-green-sash-jpg.jpg"
+    }
+  ]
+}

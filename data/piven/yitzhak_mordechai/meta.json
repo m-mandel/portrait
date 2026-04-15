@@ -1,0 +1,65 @@
+{
+  "name": "yitzhak mordechai",
+  "bio": "Yitzhak \"Itzik\" Mordechai (Hebrew: יצחק מרדכי; born 22 November 1944) is an Israeli former general and politician. He served as a member of the Knesset between 1996 and 2001, and as Minister of Defense and Minister of Transport. He retired from political life after being indicted for sexual assaults during his military service and later periods.",
+  "bio_sources": [
+    {
+      "subject": "yitzhak mordechai",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Yitzhak_Mordechai"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "shoe",
+      "shape_type": "household object",
+      "meaning": "turns an everyday item into a facial feature, emphasizing the handmade reading of yitzhak mordechai's military discipline and command presence."
+    },
+    {
+      "element": "shoelaces",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing yitzhak mordechai's military discipline and command presence."
+    },
+    {
+      "element": "black strips",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing yitzhak mordechai's military discipline and command presence."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "campaign map",
+      "visual_representation": "directional arrows moving over a gridded field",
+      "category": "structure",
+      "relevance": "Strategy, operations, and command planning belong to the subject’s military world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "shield plate",
+      "visual_representation": "a solid protective plate with clean hard edges",
+      "category": "symbol",
+      "relevance": "Defense and force are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "command shadow",
+      "visual_representation": "a dark angular field suggesting pressure and force",
+      "category": "personality",
+      "relevance": "The biography supports an image shaped by command, conflict, and hard decisions.",
+      "grounding": "inferred"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "bruce springsteen",
+  "bio": "Bruce Frederick Joseph Springsteen (born September 23, 1949) is an American singer, songwriter, and musician. Nicknamed \"the Boss\", Springsteen has released 21 studio albums spanning six decades; most of his albums feature the E Street Band, his backing band since 1972.\nSpringsteen released his first two albums, Greetings from Asbury Park, N.J. and The Wild, the Innocent & the E Street Shuffle, in 1973. He achieved worldwide popularity with Born to Run (1975). Springsteen followed with Darkness on the Edge of Town (1978) and The River (1980), Springsteen's first album to top the Billboard 200 chart. After the solo acoustic album Nebraska (1982), he recorded Born in the U.S.A. (1984) with the E Street Band, which became his most commercially successful album and the 23rd-best-selling album ever as of 2024. Springsteen mostly hired session musicians for the recording of his next three albums, Tunnel of Love (1987), Human Touch (1992), and Lucky Town (1992). He reassembled the E Street Band for Greatest Hits (1995), and recorded the acoustic album The Ghost of Tom Joad (1995) and the EP Blood Brothers (1996) solo.\nFollowing the Bruce Springsteen and the E Street Band Reunion Tour in 1999 and 2000, Springsteen released The Rising (2002), which was dedicated to the victims of the September 11 attacks. This was followed by two folk albums, Devils & Dust (2005) and We Shall Overcome: The Seeger Sessions (2006), his first cover album. Springsteen followed with Magic (2007), Working on a Dream (2009), Wrecking Ball (2012), and High Hopes (2014). From 2017 and 2021, Springsteen performed Springsteen on Broadway, performing songs and telling stories from his 2016 autobiography. He released the solo album Western Stars in 2019, Letter to You with the E Street Band in 2020, and a solo cover album Only the Strong Survive in 2022. With Letter to You, Springsteen became the first artist to release a top-five album in six consecutive decades. He released the politically charged \"Streets of Minneapolis\" in 2026, which quickly rose to the iTunes Top Songs chart.\nA prominent musician from the album era, Springsteen has sold more than 140 million records worldwide, making him one of the best-selling music artists of all time. His accolades include 20 Grammy Awards, two Golden Globes, an Academy Award, and a Special Tony Award. He was inducted into the Songwriters Hall of Fame and the Rock and Roll Hall of Fame in 1999, received the Kennedy Center Honors in 2009, was named MusiCares person of the year in 2013, and was awarded the Presidential Medal of Freedom in 2016 and the National Medal of Arts in 2023. In 2010, Rolling Stone ranked Springsteen 23rd on its list of the \"100 Greatest Artists of All Time\", describing him as \"the embodiment of rock and roll\". In 2025, Springsteen became one of only five artists to gross over $2.3 billion in touring thanks to his 2023–2025 Tour with the E Street Band.",
+  "bio_sources": [
+    {
+      "subject": "bruce springsteen",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Bruce_Springsteen"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "denim fabric",
+      "shape_type": "textile object",
+      "meaning": "grounds the portrait in blue-collar American style."
+    },
+    {
+      "element": "cassette tape ribbon",
+      "shape_type": "linear object",
+      "meaning": "ties the portrait to recorded music and analog rock culture."
+    },
+    {
+      "element": "bandanna",
+      "shape_type": "textile object",
+      "meaning": "adds working-class, road-worn stage toughness."
+    },
+    {
+      "element": "belt",
+      "shape_type": "linear object",
+      "meaning": "supports the portrait's laboring, blue-jeans physicality."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "spotlight oval",
+      "visual_representation": "a soft illuminated oval like a stage light pool",
+      "category": "shape",
+      "relevance": "The biography supports a public image built around performance and attention.",
+      "grounding": "inferred"
+    }
+  ]
+}

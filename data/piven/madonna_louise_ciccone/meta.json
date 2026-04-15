@@ -1,0 +1,60 @@
+{
+  "name": "Madonna",
+  "bio": "Madonna Louise Ciccone ( chih-KOH-nee; born August 16, 1958) is an American singer, songwriter, record producer, and actress. Dubbed the \"Queen of Pop\", she is known for her continual reinvention and versatility in music production, songwriting, and visual presentation. Her works incorporate social, political, sexual, and religious themes and have generated both controversy and critical acclaim. Madonna has had a significant socio-cultural impact across both the 20th and 21st centuries and is often deemed one of the greatest musicians of all time.\nMadonna moved to New York City in 1978 to pursue a career in dance. After performing as a drummer, guitarist, and vocalist in the rock bands Breakfast Club and Emmy, she rose to solo stardom with her debut studio album, Madonna (1983). She has since earned eighteen multi-platinum albums globally, including Like a Virgin (1984), True Blue (1986), and The Immaculate Collection (1990)—some of the best-selling albums of all time—and Confessions on a Dance Floor (2005), her 21st-century bestseller. Like a Prayer (1989), Ray of Light (1998), and Music (2000) were ranked among Rolling Stone's greatest albums of all time. Madonna's top-charting singles include \"Like a Virgin\", \"Material Girl\", \"La Isla Bonita\", \"Like a Prayer\", \"Vogue\", \"Take a Bow\", \"Frozen\", \"Music\", \"Hung Up\", and \"4 Minutes\". \nMadonna has starred in films such as Desperately Seeking Susan (1985), Dick Tracy (1990), A League of Their Own (1992), and Evita (1996), with the lattermost winning her a Golden Globe Award for Best Actress. Many of her other films were not well-received. Her business endeavors encompass the entertainment company Maverick (1992–2009), which included Maverick Records—one of the most successful artist-run labels. Madonna has also pursued fashion brands, written works, health clubs, and filmmaking. She contributes to various charities, having founded the Ray of Light Foundation in 1998 and Raising Malawi in 2006, and advocates for gender equality and LGBT rights.\nMadonna is the best-selling female music artist of all time and the first female performer to accumulate US$1 billion from her concerts. She is the most successful solo artist on the US Billboard Hot 100 and has twelve number-one singles on the chart. Her accolades include seven Grammy Awards, two Golden Globe Awards, twenty MTV Video Music Awards, and an induction into the Rock and Roll Hall of Fame in her first year of eligibility. Madonna was the world's highest-paid female musician for a record eleven years across four decades (1980s–2010s). She has become the subject of various scholarly, literary, and artistic works, as well as a mini-academic sub-discipline called Madonna studies.",
+  "bio_sources": [
+    {
+      "subject": "Madonna",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Madonna"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "bra cups",
+      "shape_type": "found object",
+      "meaning": "push the portrait toward sexual display and deliberate self-staging."
+    },
+    {
+      "element": "handcuffs",
+      "shape_type": "found object",
+      "meaning": "add provocation, control, and fetishized pop transgression."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "city skyline",
+      "visual_representation": "a row of narrow vertical blocks like tall buildings",
+      "category": "place",
+      "relevance": "The biography explicitly ties the subject to New York City.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen production define the subject’s domain.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

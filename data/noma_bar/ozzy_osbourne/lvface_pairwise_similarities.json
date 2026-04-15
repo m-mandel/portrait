@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/ozzy_osbourne",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/ozzy_osbourne/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_ozzy-osbourne-crop-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg",
+        "similarity": 0.03394627198576927
+      },
+      {
+        "index": 1,
+        "name": "02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+        "similarity": 0.03645874187350273
+      },
+      {
+        "index": 2,
+        "name": "03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+        "similarity": 0.0019230579491704702
+      },
+      {
+        "index": 3,
+        "name": "04_ozzy-osbourne-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg",
+        "similarity": 0.02210761234164238
+      },
+      {
+        "index": 4,
+        "name": "07_ozzy-osbourne-4489681189-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg",
+        "similarity": 0.07592667639255524
+      },
+      {
+        "index": 5,
+        "name": "07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+        "similarity": 0.048180706799030304
+      },
+      {
+        "index": 6,
+        "name": "10_ozzyosbourne-2-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg",
+        "similarity": 0.08193904906511307
+      },
+      {
+        "index": 7,
+        "name": "12_ozzy-osbourne-1973-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg",
+        "similarity": 0.09592260420322418
+      },
+      {
+        "index": 8,
+        "name": "14_ozzy-osbourne-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg",
+        "similarity": 0.06273800879716873
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.03394627198576927,
+          0.03645874187350273,
+          0.0019230579491704702,
+          0.02210761234164238,
+          0.07592667639255524,
+          0.048180706799030304,
+          0.08193904906511307,
+          0.09592260420322418,
+          0.06273800879716873
+        ],
+        [
+          0.03394627198576927,
+          0.9999998807907104,
+          0.30215030908584595,
+          -0.02353745885193348,
+          0.9580472707748413,
+          0.10403759032487869,
+          0.3186684548854828,
+          0.33837997913360596,
+          0.22191709280014038,
+          0.29503050446510315
+        ],
+        [
+          0.03645874187350273,
+          0.30215030908584595,
+          0.9999998807907104,
+          0.020422859117388725,
+          0.30349335074424744,
+          0.1181262731552124,
+          0.5210696458816528,
+          0.4444316029548645,
+          0.46535366773605347,
+          0.2712269127368927
+        ],
+        [
+          0.0019230579491704702,
+          -0.02353745885193348,
+          0.020422859117388725,
+          1.0,
+          -0.02003505267202854,
+          0.05151583254337311,
+          -0.01549535896629095,
+          0.03983265906572342,
+          -0.026848234236240387,
+          0.057472825050354004
+        ],
+        [
+          0.02210761234164238,
+          0.9580472707748413,
+          0.30349335074424744,
+          -0.02003505267202854,
+          1.0,
+          0.08522269874811172,
+          0.3197907507419586,
+          0.33372920751571655,
+          0.24123534560203552,
+          0.29465141892433167
+        ],
+        [
+          0.07592667639255524,
+          0.10403759032487869,
+          0.1181262731552124,
+          0.05151583254337311,
+          0.08522269874811172,
+          1.0,
+          0.09654013812541962,
+          0.1542937308549881,
+          0.1333937793970108,
+          0.10740214586257935
+        ],
+        [
+          0.048180706799030304,
+          0.3186684548854828,
+          0.5210696458816528,
+          -0.01549535896629095,
+          0.3197907507419586,
+          0.09654013812541962,
+          1.0,
+          0.5136450529098511,
+          0.394580215215683,
+          0.28242918848991394
+        ],
+        [
+          0.08193904906511307,
+          0.33837997913360596,
+          0.4444316029548645,
+          0.03983265906572342,
+          0.33372920751571655,
+          0.1542937308549881,
+          0.5136450529098511,
+          0.9999999403953552,
+          0.3096678555011749,
+          0.29679074883461
+        ],
+        [
+          0.09592260420322418,
+          0.22191709280014038,
+          0.46535366773605347,
+          -0.026848234236240387,
+          0.24123534560203552,
+          0.1333937793970108,
+          0.394580215215683,
+          0.3096678555011749,
+          1.0,
+          0.2747392952442169
+        ],
+        [
+          0.06273800879716873,
+          0.29503050446510315,
+          0.2712269127368927,
+          0.057472825050354004,
+          0.29465141892433167,
+          0.10740214586257935,
+          0.28242918848991394,
+          0.29679074883461,
+          0.2747392952442169,
+          0.9999998807907104
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_ozzy-osbourne-crop-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg"
+    },
+    {
+      "name": "02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg"
+    },
+    {
+      "name": "03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg"
+    },
+    {
+      "name": "04_ozzy-osbourne-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg"
+    },
+    {
+      "name": "07_ozzy-osbourne-4489681189-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg"
+    },
+    {
+      "name": "07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_ozzyosbourne-2-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_ozzy-osbourne-1973-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg"
+    },
+    {
+      "name": "14_ozzy-osbourne-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "similarity": 0.30215030908584595
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "similarity": -0.02353745885193348
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg",
+      "similarity": 0.9580472707748413
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg",
+      "similarity": 0.10403759032487869
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "similarity": 0.3186684548854828
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg",
+      "similarity": 0.33837997913360596
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg",
+      "similarity": 0.22191709280014038
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/01_ozzy-osbourne-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg",
+      "similarity": 0.29503050446510315
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "similarity": 0.020422859117388725
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg",
+      "similarity": 0.30349335074424744
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg",
+      "similarity": 0.1181262731552124
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "similarity": 0.5210696458816528
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg",
+      "similarity": 0.4444316029548645
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg",
+      "similarity": 0.46535366773605347
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg",
+      "similarity": 0.2712269127368927
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg",
+      "similarity": -0.02003505267202854
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg",
+      "similarity": 0.05151583254337311
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "similarity": -0.01549535896629095
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg",
+      "similarity": 0.03983265906572342
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg",
+      "similarity": -0.026848234236240387
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg",
+      "similarity": 0.057472825050354004
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg",
+      "similarity": 0.08522269874811172
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "similarity": 0.3197907507419586
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg",
+      "similarity": 0.33372920751571655
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg",
+      "similarity": 0.24123534560203552
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/04_ozzy-osbourne-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg",
+      "similarity": 0.29465141892433167
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "similarity": 0.09654013812541962
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg",
+      "similarity": 0.1542937308549881
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg",
+      "similarity": 0.1333937793970108
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-4489681189-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg",
+      "similarity": 0.10740214586257935
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg",
+      "similarity": 0.5136450529098511
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg",
+      "similarity": 0.394580215215683
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg",
+      "similarity": 0.28242918848991394
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg",
+      "similarity": 0.3096678555011749
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/10_ozzyosbourne-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg",
+      "similarity": 0.29679074883461
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ozzy_osbourne/images/12_ozzy-osbourne-1973-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ozzy_osbourne/images/14_ozzy-osbourne-jpg.jpg",
+      "similarity": 0.2747392952442169
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_ozzy-osbourne-crop-jpg.jpg",
+      "02_ozzy-osbourne-in-1970-medium-sized-crop-jpg.jpg",
+      "03_picture-of-ozzy-osbourne-geograph-org-uk-7746990-jpg.jpg",
+      "04_ozzy-osbourne-2-jpg.jpg",
+      "07_ozzy-osbourne-4489681189-jpg.jpg",
+      "07_ozzy-osbourne-in-1975-cropped-jpg.jpg",
+      "10_ozzyosbourne-2-cropped-jpg.jpg",
+      "12_ozzy-osbourne-1973-jpg.jpg",
+      "14_ozzy-osbourne-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999998807907104,
+        0.30215030908584595,
+        -0.02353745885193348,
+        0.9580472707748413,
+        0.10403759032487869,
+        0.3186684548854828,
+        0.33837997913360596,
+        0.22191709280014038,
+        0.29503050446510315
+      ],
+      [
+        0.30215030908584595,
+        0.9999998807907104,
+        0.020422859117388725,
+        0.30349335074424744,
+        0.1181262731552124,
+        0.5210696458816528,
+        0.4444316029548645,
+        0.46535366773605347,
+        0.2712269127368927
+      ],
+      [
+        -0.02353745885193348,
+        0.020422859117388725,
+        1.0,
+        -0.02003505267202854,
+        0.05151583254337311,
+        -0.01549535896629095,
+        0.03983265906572342,
+        -0.026848234236240387,
+        0.057472825050354004
+      ],
+      [
+        0.9580472707748413,
+        0.30349335074424744,
+        -0.02003505267202854,
+        1.0,
+        0.08522269874811172,
+        0.3197907507419586,
+        0.33372920751571655,
+        0.24123534560203552,
+        0.29465141892433167
+      ],
+      [
+        0.10403759032487869,
+        0.1181262731552124,
+        0.05151583254337311,
+        0.08522269874811172,
+        1.0,
+        0.09654013812541962,
+        0.1542937308549881,
+        0.1333937793970108,
+        0.10740214586257935
+      ],
+      [
+        0.3186684548854828,
+        0.5210696458816528,
+        -0.01549535896629095,
+        0.3197907507419586,
+        0.09654013812541962,
+        1.0,
+        0.5136450529098511,
+        0.394580215215683,
+        0.28242918848991394
+      ],
+      [
+        0.33837997913360596,
+        0.4444316029548645,
+        0.03983265906572342,
+        0.33372920751571655,
+        0.1542937308549881,
+        0.5136450529098511,
+        0.9999999403953552,
+        0.3096678555011749,
+        0.29679074883461
+      ],
+      [
+        0.22191709280014038,
+        0.46535366773605347,
+        -0.026848234236240387,
+        0.24123534560203552,
+        0.1333937793970108,
+        0.394580215215683,
+        0.3096678555011749,
+        1.0,
+        0.2747392952442169
+      ],
+      [
+        0.29503050446510315,
+        0.2712269127368927,
+        0.057472825050354004,
+        0.29465141892433167,
+        0.10740214586257935,
+        0.28242918848991394,
+        0.29679074883461,
+        0.2747392952442169,
+        0.9999998807907104
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/ozzy_osbourne/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/ozzy_osbourne/images/08_i-m-iron-man-ozzy-osbourne-panoramio-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/ozzy_osbourne/images/08_i-m-iron-man-ozzy-osbourne-panoramio-jpg.jpg"
+    }
+  ]
+}

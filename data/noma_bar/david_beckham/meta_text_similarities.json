@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/david_beckham",
+  "meta_path": "/workspace/input/noma_bar/data/david_beckham/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Sir David Robert Joseph Beckham ( BEK-\u0259m; born 2 May 1975) is an English former professional footballer, the president and co-owner of Inter Miami CF and co-owner of Salford City F.C.. Primarily a right midfielder and known for his range of passing, crossing ability and set-piece taking, Beckham is considered one of the best players of his generation and one of the greatest set-piece specialists of all time. He won 19 major trophies in his career, and is the only English player to win league titles in four different countries: England, France, Spain, and the United States.\nBeckham's professional club career began with Manchester United, where he made his first-team debut in 1992 at age 17. With United, he won the Premier League title six times, the FA Cup twice, the FA Charity Shield twice, the Intercontinental Cup, and the UEFA Champions League in 1999. He then played four seasons with Real Madrid, winning the La Liga title in his final season with the club. In July 2007, Beckham signed a five-year contract with Major League Soccer club LA Galaxy; it was widely cited as a historic transfer for US football. While a Galaxy player, he spent two loan spells in Italy with AC Milan in 2009 and 2010, and became the first British footballer to play 100 Champions League games. He returned to Galaxy and won the MLS Cup in 2011 and 2012. Following a four-month stint at Paris Saint-Germain, he retired in May 2013 after a 21-year career.\nIn international football, Beckham made his England debut on 1 September 1996, at the age of 21. He was captain for six years, earning 58 caps during his tenure. He made 115 career appearances in total, appearing at three FIFA World Cups in 1998, 2002 and 2006 as well as two UEFA European Championships in 2000 and 2004. Beckham held the England appearance record for an outfield player until 2016.\nA global ambassador of football, Beckham is considered a British cultural icon. He has been in a well publicised marriage to Victoria Beckham since 1999 and was consistently ranked among the highest earners in football, in 2013 being listed as the highest-paid player in the world having earned over US$50M in the previous twelve months. Beckham was runner-up in the Ballon d'Or in 1999, twice runner-up for FIFA World Player of the Year (1999 and 2001) and in 2004 was named by Pel\u00e9 in the FIFA 100 list of the world's greatest living players. He was inducted into the English Football Hall of Fame in 2008, and the Premier League Hall of Fame in 2021. He has been a UNICEF ambassador since 2005, and in 2015 he launched 7: The David Beckham UNICEF Fund. In 2014, MLS announced that Beckham and a group of investors would own Inter Miami, which began playing in 2020.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "green background field"
+    },
+    {
+      "index": 1,
+      "element": "striped blond hair"
+    },
+    {
+      "index": 2,
+      "element": "yellow face block"
+    },
+    {
+      "index": 3,
+      "element": "sweeping black curve across the nose and mouth"
+    },
+    {
+      "index": 4,
+      "element": "dotted stubble"
+    },
+    {
+      "index": 5,
+      "element": "white collar triangle"
+    },
+    {
+      "index": 6,
+      "element": "small ear stud"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "football"
+    },
+    {
+      "index": 1,
+      "element": "goal net"
+    },
+    {
+      "index": 2,
+      "element": "pitch stripes"
+    },
+    {
+      "index": 3,
+      "element": "captain armband"
+    },
+    {
+      "index": 4,
+      "element": "trophy cup"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "green background field",
+      "striped blond hair",
+      "yellow face block",
+      "sweeping black curve across the nose and mouth",
+      "dotted stubble",
+      "white collar triangle",
+      "small ear stud"
+    ],
+    "values": [
+      [
+        0.0018653292208909988,
+        0.011449340730905533,
+        -0.02698792703449726,
+        0.0010144636034965515,
+        -0.02352931722998619,
+        -0.06585416197776794,
+        -0.027769438922405243
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "football",
+      "goal net",
+      "pitch stripes",
+      "captain armband",
+      "trophy cup"
+    ],
+    "column_labels": [
+      "green background field",
+      "striped blond hair",
+      "yellow face block",
+      "sweeping black curve across the nose and mouth",
+      "dotted stubble",
+      "white collar triangle",
+      "small ear stud"
+    ],
+    "values": [
+      [
+        0.1647481918334961,
+        0.19805791974067688,
+        0.15231478214263916,
+        0.047931451350450516,
+        0.1137290745973587,
+        0.20079699158668518,
+        0.083132304251194
+      ],
+      [
+        0.2392573356628418,
+        0.11983877420425415,
+        0.2091636061668396,
+        0.13815484941005707,
+        0.1340596228837967,
+        0.15993931889533997,
+        0.05896712467074394
+      ],
+      [
+        0.2579929232597351,
+        0.39726385474205017,
+        0.32845962047576904,
+        0.22698451578617096,
+        0.2941335439682007,
+        0.347808837890625,
+        0.16332963109016418
+      ],
+      [
+        0.10218815505504608,
+        0.3215278387069702,
+        0.15255489945411682,
+        0.09272316098213196,
+        0.30399319529533386,
+        0.2604796588420868,
+        0.22567740082740784
+      ],
+      [
+        0.1217927485704422,
+        0.1555517613887787,
+        0.23015308380126953,
+        0.08451475948095322,
+        0.12222102284431458,
+        0.17726078629493713,
+        0.08462660759687424
+      ]
+    ]
+  }
+}

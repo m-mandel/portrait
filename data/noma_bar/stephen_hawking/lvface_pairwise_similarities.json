@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/stephen_hawking",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/stephen_hawking/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+        "similarity": 0.037779372185468674
+      },
+      {
+        "index": 1,
+        "name": "02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+        "similarity": 0.018436040729284286
+      },
+      {
+        "index": 2,
+        "name": "03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+        "similarity": 0.006489237770438194
+      },
+      {
+        "index": 3,
+        "name": "06_stephen-hawking-starchild-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+        "similarity": -0.0705600455403328
+      },
+      {
+        "index": 4,
+        "name": "07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+        "similarity": 0.05250781029462814
+      },
+      {
+        "index": 5,
+        "name": "07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+        "similarity": 0.037982381880283356
+      },
+      {
+        "index": 6,
+        "name": "08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+        "similarity": -0.025582551956176758
+      },
+      {
+        "index": 7,
+        "name": "09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+        "similarity": -0.07769846171140671
+      },
+      {
+        "index": 8,
+        "name": "10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+        "similarity": -0.0683409795165062
+      },
+      {
+        "index": 9,
+        "name": "12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+        "similarity": 0.04012720286846161
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.037779372185468674,
+          0.018436040729284286,
+          0.006489237770438194,
+          -0.0705600455403328,
+          0.05250781029462814,
+          0.037982381880283356,
+          -0.025582551956176758,
+          -0.07769846171140671,
+          -0.0683409795165062,
+          0.04012720286846161
+        ],
+        [
+          0.037779372185468674,
+          1.0,
+          0.40096694231033325,
+          -0.001675957115367055,
+          0.4087013602256775,
+          -0.01546097919344902,
+          0.015973834320902824,
+          0.4725058078765869,
+          0.3424763083457947,
+          0.2261282503604889,
+          0.515716016292572
+        ],
+        [
+          0.018436040729284286,
+          0.40096694231033325,
+          1.0000001192092896,
+          0.08251935243606567,
+          0.23722583055496216,
+          0.006028739269822836,
+          -0.0014242335455492139,
+          0.3675757348537445,
+          0.35788866877555847,
+          0.2000270038843155,
+          0.31851452589035034
+        ],
+        [
+          0.006489237770438194,
+          -0.001675957115367055,
+          0.08251935243606567,
+          1.0,
+          0.09532590955495834,
+          0.005324811674654484,
+          0.06535979360342026,
+          0.10086116939783096,
+          0.06244596093893051,
+          0.037065036594867706,
+          0.029575208202004433
+        ],
+        [
+          -0.0705600455403328,
+          0.4087013602256775,
+          0.23722583055496216,
+          0.09532590955495834,
+          1.0,
+          -0.03259715810418129,
+          -0.009279361926019192,
+          0.28345879912376404,
+          0.3220680356025696,
+          0.22028079628944397,
+          0.4497755169868469
+        ],
+        [
+          0.05250781029462814,
+          -0.01546097919344902,
+          0.006028739269822836,
+          0.005324811674654484,
+          -0.03259715810418129,
+          1.0,
+          0.009032830595970154,
+          -0.062308188527822495,
+          -0.08322781324386597,
+          -0.08409560471773148,
+          -0.09470953792333603
+        ],
+        [
+          0.037982381880283356,
+          0.015973834320902824,
+          -0.0014242335455492139,
+          0.06535979360342026,
+          -0.009279361926019192,
+          0.009032830595970154,
+          1.0,
+          0.014118116348981857,
+          -0.016598498448729515,
+          0.008532232604920864,
+          0.028622768819332123
+        ],
+        [
+          -0.025582551956176758,
+          0.4725058078765869,
+          0.3675757348537445,
+          0.10086116939783096,
+          0.28345879912376404,
+          -0.062308188527822495,
+          0.014118116348981857,
+          1.0,
+          0.4878932237625122,
+          0.3282501697540283,
+          0.4122776389122009
+        ],
+        [
+          -0.07769846171140671,
+          0.3424763083457947,
+          0.35788866877555847,
+          0.06244596093893051,
+          0.3220680356025696,
+          -0.08322781324386597,
+          -0.016598498448729515,
+          0.4878932237625122,
+          1.0000001192092896,
+          0.7040445804595947,
+          0.32925158739089966
+        ],
+        [
+          -0.0683409795165062,
+          0.2261282503604889,
+          0.2000270038843155,
+          0.037065036594867706,
+          0.22028079628944397,
+          -0.08409560471773148,
+          0.008532232604920864,
+          0.3282501697540283,
+          0.7040445804595947,
+          1.0,
+          0.22496327757835388
+        ],
+        [
+          0.04012720286846161,
+          0.515716016292572,
+          0.31851452589035034,
+          0.029575208202004433,
+          0.4497755169868469,
+          -0.09470953792333603,
+          0.028622768819332123,
+          0.4122776389122009,
+          0.32925158739089966,
+          0.22496327757835388,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg"
+    },
+    {
+      "name": "06_stephen-hawking-starchild-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg"
+    },
+    {
+      "name": "07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg"
+    },
+    {
+      "name": "08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg"
+    },
+    {
+      "name": "09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "similarity": 0.40096694231033325
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "similarity": -0.001675957115367055
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+      "similarity": 0.4087013602256775
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "similarity": -0.01546097919344902
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "similarity": 0.015973834320902824
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "similarity": 0.4725058078765869
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "similarity": 0.3424763083457947
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "similarity": 0.2261282503604889
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "similarity": 0.515716016292572
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "similarity": 0.08251935243606567
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+      "similarity": 0.23722583055496216
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "similarity": 0.006028739269822836
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "similarity": -0.0014242335455492139
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "similarity": 0.3675757348537445
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "similarity": 0.35788866877555847
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "similarity": 0.2000270038843155
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "similarity": 0.31851452589035034
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+      "similarity": 0.09532590955495834
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "similarity": 0.005324811674654484
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "similarity": 0.06535979360342026
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "similarity": 0.10086116939783096
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "similarity": 0.06244596093893051
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "similarity": 0.037065036594867706
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "similarity": 0.029575208202004433
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "similarity": -0.03259715810418129
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "similarity": -0.009279361926019192
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "similarity": 0.28345879912376404
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "similarity": 0.3220680356025696
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "similarity": 0.22028079628944397
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/06_stephen-hawking-starchild-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "similarity": 0.4497755169868469
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "similarity": 0.009032830595970154
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "similarity": -0.062308188527822495
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "similarity": -0.08322781324386597
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "similarity": -0.08409560471773148
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "similarity": -0.09470953792333603
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "similarity": 0.014118116348981857
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "similarity": -0.016598498448729515
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "similarity": 0.008532232604920864
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "similarity": 0.028622768819332123
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "similarity": 0.4878932237625122
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "similarity": 0.3282501697540283
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "similarity": 0.4122776389122009
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "similarity": 0.7040445804595947
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "similarity": 0.32925158739089966
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_hawking/images/10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_hawking/images/12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg",
+      "similarity": 0.22496327757835388
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_relative-time-2886233692-stephen-hawking-cropped-jpg.jpg",
+      "02_barack-obama-speaks-to-stephen-hawking-cropped-jpg.jpg",
+      "03_physicist-stephen-hawking-in-zero-gravity-nasa-jpg.jpg",
+      "06_stephen-hawking-starchild-jpg.jpg",
+      "07_starmus2017-stephen-hawking-science-medal-ceremony-ma-03-cropped-jpg.jpg",
+      "07_stephen-hawking-san-francisco-als-convention-jpg.jpg",
+      "08_professor-stephen-hawking-held-a-pluto-party-jpg.jpg",
+      "09_stephen-hawking-medals-28190426642-cropped-jpg.jpg",
+      "10_stephen-hawking-medals-27678311524-cropped-jpg.jpg",
+      "12_stephen-hawking-and-lucy-hawking-nasa-2008-cropped-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.40096694231033325,
+        -0.001675957115367055,
+        0.4087013602256775,
+        -0.01546097919344902,
+        0.015973834320902824,
+        0.4725058078765869,
+        0.3424763083457947,
+        0.2261282503604889,
+        0.515716016292572
+      ],
+      [
+        0.40096694231033325,
+        1.0000001192092896,
+        0.08251935243606567,
+        0.23722583055496216,
+        0.006028739269822836,
+        -0.0014242335455492139,
+        0.3675757348537445,
+        0.35788866877555847,
+        0.2000270038843155,
+        0.31851452589035034
+      ],
+      [
+        -0.001675957115367055,
+        0.08251935243606567,
+        1.0,
+        0.09532590955495834,
+        0.005324811674654484,
+        0.06535979360342026,
+        0.10086116939783096,
+        0.06244596093893051,
+        0.037065036594867706,
+        0.029575208202004433
+      ],
+      [
+        0.4087013602256775,
+        0.23722583055496216,
+        0.09532590955495834,
+        1.0,
+        -0.03259715810418129,
+        -0.009279361926019192,
+        0.28345879912376404,
+        0.3220680356025696,
+        0.22028079628944397,
+        0.4497755169868469
+      ],
+      [
+        -0.01546097919344902,
+        0.006028739269822836,
+        0.005324811674654484,
+        -0.03259715810418129,
+        1.0,
+        0.009032830595970154,
+        -0.062308188527822495,
+        -0.08322781324386597,
+        -0.08409560471773148,
+        -0.09470953792333603
+      ],
+      [
+        0.015973834320902824,
+        -0.0014242335455492139,
+        0.06535979360342026,
+        -0.009279361926019192,
+        0.009032830595970154,
+        1.0,
+        0.014118116348981857,
+        -0.016598498448729515,
+        0.008532232604920864,
+        0.028622768819332123
+      ],
+      [
+        0.4725058078765869,
+        0.3675757348537445,
+        0.10086116939783096,
+        0.28345879912376404,
+        -0.062308188527822495,
+        0.014118116348981857,
+        1.0,
+        0.4878932237625122,
+        0.3282501697540283,
+        0.4122776389122009
+      ],
+      [
+        0.3424763083457947,
+        0.35788866877555847,
+        0.06244596093893051,
+        0.3220680356025696,
+        -0.08322781324386597,
+        -0.016598498448729515,
+        0.4878932237625122,
+        1.0000001192092896,
+        0.7040445804595947,
+        0.32925158739089966
+      ],
+      [
+        0.2261282503604889,
+        0.2000270038843155,
+        0.037065036594867706,
+        0.22028079628944397,
+        -0.08409560471773148,
+        0.008532232604920864,
+        0.3282501697540283,
+        0.7040445804595947,
+        1.0,
+        0.22496327757835388
+      ],
+      [
+        0.515716016292572,
+        0.31851452589035034,
+        0.029575208202004433,
+        0.4497755169868469,
+        -0.09470953792333603,
+        0.028622768819332123,
+        0.4122776389122009,
+        0.32925158739089966,
+        0.22496327757835388,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/stephen_hawking/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/stephen_hawking/portrait.jpg"
+    }
+  ]
+}

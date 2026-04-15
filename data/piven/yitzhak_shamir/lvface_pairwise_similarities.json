@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/yitzhak_shamir",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/yitzhak_shamir/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+        "similarity": 0.04568285867571831
+      },
+      {
+        "index": 1,
+        "name": "02_yitzhak-shamir-1980-jpg.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+        "similarity": -0.007591113913804293
+      },
+      {
+        "index": 2,
+        "name": "03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+        "similarity": 0.005593008827418089
+      },
+      {
+        "index": 3,
+        "name": "04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+        "similarity": 0.036071375012397766
+      },
+      {
+        "index": 4,
+        "name": "05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+        "similarity": 0.08479475229978561
+      },
+      {
+        "index": 5,
+        "name": "06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+        "similarity": 0.0019155595218762755
+      },
+      {
+        "index": 6,
+        "name": "07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+        "similarity": 0.01615551859140396
+      },
+      {
+        "index": 7,
+        "name": "08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+        "similarity": 0.0794130191206932
+      },
+      {
+        "index": 8,
+        "name": "09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": -0.04057585075497627
+      },
+      {
+        "index": 9,
+        "name": "10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+        "path": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+        "similarity": 0.040341053158044815
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.04568285867571831,
+          -0.007591113913804293,
+          0.005593008827418089,
+          0.036071375012397766,
+          0.08479475229978561,
+          0.0019155595218762755,
+          0.01615551859140396,
+          0.0794130191206932,
+          -0.04057585075497627,
+          0.040341053158044815
+        ],
+        [
+          0.04568285867571831,
+          0.9999999403953552,
+          0.4061051607131958,
+          0.48914164304733276,
+          0.5144935250282288,
+          0.5002199411392212,
+          0.44579851627349854,
+          0.015413396991789341,
+          0.43038737773895264,
+          -0.006412033922970295,
+          0.44399142265319824
+        ],
+        [
+          -0.007591113913804293,
+          0.4061051607131958,
+          1.0,
+          0.4724788963794708,
+          0.4942973852157593,
+          0.3871661126613617,
+          0.41069868206977844,
+          0.0292328130453825,
+          0.40474602580070496,
+          0.015635689720511436,
+          0.47849398851394653
+        ],
+        [
+          0.005593008827418089,
+          0.48914164304733276,
+          0.4724788963794708,
+          1.0000001192092896,
+          0.5440447926521301,
+          0.3439677655696869,
+          0.4465775191783905,
+          0.07153641432523727,
+          0.4846036732196808,
+          -0.008062866516411304,
+          0.5096396803855896
+        ],
+        [
+          0.036071375012397766,
+          0.5144935250282288,
+          0.4942973852157593,
+          0.5440447926521301,
+          0.9999999403953552,
+          0.4366630017757416,
+          0.5622575283050537,
+          0.13555966317653656,
+          0.5391504168510437,
+          -0.045073240995407104,
+          0.6097024083137512
+        ],
+        [
+          0.08479475229978561,
+          0.5002199411392212,
+          0.3871661126613617,
+          0.3439677655696869,
+          0.4366630017757416,
+          1.0000001192092896,
+          0.47159016132354736,
+          -0.0349622517824173,
+          0.43331509828567505,
+          0.010124162770807743,
+          0.37581098079681396
+        ],
+        [
+          0.0019155595218762755,
+          0.44579851627349854,
+          0.41069868206977844,
+          0.4465775191783905,
+          0.5622575283050537,
+          0.47159016132354736,
+          1.0,
+          -0.04166477173566818,
+          0.4389062523841858,
+          0.009751600213348866,
+          0.4952637851238251
+        ],
+        [
+          0.01615551859140396,
+          0.015413396991789341,
+          0.0292328130453825,
+          0.07153641432523727,
+          0.13555966317653656,
+          -0.0349622517824173,
+          -0.04166477173566818,
+          1.0,
+          -0.016186779364943504,
+          -0.05486182123422623,
+          0.1010529100894928
+        ],
+        [
+          0.0794130191206932,
+          0.43038737773895264,
+          0.40474602580070496,
+          0.4846036732196808,
+          0.5391504168510437,
+          0.43331509828567505,
+          0.4389062523841858,
+          -0.016186779364943504,
+          0.9999999403953552,
+          0.0136934919282794,
+          0.4827761948108673
+        ],
+        [
+          -0.04057585075497627,
+          -0.006412033922970295,
+          0.015635689720511436,
+          -0.008062866516411304,
+          -0.045073240995407104,
+          0.010124162770807743,
+          0.009751600213348866,
+          -0.05486182123422623,
+          0.0136934919282794,
+          1.0000001192092896,
+          -0.005821823608130217
+        ],
+        [
+          0.040341053158044815,
+          0.44399142265319824,
+          0.47849398851394653,
+          0.5096396803855896,
+          0.6097024083137512,
+          0.37581098079681396,
+          0.4952637851238251,
+          0.1010529100894928,
+          0.4827761948108673,
+          -0.005821823608130217,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg"
+    },
+    {
+      "name": "02_yitzhak-shamir-1980-jpg.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg"
+    },
+    {
+      "name": "03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg"
+    },
+    {
+      "name": "04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg"
+    },
+    {
+      "name": "05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg"
+    },
+    {
+      "name": "07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg"
+    },
+    {
+      "name": "08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg"
+    },
+    {
+      "name": "09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "path": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+      "similarity": 0.4061051607131958
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "similarity": 0.48914164304733276
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "similarity": 0.5144935250282288
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5002199411392212
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "similarity": 0.44579851627349854
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "similarity": 0.015413396991789341
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "similarity": 0.43038737773895264
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": -0.006412033922970295
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "similarity": 0.44399142265319824
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "similarity": 0.4724788963794708
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "similarity": 0.4942973852157593
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3871661126613617
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "similarity": 0.41069868206977844
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "similarity": 0.0292328130453825
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "similarity": 0.40474602580070496
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.015635689720511436
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/02_yitzhak-shamir-1980-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "similarity": 0.47849398851394653
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "similarity": 0.5440447926521301
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3439677655696869
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "similarity": 0.4465775191783905
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "similarity": 0.07153641432523727
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "similarity": 0.4846036732196808
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": -0.008062866516411304
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "similarity": 0.5096396803855896
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4366630017757416
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "similarity": 0.5622575283050537
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "similarity": 0.13555966317653656
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "similarity": 0.5391504168510437
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": -0.045073240995407104
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "similarity": 0.6097024083137512
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "similarity": 0.47159016132354736
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "similarity": -0.0349622517824173
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "similarity": 0.43331509828567505
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.010124162770807743
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "similarity": 0.37581098079681396
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "similarity": -0.04166477173566818
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "similarity": 0.4389062523841858
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.009751600213348866
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "similarity": 0.4952637851238251
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "similarity": -0.016186779364943504
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": -0.05486182123422623
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "similarity": 0.1010529100894928
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.0136934919282794
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "similarity": 0.4827761948108673
+    },
+    {
+      "left": "/workspace/input/piven/data/yitzhak_shamir/images/09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/yitzhak_shamir/images/10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg",
+      "similarity": -0.005821823608130217
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_yitzhak-shamir-1992-dan-hadani-archive-jpg.jpg",
+      "02_yitzhak-shamir-1980-jpg.jpg",
+      "03_yitzhak-shamir-par-claude-truong-ngoc-1977-jpg.jpg",
+      "04_israeli-foreign-minister-yitzhak-shamir-head-and-shoulders-portrait.jpg",
+      "05_328-dan-shamir-photos-high-res-pictures-getty-images.jpg",
+      "06_profile-of-yitzhak-shamir-editorial-photo-image-of-foreign-25752981.jpg",
+      "07_prime-minister-yitzhak-shamir-shares-a-laugh-with-opposition-leader.jpg",
+      "08_yitzhak-shamir-israel-s-7th-prime-minister-served-during-gulf-war.jpg",
+      "09_oslo-19801119-yitzhak-shamir-hi-res-stock-photography-and-images-alamy.jpg",
+      "10_yitz-ak-shamir-remembering-michael-vision-magazine.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.4061051607131958,
+        0.48914164304733276,
+        0.5144935250282288,
+        0.5002199411392212,
+        0.44579851627349854,
+        0.015413396991789341,
+        0.43038737773895264,
+        -0.006412033922970295,
+        0.44399142265319824
+      ],
+      [
+        0.4061051607131958,
+        1.0,
+        0.4724788963794708,
+        0.4942973852157593,
+        0.3871661126613617,
+        0.41069868206977844,
+        0.0292328130453825,
+        0.40474602580070496,
+        0.015635689720511436,
+        0.47849398851394653
+      ],
+      [
+        0.48914164304733276,
+        0.4724788963794708,
+        1.0000001192092896,
+        0.5440447926521301,
+        0.3439677655696869,
+        0.4465775191783905,
+        0.07153641432523727,
+        0.4846036732196808,
+        -0.008062866516411304,
+        0.5096396803855896
+      ],
+      [
+        0.5144935250282288,
+        0.4942973852157593,
+        0.5440447926521301,
+        0.9999999403953552,
+        0.4366630017757416,
+        0.5622575283050537,
+        0.13555966317653656,
+        0.5391504168510437,
+        -0.045073240995407104,
+        0.6097024083137512
+      ],
+      [
+        0.5002199411392212,
+        0.3871661126613617,
+        0.3439677655696869,
+        0.4366630017757416,
+        1.0000001192092896,
+        0.47159016132354736,
+        -0.0349622517824173,
+        0.43331509828567505,
+        0.010124162770807743,
+        0.37581098079681396
+      ],
+      [
+        0.44579851627349854,
+        0.41069868206977844,
+        0.4465775191783905,
+        0.5622575283050537,
+        0.47159016132354736,
+        1.0,
+        -0.04166477173566818,
+        0.4389062523841858,
+        0.009751600213348866,
+        0.4952637851238251
+      ],
+      [
+        0.015413396991789341,
+        0.0292328130453825,
+        0.07153641432523727,
+        0.13555966317653656,
+        -0.0349622517824173,
+        -0.04166477173566818,
+        1.0,
+        -0.016186779364943504,
+        -0.05486182123422623,
+        0.1010529100894928
+      ],
+      [
+        0.43038737773895264,
+        0.40474602580070496,
+        0.4846036732196808,
+        0.5391504168510437,
+        0.43331509828567505,
+        0.4389062523841858,
+        -0.016186779364943504,
+        0.9999999403953552,
+        0.0136934919282794,
+        0.4827761948108673
+      ],
+      [
+        -0.006412033922970295,
+        0.015635689720511436,
+        -0.008062866516411304,
+        -0.045073240995407104,
+        0.010124162770807743,
+        0.009751600213348866,
+        -0.05486182123422623,
+        0.0136934919282794,
+        1.0000001192092896,
+        -0.005821823608130217
+      ],
+      [
+        0.44399142265319824,
+        0.47849398851394653,
+        0.5096396803855896,
+        0.6097024083137512,
+        0.37581098079681396,
+        0.4952637851238251,
+        0.1010529100894928,
+        0.4827761948108673,
+        -0.005821823608130217,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/yitzhak_shamir/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/yitzhak_shamir/portrait.jpg"
+    }
+  ]
+}

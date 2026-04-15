@@ -1,0 +1,100 @@
+{
+  "folder": "/workspace/input/piven/data/haim_yavin",
+  "meta_path": "/workspace/input/piven/data/haim_yavin/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Haim Yavin (Hebrew: \u05d7\u05d9\u05d9\u05dd \u05d9\u05d1\u05d9\u05df; born September 10, 1932) is an Israeli television anchor and documentary filmmaker. He was one of Israel's leading news presenters, associated with the job for so many decades that he was known as \"Mr. Television.\"",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "wire glasses"
+    },
+    {
+      "index": 1,
+      "element": "television"
+    },
+    {
+      "index": 2,
+      "element": "newspaper clipping"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "studio microphone"
+    },
+    {
+      "index": 1,
+      "element": "signal waves"
+    },
+    {
+      "index": 2,
+      "element": "camera body"
+    },
+    {
+      "index": 3,
+      "element": "screen frame"
+    },
+    {
+      "index": 4,
+      "element": "headline band"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "wire glasses",
+      "television",
+      "newspaper clipping"
+    ],
+    "values": [
+      [
+        0.07105233520269394,
+        0.24559557437896729,
+        0.12028902769088745
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "studio microphone",
+      "signal waves",
+      "camera body",
+      "screen frame",
+      "headline band"
+    ],
+    "column_labels": [
+      "wire glasses",
+      "television",
+      "newspaper clipping"
+    ],
+    "values": [
+      [
+        0.13027231395244598,
+        0.12649056315422058,
+        0.10806858539581299
+      ],
+      [
+        0.18073830008506775,
+        0.2980409264564514,
+        0.13036206364631653
+      ],
+      [
+        0.21643617749214172,
+        0.31700631976127625,
+        0.21356001496315002
+      ],
+      [
+        0.2816762328147888,
+        0.3303322196006775,
+        0.1982530653476715
+      ],
+      [
+        0.15229810774326324,
+        0.31812790036201477,
+        0.24911972880363464
+      ]
+    ]
+  }
+}

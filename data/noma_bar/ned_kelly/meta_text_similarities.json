@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/ned_kelly",
+  "meta_path": "/workspace/input/noma_bar/data/ned_kelly/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Edward Kelly (December 1854 \u2013 11 November 1880) was an Australian bushranger, gang leader and police-murderer. One of the last bushrangers, he is known for wearing a suit of bulletproof armour during his final shootout with the police.\nKelly was born and raised in rural Victoria, the third of eight children to Irish parents. His father, a transported convict, died in 1866, leaving Kelly, then aged 12, as the eldest male of the household. The Kellys were a poor selector family who saw themselves as downtrodden by the squattocracy and as victims of persecution by the Victoria Police. While a teenager, Kelly was arrested for associating with bushranger Harry Power and served two prison terms for a variety of offences, the longest stretch being from 1871 to 1874. He later joined the \"Greta Mob\", a group of bush larrikins known for stock theft. A violent confrontation with a policeman occurred at the Kelly family's home in 1878, and Kelly was indicted for his attempted murder. Fleeing to the bush, Kelly vowed to avenge his mother, who was imprisoned for her role in the incident. After he, his brother Dan, and associates Joe Byrne and Steve Hart shot dead three policemen, the government of Victoria proclaimed them outlaws.\nKelly and his gang, with the help of a network of sympathisers, evaded the police for two years. The gang's crime spree included raids on Euroa and Jerilderie, and the killing of Aaron Sherritt, a sympathiser turned police informer. In a manifesto letter, Kelly\u2014denouncing the police, the Victorian government and the British Empire\u2014set down his own account of the events leading up to his outlawry. Demanding justice for his family and the rural poor, he threatened dire consequences for his enemies. In 1880, the gang tried to derail and ambush a police train as a prelude to attacking Benalla, the base of police operations in the region. The police, tipped off, confronted them at Glenrowan, where the gang held dozens of hostages in a hotel. In the ensuing 12-hour siege and gunfight, the outlaws wore armour fashioned from plough mouldboards. Kelly, the only gang member to survive, was severely wounded by police fire and captured. Despite thousands of supporters rallying and petitioning for his reprieve, Kelly was tried for murder, convicted and hanged at the Melbourne Gaol.\nHistorian Geoffrey Serle called Kelly and his gang \"the last expression of the lawless frontier in what was becoming a highly organised and educated society, the last protest of the mighty bush now tethered with iron rails to Melbourne and the world\". In the century after his death, Kelly became a cultural icon, inspiring numerous depictions in popular culture, and is the subject of more biographies than any other Australian. Kelly remains a divisive figure in Australia, regarded variously as a Robin Hood-like folk hero and symbol of national identity, or as a murderous villain and terrorist. The journalist Martin Flanagan wrote: \"What makes Ned a legend is not that everyone sees him the same\u2014it's that everyone sees him. Like a bushfire on the horizon casting its red glow into the night.\"",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "beige background field"
+    },
+    {
+      "index": 1,
+      "element": "black helmet block"
+    },
+    {
+      "index": 2,
+      "element": "horizontal gun barrel through the visor slit"
+    },
+    {
+      "index": 3,
+      "element": "red circle inside the barrel"
+    },
+    {
+      "index": 4,
+      "element": "dark shoulder blocks"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "iron helmet"
+    },
+    {
+      "index": 1,
+      "element": "armour plates"
+    },
+    {
+      "index": 2,
+      "element": "horse silhouette"
+    },
+    {
+      "index": 3,
+      "element": "wanted poster"
+    },
+    {
+      "index": 4,
+      "element": "gallows rope"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "beige background field",
+      "black helmet block",
+      "horizontal gun barrel through the visor slit",
+      "red circle inside the barrel",
+      "dark shoulder blocks"
+    ],
+    "values": [
+      [
+        -0.04917054623365402,
+        0.04628834128379822,
+        0.08908531069755554,
+        -0.011170804500579834,
+        0.06969062983989716
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "iron helmet",
+      "armour plates",
+      "horse silhouette",
+      "wanted poster",
+      "gallows rope"
+    ],
+    "column_labels": [
+      "beige background field",
+      "black helmet block",
+      "horizontal gun barrel through the visor slit",
+      "red circle inside the barrel",
+      "dark shoulder blocks"
+    ],
+    "values": [
+      [
+        0.2248249650001526,
+        0.618296205997467,
+        0.22604969143867493,
+        0.2552424967288971,
+        0.31557273864746094
+      ],
+      [
+        0.10661841183900833,
+        0.4084378480911255,
+        0.10786285251379013,
+        0.12304093688726425,
+        0.36019283533096313
+      ],
+      [
+        0.3873494863510132,
+        0.3175502419471741,
+        0.24333442747592926,
+        0.245735764503479,
+        0.2619785666465759
+      ],
+      [
+        0.2612575590610504,
+        0.27300962805747986,
+        0.10771876573562622,
+        0.20557788014411926,
+        0.2694270610809326
+      ],
+      [
+        0.051888708025217056,
+        0.15021733939647675,
+        0.10983873903751373,
+        0.20858323574066162,
+        0.26605159044265747
+      ]
+    ]
+  }
+}

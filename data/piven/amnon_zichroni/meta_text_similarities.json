@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/amnon_zichroni",
+  "meta_path": "/workspace/input/piven/data/amnon_zichroni/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Mordechai Vanunu (Hebrew: \u05de\u05e8\u05d3\u05db\u05d9 \u05d5\u05d0\u05e0\u05d5\u05e0\u05d5\u200e; Hebrew pronunciation: [mo\u0281de\u02c8\u03c7aj va\u02c8nunu]; ; Arabic: \u0645\u0631\u062f\u062e\u0627\u064a \u0641\u0639\u0646\u0648\u0646\u0648; Arabic pronunciation: [murdaxaj fa\u0295nu\u02d0nu]; born 14 October 1952), also known as John Crossman, is an Israeli former nuclear technician and peace activist who, citing his opposition to weapons of mass destruction, revealed details of Israel's nuclear weapons program to the British press in 1986. He was subsequently lured from Britain to Italy by the Israeli intelligence agency Mossad, where he was drugged and abducted. He was secretly transported to Israel and ultimately convicted in a trial that was held behind closed doors.\nVanunu spent 18 years in prison, including more than 11 in solitary confinement, though no such restriction is mentioned in Israel's penal code, nor imposed by his verdict. Released from prison in 2004, he was further subjected to a broad array of restrictions on his speech and his movement and arrested several times for violations of his parole terms, giving interviews to foreign journalists and attempting to leave Israel. He claims to have suffered from \"cruel and barbaric treatment\" at the hands of prison authorities and suggests that things would have been different if he had not converted to Christianity.\nIn 2007 Vanunu was sentenced to six months in prison for violating terms of his parole. The sentence was considered unusually severe even by the prosecution, who expected a suspended sentence. In response, Amnesty International issued a press release in July 2007, stating that \"The organization considers Mordechai Vanunu to be a prisoner of conscience and calls for his immediate and unconditional release.\" In May 2010 Vanunu was arrested again and sentenced to three months in jail on a charge that he had met foreigners, in violation of conditions of his 2004 release from prison.\nVanunu has been characterized internationally as a whistleblower.  American whistleblower Daniel Ellsberg has referred to him as \"the preeminent hero of the nuclear era\". In 1987, he was awarded the Right Livelihood Award for \"his courage and self-sacrifice in revealing the extent of Israel's nuclear weapons program\". Israel claims and regards Vanunu as a traitor.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "pastries"
+    },
+    {
+      "index": 1,
+      "element": "garlic bulb"
+    },
+    {
+      "index": 2,
+      "element": "fish"
+    },
+    {
+      "index": 3,
+      "element": "cigar"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "radiation ring"
+    },
+    {
+      "index": 1,
+      "element": "newspaper sheet"
+    },
+    {
+      "index": 2,
+      "element": "sealed cell"
+    },
+    {
+      "index": 3,
+      "element": "checkpoint line"
+    },
+    {
+      "index": 4,
+      "element": "classified dossier"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "pastries",
+      "garlic bulb",
+      "fish",
+      "cigar"
+    ],
+    "values": [
+      [
+        -0.02153097651898861,
+        -0.015750283375382423,
+        -0.02387097477912903,
+        -0.05531790107488632
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "radiation ring",
+      "newspaper sheet",
+      "sealed cell",
+      "checkpoint line",
+      "classified dossier"
+    ],
+    "column_labels": [
+      "pastries",
+      "garlic bulb",
+      "fish",
+      "cigar"
+    ],
+    "values": [
+      [
+        0.016733625903725624,
+        0.24111592769622803,
+        0.15156370401382446,
+        0.061331115663051605
+      ],
+      [
+        0.16044838726520538,
+        0.13153719902038574,
+        0.12541089951992035,
+        0.09433668106794357
+      ],
+      [
+        0.2035941183567047,
+        0.21868255734443665,
+        0.15675796568393707,
+        0.23278158903121948
+      ],
+      [
+        0.06570903956890106,
+        -0.06719978153705597,
+        0.001428365707397461,
+        0.12347632646560669
+      ],
+      [
+        0.17020118236541748,
+        0.052119672298431396,
+        0.17968429625034332,
+        0.10660591721534729
+      ]
+    ]
+  }
+}

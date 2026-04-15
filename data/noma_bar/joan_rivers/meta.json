@@ -1,0 +1,85 @@
+{
+  "name": "joan rivers",
+  "bio": "Joan Alexandra Molinsky (June 8, 1933 – September 4, 2014), known professionally as Joan Rivers, was an American comedian, actress, producer, writer and television host. She was noted for her blunt, often controversial comedic persona that was heavily self-deprecating and acerbic, especially towards celebrities and politicians, delivered in her signature New York accent. She is considered a pioneer of women in comedy. She received an Emmy Award and a Grammy Award, as well as nomination for a Tony Award.\nRivers started her career in comedy clubs in Greenwich Village alongside her peers George Carlin, Woody Allen and Richard Pryor. She then rose to prominence in 1965 as a guest on The Tonight Show. Hosted by her mentor, Johnny Carson, the show established Rivers's comedic style. In 1986, with her own rival program, The Late Show with Joan Rivers, Rivers became the first woman to host a late night network television talk show. She subsequently hosted The Joan Rivers Show (1989–1993), winning a Daytime Emmy for Outstanding Talk Show Host.  From the mid-1990s, she became known for her comedic red carpet awards show celebrity interviews. Rivers co-hosted the E! celebrity fashion show Fashion Police from 2010 to 2014 and starred in the reality series Joan & Melissa: Joan Knows Best? (2011–2014) with daughter Melissa Rivers.\nIn addition to marketing a line of jewelry and apparel on the QVC shopping channel, Rivers authored 12 best-selling books and three LP comedy albums under her own name: Mr. Phyllis and Other Funny Stories (Warner Bros 1965), The Next to Last Joan Rivers Album (Buddah 1969) and What Becomes a Semi-Legend Most? (Geffen 1983).  She was nominated in 1984 for a Grammy Award for her album What Becomes a Semi-Legend Most? and was nominated in 1994 for the Tony Award for Best Actress in a Play for her performance of the title role in Sally Marr ... and Her Escorts. In 2009, Rivers competed alongside her daughter Melissa on the second season of The Celebrity Apprentice, ultimately winning the season. In 2015, Rivers posthumously received a Grammy Award for Best Spoken Word Album for her book, Diary of a Mad Diva.\nIn 1968, The New York Times television critic Jack Gould called Rivers \"quite possibly the most intuitively funny woman alive\". In 2017, Rolling Stone magazine ranked her sixth on its list of the 50 best stand-up comics of all time, and in October the same year, she was inducted into the Television Academy Hall of Fame. She is the subject of the documentary Joan Rivers: A Piece of Work (2010).",
+  "bio_sources": [
+    {
+      "subject": "joan rivers",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Joan_Rivers"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "white upper field",
+      "shape_type": "rectangle",
+      "meaning": "creates a clinical, exposed upper space"
+    },
+    {
+      "element": "green lower field",
+      "shape_type": "rectangle",
+      "meaning": "acts like an operating-stage ground plane"
+    },
+    {
+      "element": "blond hair mass",
+      "shape_type": "organic shape",
+      "meaning": "keeps the celebrity surface instantly recognizable"
+    },
+    {
+      "element": "pale face silhouette",
+      "shape_type": "organic shape",
+      "meaning": "turns her face into a cosmetic canvas"
+    },
+    {
+      "element": "two black surgical tool shapes",
+      "shape_type": "line",
+      "meaning": "point to plastic surgery and cosmetic intervention"
+    },
+    {
+      "element": "dotted incision line",
+      "shape_type": "dashed curve",
+      "meaning": "suggests preoperative marking"
+    },
+    {
+      "element": "red cut shape with dripping edge",
+      "shape_type": "symbol",
+      "meaning": "emphasizes the surgical joke and her public candor about appearance"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "book stack",
+      "visual_representation": "stacked books with staggered page edges",
+      "category": "object",
+      "relevance": "The biography explicitly describes literary work.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "typewriter keys",
+      "visual_representation": "a cluster of round or square keys arranged in rows",
+      "category": "object",
+      "relevance": "Writing and authorship are central to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "open book",
+      "visual_representation": "a spread book with two visible pages",
+      "category": "object",
+      "relevance": "Published writing belongs to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ink pen",
+      "visual_representation": "a long pen shape with a pointed nib",
+      "category": "object",
+      "relevance": "Literary creation is strongly associated with the subject’s domain.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

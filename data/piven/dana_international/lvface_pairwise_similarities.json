@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/dana_international",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/dana_international/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+        "similarity": 0.037351444363594055
+      },
+      {
+        "index": 1,
+        "name": "02_dana-international-01-jpg.jpg",
+        "path": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+        "similarity": 0.06405742466449738
+      },
+      {
+        "index": 2,
+        "name": "03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+        "path": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+        "similarity": 0.037159621715545654
+      },
+      {
+        "index": 3,
+        "name": "04_dana-international-cropped-png.png",
+        "path": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+        "similarity": 0.022172674536705017
+      },
+      {
+        "index": 4,
+        "name": "06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+        "similarity": 0.04354166239500046
+      },
+      {
+        "index": 5,
+        "name": "07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+        "similarity": -0.04218391701579094
+      },
+      {
+        "index": 6,
+        "name": "08_dana-international-2008-eurovision-jpg.jpg",
+        "path": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+        "similarity": 0.013663002289831638
+      },
+      {
+        "index": 7,
+        "name": "11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+        "path": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+        "similarity": 0.027375390753149986
+      },
+      {
+        "index": 8,
+        "name": "12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+        "path": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+        "similarity": 0.16383372247219086
+      },
+      {
+        "index": 9,
+        "name": "13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+        "path": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+        "similarity": 0.2037748545408249
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.037351444363594055,
+          0.06405742466449738,
+          0.037159621715545654,
+          0.022172674536705017,
+          0.04354166239500046,
+          -0.04218391701579094,
+          0.013663002289831638,
+          0.027375390753149986,
+          0.16383372247219086,
+          0.2037748545408249
+        ],
+        [
+          0.037351444363594055,
+          0.9999999403953552,
+          0.409578800201416,
+          0.7891464829444885,
+          0.5329947471618652,
+          0.4451861083507538,
+          -0.08184602856636047,
+          0.5432811975479126,
+          0.5446807742118835,
+          -0.04053539037704468,
+          -0.013627813197672367
+        ],
+        [
+          0.06405742466449738,
+          0.409578800201416,
+          1.0000001192092896,
+          0.42127493023872375,
+          0.4750371277332306,
+          0.39591410756111145,
+          0.027005158364772797,
+          0.4775698184967041,
+          0.5027862787246704,
+          -0.04361806809902191,
+          0.051942288875579834
+        ],
+        [
+          0.037159621715545654,
+          0.7891464829444885,
+          0.42127493023872375,
+          1.0,
+          0.5022679567337036,
+          0.45879867672920227,
+          0.026355793699622154,
+          0.552962064743042,
+          0.5322818160057068,
+          -0.08725551515817642,
+          -0.015651915222406387
+        ],
+        [
+          0.022172674536705017,
+          0.5329947471618652,
+          0.4750371277332306,
+          0.5022679567337036,
+          1.0,
+          0.49380266666412354,
+          -0.02168465591967106,
+          0.9017037153244019,
+          0.5965701341629028,
+          -0.037624478340148926,
+          0.049330130219459534
+        ],
+        [
+          0.04354166239500046,
+          0.4451861083507538,
+          0.39591410756111145,
+          0.45879867672920227,
+          0.49380266666412354,
+          1.0000001192092896,
+          0.0014958700630813837,
+          0.43232569098472595,
+          0.505770742893219,
+          -0.049971334636211395,
+          0.0004636584490071982
+        ],
+        [
+          -0.04218391701579094,
+          -0.08184602856636047,
+          0.027005158364772797,
+          0.026355793699622154,
+          -0.02168465591967106,
+          0.0014958700630813837,
+          0.9999999403953552,
+          -0.0029201467987149954,
+          -0.07995078712701797,
+          -0.05676008388400078,
+          0.009181699715554714
+        ],
+        [
+          0.013663002289831638,
+          0.5432811975479126,
+          0.4775698184967041,
+          0.552962064743042,
+          0.9017037153244019,
+          0.43232569098472595,
+          -0.0029201467987149954,
+          1.0,
+          0.5468353629112244,
+          -0.025157615542411804,
+          0.05559490993618965
+        ],
+        [
+          0.027375390753149986,
+          0.5446807742118835,
+          0.5027862787246704,
+          0.5322818160057068,
+          0.5965701341629028,
+          0.505770742893219,
+          -0.07995078712701797,
+          0.5468353629112244,
+          1.0,
+          -0.03718172758817673,
+          -0.01351913157850504
+        ],
+        [
+          0.16383372247219086,
+          -0.04053539037704468,
+          -0.04361806809902191,
+          -0.08725551515817642,
+          -0.037624478340148926,
+          -0.049971334636211395,
+          -0.05676008388400078,
+          -0.025157615542411804,
+          -0.03718172758817673,
+          0.9999998807907104,
+          0.10198374837636948
+        ],
+        [
+          0.2037748545408249,
+          -0.013627813197672367,
+          0.051942288875579834,
+          -0.015651915222406387,
+          0.049330130219459534,
+          0.0004636584490071982,
+          0.009181699715554714,
+          0.05559490993618965,
+          -0.01351913157850504,
+          0.10198374837636948,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_dana-international-01-jpg.jpg",
+      "path": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg"
+    },
+    {
+      "name": "03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "path": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg"
+    },
+    {
+      "name": "04_dana-international-cropped-png.png",
+      "path": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png"
+    },
+    {
+      "name": "06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_dana-international-2008-eurovision-jpg.jpg",
+      "path": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg"
+    },
+    {
+      "name": "11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "path": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg"
+    },
+    {
+      "name": "12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "path": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg"
+    },
+    {
+      "name": "13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "path": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+      "similarity": 0.409578800201416
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "similarity": 0.7891464829444885
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+      "similarity": 0.5329947471618652
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "similarity": 0.4451861083507538
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "similarity": -0.08184602856636047
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+      "similarity": 0.5432811975479126
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "similarity": 0.5446807742118835
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "similarity": -0.04053539037704468
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "similarity": -0.013627813197672367
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "similarity": 0.42127493023872375
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+      "similarity": 0.4750371277332306
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "similarity": 0.39591410756111145
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "similarity": 0.027005158364772797
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+      "similarity": 0.4775698184967041
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "similarity": 0.5027862787246704
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "similarity": -0.04361806809902191
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/02_dana-international-01-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "similarity": 0.051942288875579834
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+      "similarity": 0.5022679567337036
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "similarity": 0.45879867672920227
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "similarity": 0.026355793699622154
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+      "similarity": 0.552962064743042
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "similarity": 0.5322818160057068
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "similarity": -0.08725551515817642
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "similarity": -0.015651915222406387
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+      "right": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "similarity": 0.49380266666412354
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+      "right": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "similarity": -0.02168465591967106
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+      "right": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+      "similarity": 0.9017037153244019
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+      "right": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "similarity": 0.5965701341629028
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+      "right": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "similarity": -0.037624478340148926
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/04_dana-international-cropped-png.png",
+      "right": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "similarity": 0.049330130219459534
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "similarity": 0.0014958700630813837
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+      "similarity": 0.43232569098472595
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "similarity": 0.505770742893219
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "similarity": -0.049971334636211395
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "similarity": 0.0004636584490071982
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+      "similarity": -0.0029201467987149954
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "similarity": -0.07995078712701797
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "similarity": -0.05676008388400078
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "similarity": 0.009181699715554714
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "similarity": 0.5468353629112244
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "similarity": -0.025157615542411804
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/08_dana-international-2008-eurovision-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "similarity": 0.05559490993618965
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "similarity": -0.03718172758817673
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "similarity": -0.01351913157850504
+    },
+    {
+      "left": "/workspace/input/piven/data/dana_international/images/12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "right": "/workspace/input/piven/data/dana_international/images/13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg",
+      "similarity": 0.10198374837636948
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_dana-international-performing-at-the-miss-israel-1998-cropped-jpg.jpg",
+      "02_dana-international-01-jpg.jpg",
+      "03_dana-international-performing-at-the-miss-israel-1998-jpg.jpg",
+      "04_dana-international-cropped-png.png",
+      "06_pikiwiki-israel-48024-dana-international-in-ramat-gan-cropped-jpg.jpg",
+      "07_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-cropped-jpg.jpg",
+      "08_dana-international-2008-eurovision-jpg.jpg",
+      "11_dana-international-op-het-grote-songfestivalfeest-2019-jpg.jpg",
+      "12_charlotte-perelli-dana-international-melodifestivalen-2019-final-friends-arena-solna-jpg.jpg",
+      "13_dana-international-meets-verka-serduchka-in-belgrade-2008-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.409578800201416,
+        0.7891464829444885,
+        0.5329947471618652,
+        0.4451861083507538,
+        -0.08184602856636047,
+        0.5432811975479126,
+        0.5446807742118835,
+        -0.04053539037704468,
+        -0.013627813197672367
+      ],
+      [
+        0.409578800201416,
+        1.0000001192092896,
+        0.42127493023872375,
+        0.4750371277332306,
+        0.39591410756111145,
+        0.027005158364772797,
+        0.4775698184967041,
+        0.5027862787246704,
+        -0.04361806809902191,
+        0.051942288875579834
+      ],
+      [
+        0.7891464829444885,
+        0.42127493023872375,
+        1.0,
+        0.5022679567337036,
+        0.45879867672920227,
+        0.026355793699622154,
+        0.552962064743042,
+        0.5322818160057068,
+        -0.08725551515817642,
+        -0.015651915222406387
+      ],
+      [
+        0.5329947471618652,
+        0.4750371277332306,
+        0.5022679567337036,
+        1.0,
+        0.49380266666412354,
+        -0.02168465591967106,
+        0.9017037153244019,
+        0.5965701341629028,
+        -0.037624478340148926,
+        0.049330130219459534
+      ],
+      [
+        0.4451861083507538,
+        0.39591410756111145,
+        0.45879867672920227,
+        0.49380266666412354,
+        1.0000001192092896,
+        0.0014958700630813837,
+        0.43232569098472595,
+        0.505770742893219,
+        -0.049971334636211395,
+        0.0004636584490071982
+      ],
+      [
+        -0.08184602856636047,
+        0.027005158364772797,
+        0.026355793699622154,
+        -0.02168465591967106,
+        0.0014958700630813837,
+        0.9999999403953552,
+        -0.0029201467987149954,
+        -0.07995078712701797,
+        -0.05676008388400078,
+        0.009181699715554714
+      ],
+      [
+        0.5432811975479126,
+        0.4775698184967041,
+        0.552962064743042,
+        0.9017037153244019,
+        0.43232569098472595,
+        -0.0029201467987149954,
+        1.0,
+        0.5468353629112244,
+        -0.025157615542411804,
+        0.05559490993618965
+      ],
+      [
+        0.5446807742118835,
+        0.5027862787246704,
+        0.5322818160057068,
+        0.5965701341629028,
+        0.505770742893219,
+        -0.07995078712701797,
+        0.5468353629112244,
+        1.0,
+        -0.03718172758817673,
+        -0.01351913157850504
+      ],
+      [
+        -0.04053539037704468,
+        -0.04361806809902191,
+        -0.08725551515817642,
+        -0.037624478340148926,
+        -0.049971334636211395,
+        -0.05676008388400078,
+        -0.025157615542411804,
+        -0.03718172758817673,
+        0.9999998807907104,
+        0.10198374837636948
+      ],
+      [
+        -0.013627813197672367,
+        0.051942288875579834,
+        -0.015651915222406387,
+        0.049330130219459534,
+        0.0004636584490071982,
+        0.009181699715554714,
+        0.05559490993618965,
+        -0.01351913157850504,
+        0.10198374837636948,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/dana_international/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/dana_international/portrait.jpg"
+    }
+  ]
+}

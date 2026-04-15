@@ -1,0 +1,100 @@
+{
+  "folder": "/workspace/input/piven/data/fidel_castro",
+  "meta_path": "/workspace/input/piven/data/fidel_castro/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Fidel Alejandro Castro Ruz (13 August 1926 \u2013 25 November 2016) was a Cuban politician and revolutionary who was the leader of Cuba from 1959 to 2008, serving as prime minister from 1959 to 1976 and president from 1976 to 2008. Ideologically a Marxist\u2013Leninist and Cuban nationalist, he also served as the first secretary of the Communist Party of Cuba from 1965 until 2011. Under his administration, Cuba became a one-party communist state; industry and business were nationalized, and socialist reforms were implemented throughout society.\nBorn in Bir\u00e1n, the son of a wealthy Spanish farmer, Castro adopted leftist and anti-imperialist ideas while studying law at the University of Havana. After participating in rebellions against right-wing governments in the Dominican Republic and Colombia, he planned the overthrow of Cuban president Fulgencio Batista, launching a failed attack on the Moncada Barracks in 1953. After a year's imprisonment, Castro travelled to Mexico where he formed a revolutionary group, the 26th of July Movement, with his brother, Ra\u00fal Castro, and Ernesto \"Che\" Guevara. Returning to Cuba, Castro took a key role in the Cuban Revolution by leading the Movement in a guerrilla war against Batista's forces from the Sierra Maestra. After Batista's overthrow in 1959, Castro assumed military and political power as Cuba's prime minister. The United States came to oppose Castro's government and unsuccessfully attempted to remove him by assassination, economic embargo, and counter-revolution, including the Bay of Pigs Invasion of 1961. Countering these threats, Castro aligned with the Soviet Union and allowed the Soviets to place nuclear weapons in Cuba, resulting in the Cuban Missile Crisis\u2014a defining incident of the Cold War\u2014in 1962.\nAdopting a Marxist\u2013Leninist model of development, Castro converted Cuba into a one-party, socialist state under Communist Party rule, the first in the Western Hemisphere. Policies introducing central economic planning and expanding healthcare and education were accompanied by state control of the press and the suppression of internal dissent. Abroad, Castro supported anti-imperialist revolutionary groups, backing the establishment of Marxist governments in Chile, Nicaragua, and Grenada, as well as sending troops to aid allies in the Yom Kippur, Ogaden, and Angolan Civil wars. These actions, coupled with Castro's leadership of the Non-Aligned Movement from 1979 to 1983 and Cuban medical internationalism, increased Cuba's profile on the world stage. Following the dissolution of the Soviet Union in 1991, Castro led Cuba through the economic downturn of the \"Special Period\", embracing environmentalist and anti-globalization ideas. In the 2000s, Castro forged alliances in the Latin American \"pink tide\"\u2014namely with Hugo Ch\u00e1vez's Venezuela\u2014and formed the Bolivarian Alliance for the Americas. In 2006, Castro transferred his responsibilities to Vice President Ra\u00fal Castro, who was elected to the presidency by the National Assembly in 2008. Castro died at the age of 90 from natural causes in November 2016.\nCastro was the longest-serving non-royal head of state in the 20th and 21st centuries and polarized world opinion about his rule. His supporters view him as a champion of socialism and anti-imperialism whose revolutionary government advanced economic and social justice while securing Cuba's independence from American hegemony. His critics view him as a dictator whose administration oversaw human rights abuses, the exodus of many Cubans, and the impoverishment of the country's economy.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "paper cap"
+    },
+    {
+      "index": 1,
+      "element": "cigar"
+    },
+    {
+      "index": 2,
+      "element": "cotton"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "cell door"
+    },
+    {
+      "index": 1,
+      "element": "podium block"
+    },
+    {
+      "index": 2,
+      "element": "ballot box"
+    },
+    {
+      "index": 3,
+      "element": "crown arc"
+    },
+    {
+      "index": 4,
+      "element": "medal bar"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "paper cap",
+      "cigar",
+      "cotton"
+    ],
+    "values": [
+      [
+        -0.002829248085618019,
+        0.304279088973999,
+        0.0004449645057320595
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "cell door",
+      "podium block",
+      "ballot box",
+      "crown arc",
+      "medal bar"
+    ],
+    "column_labels": [
+      "paper cap",
+      "cigar",
+      "cotton"
+    ],
+    "values": [
+      [
+        0.20634734630584717,
+        0.1982358694076538,
+        0.1987675577402115
+      ],
+      [
+        0.250611275434494,
+        0.2268993854522705,
+        0.04597783833742142
+      ],
+      [
+        0.2992212772369385,
+        0.23444241285324097,
+        0.2050127387046814
+      ],
+      [
+        0.2104141116142273,
+        0.20242604613304138,
+        0.10603426396846771
+      ],
+      [
+        0.19554324448108673,
+        0.2517890930175781,
+        0.11538641154766083
+      ]
+    ]
+  }
+}

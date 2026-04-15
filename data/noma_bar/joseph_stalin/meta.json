@@ -1,0 +1,80 @@
+{
+  "name": "joseph stalin",
+  "bio": "Joseph Vissarionovich Stalin (né Dzhugashvili; 18 December [O.S. 6 December] 1878 – 5 March 1953) was a Soviet revolutionary and politician who led the Soviet Union from 1924 until his death in 1953. He held office as general secretary of the Communist Party from 1922 to 1952 and as premier from 1941 until his death. Despite initially governing the country as part of a collective leadership, he eventually consolidated power to become a dictator by the 1930s. Stalin codified the Communist Party's official interpretation of Marxism as Marxism–Leninism, and his version of it is referred to as Stalinism.\nBorn into a poor Georgian family in Gori, Russian Empire, Stalin attended the Tiflis Theological Seminary before joining the Marxist Russian Social Democratic Labour Party. He raised funds for Vladimir Lenin's Bolshevik faction through bank robberies and other crimes, and edited the party's newspaper, Pravda. He was repeatedly arrested and underwent several exiles to Siberia. After the Bolsheviks seized power in the October Revolution of 1917, Stalin served as a member of the Politburo, and from 1922 used his position as General Secretary to gain control over the party bureaucracy. After Lenin's death in 1924, Stalin won the leadership struggle over rivals including Leon Trotsky. Stalin's doctrine of socialism in one country became central to the party's ideology, and his five-year plans starting in 1928 led to forced agricultural collectivisation, rapid industrialisation, and a centralised command economy. His policies contributed to a famine in 1932–1933 which killed millions, including in the Holodomor in Ukraine. Between 1936 and 1938, Stalin executed hundreds of thousands of his real and perceived political opponents in the Great Purge. During his rule, an estimated 18 million people passed through the Gulag system of forced labour camps, and more than six million people, including kulaks and entire ethnic groups, were deported to remote areas of the country.\nStalin promoted Marxism–Leninism abroad through the Communist International and supported European anti-fascist movements. In 1939, his government signed the Molotov–Ribbentrop Pact with Germany, enabling the Soviet invasion of Poland at the start of World War II. Germany broke the pact by invading the Soviet Union in 1941, leading Stalin to join the Allies. The Red Army, with Stalin as its commander-in-chief, repelled the German invasion and captured Berlin in 1945, ending the war in Europe. The Soviet Union established Soviet-aligned states in Eastern Europe, and with the United States emerged as a superpower, with the two countries entering a period of rivalry known as the Cold War. Stalin presided over post-war reconstruction and the first Soviet atomic bomb test in 1949. During these years, the country experienced another famine and a state-sponsored antisemitic campaign culminating in the \"doctors' plot\". In 1953, Stalin died after a stroke. He was succeeded as leader by Georgy Malenkov and eventually Nikita Khrushchev, who in 1956 denounced Stalin's rule and began a campaign of \"de-Stalinisation\".\nOne of the 20th century's most significant figures, Stalin has a deeply contested legacy. During his rule, he was the subject of a pervasive personality cult within the international Marxist–Leninist movement, which revered him as a champion of socialism and the working class. Since the dissolution of the Soviet Union in 1991, Stalin has retained a degree of popularity in some of the post-Soviet states (particularly Russia and Georgia) as an economic moderniser and victorious wartime leader who transformed the Soviet Union into an industrialised superpower. Conversely, his leadership has been widely condemned for overseeing mass repression and man-made famine which resulted in the deaths of millions of Soviet citizens.",
+  "bio_sources": [
+    {
+      "subject": "joseph stalin",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Joseph_Stalin"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "white background field",
+      "shape_type": "rectangle",
+      "meaning": "sharpens the ideological red-black contrast"
+    },
+    {
+      "element": "red hair and jacket mass",
+      "shape_type": "silhouette",
+      "meaning": "evokes Soviet propaganda boldness"
+    },
+    {
+      "element": "white face silhouette",
+      "shape_type": "organic shape",
+      "meaning": "turns him into a stripped political emblem"
+    },
+    {
+      "element": "black hammer-like bar",
+      "shape_type": "symbol",
+      "meaning": "suggests industrial force and coercive power"
+    },
+    {
+      "element": "black sickle arc",
+      "shape_type": "symbol",
+      "meaning": "invokes Soviet communism directly"
+    },
+    {
+      "element": "small black mouth line",
+      "shape_type": "line",
+      "meaning": "keeps the expression severe and unyielding"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "flag field",
+      "visual_representation": "a folded field of striped or blocked civic color bands",
+      "category": "symbol",
+      "relevance": "The biography supports a public identity tied to state ceremony and leadership.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

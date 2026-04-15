@@ -1,0 +1,80 @@
+{
+  "name": "James Gandolfini",
+  "bio": "James John Gandolfini (Italian: [ɡandolˈfiːni]; September 18, 1961 – June 19, 2013) was an American actor. He was best known for his portrayal of Tony Soprano, the Italian-American Mafia crime boss in HBO's television series The Sopranos (1999–2007). For this role, he won three Emmy Awards, five Screen Actors Guild Awards, and one Golden Globe Award. His role as Tony Soprano has been described as the greatest and most influential performance in television history.\nGandolfini was featured in numerous films including True Romance (1993), Crimson Tide (1995), Get Shorty (1995), A Civil Action (1998), The Last Castle (2001), Romance & Cigarettes (2005), All the King's Men (2006), In the Loop (2009), Where the Wild Things Are (2009), The Taking of Pelham 123 (2009), Not Fade Away (2012), Zero Dark Thirty (2012) and The Drop (2014). He received acclaim for playing against type while starring in the romantic comedy Enough Said (2013). For the role, he earned numerous critics awards including a Screen Actors Guild Award nomination.\nGandolfini is also known for his roles on Broadway in A Streetcar Named Desire (1992), On the Waterfront (1995), and God of Carnage (2009), the latter earning him a Tony Award for Best Actor in a Play nomination. He also produced the war documentaries Alive Day Memories: Home from Iraq (2007) and Wartorn: 1861–2010 (2011) as well as the HBO film Hemingway & Gellhorn (2012), which earned him a Primetime Emmy Award for Outstanding Miniseries or Movie nomination.\nGandolfini died in 2013 of a heart attack in Rome at the age of 51.",
+  "bio_sources": [
+    {
+      "subject": "James Gandolfini",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/James_Gandolfini"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "pale blue face field against dark suit",
+      "shape_type": "geometric field",
+      "meaning": "gives the portrait a cold mob-drama calm"
+    },
+    {
+      "element": "pistol-shaped nose",
+      "shape_type": "symbol",
+      "meaning": "turns violence into facial identity"
+    },
+    {
+      "element": "single wary eye beside the gun",
+      "shape_type": "almond shape",
+      "meaning": "suggests suspicion and criminal vigilance"
+    },
+    {
+      "element": "dark curved mouth",
+      "shape_type": "crescent",
+      "meaning": "adds quiet menace"
+    },
+    {
+      "element": "large pale head silhouette",
+      "shape_type": "organic shape",
+      "meaning": "keeps the gangster calm and imposing"
+    },
+    {
+      "element": "dark clothing blocks",
+      "shape_type": "geometric shape",
+      "meaning": "frame him in a heavy suit-like mass"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "warning ring",
+      "visual_representation": "a hard circular warning sign with sharp internal divisions",
+      "category": "symbol",
+      "relevance": "Violence, threat, or criminal notoriety belong to the subject’s public world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "security barrier",
+      "visual_representation": "a blocked gate-like form with heavy posts",
+      "category": "structure",
+      "relevance": "Security response and danger are associated with the subject’s environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "evidence file",
+      "visual_representation": "a thick file folder with clipped paper edges",
+      "category": "domain",
+      "relevance": "Investigation and public scrutiny belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "fracture line",
+      "visual_representation": "a jagged break cutting through an otherwise rigid surface",
+      "category": "pattern",
+      "relevance": "The biography supports an atmosphere of rupture, danger, and disruption.",
+      "grounding": "inferred"
+    }
+  ]
+}

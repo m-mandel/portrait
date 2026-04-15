@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/saddam_hussein",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/saddam_hussein/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+        "similarity": 0.012063016183674335
+      },
+      {
+        "index": 1,
+        "name": "02_saddam-hussein-1979-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+        "similarity": 0.025639750063419342
+      },
+      {
+        "index": 2,
+        "name": "03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+        "similarity": 0.021805306896567345
+      },
+      {
+        "index": 3,
+        "name": "06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+        "similarity": 0.024550151079893112
+      },
+      {
+        "index": 4,
+        "name": "07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+        "similarity": 0.05640260875225067
+      },
+      {
+        "index": 5,
+        "name": "08_saddam-hussein-1956-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+        "similarity": 0.02975011244416237
+      },
+      {
+        "index": 6,
+        "name": "09_saddam-hussein-in-1956-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+        "similarity": 0.008972438052296638
+      },
+      {
+        "index": 7,
+        "name": "11_saddam-hussein-in-1998-png.png",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+        "similarity": 0.048398613929748535
+      },
+      {
+        "index": 8,
+        "name": "14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+        "similarity": 0.05415293201804161
+      },
+      {
+        "index": 9,
+        "name": "15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+        "similarity": 0.0009058882133103907
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.012063016183674335,
+          0.025639750063419342,
+          0.021805306896567345,
+          0.024550151079893112,
+          0.05640260875225067,
+          0.02975011244416237,
+          0.008972438052296638,
+          0.048398613929748535,
+          0.05415293201804161,
+          0.0009058882133103907
+        ],
+        [
+          0.012063016183674335,
+          1.0000001192092896,
+          0.42944884300231934,
+          0.9164516925811768,
+          0.5410749316215515,
+          0.4577224850654602,
+          0.18078982830047607,
+          0.18827025592327118,
+          0.45689117908477783,
+          0.3338920772075653,
+          0.39501819014549255
+        ],
+        [
+          0.025639750063419342,
+          0.42944884300231934,
+          1.0,
+          0.4137285351753235,
+          0.4897669553756714,
+          0.5201865434646606,
+          0.25297731161117554,
+          0.24790647625923157,
+          0.5100774168968201,
+          0.44274139404296875,
+          0.5266923308372498
+        ],
+        [
+          0.021805306896567345,
+          0.9164516925811768,
+          0.4137285351753235,
+          0.9999998807907104,
+          0.5781053304672241,
+          0.49982354044914246,
+          0.18917611241340637,
+          0.19922909140586853,
+          0.47069844603538513,
+          0.3405410647392273,
+          0.38896211981773376
+        ],
+        [
+          0.024550151079893112,
+          0.5410749316215515,
+          0.4897669553756714,
+          0.5781053304672241,
+          1.0,
+          0.49921149015426636,
+          0.24203307926654816,
+          0.2542845606803894,
+          0.5014046430587769,
+          0.38676199316978455,
+          0.4630427658557892
+        ],
+        [
+          0.05640260875225067,
+          0.4577224850654602,
+          0.5201865434646606,
+          0.49982354044914246,
+          0.49921149015426636,
+          1.0000001192092896,
+          0.20369665324687958,
+          0.19876353442668915,
+          0.9320673942565918,
+          0.4479665458202362,
+          0.43658921122550964
+        ],
+        [
+          0.02975011244416237,
+          0.18078982830047607,
+          0.25297731161117554,
+          0.18917611241340637,
+          0.24203307926654816,
+          0.20369665324687958,
+          1.0,
+          0.976945698261261,
+          0.18455882370471954,
+          0.1959143877029419,
+          0.18892741203308105
+        ],
+        [
+          0.008972438052296638,
+          0.18827025592327118,
+          0.24790647625923157,
+          0.19922909140586853,
+          0.2542845606803894,
+          0.19876353442668915,
+          0.976945698261261,
+          1.0000001192092896,
+          0.18400874733924866,
+          0.21453259885311127,
+          0.19772082567214966
+        ],
+        [
+          0.048398613929748535,
+          0.45689117908477783,
+          0.5100774168968201,
+          0.47069844603538513,
+          0.5014046430587769,
+          0.9320673942565918,
+          0.18455882370471954,
+          0.18400874733924866,
+          0.9999999403953552,
+          0.4471742808818817,
+          0.4453968405723572
+        ],
+        [
+          0.05415293201804161,
+          0.3338920772075653,
+          0.44274139404296875,
+          0.3405410647392273,
+          0.38676199316978455,
+          0.4479665458202362,
+          0.1959143877029419,
+          0.21453259885311127,
+          0.4471742808818817,
+          1.0,
+          0.7249853610992432
+        ],
+        [
+          0.0009058882133103907,
+          0.39501819014549255,
+          0.5266923308372498,
+          0.38896211981773376,
+          0.4630427658557892,
+          0.43658921122550964,
+          0.18892741203308105,
+          0.19772082567214966,
+          0.4453968405723572,
+          0.7249853610992432,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg"
+    },
+    {
+      "name": "02_saddam-hussein-1979-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg"
+    },
+    {
+      "name": "03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg"
+    },
+    {
+      "name": "06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg"
+    },
+    {
+      "name": "07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png"
+    },
+    {
+      "name": "08_saddam-hussein-1956-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg"
+    },
+    {
+      "name": "09_saddam-hussein-in-1956-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg"
+    },
+    {
+      "name": "11_saddam-hussein-in-1998-png.png",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png"
+    },
+    {
+      "name": "14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg"
+    },
+    {
+      "name": "15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "similarity": 0.42944884300231934
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "similarity": 0.9164516925811768
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "similarity": 0.5410749316215515
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "similarity": 0.4577224850654602
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+      "similarity": 0.18078982830047607
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+      "similarity": 0.18827025592327118
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+      "similarity": 0.45689117908477783
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "similarity": 0.3338920772075653
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "similarity": 0.39501819014549255
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "similarity": 0.4137285351753235
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "similarity": 0.4897669553756714
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "similarity": 0.5201865434646606
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+      "similarity": 0.25297731161117554
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+      "similarity": 0.24790647625923157
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+      "similarity": 0.5100774168968201
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "similarity": 0.44274139404296875
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "similarity": 0.5266923308372498
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "similarity": 0.5781053304672241
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "similarity": 0.49982354044914246
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+      "similarity": 0.18917611241340637
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+      "similarity": 0.19922909140586853
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+      "similarity": 0.47069844603538513
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "similarity": 0.3405410647392273
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "similarity": 0.38896211981773376
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "similarity": 0.49921149015426636
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+      "similarity": 0.24203307926654816
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+      "similarity": 0.2542845606803894
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+      "similarity": 0.5014046430587769
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "similarity": 0.38676199316978455
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "similarity": 0.4630427658557892
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+      "similarity": 0.20369665324687958
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+      "similarity": 0.19876353442668915
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+      "similarity": 0.9320673942565918
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "similarity": 0.4479665458202362
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "similarity": 0.43658921122550964
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+      "similarity": 0.976945698261261
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+      "similarity": 0.18455882370471954
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "similarity": 0.1959143877029419
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/08_saddam-hussein-1956-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "similarity": 0.18892741203308105
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+      "similarity": 0.18400874733924866
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "similarity": 0.21453259885311127
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/09_saddam-hussein-in-1956-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "similarity": 0.19772082567214966
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "similarity": 0.4471742808818817
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/11_saddam-hussein-in-1998-png.png",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "similarity": 0.4453968405723572
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/saddam_hussein/images/14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/saddam_hussein/images/15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg",
+      "similarity": 0.7249853610992432
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "02_saddam-hussein-1979-jpg.jpg",
+      "03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "06_saddam-hussein-captured-shaven-dd-sd-05-01885-jpg.jpg",
+      "07_saddam-hussein-in-1998-3x4-close-cropped-png.png",
+      "08_saddam-hussein-1956-jpg.jpg",
+      "09_saddam-hussein-in-1956-jpg.jpg",
+      "11_saddam-hussein-in-1998-png.png",
+      "14_saddam-hussein-during-1979-ba-ath-party-purge-3-jpg.jpg",
+      "15_saddam-hussein-during-1979-ba-ath-party-purge-5-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.42944884300231934,
+        0.9164516925811768,
+        0.5410749316215515,
+        0.4577224850654602,
+        0.18078982830047607,
+        0.18827025592327118,
+        0.45689117908477783,
+        0.3338920772075653,
+        0.39501819014549255
+      ],
+      [
+        0.42944884300231934,
+        1.0,
+        0.4137285351753235,
+        0.4897669553756714,
+        0.5201865434646606,
+        0.25297731161117554,
+        0.24790647625923157,
+        0.5100774168968201,
+        0.44274139404296875,
+        0.5266923308372498
+      ],
+      [
+        0.9164516925811768,
+        0.4137285351753235,
+        0.9999998807907104,
+        0.5781053304672241,
+        0.49982354044914246,
+        0.18917611241340637,
+        0.19922909140586853,
+        0.47069844603538513,
+        0.3405410647392273,
+        0.38896211981773376
+      ],
+      [
+        0.5410749316215515,
+        0.4897669553756714,
+        0.5781053304672241,
+        1.0,
+        0.49921149015426636,
+        0.24203307926654816,
+        0.2542845606803894,
+        0.5014046430587769,
+        0.38676199316978455,
+        0.4630427658557892
+      ],
+      [
+        0.4577224850654602,
+        0.5201865434646606,
+        0.49982354044914246,
+        0.49921149015426636,
+        1.0000001192092896,
+        0.20369665324687958,
+        0.19876353442668915,
+        0.9320673942565918,
+        0.4479665458202362,
+        0.43658921122550964
+      ],
+      [
+        0.18078982830047607,
+        0.25297731161117554,
+        0.18917611241340637,
+        0.24203307926654816,
+        0.20369665324687958,
+        1.0,
+        0.976945698261261,
+        0.18455882370471954,
+        0.1959143877029419,
+        0.18892741203308105
+      ],
+      [
+        0.18827025592327118,
+        0.24790647625923157,
+        0.19922909140586853,
+        0.2542845606803894,
+        0.19876353442668915,
+        0.976945698261261,
+        1.0000001192092896,
+        0.18400874733924866,
+        0.21453259885311127,
+        0.19772082567214966
+      ],
+      [
+        0.45689117908477783,
+        0.5100774168968201,
+        0.47069844603538513,
+        0.5014046430587769,
+        0.9320673942565918,
+        0.18455882370471954,
+        0.18400874733924866,
+        0.9999999403953552,
+        0.4471742808818817,
+        0.4453968405723572
+      ],
+      [
+        0.3338920772075653,
+        0.44274139404296875,
+        0.3405410647392273,
+        0.38676199316978455,
+        0.4479665458202362,
+        0.1959143877029419,
+        0.21453259885311127,
+        0.4471742808818817,
+        1.0,
+        0.7249853610992432
+      ],
+      [
+        0.39501819014549255,
+        0.5266923308372498,
+        0.38896211981773376,
+        0.4630427658557892,
+        0.43658921122550964,
+        0.18892741203308105,
+        0.19772082567214966,
+        0.4453968405723572,
+        0.7249853610992432,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/saddam_hussein/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/saddam_hussein/portrait.jpg"
+    }
+  ]
+}

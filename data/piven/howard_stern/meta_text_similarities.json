@@ -1,0 +1,88 @@
+{
+  "folder": "/workspace/input/piven/data/howard_stern",
+  "meta_path": "/workspace/input/piven/data/howard_stern/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Howard Allan Stern (born January 12, 1954) is an American broadcaster, comedian, and media personality. He is best known for The Howard Stern Show, which rose to prominence through national syndication on terrestrial radio from 1986 to 2005; he has broadcast on SiriusXM since 2006.\nStern began his radio career while at Boston University. From 1976 to 1982, he developed his on-air style at WRNW (Briarcliff Manor, NY), WCCC (Hartford, CT), WWWW (Detroit, MI), and WWDC (Washington, D.C.). He later worked afternoons at WNBC in New York City from 1982 until his firing in 1985, before starting a 20-year run at WXRK. His morning show entered syndication in 1986, eventually reaching 60 markets and peaking at 20 million listeners. From 2012 to 2015, he served as a judge on America\u2019s Got Talent. In his SiriusXM years, he gained renewed attention for long-form interviews, including The Howard Stern Interview: Bruce Springsteen (2022) and 2024 interviews with President Joe Biden and Vice President Kamala Harris.\nStern has received numerous awards, including Billboard\u2019s Nationally Syndicated Air Personality of the Year for eight consecutive years, and became the first host to hold the number one morning show in both New York City and Los Angeles. He is also the most fined radio host, with the Federal Communications Commission issuing $2.5 million in fines to station owners over indecent content. In 2004, he signed a five-year, $500 million deal with Sirius, making him one of the highest-paid figures in radio; he renewed his SiriusXM contract for three more years in December 2025\nCalling himself the \u201cKing of All Media\u201d since 1992, Stern has worked across television, pay-per-view, and home video. His books Private Parts (1993) and Miss America (1995) both debuted at number one on The New York Times Best Seller list and sold over one million copies. Private Parts was adapted into a 1997 biographical comedy film starring Stern and his radio team, topping the U.S. box office in its opening week and grossing $41.2 million domestically. Its soundtrack reached number one on the Billboard 200 and was certified platinum. His third book, Howard Stern Comes Again, was released in 2019.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "sunglasses"
+    },
+    {
+      "index": 1,
+      "element": "cucumber"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "city skyline"
+    },
+    {
+      "index": 1,
+      "element": "studio microphone"
+    },
+    {
+      "index": 2,
+      "element": "signal waves"
+    },
+    {
+      "index": 3,
+      "element": "camera body"
+    },
+    {
+      "index": 4,
+      "element": "screen frame"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "sunglasses",
+      "cucumber"
+    ],
+    "values": [
+      [
+        0.08451506495475769,
+        -0.06983375549316406
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "city skyline",
+      "studio microphone",
+      "signal waves",
+      "camera body",
+      "screen frame"
+    ],
+    "column_labels": [
+      "sunglasses",
+      "cucumber"
+    ],
+    "values": [
+      [
+        0.15134578943252563,
+        0.09246259927749634
+      ],
+      [
+        0.09691861271858215,
+        0.024900533258914948
+      ],
+      [
+        0.19084914028644562,
+        0.034028857946395874
+      ],
+      [
+        0.32390981912612915,
+        0.1359950304031372
+      ],
+      [
+        0.26053690910339355,
+        0.02957671508193016
+      ]
+    ]
+  }
+}

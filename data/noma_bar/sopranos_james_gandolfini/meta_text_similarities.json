@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/sopranos_james_gandolfini",
+  "meta_path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "James John Gandolfini (Italian: [\u0261andol\u02c8fi\u02d0ni]; September 18, 1961 \u2013 June 19, 2013) was an American actor. He was best known for his portrayal of Tony Soprano, the Italian-American Mafia crime boss in HBO's television series The Sopranos (1999\u20132007). For this role, he won three Emmy Awards, five Screen Actors Guild Awards, and one Golden Globe Award. His role as Tony Soprano has been described as the greatest and most influential performance in television history.\nGandolfini was featured in numerous films including True Romance (1993), Crimson Tide (1995), Get Shorty (1995), A Civil Action (1998), The Last Castle (2001), Romance & Cigarettes (2005), All the King's Men (2006), In the Loop (2009), Where the Wild Things Are (2009), The Taking of Pelham 123 (2009), Not Fade Away (2012), Zero Dark Thirty (2012) and The Drop (2014). He received acclaim for playing against type while starring in the romantic comedy Enough Said (2013). For the role, he earned numerous critics awards including a Screen Actors Guild Award nomination.\nGandolfini is also known for his roles on Broadway in A Streetcar Named Desire (1992), On the Waterfront (1995), and God of Carnage (2009), the latter earning him a Tony Award for Best Actor in a Play nomination. He also produced the war documentaries Alive Day Memories: Home from Iraq (2007) and Wartorn: 1861\u20132010 (2011) as well as the HBO film Hemingway & Gellhorn (2012), which earned him a Primetime Emmy Award for Outstanding Miniseries or Movie nomination.\nGandolfini died in 2013 of a heart attack in Rome at the age of 51.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "pale blue face field against dark suit"
+    },
+    {
+      "index": 1,
+      "element": "pistol-shaped nose"
+    },
+    {
+      "index": 2,
+      "element": "single wary eye beside the gun"
+    },
+    {
+      "index": 3,
+      "element": "dark curved mouth"
+    },
+    {
+      "index": 4,
+      "element": "large pale head silhouette"
+    },
+    {
+      "index": 5,
+      "element": "dark clothing blocks"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "warning ring"
+    },
+    {
+      "index": 2,
+      "element": "security barrier"
+    },
+    {
+      "index": 3,
+      "element": "evidence file"
+    },
+    {
+      "index": 4,
+      "element": "fracture line"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "pale blue face field against dark suit",
+      "pistol-shaped nose",
+      "single wary eye beside the gun",
+      "dark curved mouth",
+      "large pale head silhouette",
+      "dark clothing blocks"
+    ],
+    "values": [
+      [
+        0.06468980759382248,
+        0.035097893327474594,
+        0.04787743091583252,
+        0.05383762717247009,
+        -0.020451880991458893,
+        0.04908553138375282
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "warning ring",
+      "security barrier",
+      "evidence file",
+      "fracture line"
+    ],
+    "column_labels": [
+      "pale blue face field against dark suit",
+      "pistol-shaped nose",
+      "single wary eye beside the gun",
+      "dark curved mouth",
+      "large pale head silhouette",
+      "dark clothing blocks"
+    ],
+    "values": [
+      [
+        0.3845129609107971,
+        0.266114741563797,
+        0.21551194787025452,
+        0.21579281985759735,
+        0.5698212385177612,
+        0.2796175181865692
+      ],
+      [
+        0.13625340163707733,
+        0.17236769199371338,
+        0.28094959259033203,
+        0.1905919313430786,
+        0.04815501347184181,
+        0.08749627321958542
+      ],
+      [
+        0.11715535819530487,
+        0.08065672218799591,
+        0.20789925754070282,
+        0.03743148595094681,
+        -0.036488842219114304,
+        0.2836066484451294
+      ],
+      [
+        0.05620730668306351,
+        0.06322020292282104,
+        0.14304392039775848,
+        0.03577912226319313,
+        0.16202381253242493,
+        0.1331627070903778
+      ],
+      [
+        0.08734913915395737,
+        0.16577960550785065,
+        0.20377828180789948,
+        0.13171279430389404,
+        0.09754808247089386,
+        0.11199472844600677
+      ]
+    ]
+  }
+}

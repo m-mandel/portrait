@@ -1,0 +1,88 @@
+{
+  "folder": "/workspace/input/piven/data/ross_perot",
+  "meta_path": "/workspace/input/piven/data/ross_perot/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Henry Ross Perot (  p\u0259-ROH; June 27, 1930 \u2013 July 9, 2019) was an American businessman, politician, and philanthropist. He was the founder and chief executive officer of Electronic Data Systems and Perot Systems. He ran an independent campaign in the 1992 U.S. presidential election and a third-party campaign in the 1996 U.S. presidential election as the nominee of the Reform Party, which was formed by grassroots supporters of Perot's 1992 campaign. Although he failed to carry a single state in either election, both campaigns were among the stronger presidential showings by a third party or independent candidate in U.S. history.\nBorn and raised in Texarkana, Texas, Perot became a salesman for IBM after serving in the United States Navy. In 1962, he founded Electronic Data Systems, a data processing service company. In 1984, General Motors bought a controlling interest in the company for $2.4 billion ($6.1 billion in 2024). Perot established Perot Systems in 1988 and was an angel investor for NeXT, a computer company founded by Steve Jobs after he left Apple. Perot also became heavily involved in the Vietnam War POW/MIA issue, arguing that hundreds of American servicemen were left behind in Southeast Asia after the Vietnam War. During the presidency of George H. W. Bush, Perot became increasingly active in politics and strongly opposed both the Gulf War and the ratification of the North American Free Trade Agreement.\nIn 1992, Perot announced his intention to run for president and advocated a balanced budget, an end to the outsourcing of jobs, and the enactment of electronic direct democracy. A June 1992 Gallup poll showed Perot leading a three-way race against President Bush and presumptive Democratic nominee Bill Clinton. Perot withdrew from the race in July, but re-entered the race in early October after he qualified for all 50 state ballots. He chose Admiral James Stockdale as his running mate and appeared in the 1992 debates with Bush and Clinton. In the election, Perot did not win any electoral votes, but won over 19.7 million votes for an 18.9% share of the popular vote. He won support from across the ideological and partisan spectrum, but performed best among self-described moderates. Perot ran for president again in 1996, establishing the Reform Party as a vehicle for his campaign. He won 8.4 percent of the popular vote against President Clinton and Republican nominee Bob Dole.\nPerot did not seek public office again after 1996. He endorsed Republican George W. Bush over Reform nominee Pat Buchanan in the 2000 election and supported Republican Mitt Romney in 2008 and 2012. In 2009, Dell acquired Perot Systems for $3.9 billion ($5.5 billion in 2024). According to Forbes, Perot was the 167th richest person in the United States as of 2016. He died from leukemia at the age of 89 in Dallas, Texas, in July 2019.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "rubber bulb syringe"
+    },
+    {
+      "index": 1,
+      "element": "mini sneakers"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "circuit grid"
+    },
+    {
+      "index": 1,
+      "element": "keyboard keys"
+    },
+    {
+      "index": 2,
+      "element": "podium block"
+    },
+    {
+      "index": 3,
+      "element": "medal bar"
+    },
+    {
+      "index": 4,
+      "element": "bar chart"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "rubber bulb syringe",
+      "mini sneakers"
+    ],
+    "values": [
+      [
+        0.06177222728729248,
+        0.12328080832958221
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "circuit grid",
+      "keyboard keys",
+      "podium block",
+      "medal bar",
+      "bar chart"
+    ],
+    "column_labels": [
+      "rubber bulb syringe",
+      "mini sneakers"
+    ],
+    "values": [
+      [
+        -0.002669338136911392,
+        0.1251268982887268
+      ],
+      [
+        0.07967248558998108,
+        0.3391076326370239
+      ],
+      [
+        -0.07369370758533478,
+        0.13649755716323853
+      ],
+      [
+        0.023312311619520187,
+        0.1811031699180603
+      ],
+      [
+        -0.08300101011991501,
+        0.09879608452320099
+      ]
+    ]
+  }
+}

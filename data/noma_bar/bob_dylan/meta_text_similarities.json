@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/bob_dylan",
+  "meta_path": "/workspace/input/noma_bar/data/bob_dylan/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Bob Dylan (legally Robert Dylan; born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter. Described as one of the greatest songwriters of all time, Dylan has been a major figure in popular culture over his 69-year career. With an estimated 125 million records sold worldwide, he is one of the best-selling musicians. Dylan added increasingly sophisticated lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\". His lyrics incorporated political, social, and philosophical influences, defying pop music conventions and appealing to the burgeoning counterculture.\nDylan was born in St. Louis County, Minnesota. He moved to New York City in 1961 to pursue a music career. His 1962 debut album, Bob Dylan, containing traditional folk and blues material, was followed by his breakthrough album, The Freewheelin' Bob Dylan (1963), which included \"Girl from the North Country\" and \"A Hard Rain's a-Gonna Fall\", adapting older folk songs. His songs \"Blowin' in the Wind\" (1963) and \"The Times They Are a-Changin'\" (1964) became anthems for the civil rights and antiwar movements. In 1965 and 1966, Dylan created controversy when he used electrically amplified rock instrumentation for his albums Bringing It All Back Home, Highway 61 Revisited (both 1965), and Blonde on Blonde (1966). His six-minute single \"Like a Rolling Stone\" (1965) expanded commercial and creative boundaries in popular music.\nAfter a motorcycle crash in 1966, Dylan ceased touring for seven years. During this period, he recorded a large body of songs with members of the Band, which produced the album The Basement Tapes (1975). Dylan explored country music and rural themes on the albums John Wesley Harding (1967), Nashville Skyline (1969), and New Morning (1970). He gained acclaim for Blood on the Tracks (1975) and Time Out of Mind (1997), the latter of which earned him the Grammy Award for Album of the Year. Dylan still releases music and has toured continually since the late 1980s on what has become known as the Never Ending Tour. Since 1994, Dylan has published ten books of paintings and drawings, and his work has been exhibited in major art galleries. His life has been profiled in several films, including the biopic A Complete Unknown (2024).\nDylan's accolades include an Academy Award and ten Grammy Awards. He was honored with Kennedy Center Honors in 1997 and the Presidential Medal of Freedom in 2012. Dylan has been inducted into the Rock and Roll Hall of Fame and the Songwriters Hall of Fame. He was awarded a Pulitzer Prize special citation in 2008, and the 2016 Nobel Prize in Literature \"for having created new poetic expressions within the great American song tradition\".",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "white background field"
+    },
+    {
+      "index": 1,
+      "element": "curly black hair cloud"
+    },
+    {
+      "index": 2,
+      "element": "guitar neck with strings"
+    },
+    {
+      "index": 3,
+      "element": "dark sunglass lens"
+    },
+    {
+      "index": 4,
+      "element": "thin mouth line with rectangular tip"
+    },
+    {
+      "index": 5,
+      "element": "black coat field"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "medal disk"
+    },
+    {
+      "index": 1,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 2,
+      "element": "raised fist"
+    },
+    {
+      "index": 3,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 4,
+      "element": "vinyl record"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "white background field",
+      "curly black hair cloud",
+      "guitar neck with strings",
+      "dark sunglass lens",
+      "thin mouth line with rectangular tip",
+      "black coat field"
+    ],
+    "values": [
+      [
+        -0.035564862191677094,
+        0.07218259572982788,
+        0.11756695806980133,
+        0.010521817952394485,
+        -0.016507714986801147,
+        -0.07913310825824738
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "medal disk",
+      "statuette silhouette",
+      "raised fist",
+      "microphone silhouette",
+      "vinyl record"
+    ],
+    "column_labels": [
+      "white background field",
+      "curly black hair cloud",
+      "guitar neck with strings",
+      "dark sunglass lens",
+      "thin mouth line with rectangular tip",
+      "black coat field"
+    ],
+    "values": [
+      [
+        0.08505206555128098,
+        0.1348317712545395,
+        0.07252180576324463,
+        0.18635688722133636,
+        -0.04734530672430992,
+        0.1957608163356781
+      ],
+      [
+        0.2906287610530853,
+        0.17446233332157135,
+        0.0863916426897049,
+        0.3094196319580078,
+        0.05580080300569534,
+        0.2634320855140686
+      ],
+      [
+        0.09817210584878922,
+        0.22695469856262207,
+        0.11438272148370743,
+        -0.01761322282254696,
+        0.10391690582036972,
+        0.10002213716506958
+      ],
+      [
+        0.3227623701095581,
+        0.1873357743024826,
+        0.1668936014175415,
+        0.34972959756851196,
+        0.2135135680437088,
+        0.22171851992607117
+      ],
+      [
+        0.09493513405323029,
+        0.11984631419181824,
+        0.14184504747390747,
+        0.160672128200531,
+        0.03330988809466362,
+        0.08832243084907532
+      ]
+    ]
+  }
+}

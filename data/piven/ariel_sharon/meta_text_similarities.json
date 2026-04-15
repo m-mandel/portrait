@@ -1,0 +1,100 @@
+{
+  "folder": "/workspace/input/piven/data/ariel_sharon",
+  "meta_path": "/workspace/input/piven/data/ariel_sharon/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Ariel \"Arik\" Sharon (Hebrew: \u05d0\u05b2\u05e8\u05b4\u05d9\u05d0\u05b5\u05dc (\u05d0\u05b8\u05e8\u05b4\u05d9\u05e7) \u05e9\u05b8\u05c1\u05e8\u05d5\u05b9\u05df, [a\u0281i\u02c8(\u0294)el \u0283a\u02c8\u0281on] ; 26 February 1928 \u2013 11 January 2014) was an Israeli general and politician who served as the prime minister of Israel from March 2001 until April 2006.\nBorn in Kfar Malal in Palestine to Russian Jewish immigrants, he rose in the ranks of the Israeli Army from its creation in 1948, participating in the 1948 Palestine war as platoon commander of the Alexandroni Brigade and taking part in several battles. Sharon became an instrumental figure in the creation of Unit 101 and the reprisal operations, including the 1953 Qibya massacre, as well as in the 1956 Suez Crisis, the Six-Day War of 1967, the War of Attrition, and the Yom-Kippur War of 1973. Yitzhak Rabin called Sharon \"the greatest field commander in our history\". Upon leaving the military, Sharon entered politics, joining the Likud party, and served in a number of ministerial posts in Likud-led governments in 1977\u201392 and 1996\u201399. As Minister of Defense, he directed the 1982 Lebanon War. An official enquiry found that he bore \"personal responsibility\" for the Sabra and Shatila massacre of Palestinian refugees, for which he became known as the \"Butcher of Beirut\" among Arabs. He was subsequently removed as defense minister.\nFrom the 1970s through to the 1990s, Sharon championed construction of Israeli settlements in the Israeli-occupied West Bank and Gaza Strip. He became the leader of the Likud in 1999, and in 2000, amid campaigning for the 2001 prime ministerial election, made a controversial visit to the Al-Aqsa complex on the Temple Mount, triggering the Second Intifada. He subsequently defeated Ehud Barak in the election and served as Israel's prime minister from 2001 to 2006. As Prime Minister, Sharon orchestrated the construction of the Israeli West Bank barrier in 2002\u20132003 and Israel's unilateral disengagement from the Gaza Strip in 2005. Facing stiff opposition to the latter policy within the Likud, in November 2005 he left Likud to form a new party, Kadima. He had been expected to win the next election and was widely interpreted as planning on \"clearing Israel out of most of the West Bank\", in a series of unilateral withdrawals. Following a stroke on 4 January 2006, Sharon remained in a permanent vegetative state until his death in 2014.\nSharon remains a highly polarizing figure in Middle Eastern history. Israelis almost universally revere Sharon as a war hero and statesman, whereas Palestinians and Human Rights Watch have criticized him as a war criminal, with the latter lamenting that he was never held accountable.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "ground meat"
+    },
+    {
+      "index": 1,
+      "element": "cloth"
+    },
+    {
+      "index": 2,
+      "element": "tie"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "medal bar"
+    },
+    {
+      "index": 1,
+      "element": "campaign map"
+    },
+    {
+      "index": 2,
+      "element": "podium block"
+    },
+    {
+      "index": 3,
+      "element": "shield plate"
+    },
+    {
+      "index": 4,
+      "element": "command shadow"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "ground meat",
+      "cloth",
+      "tie"
+    ],
+    "values": [
+      [
+        -0.0875835120677948,
+        -0.017484568059444427,
+        -0.003476874902844429
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "medal bar",
+      "campaign map",
+      "podium block",
+      "shield plate",
+      "command shadow"
+    ],
+    "column_labels": [
+      "ground meat",
+      "cloth",
+      "tie"
+    ],
+    "values": [
+      [
+        0.2029002457857132,
+        0.22661720216274261,
+        0.26433998346328735
+      ],
+      [
+        0.026308491826057434,
+        0.10463421791791916,
+        0.1732330322265625
+      ],
+      [
+        0.14919564127922058,
+        0.18343263864517212,
+        0.19701765477657318
+      ],
+      [
+        0.2509016990661621,
+        0.2782578766345978,
+        0.12506388127803802
+      ],
+      [
+        0.11106812953948975,
+        0.29723674058914185,
+        0.09546110033988953
+      ]
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "folder": "/workspace/input/piven/data/jesse_jackson",
+  "meta_path": "/workspace/input/piven/data/jesse_jackson/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Jesse Louis Jackson Sr. (n\u00e9 Burns; October 8, 1941 \u2013 February 17, 2026) was an American civil rights activist, LGBTQ rights activist, politician, and ordained Baptist minister. A prot\u00e9g\u00e9 of Martin Luther King Jr. and James Bevel during the civil rights movement, he became one of the most prominent civil rights leaders of the late 20th and early 21st centuries, and an ardent advocate and early supporter of LGBTQ rights in the United States. From 1991 to 1997, he served as a shadow United States senator for the District of Columbia.\nBorn in Greenville, South Carolina, Jackson began his activism in the 1960s and founded the organizations that later merged to form the Rainbow/PUSH Coalition. Expanding his work into international affairs in the 1980s, he became a vocal critic of the Reagan administration and launched a presidential campaign in 1984. Initially viewed as a fringe candidate, he finished third for the Democratic nomination behind former vice president Walter Mondale and Senator Gary Hart. He continued his activism and mounted a second presidential bid in 1988, finishing as the runner\u2011up for the Democratic nomination to Massachusetts governor Michael Dukakis.\nJackson did not seek the presidency again, but in 1990, he was elected as the District of Columbia's shadow senator, serving one term during the H. W. Bush and Clinton administrations. Although initially critical of President Bill Clinton, he later became a supporter and friend. Jackson hosted Both Sides with Jesse Jackson on CNN from 1992 to 2000. A critic of police brutality, the Republican Party, and conservative policies, he was widely regarded as one of the most influential African\u2011American activists of his era.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "fabric"
+    },
+    {
+      "index": 1,
+      "element": "speaker"
+    },
+    {
+      "index": 2,
+      "element": "knobs"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "rainbow band"
+    },
+    {
+      "index": 1,
+      "element": "protest banner"
+    },
+    {
+      "index": 2,
+      "element": "march line"
+    },
+    {
+      "index": 3,
+      "element": "podium block"
+    },
+    {
+      "index": 4,
+      "element": "cross emblem"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "fabric",
+      "speaker",
+      "knobs"
+    ],
+    "values": [
+      [
+        -0.046107418835163116,
+        0.060266509652137756,
+        -0.04906613007187843
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "rainbow band",
+      "protest banner",
+      "march line",
+      "podium block",
+      "cross emblem"
+    ],
+    "column_labels": [
+      "fabric",
+      "speaker",
+      "knobs"
+    ],
+    "values": [
+      [
+        0.25728166103363037,
+        0.29459521174430847,
+        0.2557983100414276
+      ],
+      [
+        0.1936364471912384,
+        0.17338205873966217,
+        0.18831157684326172
+      ],
+      [
+        0.20176738500595093,
+        0.08633612096309662,
+        0.19034811854362488
+      ],
+      [
+        0.14776787161827087,
+        0.34531092643737793,
+        0.2641700804233551
+      ],
+      [
+        0.3253585994243622,
+        0.061666734516620636,
+        0.1666053980588913
+      ]
+    ]
+  }
+}

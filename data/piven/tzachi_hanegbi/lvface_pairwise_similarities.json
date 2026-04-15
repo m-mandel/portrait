@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/tzachi_hanegbi",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/tzachi_hanegbi/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+        "similarity": 0.024252410978078842
+      },
+      {
+        "index": 1,
+        "name": "02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+        "similarity": 0.017097150906920433
+      },
+      {
+        "index": 2,
+        "name": "03_tzachi-hanegbi-jpg.jpg",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+        "similarity": 0.010565276257693768
+      },
+      {
+        "index": 3,
+        "name": "04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+        "similarity": 0.013696597889065742
+      },
+      {
+        "index": 4,
+        "name": "05_world-summit-2023-ict.png",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+        "similarity": 0.03887777775526047
+      },
+      {
+        "index": 5,
+        "name": "06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+        "similarity": -0.012405523099005222
+      },
+      {
+        "index": 6,
+        "name": "07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+        "similarity": 0.01901322975754738
+      },
+      {
+        "index": 7,
+        "name": "08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+        "similarity": 0.004106712993234396
+      },
+      {
+        "index": 8,
+        "name": "09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+        "similarity": 0.016971606761217117
+      },
+      {
+        "index": 9,
+        "name": "10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+        "path": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+        "similarity": -0.009646711871027946
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.024252410978078842,
+          0.017097150906920433,
+          0.010565276257693768,
+          0.013696597889065742,
+          0.03887777775526047,
+          -0.012405523099005222,
+          0.01901322975754738,
+          0.004106712993234396,
+          0.016971606761217117,
+          -0.009646711871027946
+        ],
+        [
+          0.024252410978078842,
+          0.9999998807907104,
+          0.8554355502128601,
+          0.5392996668815613,
+          0.5956629514694214,
+          0.5693763494491577,
+          0.4383140504360199,
+          0.4158293902873993,
+          0.5506182909011841,
+          0.5364683270454407,
+          0.4237253963947296
+        ],
+        [
+          0.017097150906920433,
+          0.8554355502128601,
+          1.0,
+          0.5771202445030212,
+          0.6190287470817566,
+          0.5031653642654419,
+          0.4493989944458008,
+          0.41140955686569214,
+          0.5145710110664368,
+          0.5324161648750305,
+          0.49546018242836
+        ],
+        [
+          0.010565276257693768,
+          0.5392996668815613,
+          0.5771202445030212,
+          1.0,
+          0.47361046075820923,
+          0.5193888545036316,
+          0.547020435333252,
+          0.45288893580436707,
+          0.49009445309638977,
+          0.5176299214363098,
+          0.4864509701728821
+        ],
+        [
+          0.013696597889065742,
+          0.5956629514694214,
+          0.6190287470817566,
+          0.47361046075820923,
+          1.0000001192092896,
+          0.3917182981967926,
+          0.4990609586238861,
+          0.3731597065925598,
+          0.5323951244354248,
+          0.5372474789619446,
+          0.5049912333488464
+        ],
+        [
+          0.03887777775526047,
+          0.5693763494491577,
+          0.5031653642654419,
+          0.5193888545036316,
+          0.3917182981967926,
+          1.0000001192092896,
+          0.4678417444229126,
+          0.5773390531539917,
+          0.4958280622959137,
+          0.43092334270477295,
+          0.34596145153045654
+        ],
+        [
+          -0.012405523099005222,
+          0.4383140504360199,
+          0.4493989944458008,
+          0.547020435333252,
+          0.4990609586238861,
+          0.4678417444229126,
+          1.0,
+          0.43119752407073975,
+          0.4530239999294281,
+          0.5397207736968994,
+          0.4172387421131134
+        ],
+        [
+          0.01901322975754738,
+          0.4158293902873993,
+          0.41140955686569214,
+          0.45288893580436707,
+          0.3731597065925598,
+          0.5773390531539917,
+          0.43119752407073975,
+          0.9999999403953552,
+          0.5147061347961426,
+          0.33314481377601624,
+          0.47036224603652954
+        ],
+        [
+          0.004106712993234396,
+          0.5506182909011841,
+          0.5145710110664368,
+          0.49009445309638977,
+          0.5323951244354248,
+          0.4958280622959137,
+          0.4530239999294281,
+          0.5147061347961426,
+          0.9999999403953552,
+          0.6042673587799072,
+          0.540253758430481
+        ],
+        [
+          0.016971606761217117,
+          0.5364683270454407,
+          0.5324161648750305,
+          0.5176299214363098,
+          0.5372474789619446,
+          0.43092334270477295,
+          0.5397207736968994,
+          0.33314481377601624,
+          0.6042673587799072,
+          1.0,
+          0.41070422530174255
+        ],
+        [
+          -0.009646711871027946,
+          0.4237253963947296,
+          0.49546018242836,
+          0.4864509701728821,
+          0.5049912333488464,
+          0.34596145153045654,
+          0.4172387421131134,
+          0.47036224603652954,
+          0.540253758430481,
+          0.41070422530174255,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg"
+    },
+    {
+      "name": "03_tzachi-hanegbi-jpg.jpg",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg"
+    },
+    {
+      "name": "04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg"
+    },
+    {
+      "name": "05_world-summit-2023-ict.png",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png"
+    },
+    {
+      "name": "06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg"
+    },
+    {
+      "name": "07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg"
+    },
+    {
+      "name": "08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg"
+    },
+    {
+      "name": "09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp"
+    },
+    {
+      "name": "10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "similarity": 0.8554355502128601
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+      "similarity": 0.5392996668815613
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "similarity": 0.5956629514694214
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+      "similarity": 0.5693763494491577
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "similarity": 0.4383140504360199
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "similarity": 0.4158293902873993
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "similarity": 0.5506182909011841
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "similarity": 0.5364683270454407
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "similarity": 0.4237253963947296
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+      "similarity": 0.5771202445030212
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "similarity": 0.6190287470817566
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+      "similarity": 0.5031653642654419
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "similarity": 0.4493989944458008
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "similarity": 0.41140955686569214
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "similarity": 0.5145710110664368
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "similarity": 0.5324161648750305
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "similarity": 0.49546018242836
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "similarity": 0.47361046075820923
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+      "similarity": 0.5193888545036316
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "similarity": 0.547020435333252
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "similarity": 0.45288893580436707
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "similarity": 0.49009445309638977
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "similarity": 0.5176299214363098
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/03_tzachi-hanegbi-jpg.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "similarity": 0.4864509701728821
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+      "similarity": 0.3917182981967926
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "similarity": 0.4990609586238861
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "similarity": 0.3731597065925598
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "similarity": 0.5323951244354248
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "similarity": 0.5372474789619446
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "similarity": 0.5049912333488464
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "similarity": 0.4678417444229126
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "similarity": 0.5773390531539917
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "similarity": 0.4958280622959137
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "similarity": 0.43092334270477295
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/05_world-summit-2023-ict.png",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "similarity": 0.34596145153045654
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "similarity": 0.43119752407073975
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "similarity": 0.4530239999294281
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "similarity": 0.5397207736968994
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "similarity": 0.4172387421131134
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "similarity": 0.5147061347961426
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "similarity": 0.33314481377601624
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "similarity": 0.47036224603652954
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "similarity": 0.6042673587799072
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "similarity": 0.540253758430481
+    },
+    {
+      "left": "/workspace/input/piven/data/tzachi_hanegbi/images/09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "right": "/workspace/input/piven/data/tzachi_hanegbi/images/10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png",
+      "similarity": 0.41070422530174255
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_tzachi-hanegbi-photo-by-haim-zach-gpo-cropped-jpg.jpg",
+      "02_tzachi-hanegbi-photo-by-haim-zach-gpo-jpg.jpg",
+      "03_tzachi-hanegbi-jpg.jpg",
+      "04_hanegbi-says-gazans-should-avoid-hospitals-in-north-urges-egypt-to.jpg",
+      "05_world-summit-2023-ict.png",
+      "06_israel-says-holding-talks-with-palestinians-to-advance-saudi.jpg",
+      "07_israel-th-a-nh-n-sai-l-m-t-nh-b-o-trong-ph-n-o-n-v-cu-c-t-n-c-ng-c-a.jpg",
+      "08_tzachi-hanegbi-jefe-del-consejo-de-seguridad-nacional-quien-quiera.jpg",
+      "09_israel-advierte-que-actuar-ante-avances-nucleares-de-ir-n-noticias.webp",
+      "10_israel-tzachi-hanegbi-appointed-head-of-the-national-security-council.png"
+    ],
+    "values": [
+      [
+        0.9999998807907104,
+        0.8554355502128601,
+        0.5392996668815613,
+        0.5956629514694214,
+        0.5693763494491577,
+        0.4383140504360199,
+        0.4158293902873993,
+        0.5506182909011841,
+        0.5364683270454407,
+        0.4237253963947296
+      ],
+      [
+        0.8554355502128601,
+        1.0,
+        0.5771202445030212,
+        0.6190287470817566,
+        0.5031653642654419,
+        0.4493989944458008,
+        0.41140955686569214,
+        0.5145710110664368,
+        0.5324161648750305,
+        0.49546018242836
+      ],
+      [
+        0.5392996668815613,
+        0.5771202445030212,
+        1.0,
+        0.47361046075820923,
+        0.5193888545036316,
+        0.547020435333252,
+        0.45288893580436707,
+        0.49009445309638977,
+        0.5176299214363098,
+        0.4864509701728821
+      ],
+      [
+        0.5956629514694214,
+        0.6190287470817566,
+        0.47361046075820923,
+        1.0000001192092896,
+        0.3917182981967926,
+        0.4990609586238861,
+        0.3731597065925598,
+        0.5323951244354248,
+        0.5372474789619446,
+        0.5049912333488464
+      ],
+      [
+        0.5693763494491577,
+        0.5031653642654419,
+        0.5193888545036316,
+        0.3917182981967926,
+        1.0000001192092896,
+        0.4678417444229126,
+        0.5773390531539917,
+        0.4958280622959137,
+        0.43092334270477295,
+        0.34596145153045654
+      ],
+      [
+        0.4383140504360199,
+        0.4493989944458008,
+        0.547020435333252,
+        0.4990609586238861,
+        0.4678417444229126,
+        1.0,
+        0.43119752407073975,
+        0.4530239999294281,
+        0.5397207736968994,
+        0.4172387421131134
+      ],
+      [
+        0.4158293902873993,
+        0.41140955686569214,
+        0.45288893580436707,
+        0.3731597065925598,
+        0.5773390531539917,
+        0.43119752407073975,
+        0.9999999403953552,
+        0.5147061347961426,
+        0.33314481377601624,
+        0.47036224603652954
+      ],
+      [
+        0.5506182909011841,
+        0.5145710110664368,
+        0.49009445309638977,
+        0.5323951244354248,
+        0.4958280622959137,
+        0.4530239999294281,
+        0.5147061347961426,
+        0.9999999403953552,
+        0.6042673587799072,
+        0.540253758430481
+      ],
+      [
+        0.5364683270454407,
+        0.5324161648750305,
+        0.5176299214363098,
+        0.5372474789619446,
+        0.43092334270477295,
+        0.5397207736968994,
+        0.33314481377601624,
+        0.6042673587799072,
+        1.0,
+        0.41070422530174255
+      ],
+      [
+        0.4237253963947296,
+        0.49546018242836,
+        0.4864509701728821,
+        0.5049912333488464,
+        0.34596145153045654,
+        0.4172387421131134,
+        0.47036224603652954,
+        0.540253758430481,
+        0.41070422530174255,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/tzachi_hanegbi/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/tzachi_hanegbi/portrait.jpg"
+    }
+  ]
+}

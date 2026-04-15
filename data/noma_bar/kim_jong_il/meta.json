@@ -1,0 +1,85 @@
+{
+  "name": "kim jong il",
+  "bio": "Kim Jong Il (16 February 1941 or 1942 – 17 December 2011) was a North Korean politician and dictator who was the second supreme leader of North Korea from the death of his father Kim Il Sung in 1994 until his own death in 2011. Posthumously, Kim Jong Il was declared an Eternal Leader of the Workers' Party of Korea (WPK).\nBy the early 1980s, Kim had become the heir apparent for the leadership of North Korea, thus being established the Kim family, and he assumed important posts in party and army organizations. Kim succeeded his father and founder of North Korea, Kim Il Sung, following his death in 1994. Kim was the General Secretary of the WPK, Member of WPK Presidium , Chairman of the WPK Central Military Commission, Chairman of the National Defence Commission (NDC) of North Korea and the Supreme Commander of the Korean People's Army (KPA), the fourth-largest standing army in the world.\nLike his father, Kim ruled North Korea as a repressive and totalitarian dictatorship. Kim assumed leadership during a period of catastrophic economic crisis amidst the dissolution of the Soviet Union, on which it was heavily dependent for trade in food and other supplies, which brought a famine. While the famine had ended by the late 1990s, food scarcity continued to be a problem throughout his tenure. Kim strengthened the role of the military by his Songun (\"military-first\") policies, making the army the central organizer of civil society. Kim's rule also saw tentative economic reforms, including the opening of the Kaesong Industrial Park in 2003. Under his leadership, North Korea conducted its first nuclear test in October 2006, becoming the world's ninth nuclear-armed state. \nThe most common colloquial title given to Kim during his father's lifetime was \"Dear Leader\" (친애하는 지도자동지).  During his leadership,  he was referred to as \"Great Leader Comrade Kim Jong Il\" (위대한 령도자 김정일동지) or \"the General\" (장군님). In April 2009, North Korea's constitution was amended to refer to him and his successors as the \"supreme leader of the DPRK\".\nFollowing Kim's failure to appear at important public events in 2008, foreign observers assumed that Kim had either fallen seriously ill or died. After this point, Kim made efforts to promote his third son, Kim Jong Un as his successor, promoting him to high ranking posts in the WPK in September 2010. \nOn 19 December 2011, the North Korean government announced that he had died two days earlier. After his death, alongside \"Eternal General Secretary\" of the WPK, Kim Jong Il was declared \"Eternal Chairman\" of the National Defence Commission, in keeping with the tradition of establishing eternal posts for the dead members of the Kim dynasty. Kim Jong Un in turn was proclaimed \"First Secretary of the Workers Party of Korea\" and \"First Chairman of the National Defence Commission\".",
+  "bio_sources": [
+    {
+      "subject": "kim jong il",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Kim_Jong_Il"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "red background field",
+      "shape_type": "rectangle",
+      "meaning": "intensifies the propagandistic mood"
+    },
+    {
+      "element": "black bouffant hair block",
+      "shape_type": "silhouette",
+      "meaning": "signals his iconic profile immediately"
+    },
+    {
+      "element": "amber face shape",
+      "shape_type": "organic shape",
+      "meaning": "simplifies him into a rigid emblem"
+    },
+    {
+      "element": "large glasses with white lower rims",
+      "shape_type": "symbol",
+      "meaning": "echo his trademark eyewear"
+    },
+    {
+      "element": "missile-like eyebrow bars",
+      "shape_type": "symbol",
+      "meaning": "suggest militarism and weapons imagery"
+    },
+    {
+      "element": "white korea-shaped moustache",
+      "shape_type": "symbol",
+      "meaning": "ties his identity to the state itself"
+    },
+    {
+      "element": "dark green collar points",
+      "shape_type": "triangle",
+      "meaning": "add uniform-like severity"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "campaign map",
+      "visual_representation": "directional arrows moving over a gridded field",
+      "category": "structure",
+      "relevance": "Strategy, operations, and command planning belong to the subject’s military world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "shield plate",
+      "visual_representation": "a solid protective plate with clean hard edges",
+      "category": "symbol",
+      "relevance": "Defense and force are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "command shadow",
+      "visual_representation": "a dark angular field suggesting pressure and force",
+      "category": "personality",
+      "relevance": "The biography supports an image shaped by command, conflict, and hard decisions.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

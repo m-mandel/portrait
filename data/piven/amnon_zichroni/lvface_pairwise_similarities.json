@@ -1,0 +1,380 @@
+{
+  "folder": "/workspace/input/piven/data/amnon_zichroni",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/amnon_zichroni/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/amnon_zichroni/images/01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "similarity": -0.01655161939561367
+      },
+      {
+        "index": 1,
+        "name": "02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+        "path": "/workspace/input/piven/data/amnon_zichroni/images/02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+        "similarity": -0.008960165083408356
+      },
+      {
+        "index": 2,
+        "name": "03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+        "path": "/workspace/input/piven/data/amnon_zichroni/images/03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+        "similarity": 0.006518814712762833
+      },
+      {
+        "index": 3,
+        "name": "05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+        "path": "/workspace/input/piven/data/amnon_zichroni/images/05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+        "similarity": -0.000879369443282485
+      },
+      {
+        "index": 4,
+        "name": "06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+        "path": "/workspace/input/piven/data/amnon_zichroni/images/06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+        "similarity": -0.018922870978713036
+      },
+      {
+        "index": 5,
+        "name": "08_lexica-draw-amnon-pardo-s-portrait.jpg",
+        "path": "/workspace/input/piven/data/amnon_zichroni/images/08_lexica-draw-amnon-pardo-s-portrait.jpg",
+        "similarity": 0.050837382674217224
+      },
+      {
+        "index": 6,
+        "name": "09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg",
+        "path": "/workspace/input/piven/data/amnon_zichroni/images/09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg",
+        "similarity": 0.09894862025976181
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.01655161939561367,
+          -0.008960165083408356,
+          0.006518814712762833,
+          -0.000879369443282485,
+          -0.018922870978713036,
+          0.050837382674217224,
+          0.09894862025976181
+        ],
+        [
+          -0.01655161939561367,
+          1.0000001192092896,
+          -0.07686072587966919,
+          0.5389231443405151,
+          0.41066044569015503,
+          -0.07511153072118759,
+          -0.03905696049332619,
+          0.01347044575959444
+        ],
+        [
+          -0.008960165083408356,
+          -0.07686072587966919,
+          1.0,
+          -0.07225457578897476,
+          0.03611859679222107,
+          0.01521964743733406,
+          0.019185177981853485,
+          0.05882782116532326
+        ],
+        [
+          0.006518814712762833,
+          0.5389231443405151,
+          -0.07225457578897476,
+          1.0000001192092896,
+          0.41572555899620056,
+          -0.08150066435337067,
+          0.005914369132369757,
+          -0.003909253515303135
+        ],
+        [
+          -0.000879369443282485,
+          0.41066044569015503,
+          0.03611859679222107,
+          0.41572555899620056,
+          1.0,
+          -0.13596630096435547,
+          -0.03521666303277016,
+          -0.013333368115127087
+        ],
+        [
+          -0.018922870978713036,
+          -0.07511153072118759,
+          0.01521964743733406,
+          -0.08150066435337067,
+          -0.13596630096435547,
+          1.0000001192092896,
+          -0.02047240361571312,
+          0.06667586416006088
+        ],
+        [
+          0.050837382674217224,
+          -0.03905696049332619,
+          0.019185177981853485,
+          0.005914369132369757,
+          -0.03521666303277016,
+          -0.02047240361571312,
+          1.0,
+          -0.033851251006126404
+        ],
+        [
+          0.09894862025976181,
+          0.01347044575959444,
+          0.05882782116532326,
+          -0.003909253515303135,
+          -0.013333368115127087,
+          0.06667586416006088,
+          -0.033851251006126404,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg"
+    },
+    {
+      "name": "03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg"
+    },
+    {
+      "name": "05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg"
+    },
+    {
+      "name": "06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg"
+    },
+    {
+      "name": "08_lexica-draw-amnon-pardo-s-portrait.jpg",
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/08_lexica-draw-amnon-pardo-s-portrait.jpg"
+    },
+    {
+      "name": "09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg",
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+      "similarity": -0.07686072587966919
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": 0.5389231443405151
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+      "similarity": 0.41066044569015503
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+      "similarity": -0.07511153072118759
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/08_lexica-draw-amnon-pardo-s-portrait.jpg",
+      "similarity": -0.03905696049332619
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg",
+      "similarity": 0.01347044575959444
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "similarity": -0.07225457578897476
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+      "similarity": 0.03611859679222107
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+      "similarity": 0.01521964743733406
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/08_lexica-draw-amnon-pardo-s-portrait.jpg",
+      "similarity": 0.019185177981853485
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg",
+      "similarity": 0.05882782116532326
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+      "similarity": 0.41572555899620056
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+      "similarity": -0.08150066435337067
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/08_lexica-draw-amnon-pardo-s-portrait.jpg",
+      "similarity": 0.005914369132369757
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg",
+      "similarity": -0.003909253515303135
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+      "similarity": -0.13596630096435547
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/08_lexica-draw-amnon-pardo-s-portrait.jpg",
+      "similarity": -0.03521666303277016
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg",
+      "similarity": -0.013333368115127087
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/08_lexica-draw-amnon-pardo-s-portrait.jpg",
+      "similarity": -0.02047240361571312
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg",
+      "similarity": 0.06667586416006088
+    },
+    {
+      "left": "/workspace/input/piven/data/amnon_zichroni/images/08_lexica-draw-amnon-pardo-s-portrait.jpg",
+      "right": "/workspace/input/piven/data/amnon_zichroni/images/09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg",
+      "similarity": -0.033851251006126404
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_nahum-manbar-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "02_israeli-lawyer-amnon-zichroni-who-defended-spies-and-politicians-alike.jpg",
+      "03_19-nahum-manbar-stock-photos-high-res-pictures-and-images-getty-images.jpg",
+      "05_zichroni-v-state-of-israel-by-michael-keren-by-michael-keren-goodreads.jpg",
+      "06_pninat-yanai-a-central-figure-in-an-emerging-israeli-scandal-is.jpg",
+      "08_lexica-draw-amnon-pardo-s-portrait.jpg",
+      "09_amnon-david-ar-portrait-of-the-artist-s-mother-2000-mutualart.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        -0.07686072587966919,
+        0.5389231443405151,
+        0.41066044569015503,
+        -0.07511153072118759,
+        -0.03905696049332619,
+        0.01347044575959444
+      ],
+      [
+        -0.07686072587966919,
+        1.0,
+        -0.07225457578897476,
+        0.03611859679222107,
+        0.01521964743733406,
+        0.019185177981853485,
+        0.05882782116532326
+      ],
+      [
+        0.5389231443405151,
+        -0.07225457578897476,
+        1.0000001192092896,
+        0.41572555899620056,
+        -0.08150066435337067,
+        0.005914369132369757,
+        -0.003909253515303135
+      ],
+      [
+        0.41066044569015503,
+        0.03611859679222107,
+        0.41572555899620056,
+        1.0,
+        -0.13596630096435547,
+        -0.03521666303277016,
+        -0.013333368115127087
+      ],
+      [
+        -0.07511153072118759,
+        0.01521964743733406,
+        -0.08150066435337067,
+        -0.13596630096435547,
+        1.0000001192092896,
+        -0.02047240361571312,
+        0.06667586416006088
+      ],
+      [
+        -0.03905696049332619,
+        0.019185177981853485,
+        0.005914369132369757,
+        -0.03521666303277016,
+        -0.02047240361571312,
+        1.0,
+        -0.033851251006126404
+      ],
+      [
+        0.01347044575959444,
+        0.05882782116532326,
+        -0.003909253515303135,
+        -0.013333368115127087,
+        0.06667586416006088,
+        -0.033851251006126404,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/amnon_zichroni/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/amnon_zichroni/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/04_amnon-zichroni-benjamin-stein-beyaz-tuval-booktandunya.jpg",
+      "error": "No face detected in /workspace/input/piven/data/amnon_zichroni/images/04_amnon-zichroni-benjamin-stein-beyaz-tuval-booktandunya.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/07_a-v-szon-jan-wechsler-amnon-zichroni-rnikabolt.jpg",
+      "error": "No face detected in /workspace/input/piven/data/amnon_zichroni/images/07_a-v-szon-jan-wechsler-amnon-zichroni-rnikabolt.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/amnon_zichroni/images/10_amnon-samid-research-profile.png",
+      "error": "No face detected in /workspace/input/piven/data/amnon_zichroni/images/10_amnon-samid-research-profile.png"
+    }
+  ]
+}

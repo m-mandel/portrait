@@ -1,0 +1,60 @@
+{
+  "name": "larry king",
+  "bio": "Larry King (born Lawrence Harvey Zeiger; November 19, 1933 – January 23, 2021) was an American TV and radio host, author, and spokesman. He was a WMBM radio interviewer in the Miami area in the 1950s and 1960s. Beginning in 1978, King gained national prominence as host of The Larry King Show, an all-night nationwide call-in radio program heard over the Mutual Broadcasting System. From 1985 to 2010, he hosted the nightly interview television program Larry King Live on CNN. King hosted Larry King Now from 2012 to 2020, which aired on Hulu, Ora TV, and RT America. He hosted Politicking with Larry King, a weekly political talk show, on the same three channels from 2013 to 2020. King conducted over 50,000 interviews on radio and television.\nKing was born and raised in Brooklyn, New York City, to Jewish parents who immigrated to the United States from what is now Belarus in the 1920s. He studied at Lafayette High School, a public high school in Brooklyn.\nDuring his career, King also appeared in television series and films, usually playing himself. He remained active until his death in 2021. His awards and nominations include two Peabodys, an Emmy, and ten Cable ACE Awards. King was also awarded a Lifetime Achievement Award at the 32nd Annual News and Documentary Emmys.",
+  "bio_sources": [
+    {
+      "subject": "larry king",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Larry_King"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "glasses",
+      "shape_type": "wearable object",
+      "meaning": "helps anchor the gaze and reinforces larry king's interviewing, chatter, and media familiarity."
+    },
+    {
+      "element": "wind-up dentures",
+      "shape_type": "found object",
+      "meaning": "makes talk, chatter, and perpetual interviewing feel mechanical and unstoppable."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "city skyline",
+      "visual_representation": "a row of narrow vertical blocks like tall buildings",
+      "category": "place",
+      "relevance": "The biography explicitly ties the subject to New York City.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "studio microphone",
+      "visual_representation": "a suspended microphone with a visible cable or stand",
+      "category": "object",
+      "relevance": "Hosting, presenting, or broadcasting are central to the subject’s media world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "signal waves",
+      "visual_representation": "radiating curved lines spreading from a single point",
+      "category": "pattern",
+      "relevance": "Transmission and broadcast media belong to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "screen frame",
+      "visual_representation": "a bright rectangular frame with a clear border",
+      "category": "structure",
+      "relevance": "Television and mediated public communication are part of the subject’s environment.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

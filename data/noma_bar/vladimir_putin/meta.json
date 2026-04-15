@@ -1,0 +1,75 @@
+{
+  "name": "vladimir putin",
+  "bio": "Vladimir Vladimirovich Putin (born 7 October 1952) is a Russian politician and former intelligence officer who has served as President of Russia since 2012, having previously served from 2000 to 2008. Putin also served as Prime Minister of Russia from 1999 to 2000 and again from 2008 to 2012. He has been described as the de facto leader of Russia since 2000.\nBorn in Leningrad (now Saint Petersburg), Putin worked as a KGB foreign intelligence officer for 16 years, rising to the rank of lieutenant colonel. He resigned in 1991 to begin a political career in Saint Petersburg. In 1996, Putin moved to Moscow to join the administration of President Boris Yeltsin. He briefly served as the director of the Federal Security Service (FSB) and then as secretary of the Security Council of Russia before being appointed prime minister in August 1999. Following Yeltsin's resignation, Putin became acting president and, less than three months later in March 2000, was elected to his first term as president. He was reelected in 2004. Due to constitutional limitations on two consecutive presidential terms, Putin served as prime minister again from 2008 to 2012 under Dmitry Medvedev. He returned to the presidency in 2012, following an election marked by allegations of fraud and protests, and was reelected in 2018.\nDuring Putin's initial presidential tenure, the Russian economy grew on average by seven percent per year as a result of economic reforms and a fivefold increase in the price of oil and gas. Additionally, Putin led Russia in a conflict against Chechen separatists, re-establishing federal control over the region. While serving as prime minister under Medvedev, he oversaw the Russo-Georgian War, alongside enacting military and police reforms. In his third presidential term, Russia occupied and annexed Crimea as well as supported a war in eastern Ukraine through several military incursions, resulting in international sanctions, which, together with a drop in oil prices on the international markets, led to the financial crisis in Russia. Additionally, he ordered a military intervention in Syria to support his ally, President Bashar al-Assad, during the Syrian civil war. In April 2021, after a referendum, he signed constitutional amendments into law that included one allowing him to run for reelection twice more, potentially extending his presidency to 2036. In February 2022, during his fourth presidential term, Putin launched a full-scale invasion of Ukraine, which prompted international condemnation and led to expanded sanctions. In September 2022, he announced a partial mobilization and forcibly annexed four Ukrainian oblasts into Russia. In March 2023, the International Criminal Court issued an arrest warrant for Putin for war crimes related to his alleged criminal responsibility for illegal child abductions during the war. In March 2024, he was reelected to another term.\nUnder Putin's rule, the Russian political system has been transformed into an authoritarian dictatorship with a personality cult. His rule has been marked by endemic corruption and widespread human rights violations, including the imprisonment and suppression of political opponents, intimidation and censorship of independent media in Russia, and a lack of free and fair elections. Russia has consistently received very low scores on Transparency International's Corruption Perceptions Index, The Economist Democracy Index, Freedom House's Freedom in the World index, and the Reporters Without Borders' World Press Freedom Index.",
+  "bio_sources": [
+    {
+      "subject": "vladimir putin",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Vladimir_Putin"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "red background field",
+      "shape_type": "rectangle",
+      "meaning": "heightens the authoritarian charge"
+    },
+    {
+      "element": "light brown hair cap",
+      "shape_type": "silhouette",
+      "meaning": "marks his familiar clipped look"
+    },
+    {
+      "element": "white face silhouette",
+      "shape_type": "organic shape",
+      "meaning": "reduces him to a cold political mask"
+    },
+    {
+      "element": "long thin nose formed like a rigid bar",
+      "shape_type": "symbol",
+      "meaning": "suggests control, force, and hard state power"
+    },
+    {
+      "element": "brown moustache-like mouth strip",
+      "shape_type": "line",
+      "meaning": "adds a hard controlled expression"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "cell door",
+      "visual_representation": "a heavy rectangular door with a small viewing slot",
+      "category": "place",
+      "relevance": "The biography explicitly refers to prison or confinement.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "flag field",
+      "visual_representation": "a folded field of striped or blocked civic color bands",
+      "category": "symbol",
+      "relevance": "The biography supports a public identity tied to state ceremony and leadership.",
+      "grounding": "inferred"
+    }
+  ]
+}

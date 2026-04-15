@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/shlomo_scharf",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/shlomo_scharf/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_shlomo-scharf-jpg.jpg",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+        "similarity": -0.017323125153779984
+      },
+      {
+        "index": 1,
+        "name": "02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+        "similarity": -0.05956773832440376
+      },
+      {
+        "index": 2,
+        "name": "03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+        "similarity": -0.02153496816754341
+      },
+      {
+        "index": 3,
+        "name": "04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+        "similarity": 0.05196871608495712
+      },
+      {
+        "index": 4,
+        "name": "05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+        "similarity": -0.03680389001965523
+      },
+      {
+        "index": 5,
+        "name": "06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+        "similarity": 0.01705530844628811
+      },
+      {
+        "index": 6,
+        "name": "07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+        "similarity": -0.004847977310419083
+      },
+      {
+        "index": 7,
+        "name": "08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+        "similarity": 0.038624513894319534
+      },
+      {
+        "index": 8,
+        "name": "09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+        "similarity": 0.03103453665971756
+      },
+      {
+        "index": 9,
+        "name": "10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+        "path": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+        "similarity": 0.005710188765078783
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.017323125153779984,
+          -0.05956773832440376,
+          -0.02153496816754341,
+          0.05196871608495712,
+          -0.03680389001965523,
+          0.01705530844628811,
+          -0.004847977310419083,
+          0.038624513894319534,
+          0.03103453665971756,
+          0.005710188765078783
+        ],
+        [
+          -0.017323125153779984,
+          1.0,
+          0.12223269045352936,
+          0.48780694603919983,
+          -0.05658022314310074,
+          0.7983911037445068,
+          0.03128426522016525,
+          -0.0578576922416687,
+          0.01941928081214428,
+          0.3399389088153839,
+          0.1424901932477951
+        ],
+        [
+          -0.05956773832440376,
+          0.12223269045352936,
+          1.0000001192092896,
+          0.2079767882823944,
+          -0.07071481645107269,
+          0.12252717465162277,
+          -0.03686022013425827,
+          -0.04711753502488136,
+          0.08173707127571106,
+          0.2857268452644348,
+          0.0018573612906038761
+        ],
+        [
+          -0.02153496816754341,
+          0.48780694603919983,
+          0.2079767882823944,
+          1.0,
+          -0.07409840822219849,
+          0.47878071665763855,
+          -0.015756206586956978,
+          -0.0367053858935833,
+          0.04062596708536148,
+          0.43314075469970703,
+          0.06035462021827698
+        ],
+        [
+          0.05196871608495712,
+          -0.05658022314310074,
+          -0.07071481645107269,
+          -0.07409840822219849,
+          0.9999998807907104,
+          -0.09018177539110184,
+          0.07543585449457169,
+          0.004286285489797592,
+          0.0006010470096953213,
+          -0.039450280368328094,
+          0.06359969824552536
+        ],
+        [
+          -0.03680389001965523,
+          0.7983911037445068,
+          0.12252717465162277,
+          0.47878071665763855,
+          -0.09018177539110184,
+          1.0000001192092896,
+          -0.019499605521559715,
+          0.002589210169389844,
+          0.0068319751881062984,
+          0.34576937556266785,
+          0.08453331142663956
+        ],
+        [
+          0.01705530844628811,
+          0.03128426522016525,
+          -0.03686022013425827,
+          -0.015756206586956978,
+          0.07543585449457169,
+          -0.019499605521559715,
+          1.0,
+          0.6206218600273132,
+          -0.08200953900814056,
+          0.000968205276876688,
+          -0.0849386602640152
+        ],
+        [
+          -0.004847977310419083,
+          -0.0578576922416687,
+          -0.04711753502488136,
+          -0.0367053858935833,
+          0.004286285489797592,
+          0.002589210169389844,
+          0.6206218600273132,
+          0.9999999403953552,
+          -0.10317117720842361,
+          -0.010747406631708145,
+          -0.1757763773202896
+        ],
+        [
+          0.038624513894319534,
+          0.01941928081214428,
+          0.08173707127571106,
+          0.04062596708536148,
+          0.0006010470096953213,
+          0.0068319751881062984,
+          -0.08200953900814056,
+          -0.10317117720842361,
+          0.9999998807907104,
+          0.04413705691695213,
+          0.021803762763738632
+        ],
+        [
+          0.03103453665971756,
+          0.3399389088153839,
+          0.2857268452644348,
+          0.43314075469970703,
+          -0.039450280368328094,
+          0.34576937556266785,
+          0.000968205276876688,
+          -0.010747406631708145,
+          0.04413705691695213,
+          1.0,
+          -0.002456933492794633
+        ],
+        [
+          0.005710188765078783,
+          0.1424901932477951,
+          0.0018573612906038761,
+          0.06035462021827698,
+          0.06359969824552536,
+          0.08453331142663956,
+          -0.0849386602640152,
+          -0.1757763773202896,
+          0.021803762763738632,
+          -0.002456933492794633,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_shlomo-scharf-jpg.jpg",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg"
+    },
+    {
+      "name": "02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg"
+    },
+    {
+      "name": "03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg"
+    },
+    {
+      "name": "04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg"
+    },
+    {
+      "name": "06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg"
+    },
+    {
+      "name": "08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg"
+    },
+    {
+      "name": "09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png"
+    },
+    {
+      "name": "10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "path": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "similarity": 0.12223269045352936
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "similarity": 0.48780694603919983
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.05658022314310074
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "similarity": 0.7983911037445068
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.03128426522016525
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "similarity": -0.0578576922416687
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "similarity": 0.01941928081214428
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "similarity": 0.3399389088153839
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/01_shlomo-scharf-jpg.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "similarity": 0.1424901932477951
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "similarity": 0.2079767882823944
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.07071481645107269
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "similarity": 0.12252717465162277
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.03686022013425827
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "similarity": -0.04711753502488136
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "similarity": 0.08173707127571106
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "similarity": 0.2857268452644348
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "similarity": 0.0018573612906038761
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.07409840822219849
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "similarity": 0.47878071665763855
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.015756206586956978
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "similarity": -0.0367053858935833
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "similarity": 0.04062596708536148
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "similarity": 0.43314075469970703
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "similarity": 0.06035462021827698
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "similarity": -0.09018177539110184
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.07543585449457169
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "similarity": 0.004286285489797592
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "similarity": 0.0006010470096953213
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "similarity": -0.039450280368328094
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "similarity": 0.06359969824552536
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.019499605521559715
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "similarity": 0.002589210169389844
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "similarity": 0.0068319751881062984
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "similarity": 0.34576937556266785
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "similarity": 0.08453331142663956
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "similarity": 0.6206218600273132
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "similarity": -0.08200953900814056
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "similarity": 0.000968205276876688
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "similarity": -0.0849386602640152
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "similarity": -0.10317117720842361
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "similarity": -0.010747406631708145
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "similarity": -0.1757763773202896
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "similarity": 0.04413705691695213
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "similarity": 0.021803762763738632
+    },
+    {
+      "left": "/workspace/input/piven/data/shlomo_scharf/images/09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "right": "/workspace/input/piven/data/shlomo_scharf/images/10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg",
+      "similarity": -0.002456933492794633
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_shlomo-scharf-jpg.jpg",
+      "02_shlomo-scharf-fostul-selec-ioner-al-israelului-a-primit-o-lovitur.jpg",
+      "03_durere-mare-n-israel-nepoata-fostului-selec-ioner-al-na-ionalei-de.jpg",
+      "04_138-shlomo-bar-photos-high-res-pictures-getty-images.jpg",
+      "05_shlomo-scharf-s-birthday-celebration-happybday-to.jpg",
+      "06_20-shlomo-sand-photos-high-res-pictures-getty-images.jpg",
+      "07_18-photos-et-images-haute-r-solution-de-shlomo-sand-getty-images.jpg",
+      "08_nepoata-lui-shlomo-scharf-i-o-fost-not-toare-au-fost-ucise-n-israel.jpg",
+      "09_nepoata-lui-shlomo-scharf-fost-selec-ioner-al-israelului-a-fost-ucis.png",
+      "10_shlomo-scharf-hamas-terrorists-kill-granddaughter-of-three-time.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.12223269045352936,
+        0.48780694603919983,
+        -0.05658022314310074,
+        0.7983911037445068,
+        0.03128426522016525,
+        -0.0578576922416687,
+        0.01941928081214428,
+        0.3399389088153839,
+        0.1424901932477951
+      ],
+      [
+        0.12223269045352936,
+        1.0000001192092896,
+        0.2079767882823944,
+        -0.07071481645107269,
+        0.12252717465162277,
+        -0.03686022013425827,
+        -0.04711753502488136,
+        0.08173707127571106,
+        0.2857268452644348,
+        0.0018573612906038761
+      ],
+      [
+        0.48780694603919983,
+        0.2079767882823944,
+        1.0,
+        -0.07409840822219849,
+        0.47878071665763855,
+        -0.015756206586956978,
+        -0.0367053858935833,
+        0.04062596708536148,
+        0.43314075469970703,
+        0.06035462021827698
+      ],
+      [
+        -0.05658022314310074,
+        -0.07071481645107269,
+        -0.07409840822219849,
+        0.9999998807907104,
+        -0.09018177539110184,
+        0.07543585449457169,
+        0.004286285489797592,
+        0.0006010470096953213,
+        -0.039450280368328094,
+        0.06359969824552536
+      ],
+      [
+        0.7983911037445068,
+        0.12252717465162277,
+        0.47878071665763855,
+        -0.09018177539110184,
+        1.0000001192092896,
+        -0.019499605521559715,
+        0.002589210169389844,
+        0.0068319751881062984,
+        0.34576937556266785,
+        0.08453331142663956
+      ],
+      [
+        0.03128426522016525,
+        -0.03686022013425827,
+        -0.015756206586956978,
+        0.07543585449457169,
+        -0.019499605521559715,
+        1.0,
+        0.6206218600273132,
+        -0.08200953900814056,
+        0.000968205276876688,
+        -0.0849386602640152
+      ],
+      [
+        -0.0578576922416687,
+        -0.04711753502488136,
+        -0.0367053858935833,
+        0.004286285489797592,
+        0.002589210169389844,
+        0.6206218600273132,
+        0.9999999403953552,
+        -0.10317117720842361,
+        -0.010747406631708145,
+        -0.1757763773202896
+      ],
+      [
+        0.01941928081214428,
+        0.08173707127571106,
+        0.04062596708536148,
+        0.0006010470096953213,
+        0.0068319751881062984,
+        -0.08200953900814056,
+        -0.10317117720842361,
+        0.9999998807907104,
+        0.04413705691695213,
+        0.021803762763738632
+      ],
+      [
+        0.3399389088153839,
+        0.2857268452644348,
+        0.43314075469970703,
+        -0.039450280368328094,
+        0.34576937556266785,
+        0.000968205276876688,
+        -0.010747406631708145,
+        0.04413705691695213,
+        1.0,
+        -0.002456933492794633
+      ],
+      [
+        0.1424901932477951,
+        0.0018573612906038761,
+        0.06035462021827698,
+        0.06359969824552536,
+        0.08453331142663956,
+        -0.0849386602640152,
+        -0.1757763773202896,
+        0.021803762763738632,
+        -0.002456933492794633,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/shlomo_scharf/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/shlomo_scharf/portrait.jpg"
+    }
+  ]
+}

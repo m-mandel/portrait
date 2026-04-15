@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/john_cleese",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/john_cleese/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_john-cleese-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+        "similarity": 0.042915455996990204
+      },
+      {
+        "index": 1,
+        "name": "02_john-cleese-2008-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+        "similarity": 0.015009557828307152
+      },
+      {
+        "index": 2,
+        "name": "03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+        "similarity": 0.03710557892918587
+      },
+      {
+        "index": 3,
+        "name": "07_john-cleese-2008-bigger-crop-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+        "similarity": 0.017697351053357124
+      },
+      {
+        "index": 4,
+        "name": "08_john-cleese-52826609907-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+        "similarity": 0.0654674619436264
+      },
+      {
+        "index": 5,
+        "name": "09_john-cleese-54020963297-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+        "similarity": 0.02347157895565033
+      },
+      {
+        "index": 6,
+        "name": "10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+        "similarity": 0.055598072707653046
+      },
+      {
+        "index": 7,
+        "name": "12_john-cleese-52817232216-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+        "similarity": 0.06940314918756485
+      },
+      {
+        "index": 8,
+        "name": "13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+        "similarity": 0.05414140969514847
+      },
+      {
+        "index": 9,
+        "name": "14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+        "similarity": 0.0772973820567131
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.042915455996990204,
+          0.015009557828307152,
+          0.03710557892918587,
+          0.017697351053357124,
+          0.0654674619436264,
+          0.02347157895565033,
+          0.055598072707653046,
+          0.06940314918756485,
+          0.05414140969514847,
+          0.0772973820567131
+        ],
+        [
+          0.042915455996990204,
+          1.0000001192092896,
+          0.43572500348091125,
+          0.3898235857486725,
+          0.45960232615470886,
+          0.4919203817844391,
+          0.39409637451171875,
+          0.38042327761650085,
+          0.2916245460510254,
+          0.32338353991508484,
+          0.3785361349582672
+        ],
+        [
+          0.015009557828307152,
+          0.43572500348091125,
+          0.9999998807907104,
+          0.3663494288921356,
+          0.9266923666000366,
+          0.35745543241500854,
+          0.37388676404953003,
+          0.42533078789711,
+          0.29728779196739197,
+          0.35185015201568604,
+          0.34536534547805786
+        ],
+        [
+          0.03710557892918587,
+          0.3898235857486725,
+          0.3663494288921356,
+          1.0000001192092896,
+          0.37132057547569275,
+          0.40642601251602173,
+          0.5245946645736694,
+          0.7509328722953796,
+          0.39155206084251404,
+          0.4987322688102722,
+          0.5622372031211853
+        ],
+        [
+          0.017697351053357124,
+          0.45960232615470886,
+          0.9266923666000366,
+          0.37132057547569275,
+          1.0,
+          0.4180436134338379,
+          0.3875642418861389,
+          0.4169680178165436,
+          0.2610701024532318,
+          0.3184863030910492,
+          0.3159157335758209
+        ],
+        [
+          0.0654674619436264,
+          0.4919203817844391,
+          0.35745543241500854,
+          0.40642601251602173,
+          0.4180436134338379,
+          0.9999998807907104,
+          0.473409503698349,
+          0.48214852809906006,
+          0.41965532302856445,
+          0.4785309433937073,
+          0.5112737417221069
+        ],
+        [
+          0.02347157895565033,
+          0.39409637451171875,
+          0.37388676404953003,
+          0.5245946645736694,
+          0.3875642418861389,
+          0.473409503698349,
+          0.9999998807907104,
+          0.5004189610481262,
+          0.39912623167037964,
+          0.4960693418979645,
+          0.4849914312362671
+        ],
+        [
+          0.055598072707653046,
+          0.38042327761650085,
+          0.42533078789711,
+          0.7509328722953796,
+          0.4169680178165436,
+          0.48214852809906006,
+          0.5004189610481262,
+          0.9999999403953552,
+          0.4527645409107208,
+          0.47060877084732056,
+          0.593542754650116
+        ],
+        [
+          0.06940314918756485,
+          0.2916245460510254,
+          0.29728779196739197,
+          0.39155206084251404,
+          0.2610701024532318,
+          0.41965532302856445,
+          0.39912623167037964,
+          0.4527645409107208,
+          1.0,
+          0.38429832458496094,
+          0.5019526481628418
+        ],
+        [
+          0.05414140969514847,
+          0.32338353991508484,
+          0.35185015201568604,
+          0.4987322688102722,
+          0.3184863030910492,
+          0.4785309433937073,
+          0.4960693418979645,
+          0.47060877084732056,
+          0.38429832458496094,
+          1.0,
+          0.589336097240448
+        ],
+        [
+          0.0772973820567131,
+          0.3785361349582672,
+          0.34536534547805786,
+          0.5622372031211853,
+          0.3159157335758209,
+          0.5112737417221069,
+          0.4849914312362671,
+          0.593542754650116,
+          0.5019526481628418,
+          0.589336097240448,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_john-cleese-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_john-cleese-2008-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg"
+    },
+    {
+      "name": "07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg"
+    },
+    {
+      "name": "08_john-cleese-52826609907-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg"
+    },
+    {
+      "name": "09_john-cleese-54020963297-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg"
+    },
+    {
+      "name": "10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg"
+    },
+    {
+      "name": "12_john-cleese-52817232216-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg"
+    },
+    {
+      "name": "13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg"
+    },
+    {
+      "name": "14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+      "similarity": 0.43572500348091125
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "similarity": 0.3898235857486725
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "similarity": 0.45960232615470886
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+      "similarity": 0.4919203817844391
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+      "similarity": 0.39409637451171875
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "similarity": 0.38042327761650085
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+      "similarity": 0.2916245460510254
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "similarity": 0.32338353991508484
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/01_john-cleese-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "similarity": 0.3785361349582672
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "similarity": 0.3663494288921356
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "similarity": 0.9266923666000366
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+      "similarity": 0.35745543241500854
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+      "similarity": 0.37388676404953003
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "similarity": 0.42533078789711
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+      "similarity": 0.29728779196739197
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "similarity": 0.35185015201568604
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/02_john-cleese-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "similarity": 0.34536534547805786
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "similarity": 0.37132057547569275
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+      "similarity": 0.40642601251602173
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+      "similarity": 0.5245946645736694
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "similarity": 0.7509328722953796
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+      "similarity": 0.39155206084251404
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "similarity": 0.4987322688102722
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "similarity": 0.5622372031211853
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+      "similarity": 0.4180436134338379
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+      "similarity": 0.3875642418861389
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "similarity": 0.4169680178165436
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+      "similarity": 0.2610701024532318
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "similarity": 0.3184863030910492
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "similarity": 0.3159157335758209
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+      "similarity": 0.473409503698349
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "similarity": 0.48214852809906006
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+      "similarity": 0.41965532302856445
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "similarity": 0.4785309433937073
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/08_john-cleese-52826609907-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "similarity": 0.5112737417221069
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "similarity": 0.5004189610481262
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+      "similarity": 0.39912623167037964
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "similarity": 0.4960693418979645
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/09_john-cleese-54020963297-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "similarity": 0.4849914312362671
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+      "similarity": 0.4527645409107208
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "similarity": 0.47060877084732056
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "similarity": 0.593542754650116
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "similarity": 0.38429832458496094
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/12_john-cleese-52817232216-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "similarity": 0.5019526481628418
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_cleese/images/13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_cleese/images/14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg",
+      "similarity": 0.589336097240448
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_john-cleese-cropped-jpg.jpg",
+      "02_john-cleese-2008-cropped-jpg.jpg",
+      "03_john-cleese-photo-op-galaxycon-san-jose-2024-jpg.jpg",
+      "07_john-cleese-2008-bigger-crop-jpg.jpg",
+      "08_john-cleese-52826609907-jpg.jpg",
+      "09_john-cleese-54020963297-jpg.jpg",
+      "10_john-cleese-photo-op-galaxycon-richmond-2023-jpg.jpg",
+      "12_john-cleese-52817232216-jpg.jpg",
+      "13_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-3-jpg.jpg",
+      "14_john-cleese-q-a-w-patty-hawkins-at-galaxy-con-richmond-in-2023-2-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.43572500348091125,
+        0.3898235857486725,
+        0.45960232615470886,
+        0.4919203817844391,
+        0.39409637451171875,
+        0.38042327761650085,
+        0.2916245460510254,
+        0.32338353991508484,
+        0.3785361349582672
+      ],
+      [
+        0.43572500348091125,
+        0.9999998807907104,
+        0.3663494288921356,
+        0.9266923666000366,
+        0.35745543241500854,
+        0.37388676404953003,
+        0.42533078789711,
+        0.29728779196739197,
+        0.35185015201568604,
+        0.34536534547805786
+      ],
+      [
+        0.3898235857486725,
+        0.3663494288921356,
+        1.0000001192092896,
+        0.37132057547569275,
+        0.40642601251602173,
+        0.5245946645736694,
+        0.7509328722953796,
+        0.39155206084251404,
+        0.4987322688102722,
+        0.5622372031211853
+      ],
+      [
+        0.45960232615470886,
+        0.9266923666000366,
+        0.37132057547569275,
+        1.0,
+        0.4180436134338379,
+        0.3875642418861389,
+        0.4169680178165436,
+        0.2610701024532318,
+        0.3184863030910492,
+        0.3159157335758209
+      ],
+      [
+        0.4919203817844391,
+        0.35745543241500854,
+        0.40642601251602173,
+        0.4180436134338379,
+        0.9999998807907104,
+        0.473409503698349,
+        0.48214852809906006,
+        0.41965532302856445,
+        0.4785309433937073,
+        0.5112737417221069
+      ],
+      [
+        0.39409637451171875,
+        0.37388676404953003,
+        0.5245946645736694,
+        0.3875642418861389,
+        0.473409503698349,
+        0.9999998807907104,
+        0.5004189610481262,
+        0.39912623167037964,
+        0.4960693418979645,
+        0.4849914312362671
+      ],
+      [
+        0.38042327761650085,
+        0.42533078789711,
+        0.7509328722953796,
+        0.4169680178165436,
+        0.48214852809906006,
+        0.5004189610481262,
+        0.9999999403953552,
+        0.4527645409107208,
+        0.47060877084732056,
+        0.593542754650116
+      ],
+      [
+        0.2916245460510254,
+        0.29728779196739197,
+        0.39155206084251404,
+        0.2610701024532318,
+        0.41965532302856445,
+        0.39912623167037964,
+        0.4527645409107208,
+        1.0,
+        0.38429832458496094,
+        0.5019526481628418
+      ],
+      [
+        0.32338353991508484,
+        0.35185015201568604,
+        0.4987322688102722,
+        0.3184863030910492,
+        0.4785309433937073,
+        0.4960693418979645,
+        0.47060877084732056,
+        0.38429832458496094,
+        1.0,
+        0.589336097240448
+      ],
+      [
+        0.3785361349582672,
+        0.34536534547805786,
+        0.5622372031211853,
+        0.3159157335758209,
+        0.5112737417221069,
+        0.4849914312362671,
+        0.593542754650116,
+        0.5019526481628418,
+        0.589336097240448,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/john_cleese/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/john_cleese/portrait.jpg"
+    }
+  ]
+}

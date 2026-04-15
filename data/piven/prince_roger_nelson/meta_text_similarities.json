@@ -1,0 +1,88 @@
+{
+  "folder": "/workspace/input/piven/data/prince_roger_nelson",
+  "meta_path": "/workspace/input/piven/data/prince_roger_nelson/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "A prince is a male ruler (ranked below a king, grand prince, and grand duke) or a male member of a monarch's or former monarch's family. Prince is also a title of nobility (often highest), often hereditary, in some European states. The female equivalent is a princess. The English word derives, via the French word prince, from the Latin noun pr\u012bnceps, from primus (first) and caput (head), meaning \"the first, foremost, the chief, most distinguished, noble ruler, prince\".\nIn a related sense, now not commonly used, all more or less sovereign rulers over a state, including kings, were \"princes\" in the language of international politics. They normally had another title, for example king or duke. Many of these were Princes of the Holy Roman Empire.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "fabric"
+    },
+    {
+      "index": 1,
+      "element": "sandpaper"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "crown arc"
+    },
+    {
+      "index": 1,
+      "element": "heraldic shield"
+    },
+    {
+      "index": 2,
+      "element": "palace columns"
+    },
+    {
+      "index": 3,
+      "element": "royal seal"
+    },
+    {
+      "index": 4,
+      "element": "lineage ribbon"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "fabric",
+      "sandpaper"
+    ],
+    "values": [
+      [
+        -0.058529797941446304,
+        -0.12395031750202179
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "crown arc",
+      "heraldic shield",
+      "palace columns",
+      "royal seal",
+      "lineage ribbon"
+    ],
+    "column_labels": [
+      "fabric",
+      "sandpaper"
+    ],
+    "values": [
+      [
+        0.0802939385175705,
+        0.13512343168258667
+      ],
+      [
+        0.2293516993522644,
+        0.06912890821695328
+      ],
+      [
+        0.15440794825553894,
+        0.20138734579086304
+      ],
+      [
+        0.2512612044811249,
+        0.23822855949401855
+      ],
+      [
+        0.22404371201992035,
+        0.14835737645626068
+      ]
+    ]
+  }
+}

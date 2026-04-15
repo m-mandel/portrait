@@ -1,0 +1,172 @@
+{
+  "folder": "/workspace/input/piven/data/david_ben_gurion",
+  "meta_path": "/workspace/input/piven/data/david_ben_gurion/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "David Ben-Gurion ( ben GOOR-ee-\u0259n; Hebrew: \u05d3\u05b8\u05bc\u05d5\u05b4\u05d3 \u05d1\u05b6\u05bc\u05df\u05be\u05d2\u05bc\u05d5\u05bc\u05e8\u05b4\u05d9\u05bc\u05d5\u05b9\u05df [da\u02c8vid ben \u0261u\u0281\u02c8jon] ; born David Gr\u00fcn; 16 October 1886 \u2013 1 December 1973) was the primary national founder and first prime minister of the State of Israel. As head of the Jewish Agency from 1935, and later president of the Jewish Agency Executive, he was the de facto leader of the Jewish community in Palestine, and largely led the movement for an independent Jewish state in Mandatory Palestine.\nBorn in P\u0142o\u0144sk, then part of Congress Poland, to Polish Jewish parents, he immigrated to the Palestine region of the Ottoman Empire in 1906. Adopting the name of Ben-Gurion in 1909, he rose to become the preeminent leader of the Jewish community in British-ruled Mandatory Palestine from 1935 until the establishment of the State of Israel in 1948, which he led until 1963 with a short break in 1954\u201355. Ben-Gurion's interest for Zionism developed early in his life, leading him to become a major Zionist leader, and the executive head of the World Zionist Organization in 1946.\nOn 14 May 1948, he formally proclaimed the establishment of Israel, and was the first to sign the Israeli Declaration of Independence, which he had helped to write. Under Ben-Gurion's leadership, the 1948 Arab\u2013Israeli War saw the uniting of the various Jewish militias into the Israel Defense Forces (IDF), the victory of Israel over the Arab League, and the expulsion and flight of a majority of the Palestinian Arab population. Subsequently, he became known as \"Israel's founding father\". Following the war, Ben-Gurion served as Israel's first prime minister and minister of defence. As prime minister, he helped build state institutions, presiding over national projects aimed at the development of the country. He also oversaw the absorption of Jewish immigrants. A major part of his foreign policy was improving relations with West Germany through a reparations agreement in compensation for Nazi confiscation of Jewish property during the Holocaust.\nIn 1954, he resigned as prime minister and minister of defence but remained a member of the Knesset. He returned as minister of defence in 1955 after the Lavon Affair and the resignation of Pinhas Lavon. Later that year he became prime minister again, following the 1955 elections. He backed Israel's reprisal operations to Arab guerrilla attacks and its invasion of Egypt, along with Britain and France, during the Suez Crisis in 1956. He stepped down from office in 1963, and retired from political life in 1970. He then moved to his modest \"hut\" in Sde Boker, a kibbutz in the Negev desert, where he lived until his death. Posthumously, Ben-Gurion was named one of Time magazine's 100 Most Important People of the 20th century.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "sponge"
+    },
+    {
+      "index": 1,
+      "element": "straw"
+    },
+    {
+      "index": 2,
+      "element": "glue bottle"
+    },
+    {
+      "index": 3,
+      "element": "cigarette"
+    },
+    {
+      "index": 4,
+      "element": "newspaper"
+    },
+    {
+      "index": 5,
+      "element": "picture frame"
+    },
+    {
+      "index": 6,
+      "element": "pushpin"
+    },
+    {
+      "index": 7,
+      "element": "chain"
+    },
+    {
+      "index": 8,
+      "element": "ring"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "barbed wire line"
+    },
+    {
+      "index": 1,
+      "element": "podium block"
+    },
+    {
+      "index": 2,
+      "element": "ballot box"
+    },
+    {
+      "index": 3,
+      "element": "medal bar"
+    },
+    {
+      "index": 4,
+      "element": "state seal"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "sponge",
+      "straw",
+      "glue bottle",
+      "cigarette",
+      "newspaper",
+      "picture frame",
+      "pushpin",
+      "chain",
+      "ring"
+    ],
+    "values": [
+      [
+        -0.021053504198789597,
+        0.011565253138542175,
+        0.010688968002796173,
+        -0.05829279124736786,
+        -0.08916720747947693,
+        0.05801363289356232,
+        -0.06223142519593239,
+        0.030129311606287956,
+        -0.02035490982234478
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "barbed wire line",
+      "podium block",
+      "ballot box",
+      "medal bar",
+      "state seal"
+    ],
+    "column_labels": [
+      "sponge",
+      "straw",
+      "glue bottle",
+      "cigarette",
+      "newspaper",
+      "picture frame",
+      "pushpin",
+      "chain",
+      "ring"
+    ],
+    "values": [
+      [
+        0.1344275325536728,
+        0.22920462489128113,
+        0.14466604590415955,
+        0.12587712705135345,
+        0.10532283782958984,
+        0.144943505525589,
+        0.2710641026496887,
+        0.31086984276771545,
+        0.23015455901622772
+      ],
+      [
+        0.07967112958431244,
+        0.14635337889194489,
+        0.22327347099781036,
+        0.1694348007440567,
+        0.17638513445854187,
+        0.28545451164245605,
+        0.2522917091846466,
+        0.2578768730163574,
+        0.17433777451515198
+      ],
+      [
+        0.1987508088350296,
+        0.26075249910354614,
+        0.13508880138397217,
+        0.2575019896030426,
+        0.23809173703193665,
+        0.2277732491493225,
+        0.27486908435821533,
+        0.15140675008296967,
+        0.36395683884620667
+      ],
+      [
+        0.12133288383483887,
+        0.09415470063686371,
+        0.17568546533584595,
+        0.14323905110359192,
+        0.13373646140098572,
+        0.24998971819877625,
+        0.15620404481887817,
+        0.24321028590202332,
+        0.24882599711418152
+      ],
+      [
+        0.27565261721611023,
+        0.14950135350227356,
+        0.2529107928276062,
+        0.2550913095474243,
+        0.2229059636592865,
+        0.15880194306373596,
+        0.13538286089897156,
+        0.20308756828308105,
+        0.19344162940979004
+      ]
+    ]
+  }
+}

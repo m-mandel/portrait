@@ -1,0 +1,60 @@
+{
+  "name": "steven spielberg",
+  "bio": "Steven Allan Spielberg (; born December 18, 1946) is an American filmmaker. A major figure of the New Hollywood era and pioneer of the modern blockbuster, Spielberg is widely regarded as one of the greatest and most influential filmmakers in the history of cinema and is the highest-grossing film director of all time. Among other accolades, he has received three Academy Awards, four Golden Globe Awards, four BAFTA Awards, twelve Emmy Awards, a Tony Award, and a Grammy Award, as well as the AFI Life Achievement Award in 1995, an honorary knighthood in 2001, the Kennedy Center Honor in 2006, the Cecil B. DeMille Award in 2009, the Presidential Medal of Freedom in 2015, and the National Medal of Arts in 2023. According to Forbes, he is the world's wealthiest celebrity. He is one of 22 people to achieve EGOT status.\nSpielberg was born in Cincinnati, Ohio, and grew up in Phoenix, Arizona. He moved to California and studied film in college. After directing several episodes for television, including Night Gallery and Columbo, he directed the television film Duel (1971), which was approved by Barry Diller. He made his theatrical debut with The Sugarland Express (1974), also beginning his decades-long collaboration with composer John Williams, with whom he has worked with for all but five of his theatrical releases. He became a household name with the summer blockbuster Jaws (1975), and continuously directed more acclaimed escapist box-office blockbusters with Close Encounters of the Third Kind (1977), E.T. the Extra-Terrestrial (1982) and the original Indiana Jones trilogy (1981–1989). He also explored drama in The Color Purple (1985) and Empire of the Sun (1987).\nIn 1993, Spielberg directed back-to-back hits with the science fiction film Jurassic Park, the highest-grossing film ever at the time, and the epic historical drama Schindler's List, which has often been listed as one of the greatest films ever made. He won the Academy Award for Best Director for the latter as well as for the World War II epic Saving Private Ryan (1998). Spielberg has since directed the science fiction films A.I. Artificial Intelligence (2001), Minority Report (2002), War of the Worlds (2005) and Ready Player One (2018); the historical dramas Amistad (1997), Munich (2005), War Horse (2011), Lincoln (2012), Bridge of Spies (2015) and The Post (2017); the comedies Catch Me If You Can (2002) and The Terminal (2004); the animated film The Adventures of Tintin (2011); the musical West Side Story (2021); and the family drama The Fabelmans (2022).\nSpielberg co-founded Amblin Entertainment and DreamWorks Pictures, and he has served as a producer for many successful films and television series, among them Poltergeist (1982), Gremlins (1984), Back to the Future (1985), An American Tail (1986), Who Framed Roger Rabbit (1988), Animaniacs (1993), Freakazoid! (1995), Twister (1996), Band of Brothers (2001) and Transformers (2007–present). Several of Spielberg's works are considered among the greatest films in history, and some are among the highest-grossing films ever.\nSeven of his films have been inducted into the National Film Registry by the Library of Congress as being \"culturally, historically or aesthetically significant\". In 2013, Time listed him as one of the 100 most influential people, and in 2023, Spielberg was the recipient of the first ever Time 100 Impact Award in the US.",
+  "bio_sources": [
+    {
+      "subject": "steven spielberg",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Steven_Spielberg"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "wire glasses",
+      "shape_type": "wearable object",
+      "meaning": "helps anchor the gaze and reinforces steven spielberg's filmmaking, authorship, and visual storytelling."
+    },
+    {
+      "element": "film strip",
+      "shape_type": "technology object",
+      "meaning": "makes cinema itself part of the face and beard, tying the portrait to authorship and direction."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen production define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "film strip",
+      "visual_representation": "a narrow strip with evenly spaced rectangular frames",
+      "category": "object",
+      "relevance": "Cinema and edited moving images belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "clapboard",
+      "visual_representation": "a hinged slate with diagonal stripes on its top edge",
+      "category": "object",
+      "relevance": "Film sets and screen production are strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "projector beam",
+      "visual_representation": "a clean triangular beam of projected light",
+      "category": "shape",
+      "relevance": "The biography supports a public identity centered on image-making and spectacle.",
+      "grounding": "inferred"
+    }
+  ]
+}

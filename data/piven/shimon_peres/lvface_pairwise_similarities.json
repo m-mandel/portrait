@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/shimon_peres",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/shimon_peres/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+        "similarity": 0.046218354254961014
+      },
+      {
+        "index": 1,
+        "name": "02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+        "similarity": 0.06495571881532669
+      },
+      {
+        "index": 2,
+        "name": "03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+        "similarity": 0.0111222630366683
+      },
+      {
+        "index": 3,
+        "name": "04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": 0.00420896802097559
+      },
+      {
+        "index": 4,
+        "name": "05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+        "similarity": 0.023489611223340034
+      },
+      {
+        "index": 5,
+        "name": "06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+        "similarity": 0.07679593563079834
+      },
+      {
+        "index": 6,
+        "name": "07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": 0.07113054394721985
+      },
+      {
+        "index": 7,
+        "name": "08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+        "similarity": 0.06185290217399597
+      },
+      {
+        "index": 8,
+        "name": "09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+        "similarity": 0.02590072713792324
+      },
+      {
+        "index": 9,
+        "name": "10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+        "path": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+        "similarity": 0.06777800619602203
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.046218354254961014,
+          0.06495571881532669,
+          0.0111222630366683,
+          0.00420896802097559,
+          0.023489611223340034,
+          0.07679593563079834,
+          0.07113054394721985,
+          0.06185290217399597,
+          0.02590072713792324,
+          0.06777800619602203
+        ],
+        [
+          0.046218354254961014,
+          0.9999999403953552,
+          0.4718436598777771,
+          0.39350971579551697,
+          0.5477098226547241,
+          0.4559272229671478,
+          0.5280630588531494,
+          0.47962379455566406,
+          0.8954297304153442,
+          0.4699864089488983,
+          0.48269763588905334
+        ],
+        [
+          0.06495571881532669,
+          0.4718436598777771,
+          0.9999998807907104,
+          0.32640212774276733,
+          0.4102295935153961,
+          0.4318491816520691,
+          0.530743420124054,
+          0.4539746940135956,
+          0.4577657878398895,
+          0.46653759479522705,
+          0.4005849361419678
+        ],
+        [
+          0.0111222630366683,
+          0.39350971579551697,
+          0.32640212774276733,
+          1.0000001192092896,
+          0.3774769902229309,
+          0.46176818013191223,
+          0.4177629053592682,
+          0.48925358057022095,
+          0.4137380123138428,
+          0.4443032741546631,
+          0.44015243649482727
+        ],
+        [
+          0.00420896802097559,
+          0.5477098226547241,
+          0.4102295935153961,
+          0.3774769902229309,
+          1.0000001192092896,
+          0.4493195712566376,
+          0.5102405548095703,
+          0.4836946427822113,
+          0.4581381380558014,
+          0.35489216446876526,
+          0.544877827167511
+        ],
+        [
+          0.023489611223340034,
+          0.4559272229671478,
+          0.4318491816520691,
+          0.46176818013191223,
+          0.4493195712566376,
+          1.0000001192092896,
+          0.5135678648948669,
+          0.5355363488197327,
+          0.4722210764884949,
+          0.4729403257369995,
+          0.4538564682006836
+        ],
+        [
+          0.07679593563079834,
+          0.5280630588531494,
+          0.530743420124054,
+          0.4177629053592682,
+          0.5102405548095703,
+          0.5135678648948669,
+          1.0000001192092896,
+          0.5597127079963684,
+          0.5109664797782898,
+          0.5009062886238098,
+          0.5524465441703796
+        ],
+        [
+          0.07113054394721985,
+          0.47962379455566406,
+          0.4539746940135956,
+          0.48925358057022095,
+          0.4836946427822113,
+          0.5355363488197327,
+          0.5597127079963684,
+          1.0000001192092896,
+          0.4787141978740692,
+          0.44836530089378357,
+          0.4948485195636749
+        ],
+        [
+          0.06185290217399597,
+          0.8954297304153442,
+          0.4577657878398895,
+          0.4137380123138428,
+          0.4581381380558014,
+          0.4722210764884949,
+          0.5109664797782898,
+          0.4787141978740692,
+          1.0000001192092896,
+          0.491539865732193,
+          0.4931049942970276
+        ],
+        [
+          0.02590072713792324,
+          0.4699864089488983,
+          0.46653759479522705,
+          0.4443032741546631,
+          0.35489216446876526,
+          0.4729403257369995,
+          0.5009062886238098,
+          0.44836530089378357,
+          0.491539865732193,
+          1.0000001192092896,
+          0.4333985447883606
+        ],
+        [
+          0.06777800619602203,
+          0.48269763588905334,
+          0.4005849361419678,
+          0.44015243649482727,
+          0.544877827167511,
+          0.4538564682006836,
+          0.5524465441703796,
+          0.4948485195636749,
+          0.4931049942970276,
+          0.4333985447883606,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg"
+    },
+    {
+      "name": "02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg"
+    },
+    {
+      "name": "03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg"
+    },
+    {
+      "name": "04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg"
+    },
+    {
+      "name": "06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg"
+    },
+    {
+      "name": "07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg"
+    },
+    {
+      "name": "09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg"
+    },
+    {
+      "name": "10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "path": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "similarity": 0.4718436598777771
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "similarity": 0.39350971579551697
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5477098226547241
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "similarity": 0.4559272229671478
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "similarity": 0.5280630588531494
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.47962379455566406
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "similarity": 0.8954297304153442
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "similarity": 0.4699864089488983
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "similarity": 0.48269763588905334
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "similarity": 0.32640212774276733
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4102295935153961
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "similarity": 0.4318491816520691
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "similarity": 0.530743420124054
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4539746940135956
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "similarity": 0.4577657878398895
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "similarity": 0.46653759479522705
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "similarity": 0.4005849361419678
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.3774769902229309
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "similarity": 0.46176818013191223
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "similarity": 0.4177629053592682
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.48925358057022095
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "similarity": 0.4137380123138428
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "similarity": 0.4443032741546631
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "similarity": 0.44015243649482727
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "similarity": 0.4493195712566376
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "similarity": 0.5102405548095703
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4836946427822113
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "similarity": 0.4581381380558014
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "similarity": 0.35489216446876526
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "similarity": 0.544877827167511
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "similarity": 0.5135678648948669
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5355363488197327
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "similarity": 0.4722210764884949
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "similarity": 0.4729403257369995
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "similarity": 0.4538564682006836
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5597127079963684
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "similarity": 0.5109664797782898
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "similarity": 0.5009062886238098
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "similarity": 0.5524465441703796
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "similarity": 0.4787141978740692
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "similarity": 0.44836530089378357
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "similarity": 0.4948485195636749
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "similarity": 0.491539865732193
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "similarity": 0.4931049942970276
+    },
+    {
+      "left": "/workspace/input/piven/data/shimon_peres/images/09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "right": "/workspace/input/piven/data/shimon_peres/images/10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg",
+      "similarity": 0.4333985447883606
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_shimon-peres-portrait-photograh-1996-full-jpg.jpg",
+      "02_shimon-peres-meeting-hassan-ii-in-1994-jpg.jpg",
+      "03_shimon-peres-in-brazil-cropped-2-jpg.jpg",
+      "04_1984-1985-hi-res-stock-photography-and-images-alamy.jpg",
+      "05_portrait-of-polish-born-israeli-politician-and-former-prime-minister.jpg",
+      "06_portrait-de-shimon-peres-le-4-mars-1990-en-isra-l-news-photo-getty.jpg",
+      "07_1994-2016-hi-res-stock-photography-and-images-alamy.jpg",
+      "08_maroc-appel-l-arrestation-de-shimon-p-r-s-isra-l-actualit-s.jpg",
+      "09_montreal-headshot-photographer-business-headshots-corporate-portraits.jpg",
+      "10_image-of-shimon-peres-prime-minister-of-israel-portrait-in-jerusalem.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.4718436598777771,
+        0.39350971579551697,
+        0.5477098226547241,
+        0.4559272229671478,
+        0.5280630588531494,
+        0.47962379455566406,
+        0.8954297304153442,
+        0.4699864089488983,
+        0.48269763588905334
+      ],
+      [
+        0.4718436598777771,
+        0.9999998807907104,
+        0.32640212774276733,
+        0.4102295935153961,
+        0.4318491816520691,
+        0.530743420124054,
+        0.4539746940135956,
+        0.4577657878398895,
+        0.46653759479522705,
+        0.4005849361419678
+      ],
+      [
+        0.39350971579551697,
+        0.32640212774276733,
+        1.0000001192092896,
+        0.3774769902229309,
+        0.46176818013191223,
+        0.4177629053592682,
+        0.48925358057022095,
+        0.4137380123138428,
+        0.4443032741546631,
+        0.44015243649482727
+      ],
+      [
+        0.5477098226547241,
+        0.4102295935153961,
+        0.3774769902229309,
+        1.0000001192092896,
+        0.4493195712566376,
+        0.5102405548095703,
+        0.4836946427822113,
+        0.4581381380558014,
+        0.35489216446876526,
+        0.544877827167511
+      ],
+      [
+        0.4559272229671478,
+        0.4318491816520691,
+        0.46176818013191223,
+        0.4493195712566376,
+        1.0000001192092896,
+        0.5135678648948669,
+        0.5355363488197327,
+        0.4722210764884949,
+        0.4729403257369995,
+        0.4538564682006836
+      ],
+      [
+        0.5280630588531494,
+        0.530743420124054,
+        0.4177629053592682,
+        0.5102405548095703,
+        0.5135678648948669,
+        1.0000001192092896,
+        0.5597127079963684,
+        0.5109664797782898,
+        0.5009062886238098,
+        0.5524465441703796
+      ],
+      [
+        0.47962379455566406,
+        0.4539746940135956,
+        0.48925358057022095,
+        0.4836946427822113,
+        0.5355363488197327,
+        0.5597127079963684,
+        1.0000001192092896,
+        0.4787141978740692,
+        0.44836530089378357,
+        0.4948485195636749
+      ],
+      [
+        0.8954297304153442,
+        0.4577657878398895,
+        0.4137380123138428,
+        0.4581381380558014,
+        0.4722210764884949,
+        0.5109664797782898,
+        0.4787141978740692,
+        1.0000001192092896,
+        0.491539865732193,
+        0.4931049942970276
+      ],
+      [
+        0.4699864089488983,
+        0.46653759479522705,
+        0.4443032741546631,
+        0.35489216446876526,
+        0.4729403257369995,
+        0.5009062886238098,
+        0.44836530089378357,
+        0.491539865732193,
+        1.0000001192092896,
+        0.4333985447883606
+      ],
+      [
+        0.48269763588905334,
+        0.4005849361419678,
+        0.44015243649482727,
+        0.544877827167511,
+        0.4538564682006836,
+        0.5524465441703796,
+        0.4948485195636749,
+        0.4931049942970276,
+        0.4333985447883606,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/shimon_peres/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/shimon_peres/portrait.jpg"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/john_lennon_yoko_ono",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+        "similarity": -0.031239235773682594
+      },
+      {
+        "index": 1,
+        "name": "02_john-lennon-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg",
+        "similarity": 0.03103378415107727
+      },
+      {
+        "index": 2,
+        "name": "03_john-lennon-1974-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg",
+        "similarity": -0.020539458841085434
+      },
+      {
+        "index": 3,
+        "name": "04_john-lennon-1974-restored-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg",
+        "similarity": -0.015843233093619347
+      },
+      {
+        "index": 4,
+        "name": "05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+        "similarity": 0.032513584941625595
+      },
+      {
+        "index": 5,
+        "name": "07_john-lennon-and-yoko-ono-in-1973-png.png",
+        "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png",
+        "similarity": -8.702689228812233e-05
+      },
+      {
+        "index": 6,
+        "name": "08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+        "similarity": -0.0022503023501485586
+      },
+      {
+        "index": 7,
+        "name": "11_john-lennon-1969-cropped-colorized-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg",
+        "similarity": -0.014126535505056381
+      },
+      {
+        "index": 8,
+        "name": "12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+        "similarity": 0.01923457533121109
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.031239235773682594,
+          0.03103378415107727,
+          -0.020539458841085434,
+          -0.015843233093619347,
+          0.032513584941625595,
+          -8.702689228812233e-05,
+          -0.0022503023501485586,
+          -0.014126535505056381,
+          0.01923457533121109
+        ],
+        [
+          -0.031239235773682594,
+          0.9999999403953552,
+          0.49973079562187195,
+          0.4801185429096222,
+          0.4492357075214386,
+          0.025762492790818214,
+          0.5406335592269897,
+          0.5319554805755615,
+          0.4437047243118286,
+          0.3034417927265167
+        ],
+        [
+          0.03103378415107727,
+          0.49973079562187195,
+          1.0,
+          0.4922046959400177,
+          0.518568754196167,
+          0.1018228530883789,
+          0.5156238079071045,
+          0.4920569062232971,
+          0.5646334886550903,
+          0.36883917450904846
+        ],
+        [
+          -0.020539458841085434,
+          0.4801185429096222,
+          0.4922046959400177,
+          1.0000001192092896,
+          0.9043546319007874,
+          0.06121703237295151,
+          0.6256813406944275,
+          0.6360361576080322,
+          0.5549370050430298,
+          0.368990957736969
+        ],
+        [
+          -0.015843233093619347,
+          0.4492357075214386,
+          0.518568754196167,
+          0.9043546319007874,
+          1.0,
+          0.07040377706289291,
+          0.6467886567115784,
+          0.6258140802383423,
+          0.5926104784011841,
+          0.39123308658599854
+        ],
+        [
+          0.032513584941625595,
+          0.025762492790818214,
+          0.1018228530883789,
+          0.06121703237295151,
+          0.07040377706289291,
+          0.9999998807907104,
+          0.05737801268696785,
+          0.0609264075756073,
+          0.031575676053762436,
+          0.04498963803052902
+        ],
+        [
+          -8.702689228812233e-05,
+          0.5406335592269897,
+          0.5156238079071045,
+          0.6256813406944275,
+          0.6467886567115784,
+          0.05737801268696785,
+          0.9999998807907104,
+          0.9549645781517029,
+          0.5164937376976013,
+          0.3586985468864441
+        ],
+        [
+          -0.0022503023501485586,
+          0.5319554805755615,
+          0.4920569062232971,
+          0.6360361576080322,
+          0.6258140802383423,
+          0.0609264075756073,
+          0.9549645781517029,
+          1.0,
+          0.48538127541542053,
+          0.34310537576675415
+        ],
+        [
+          -0.014126535505056381,
+          0.4437047243118286,
+          0.5646334886550903,
+          0.5549370050430298,
+          0.5926104784011841,
+          0.031575676053762436,
+          0.5164937376976013,
+          0.48538127541542053,
+          1.0000001192092896,
+          0.36397090554237366
+        ],
+        [
+          0.01923457533121109,
+          0.3034417927265167,
+          0.36883917450904846,
+          0.368990957736969,
+          0.39123308658599854,
+          0.04498963803052902,
+          0.3586985468864441,
+          0.34310537576675415,
+          0.36397090554237366,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_john-lennon-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_john-lennon-1974-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg"
+    },
+    {
+      "name": "07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png"
+    },
+    {
+      "name": "08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg"
+    },
+    {
+      "name": "11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg"
+    },
+    {
+      "name": "12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg",
+      "similarity": 0.49973079562187195
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg",
+      "similarity": 0.4801185429096222
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "similarity": 0.4492357075214386
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "similarity": 0.025762492790818214
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "similarity": 0.5406335592269897
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "similarity": 0.5319554805755615
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "similarity": 0.4437047243118286
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+      "similarity": 0.3034417927265167
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg",
+      "similarity": 0.4922046959400177
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "similarity": 0.518568754196167
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "similarity": 0.1018228530883789
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "similarity": 0.5156238079071045
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "similarity": 0.4920569062232971
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "similarity": 0.5646334886550903
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/02_john-lennon-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+      "similarity": 0.36883917450904846
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "similarity": 0.9043546319007874
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "similarity": 0.06121703237295151
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "similarity": 0.6256813406944275
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "similarity": 0.6360361576080322
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "similarity": 0.5549370050430298
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/03_john-lennon-1974-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+      "similarity": 0.368990957736969
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "similarity": 0.07040377706289291
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "similarity": 0.6467886567115784
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "similarity": 0.6258140802383423
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "similarity": 0.5926104784011841
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+      "similarity": 0.39123308658599854
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "similarity": 0.05737801268696785
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "similarity": 0.0609264075756073
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "similarity": 0.031575676053762436
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+      "similarity": 0.04498963803052902
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "similarity": 0.9549645781517029
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "similarity": 0.5164937376976013
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+      "similarity": 0.3586985468864441
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "similarity": 0.48538127541542053
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+      "similarity": 0.34310537576675415
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg",
+      "similarity": 0.36397090554237366
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_john-lennon-walls-and-bridges-1974-press-photo-2-color-cropped-jpg.jpg",
+      "02_john-lennon-cropped-jpg.jpg",
+      "03_john-lennon-1974-cropped-jpg.jpg",
+      "04_john-lennon-1974-restored-cropped-jpg.jpg",
+      "05_john-lennon-and-yoko-ono-1980-geffen-publicity-photo-01-jpg.jpg",
+      "07_john-lennon-and-yoko-ono-in-1973-png.png",
+      "08_john-lennon-and-yoko-ono-gtfy-02293-jpg.jpg",
+      "11_john-lennon-1969-cropped-colorized-jpg.jpg",
+      "12_yoko-ono-and-john-lennon-at-john-sinclair-freedom-rally-cropped-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.49973079562187195,
+        0.4801185429096222,
+        0.4492357075214386,
+        0.025762492790818214,
+        0.5406335592269897,
+        0.5319554805755615,
+        0.4437047243118286,
+        0.3034417927265167
+      ],
+      [
+        0.49973079562187195,
+        1.0,
+        0.4922046959400177,
+        0.518568754196167,
+        0.1018228530883789,
+        0.5156238079071045,
+        0.4920569062232971,
+        0.5646334886550903,
+        0.36883917450904846
+      ],
+      [
+        0.4801185429096222,
+        0.4922046959400177,
+        1.0000001192092896,
+        0.9043546319007874,
+        0.06121703237295151,
+        0.6256813406944275,
+        0.6360361576080322,
+        0.5549370050430298,
+        0.368990957736969
+      ],
+      [
+        0.4492357075214386,
+        0.518568754196167,
+        0.9043546319007874,
+        1.0,
+        0.07040377706289291,
+        0.6467886567115784,
+        0.6258140802383423,
+        0.5926104784011841,
+        0.39123308658599854
+      ],
+      [
+        0.025762492790818214,
+        0.1018228530883789,
+        0.06121703237295151,
+        0.07040377706289291,
+        0.9999998807907104,
+        0.05737801268696785,
+        0.0609264075756073,
+        0.031575676053762436,
+        0.04498963803052902
+      ],
+      [
+        0.5406335592269897,
+        0.5156238079071045,
+        0.6256813406944275,
+        0.6467886567115784,
+        0.05737801268696785,
+        0.9999998807907104,
+        0.9549645781517029,
+        0.5164937376976013,
+        0.3586985468864441
+      ],
+      [
+        0.5319554805755615,
+        0.4920569062232971,
+        0.6360361576080322,
+        0.6258140802383423,
+        0.0609264075756073,
+        0.9549645781517029,
+        1.0,
+        0.48538127541542053,
+        0.34310537576675415
+      ],
+      [
+        0.4437047243118286,
+        0.5646334886550903,
+        0.5549370050430298,
+        0.5926104784011841,
+        0.031575676053762436,
+        0.5164937376976013,
+        0.48538127541542053,
+        1.0000001192092896,
+        0.36397090554237366
+      ],
+      [
+        0.3034417927265167,
+        0.36883917450904846,
+        0.368990957736969,
+        0.39123308658599854,
+        0.04498963803052902,
+        0.3586985468864441,
+        0.34310537576675415,
+        0.36397090554237366,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/john_lennon_yoko_ono/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/john_lennon_yoko_ono/images/06_john-lennon-portrait-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/john_lennon_yoko_ono/images/06_john-lennon-portrait-jpg.jpg"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/britney_spears_kevin_federline",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_britney-spears-fft-toronto-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+        "similarity": 0.026947399601340294
+      },
+      {
+        "index": 1,
+        "name": "02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+        "similarity": 0.023319294676184654
+      },
+      {
+        "index": 2,
+        "name": "03_britney-spears-2002-1-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+        "similarity": 0.1132335215806961
+      },
+      {
+        "index": 3,
+        "name": "04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+        "similarity": -0.02769426256418228
+      },
+      {
+        "index": 4,
+        "name": "05_britney-spears-2013-straighten-crop-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+        "similarity": 0.017094813287258148
+      },
+      {
+        "index": 5,
+        "name": "06_britney-spears-boys-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+        "similarity": 0.05161483958363533
+      },
+      {
+        "index": 6,
+        "name": "07_kevin-federline-by-gage-skidmore-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+        "similarity": 0.05171479284763336
+      },
+      {
+        "index": 7,
+        "name": "08_kevin-federline-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+        "similarity": -0.023525619879364967
+      },
+      {
+        "index": 8,
+        "name": "09_britney-spears-1999-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+        "similarity": 0.01546646561473608
+      },
+      {
+        "index": 9,
+        "name": "10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+        "similarity": 0.04213780164718628
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.026947399601340294,
+          0.023319294676184654,
+          0.1132335215806961,
+          -0.02769426256418228,
+          0.017094813287258148,
+          0.05161483958363533,
+          0.05171479284763336,
+          -0.023525619879364967,
+          0.01546646561473608,
+          0.04213780164718628
+        ],
+        [
+          0.026947399601340294,
+          1.0,
+          0.541114091873169,
+          6.396079697879031e-05,
+          0.6152826547622681,
+          0.5665633678436279,
+          0.6300004720687866,
+          -0.02421976625919342,
+          0.013679907657206059,
+          0.16523833572864532,
+          0.47500160336494446
+        ],
+        [
+          0.023319294676184654,
+          0.541114091873169,
+          0.9999999403953552,
+          -0.03772204741835594,
+          0.5167895555496216,
+          0.873267650604248,
+          0.6110357642173767,
+          -0.027376925572752953,
+          0.014709409326314926,
+          0.16662274301052094,
+          0.3920016884803772
+        ],
+        [
+          0.1132335215806961,
+          6.396079697879031e-05,
+          -0.03772204741835594,
+          1.0,
+          -0.005541851744055748,
+          -0.041851144284009933,
+          -0.04830097779631615,
+          -0.013209270313382149,
+          -0.03228198364377022,
+          0.015536352060735226,
+          0.00021472554362844676
+        ],
+        [
+          -0.02769426256418228,
+          0.6152826547622681,
+          0.5167895555496216,
+          -0.005541851744055748,
+          1.0,
+          0.5121009349822998,
+          0.5313296914100647,
+          -0.04453160986304283,
+          0.0206085667014122,
+          0.15345333516597748,
+          0.388024240732193
+        ],
+        [
+          0.017094813287258148,
+          0.5665633678436279,
+          0.873267650604248,
+          -0.041851144284009933,
+          0.5121009349822998,
+          1.0,
+          0.5825502276420593,
+          -0.05915045365691185,
+          0.01997634395956993,
+          0.16356103122234344,
+          0.3882938325405121
+        ],
+        [
+          0.05161483958363533,
+          0.6300004720687866,
+          0.6110357642173767,
+          -0.04830097779631615,
+          0.5313296914100647,
+          0.5825502276420593,
+          1.0,
+          -0.0014301498886197805,
+          -0.009322789497673512,
+          0.11430772393941879,
+          0.4534528851509094
+        ],
+        [
+          0.05171479284763336,
+          -0.02421976625919342,
+          -0.027376925572752953,
+          -0.013209270313382149,
+          -0.04453160986304283,
+          -0.05915045365691185,
+          -0.0014301498886197805,
+          1.0,
+          0.3467051684856415,
+          -0.04280821233987808,
+          0.03313007205724716
+        ],
+        [
+          -0.023525619879364967,
+          0.013679907657206059,
+          0.014709409326314926,
+          -0.03228198364377022,
+          0.0206085667014122,
+          0.01997634395956993,
+          -0.009322789497673512,
+          0.3467051684856415,
+          1.0,
+          0.041457775980234146,
+          0.05242372676730156
+        ],
+        [
+          0.01546646561473608,
+          0.16523833572864532,
+          0.16662274301052094,
+          0.015536352060735226,
+          0.15345333516597748,
+          0.16356103122234344,
+          0.11430772393941879,
+          -0.04280821233987808,
+          0.041457775980234146,
+          1.0,
+          0.1512351781129837
+        ],
+        [
+          0.04213780164718628,
+          0.47500160336494446,
+          0.3920016884803772,
+          0.00021472554362844676,
+          0.388024240732193,
+          0.3882938325405121,
+          0.4534528851509094,
+          0.03313007205724716,
+          0.05242372676730156,
+          0.1512351781129837,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_britney-spears-2002-1-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg"
+    },
+    {
+      "name": "06_britney-spears-boys-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg"
+    },
+    {
+      "name": "08_kevin-federline-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg"
+    },
+    {
+      "name": "09_britney-spears-1999-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg"
+    },
+    {
+      "name": "10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "similarity": 0.541114091873169
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+      "similarity": 6.396079697879031e-05
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "similarity": 0.6152826547622681
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "similarity": 0.5665633678436279
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+      "similarity": 0.6300004720687866
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "similarity": -0.02421976625919342
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+      "similarity": 0.013679907657206059
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+      "similarity": 0.16523833572864532
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "similarity": 0.47500160336494446
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+      "similarity": -0.03772204741835594
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "similarity": 0.5167895555496216
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "similarity": 0.873267650604248
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+      "similarity": 0.6110357642173767
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "similarity": -0.027376925572752953
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+      "similarity": 0.014709409326314926
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+      "similarity": 0.16662274301052094
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "similarity": 0.3920016884803772
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "similarity": -0.005541851744055748
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "similarity": -0.041851144284009933
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+      "similarity": -0.04830097779631615
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "similarity": -0.013209270313382149
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+      "similarity": -0.03228198364377022
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+      "similarity": 0.015536352060735226
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/03_britney-spears-2002-1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "similarity": 0.00021472554362844676
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "similarity": 0.5121009349822998
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+      "similarity": 0.5313296914100647
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "similarity": -0.04453160986304283
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+      "similarity": 0.0206085667014122
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+      "similarity": 0.15345333516597748
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "similarity": 0.388024240732193
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+      "similarity": 0.5825502276420593
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "similarity": -0.05915045365691185
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+      "similarity": 0.01997634395956993
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+      "similarity": 0.16356103122234344
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "similarity": 0.3882938325405121
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "similarity": -0.0014301498886197805
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+      "similarity": -0.009322789497673512
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+      "similarity": 0.11430772393941879
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/06_britney-spears-boys-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "similarity": 0.4534528851509094
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+      "similarity": 0.3467051684856415
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+      "similarity": -0.04280821233987808
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "similarity": 0.03313007205724716
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+      "similarity": 0.041457775980234146
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/08_kevin-federline-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "similarity": 0.05242372676730156
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/09_britney-spears-1999-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/images/10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg",
+      "similarity": 0.1512351781129837
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_britney-spears-fft-toronto-cropped-jpg.jpg",
+      "02_britney-spears-2013-straighten-crop-cropped-jpg.jpg",
+      "03_britney-spears-2002-1-cropped-jpg.jpg",
+      "04_britney-spears-piece-of-me-jan-2014-3-12416187554-cropped-jpg.jpg",
+      "05_britney-spears-2013-straighten-crop-jpg.jpg",
+      "06_britney-spears-boys-cropped-jpg.jpg",
+      "07_kevin-federline-by-gage-skidmore-jpg.jpg",
+      "08_kevin-federline-jpg.jpg",
+      "09_britney-spears-1999-jpg.jpg",
+      "10_planet-hollywood-las-vegas-13-july-2016-britney-spears-1-28744890995-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.541114091873169,
+        6.396079697879031e-05,
+        0.6152826547622681,
+        0.5665633678436279,
+        0.6300004720687866,
+        -0.02421976625919342,
+        0.013679907657206059,
+        0.16523833572864532,
+        0.47500160336494446
+      ],
+      [
+        0.541114091873169,
+        0.9999999403953552,
+        -0.03772204741835594,
+        0.5167895555496216,
+        0.873267650604248,
+        0.6110357642173767,
+        -0.027376925572752953,
+        0.014709409326314926,
+        0.16662274301052094,
+        0.3920016884803772
+      ],
+      [
+        6.396079697879031e-05,
+        -0.03772204741835594,
+        1.0,
+        -0.005541851744055748,
+        -0.041851144284009933,
+        -0.04830097779631615,
+        -0.013209270313382149,
+        -0.03228198364377022,
+        0.015536352060735226,
+        0.00021472554362844676
+      ],
+      [
+        0.6152826547622681,
+        0.5167895555496216,
+        -0.005541851744055748,
+        1.0,
+        0.5121009349822998,
+        0.5313296914100647,
+        -0.04453160986304283,
+        0.0206085667014122,
+        0.15345333516597748,
+        0.388024240732193
+      ],
+      [
+        0.5665633678436279,
+        0.873267650604248,
+        -0.041851144284009933,
+        0.5121009349822998,
+        1.0,
+        0.5825502276420593,
+        -0.05915045365691185,
+        0.01997634395956993,
+        0.16356103122234344,
+        0.3882938325405121
+      ],
+      [
+        0.6300004720687866,
+        0.6110357642173767,
+        -0.04830097779631615,
+        0.5313296914100647,
+        0.5825502276420593,
+        1.0,
+        -0.0014301498886197805,
+        -0.009322789497673512,
+        0.11430772393941879,
+        0.4534528851509094
+      ],
+      [
+        -0.02421976625919342,
+        -0.027376925572752953,
+        -0.013209270313382149,
+        -0.04453160986304283,
+        -0.05915045365691185,
+        -0.0014301498886197805,
+        1.0,
+        0.3467051684856415,
+        -0.04280821233987808,
+        0.03313007205724716
+      ],
+      [
+        0.013679907657206059,
+        0.014709409326314926,
+        -0.03228198364377022,
+        0.0206085667014122,
+        0.01997634395956993,
+        -0.009322789497673512,
+        0.3467051684856415,
+        1.0,
+        0.041457775980234146,
+        0.05242372676730156
+      ],
+      [
+        0.16523833572864532,
+        0.16662274301052094,
+        0.015536352060735226,
+        0.15345333516597748,
+        0.16356103122234344,
+        0.11430772393941879,
+        -0.04280821233987808,
+        0.041457775980234146,
+        1.0,
+        0.1512351781129837
+      ],
+      [
+        0.47500160336494446,
+        0.3920016884803772,
+        0.00021472554362844676,
+        0.388024240732193,
+        0.3882938325405121,
+        0.4534528851509094,
+        0.03313007205724716,
+        0.05242372676730156,
+        0.1512351781129837,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/britney_spears_kevin_federline/portrait.jpg"
+    }
+  ]
+}

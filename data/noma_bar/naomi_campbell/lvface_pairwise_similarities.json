@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/naomi_campbell",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/naomi_campbell/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+        "similarity": -0.013902447186410427
+      },
+      {
+        "index": 1,
+        "name": "03_naomi-campbell-1997-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+        "similarity": -0.01123844739049673
+      },
+      {
+        "index": 2,
+        "name": "05_christy-turlington-naomi-campbell-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+        "similarity": 0.008842847310006618
+      },
+      {
+        "index": 3,
+        "name": "05_naomi-campbell-cannes-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+        "similarity": 0.02403302490711212
+      },
+      {
+        "index": 4,
+        "name": "07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+        "similarity": 0.03163947910070419
+      },
+      {
+        "index": 5,
+        "name": "07_naomi-campbell-cannes-2018-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+        "similarity": 0.006909350398927927
+      },
+      {
+        "index": 6,
+        "name": "08_naomicampbell-crop-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+        "similarity": -0.019708707928657532
+      },
+      {
+        "index": 7,
+        "name": "09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+        "similarity": 0.026663826778531075
+      },
+      {
+        "index": 8,
+        "name": "09_naomicampbell-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+        "similarity": -0.016175929456949234
+      },
+      {
+        "index": 9,
+        "name": "10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+        "similarity": -0.01071833074092865
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.013902447186410427,
+          -0.01123844739049673,
+          0.008842847310006618,
+          0.02403302490711212,
+          0.03163947910070419,
+          0.006909350398927927,
+          -0.019708707928657532,
+          0.026663826778531075,
+          -0.016175929456949234,
+          -0.01071833074092865
+        ],
+        [
+          -0.013902447186410427,
+          1.0000001192092896,
+          0.16998779773712158,
+          -0.0013425073120743036,
+          0.2426372766494751,
+          0.07286302000284195,
+          0.1751619279384613,
+          0.23568178713321686,
+          -0.07455038279294968,
+          0.20882315933704376,
+          -0.013737378641963005
+        ],
+        [
+          -0.01123844739049673,
+          0.16998779773712158,
+          1.0,
+          -0.021052999421954155,
+          0.3775550425052643,
+          0.010547255165874958,
+          0.34748393297195435,
+          0.3323691785335541,
+          0.16102531552314758,
+          0.33319219946861267,
+          0.023318206891417503
+        ],
+        [
+          0.008842847310006618,
+          -0.0013425073120743036,
+          -0.021052999421954155,
+          0.9999998807907104,
+          0.05858363211154938,
+          0.013636257499456406,
+          0.05690480396151543,
+          0.03986278921365738,
+          -0.007727324031293392,
+          0.023682931438088417,
+          -0.018359621986746788
+        ],
+        [
+          0.02403302490711212,
+          0.2426372766494751,
+          0.3775550425052643,
+          0.05858363211154938,
+          1.0,
+          -0.002016236539930105,
+          0.48257938027381897,
+          0.4952927231788635,
+          -0.08156213164329529,
+          0.4990442395210266,
+          -0.0546058751642704
+        ],
+        [
+          0.03163947910070419,
+          0.07286302000284195,
+          0.010547255165874958,
+          0.013636257499456406,
+          -0.002016236539930105,
+          1.0,
+          -0.01988624967634678,
+          0.001641176058910787,
+          0.05615668371319771,
+          -0.051235049962997437,
+          -0.006080804858356714
+        ],
+        [
+          0.006909350398927927,
+          0.1751619279384613,
+          0.34748393297195435,
+          0.05690480396151543,
+          0.48257938027381897,
+          -0.01988624967634678,
+          1.0,
+          0.46246370673179626,
+          -0.09471607208251953,
+          0.4381319284439087,
+          0.08331000059843063
+        ],
+        [
+          -0.019708707928657532,
+          0.23568178713321686,
+          0.3323691785335541,
+          0.03986278921365738,
+          0.4952927231788635,
+          0.001641176058910787,
+          0.46246370673179626,
+          1.0,
+          0.014393752440810204,
+          0.9294449090957642,
+          0.030820060521364212
+        ],
+        [
+          0.026663826778531075,
+          -0.07455038279294968,
+          0.16102531552314758,
+          -0.007727324031293392,
+          -0.08156213164329529,
+          0.05615668371319771,
+          -0.09471607208251953,
+          0.014393752440810204,
+          1.0000001192092896,
+          0.050876978784799576,
+          0.05674140155315399
+        ],
+        [
+          -0.016175929456949234,
+          0.20882315933704376,
+          0.33319219946861267,
+          0.023682931438088417,
+          0.4990442395210266,
+          -0.051235049962997437,
+          0.4381319284439087,
+          0.9294449090957642,
+          0.050876978784799576,
+          1.0,
+          0.00998585857450962
+        ],
+        [
+          -0.01071833074092865,
+          -0.013737378641963005,
+          0.023318206891417503,
+          -0.018359621986746788,
+          -0.0546058751642704,
+          -0.006080804858356714,
+          0.08331000059843063,
+          0.030820060521364212,
+          0.05674140155315399,
+          0.00998585857450962,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg"
+    },
+    {
+      "name": "03_naomi-campbell-1997-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg"
+    },
+    {
+      "name": "05_christy-turlington-naomi-campbell-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg"
+    },
+    {
+      "name": "05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg"
+    },
+    {
+      "name": "07_naomi-campbell-cannes-2018-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg"
+    },
+    {
+      "name": "08_naomicampbell-crop-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg"
+    },
+    {
+      "name": "09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_naomicampbell-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg"
+    },
+    {
+      "name": "10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+      "similarity": 0.16998779773712158
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+      "similarity": -0.0013425073120743036
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "similarity": 0.2426372766494751
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "similarity": 0.07286302000284195
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+      "similarity": 0.1751619279384613
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+      "similarity": 0.23568178713321686
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "similarity": -0.07455038279294968
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+      "similarity": 0.20882315933704376
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "similarity": -0.013737378641963005
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+      "similarity": -0.021052999421954155
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "similarity": 0.3775550425052643
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "similarity": 0.010547255165874958
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+      "similarity": 0.34748393297195435
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+      "similarity": 0.3323691785335541
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "similarity": 0.16102531552314758
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+      "similarity": 0.33319219946861267
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/03_naomi-campbell-1997-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "similarity": 0.023318206891417503
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "similarity": 0.05858363211154938
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "similarity": 0.013636257499456406
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+      "similarity": 0.05690480396151543
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+      "similarity": 0.03986278921365738
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "similarity": -0.007727324031293392
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+      "similarity": 0.023682931438088417
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_christy-turlington-naomi-campbell-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "similarity": -0.018359621986746788
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "similarity": -0.002016236539930105
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+      "similarity": 0.48257938027381897
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+      "similarity": 0.4952927231788635
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "similarity": -0.08156213164329529
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+      "similarity": 0.4990442395210266
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "similarity": -0.0546058751642704
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+      "similarity": -0.01988624967634678
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+      "similarity": 0.001641176058910787
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "similarity": 0.05615668371319771
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+      "similarity": -0.051235049962997437
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "similarity": -0.006080804858356714
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+      "similarity": 0.46246370673179626
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "similarity": -0.09471607208251953
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+      "similarity": 0.4381319284439087
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/07_naomi-campbell-cannes-2018-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "similarity": 0.08331000059843063
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "similarity": 0.014393752440810204
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+      "similarity": 0.9294449090957642
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/08_naomicampbell-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "similarity": 0.030820060521364212
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+      "similarity": 0.050876978784799576
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "similarity": 0.05674140155315399
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/naomi_campbell/images/09_naomicampbell-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/naomi_campbell/images/10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg",
+      "similarity": 0.00998585857450962
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "02_naomi-campbell-figure-at-madame-tussauds-london-12329444705-jpg.jpg",
+      "03_naomi-campbell-1997-jpg.jpg",
+      "05_christy-turlington-naomi-campbell-jpg.jpg",
+      "05_naomi-campbell-cannes-cropped-jpg.jpg",
+      "07_insapphowetrust-samuel-l-jackson-and-naomi-campbell-at-madame-tussauds-london-8480298587-jpg.jpg",
+      "07_naomi-campbell-cannes-2018-jpg.jpg",
+      "08_naomicampbell-crop-jpg.jpg",
+      "09_11-ricardo-tisci-e-naomi-campbell-16512944973-cropped-jpg.jpg",
+      "09_naomicampbell-jpg.jpg",
+      "10_2006-campbell-cup-nam-leftheris-p1050912-cropped-nam-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.16998779773712158,
+        -0.0013425073120743036,
+        0.2426372766494751,
+        0.07286302000284195,
+        0.1751619279384613,
+        0.23568178713321686,
+        -0.07455038279294968,
+        0.20882315933704376,
+        -0.013737378641963005
+      ],
+      [
+        0.16998779773712158,
+        1.0,
+        -0.021052999421954155,
+        0.3775550425052643,
+        0.010547255165874958,
+        0.34748393297195435,
+        0.3323691785335541,
+        0.16102531552314758,
+        0.33319219946861267,
+        0.023318206891417503
+      ],
+      [
+        -0.0013425073120743036,
+        -0.021052999421954155,
+        0.9999998807907104,
+        0.05858363211154938,
+        0.013636257499456406,
+        0.05690480396151543,
+        0.03986278921365738,
+        -0.007727324031293392,
+        0.023682931438088417,
+        -0.018359621986746788
+      ],
+      [
+        0.2426372766494751,
+        0.3775550425052643,
+        0.05858363211154938,
+        1.0,
+        -0.002016236539930105,
+        0.48257938027381897,
+        0.4952927231788635,
+        -0.08156213164329529,
+        0.4990442395210266,
+        -0.0546058751642704
+      ],
+      [
+        0.07286302000284195,
+        0.010547255165874958,
+        0.013636257499456406,
+        -0.002016236539930105,
+        1.0,
+        -0.01988624967634678,
+        0.001641176058910787,
+        0.05615668371319771,
+        -0.051235049962997437,
+        -0.006080804858356714
+      ],
+      [
+        0.1751619279384613,
+        0.34748393297195435,
+        0.05690480396151543,
+        0.48257938027381897,
+        -0.01988624967634678,
+        1.0,
+        0.46246370673179626,
+        -0.09471607208251953,
+        0.4381319284439087,
+        0.08331000059843063
+      ],
+      [
+        0.23568178713321686,
+        0.3323691785335541,
+        0.03986278921365738,
+        0.4952927231788635,
+        0.001641176058910787,
+        0.46246370673179626,
+        1.0,
+        0.014393752440810204,
+        0.9294449090957642,
+        0.030820060521364212
+      ],
+      [
+        -0.07455038279294968,
+        0.16102531552314758,
+        -0.007727324031293392,
+        -0.08156213164329529,
+        0.05615668371319771,
+        -0.09471607208251953,
+        0.014393752440810204,
+        1.0000001192092896,
+        0.050876978784799576,
+        0.05674140155315399
+      ],
+      [
+        0.20882315933704376,
+        0.33319219946861267,
+        0.023682931438088417,
+        0.4990442395210266,
+        -0.051235049962997437,
+        0.4381319284439087,
+        0.9294449090957642,
+        0.050876978784799576,
+        1.0,
+        0.00998585857450962
+      ],
+      [
+        -0.013737378641963005,
+        0.023318206891417503,
+        -0.018359621986746788,
+        -0.0546058751642704,
+        -0.006080804858356714,
+        0.08331000059843063,
+        0.030820060521364212,
+        0.05674140155315399,
+        0.00998585857450962,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/naomi_campbell/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/naomi_campbell/portrait.jpg"
+    }
+  ]
+}

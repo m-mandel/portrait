@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/joan_rivers",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/joan_rivers/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_joan-rivers-1966-press-photo-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+        "similarity": 0.06473128497600555
+      },
+      {
+        "index": 1,
+        "name": "02_joan-rivers-1-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+        "similarity": 0.016618620604276657
+      },
+      {
+        "index": 2,
+        "name": "03_joan-rivers-1987-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+        "similarity": 0.040234483778476715
+      },
+      {
+        "index": 3,
+        "name": "06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+        "similarity": 0.08001821488142014
+      },
+      {
+        "index": 4,
+        "name": "07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+        "similarity": 0.007414079271256924
+      },
+      {
+        "index": 5,
+        "name": "08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+        "similarity": 0.05283873900771141
+      },
+      {
+        "index": 6,
+        "name": "08_joan-rivers-2010-david-shankbone-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+        "similarity": 0.0712384358048439
+      },
+      {
+        "index": 7,
+        "name": "09_joan-rivers-2009-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+        "similarity": 0.048515718430280685
+      },
+      {
+        "index": 8,
+        "name": "10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+        "similarity": 0.011959711089730263
+      },
+      {
+        "index": 9,
+        "name": "15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+        "similarity": -0.02877681516110897
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.06473128497600555,
+          0.016618620604276657,
+          0.040234483778476715,
+          0.08001821488142014,
+          0.007414079271256924,
+          0.05283873900771141,
+          0.0712384358048439,
+          0.048515718430280685,
+          0.011959711089730263,
+          -0.02877681516110897
+        ],
+        [
+          0.06473128497600555,
+          1.0000001192092896,
+          0.3513493537902832,
+          0.29985350370407104,
+          0.2731541395187378,
+          0.24469733238220215,
+          0.14842398464679718,
+          0.20078781247138977,
+          0.1957179605960846,
+          0.2231011539697647,
+          -0.042818017303943634
+        ],
+        [
+          0.016618620604276657,
+          0.3513493537902832,
+          1.0000001192092896,
+          0.3084428608417511,
+          0.4377119839191437,
+          0.45004957914352417,
+          0.41250044107437134,
+          0.41726675629615784,
+          0.4434141218662262,
+          0.4620847702026367,
+          -0.018959973007440567
+        ],
+        [
+          0.040234483778476715,
+          0.29985350370407104,
+          0.3084428608417511,
+          0.9999999403953552,
+          0.12696252763271332,
+          0.2831815481185913,
+          0.1725846379995346,
+          0.1987820416688919,
+          0.22529228031635284,
+          0.2798393666744232,
+          0.007749018259346485
+        ],
+        [
+          0.08001821488142014,
+          0.2731541395187378,
+          0.4377119839191437,
+          0.12696252763271332,
+          1.0,
+          0.5094766616821289,
+          0.5470577478408813,
+          0.5457087159156799,
+          0.5347220301628113,
+          0.45467671751976013,
+          -0.05892389267683029
+        ],
+        [
+          0.007414079271256924,
+          0.24469733238220215,
+          0.45004957914352417,
+          0.2831815481185913,
+          0.5094766616821289,
+          1.0,
+          0.3422105312347412,
+          0.5324604511260986,
+          0.6062402725219727,
+          0.5038148760795593,
+          -0.05692151561379433
+        ],
+        [
+          0.05283873900771141,
+          0.14842398464679718,
+          0.41250044107437134,
+          0.1725846379995346,
+          0.5470577478408813,
+          0.3422105312347412,
+          1.0,
+          0.5668991208076477,
+          0.5335471630096436,
+          0.47461286187171936,
+          -0.00069416593760252
+        ],
+        [
+          0.0712384358048439,
+          0.20078781247138977,
+          0.41726675629615784,
+          0.1987820416688919,
+          0.5457087159156799,
+          0.5324604511260986,
+          0.5668991208076477,
+          0.9999999403953552,
+          0.626569390296936,
+          0.4853891432285309,
+          0.031454820185899734
+        ],
+        [
+          0.048515718430280685,
+          0.1957179605960846,
+          0.4434141218662262,
+          0.22529228031635284,
+          0.5347220301628113,
+          0.6062402725219727,
+          0.5335471630096436,
+          0.626569390296936,
+          1.0,
+          0.516913890838623,
+          0.03236212581396103
+        ],
+        [
+          0.011959711089730263,
+          0.2231011539697647,
+          0.4620847702026367,
+          0.2798393666744232,
+          0.45467671751976013,
+          0.5038148760795593,
+          0.47461286187171936,
+          0.4853891432285309,
+          0.516913890838623,
+          1.0000001192092896,
+          0.017730649560689926
+        ],
+        [
+          -0.02877681516110897,
+          -0.042818017303943634,
+          -0.018959973007440567,
+          0.007749018259346485,
+          -0.05892389267683029,
+          -0.05692151561379433,
+          -0.00069416593760252,
+          0.031454820185899734,
+          0.03236212581396103,
+          0.017730649560689926,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_joan-rivers-1966-press-photo-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg"
+    },
+    {
+      "name": "02_joan-rivers-1-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg"
+    },
+    {
+      "name": "03_joan-rivers-1987-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg"
+    },
+    {
+      "name": "06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg"
+    },
+    {
+      "name": "07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg"
+    },
+    {
+      "name": "09_joan-rivers-2009-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg"
+    },
+    {
+      "name": "10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg"
+    },
+    {
+      "name": "15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+      "similarity": 0.3513493537902832
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+      "similarity": 0.29985350370407104
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "similarity": 0.2731541395187378
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "similarity": 0.24469733238220215
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "similarity": 0.14842398464679718
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "similarity": 0.20078781247138977
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+      "similarity": 0.1957179605960846
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "similarity": 0.2231011539697647
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/01_joan-rivers-1966-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "similarity": -0.042818017303943634
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+      "similarity": 0.3084428608417511
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "similarity": 0.4377119839191437
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "similarity": 0.45004957914352417
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "similarity": 0.41250044107437134
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "similarity": 0.41726675629615784
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+      "similarity": 0.4434141218662262
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "similarity": 0.4620847702026367
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/02_joan-rivers-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "similarity": -0.018959973007440567
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "similarity": 0.12696252763271332
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "similarity": 0.2831815481185913
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "similarity": 0.1725846379995346
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "similarity": 0.1987820416688919
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+      "similarity": 0.22529228031635284
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "similarity": 0.2798393666744232
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/03_joan-rivers-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "similarity": 0.007749018259346485
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "similarity": 0.5094766616821289
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "similarity": 0.5470577478408813
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "similarity": 0.5457087159156799
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+      "similarity": 0.5347220301628113
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "similarity": 0.45467671751976013
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "similarity": -0.05892389267683029
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "similarity": 0.3422105312347412
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "similarity": 0.5324604511260986
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+      "similarity": 0.6062402725219727
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "similarity": 0.5038148760795593
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "similarity": -0.05692151561379433
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "similarity": 0.5668991208076477
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+      "similarity": 0.5335471630096436
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "similarity": 0.47461286187171936
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "similarity": -0.00069416593760252
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+      "similarity": 0.626569390296936
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "similarity": 0.4853891432285309
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "similarity": 0.031454820185899734
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "similarity": 0.516913890838623
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/09_joan-rivers-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "similarity": 0.03236212581396103
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/joan_rivers/images/10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/joan_rivers/images/15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg",
+      "similarity": 0.017730649560689926
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_joan-rivers-1966-press-photo-jpg.jpg",
+      "02_joan-rivers-1-jpg.jpg",
+      "03_joan-rivers-1987-jpg.jpg",
+      "06_joan-rivers-by-david-shankbone-4403242489-jpg.jpg",
+      "07_joan-rivers-at-udderbelly-09-cropped-jpg.jpg",
+      "08_joan-rivers-2-musto-party-2010-shankbone-cropped-jpg.jpg",
+      "08_joan-rivers-2010-david-shankbone-jpg.jpg",
+      "09_joan-rivers-2009-jpg.jpg",
+      "10_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-crop-jpg.jpg",
+      "15_joan-rivers-and-melissa-rivers-during-ny-fashion-week-2012-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.3513493537902832,
+        0.29985350370407104,
+        0.2731541395187378,
+        0.24469733238220215,
+        0.14842398464679718,
+        0.20078781247138977,
+        0.1957179605960846,
+        0.2231011539697647,
+        -0.042818017303943634
+      ],
+      [
+        0.3513493537902832,
+        1.0000001192092896,
+        0.3084428608417511,
+        0.4377119839191437,
+        0.45004957914352417,
+        0.41250044107437134,
+        0.41726675629615784,
+        0.4434141218662262,
+        0.4620847702026367,
+        -0.018959973007440567
+      ],
+      [
+        0.29985350370407104,
+        0.3084428608417511,
+        0.9999999403953552,
+        0.12696252763271332,
+        0.2831815481185913,
+        0.1725846379995346,
+        0.1987820416688919,
+        0.22529228031635284,
+        0.2798393666744232,
+        0.007749018259346485
+      ],
+      [
+        0.2731541395187378,
+        0.4377119839191437,
+        0.12696252763271332,
+        1.0,
+        0.5094766616821289,
+        0.5470577478408813,
+        0.5457087159156799,
+        0.5347220301628113,
+        0.45467671751976013,
+        -0.05892389267683029
+      ],
+      [
+        0.24469733238220215,
+        0.45004957914352417,
+        0.2831815481185913,
+        0.5094766616821289,
+        1.0,
+        0.3422105312347412,
+        0.5324604511260986,
+        0.6062402725219727,
+        0.5038148760795593,
+        -0.05692151561379433
+      ],
+      [
+        0.14842398464679718,
+        0.41250044107437134,
+        0.1725846379995346,
+        0.5470577478408813,
+        0.3422105312347412,
+        1.0,
+        0.5668991208076477,
+        0.5335471630096436,
+        0.47461286187171936,
+        -0.00069416593760252
+      ],
+      [
+        0.20078781247138977,
+        0.41726675629615784,
+        0.1987820416688919,
+        0.5457087159156799,
+        0.5324604511260986,
+        0.5668991208076477,
+        0.9999999403953552,
+        0.626569390296936,
+        0.4853891432285309,
+        0.031454820185899734
+      ],
+      [
+        0.1957179605960846,
+        0.4434141218662262,
+        0.22529228031635284,
+        0.5347220301628113,
+        0.6062402725219727,
+        0.5335471630096436,
+        0.626569390296936,
+        1.0,
+        0.516913890838623,
+        0.03236212581396103
+      ],
+      [
+        0.2231011539697647,
+        0.4620847702026367,
+        0.2798393666744232,
+        0.45467671751976013,
+        0.5038148760795593,
+        0.47461286187171936,
+        0.4853891432285309,
+        0.516913890838623,
+        1.0000001192092896,
+        0.017730649560689926
+      ],
+      [
+        -0.042818017303943634,
+        -0.018959973007440567,
+        0.007749018259346485,
+        -0.05892389267683029,
+        -0.05692151561379433,
+        -0.00069416593760252,
+        0.031454820185899734,
+        0.03236212581396103,
+        0.017730649560689926,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/joan_rivers/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/joan_rivers/portrait.jpg"
+    }
+  ]
+}

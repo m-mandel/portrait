@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/adolf_hitler",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/adolf_hitler/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+        "similarity": 0.012581187300384045
+      },
+      {
+        "index": 1,
+        "name": "03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+        "similarity": 0.04429631680250168
+      },
+      {
+        "index": 2,
+        "name": "07_adolf-hitler-cropped-restored-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg",
+        "similarity": -0.0018682400695979595
+      },
+      {
+        "index": 3,
+        "name": "08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+        "similarity": 0.03493384271860123
+      },
+      {
+        "index": 4,
+        "name": "09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+        "similarity": -0.027414195239543915
+      },
+      {
+        "index": 5,
+        "name": "12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+        "similarity": 0.02116345427930355
+      },
+      {
+        "index": 6,
+        "name": "13_portrait-photo-of-adolf-hitler-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg",
+        "similarity": 0.03001706674695015
+      },
+      {
+        "index": 7,
+        "name": "14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+        "similarity": -0.08447691798210144
+      },
+      {
+        "index": 8,
+        "name": "15_adolf-hitler-berghof-1936-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg",
+        "similarity": 0.0006983208004385233
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.012581187300384045,
+          0.04429631680250168,
+          -0.0018682400695979595,
+          0.03493384271860123,
+          -0.027414195239543915,
+          0.02116345427930355,
+          0.03001706674695015,
+          -0.08447691798210144,
+          0.0006983208004385233
+        ],
+        [
+          0.012581187300384045,
+          1.0,
+          0.5086082816123962,
+          0.8496784567832947,
+          -0.039190951734781265,
+          -0.008241303265094757,
+          0.8325867652893066,
+          0.4036000669002533,
+          -0.0388786680996418,
+          0.6011481881141663
+        ],
+        [
+          0.04429631680250168,
+          0.5086082816123962,
+          1.0,
+          0.44446736574172974,
+          -0.007357933092862368,
+          0.02166968397796154,
+          0.49103134870529175,
+          0.42906224727630615,
+          -0.10437142103910446,
+          0.6994739174842834
+        ],
+        [
+          -0.0018682400695979595,
+          0.8496784567832947,
+          0.44446736574172974,
+          0.9999998807907104,
+          -0.004362337291240692,
+          -0.007365220692008734,
+          0.8646019697189331,
+          0.3844798803329468,
+          -0.08468703180551529,
+          0.5694180727005005
+        ],
+        [
+          0.03493384271860123,
+          -0.039190951734781265,
+          -0.007357933092862368,
+          -0.004362337291240692,
+          1.0,
+          -0.017489982768893242,
+          -0.007013590540736914,
+          -0.013372143730521202,
+          0.004482925869524479,
+          -0.03634312003850937
+        ],
+        [
+          -0.027414195239543915,
+          -0.008241303265094757,
+          0.02166968397796154,
+          -0.007365220692008734,
+          -0.017489982768893242,
+          1.0000001192092896,
+          -0.0013326025800779462,
+          0.022570697590708733,
+          0.01080621499568224,
+          0.03914922475814819
+        ],
+        [
+          0.02116345427930355,
+          0.8325867652893066,
+          0.49103134870529175,
+          0.8646019697189331,
+          -0.007013590540736914,
+          -0.0013326025800779462,
+          1.0,
+          0.3781428635120392,
+          -0.0757054015994072,
+          0.5641999840736389
+        ],
+        [
+          0.03001706674695015,
+          0.4036000669002533,
+          0.42906224727630615,
+          0.3844798803329468,
+          -0.013372143730521202,
+          0.022570697590708733,
+          0.3781428635120392,
+          1.0,
+          -0.07785288244485855,
+          0.45951423048973083
+        ],
+        [
+          -0.08447691798210144,
+          -0.0388786680996418,
+          -0.10437142103910446,
+          -0.08468703180551529,
+          0.004482925869524479,
+          0.01080621499568224,
+          -0.0757054015994072,
+          -0.07785288244485855,
+          1.0,
+          -0.053052134811878204
+        ],
+        [
+          0.0006983208004385233,
+          0.6011481881141663,
+          0.6994739174842834,
+          0.5694180727005005,
+          -0.03634312003850937,
+          0.03914922475814819,
+          0.5641999840736389,
+          0.45951423048973083,
+          -0.053052134811878204,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg"
+    },
+    {
+      "name": "03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg"
+    },
+    {
+      "name": "07_adolf-hitler-cropped-restored-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg"
+    },
+    {
+      "name": "08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg"
+    },
+    {
+      "name": "09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg"
+    },
+    {
+      "name": "12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg"
+    },
+    {
+      "name": "14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg"
+    },
+    {
+      "name": "15_adolf-hitler-berghof-1936-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "similarity": 0.5086082816123962
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg",
+      "similarity": 0.8496784567832947
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "similarity": -0.039190951734781265
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "similarity": -0.008241303265094757
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "similarity": 0.8325867652893066
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "similarity": 0.4036000669002533
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "similarity": -0.0388786680996418
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg",
+      "similarity": 0.6011481881141663
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg",
+      "similarity": 0.44446736574172974
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "similarity": -0.007357933092862368
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "similarity": 0.02166968397796154
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "similarity": 0.49103134870529175
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "similarity": 0.42906224727630615
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "similarity": -0.10437142103910446
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg",
+      "similarity": 0.6994739174842834
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "similarity": -0.004362337291240692
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "similarity": -0.007365220692008734
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "similarity": 0.8646019697189331
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "similarity": 0.3844798803329468
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "similarity": -0.08468703180551529
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/07_adolf-hitler-cropped-restored-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg",
+      "similarity": 0.5694180727005005
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "similarity": -0.017489982768893242
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "similarity": -0.007013590540736914
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "similarity": -0.013372143730521202
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "similarity": 0.004482925869524479
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg",
+      "similarity": -0.03634312003850937
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "similarity": -0.0013326025800779462
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "similarity": 0.022570697590708733
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "similarity": 0.01080621499568224
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg",
+      "similarity": 0.03914922475814819
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "similarity": 0.3781428635120392
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "similarity": -0.0757054015994072
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg",
+      "similarity": 0.5641999840736389
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "similarity": -0.07785288244485855
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg",
+      "similarity": 0.45951423048973083
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/adolf_hitler/images/14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/adolf_hitler/images/15_adolf-hitler-berghof-1936-jpg.jpg",
+      "similarity": -0.053052134811878204
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_adolf-hitler-cropped-restored-3x4-jpg.jpg",
+      "03_1938-portrait-photograph-of-adolf-hitler-jpg.jpg",
+      "07_adolf-hitler-cropped-restored-jpg.jpg",
+      "08_bundesarchiv-bild-183-h04560-sterreich-reichsautobahn-adolf-hitler-spatenstich-jpg.jpg",
+      "09_bundesarchiv-bild-183-1989-0322-506-adolf-hitler-kinderbild-retouched-jpg.jpg",
+      "12_adolf-hitler-cropped-restored-3x4-cropped-jpg.jpg",
+      "13_portrait-photo-of-adolf-hitler-jpg.jpg",
+      "14_bundesarchiv-bild-121-0723-marburg-drau-adolf-hitler-jpg.jpg",
+      "15_adolf-hitler-berghof-1936-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.5086082816123962,
+        0.8496784567832947,
+        -0.039190951734781265,
+        -0.008241303265094757,
+        0.8325867652893066,
+        0.4036000669002533,
+        -0.0388786680996418,
+        0.6011481881141663
+      ],
+      [
+        0.5086082816123962,
+        1.0,
+        0.44446736574172974,
+        -0.007357933092862368,
+        0.02166968397796154,
+        0.49103134870529175,
+        0.42906224727630615,
+        -0.10437142103910446,
+        0.6994739174842834
+      ],
+      [
+        0.8496784567832947,
+        0.44446736574172974,
+        0.9999998807907104,
+        -0.004362337291240692,
+        -0.007365220692008734,
+        0.8646019697189331,
+        0.3844798803329468,
+        -0.08468703180551529,
+        0.5694180727005005
+      ],
+      [
+        -0.039190951734781265,
+        -0.007357933092862368,
+        -0.004362337291240692,
+        1.0,
+        -0.017489982768893242,
+        -0.007013590540736914,
+        -0.013372143730521202,
+        0.004482925869524479,
+        -0.03634312003850937
+      ],
+      [
+        -0.008241303265094757,
+        0.02166968397796154,
+        -0.007365220692008734,
+        -0.017489982768893242,
+        1.0000001192092896,
+        -0.0013326025800779462,
+        0.022570697590708733,
+        0.01080621499568224,
+        0.03914922475814819
+      ],
+      [
+        0.8325867652893066,
+        0.49103134870529175,
+        0.8646019697189331,
+        -0.007013590540736914,
+        -0.0013326025800779462,
+        1.0,
+        0.3781428635120392,
+        -0.0757054015994072,
+        0.5641999840736389
+      ],
+      [
+        0.4036000669002533,
+        0.42906224727630615,
+        0.3844798803329468,
+        -0.013372143730521202,
+        0.022570697590708733,
+        0.3781428635120392,
+        1.0,
+        -0.07785288244485855,
+        0.45951423048973083
+      ],
+      [
+        -0.0388786680996418,
+        -0.10437142103910446,
+        -0.08468703180551529,
+        0.004482925869524479,
+        0.01080621499568224,
+        -0.0757054015994072,
+        -0.07785288244485855,
+        1.0,
+        -0.053052134811878204
+      ],
+      [
+        0.6011481881141663,
+        0.6994739174842834,
+        0.5694180727005005,
+        -0.03634312003850937,
+        0.03914922475814819,
+        0.5641999840736389,
+        0.45951423048973083,
+        -0.053052134811878204,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/adolf_hitler/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/adolf_hitler/images/02_adolf-hitler-1923-photograph-by-international-newsreel-photographs-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/adolf_hitler/images/02_adolf-hitler-1923-photograph-by-international-newsreel-photographs-jpg.jpg"
+    }
+  ]
+}

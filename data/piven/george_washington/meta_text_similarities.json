@@ -1,0 +1,76 @@
+{
+  "folder": "/workspace/input/piven/data/george_washington",
+  "meta_path": "/workspace/input/piven/data/george_washington/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "George Washington (February 22, 1732 [O.S. February 11, 1731] \u2013 December 14, 1799) was a Founding Father and the first president of the United States, serving from 1789 to 1797. As commander of the Continental Army, Washington led Patriot forces to victory in the American Revolutionary War against the British Empire. He is commonly known as the Father of His Country for his role in bringing about American independence.\nBorn in the Colony of Virginia, Washington became the commander of the Virginia Regiment during the French and Indian War (1754\u20131763). He was later elected to the Virginia House of Burgesses, and opposed the perceived oppression of the American colonists by the British Crown. When the American Revolutionary War against the British began in 1775, Washington was appointed commander-in-chief of the Continental Army. He directed a poorly organized and equipped force against disciplined British troops. Washington and his army achieved an early victory at the Siege of Boston in March 1776 but were forced to retreat from New York City in November. Washington crossed the Delaware River and won the battles of Trenton in late 1776 and of Princeton in early 1777, then lost the battles of Brandywine and of Germantown later that year. He faced criticism of his command, low troop morale, and a lack of provisions for his forces as the war continued. Ultimately Washington led a combined French and American force to a decisive victory over the British at Yorktown in 1781. In the resulting Treaty of Paris in 1783, the British acknowledged the sovereign independence of the United States. Washington then served as president of the Constitutional Convention in 1787, which drafted the current Constitution of the United States.\nWashington was unanimously elected the first U.S. president by the Electoral College in 1788 and 1792. He implemented a strong, well-financed national government while remaining impartial in the fierce rivalry that emerged within his cabinet between Thomas Jefferson and Alexander Hamilton. During the French Revolution, he proclaimed a policy of neutrality while supporting the Jay Treaty with Britain. Washington set enduring precedents for the office of president, including republicanism, a peaceful transfer of power, the use of the title \"Mr. President\", and the two-term tradition. His 1796 farewell address became a preeminent statement on republicanism: Washington wrote about the importance of national unity and the dangers that regionalism, partisanship, and foreign influence pose to it. As a planter of tobacco and wheat at Mount Vernon, Washington owned many slaves. He began opposing slavery near the end of his life, and provided in his will for the eventual manumission of his slaves.\nWashington's image is an icon of American culture and he has been extensively memorialized. His namesakes include the national capital and the State of Washington. In both popular and scholarly polls, he is consistently considered one of the greatest presidents in American history.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "rocks"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "city skyline"
+    },
+    {
+      "index": 1,
+      "element": "medal bar"
+    },
+    {
+      "index": 2,
+      "element": "campaign map"
+    },
+    {
+      "index": 3,
+      "element": "shield plate"
+    },
+    {
+      "index": 4,
+      "element": "command shadow"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "rocks"
+    ],
+    "values": [
+      [
+        -0.004626821726560593
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "city skyline",
+      "medal bar",
+      "campaign map",
+      "shield plate",
+      "command shadow"
+    ],
+    "column_labels": [
+      "rocks"
+    ],
+    "values": [
+      [
+        0.19549131393432617
+      ],
+      [
+        0.24203570187091827
+      ],
+      [
+        0.2591245770454407
+      ],
+      [
+        0.18893572688102722
+      ],
+      [
+        0.13149434328079224
+      ]
+    ]
+  }
+}

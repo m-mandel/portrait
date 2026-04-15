@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/robert_dole",
+  "meta_path": "/workspace/input/piven/data/robert_dole/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Robert Joseph  Dole (July 22, 1923 \u2013 December 5, 2021) was an American politician, attorney, and U.S. Army officer who represented Kansas in the United States Senate from 1969 to 1996. He was the Republican leader of the U.S. Senate during the final 11 years of his tenure, including three non-consecutive years as Majority Leader of the U.S. Senate. Prior to his 27 years in the Senate, he served in the United States House of Representatives from 1961 to 1969. Dole was also the Republican presidential nominee in the 1996 presidential election and the vice presidential nominee in the 1976 presidential election.\nDole was born and raised in Russell, Kansas, where he established a legal career after serving with distinction in the United States Army during World War II. Following a period as county attorney for Russell County, he won election to the House of Representatives in 1960. In 1968, Dole was elected to the Senate, where he served as chairman of the Republican National Committee from 1971 to 1973 and chairman of the United States Senate Committee on Finance from 1981 to 1985. He led the U.S. Senate Republican members from 1985 to his resignation in 1996, and served as Senate Majority Leader from 1985 to 1987 and from 1995 to 1996. In his role as Republican leader, he helped defeat the Clinton health care plan of 1993, proposed by Democratic president Bill Clinton.\nPresident Gerald Ford chose Dole as his running mate in the 1976 election after Vice President Nelson Rockefeller withdrew from seeking a full term. The Ford\u2013Dole ticket was defeated by the Democratic ticket of Jimmy Carter and Walter Mondale in the general election. Dole sought the Republican presidential nomination in 1980, but quickly dropped out of the race. He experienced more success in the 1988 Republican primaries but was defeated by Vice President George H. W. Bush. Dole won the Republican presidential nomination in 1996 and selected Jack Kemp as his running mate. The Republican ticket lost in the general election to Clinton. He resigned from the Senate during the 1996 campaign and did not seek public office again after the election.\nDole remained active after retiring from public office. His second wife Elizabeth served one term as U.S. Senator from North Carolina from 2003 to 2009. Dole appeared in numerous commercials and television programs and served on various councils, including the advisory council for the Victims of Communism Memorial Foundation and special counsel at the Washington, D.C., office of law firm Alston & Bird. In 2012, he unsuccessfully advocated Senate ratification of the Convention on the Rights of Persons with Disabilities. Dole was the only former Republican presidential nominee to endorse Donald Trump in the 2016 and 2020 presidential elections, though he initially supported Jeb Bush in the 2016 Republican Party presidential primaries. Dole was awarded the Congressional Gold Medal on January 17, 2018.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "rifle"
+    },
+    {
+      "index": 1,
+      "element": "american flag pins"
+    },
+    {
+      "index": 2,
+      "element": "lemon slice"
+    },
+    {
+      "index": 3,
+      "element": "cigarette"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "gavel block"
+    },
+    {
+      "index": 1,
+      "element": "scales emblem"
+    },
+    {
+      "index": 2,
+      "element": "podium block"
+    },
+    {
+      "index": 3,
+      "element": "medal bar"
+    },
+    {
+      "index": 4,
+      "element": "legal dossier"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "rifle",
+      "american flag pins",
+      "lemon slice",
+      "cigarette"
+    ],
+    "values": [
+      [
+        0.09300215542316437,
+        -0.008092320524156094,
+        0.0974322035908699,
+        -0.004505585879087448
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "gavel block",
+      "scales emblem",
+      "podium block",
+      "medal bar",
+      "legal dossier"
+    ],
+    "column_labels": [
+      "rifle",
+      "american flag pins",
+      "lemon slice",
+      "cigarette"
+    ],
+    "values": [
+      [
+        0.18311405181884766,
+        0.05149046331644058,
+        0.19137544929981232,
+        0.18931089341640472
+      ],
+      [
+        0.24373166263103485,
+        0.3638072907924652,
+        0.18454110622406006,
+        0.14414353668689728
+      ],
+      [
+        0.19091294705867767,
+        0.03870595991611481,
+        0.1953156739473343,
+        0.16943477094173431
+      ],
+      [
+        0.2649093270301819,
+        0.28614342212677,
+        0.2262447476387024,
+        0.14323905110359192
+      ],
+      [
+        0.15719574689865112,
+        -0.005412638187408447,
+        0.17575140297412872,
+        0.13431251049041748
+      ]
+    ]
+  }
+}

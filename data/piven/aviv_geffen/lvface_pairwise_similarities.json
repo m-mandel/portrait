@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/aviv_geffen",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/aviv_geffen/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_aviv-geffen-ag-jpg.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+        "similarity": -0.049852531403303146
+      },
+      {
+        "index": 1,
+        "name": "02_aviv-geffen-034-jpg.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+        "similarity": -0.03587910532951355
+      },
+      {
+        "index": 2,
+        "name": "03_aviv-geffen-1-jpg.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+        "similarity": -0.03075999580323696
+      },
+      {
+        "index": 3,
+        "name": "04_aviv-geffen.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+        "similarity": -0.0012727347202599049
+      },
+      {
+        "index": 4,
+        "name": "05_aviv-geffen.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+        "similarity": -0.053361501544713974
+      },
+      {
+        "index": 5,
+        "name": "06_aviv-geffen.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+        "similarity": -0.0282234326004982
+      },
+      {
+        "index": 6,
+        "name": "07_aviv-geffen.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+        "similarity": -0.0378870852291584
+      },
+      {
+        "index": 7,
+        "name": "08_aviv-geffen-2010-portrait-jpg.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+        "similarity": -0.03690851107239723
+      },
+      {
+        "index": 8,
+        "name": "12_aviv-geffen-039-jpg.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+        "similarity": -0.035553980618715286
+      },
+      {
+        "index": 9,
+        "name": "13_aviv-geffen-038-jpg.jpg",
+        "path": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+        "similarity": -0.04503495246171951
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.049852531403303146,
+          -0.03587910532951355,
+          -0.03075999580323696,
+          -0.0012727347202599049,
+          -0.053361501544713974,
+          -0.0282234326004982,
+          -0.0378870852291584,
+          -0.03690851107239723,
+          -0.035553980618715286,
+          -0.04503495246171951
+        ],
+        [
+          -0.049852531403303146,
+          1.0,
+          0.5218675136566162,
+          0.5391798615455627,
+          0.4519321024417877,
+          0.5388861894607544,
+          0.5029345750808716,
+          0.5514731407165527,
+          0.5249695777893066,
+          0.22894521057605743,
+          0.5167198777198792
+        ],
+        [
+          -0.03587910532951355,
+          0.5218675136566162,
+          0.9999999403953552,
+          0.3884616494178772,
+          0.31110966205596924,
+          0.37859204411506653,
+          0.4139087200164795,
+          0.39856261014938354,
+          0.402695894241333,
+          0.27047598361968994,
+          0.5211607813835144
+        ],
+        [
+          -0.03075999580323696,
+          0.5391798615455627,
+          0.3884616494178772,
+          1.0000001192092896,
+          0.4267843961715698,
+          0.502852737903595,
+          0.44406774640083313,
+          0.5218620300292969,
+          0.46166345477104187,
+          0.22784599661827087,
+          0.4090414047241211
+        ],
+        [
+          -0.0012727347202599049,
+          0.4519321024417877,
+          0.31110966205596924,
+          0.4267843961715698,
+          1.0,
+          0.5093637704849243,
+          0.45834237337112427,
+          0.4349096715450287,
+          0.4078529179096222,
+          0.16353444755077362,
+          0.33768126368522644
+        ],
+        [
+          -0.053361501544713974,
+          0.5388861894607544,
+          0.37859204411506653,
+          0.502852737903595,
+          0.5093637704849243,
+          1.0,
+          0.5865558385848999,
+          0.5858929753303528,
+          0.40549352765083313,
+          0.1723230481147766,
+          0.3528955578804016
+        ],
+        [
+          -0.0282234326004982,
+          0.5029345750808716,
+          0.4139087200164795,
+          0.44406774640083313,
+          0.45834237337112427,
+          0.5865558385848999,
+          1.0,
+          0.6634393334388733,
+          0.4333842992782593,
+          0.11628953367471695,
+          0.39097461104393005
+        ],
+        [
+          -0.0378870852291584,
+          0.5514731407165527,
+          0.39856261014938354,
+          0.5218620300292969,
+          0.4349096715450287,
+          0.5858929753303528,
+          0.6634393334388733,
+          1.0,
+          0.37793052196502686,
+          0.2031116485595703,
+          0.4036963880062103
+        ],
+        [
+          -0.03690851107239723,
+          0.5249695777893066,
+          0.402695894241333,
+          0.46166345477104187,
+          0.4078529179096222,
+          0.40549352765083313,
+          0.4333842992782593,
+          0.37793052196502686,
+          1.0,
+          0.23089008033275604,
+          0.40835410356521606
+        ],
+        [
+          -0.035553980618715286,
+          0.22894521057605743,
+          0.27047598361968994,
+          0.22784599661827087,
+          0.16353444755077362,
+          0.1723230481147766,
+          0.11628953367471695,
+          0.2031116485595703,
+          0.23089008033275604,
+          0.9999998807907104,
+          0.3682161569595337
+        ],
+        [
+          -0.04503495246171951,
+          0.5167198777198792,
+          0.5211607813835144,
+          0.4090414047241211,
+          0.33768126368522644,
+          0.3528955578804016,
+          0.39097461104393005,
+          0.4036963880062103,
+          0.40835410356521606,
+          0.3682161569595337,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_aviv-geffen-ag-jpg.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg"
+    },
+    {
+      "name": "02_aviv-geffen-034-jpg.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg"
+    },
+    {
+      "name": "03_aviv-geffen-1-jpg.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg"
+    },
+    {
+      "name": "04_aviv-geffen.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg"
+    },
+    {
+      "name": "05_aviv-geffen.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg"
+    },
+    {
+      "name": "06_aviv-geffen.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg"
+    },
+    {
+      "name": "07_aviv-geffen.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg"
+    },
+    {
+      "name": "08_aviv-geffen-2010-portrait-jpg.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg"
+    },
+    {
+      "name": "12_aviv-geffen-039-jpg.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg"
+    },
+    {
+      "name": "13_aviv-geffen-038-jpg.jpg",
+      "path": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+      "similarity": 0.5218675136566162
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+      "similarity": 0.5391798615455627
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+      "similarity": 0.4519321024417877
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+      "similarity": 0.5388861894607544
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+      "similarity": 0.5029345750808716
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+      "similarity": 0.5514731407165527
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+      "similarity": 0.5249695777893066
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+      "similarity": 0.22894521057605743
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/01_aviv-geffen-ag-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+      "similarity": 0.5167198777198792
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+      "similarity": 0.3884616494178772
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+      "similarity": 0.31110966205596924
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+      "similarity": 0.37859204411506653
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+      "similarity": 0.4139087200164795
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+      "similarity": 0.39856261014938354
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+      "similarity": 0.402695894241333
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+      "similarity": 0.27047598361968994
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/02_aviv-geffen-034-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+      "similarity": 0.5211607813835144
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+      "similarity": 0.4267843961715698
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+      "similarity": 0.502852737903595
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+      "similarity": 0.44406774640083313
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+      "similarity": 0.5218620300292969
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+      "similarity": 0.46166345477104187
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+      "similarity": 0.22784599661827087
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/03_aviv-geffen-1-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+      "similarity": 0.4090414047241211
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+      "similarity": 0.5093637704849243
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+      "similarity": 0.45834237337112427
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+      "similarity": 0.4349096715450287
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+      "similarity": 0.4078529179096222
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+      "similarity": 0.16353444755077362
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/04_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+      "similarity": 0.33768126368522644
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+      "similarity": 0.5865558385848999
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+      "similarity": 0.5858929753303528
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+      "similarity": 0.40549352765083313
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+      "similarity": 0.1723230481147766
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/05_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+      "similarity": 0.3528955578804016
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+      "similarity": 0.6634393334388733
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+      "similarity": 0.4333842992782593
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+      "similarity": 0.11628953367471695
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/06_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+      "similarity": 0.39097461104393005
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+      "similarity": 0.37793052196502686
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+      "similarity": 0.2031116485595703
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/07_aviv-geffen.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+      "similarity": 0.4036963880062103
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+      "similarity": 0.23089008033275604
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/08_aviv-geffen-2010-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+      "similarity": 0.40835410356521606
+    },
+    {
+      "left": "/workspace/input/piven/data/aviv_geffen/images/12_aviv-geffen-039-jpg.jpg",
+      "right": "/workspace/input/piven/data/aviv_geffen/images/13_aviv-geffen-038-jpg.jpg",
+      "similarity": 0.3682161569595337
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_aviv-geffen-ag-jpg.jpg",
+      "02_aviv-geffen-034-jpg.jpg",
+      "03_aviv-geffen-1-jpg.jpg",
+      "04_aviv-geffen.jpg",
+      "05_aviv-geffen.jpg",
+      "06_aviv-geffen.jpg",
+      "07_aviv-geffen.jpg",
+      "08_aviv-geffen-2010-portrait-jpg.jpg",
+      "12_aviv-geffen-039-jpg.jpg",
+      "13_aviv-geffen-038-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.5218675136566162,
+        0.5391798615455627,
+        0.4519321024417877,
+        0.5388861894607544,
+        0.5029345750808716,
+        0.5514731407165527,
+        0.5249695777893066,
+        0.22894521057605743,
+        0.5167198777198792
+      ],
+      [
+        0.5218675136566162,
+        0.9999999403953552,
+        0.3884616494178772,
+        0.31110966205596924,
+        0.37859204411506653,
+        0.4139087200164795,
+        0.39856261014938354,
+        0.402695894241333,
+        0.27047598361968994,
+        0.5211607813835144
+      ],
+      [
+        0.5391798615455627,
+        0.3884616494178772,
+        1.0000001192092896,
+        0.4267843961715698,
+        0.502852737903595,
+        0.44406774640083313,
+        0.5218620300292969,
+        0.46166345477104187,
+        0.22784599661827087,
+        0.4090414047241211
+      ],
+      [
+        0.4519321024417877,
+        0.31110966205596924,
+        0.4267843961715698,
+        1.0,
+        0.5093637704849243,
+        0.45834237337112427,
+        0.4349096715450287,
+        0.4078529179096222,
+        0.16353444755077362,
+        0.33768126368522644
+      ],
+      [
+        0.5388861894607544,
+        0.37859204411506653,
+        0.502852737903595,
+        0.5093637704849243,
+        1.0,
+        0.5865558385848999,
+        0.5858929753303528,
+        0.40549352765083313,
+        0.1723230481147766,
+        0.3528955578804016
+      ],
+      [
+        0.5029345750808716,
+        0.4139087200164795,
+        0.44406774640083313,
+        0.45834237337112427,
+        0.5865558385848999,
+        1.0,
+        0.6634393334388733,
+        0.4333842992782593,
+        0.11628953367471695,
+        0.39097461104393005
+      ],
+      [
+        0.5514731407165527,
+        0.39856261014938354,
+        0.5218620300292969,
+        0.4349096715450287,
+        0.5858929753303528,
+        0.6634393334388733,
+        1.0,
+        0.37793052196502686,
+        0.2031116485595703,
+        0.4036963880062103
+      ],
+      [
+        0.5249695777893066,
+        0.402695894241333,
+        0.46166345477104187,
+        0.4078529179096222,
+        0.40549352765083313,
+        0.4333842992782593,
+        0.37793052196502686,
+        1.0,
+        0.23089008033275604,
+        0.40835410356521606
+      ],
+      [
+        0.22894521057605743,
+        0.27047598361968994,
+        0.22784599661827087,
+        0.16353444755077362,
+        0.1723230481147766,
+        0.11628953367471695,
+        0.2031116485595703,
+        0.23089008033275604,
+        0.9999998807907104,
+        0.3682161569595337
+      ],
+      [
+        0.5167198777198792,
+        0.5211607813835144,
+        0.4090414047241211,
+        0.33768126368522644,
+        0.3528955578804016,
+        0.39097461104393005,
+        0.4036963880062103,
+        0.40835410356521606,
+        0.3682161569595337,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/aviv_geffen/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/aviv_geffen/portrait.jpg"
+    }
+  ]
+}

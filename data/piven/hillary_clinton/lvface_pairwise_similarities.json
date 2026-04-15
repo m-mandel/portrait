@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/hillary_clinton",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/hillary_clinton/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+        "similarity": 0.027379224076867104
+      },
+      {
+        "index": 1,
+        "name": "02_hillary-clinton-in-2021-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+        "similarity": 0.01869293674826622
+      },
+      {
+        "index": 2,
+        "name": "03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+        "similarity": 0.018163228407502174
+      },
+      {
+        "index": 3,
+        "name": "04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+        "similarity": 0.02379697747528553
+      },
+      {
+        "index": 4,
+        "name": "05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+        "similarity": 0.006815908942371607
+      },
+      {
+        "index": 5,
+        "name": "06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+        "similarity": 0.00949347298592329
+      },
+      {
+        "index": 6,
+        "name": "07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+        "similarity": 0.02965102717280388
+      },
+      {
+        "index": 7,
+        "name": "08_clinton-family-portrait.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+        "similarity": 0.11375127732753754
+      },
+      {
+        "index": 8,
+        "name": "09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+        "similarity": 0.008063407614827156
+      },
+      {
+        "index": 9,
+        "name": "10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+        "path": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+        "similarity": 0.01937938667833805
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.027379224076867104,
+          0.01869293674826622,
+          0.018163228407502174,
+          0.02379697747528553,
+          0.006815908942371607,
+          0.00949347298592329,
+          0.02965102717280388,
+          0.11375127732753754,
+          0.008063407614827156,
+          0.01937938667833805
+        ],
+        [
+          0.027379224076867104,
+          1.0000001192092896,
+          0.4272652566432953,
+          0.72624671459198,
+          0.5750399827957153,
+          0.39326873421669006,
+          0.4828493893146515,
+          0.43382489681243896,
+          0.3966978192329407,
+          0.34416186809539795,
+          0.502585768699646
+        ],
+        [
+          0.01869293674826622,
+          0.4272652566432953,
+          1.0,
+          0.459711492061615,
+          0.5474267601966858,
+          0.5111372470855713,
+          0.3813188076019287,
+          0.37092939019203186,
+          0.4790205955505371,
+          0.5191856026649475,
+          0.4039376378059387
+        ],
+        [
+          0.018163228407502174,
+          0.72624671459198,
+          0.459711492061615,
+          0.9999999403953552,
+          0.564340353012085,
+          0.3448171019554138,
+          0.40792983770370483,
+          0.42794594168663025,
+          0.4369770884513855,
+          0.4303538203239441,
+          0.38214001059532166
+        ],
+        [
+          0.02379697747528553,
+          0.5750399827957153,
+          0.5474267601966858,
+          0.564340353012085,
+          1.0000001192092896,
+          0.4554145038127899,
+          0.4641846716403961,
+          0.37447991967201233,
+          0.5306805372238159,
+          0.5561301112174988,
+          0.41875678300857544
+        ],
+        [
+          0.006815908942371607,
+          0.39326873421669006,
+          0.5111372470855713,
+          0.3448171019554138,
+          0.4554145038127899,
+          0.9999999403953552,
+          0.3974607586860657,
+          0.3876367211341858,
+          0.5409441590309143,
+          0.5688412189483643,
+          0.49370166659355164
+        ],
+        [
+          0.00949347298592329,
+          0.4828493893146515,
+          0.3813188076019287,
+          0.40792983770370483,
+          0.4641846716403961,
+          0.3974607586860657,
+          0.9999998807907104,
+          0.5711222290992737,
+          0.40467020869255066,
+          0.4965050220489502,
+          0.5367048382759094
+        ],
+        [
+          0.02965102717280388,
+          0.43382489681243896,
+          0.37092939019203186,
+          0.42794594168663025,
+          0.37447991967201233,
+          0.3876367211341858,
+          0.5711222290992737,
+          0.9999998807907104,
+          0.3906460404396057,
+          0.35644903779029846,
+          0.5181165337562561
+        ],
+        [
+          0.11375127732753754,
+          0.3966978192329407,
+          0.4790205955505371,
+          0.4369770884513855,
+          0.5306805372238159,
+          0.5409441590309143,
+          0.40467020869255066,
+          0.3906460404396057,
+          1.0,
+          0.48489809036254883,
+          0.3885084390640259
+        ],
+        [
+          0.008063407614827156,
+          0.34416186809539795,
+          0.5191856026649475,
+          0.4303538203239441,
+          0.5561301112174988,
+          0.5688412189483643,
+          0.4965050220489502,
+          0.35644903779029846,
+          0.48489809036254883,
+          1.0,
+          0.48669201135635376
+        ],
+        [
+          0.01937938667833805,
+          0.502585768699646,
+          0.4039376378059387,
+          0.38214001059532166,
+          0.41875678300857544,
+          0.49370166659355164,
+          0.5367048382759094,
+          0.5181165337562561,
+          0.3885084390640259,
+          0.48669201135635376,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg"
+    },
+    {
+      "name": "04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg"
+    },
+    {
+      "name": "05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg"
+    },
+    {
+      "name": "06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg"
+    },
+    {
+      "name": "07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg"
+    },
+    {
+      "name": "08_clinton-family-portrait.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg"
+    },
+    {
+      "name": "09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg"
+    },
+    {
+      "name": "10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "path": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "similarity": 0.4272652566432953
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "similarity": 0.72624671459198
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "similarity": 0.5750399827957153
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "similarity": 0.39326873421669006
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "similarity": 0.4828493893146515
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "similarity": 0.43382489681243896
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+      "similarity": 0.3966978192329407
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "similarity": 0.34416186809539795
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "similarity": 0.502585768699646
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "similarity": 0.459711492061615
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "similarity": 0.5474267601966858
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "similarity": 0.5111372470855713
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "similarity": 0.3813188076019287
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "similarity": 0.37092939019203186
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+      "similarity": 0.4790205955505371
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "similarity": 0.5191856026649475
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "similarity": 0.4039376378059387
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "similarity": 0.564340353012085
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "similarity": 0.3448171019554138
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "similarity": 0.40792983770370483
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "similarity": 0.42794594168663025
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+      "similarity": 0.4369770884513855
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "similarity": 0.4303538203239441
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "similarity": 0.38214001059532166
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "similarity": 0.4554145038127899
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "similarity": 0.4641846716403961
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "similarity": 0.37447991967201233
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+      "similarity": 0.5306805372238159
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "similarity": 0.5561301112174988
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "similarity": 0.41875678300857544
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "similarity": 0.3974607586860657
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "similarity": 0.3876367211341858
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+      "similarity": 0.5409441590309143
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "similarity": 0.5688412189483643
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "similarity": 0.49370166659355164
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "similarity": 0.5711222290992737
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+      "similarity": 0.40467020869255066
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "similarity": 0.4965050220489502
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "similarity": 0.5367048382759094
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+      "similarity": 0.3906460404396057
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "similarity": 0.35644903779029846
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "similarity": 0.5181165337562561
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "similarity": 0.48489809036254883
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/08_clinton-family-portrait.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "similarity": 0.3885084390640259
+    },
+    {
+      "left": "/workspace/input/piven/data/hillary_clinton/images/09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "right": "/workspace/input/piven/data/hillary_clinton/images/10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg",
+      "similarity": 0.48669201135635376
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_hillary-clinton-by-gage-skidmore-4-cropped-jpg.jpg",
+      "02_hillary-clinton-in-2021-cropped-jpg.jpg",
+      "03_hillary-clinton-by-gage-skidmore-2-jpg.jpg",
+      "04_file-hillary-clinton-official-secretary-of-state-portrait-crop-jpg.jpg",
+      "05_file-hillary-clinton-official-portrait-jpg-mock-elections-wiki.jpg",
+      "06_hillary-clinton-photographs-stories-behind-greatest-portraits.jpg",
+      "07_september-26-2023-hillary-clinton-s-official-portrait-is-unveiled-at.jpg",
+      "08_clinton-family-portrait.jpg",
+      "09_secretary-of-state-hillary-clinton-poses-for-a-portrait-shoot-in-2003.jpg",
+      "10_photographic-portrait-of-hillary-clinton-1947-american-politician.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.4272652566432953,
+        0.72624671459198,
+        0.5750399827957153,
+        0.39326873421669006,
+        0.4828493893146515,
+        0.43382489681243896,
+        0.3966978192329407,
+        0.34416186809539795,
+        0.502585768699646
+      ],
+      [
+        0.4272652566432953,
+        1.0,
+        0.459711492061615,
+        0.5474267601966858,
+        0.5111372470855713,
+        0.3813188076019287,
+        0.37092939019203186,
+        0.4790205955505371,
+        0.5191856026649475,
+        0.4039376378059387
+      ],
+      [
+        0.72624671459198,
+        0.459711492061615,
+        0.9999999403953552,
+        0.564340353012085,
+        0.3448171019554138,
+        0.40792983770370483,
+        0.42794594168663025,
+        0.4369770884513855,
+        0.4303538203239441,
+        0.38214001059532166
+      ],
+      [
+        0.5750399827957153,
+        0.5474267601966858,
+        0.564340353012085,
+        1.0000001192092896,
+        0.4554145038127899,
+        0.4641846716403961,
+        0.37447991967201233,
+        0.5306805372238159,
+        0.5561301112174988,
+        0.41875678300857544
+      ],
+      [
+        0.39326873421669006,
+        0.5111372470855713,
+        0.3448171019554138,
+        0.4554145038127899,
+        0.9999999403953552,
+        0.3974607586860657,
+        0.3876367211341858,
+        0.5409441590309143,
+        0.5688412189483643,
+        0.49370166659355164
+      ],
+      [
+        0.4828493893146515,
+        0.3813188076019287,
+        0.40792983770370483,
+        0.4641846716403961,
+        0.3974607586860657,
+        0.9999998807907104,
+        0.5711222290992737,
+        0.40467020869255066,
+        0.4965050220489502,
+        0.5367048382759094
+      ],
+      [
+        0.43382489681243896,
+        0.37092939019203186,
+        0.42794594168663025,
+        0.37447991967201233,
+        0.3876367211341858,
+        0.5711222290992737,
+        0.9999998807907104,
+        0.3906460404396057,
+        0.35644903779029846,
+        0.5181165337562561
+      ],
+      [
+        0.3966978192329407,
+        0.4790205955505371,
+        0.4369770884513855,
+        0.5306805372238159,
+        0.5409441590309143,
+        0.40467020869255066,
+        0.3906460404396057,
+        1.0,
+        0.48489809036254883,
+        0.3885084390640259
+      ],
+      [
+        0.34416186809539795,
+        0.5191856026649475,
+        0.4303538203239441,
+        0.5561301112174988,
+        0.5688412189483643,
+        0.4965050220489502,
+        0.35644903779029846,
+        0.48489809036254883,
+        1.0,
+        0.48669201135635376
+      ],
+      [
+        0.502585768699646,
+        0.4039376378059387,
+        0.38214001059532166,
+        0.41875678300857544,
+        0.49370166659355164,
+        0.5367048382759094,
+        0.5181165337562561,
+        0.3885084390640259,
+        0.48669201135635376,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/hillary_clinton/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/hillary_clinton/portrait.jpg"
+    }
+  ]
+}

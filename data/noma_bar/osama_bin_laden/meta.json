@@ -1,0 +1,80 @@
+{
+  "name": "osama bin laden",
+  "bio": "Osama bin Muhammad bin 'Awad bin Laden (10 March 1957 – 2 May 2011) was the founder and first general emir of al-Qaeda from 1988 until his death in 2011. A pan-Islamist and Islamic extremist, bin Laden organized and funded numerous jihadist or anti-Western militants and terrorist attacks worldwide. Al-Qaeda's September 11 attacks in 2001 against the United States directly killed 2,977 victims, and began America's global war on terror.   \nBin Laden was raised into Sunni Islam by his wealthy family in Saudi Arabia. He left the country to help the Afghan mujahideen fight the Soviet Union in the Soviet–Afghan War (1979–1989), and in 1984, he co-founded Maktab al-Khidamat, which recruited foreigners into the mujahideen. In 1988, bin Laden founded al-Qaeda to enact violent jihad worldwide. When the Soviets withdrew from Afghanistan in 1989, he returned to Saudi Arabia. His public beliefs led to his 1991 expulsion from the country, upon which he moved with al-Qaeda to Sudan. Bin Laden helped start the Algerian Civil War (1992–2002), in which he aided the GSPC, and he also aided the Bosnian mujahideen in the Bosnian War (1992–1995). Sudan expelled him in 1996, and he moved with al-Qaeda to Afghanistan, soon governed by the Taliban. Bin Laden declared two fatāwā in August 1996 and February 1998, declaring holy war against the U.S. After the 1998 U.S. embassy bombings in East Africa, he was indicted by a U.S. district court and listed on the FBI's Most Wanted Terrorists and Most Wanted Fugitives lists. In October 1999, the United Nations designated al-Qaeda as a terrorist organization.   \nAlong with Khalid Sheikh Mohammed, bin Laden organized the September 11 attacks, which killed nearly 3,000 people. This resulted in the U.S. invading Afghanistan and launching the war on terror. Bin Laden became the subject of a nearly decade-long international manhunt led by the U.S. During this period, he hid in the mountains of Afghanistan and later escaped to neighboring Pakistan.  Al-Qaeda continued enacting major terrorist attacks, such as in Indonesia in 2002, Turkey in 2003, England in 2005, and Jordan in 2005. On 2 May 2011, Bin Laden was killed by U.S. special operations forces at his compound in Abbottabad. His corpse was buried in the Arabian Sea and he was succeeded by his deputy Ayman al-Zawahiri on 16 June 2011. Polls show that Muslims at large have a negative view of bin Laden, although many Islamists consider him to be heroic. Elsewhere, he is overwhelmingly seen as a symbol of terrorism and mass murder.",
+  "bio_sources": [
+    {
+      "subject": "osama bin laden",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Osama_bin_Laden"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "blue sky field with green ground",
+      "shape_type": "geometric field",
+      "meaning": "locates the portrait in a stark geopolitical scene"
+    },
+    {
+      "element": "white crescent-like head and turban shape",
+      "shape_type": "crescent",
+      "meaning": "marks religious and ideological iconography"
+    },
+    {
+      "element": "black twin tower blocks",
+      "shape_type": "rectangle",
+      "meaning": "reference the attack most associated with him"
+    },
+    {
+      "element": "red explosion burst",
+      "shape_type": "starburst",
+      "meaning": "signifies violence and destruction"
+    },
+    {
+      "element": "two airplane silhouettes",
+      "shape_type": "symbol",
+      "meaning": "point to coordinated attacks"
+    },
+    {
+      "element": "blue face shadow",
+      "shape_type": "organic shape",
+      "meaning": "fuses the head ominously into the scene"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "gavel block",
+      "visual_representation": "a small hammer-like form resting on a square base",
+      "category": "object",
+      "relevance": "Judicial decision-making is strongly associated with the legal world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "scales emblem",
+      "visual_representation": "a balanced two-pan scale reduced to a simple icon",
+      "category": "symbol",
+      "relevance": "Law and judgment are central to the subject’s professional domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "legal dossier",
+      "visual_representation": "stacked paper files tied with a band",
+      "category": "object",
+      "relevance": "Legal practice and casework belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "bench papers",
+      "visual_representation": "neatly stacked pages arranged in a formal bundle",
+      "category": "object",
+      "relevance": "Legal drafting and written argument are associated with the subject’s professional world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "warning ring",
+      "visual_representation": "a hard circular warning sign with sharp internal divisions",
+      "category": "symbol",
+      "relevance": "Violence, threat, or criminal notoriety belong to the subject’s public world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

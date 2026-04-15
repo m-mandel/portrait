@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/jeremy_clarkson",
+  "meta_path": "/workspace/input/noma_bar/data/jeremy_clarkson/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Jeremy Charles Robert Clarkson is an English television presenter, journalist, farmer, and author who specialises in motoring. He is best known for hosting the motoring television programmes Top Gear and The Grand Tour alongside Richard Hammond and James May. He also currently writes weekly columns for The Sunday Times and The Sun. Clarkson hosts the ITV game show Who Wants to Be a Millionaire?, and stars in the farming documentary show Clarkson's Farm. From a career as a local journalist in northern England, Clarkson rose to public prominence as a presenter of the original format of Top Gear in 1988. Since the mid-1990s, he has become a recognised public personality, regularly appearing on British television presenting his own shows for the BBC and appearing as a guest on other shows. As well as motoring, Clarkson has produced programmes on subjects such as history and engineering; he has also written numerous books, primarily on cars.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "gray background field"
+    },
+    {
+      "index": 1,
+      "element": "diagonal black road with yellow lane markings"
+    },
+    {
+      "index": 2,
+      "element": "clustered tire-like circles in the hair"
+    },
+    {
+      "index": 3,
+      "element": "gearshift diagram across the face"
+    },
+    {
+      "index": 4,
+      "element": "yellow face silhouette"
+    },
+    {
+      "index": 5,
+      "element": "black field behind the head"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "book stack"
+    },
+    {
+      "index": 1,
+      "element": "speedometer dial"
+    },
+    {
+      "index": 2,
+      "element": "studio microphone"
+    },
+    {
+      "index": 3,
+      "element": "screen frame"
+    },
+    {
+      "index": 4,
+      "element": "control panel"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "gray background field",
+      "diagonal black road with yellow lane markings",
+      "clustered tire-like circles in the hair",
+      "gearshift diagram across the face",
+      "yellow face silhouette",
+      "black field behind the head"
+    ],
+    "values": [
+      [
+        0.03120771050453186,
+        -0.03117777779698372,
+        -0.06609690189361572,
+        0.21954283118247986,
+        0.022912098094820976,
+        -0.0056117624044418335
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "book stack",
+      "speedometer dial",
+      "studio microphone",
+      "screen frame",
+      "control panel"
+    ],
+    "column_labels": [
+      "gray background field",
+      "diagonal black road with yellow lane markings",
+      "clustered tire-like circles in the hair",
+      "gearshift diagram across the face",
+      "yellow face silhouette",
+      "black field behind the head"
+    ],
+    "values": [
+      [
+        0.03903803601861,
+        0.07221784442663193,
+        0.08100433647632599,
+        0.006846846081316471,
+        0.026459356769919395,
+        0.06662251055240631
+      ],
+      [
+        0.08043204993009567,
+        0.12094931304454803,
+        0.0007483474910259247,
+        0.27833789587020874,
+        0.04642694815993309,
+        0.0740031898021698
+      ],
+      [
+        0.1311720311641693,
+        0.007338151801377535,
+        -0.053394198417663574,
+        0.13364018499851227,
+        0.09668238461017609,
+        0.14730232954025269
+      ],
+      [
+        0.36058664321899414,
+        0.09741926193237305,
+        -0.003660133108496666,
+        0.1668557971715927,
+        0.284607470035553,
+        0.21136704087257385
+      ],
+      [
+        0.2666008472442627,
+        0.09217187762260437,
+        -0.028838608413934708,
+        0.11280682682991028,
+        0.20155265927314758,
+        0.14029783010482788
+      ]
+    ]
+  }
+}

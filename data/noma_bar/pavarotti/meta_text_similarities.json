@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/pavarotti",
+  "meta_path": "/workspace/input/noma_bar/data/pavarotti/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Luciano Pavarotti (12 October 1935 \u2013 6 September 2007) was an Italian operatic tenor who during the late part of his career crossed over into popular music, eventually becoming one of the most acclaimed tenors of all time. He made numerous recordings of complete operas and individual arias, gaining worldwide fame for his tone and the nickname \"King of the High Cs\".\nAs one of the Three Tenors, who performed their first concert during the 1990 FIFA World Cup before a global audience, Pavarotti became well known for his televised concerts and media appearances. From the beginning of his professional career as a tenor in 1961 in Italy to his final performance of \"Nessun dorma\" at the 2006 Winter Olympics in Turin, Pavarotti was at his best in bel canto operas, pre-Aida Verdi roles, and Puccini works such as La boh\u00e8me, Tosca, Turandot and Madama Butterfly. He sold more than 100 million records, and the first Three Tenors recording became the best-selling classical album of all time. Pavarotti was also noted for his charity work on behalf of refugees and the Red Cross, amongst others. He was appointed a Knight Grand Cross of the Order of Merit of the Italian Republic in 1988, and died from pancreatic cancer on 6 September 2007.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "sky-blue background field"
+    },
+    {
+      "index": 1,
+      "element": "enormous black balloon-like oval"
+    },
+    {
+      "index": 2,
+      "element": "tiny singer face at the bottom"
+    },
+    {
+      "index": 3,
+      "element": "white triangular collar"
+    },
+    {
+      "index": 4,
+      "element": "long hanging string line"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 1,
+      "element": "vinyl record"
+    },
+    {
+      "index": 2,
+      "element": "stage lights"
+    },
+    {
+      "index": 3,
+      "element": "soundwave ribbon"
+    },
+    {
+      "index": 4,
+      "element": "football"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "sky-blue background field",
+      "enormous black balloon-like oval",
+      "tiny singer face at the bottom",
+      "white triangular collar",
+      "long hanging string line"
+    ],
+    "values": [
+      [
+        -0.0515703484416008,
+        0.03829257935285568,
+        0.19996261596679688,
+        -0.025411877781152725,
+        -0.0472889244556427
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights",
+      "soundwave ribbon",
+      "football"
+    ],
+    "column_labels": [
+      "sky-blue background field",
+      "enormous black balloon-like oval",
+      "tiny singer face at the bottom",
+      "white triangular collar",
+      "long hanging string line"
+    ],
+    "values": [
+      [
+        0.3211389183998108,
+        0.12966379523277283,
+        0.4363492727279663,
+        0.1538824737071991,
+        0.06444510072469711
+      ],
+      [
+        0.05440228059887886,
+        0.00034925155341625214,
+        0.22286614775657654,
+        0.02975483052432537,
+        0.09844270348548889
+      ],
+      [
+        0.22854530811309814,
+        0.20321902632713318,
+        0.10336345434188843,
+        0.11871515214443207,
+        0.061222560703754425
+      ],
+      [
+        0.13770779967308044,
+        0.05301852524280548,
+        0.2151322364807129,
+        0.1186920776963234,
+        0.1557827591896057
+      ],
+      [
+        0.1409485638141632,
+        0.13616731762886047,
+        0.06198738142848015,
+        0.15935686230659485,
+        0.07221939414739609
+      ]
+    ]
+  }
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/tom_ford",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/tom_ford/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_tom-ford-cropped-2009-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+        "similarity": -0.044722653925418854
+      },
+      {
+        "index": 1,
+        "name": "02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+        "similarity": -0.01819990575313568
+      },
+      {
+        "index": 2,
+        "name": "03_tom-ford-phc-2015-1-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+        "similarity": 0.07272843271493912
+      },
+      {
+        "index": 3,
+        "name": "07_tom-ford-phc-2016-1-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+        "similarity": 0.10662318766117096
+      },
+      {
+        "index": 4,
+        "name": "08_tom-ford-phc-2015-4-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+        "similarity": 0.07715621590614319
+      },
+      {
+        "index": 5,
+        "name": "09_tom-ford-phc-2014-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+        "similarity": 0.01016706321388483
+      },
+      {
+        "index": 6,
+        "name": "13_tom-ford-phc-2014-1-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+        "similarity": 0.010210196487605572
+      },
+      {
+        "index": 7,
+        "name": "14_tom-ford-phc-2015-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+        "similarity": 0.060997374355793
+      },
+      {
+        "index": 8,
+        "name": "15_tom-ford-phc-2015-3-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+        "similarity": -0.005450379103422165
+      },
+      {
+        "index": 9,
+        "name": "16_tom-ford-phc-2016-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+        "similarity": 0.0285057183355093
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.044722653925418854,
+          -0.01819990575313568,
+          0.07272843271493912,
+          0.10662318766117096,
+          0.07715621590614319,
+          0.01016706321388483,
+          0.010210196487605572,
+          0.060997374355793,
+          -0.005450379103422165,
+          0.0285057183355093
+        ],
+        [
+          -0.044722653925418854,
+          0.9999999403953552,
+          0.5060985684394836,
+          -0.03318304196000099,
+          -0.0748252421617508,
+          -0.007942751981317997,
+          -0.04796295613050461,
+          -0.038950782269239426,
+          -0.06671786308288574,
+          -0.009556534700095654,
+          0.026139484718441963
+        ],
+        [
+          -0.01819990575313568,
+          0.5060985684394836,
+          1.0,
+          -0.11622435599565506,
+          -0.011271302588284016,
+          -0.07456666231155396,
+          -0.0943034216761589,
+          -0.14778733253479004,
+          0.028259988874197006,
+          0.009794930927455425,
+          0.009494674392044544
+        ],
+        [
+          0.07272843271493912,
+          -0.03318304196000099,
+          -0.11622435599565506,
+          1.0,
+          0.4272434711456299,
+          0.8218330144882202,
+          0.3476840555667877,
+          0.4729989767074585,
+          0.45317813754081726,
+          0.42163580656051636,
+          0.38144510984420776
+        ],
+        [
+          0.10662318766117096,
+          -0.0748252421617508,
+          -0.011271302588284016,
+          0.4272434711456299,
+          1.0000001192092896,
+          0.5022046566009521,
+          0.29059934616088867,
+          0.3699216842651367,
+          0.45031610131263733,
+          0.43518152832984924,
+          0.6696557402610779
+        ],
+        [
+          0.07715621590614319,
+          -0.007942751981317997,
+          -0.07456666231155396,
+          0.8218330144882202,
+          0.5022046566009521,
+          0.9999999403953552,
+          0.3295600712299347,
+          0.436958909034729,
+          0.4556361734867096,
+          0.404358834028244,
+          0.4864368140697479
+        ],
+        [
+          0.01016706321388483,
+          -0.04796295613050461,
+          -0.0943034216761589,
+          0.3476840555667877,
+          0.29059934616088867,
+          0.3295600712299347,
+          0.9999999403953552,
+          0.6672508716583252,
+          0.3508964478969574,
+          0.35927504301071167,
+          0.29118531942367554
+        ],
+        [
+          0.010210196487605572,
+          -0.038950782269239426,
+          -0.14778733253479004,
+          0.4729989767074585,
+          0.3699216842651367,
+          0.436958909034729,
+          0.6672508716583252,
+          1.0000001192092896,
+          0.33469605445861816,
+          0.39985767006874084,
+          0.32838010787963867
+        ],
+        [
+          0.060997374355793,
+          -0.06671786308288574,
+          0.028259988874197006,
+          0.45317813754081726,
+          0.45031610131263733,
+          0.4556361734867096,
+          0.3508964478969574,
+          0.33469605445861816,
+          1.0000001192092896,
+          0.3395529091358185,
+          0.5740760564804077
+        ],
+        [
+          -0.005450379103422165,
+          -0.009556534700095654,
+          0.009794930927455425,
+          0.42163580656051636,
+          0.43518152832984924,
+          0.404358834028244,
+          0.35927504301071167,
+          0.39985767006874084,
+          0.3395529091358185,
+          1.0000001192092896,
+          0.528458297252655
+        ],
+        [
+          0.0285057183355093,
+          0.026139484718441963,
+          0.009494674392044544,
+          0.38144510984420776,
+          0.6696557402610779,
+          0.4864368140697479,
+          0.29118531942367554,
+          0.32838010787963867,
+          0.5740760564804077,
+          0.528458297252655,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_tom-ford-cropped-2009-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg"
+    },
+    {
+      "name": "02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg"
+    },
+    {
+      "name": "03_tom-ford-phc-2015-1-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg"
+    },
+    {
+      "name": "07_tom-ford-phc-2016-1-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg"
+    },
+    {
+      "name": "08_tom-ford-phc-2015-4-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg"
+    },
+    {
+      "name": "09_tom-ford-phc-2014-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg"
+    },
+    {
+      "name": "13_tom-ford-phc-2014-1-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg"
+    },
+    {
+      "name": "14_tom-ford-phc-2015-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg"
+    },
+    {
+      "name": "15_tom-ford-phc-2015-3-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg"
+    },
+    {
+      "name": "16_tom-ford-phc-2016-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "similarity": 0.5060985684394836
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+      "similarity": -0.03318304196000099
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+      "similarity": -0.0748252421617508
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+      "similarity": -0.007942751981317997
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+      "similarity": -0.04796295613050461
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+      "similarity": -0.038950782269239426
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+      "similarity": -0.06671786308288574
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+      "similarity": -0.009556534700095654
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/01_tom-ford-cropped-2009-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+      "similarity": 0.026139484718441963
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+      "similarity": -0.11622435599565506
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+      "similarity": -0.011271302588284016
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+      "similarity": -0.07456666231155396
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+      "similarity": -0.0943034216761589
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+      "similarity": -0.14778733253479004
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+      "similarity": 0.028259988874197006
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+      "similarity": 0.009794930927455425
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+      "similarity": 0.009494674392044544
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+      "similarity": 0.4272434711456299
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+      "similarity": 0.8218330144882202
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+      "similarity": 0.3476840555667877
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+      "similarity": 0.4729989767074585
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+      "similarity": 0.45317813754081726
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+      "similarity": 0.42163580656051636
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/03_tom-ford-phc-2015-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+      "similarity": 0.38144510984420776
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+      "similarity": 0.5022046566009521
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+      "similarity": 0.29059934616088867
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+      "similarity": 0.3699216842651367
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+      "similarity": 0.45031610131263733
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+      "similarity": 0.43518152832984924
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/07_tom-ford-phc-2016-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+      "similarity": 0.6696557402610779
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+      "similarity": 0.3295600712299347
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+      "similarity": 0.436958909034729
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+      "similarity": 0.4556361734867096
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+      "similarity": 0.404358834028244
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/08_tom-ford-phc-2015-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+      "similarity": 0.4864368140697479
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+      "similarity": 0.6672508716583252
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+      "similarity": 0.3508964478969574
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+      "similarity": 0.35927504301071167
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/09_tom-ford-phc-2014-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+      "similarity": 0.29118531942367554
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+      "similarity": 0.33469605445861816
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+      "similarity": 0.39985767006874084
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/13_tom-ford-phc-2014-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+      "similarity": 0.32838010787963867
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+      "similarity": 0.3395529091358185
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/14_tom-ford-phc-2015-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+      "similarity": 0.5740760564804077
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/tom_ford/images/15_tom-ford-phc-2015-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/tom_ford/images/16_tom-ford-phc-2016-2-jpg.jpg",
+      "similarity": 0.528458297252655
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_tom-ford-cropped-2009-jpg.jpg",
+      "02_tom-ford-66-me-festival-de-venise-mostra-jpg.jpg",
+      "03_tom-ford-phc-2015-1-jpg.jpg",
+      "07_tom-ford-phc-2016-1-jpg.jpg",
+      "08_tom-ford-phc-2015-4-jpg.jpg",
+      "09_tom-ford-phc-2014-2-jpg.jpg",
+      "13_tom-ford-phc-2014-1-jpg.jpg",
+      "14_tom-ford-phc-2015-2-jpg.jpg",
+      "15_tom-ford-phc-2015-3-jpg.jpg",
+      "16_tom-ford-phc-2016-2-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.5060985684394836,
+        -0.03318304196000099,
+        -0.0748252421617508,
+        -0.007942751981317997,
+        -0.04796295613050461,
+        -0.038950782269239426,
+        -0.06671786308288574,
+        -0.009556534700095654,
+        0.026139484718441963
+      ],
+      [
+        0.5060985684394836,
+        1.0,
+        -0.11622435599565506,
+        -0.011271302588284016,
+        -0.07456666231155396,
+        -0.0943034216761589,
+        -0.14778733253479004,
+        0.028259988874197006,
+        0.009794930927455425,
+        0.009494674392044544
+      ],
+      [
+        -0.03318304196000099,
+        -0.11622435599565506,
+        1.0,
+        0.4272434711456299,
+        0.8218330144882202,
+        0.3476840555667877,
+        0.4729989767074585,
+        0.45317813754081726,
+        0.42163580656051636,
+        0.38144510984420776
+      ],
+      [
+        -0.0748252421617508,
+        -0.011271302588284016,
+        0.4272434711456299,
+        1.0000001192092896,
+        0.5022046566009521,
+        0.29059934616088867,
+        0.3699216842651367,
+        0.45031610131263733,
+        0.43518152832984924,
+        0.6696557402610779
+      ],
+      [
+        -0.007942751981317997,
+        -0.07456666231155396,
+        0.8218330144882202,
+        0.5022046566009521,
+        0.9999999403953552,
+        0.3295600712299347,
+        0.436958909034729,
+        0.4556361734867096,
+        0.404358834028244,
+        0.4864368140697479
+      ],
+      [
+        -0.04796295613050461,
+        -0.0943034216761589,
+        0.3476840555667877,
+        0.29059934616088867,
+        0.3295600712299347,
+        0.9999999403953552,
+        0.6672508716583252,
+        0.3508964478969574,
+        0.35927504301071167,
+        0.29118531942367554
+      ],
+      [
+        -0.038950782269239426,
+        -0.14778733253479004,
+        0.4729989767074585,
+        0.3699216842651367,
+        0.436958909034729,
+        0.6672508716583252,
+        1.0000001192092896,
+        0.33469605445861816,
+        0.39985767006874084,
+        0.32838010787963867
+      ],
+      [
+        -0.06671786308288574,
+        0.028259988874197006,
+        0.45317813754081726,
+        0.45031610131263733,
+        0.4556361734867096,
+        0.3508964478969574,
+        0.33469605445861816,
+        1.0000001192092896,
+        0.3395529091358185,
+        0.5740760564804077
+      ],
+      [
+        -0.009556534700095654,
+        0.009794930927455425,
+        0.42163580656051636,
+        0.43518152832984924,
+        0.404358834028244,
+        0.35927504301071167,
+        0.39985767006874084,
+        0.3395529091358185,
+        1.0000001192092896,
+        0.528458297252655
+      ],
+      [
+        0.026139484718441963,
+        0.009494674392044544,
+        0.38144510984420776,
+        0.6696557402610779,
+        0.4864368140697479,
+        0.29118531942367554,
+        0.32838010787963867,
+        0.5740760564804077,
+        0.528458297252655,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/tom_ford/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/tom_ford/portrait.jpg"
+    }
+  ]
+}

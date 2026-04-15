@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/ross_perot",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/ross_perot/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+        "similarity": 0.023918917402625084
+      },
+      {
+        "index": 1,
+        "name": "02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+        "similarity": 0.03738444298505783
+      },
+      {
+        "index": 2,
+        "name": "03_ross-perot-jpg.jpg",
+        "path": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+        "similarity": 0.023524105548858643
+      },
+      {
+        "index": 3,
+        "name": "04_gallery-ross-perot.jpg",
+        "path": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+        "similarity": -0.04177548363804817
+      },
+      {
+        "index": 4,
+        "name": "05_ross-perot-wikipedia.jpg",
+        "path": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+        "similarity": 0.05271501839160919
+      },
+      {
+        "index": 5,
+        "name": "06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+        "path": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+        "similarity": 0.020583195611834526
+      },
+      {
+        "index": 6,
+        "name": "07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+        "path": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+        "similarity": 0.0530727319419384
+      },
+      {
+        "index": 7,
+        "name": "08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+        "path": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+        "similarity": -0.025050345808267593
+      },
+      {
+        "index": 8,
+        "name": "09_ross-perot-1992-victory-alternative-history-fandom.webp",
+        "path": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+        "similarity": 0.04104646295309067
+      },
+      {
+        "index": 9,
+        "name": "10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+        "path": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+        "similarity": -0.022700639441609383
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.023918917402625084,
+          0.03738444298505783,
+          0.023524105548858643,
+          -0.04177548363804817,
+          0.05271501839160919,
+          0.020583195611834526,
+          0.0530727319419384,
+          -0.025050345808267593,
+          0.04104646295309067,
+          -0.022700639441609383
+        ],
+        [
+          0.023918917402625084,
+          1.0,
+          0.460060715675354,
+          0.4054555892944336,
+          0.3851639926433563,
+          0.6090754866600037,
+          0.5411726832389832,
+          0.49673476815223694,
+          0.3844839632511139,
+          0.8260504007339478,
+          0.00011235188867431134
+        ],
+        [
+          0.03738444298505783,
+          0.460060715675354,
+          1.0,
+          0.33301255106925964,
+          0.3522919714450836,
+          0.4766058623790741,
+          0.5802938342094421,
+          0.55618816614151,
+          0.29772356152534485,
+          0.4964824914932251,
+          -0.023777339607477188
+        ],
+        [
+          0.023524105548858643,
+          0.4054555892944336,
+          0.33301255106925964,
+          1.0,
+          0.5242819786071777,
+          0.4566456973552704,
+          0.4208666980266571,
+          0.4101700782775879,
+          0.43071046471595764,
+          0.3890029191970825,
+          0.14828339219093323
+        ],
+        [
+          -0.04177548363804817,
+          0.3851639926433563,
+          0.3522919714450836,
+          0.5242819786071777,
+          1.0,
+          0.399983286857605,
+          0.39450034499168396,
+          0.4109537899494171,
+          0.39125245809555054,
+          0.362837553024292,
+          0.07592204213142395
+        ],
+        [
+          0.05271501839160919,
+          0.6090754866600037,
+          0.4766058623790741,
+          0.4566456973552704,
+          0.399983286857605,
+          1.0,
+          0.539778470993042,
+          0.4635987877845764,
+          0.3180622160434723,
+          0.5930147171020508,
+          0.028768306598067284
+        ],
+        [
+          0.020583195611834526,
+          0.5411726832389832,
+          0.5802938342094421,
+          0.4208666980266571,
+          0.39450034499168396,
+          0.539778470993042,
+          1.0,
+          0.6122989654541016,
+          0.36175402998924255,
+          0.5511743426322937,
+          0.041654072701931
+        ],
+        [
+          0.0530727319419384,
+          0.49673476815223694,
+          0.55618816614151,
+          0.4101700782775879,
+          0.4109537899494171,
+          0.4635987877845764,
+          0.6122989654541016,
+          1.0,
+          0.3923631012439728,
+          0.4058821499347687,
+          0.04222210869193077
+        ],
+        [
+          -0.025050345808267593,
+          0.3844839632511139,
+          0.29772356152534485,
+          0.43071046471595764,
+          0.39125245809555054,
+          0.3180622160434723,
+          0.36175402998924255,
+          0.3923631012439728,
+          1.0,
+          0.31885120272636414,
+          0.061534177511930466
+        ],
+        [
+          0.04104646295309067,
+          0.8260504007339478,
+          0.4964824914932251,
+          0.3890029191970825,
+          0.362837553024292,
+          0.5930147171020508,
+          0.5511743426322937,
+          0.4058821499347687,
+          0.31885120272636414,
+          1.0,
+          0.011334149166941643
+        ],
+        [
+          -0.022700639441609383,
+          0.00011235188867431134,
+          -0.023777339607477188,
+          0.14828339219093323,
+          0.07592204213142395,
+          0.028768306598067284,
+          0.041654072701931,
+          0.04222210869193077,
+          0.061534177511930466,
+          0.011334149166941643,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_ross-perot-jpg.jpg",
+      "path": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg"
+    },
+    {
+      "name": "04_gallery-ross-perot.jpg",
+      "path": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg"
+    },
+    {
+      "name": "05_ross-perot-wikipedia.jpg",
+      "path": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg"
+    },
+    {
+      "name": "06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "path": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg"
+    },
+    {
+      "name": "07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "path": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg"
+    },
+    {
+      "name": "08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "path": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg"
+    },
+    {
+      "name": "09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "path": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp"
+    },
+    {
+      "name": "10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "path": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "similarity": 0.460060715675354
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+      "similarity": 0.4054555892944336
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+      "similarity": 0.3851639926433563
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+      "similarity": 0.6090754866600037
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "similarity": 0.5411726832389832
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "similarity": 0.49673476815223694
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "similarity": 0.3844839632511139
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "similarity": 0.8260504007339478
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "similarity": 0.00011235188867431134
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+      "similarity": 0.33301255106925964
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+      "similarity": 0.3522919714450836
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+      "similarity": 0.4766058623790741
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "similarity": 0.5802938342094421
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "similarity": 0.55618816614151
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "similarity": 0.29772356152534485
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "similarity": 0.4964824914932251
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "similarity": -0.023777339607477188
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+      "similarity": 0.5242819786071777
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+      "similarity": 0.4566456973552704
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "similarity": 0.4208666980266571
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "similarity": 0.4101700782775879
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "similarity": 0.43071046471595764
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "similarity": 0.3890029191970825
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/03_ross-perot-jpg.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "similarity": 0.14828339219093323
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+      "similarity": 0.399983286857605
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "similarity": 0.39450034499168396
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "similarity": 0.4109537899494171
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "similarity": 0.39125245809555054
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "similarity": 0.362837553024292
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/04_gallery-ross-perot.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "similarity": 0.07592204213142395
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "similarity": 0.539778470993042
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "similarity": 0.4635987877845764
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "similarity": 0.3180622160434723
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "similarity": 0.5930147171020508
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/05_ross-perot-wikipedia.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "similarity": 0.028768306598067284
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "similarity": 0.6122989654541016
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "similarity": 0.36175402998924255
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "similarity": 0.5511743426322937
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "similarity": 0.041654072701931
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "similarity": 0.3923631012439728
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "similarity": 0.4058821499347687
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "similarity": 0.04222210869193077
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "similarity": 0.31885120272636414
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "right": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "similarity": 0.061534177511930466
+    },
+    {
+      "left": "/workspace/input/piven/data/ross_perot/images/09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "right": "/workspace/input/piven/data/ross_perot/images/10_ross-perot-makes-hillwood-communities-a-family-business.jpg",
+      "similarity": 0.011334149166941643
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_ross-perot-cp-allan-warren-cropped-jpg.jpg",
+      "02_ross-perot-on-13-january-1983-from-reagan-contact-sheet-c12397-cropped-jpg.jpg",
+      "03_ross-perot-jpg.jpg",
+      "04_gallery-ross-perot.jpg",
+      "05_ross-perot-wikipedia.jpg",
+      "06_leader-of-united-we-stand-h-ross-perot-news-photo-getty-images.jpg",
+      "07_portrait-of-ross-perot-photograph-by-dreampictures-pixels.jpg",
+      "08_ross-perot-sr-speaking-at-20th-anniversary-of-perot-systems-editorial.jpg",
+      "09_ross-perot-1992-victory-alternative-history-fandom.webp",
+      "10_ross-perot-makes-hillwood-communities-a-family-business.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.460060715675354,
+        0.4054555892944336,
+        0.3851639926433563,
+        0.6090754866600037,
+        0.5411726832389832,
+        0.49673476815223694,
+        0.3844839632511139,
+        0.8260504007339478,
+        0.00011235188867431134
+      ],
+      [
+        0.460060715675354,
+        1.0,
+        0.33301255106925964,
+        0.3522919714450836,
+        0.4766058623790741,
+        0.5802938342094421,
+        0.55618816614151,
+        0.29772356152534485,
+        0.4964824914932251,
+        -0.023777339607477188
+      ],
+      [
+        0.4054555892944336,
+        0.33301255106925964,
+        1.0,
+        0.5242819786071777,
+        0.4566456973552704,
+        0.4208666980266571,
+        0.4101700782775879,
+        0.43071046471595764,
+        0.3890029191970825,
+        0.14828339219093323
+      ],
+      [
+        0.3851639926433563,
+        0.3522919714450836,
+        0.5242819786071777,
+        1.0,
+        0.399983286857605,
+        0.39450034499168396,
+        0.4109537899494171,
+        0.39125245809555054,
+        0.362837553024292,
+        0.07592204213142395
+      ],
+      [
+        0.6090754866600037,
+        0.4766058623790741,
+        0.4566456973552704,
+        0.399983286857605,
+        1.0,
+        0.539778470993042,
+        0.4635987877845764,
+        0.3180622160434723,
+        0.5930147171020508,
+        0.028768306598067284
+      ],
+      [
+        0.5411726832389832,
+        0.5802938342094421,
+        0.4208666980266571,
+        0.39450034499168396,
+        0.539778470993042,
+        1.0,
+        0.6122989654541016,
+        0.36175402998924255,
+        0.5511743426322937,
+        0.041654072701931
+      ],
+      [
+        0.49673476815223694,
+        0.55618816614151,
+        0.4101700782775879,
+        0.4109537899494171,
+        0.4635987877845764,
+        0.6122989654541016,
+        1.0,
+        0.3923631012439728,
+        0.4058821499347687,
+        0.04222210869193077
+      ],
+      [
+        0.3844839632511139,
+        0.29772356152534485,
+        0.43071046471595764,
+        0.39125245809555054,
+        0.3180622160434723,
+        0.36175402998924255,
+        0.3923631012439728,
+        1.0,
+        0.31885120272636414,
+        0.061534177511930466
+      ],
+      [
+        0.8260504007339478,
+        0.4964824914932251,
+        0.3890029191970825,
+        0.362837553024292,
+        0.5930147171020508,
+        0.5511743426322937,
+        0.4058821499347687,
+        0.31885120272636414,
+        1.0,
+        0.011334149166941643
+      ],
+      [
+        0.00011235188867431134,
+        -0.023777339607477188,
+        0.14828339219093323,
+        0.07592204213142395,
+        0.028768306598067284,
+        0.041654072701931,
+        0.04222210869193077,
+        0.061534177511930466,
+        0.011334149166941643,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/ross_perot/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/ross_perot/portrait.jpg"
+    }
+  ]
+}

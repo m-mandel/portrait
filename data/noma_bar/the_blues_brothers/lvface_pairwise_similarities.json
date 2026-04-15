@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/the_blues_brothers",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/the_blues_brothers/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_the-blues-brothers-band-2008-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+        "similarity": 0.0961340069770813
+      },
+      {
+        "index": 1,
+        "name": "02_the-blues-brothers-band-in-2008-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+        "similarity": -0.018908923491835594
+      },
+      {
+        "index": 2,
+        "name": "03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+        "similarity": 0.06222880259156227
+      },
+      {
+        "index": 3,
+        "name": "05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+        "similarity": 0.046599097549915314
+      },
+      {
+        "index": 4,
+        "name": "06_dan-aykroyd-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+        "similarity": 0.058548830449581146
+      },
+      {
+        "index": 5,
+        "name": "07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+        "similarity": 0.04979711398482323
+      },
+      {
+        "index": 6,
+        "name": "07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+        "similarity": 0.12808506190776825
+      },
+      {
+        "index": 7,
+        "name": "09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+        "similarity": 0.04322201758623123
+      },
+      {
+        "index": 8,
+        "name": "10_dan-aykroyd-crop-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+        "similarity": 0.013292421586811543
+      },
+      {
+        "index": 9,
+        "name": "11_john-belushi-hs-yearbook-jpeg.jpg",
+        "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+        "similarity": 0.025723902508616447
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.0961340069770813,
+          -0.018908923491835594,
+          0.06222880259156227,
+          0.046599097549915314,
+          0.058548830449581146,
+          0.04979711398482323,
+          0.12808506190776825,
+          0.04322201758623123,
+          0.013292421586811543,
+          0.025723902508616447
+        ],
+        [
+          0.0961340069770813,
+          1.0000001192092896,
+          -0.013310173526406288,
+          0.00767809571698308,
+          0.00204502628184855,
+          0.07259335368871689,
+          0.05457763373851776,
+          -0.0011307371314615011,
+          0.007996507920324802,
+          0.011051533743739128,
+          0.047089237719774246
+        ],
+        [
+          -0.018908923491835594,
+          -0.013310173526406288,
+          1.0,
+          0.05989518016576767,
+          0.03308682143688202,
+          0.04149120673537254,
+          0.0300888828933239,
+          0.026313811540603638,
+          0.01344398595392704,
+          0.04217557609081268,
+          0.02894643135368824
+        ],
+        [
+          0.06222880259156227,
+          0.00767809571698308,
+          0.05989518016576767,
+          1.0,
+          -0.10878530889749527,
+          0.0009490136872045696,
+          0.008405410684645176,
+          0.029797542840242386,
+          -0.030740616843104362,
+          -0.000586475245654583,
+          -0.020169686526060104
+        ],
+        [
+          0.046599097549915314,
+          0.00204502628184855,
+          0.03308682143688202,
+          -0.10878530889749527,
+          1.0000001192092896,
+          0.011013808660209179,
+          0.006484101992100477,
+          0.18067848682403564,
+          0.01394865196198225,
+          0.015502306632697582,
+          0.035399336367845535
+        ],
+        [
+          0.058548830449581146,
+          0.07259335368871689,
+          0.04149120673537254,
+          0.0009490136872045696,
+          0.011013808660209179,
+          1.0000001192092896,
+          0.894473135471344,
+          0.053082309663295746,
+          0.017281202599406242,
+          0.46094635128974915,
+          0.0675315335392952
+        ],
+        [
+          0.04979711398482323,
+          0.05457763373851776,
+          0.0300888828933239,
+          0.008405410684645176,
+          0.006484101992100477,
+          0.894473135471344,
+          0.9999999403953552,
+          0.06408438831567764,
+          0.0745987519621849,
+          0.49733877182006836,
+          0.07986637949943542
+        ],
+        [
+          0.12808506190776825,
+          -0.0011307371314615011,
+          0.026313811540603638,
+          0.029797542840242386,
+          0.18067848682403564,
+          0.053082309663295746,
+          0.06408438831567764,
+          1.0000001192092896,
+          0.08596830070018768,
+          0.009432856924831867,
+          0.051067326217889786
+        ],
+        [
+          0.04322201758623123,
+          0.007996507920324802,
+          0.01344398595392704,
+          -0.030740616843104362,
+          0.01394865196198225,
+          0.017281202599406242,
+          0.0745987519621849,
+          0.08596830070018768,
+          0.9999998807907104,
+          -0.023546624928712845,
+          0.5047017335891724
+        ],
+        [
+          0.013292421586811543,
+          0.011051533743739128,
+          0.04217557609081268,
+          -0.000586475245654583,
+          0.015502306632697582,
+          0.46094635128974915,
+          0.49733877182006836,
+          0.009432856924831867,
+          -0.023546624928712845,
+          0.9999998807907104,
+          0.030930722132325172
+        ],
+        [
+          0.025723902508616447,
+          0.047089237719774246,
+          0.02894643135368824,
+          -0.020169686526060104,
+          0.035399336367845535,
+          0.0675315335392952,
+          0.07986637949943542,
+          0.051067326217889786,
+          0.5047017335891724,
+          0.030930722132325172,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_the-blues-brothers-band-2008-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg"
+    },
+    {
+      "name": "02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg"
+    },
+    {
+      "name": "03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg"
+    },
+    {
+      "name": "05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_dan-aykroyd-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg"
+    },
+    {
+      "name": "09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg"
+    },
+    {
+      "name": "10_dan-aykroyd-crop-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg"
+    },
+    {
+      "name": "11_john-belushi-hs-yearbook-jpeg.jpg",
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "similarity": -0.013310173526406288
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "similarity": 0.00767809571698308
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "similarity": 0.00204502628184855
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+      "similarity": 0.07259335368871689
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "similarity": 0.05457763373851776
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "similarity": -0.0011307371314615011
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "similarity": 0.007996507920324802
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+      "similarity": 0.011051533743739128
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/01_the-blues-brothers-band-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+      "similarity": 0.047089237719774246
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "similarity": 0.05989518016576767
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "similarity": 0.03308682143688202
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+      "similarity": 0.04149120673537254
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "similarity": 0.0300888828933239
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "similarity": 0.026313811540603638
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "similarity": 0.01344398595392704
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+      "similarity": 0.04217557609081268
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+      "similarity": 0.02894643135368824
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "similarity": -0.10878530889749527
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+      "similarity": 0.0009490136872045696
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "similarity": 0.008405410684645176
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "similarity": 0.029797542840242386
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "similarity": -0.030740616843104362
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+      "similarity": -0.000586475245654583
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+      "similarity": -0.020169686526060104
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+      "similarity": 0.011013808660209179
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "similarity": 0.006484101992100477
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "similarity": 0.18067848682403564
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "similarity": 0.01394865196198225
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+      "similarity": 0.015502306632697582
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+      "similarity": 0.035399336367845535
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "similarity": 0.894473135471344
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "similarity": 0.053082309663295746
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "similarity": 0.017281202599406242
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+      "similarity": 0.46094635128974915
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/06_dan-aykroyd-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+      "similarity": 0.0675315335392952
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "similarity": 0.06408438831567764
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "similarity": 0.0745987519621849
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+      "similarity": 0.49733877182006836
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+      "similarity": 0.07986637949943542
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "similarity": 0.08596830070018768
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+      "similarity": 0.009432856924831867
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+      "similarity": 0.051067326217889786
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+      "similarity": -0.023546624928712845
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+      "similarity": 0.5047017335891724
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/the_blues_brothers/images/10_dan-aykroyd-crop-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/the_blues_brothers/images/11_john-belushi-hs-yearbook-jpeg.jpg",
+      "similarity": 0.030930722132325172
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_the-blues-brothers-band-2008-jpg.jpg",
+      "02_the-blues-brothers-band-in-2008-jpg.jpg",
+      "03_no-dont-get-it-wrong-i-am-not-one-of-the-blues-brothers-passer-incognito-panoramio-jpg.jpg",
+      "05_the-blues-brothers-relax-on-porch-of-legends-shop-woodstock-new-york-usa-7110098337-cropped-jpg.jpg",
+      "06_dan-aykroyd-cropped-jpg.jpg",
+      "07_dan-aykroyd-february-2009-cropped-jpg.jpg",
+      "07_the-blues-brothers-american-dream-21-rue-daunou-paris-7-may-2010-jpg.jpg",
+      "09_john-belushi-at-the-32nd-annual-radio-and-television-correspondents-association-dinner-nara-30805929-jpg.jpg",
+      "10_dan-aykroyd-crop-jpg.jpg",
+      "11_john-belushi-hs-yearbook-jpeg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        -0.013310173526406288,
+        0.00767809571698308,
+        0.00204502628184855,
+        0.07259335368871689,
+        0.05457763373851776,
+        -0.0011307371314615011,
+        0.007996507920324802,
+        0.011051533743739128,
+        0.047089237719774246
+      ],
+      [
+        -0.013310173526406288,
+        1.0,
+        0.05989518016576767,
+        0.03308682143688202,
+        0.04149120673537254,
+        0.0300888828933239,
+        0.026313811540603638,
+        0.01344398595392704,
+        0.04217557609081268,
+        0.02894643135368824
+      ],
+      [
+        0.00767809571698308,
+        0.05989518016576767,
+        1.0,
+        -0.10878530889749527,
+        0.0009490136872045696,
+        0.008405410684645176,
+        0.029797542840242386,
+        -0.030740616843104362,
+        -0.000586475245654583,
+        -0.020169686526060104
+      ],
+      [
+        0.00204502628184855,
+        0.03308682143688202,
+        -0.10878530889749527,
+        1.0000001192092896,
+        0.011013808660209179,
+        0.006484101992100477,
+        0.18067848682403564,
+        0.01394865196198225,
+        0.015502306632697582,
+        0.035399336367845535
+      ],
+      [
+        0.07259335368871689,
+        0.04149120673537254,
+        0.0009490136872045696,
+        0.011013808660209179,
+        1.0000001192092896,
+        0.894473135471344,
+        0.053082309663295746,
+        0.017281202599406242,
+        0.46094635128974915,
+        0.0675315335392952
+      ],
+      [
+        0.05457763373851776,
+        0.0300888828933239,
+        0.008405410684645176,
+        0.006484101992100477,
+        0.894473135471344,
+        0.9999999403953552,
+        0.06408438831567764,
+        0.0745987519621849,
+        0.49733877182006836,
+        0.07986637949943542
+      ],
+      [
+        -0.0011307371314615011,
+        0.026313811540603638,
+        0.029797542840242386,
+        0.18067848682403564,
+        0.053082309663295746,
+        0.06408438831567764,
+        1.0000001192092896,
+        0.08596830070018768,
+        0.009432856924831867,
+        0.051067326217889786
+      ],
+      [
+        0.007996507920324802,
+        0.01344398595392704,
+        -0.030740616843104362,
+        0.01394865196198225,
+        0.017281202599406242,
+        0.0745987519621849,
+        0.08596830070018768,
+        0.9999998807907104,
+        -0.023546624928712845,
+        0.5047017335891724
+      ],
+      [
+        0.011051533743739128,
+        0.04217557609081268,
+        -0.000586475245654583,
+        0.015502306632697582,
+        0.46094635128974915,
+        0.49733877182006836,
+        0.009432856924831867,
+        -0.023546624928712845,
+        0.9999998807907104,
+        0.030930722132325172
+      ],
+      [
+        0.047089237719774246,
+        0.02894643135368824,
+        -0.020169686526060104,
+        0.035399336367845535,
+        0.0675315335392952,
+        0.07986637949943542,
+        0.051067326217889786,
+        0.5047017335891724,
+        0.030930722132325172,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/the_blues_brothers/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/the_blues_brothers/portrait.jpg"
+    }
+  ]
+}

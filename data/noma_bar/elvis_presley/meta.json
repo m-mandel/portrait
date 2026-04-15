@@ -1,0 +1,80 @@
+{
+  "name": "elvis presley",
+  "bio": "Elvis Aaron Presley (January 8, 1935 – August 16, 1977) was an American singer and actor. Referred to as the \"King of Rock and Roll\", he is widely regarded as one of the most culturally significant figures of the 20th century. Presley's energetic and sexually provocative performance style, combined with a mix of influences across color lines during a transformative era in race relations, brought both great success and initial controversy.\nPresley was born in Tupelo, Mississippi; his family moved to Memphis, Tennessee, when he was 13. He began his music career in 1954 at Sun Records with producer Sam Phillips, who wanted to bring the sound of African-American music to a wider audience. Presley, on guitar and accompanied by lead guitarist Scotty Moore and bassist Bill Black, was a pioneer of rockabilly, an uptempo, backbeat-driven fusion of country music and rhythm and blues. In 1955, drummer D. J. Fontana joined to complete the lineup of Presley's classic quartet and RCA Victor acquired his contract in a deal arranged by Colonel Tom Parker, who managed him for the rest of his career. Presley's first RCA Victor single, \"Heartbreak Hotel\", was released in January 1956 and became a number-one hit in the US. Within a year, RCA Victor sold ten million Presley singles. With a series of successful television appearances and chart-topping records, Presley became the leading figure of the newly popular rock and roll; though his performing style and promotion of the then-marginalized sound of African Americans led to him being widely considered a threat to the moral well-being of white American youth.\nIn November 1956, Presley made his film debut in Love Me Tender. Drafted into military service in 1958, he relaunched his recording career two years later with some of his most commercially successful work. Presley held few concerts, and, guided by Parker, devoted much of the 1960s to making Hollywood films and soundtrack albums, most of them critically derided. Some of Presley's most famous films included Jailhouse Rock (1957), Blue Hawaii (1961), and Viva Las Vegas (1964). In 1968, he returned to the stage in the acclaimed NBC television comeback special Elvis, which led to an extended Las Vegas concert residency and several highly profitable tours. In 1973, Presley gave the first concert by a solo artist to be broadcast around the world, Aloha from Hawaii. Years of substance abuse and unhealthy eating severely compromised his health, and Presley died in August 1977 at his Graceland estate at the age of 42.\nPresley is one of the best-selling music artists in history, having sold an estimated 500 million records worldwide. He was commercially successful in many genres, including pop, country, rock and roll, rockabilly, rhythm and blues, adult contemporary, and gospel. Presley won three Grammy Awards, received the Grammy Lifetime Achievement Award at age 36, and has been posthumously inducted into multiple music halls of fame. He holds several records, including the most Recording Industry Association of America (RIAA)-certified gold and platinum albums, the most albums charted on the Billboard 200, the most number-one albums by a solo artist on the UK Albums Chart, and the most number-one singles by any act on the UK Singles Chart. In 2018, Presley was posthumously awarded the Presidential Medal of Freedom.",
+  "bio_sources": [
+    {
+      "subject": "elvis presley",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Elvis_Presley"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "pink portrait field",
+      "shape_type": "rectangle",
+      "meaning": "evokes pop glamour and stage heat"
+    },
+    {
+      "element": "dark pompadour hair",
+      "shape_type": "silhouette",
+      "meaning": "marks Elvis's iconic look instantly"
+    },
+    {
+      "element": "guitar fretboard with strings and dots across the eyes",
+      "shape_type": "symbol",
+      "meaning": "represents rock-and-roll performance and musical identity"
+    },
+    {
+      "element": "oversized sunglass lens",
+      "shape_type": "oval",
+      "meaning": "adds celebrity cool and swagger"
+    },
+    {
+      "element": "dark circular mouth accent",
+      "shape_type": "circle",
+      "meaning": "gives the profile a concentrated note of vocal power"
+    },
+    {
+      "element": "pale jaw and collar shape",
+      "shape_type": "geometric shape",
+      "meaning": "keeps the figure sleek and stylized"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "performance crown",
+      "visual_representation": "a small crown-like crest with sharp peaks",
+      "category": "symbol",
+      "relevance": "The biography explicitly uses a signature performance title.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

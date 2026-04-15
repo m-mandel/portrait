@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/jesse_jackson",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/jesse_jackson/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+        "similarity": -0.04051143303513527
+      },
+      {
+        "index": 1,
+        "name": "02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+        "similarity": 0.1091914102435112
+      },
+      {
+        "index": 2,
+        "name": "03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+        "similarity": 0.05075601488351822
+      },
+      {
+        "index": 3,
+        "name": "04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+        "similarity": 0.08808452636003494
+      },
+      {
+        "index": 4,
+        "name": "05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+        "similarity": 0.10806023329496384
+      },
+      {
+        "index": 5,
+        "name": "06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+        "similarity": 0.07312382012605667
+      },
+      {
+        "index": 6,
+        "name": "07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "similarity": 0.07060383260250092
+      },
+      {
+        "index": 7,
+        "name": "08_jesse-jackson-wikipedia.jpg",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+        "similarity": 0.06506314873695374
+      },
+      {
+        "index": 8,
+        "name": "09_roses-for-reverend-jesse-jackson.webp",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+        "similarity": -0.01646868884563446
+      },
+      {
+        "index": 9,
+        "name": "10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+        "path": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+        "similarity": 0.058241117745637894
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.04051143303513527,
+          0.1091914102435112,
+          0.05075601488351822,
+          0.08808452636003494,
+          0.10806023329496384,
+          0.07312382012605667,
+          0.07060383260250092,
+          0.06506314873695374,
+          -0.01646868884563446,
+          0.058241117745637894
+        ],
+        [
+          -0.04051143303513527,
+          0.9999999403953552,
+          -0.010482477955520153,
+          0.14734479784965515,
+          0.05879294127225876,
+          0.059307537972927094,
+          0.061435528099536896,
+          -0.012991989962756634,
+          0.0018082690658047795,
+          0.18033510446548462,
+          -0.015180579386651516
+        ],
+        [
+          0.1091914102435112,
+          -0.010482477955520153,
+          0.9999999403953552,
+          0.4437910318374634,
+          0.5076479911804199,
+          0.3908396065235138,
+          0.5292819142341614,
+          0.44211897253990173,
+          0.389819473028183,
+          0.0080673573538661,
+          0.5014444589614868
+        ],
+        [
+          0.05075601488351822,
+          0.14734479784965515,
+          0.4437910318374634,
+          1.0,
+          0.42677441239356995,
+          0.5770739316940308,
+          0.48365992307662964,
+          0.4077955484390259,
+          0.5273271799087524,
+          0.06759198009967804,
+          0.4833243787288666
+        ],
+        [
+          0.08808452636003494,
+          0.05879294127225876,
+          0.5076479911804199,
+          0.42677441239356995,
+          1.0000001192092896,
+          0.5171089172363281,
+          0.5542314648628235,
+          0.546114981174469,
+          0.4065494239330292,
+          0.049111805856227875,
+          0.5177817344665527
+        ],
+        [
+          0.10806023329496384,
+          0.059307537972927094,
+          0.3908396065235138,
+          0.5770739316940308,
+          0.5171089172363281,
+          1.0,
+          0.5393288135528564,
+          0.4383959472179413,
+          0.45901617407798767,
+          0.052365418523550034,
+          0.421749472618103
+        ],
+        [
+          0.07312382012605667,
+          0.061435528099536896,
+          0.5292819142341614,
+          0.48365992307662964,
+          0.5542314648628235,
+          0.5393288135528564,
+          1.0,
+          0.5045281052589417,
+          0.3115505576133728,
+          0.0020652837119996548,
+          0.6338876485824585
+        ],
+        [
+          0.07060383260250092,
+          -0.012991989962756634,
+          0.44211897253990173,
+          0.4077955484390259,
+          0.546114981174469,
+          0.4383959472179413,
+          0.5045281052589417,
+          0.9999998807907104,
+          0.5140454173088074,
+          0.0524611622095108,
+          0.5053390264511108
+        ],
+        [
+          0.06506314873695374,
+          0.0018082690658047795,
+          0.389819473028183,
+          0.5273271799087524,
+          0.4065494239330292,
+          0.45901617407798767,
+          0.3115505576133728,
+          0.5140454173088074,
+          1.0,
+          0.06656510382890701,
+          0.4086814522743225
+        ],
+        [
+          -0.01646868884563446,
+          0.18033510446548462,
+          0.0080673573538661,
+          0.06759198009967804,
+          0.049111805856227875,
+          0.052365418523550034,
+          0.0020652837119996548,
+          0.0524611622095108,
+          0.06656510382890701,
+          1.0,
+          0.02656428888440132
+        ],
+        [
+          0.058241117745637894,
+          -0.015180579386651516,
+          0.5014444589614868,
+          0.4833243787288666,
+          0.5177817344665527,
+          0.421749472618103,
+          0.6338876485824585,
+          0.5053390264511108,
+          0.4086814522743225,
+          0.02656428888440132,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg"
+    },
+    {
+      "name": "02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg"
+    },
+    {
+      "name": "04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg"
+    },
+    {
+      "name": "05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg"
+    },
+    {
+      "name": "06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg"
+    },
+    {
+      "name": "07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "08_jesse-jackson-wikipedia.jpg",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg"
+    },
+    {
+      "name": "09_roses-for-reverend-jesse-jackson.webp",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp"
+    },
+    {
+      "name": "10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "path": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "similarity": -0.010482477955520153
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "similarity": 0.14734479784965515
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "similarity": 0.05879294127225876
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "similarity": 0.059307537972927094
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "similarity": 0.061435528099536896
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": -0.012991989962756634
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+      "similarity": 0.0018082690658047795
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+      "similarity": 0.18033510446548462
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "similarity": -0.015180579386651516
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "similarity": 0.4437910318374634
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "similarity": 0.5076479911804199
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "similarity": 0.3908396065235138
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "similarity": 0.5292819142341614
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.44211897253990173
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+      "similarity": 0.389819473028183
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+      "similarity": 0.0080673573538661
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "similarity": 0.5014444589614868
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "similarity": 0.42677441239356995
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "similarity": 0.5770739316940308
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "similarity": 0.48365992307662964
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4077955484390259
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+      "similarity": 0.5273271799087524
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+      "similarity": 0.06759198009967804
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "similarity": 0.4833243787288666
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "similarity": 0.5171089172363281
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "similarity": 0.5542314648628235
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.546114981174469
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+      "similarity": 0.4065494239330292
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+      "similarity": 0.049111805856227875
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "similarity": 0.5177817344665527
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "similarity": 0.5393288135528564
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4383959472179413
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+      "similarity": 0.45901617407798767
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+      "similarity": 0.052365418523550034
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "similarity": 0.421749472618103
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5045281052589417
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+      "similarity": 0.3115505576133728
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+      "similarity": 0.0020652837119996548
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "similarity": 0.6338876485824585
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+      "similarity": 0.5140454173088074
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+      "similarity": 0.0524611622095108
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "similarity": 0.5053390264511108
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+      "similarity": 0.06656510382890701
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/08_jesse-jackson-wikipedia.jpg",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "similarity": 0.4086814522743225
+    },
+    {
+      "left": "/workspace/input/piven/data/jesse_jackson/images/09_roses-for-reverend-jesse-jackson.webp",
+      "right": "/workspace/input/piven/data/jesse_jackson/images/10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg",
+      "similarity": 0.02656428888440132
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_jesse-jackson-jr-official-photo-portrait-jpg.jpg",
+      "02_jesse-jackson-at-hyatt-regency-mccormick-place-thursday-aug-22-2024-in-chicago-53945000895-cropped-jpg.jpg",
+      "03_reverend-jesse-jackson-speaking-at-the-un-crop-jpg.jpg",
+      "04_file-jesse-jackson-portrait-jpg-wikimedia-commons.jpg",
+      "05_jesse-jackson-portrait-from-1990s-stock-photo-alamy.jpg",
+      "06_jesse-jackson-life-civil-rights-political-activism-study-com.jpg",
+      "07_gado-afro-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "08_jesse-jackson-wikipedia.jpg",
+      "09_roses-for-reverend-jesse-jackson.webp",
+      "10_the-importance-of-jesse-jackson-s-hbcu-roots.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        -0.010482477955520153,
+        0.14734479784965515,
+        0.05879294127225876,
+        0.059307537972927094,
+        0.061435528099536896,
+        -0.012991989962756634,
+        0.0018082690658047795,
+        0.18033510446548462,
+        -0.015180579386651516
+      ],
+      [
+        -0.010482477955520153,
+        0.9999999403953552,
+        0.4437910318374634,
+        0.5076479911804199,
+        0.3908396065235138,
+        0.5292819142341614,
+        0.44211897253990173,
+        0.389819473028183,
+        0.0080673573538661,
+        0.5014444589614868
+      ],
+      [
+        0.14734479784965515,
+        0.4437910318374634,
+        1.0,
+        0.42677441239356995,
+        0.5770739316940308,
+        0.48365992307662964,
+        0.4077955484390259,
+        0.5273271799087524,
+        0.06759198009967804,
+        0.4833243787288666
+      ],
+      [
+        0.05879294127225876,
+        0.5076479911804199,
+        0.42677441239356995,
+        1.0000001192092896,
+        0.5171089172363281,
+        0.5542314648628235,
+        0.546114981174469,
+        0.4065494239330292,
+        0.049111805856227875,
+        0.5177817344665527
+      ],
+      [
+        0.059307537972927094,
+        0.3908396065235138,
+        0.5770739316940308,
+        0.5171089172363281,
+        1.0,
+        0.5393288135528564,
+        0.4383959472179413,
+        0.45901617407798767,
+        0.052365418523550034,
+        0.421749472618103
+      ],
+      [
+        0.061435528099536896,
+        0.5292819142341614,
+        0.48365992307662964,
+        0.5542314648628235,
+        0.5393288135528564,
+        1.0,
+        0.5045281052589417,
+        0.3115505576133728,
+        0.0020652837119996548,
+        0.6338876485824585
+      ],
+      [
+        -0.012991989962756634,
+        0.44211897253990173,
+        0.4077955484390259,
+        0.546114981174469,
+        0.4383959472179413,
+        0.5045281052589417,
+        0.9999998807907104,
+        0.5140454173088074,
+        0.0524611622095108,
+        0.5053390264511108
+      ],
+      [
+        0.0018082690658047795,
+        0.389819473028183,
+        0.5273271799087524,
+        0.4065494239330292,
+        0.45901617407798767,
+        0.3115505576133728,
+        0.5140454173088074,
+        1.0,
+        0.06656510382890701,
+        0.4086814522743225
+      ],
+      [
+        0.18033510446548462,
+        0.0080673573538661,
+        0.06759198009967804,
+        0.049111805856227875,
+        0.052365418523550034,
+        0.0020652837119996548,
+        0.0524611622095108,
+        0.06656510382890701,
+        1.0,
+        0.02656428888440132
+      ],
+      [
+        -0.015180579386651516,
+        0.5014444589614868,
+        0.4833243787288666,
+        0.5177817344665527,
+        0.421749472618103,
+        0.6338876485824585,
+        0.5053390264511108,
+        0.4086814522743225,
+        0.02656428888440132,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/jesse_jackson/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/jesse_jackson/portrait.jpg"
+    }
+  ]
+}

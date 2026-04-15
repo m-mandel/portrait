@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/piven/data/shirley_maclaine",
+  "meta_path": "/workspace/input/piven/data/shirley_maclaine/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Shirley MacLaine (born Shirley MacLean Beaty; April 24, 1934) is an American actress and author. With a career spanning over 70 years, she has received numerous accolades, including an Academy Award, an Emmy Award, two BAFTA Awards, six Golden Globe Awards, two Volpi Cups, and two Silver Bears. She has been honored with the Film Society of Lincoln Center Tribute in 1995, the Cecil B. DeMille Award in 1998, the AFI Life Achievement Award in 2012, and the Kennedy Center Honor in 2014. MacLaine is one of the last remaining stars from the Golden Age of Hollywood.\nBorn in Richmond, Virginia, MacLaine made her acting debut as a teenager with minor roles in the Broadway musicals Me and Juliet and The Pajama Game. MacLaine's career began during the final years of the Golden Age of Hollywood where she made her film debut with Alfred Hitchcock's black comedy The Trouble with Harry (1955), winning the Golden Globe Award for New Star of the Year \u2013 Actress. She rose to prominence with starring roles in Around the World in 80 Days (1956), Some Came Running (1958), Ask Any Girl (1959), The Apartment (1960), The Children's Hour (1961), Irma la Douce (1963), and Sweet Charity (1969).\nA six-time Academy Award nominee, MacLaine won the Academy Award for Best Actress for the comedy-drama Terms of Endearment (1983). Her other prominent films include The Turning Point (1977), Being There (1979), Madame Sousatzka (1988), Steel Magnolias (1989), Postcards from the Edge (1990), In Her Shoes (2005), Bernie (2011), The Secret Life of Walter Mitty (2013), Elsa & Fred (2014), and Noelle (2019).\nMacLaine starred in the sitcom Shirley's World (1971\u20131972) and played the eponymous fashion designer in the biopic television film Coco Chanel (2008), receiving nominations for a Primetime Emmy Award, a Screen Actors Guild Award, and a Golden Globe Award for the latter. She also made appearances in several television series, including Downton Abbey (2012\u20132013), Glee (2014), and Only Murders in the Building (2022). MacLaine has written many books regarding the subjects of metaphysics, spirituality, and reincarnation, as well as a best-selling memoir, Out on a Limb (1983).",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "bowler hat"
+    },
+    {
+      "index": 1,
+      "element": "buttons"
+    },
+    {
+      "index": 2,
+      "element": "false eyelashes"
+    },
+    {
+      "index": 3,
+      "element": "plastic tube"
+    },
+    {
+      "index": 4,
+      "element": "bead"
+    },
+    {
+      "index": 5,
+      "element": "earrings"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "camera body"
+    },
+    {
+      "index": 2,
+      "element": "film strip"
+    },
+    {
+      "index": 3,
+      "element": "clapboard"
+    },
+    {
+      "index": 4,
+      "element": "projector beam"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "bowler hat",
+      "buttons",
+      "false eyelashes",
+      "plastic tube",
+      "bead",
+      "earrings"
+    ],
+    "values": [
+      [
+        -0.01889801025390625,
+        -0.07092545181512833,
+        0.04356983304023743,
+        -0.06458735466003418,
+        -0.0024679554626345634,
+        -0.05823337659239769
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "camera body",
+      "film strip",
+      "clapboard",
+      "projector beam"
+    ],
+    "column_labels": [
+      "bowler hat",
+      "buttons",
+      "false eyelashes",
+      "plastic tube",
+      "bead",
+      "earrings"
+    ],
+    "values": [
+      [
+        0.20904919505119324,
+        0.049890343099832535,
+        0.1757727861404419,
+        0.21878767013549805,
+        0.2368951141834259,
+        0.2482084184885025
+      ],
+      [
+        0.21020454168319702,
+        0.1535293459892273,
+        0.20531603693962097,
+        0.21517232060432434,
+        0.20190784335136414,
+        0.28087693452835083
+      ],
+      [
+        0.10082650184631348,
+        0.15185323357582092,
+        0.16251671314239502,
+        0.30631858110427856,
+        0.21789318323135376,
+        0.19682279229164124
+      ],
+      [
+        0.22143156826496124,
+        0.3288174867630005,
+        0.031301479786634445,
+        0.20982420444488525,
+        0.31116539239883423,
+        0.24403566122055054
+      ],
+      [
+        0.1477794647216797,
+        0.058667223900556564,
+        0.10852139443159103,
+        0.24203838407993317,
+        0.14177237451076508,
+        0.1177850067615509
+      ]
+    ]
+  }
+}

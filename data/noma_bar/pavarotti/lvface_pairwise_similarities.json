@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/pavarotti",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/pavarotti/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_luciano-pavarotti-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg",
+        "similarity": 0.0395749993622303
+      },
+      {
+        "index": 1,
+        "name": "02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+        "similarity": 0.014810683205723763
+      },
+      {
+        "index": 2,
+        "name": "03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+        "similarity": 0.036096684634685516
+      },
+      {
+        "index": 3,
+        "name": "05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+        "similarity": 0.020276473835110664
+      },
+      {
+        "index": 4,
+        "name": "06_luciano-pavarotti-15-06-02-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg",
+        "similarity": 0.04203164204955101
+      },
+      {
+        "index": 5,
+        "name": "07_luciano-pavarotti-2004-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg",
+        "similarity": 0.053389471024274826
+      },
+      {
+        "index": 6,
+        "name": "08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+        "similarity": 0.020316675305366516
+      },
+      {
+        "index": 7,
+        "name": "10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+        "similarity": 0.015284586697816849
+      },
+      {
+        "index": 8,
+        "name": "11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+        "similarity": 0.0371815487742424
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.0395749993622303,
+          0.014810683205723763,
+          0.036096684634685516,
+          0.020276473835110664,
+          0.04203164204955101,
+          0.053389471024274826,
+          0.020316675305366516,
+          0.015284586697816849,
+          0.0371815487742424
+        ],
+        [
+          0.0395749993622303,
+          1.0000001192092896,
+          0.5373208522796631,
+          0.5931287407875061,
+          0.4697491228580475,
+          0.5148356556892395,
+          0.6852899193763733,
+          0.44334423542022705,
+          0.033803392201662064,
+          0.5456862449645996
+        ],
+        [
+          0.014810683205723763,
+          0.5373208522796631,
+          1.0,
+          0.8456897735595703,
+          0.4519714117050171,
+          0.8023465275764465,
+          0.469183087348938,
+          0.4530063569545746,
+          0.09021154791116714,
+          0.8555471301078796
+        ],
+        [
+          0.036096684634685516,
+          0.5931287407875061,
+          0.8456897735595703,
+          1.0000001192092896,
+          0.44424811005592346,
+          0.8344758152961731,
+          0.467614084482193,
+          0.438834547996521,
+          0.04839371144771576,
+          0.8926240801811218
+        ],
+        [
+          0.020276473835110664,
+          0.4697491228580475,
+          0.4519714117050171,
+          0.44424811005592346,
+          0.9999998807907104,
+          0.4208541512489319,
+          0.48918065428733826,
+          0.3906264901161194,
+          0.08533338457345963,
+          0.41669726371765137
+        ],
+        [
+          0.04203164204955101,
+          0.5148356556892395,
+          0.8023465275764465,
+          0.8344758152961731,
+          0.4208541512489319,
+          1.0,
+          0.4734395742416382,
+          0.41542425751686096,
+          0.07669362425804138,
+          0.9250541925430298
+        ],
+        [
+          0.053389471024274826,
+          0.6852899193763733,
+          0.469183087348938,
+          0.467614084482193,
+          0.48918065428733826,
+          0.4734395742416382,
+          0.9999999403953552,
+          0.44920989871025085,
+          -0.0006190258427523077,
+          0.49158790707588196
+        ],
+        [
+          0.020316675305366516,
+          0.44334423542022705,
+          0.4530063569545746,
+          0.438834547996521,
+          0.3906264901161194,
+          0.41542425751686096,
+          0.44920989871025085,
+          1.0,
+          0.07345549762248993,
+          0.4029015302658081
+        ],
+        [
+          0.015284586697816849,
+          0.033803392201662064,
+          0.09021154791116714,
+          0.04839371144771576,
+          0.08533338457345963,
+          0.07669362425804138,
+          -0.0006190258427523077,
+          0.07345549762248993,
+          1.0000001192092896,
+          0.08919720351696014
+        ],
+        [
+          0.0371815487742424,
+          0.5456862449645996,
+          0.8555471301078796,
+          0.8926240801811218,
+          0.41669726371765137,
+          0.9250541925430298,
+          0.49158790707588196,
+          0.4029015302658081,
+          0.08919720351696014,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_luciano-pavarotti-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg"
+    },
+    {
+      "name": "05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg"
+    },
+    {
+      "name": "06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg"
+    },
+    {
+      "name": "07_luciano-pavarotti-2004-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg"
+    },
+    {
+      "name": "08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg"
+    },
+    {
+      "name": "11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "similarity": 0.5373208522796631
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "similarity": 0.5931287407875061
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "similarity": 0.4697491228580475
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "similarity": 0.5148356556892395
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg",
+      "similarity": 0.6852899193763733
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "similarity": 0.44334423542022705
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "similarity": 0.033803392201662064
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/01_luciano-pavarotti-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+      "similarity": 0.5456862449645996
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "similarity": 0.8456897735595703
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "similarity": 0.4519714117050171
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "similarity": 0.8023465275764465
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg",
+      "similarity": 0.469183087348938
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "similarity": 0.4530063569545746
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "similarity": 0.09021154791116714
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+      "similarity": 0.8555471301078796
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "similarity": 0.44424811005592346
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "similarity": 0.8344758152961731
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg",
+      "similarity": 0.467614084482193
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "similarity": 0.438834547996521
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "similarity": 0.04839371144771576
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+      "similarity": 0.8926240801811218
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "similarity": 0.4208541512489319
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg",
+      "similarity": 0.48918065428733826
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "similarity": 0.3906264901161194
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "similarity": 0.08533338457345963
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+      "similarity": 0.41669726371765137
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg",
+      "similarity": 0.4734395742416382
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "similarity": 0.41542425751686096
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "similarity": 0.07669362425804138
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+      "similarity": 0.9250541925430298
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "similarity": 0.44920989871025085
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "similarity": -0.0006190258427523077
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/07_luciano-pavarotti-2004-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+      "similarity": 0.49158790707588196
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "similarity": 0.07345549762248993
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+      "similarity": 0.4029015302658081
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pavarotti/images/10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pavarotti/images/11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg",
+      "similarity": 0.08919720351696014
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_luciano-pavarotti-cropped-jpg.jpg",
+      "02_luciano-pavarotti-15-06-02-cropped-jpg.jpg",
+      "03_luciano-pavarotti-15-06-02-cropped2-squared-jpg.jpg",
+      "05_luciano-pavarotti-in-saint-petersburg-jpg.jpg",
+      "06_luciano-pavarotti-15-06-02-jpg.jpg",
+      "07_luciano-pavarotti-2004-jpg.jpg",
+      "08_luciano-pavarotti-opera-star-cropped-jpg.jpg",
+      "10_luciano-pavarotti-opera-star-and-family-n-y-c-cropped-jpg.jpg",
+      "11_luciano-pavarotti-15-06-02-cropped2-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.5373208522796631,
+        0.5931287407875061,
+        0.4697491228580475,
+        0.5148356556892395,
+        0.6852899193763733,
+        0.44334423542022705,
+        0.033803392201662064,
+        0.5456862449645996
+      ],
+      [
+        0.5373208522796631,
+        1.0,
+        0.8456897735595703,
+        0.4519714117050171,
+        0.8023465275764465,
+        0.469183087348938,
+        0.4530063569545746,
+        0.09021154791116714,
+        0.8555471301078796
+      ],
+      [
+        0.5931287407875061,
+        0.8456897735595703,
+        1.0000001192092896,
+        0.44424811005592346,
+        0.8344758152961731,
+        0.467614084482193,
+        0.438834547996521,
+        0.04839371144771576,
+        0.8926240801811218
+      ],
+      [
+        0.4697491228580475,
+        0.4519714117050171,
+        0.44424811005592346,
+        0.9999998807907104,
+        0.4208541512489319,
+        0.48918065428733826,
+        0.3906264901161194,
+        0.08533338457345963,
+        0.41669726371765137
+      ],
+      [
+        0.5148356556892395,
+        0.8023465275764465,
+        0.8344758152961731,
+        0.4208541512489319,
+        1.0,
+        0.4734395742416382,
+        0.41542425751686096,
+        0.07669362425804138,
+        0.9250541925430298
+      ],
+      [
+        0.6852899193763733,
+        0.469183087348938,
+        0.467614084482193,
+        0.48918065428733826,
+        0.4734395742416382,
+        0.9999999403953552,
+        0.44920989871025085,
+        -0.0006190258427523077,
+        0.49158790707588196
+      ],
+      [
+        0.44334423542022705,
+        0.4530063569545746,
+        0.438834547996521,
+        0.3906264901161194,
+        0.41542425751686096,
+        0.44920989871025085,
+        1.0,
+        0.07345549762248993,
+        0.4029015302658081
+      ],
+      [
+        0.033803392201662064,
+        0.09021154791116714,
+        0.04839371144771576,
+        0.08533338457345963,
+        0.07669362425804138,
+        -0.0006190258427523077,
+        0.07345549762248993,
+        1.0000001192092896,
+        0.08919720351696014
+      ],
+      [
+        0.5456862449645996,
+        0.8555471301078796,
+        0.8926240801811218,
+        0.41669726371765137,
+        0.9250541925430298,
+        0.49158790707588196,
+        0.4029015302658081,
+        0.08919720351696014,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/pavarotti/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/pavarotti/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/pavarotti/images/16_dublin-gaiety-theatre-handprint-luciano-pavarotti-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/pavarotti/images/16_dublin-gaiety-theatre-handprint-luciano-pavarotti-jpg.jpg"
+    }
+  ]
+}

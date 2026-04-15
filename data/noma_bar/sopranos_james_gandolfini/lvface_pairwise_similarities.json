@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/sopranos_james_gandolfini",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+        "similarity": 0.025139220058918
+      },
+      {
+        "index": 1,
+        "name": "02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+        "similarity": 0.0169443991035223
+      },
+      {
+        "index": 2,
+        "name": "03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+        "similarity": 0.03551115095615387
+      },
+      {
+        "index": 3,
+        "name": "06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+        "similarity": -0.0459531731903553
+      },
+      {
+        "index": 4,
+        "name": "07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+        "similarity": 0.022266775369644165
+      },
+      {
+        "index": 5,
+        "name": "08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+        "similarity": -0.020974790677428246
+      },
+      {
+        "index": 6,
+        "name": "10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+        "similarity": 0.029390085488557816
+      },
+      {
+        "index": 7,
+        "name": "11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+        "similarity": 0.000867553346324712
+      },
+      {
+        "index": 8,
+        "name": "14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+        "similarity": 0.02112632803618908
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.025139220058918,
+          0.0169443991035223,
+          0.03551115095615387,
+          -0.0459531731903553,
+          0.022266775369644165,
+          -0.020974790677428246,
+          0.029390085488557816,
+          0.000867553346324712,
+          0.02112632803618908
+        ],
+        [
+          0.025139220058918,
+          0.9999999403953552,
+          0.5758240222930908,
+          0.550619900226593,
+          -0.15033060312271118,
+          0.48292747139930725,
+          0.024474315345287323,
+          0.3499270975589752,
+          0.51813805103302,
+          0.864647626876831
+        ],
+        [
+          0.0169443991035223,
+          0.5758240222930908,
+          1.0,
+          0.8913527727127075,
+          -0.03324394300580025,
+          0.5898847579956055,
+          -0.033329542726278305,
+          0.573317289352417,
+          0.46120840311050415,
+          0.5106697082519531
+        ],
+        [
+          0.03551115095615387,
+          0.550619900226593,
+          0.8913527727127075,
+          1.0,
+          -0.0317046158015728,
+          0.5933968424797058,
+          -0.05965239554643631,
+          0.562675416469574,
+          0.4511355459690094,
+          0.5676437020301819
+        ],
+        [
+          -0.0459531731903553,
+          -0.15033060312271118,
+          -0.03324394300580025,
+          -0.0317046158015728,
+          0.9999998807907104,
+          0.0015673140296712518,
+          -0.04681214317679405,
+          0.02953735738992691,
+          -0.05256957933306694,
+          -0.11425545811653137
+        ],
+        [
+          0.022266775369644165,
+          0.48292747139930725,
+          0.5898847579956055,
+          0.5933968424797058,
+          0.0015673140296712518,
+          1.0,
+          -0.0277871061116457,
+          0.5756381154060364,
+          0.5687786340713501,
+          0.48437345027923584
+        ],
+        [
+          -0.020974790677428246,
+          0.024474315345287323,
+          -0.033329542726278305,
+          -0.05965239554643631,
+          -0.04681214317679405,
+          -0.0277871061116457,
+          1.0000001192092896,
+          -0.08498220890760422,
+          0.02147243171930313,
+          0.02183225378394127
+        ],
+        [
+          0.029390085488557816,
+          0.3499270975589752,
+          0.573317289352417,
+          0.562675416469574,
+          0.02953735738992691,
+          0.5756381154060364,
+          -0.08498220890760422,
+          1.0,
+          0.41675108671188354,
+          0.4139900803565979
+        ],
+        [
+          0.000867553346324712,
+          0.51813805103302,
+          0.46120840311050415,
+          0.4511355459690094,
+          -0.05256957933306694,
+          0.5687786340713501,
+          0.02147243171930313,
+          0.41675108671188354,
+          1.0,
+          0.5775465965270996
+        ],
+        [
+          0.02112632803618908,
+          0.864647626876831,
+          0.5106697082519531,
+          0.5676437020301819,
+          -0.11425545811653137,
+          0.48437345027923584,
+          0.02183225378394127,
+          0.4139900803565979,
+          0.5775465965270996,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg"
+    },
+    {
+      "name": "06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg"
+    },
+    {
+      "name": "07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg"
+    },
+    {
+      "name": "08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg"
+    },
+    {
+      "name": "10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg"
+    },
+    {
+      "name": "11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg"
+    },
+    {
+      "name": "14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "similarity": 0.5758240222930908
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "similarity": 0.550619900226593
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "similarity": -0.15033060312271118
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "similarity": 0.48292747139930725
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "similarity": 0.024474315345287323
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "similarity": 0.3499270975589752
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "similarity": 0.51813805103302
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+      "similarity": 0.864647626876831
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "similarity": 0.8913527727127075
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "similarity": -0.03324394300580025
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "similarity": 0.5898847579956055
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "similarity": -0.033329542726278305
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "similarity": 0.573317289352417
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "similarity": 0.46120840311050415
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+      "similarity": 0.5106697082519531
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "similarity": -0.0317046158015728
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "similarity": 0.5933968424797058
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "similarity": -0.05965239554643631
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "similarity": 0.562675416469574
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "similarity": 0.4511355459690094
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+      "similarity": 0.5676437020301819
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "similarity": 0.0015673140296712518
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "similarity": -0.04681214317679405
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "similarity": 0.02953735738992691
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "similarity": -0.05256957933306694
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+      "similarity": -0.11425545811653137
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "similarity": -0.0277871061116457
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "similarity": 0.5756381154060364
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "similarity": 0.5687786340713501
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+      "similarity": 0.48437345027923584
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "similarity": -0.08498220890760422
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "similarity": 0.02147243171930313
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+      "similarity": 0.02183225378394127
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "similarity": 0.41675108671188354
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+      "similarity": 0.4139900803565979
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/14_james-gandolfini-in-kuwait-city-2010-jpg.jpg",
+      "similarity": 0.5775465965270996
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_james-gandolfini-in-kuwait-city-2010-cropped-jpg.jpg",
+      "02_rose-mcgowan-james-gandolfini-100331-n-0696m-280-cropped-jpg.jpg",
+      "03_rose-mcgowan-james-gandolfini-100331-n-0696m-280-jpg.jpg",
+      "06_bacchus-xxxix-james-gandolfini-394888187-jpg.jpg",
+      "07_gandolfinis-tights-are-too-tight-bacchus-xxxix-james-gandolfini-395490938-jpg.jpg",
+      "08_bacchus-xxxix-james-gandolfini-jpg.jpg",
+      "10_james-gandolfini-toronto-international-film-festival-2011-jpg.jpg",
+      "11_bacchus-xxxix-james-gandolfini-box-jpg.jpg",
+      "14_james-gandolfini-in-kuwait-city-2010-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.5758240222930908,
+        0.550619900226593,
+        -0.15033060312271118,
+        0.48292747139930725,
+        0.024474315345287323,
+        0.3499270975589752,
+        0.51813805103302,
+        0.864647626876831
+      ],
+      [
+        0.5758240222930908,
+        1.0,
+        0.8913527727127075,
+        -0.03324394300580025,
+        0.5898847579956055,
+        -0.033329542726278305,
+        0.573317289352417,
+        0.46120840311050415,
+        0.5106697082519531
+      ],
+      [
+        0.550619900226593,
+        0.8913527727127075,
+        1.0,
+        -0.0317046158015728,
+        0.5933968424797058,
+        -0.05965239554643631,
+        0.562675416469574,
+        0.4511355459690094,
+        0.5676437020301819
+      ],
+      [
+        -0.15033060312271118,
+        -0.03324394300580025,
+        -0.0317046158015728,
+        0.9999998807907104,
+        0.0015673140296712518,
+        -0.04681214317679405,
+        0.02953735738992691,
+        -0.05256957933306694,
+        -0.11425545811653137
+      ],
+      [
+        0.48292747139930725,
+        0.5898847579956055,
+        0.5933968424797058,
+        0.0015673140296712518,
+        1.0,
+        -0.0277871061116457,
+        0.5756381154060364,
+        0.5687786340713501,
+        0.48437345027923584
+      ],
+      [
+        0.024474315345287323,
+        -0.033329542726278305,
+        -0.05965239554643631,
+        -0.04681214317679405,
+        -0.0277871061116457,
+        1.0000001192092896,
+        -0.08498220890760422,
+        0.02147243171930313,
+        0.02183225378394127
+      ],
+      [
+        0.3499270975589752,
+        0.573317289352417,
+        0.562675416469574,
+        0.02953735738992691,
+        0.5756381154060364,
+        -0.08498220890760422,
+        1.0,
+        0.41675108671188354,
+        0.4139900803565979
+      ],
+      [
+        0.51813805103302,
+        0.46120840311050415,
+        0.4511355459690094,
+        -0.05256957933306694,
+        0.5687786340713501,
+        0.02147243171930313,
+        0.41675108671188354,
+        1.0,
+        0.5775465965270996
+      ],
+      [
+        0.864647626876831,
+        0.5106697082519531,
+        0.5676437020301819,
+        -0.11425545811653137,
+        0.48437345027923584,
+        0.02183225378394127,
+        0.4139900803565979,
+        0.5775465965270996,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/sopranos_james_gandolfini/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/sopranos_james_gandolfini/images/19_james-gandolfini-way-in-new-jersey-png.png",
+      "error": "No face detected in /workspace/input/noma_bar/data/sopranos_james_gandolfini/images/19_james-gandolfini-way-in-new-jersey-png.png"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "folder": "/workspace/input/piven/data/yitzhak_rabin",
+  "meta_path": "/workspace/input/piven/data/yitzhak_rabin/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Yitzhak Rabin (; Hebrew: \u05d9\u05b4\u05e6\u05b0\u05d7\u05b8\u05e7 \u05e8\u05b7\u05d1\u05b4\u05bc\u05d9\u05df, IPA: [its\u02c8\u03c7ak \u02c8\u0281abin]; 1 March 1922 \u2013 4 November 1995) was an Israeli statesman and general who was the prime minister of Israel, having served two terms in office, 1974\u20131977, and from 1992 until his assassination in 1995. He was the first prime minister to have been born in the region of Palestine, at the time under British control.\nRabin was born in Jerusalem to Jewish immigrants from Eastern Europe and was raised in a Labor Zionist household. He learned agriculture in school and excelled as a student. As a teenager, he joined the Palmach, the commando force of the Yishuv. He eventually rose through its ranks to become its chief of operations during the 1948 Arab\u2013Israeli War. In late 1948, he joined the newly formed Israel Defense Forces and continued to rise as a promising officer, with a 27-year career as a professional soldier. He ultimately attained the rank of Rav Aluf, the most senior rank in the Israeli Defense Force (often translated as lieutenant general). In the 1950s, Rabin helped shape the training doctrine of the IDF and he led its Operations Directorate from 1959 to 1963. He was appointed chief of the general staff in 1964 and oversaw Israel's victory in the 1967 Six-Day War.\nRabin served as Israel's ambassador to the United States from 1968 to 1973, during a period of deepening U.S.\u2013Israel ties. He was appointed Prime Minister of Israel in 1974 after the resignation of Golda Meir. In his first term, Rabin signed the Sinai Interim Agreement and ordered the Entebbe raid. He resigned in 1977 in the wake of a financial scandal. Rabin was Israel's minister of defense for much of the 1980s, including during the outbreak of the First Intifada.\nIn 1992, Rabin was re-elected as prime minister on a platform embracing the Israeli\u2013Palestinian peace process. He signed several historic agreements with the Palestinian leadership as part of the Oslo Accords.  In 1994, Rabin won the Nobel Peace Prize together with long-time political rival Shimon Peres and Palestinian leader Yasser Arafat. Rabin also signed a peace treaty with Jordan in 1994. In November 1995, he was assassinated by Yigal Amir, an extremist who opposed the terms of the Oslo Accords. Amir was convicted of Rabin's murder and sentenced to life imprisonment. Rabin was the first native-born prime minister of Israel, the only prime minister to be assassinated, and the second to die in office after Levi Eshkol. Rabin has become a symbol of the Israeli\u2013Palestinian peace process.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "rice"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "olive branch"
+    },
+    {
+      "index": 1,
+      "element": "cell door"
+    },
+    {
+      "index": 2,
+      "element": "medal bar"
+    },
+    {
+      "index": 3,
+      "element": "campaign map"
+    },
+    {
+      "index": 4,
+      "element": "podium block"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "rice"
+    ],
+    "values": [
+      [
+        0.04647289961576462
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "olive branch",
+      "cell door",
+      "medal bar",
+      "campaign map",
+      "podium block"
+    ],
+    "column_labels": [
+      "rice"
+    ],
+    "values": [
+      [
+        0.26151973009109497
+      ],
+      [
+        0.18723830580711365
+      ],
+      [
+        0.1375562697649002
+      ],
+      [
+        0.12316440045833588
+      ],
+      [
+        0.054815590381622314
+      ]
+    ]
+  }
+}

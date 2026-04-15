@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/uri_geller",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/uri_geller/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_uri-geller-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+        "similarity": 0.023465095087885857
+      },
+      {
+        "index": 1,
+        "name": "04_uri-geller-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+        "similarity": -0.0027939637657254934
+      },
+      {
+        "index": 2,
+        "name": "04_uri-geller-in-russia-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+        "similarity": 0.01498113851994276
+      },
+      {
+        "index": 3,
+        "name": "05_uri-geller-in-russia2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+        "similarity": 0.019551696255803108
+      },
+      {
+        "index": 4,
+        "name": "06_uri-geller1-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+        "similarity": 0.02980438992381096
+      },
+      {
+        "index": 5,
+        "name": "07_cir-1670-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+        "similarity": 0.02475319430232048
+      },
+      {
+        "index": 6,
+        "name": "08_uri-geller-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+        "similarity": -0.014507601037621498
+      },
+      {
+        "index": 7,
+        "name": "09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+        "similarity": 0.017380038276314735
+      },
+      {
+        "index": 8,
+        "name": "10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+        "similarity": -0.007334883324801922
+      },
+      {
+        "index": 9,
+        "name": "11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+        "similarity": 0.053936466574668884
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.023465095087885857,
+          -0.0027939637657254934,
+          0.01498113851994276,
+          0.019551696255803108,
+          0.02980438992381096,
+          0.02475319430232048,
+          -0.014507601037621498,
+          0.017380038276314735,
+          -0.007334883324801922,
+          0.053936466574668884
+        ],
+        [
+          0.023465095087885857,
+          1.0000001192092896,
+          -0.04925602674484253,
+          -0.00699589354917407,
+          -0.013166419230401516,
+          -0.05102038383483887,
+          -0.0561942495405674,
+          -0.009584108367562294,
+          -0.03366481885313988,
+          -0.05065174773335457,
+          -0.03206999972462654
+        ],
+        [
+          -0.0027939637657254934,
+          -0.04925602674484253,
+          0.9999998807907104,
+          0.45783886313438416,
+          0.5371406078338623,
+          0.4649362564086914,
+          0.5340578556060791,
+          0.3530350923538208,
+          0.4369104504585266,
+          0.44347718358039856,
+          0.5115984082221985
+        ],
+        [
+          0.01498113851994276,
+          -0.00699589354917407,
+          0.45783886313438416,
+          0.9999999403953552,
+          0.665522575378418,
+          0.4324411451816559,
+          0.41446900367736816,
+          0.5533677935600281,
+          0.42725351452827454,
+          0.3798997700214386,
+          0.5510001182556152
+        ],
+        [
+          0.019551696255803108,
+          -0.013166419230401516,
+          0.5371406078338623,
+          0.665522575378418,
+          1.0,
+          0.5312854647636414,
+          0.47532668709754944,
+          0.41416364908218384,
+          0.43178051710128784,
+          0.407417356967926,
+          0.4784034788608551
+        ],
+        [
+          0.02980438992381096,
+          -0.05102038383483887,
+          0.4649362564086914,
+          0.4324411451816559,
+          0.5312854647636414,
+          0.9999999403953552,
+          0.4808439016342163,
+          0.5106827020645142,
+          0.39465072751045227,
+          0.4735402464866638,
+          0.46051716804504395
+        ],
+        [
+          0.02475319430232048,
+          -0.0561942495405674,
+          0.5340578556060791,
+          0.41446900367736816,
+          0.47532668709754944,
+          0.4808439016342163,
+          1.0,
+          0.3694298565387726,
+          0.46850883960723877,
+          0.44540536403656006,
+          0.4772408604621887
+        ],
+        [
+          -0.014507601037621498,
+          -0.009584108367562294,
+          0.3530350923538208,
+          0.5533677935600281,
+          0.41416364908218384,
+          0.5106827020645142,
+          0.3694298565387726,
+          1.0,
+          0.4354928135871887,
+          0.4141767621040344,
+          0.5501185059547424
+        ],
+        [
+          0.017380038276314735,
+          -0.03366481885313988,
+          0.4369104504585266,
+          0.42725351452827454,
+          0.43178051710128784,
+          0.39465072751045227,
+          0.46850883960723877,
+          0.4354928135871887,
+          1.0000001192092896,
+          0.5713971257209778,
+          0.4190763533115387
+        ],
+        [
+          -0.007334883324801922,
+          -0.05065174773335457,
+          0.44347718358039856,
+          0.3798997700214386,
+          0.407417356967926,
+          0.4735402464866638,
+          0.44540536403656006,
+          0.4141767621040344,
+          0.5713971257209778,
+          0.9999998807907104,
+          0.4666956961154938
+        ],
+        [
+          0.053936466574668884,
+          -0.03206999972462654,
+          0.5115984082221985,
+          0.5510001182556152,
+          0.4784034788608551,
+          0.46051716804504395,
+          0.4772408604621887,
+          0.5501185059547424,
+          0.4190763533115387,
+          0.4666956961154938,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_uri-geller-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg"
+    },
+    {
+      "name": "04_uri-geller-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_uri-geller-in-russia-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg"
+    },
+    {
+      "name": "05_uri-geller-in-russia2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg"
+    },
+    {
+      "name": "06_uri-geller1-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg"
+    },
+    {
+      "name": "07_cir-1670-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg"
+    },
+    {
+      "name": "08_uri-geller-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg"
+    },
+    {
+      "name": "09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg"
+    },
+    {
+      "name": "10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg"
+    },
+    {
+      "name": "11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+      "similarity": -0.04925602674484253
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+      "similarity": -0.00699589354917407
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+      "similarity": -0.013166419230401516
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+      "similarity": -0.05102038383483887
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+      "similarity": -0.0561942495405674
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+      "similarity": -0.009584108367562294
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": -0.03366481885313988
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": -0.05065174773335457
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/01_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "similarity": -0.03206999972462654
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+      "similarity": 0.45783886313438416
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+      "similarity": 0.5371406078338623
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+      "similarity": 0.4649362564086914
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+      "similarity": 0.5340578556060791
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+      "similarity": 0.3530350923538208
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.4369104504585266
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.44347718358039856
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "similarity": 0.5115984082221985
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+      "similarity": 0.665522575378418
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+      "similarity": 0.4324411451816559
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+      "similarity": 0.41446900367736816
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+      "similarity": 0.5533677935600281
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.42725351452827454
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.3798997700214386
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/04_uri-geller-in-russia-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "similarity": 0.5510001182556152
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+      "similarity": 0.5312854647636414
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+      "similarity": 0.47532668709754944
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+      "similarity": 0.41416364908218384
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.43178051710128784
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.407417356967926
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/05_uri-geller-in-russia2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "similarity": 0.4784034788608551
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+      "similarity": 0.4808439016342163
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+      "similarity": 0.5106827020645142
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.39465072751045227
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.4735402464866638
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/06_uri-geller1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "similarity": 0.46051716804504395
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+      "similarity": 0.3694298565387726
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.46850883960723877
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.44540536403656006
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/07_cir-1670-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "similarity": 0.4772408604621887
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.4354928135871887
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.4141767621040344
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/08_uri-geller-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "similarity": 0.5501185059547424
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "similarity": 0.5713971257209778
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "similarity": 0.4190763533115387
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/uri_geller/images/10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/uri_geller/images/11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg",
+      "similarity": 0.4666956961154938
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_uri-geller-jpg.jpg",
+      "04_uri-geller-cropped-jpg.jpg",
+      "04_uri-geller-in-russia-jpg.jpg",
+      "05_uri-geller-in-russia2-jpg.jpg",
+      "06_uri-geller1-jpg.jpg",
+      "07_cir-1670-jpg.jpg",
+      "08_uri-geller-jpg.jpg",
+      "09_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "10_psychic-uri-geller-poses-for-a-portrait-shoot-in-london-uk-jpg.jpg",
+      "11_israeli-british-psychic-uri-geller-poses-for-a-portrait-in-london-england-september-30-1975-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        -0.04925602674484253,
+        -0.00699589354917407,
+        -0.013166419230401516,
+        -0.05102038383483887,
+        -0.0561942495405674,
+        -0.009584108367562294,
+        -0.03366481885313988,
+        -0.05065174773335457,
+        -0.03206999972462654
+      ],
+      [
+        -0.04925602674484253,
+        0.9999998807907104,
+        0.45783886313438416,
+        0.5371406078338623,
+        0.4649362564086914,
+        0.5340578556060791,
+        0.3530350923538208,
+        0.4369104504585266,
+        0.44347718358039856,
+        0.5115984082221985
+      ],
+      [
+        -0.00699589354917407,
+        0.45783886313438416,
+        0.9999999403953552,
+        0.665522575378418,
+        0.4324411451816559,
+        0.41446900367736816,
+        0.5533677935600281,
+        0.42725351452827454,
+        0.3798997700214386,
+        0.5510001182556152
+      ],
+      [
+        -0.013166419230401516,
+        0.5371406078338623,
+        0.665522575378418,
+        1.0,
+        0.5312854647636414,
+        0.47532668709754944,
+        0.41416364908218384,
+        0.43178051710128784,
+        0.407417356967926,
+        0.4784034788608551
+      ],
+      [
+        -0.05102038383483887,
+        0.4649362564086914,
+        0.4324411451816559,
+        0.5312854647636414,
+        0.9999999403953552,
+        0.4808439016342163,
+        0.5106827020645142,
+        0.39465072751045227,
+        0.4735402464866638,
+        0.46051716804504395
+      ],
+      [
+        -0.0561942495405674,
+        0.5340578556060791,
+        0.41446900367736816,
+        0.47532668709754944,
+        0.4808439016342163,
+        1.0,
+        0.3694298565387726,
+        0.46850883960723877,
+        0.44540536403656006,
+        0.4772408604621887
+      ],
+      [
+        -0.009584108367562294,
+        0.3530350923538208,
+        0.5533677935600281,
+        0.41416364908218384,
+        0.5106827020645142,
+        0.3694298565387726,
+        1.0,
+        0.4354928135871887,
+        0.4141767621040344,
+        0.5501185059547424
+      ],
+      [
+        -0.03366481885313988,
+        0.4369104504585266,
+        0.42725351452827454,
+        0.43178051710128784,
+        0.39465072751045227,
+        0.46850883960723877,
+        0.4354928135871887,
+        1.0000001192092896,
+        0.5713971257209778,
+        0.4190763533115387
+      ],
+      [
+        -0.05065174773335457,
+        0.44347718358039856,
+        0.3798997700214386,
+        0.407417356967926,
+        0.4735402464866638,
+        0.44540536403656006,
+        0.4141767621040344,
+        0.5713971257209778,
+        0.9999998807907104,
+        0.4666956961154938
+      ],
+      [
+        -0.03206999972462654,
+        0.5115984082221985,
+        0.5510001182556152,
+        0.4784034788608551,
+        0.46051716804504395,
+        0.4772408604621887,
+        0.5501185059547424,
+        0.4190763533115387,
+        0.4666956961154938,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/uri_geller/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/uri_geller/portrait.jpg"
+    }
+  ]
+}

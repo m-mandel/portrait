@@ -1,0 +1,80 @@
+{
+  "name": "matisyahu",
+  "bio": "Matthew Paul Miller (born June 30, 1979), known by his stage name Matisyahu ( ; מתתיהו‎), is an American singer, rapper, beatboxer, and musician.\nKnown for blending spiritual themes with reggae, rock and hip hop beatboxing sounds, Matisyahu's 2005 single \"King Without a Crown\" was a Top 40 hit in the United States. Since 2004, he has released seven studio albums as well as five live albums, two remix CDs and two DVDs featuring live concerts. Throughout his career, Matisyahu has worked with Bill Laswell and reggae producers Sly & Robbie and Kool Kojak. He has also appeared as an actor in films.",
+  "bio_sources": [
+    {
+      "subject": "matisyahu",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Matisyahu"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "white background field",
+      "shape_type": "rectangle",
+      "meaning": "gives the dark symbolic forms strong focus"
+    },
+    {
+      "element": "black hat filled with Hebrew letter pattern",
+      "shape_type": "textured symbol",
+      "meaning": "connects him to Jewish tradition and scripture"
+    },
+    {
+      "element": "thick black beard",
+      "shape_type": "organic shape",
+      "meaning": "marks his Hasidic image"
+    },
+    {
+      "element": "microphone-shaped lower beard",
+      "shape_type": "symbol",
+      "meaning": "links faith and identity to musical performance"
+    },
+    {
+      "element": "dark eyebrow arc",
+      "shape_type": "line",
+      "meaning": "adds intensity and concentration"
+    },
+    {
+      "element": "small floating eyes",
+      "shape_type": "oval",
+      "meaning": "keep the portrait alert and eccentric"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "championship medallion",
+      "visual_representation": "a large circular medallion mounted on a broad plate",
+      "category": "symbol",
+      "relevance": "The biography explicitly describes championship boxing.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "soundwave ribbon",
+      "visual_representation": "a flowing band of rising and falling wave peaks",
+      "category": "pattern",
+      "relevance": "The biography supports a public identity built around sound and performance.",
+      "grounding": "inferred"
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/michael_jackson",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/michael_jackson/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+        "similarity": -0.04752866551280022
+      },
+      {
+        "index": 1,
+        "name": "02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+        "similarity": -0.015365582890808582
+      },
+      {
+        "index": 2,
+        "name": "03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+        "similarity": -0.012467488646507263
+      },
+      {
+        "index": 3,
+        "name": "04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+        "similarity": -0.03106672503054142
+      },
+      {
+        "index": 4,
+        "name": "05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+        "similarity": 0.2691511809825897
+      },
+      {
+        "index": 5,
+        "name": "09_michael-jackson-1983-hq-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+        "similarity": -0.023138150572776794
+      },
+      {
+        "index": 6,
+        "name": "09_michael-jackson-in-1988-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+        "similarity": -0.07174012809991837
+      },
+      {
+        "index": 7,
+        "name": "12_michaeljacksonmug1-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+        "similarity": -0.03244509920477867
+      },
+      {
+        "index": 8,
+        "name": "15_michael-jackson-1988-3662754878-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+        "similarity": -0.023933276534080505
+      },
+      {
+        "index": 9,
+        "name": "16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+        "similarity": -0.05154633894562721
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.04752866551280022,
+          -0.015365582890808582,
+          -0.012467488646507263,
+          -0.03106672503054142,
+          0.2691511809825897,
+          -0.023138150572776794,
+          -0.07174012809991837,
+          -0.03244509920477867,
+          -0.023933276534080505,
+          -0.05154633894562721
+        ],
+        [
+          -0.04752866551280022,
+          1.0000001192092896,
+          0.04543808847665787,
+          0.04835449904203415,
+          0.04316436126828194,
+          -0.08409654349088669,
+          0.038727957755327225,
+          -0.023627186194062233,
+          0.02820991724729538,
+          -0.03851119801402092,
+          -0.0741145983338356
+        ],
+        [
+          -0.015365582890808582,
+          0.04543808847665787,
+          1.0,
+          0.9880419373512268,
+          0.31737062335014343,
+          0.004603840410709381,
+          0.9646283388137817,
+          0.26912379264831543,
+          0.41195955872535706,
+          0.009327715262770653,
+          0.046224016696214676
+        ],
+        [
+          -0.012467488646507263,
+          0.04835449904203415,
+          0.9880419373512268,
+          1.0,
+          0.31390613317489624,
+          0.005507959518581629,
+          0.9491333961486816,
+          0.2627010643482208,
+          0.4142294228076935,
+          0.004615155514329672,
+          0.04687365144491196
+        ],
+        [
+          -0.03106672503054142,
+          0.04316436126828194,
+          0.31737062335014343,
+          0.31390613317489624,
+          1.0000001192092896,
+          0.0108770951628685,
+          0.33056849241256714,
+          0.23833869397640228,
+          0.47317302227020264,
+          -0.004723148420453072,
+          0.009426958858966827
+        ],
+        [
+          0.2691511809825897,
+          -0.08409654349088669,
+          0.004603840410709381,
+          0.005507959518581629,
+          0.0108770951628685,
+          1.0,
+          0.0032775842119008303,
+          -0.005044632591307163,
+          0.06498651951551437,
+          0.023374903947114944,
+          -0.0005350056453607976
+        ],
+        [
+          -0.023138150572776794,
+          0.038727957755327225,
+          0.9646283388137817,
+          0.9491333961486816,
+          0.33056849241256714,
+          0.0032775842119008303,
+          1.0,
+          0.273646742105484,
+          0.4234752655029297,
+          0.010565819218754768,
+          0.032136742025613785
+        ],
+        [
+          -0.07174012809991837,
+          -0.023627186194062233,
+          0.26912379264831543,
+          0.2627010643482208,
+          0.23833869397640228,
+          -0.005044632591307163,
+          0.273646742105484,
+          1.0000001192092896,
+          0.21578243374824524,
+          -0.01216509286314249,
+          0.008695939555764198
+        ],
+        [
+          -0.03244509920477867,
+          0.02820991724729538,
+          0.41195955872535706,
+          0.4142294228076935,
+          0.47317302227020264,
+          0.06498651951551437,
+          0.4234752655029297,
+          0.21578243374824524,
+          1.0,
+          0.03600599616765976,
+          0.012628717347979546
+        ],
+        [
+          -0.023933276534080505,
+          -0.03851119801402092,
+          0.009327715262770653,
+          0.004615155514329672,
+          -0.004723148420453072,
+          0.023374903947114944,
+          0.010565819218754768,
+          -0.01216509286314249,
+          0.03600599616765976,
+          1.0,
+          -0.017662309110164642
+        ],
+        [
+          -0.05154633894562721,
+          -0.0741145983338356,
+          0.046224016696214676,
+          0.04687365144491196,
+          0.009426958858966827,
+          -0.0005350056453607976,
+          0.032136742025613785,
+          0.008695939555764198,
+          0.012628717347979546,
+          -0.017662309110164642,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg"
+    },
+    {
+      "name": "02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg"
+    },
+    {
+      "name": "04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg"
+    },
+    {
+      "name": "05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg"
+    },
+    {
+      "name": "09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_michaeljacksonmug1-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg"
+    },
+    {
+      "name": "15_michael-jackson-1988-3662754878-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg"
+    },
+    {
+      "name": "16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "similarity": 0.04543808847665787
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "similarity": 0.04835449904203415
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "similarity": 0.04316436126828194
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "similarity": -0.08409654349088669
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "similarity": 0.038727957755327225
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "similarity": -0.023627186194062233
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+      "similarity": 0.02820991724729538
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+      "similarity": -0.03851119801402092
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "similarity": -0.0741145983338356
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "similarity": 0.9880419373512268
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "similarity": 0.31737062335014343
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "similarity": 0.004603840410709381
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "similarity": 0.9646283388137817
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "similarity": 0.26912379264831543
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+      "similarity": 0.41195955872535706
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+      "similarity": 0.009327715262770653
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "similarity": 0.046224016696214676
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "similarity": 0.31390613317489624
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "similarity": 0.005507959518581629
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "similarity": 0.9491333961486816
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "similarity": 0.2627010643482208
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+      "similarity": 0.4142294228076935
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+      "similarity": 0.004615155514329672
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "similarity": 0.04687365144491196
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "similarity": 0.0108770951628685
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "similarity": 0.33056849241256714
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "similarity": 0.23833869397640228
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+      "similarity": 0.47317302227020264
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+      "similarity": -0.004723148420453072
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "similarity": 0.009426958858966827
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "similarity": 0.0032775842119008303
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "similarity": -0.005044632591307163
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+      "similarity": 0.06498651951551437
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+      "similarity": 0.023374903947114944
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "similarity": -0.0005350056453607976
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "similarity": 0.273646742105484
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+      "similarity": 0.4234752655029297
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+      "similarity": 0.010565819218754768
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "similarity": 0.032136742025613785
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+      "similarity": 0.21578243374824524
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+      "similarity": -0.01216509286314249
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "similarity": 0.008695939555764198
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+      "similarity": 0.03600599616765976
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/12_michaeljacksonmug1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "similarity": 0.012628717347979546
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/michael_jackson/images/15_michael-jackson-1988-3662754878-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/michael_jackson/images/16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg",
+      "similarity": -0.017662309110164642
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "02_michael-jackson-1983-3x4-cropped-jpg.jpg",
+      "03_michael-jackson-1983-3x4-cropped-contrast-jpg.jpg",
+      "04_michael-jackson-in-vegas-cropped-2-jpg.jpg",
+      "05_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "09_michael-jackson-1983-hq-cropped-jpg.jpg",
+      "09_michael-jackson-in-1988-cropped-jpg.jpg",
+      "12_michaeljacksonmug1-cropped-jpg.jpg",
+      "15_michael-jackson-1988-3662754878-jpg.jpg",
+      "16_us-navy-061117-n-8544c-045-lt-michael-jackson-embraces-his-sons-on-the-pier-during-the-homecoming-of-helicopter-antisubmarine-squadron-one-one-hs-11-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.04543808847665787,
+        0.04835449904203415,
+        0.04316436126828194,
+        -0.08409654349088669,
+        0.038727957755327225,
+        -0.023627186194062233,
+        0.02820991724729538,
+        -0.03851119801402092,
+        -0.0741145983338356
+      ],
+      [
+        0.04543808847665787,
+        1.0,
+        0.9880419373512268,
+        0.31737062335014343,
+        0.004603840410709381,
+        0.9646283388137817,
+        0.26912379264831543,
+        0.41195955872535706,
+        0.009327715262770653,
+        0.046224016696214676
+      ],
+      [
+        0.04835449904203415,
+        0.9880419373512268,
+        1.0,
+        0.31390613317489624,
+        0.005507959518581629,
+        0.9491333961486816,
+        0.2627010643482208,
+        0.4142294228076935,
+        0.004615155514329672,
+        0.04687365144491196
+      ],
+      [
+        0.04316436126828194,
+        0.31737062335014343,
+        0.31390613317489624,
+        1.0000001192092896,
+        0.0108770951628685,
+        0.33056849241256714,
+        0.23833869397640228,
+        0.47317302227020264,
+        -0.004723148420453072,
+        0.009426958858966827
+      ],
+      [
+        -0.08409654349088669,
+        0.004603840410709381,
+        0.005507959518581629,
+        0.0108770951628685,
+        1.0,
+        0.0032775842119008303,
+        -0.005044632591307163,
+        0.06498651951551437,
+        0.023374903947114944,
+        -0.0005350056453607976
+      ],
+      [
+        0.038727957755327225,
+        0.9646283388137817,
+        0.9491333961486816,
+        0.33056849241256714,
+        0.0032775842119008303,
+        1.0,
+        0.273646742105484,
+        0.4234752655029297,
+        0.010565819218754768,
+        0.032136742025613785
+      ],
+      [
+        -0.023627186194062233,
+        0.26912379264831543,
+        0.2627010643482208,
+        0.23833869397640228,
+        -0.005044632591307163,
+        0.273646742105484,
+        1.0000001192092896,
+        0.21578243374824524,
+        -0.01216509286314249,
+        0.008695939555764198
+      ],
+      [
+        0.02820991724729538,
+        0.41195955872535706,
+        0.4142294228076935,
+        0.47317302227020264,
+        0.06498651951551437,
+        0.4234752655029297,
+        0.21578243374824524,
+        1.0,
+        0.03600599616765976,
+        0.012628717347979546
+      ],
+      [
+        -0.03851119801402092,
+        0.009327715262770653,
+        0.004615155514329672,
+        -0.004723148420453072,
+        0.023374903947114944,
+        0.010565819218754768,
+        -0.01216509286314249,
+        0.03600599616765976,
+        1.0,
+        -0.017662309110164642
+      ],
+      [
+        -0.0741145983338356,
+        0.046224016696214676,
+        0.04687365144491196,
+        0.009426958858966827,
+        -0.0005350056453607976,
+        0.032136742025613785,
+        0.008695939555764198,
+        0.012628717347979546,
+        -0.017662309110164642,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/michael_jackson/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/michael_jackson/portrait.jpg"
+    }
+  ]
+}

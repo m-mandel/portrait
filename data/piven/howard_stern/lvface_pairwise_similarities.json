@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/howard_stern",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/howard_stern/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+        "similarity": 0.24034634232521057
+      },
+      {
+        "index": 1,
+        "name": "02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+        "similarity": 0.050130266696214676
+      },
+      {
+        "index": 2,
+        "name": "03_howard-stern-3-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+        "similarity": 0.06677873432636261
+      },
+      {
+        "index": 3,
+        "name": "04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+        "similarity": 0.0021809213794767857
+      },
+      {
+        "index": 4,
+        "name": "05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+        "similarity": -0.004896588157862425
+      },
+      {
+        "index": 5,
+        "name": "06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+        "similarity": 0.019503148272633553
+      },
+      {
+        "index": 6,
+        "name": "07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+        "similarity": 0.04895443469285965
+      },
+      {
+        "index": 7,
+        "name": "08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+        "similarity": 6.734515773132443e-05
+      },
+      {
+        "index": 8,
+        "name": "09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+        "similarity": 0.026949219405651093
+      },
+      {
+        "index": 9,
+        "name": "10_howard-stern-birthday.jpg",
+        "path": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+        "similarity": -0.009189460426568985
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.24034634232521057,
+          0.050130266696214676,
+          0.06677873432636261,
+          0.0021809213794767857,
+          -0.004896588157862425,
+          0.019503148272633553,
+          0.04895443469285965,
+          6.734515773132443e-05,
+          0.026949219405651093,
+          -0.009189460426568985
+        ],
+        [
+          0.24034634232521057,
+          1.0,
+          0.03346152976155281,
+          -0.009232589043676853,
+          0.014660447835922241,
+          0.0039041386917233467,
+          -0.042652618139982224,
+          -0.02022067829966545,
+          -0.02154131606221199,
+          -0.020629405975341797,
+          -0.011452716775238514
+        ],
+        [
+          0.050130266696214676,
+          0.03346152976155281,
+          1.0,
+          0.18271534144878387,
+          0.1495344638824463,
+          0.12553150951862335,
+          0.07840122282505035,
+          0.14021702110767365,
+          0.16114845871925354,
+          0.15960127115249634,
+          0.07442118227481842
+        ],
+        [
+          0.06677873432636261,
+          -0.009232589043676853,
+          0.18271534144878387,
+          1.0000001192092896,
+          0.5281460881233215,
+          0.5208447575569153,
+          0.37417179346084595,
+          0.5346720218658447,
+          0.4887189269065857,
+          0.5780279636383057,
+          0.42431285977363586
+        ],
+        [
+          0.0021809213794767857,
+          0.014660447835922241,
+          0.1495344638824463,
+          0.5281460881233215,
+          1.0,
+          0.5694446563720703,
+          0.5223013758659363,
+          0.5241064429283142,
+          0.4652291238307953,
+          0.4397181272506714,
+          0.47796839475631714
+        ],
+        [
+          -0.004896588157862425,
+          0.0039041386917233467,
+          0.12553150951862335,
+          0.5208447575569153,
+          0.5694446563720703,
+          0.9999998807907104,
+          0.6029506325721741,
+          0.5095160603523254,
+          0.44558537006378174,
+          0.5084955096244812,
+          0.5780866742134094
+        ],
+        [
+          0.019503148272633553,
+          -0.042652618139982224,
+          0.07840122282505035,
+          0.37417179346084595,
+          0.5223013758659363,
+          0.6029506325721741,
+          0.9999999403953552,
+          0.42549872398376465,
+          0.44348254799842834,
+          0.45770275592803955,
+          0.5041681528091431
+        ],
+        [
+          0.04895443469285965,
+          -0.02022067829966545,
+          0.14021702110767365,
+          0.5346720218658447,
+          0.5241064429283142,
+          0.5095160603523254,
+          0.42549872398376465,
+          1.0,
+          0.5130472779273987,
+          0.4420994222164154,
+          0.4498862326145172
+        ],
+        [
+          6.734515773132443e-05,
+          -0.02154131606221199,
+          0.16114845871925354,
+          0.4887189269065857,
+          0.4652291238307953,
+          0.44558537006378174,
+          0.44348254799842834,
+          0.5130472779273987,
+          1.0,
+          0.6538325548171997,
+          0.4586281180381775
+        ],
+        [
+          0.026949219405651093,
+          -0.020629405975341797,
+          0.15960127115249634,
+          0.5780279636383057,
+          0.4397181272506714,
+          0.5084955096244812,
+          0.45770275592803955,
+          0.4420994222164154,
+          0.6538325548171997,
+          0.9999999403953552,
+          0.27061888575553894
+        ],
+        [
+          -0.009189460426568985,
+          -0.011452716775238514,
+          0.07442118227481842,
+          0.42431285977363586,
+          0.47796839475631714,
+          0.5780866742134094,
+          0.5041681528091431,
+          0.4498862326145172,
+          0.4586281180381775,
+          0.27061888575553894,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg"
+    },
+    {
+      "name": "02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_howard-stern-3-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg"
+    },
+    {
+      "name": "05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg"
+    },
+    {
+      "name": "06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg"
+    },
+    {
+      "name": "07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg"
+    },
+    {
+      "name": "08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg"
+    },
+    {
+      "name": "09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg"
+    },
+    {
+      "name": "10_howard-stern-birthday.jpg",
+      "path": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "similarity": 0.03346152976155281
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+      "similarity": -0.009232589043676853
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "similarity": 0.014660447835922241
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "similarity": 0.0039041386917233467
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "similarity": -0.042652618139982224
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "similarity": -0.02022067829966545
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "similarity": -0.02154131606221199
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "similarity": -0.020629405975341797
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+      "similarity": -0.011452716775238514
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+      "similarity": 0.18271534144878387
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "similarity": 0.1495344638824463
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "similarity": 0.12553150951862335
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "similarity": 0.07840122282505035
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "similarity": 0.14021702110767365
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "similarity": 0.16114845871925354
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "similarity": 0.15960127115249634
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+      "similarity": 0.07442118227481842
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "similarity": 0.5281460881233215
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "similarity": 0.5208447575569153
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "similarity": 0.37417179346084595
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "similarity": 0.5346720218658447
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "similarity": 0.4887189269065857
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "similarity": 0.5780279636383057
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/03_howard-stern-3-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+      "similarity": 0.42431285977363586
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "similarity": 0.5694446563720703
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "similarity": 0.5223013758659363
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "similarity": 0.5241064429283142
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "similarity": 0.4652291238307953
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "similarity": 0.4397181272506714
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+      "similarity": 0.47796839475631714
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "similarity": 0.6029506325721741
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "similarity": 0.5095160603523254
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "similarity": 0.44558537006378174
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "similarity": 0.5084955096244812
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+      "similarity": 0.5780866742134094
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "similarity": 0.42549872398376465
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "similarity": 0.44348254799842834
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "similarity": 0.45770275592803955
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+      "similarity": 0.5041681528091431
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "similarity": 0.5130472779273987
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "similarity": 0.4420994222164154
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+      "similarity": 0.4498862326145172
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "similarity": 0.6538325548171997
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+      "similarity": 0.4586281180381775
+    },
+    {
+      "left": "/workspace/input/piven/data/howard_stern/images/09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "right": "/workspace/input/piven/data/howard_stern/images/10_howard-stern-birthday.jpg",
+      "similarity": 0.27061888575553894
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_howard-stern-libertarian-party-8912489145-jpg.jpg",
+      "02_howard-stern-libertarian-party-8912489145-cropped-jpg.jpg",
+      "03_howard-stern-3-cropped-jpg.jpg",
+      "04_howard-stern-never-apologized-for-an-interview-that-was-one-of-the.jpg",
+      "05_howard-stern-revealed-how-he-tricks-celebrities-into-saying-things-they.jpg",
+      "06_howard-stern-should-have-been-canceled-after-this-creepy-and-gross.jpg",
+      "07_kevin-costner-came-clean-about-returning-to-yellowstone-while-talking.jpg",
+      "08_howard-stern-s-prank-made-a-beloved-celebrity-want-to-take-their-own-life.jpg",
+      "09_howard-stern-could-have-been-killed-by-an-aggressive-fan.jpg",
+      "10_howard-stern-birthday.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.03346152976155281,
+        -0.009232589043676853,
+        0.014660447835922241,
+        0.0039041386917233467,
+        -0.042652618139982224,
+        -0.02022067829966545,
+        -0.02154131606221199,
+        -0.020629405975341797,
+        -0.011452716775238514
+      ],
+      [
+        0.03346152976155281,
+        1.0,
+        0.18271534144878387,
+        0.1495344638824463,
+        0.12553150951862335,
+        0.07840122282505035,
+        0.14021702110767365,
+        0.16114845871925354,
+        0.15960127115249634,
+        0.07442118227481842
+      ],
+      [
+        -0.009232589043676853,
+        0.18271534144878387,
+        1.0000001192092896,
+        0.5281460881233215,
+        0.5208447575569153,
+        0.37417179346084595,
+        0.5346720218658447,
+        0.4887189269065857,
+        0.5780279636383057,
+        0.42431285977363586
+      ],
+      [
+        0.014660447835922241,
+        0.1495344638824463,
+        0.5281460881233215,
+        1.0,
+        0.5694446563720703,
+        0.5223013758659363,
+        0.5241064429283142,
+        0.4652291238307953,
+        0.4397181272506714,
+        0.47796839475631714
+      ],
+      [
+        0.0039041386917233467,
+        0.12553150951862335,
+        0.5208447575569153,
+        0.5694446563720703,
+        0.9999998807907104,
+        0.6029506325721741,
+        0.5095160603523254,
+        0.44558537006378174,
+        0.5084955096244812,
+        0.5780866742134094
+      ],
+      [
+        -0.042652618139982224,
+        0.07840122282505035,
+        0.37417179346084595,
+        0.5223013758659363,
+        0.6029506325721741,
+        0.9999999403953552,
+        0.42549872398376465,
+        0.44348254799842834,
+        0.45770275592803955,
+        0.5041681528091431
+      ],
+      [
+        -0.02022067829966545,
+        0.14021702110767365,
+        0.5346720218658447,
+        0.5241064429283142,
+        0.5095160603523254,
+        0.42549872398376465,
+        1.0,
+        0.5130472779273987,
+        0.4420994222164154,
+        0.4498862326145172
+      ],
+      [
+        -0.02154131606221199,
+        0.16114845871925354,
+        0.4887189269065857,
+        0.4652291238307953,
+        0.44558537006378174,
+        0.44348254799842834,
+        0.5130472779273987,
+        1.0,
+        0.6538325548171997,
+        0.4586281180381775
+      ],
+      [
+        -0.020629405975341797,
+        0.15960127115249634,
+        0.5780279636383057,
+        0.4397181272506714,
+        0.5084955096244812,
+        0.45770275592803955,
+        0.4420994222164154,
+        0.6538325548171997,
+        0.9999999403953552,
+        0.27061888575553894
+      ],
+      [
+        -0.011452716775238514,
+        0.07442118227481842,
+        0.42431285977363586,
+        0.47796839475631714,
+        0.5780866742134094,
+        0.5041681528091431,
+        0.4498862326145172,
+        0.4586281180381775,
+        0.27061888575553894,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/howard_stern/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/howard_stern/portrait.jpg"
+    }
+  ]
+}

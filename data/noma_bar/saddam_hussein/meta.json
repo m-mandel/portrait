@@ -1,0 +1,80 @@
+{
+  "name": "saddam hussein",
+  "bio": "Saddam Hussein (28 April 1937 – 30 December 2006) was an Iraqi politician and revolutionary who served as the fifth president of Iraq from 1979 until his overthrow in 2003 during the United States-led invasion of Iraq. He previously served as the vice president from 1968 to 1979 and also as the prime minister from 1979 to 1991 and later from 1994 to 2003. A leading member of the Ba'ath Party (Iraqi-dominated faction), he was a proponent of Ba'athism, a mix of Arab nationalism and Arab socialism. The policies and ideologies he championed are collectively known as Saddamism, a right-wing variant of Ba'athism.\nBorn near the city of Tikrit to a Sunni Arab family, Saddam joined the revolutionary Ba'ath Party in 1957. He played a key role in the 17 July Revolution that brought the Ba'athists to power in Iraq and made him vice president under Ahmed Hassan al-Bakr. During his tenure as vice president, Saddam nationalized the Iraq Petroleum Company, diversified the economy, introduced free healthcare and education, and supported women's rights. He also presided over the defeat of the Kurdish insurgency in the Second Iraqi–Kurdish War and signed the Algiers Agreement with Iran in 1975, thereby settling territorial disputes along the Iran–Iraq border. Following al-Bakr's resignation in 1979, Saddam formally took power. During his presidency, positions of power in the country were mostly filled with Sunni Arabs, a minority that made up only about a fifth of the Iraqi population.\nUpon taking office as president in 1979, Saddam purged rivals within his party. In 1980, he ordered the invasion of Iran, purportedly to capture Iran's Arab-majority Khuzestan province, and end Iranian attempts to export its Islamic Revolution to the Arab world. In 1988, as the war with Iran ended in a stalemate, he ordered the Anfal campaign against Kurdish rebels who had sided with Iran. Later, he accused his former ally Kuwait of slant-drilling Iraq's oil reserves and subsequently invaded the country in 1990. This ultimately led to the Gulf War in 1991, which ended in Iraq's defeat by a United States-led coalition. In the war's aftermath, Saddam's forces suppressed the 1991 Iraqi uprisings launched by Kurds and Shias seeking regime change, as well as further uprisings in 1999. After reconsolidating his hold on power, Saddam pursued an Islamist agenda for Iraq through the Faith Campaign. In 2003, a US-led coalition invaded Iraq, incorrectly accusing him of developing weapons of mass destruction and of having ties with al-Qaeda. Coalition forces toppled Saddam's regime and captured him. During his trial, Saddam was convicted by the Iraqi High Tribunal of crimes against humanity and sentenced to death by hanging. He was executed on 30 December 2006.\nA polarizing and controversial figure, Saddam dominated Iraqi politics for 35 years and was the subject of a cult of personality. Many Arabs regard Saddam as a resolute leader who challenged American imperialism, opposed the Israeli occupation of Palestine, and resisted foreign intervention in the region. Conversely, many Iraqis, particularly Shias and Kurds, perceive him as a tyrant responsible for acts of repression, mass killing and other injustices. Human Rights Watch estimated that Saddam's regime was responsible for the murder or disappearance of 250,000 to 290,000 Iraqis. Saddam's government has been described by several analysts as authoritarian and totalitarian, and by some as fascist, although the applicability of those labels has been contested.",
+  "bio_sources": [
+    {
+      "subject": "saddam hussein",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Saddam_Hussein"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "pale background field",
+      "shape_type": "rectangle",
+      "meaning": "isolates the execution symbol starkly"
+    },
+    {
+      "element": "black hanging noose",
+      "shape_type": "symbol",
+      "meaning": "references the end of his rule and execution"
+    },
+    {
+      "element": "looped rope at the center",
+      "shape_type": "oval line",
+      "meaning": "makes his fate inseparable from the portrait"
+    },
+    {
+      "element": "frayed rope ends",
+      "shape_type": "textured line",
+      "meaning": "heighten brutality and finality"
+    },
+    {
+      "element": "olive moustache-like curved shape",
+      "shape_type": "organic shape",
+      "meaning": "preserves a trace of his recognizable facial styling"
+    },
+    {
+      "element": "dark corner wedges",
+      "shape_type": "triangle",
+      "meaning": "compress the image into a claustrophobic frame"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "flag field",
+      "visual_representation": "a folded field of striped or blocked civic color bands",
+      "category": "symbol",
+      "relevance": "The biography supports a public identity tied to state ceremony and leadership.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "prayer shawl fold",
+      "visual_representation": "a folded textile band with narrow edge stripes",
+      "category": "material",
+      "relevance": "Religious ritual and visible devotion belong to the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/ozzy_osbourne",
+  "meta_path": "/workspace/input/noma_bar/data/ozzy_osbourne/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "John Michael \"Ozzy\" Osbourne (3 December 1948 \u2013 22 July 2025) was an English singer, songwriter, and media personality. Dubbed the \"Prince of Darkness\", he is widely credited as a pioneer of heavy metal music. He co-founded the band Black Sabbath in 1968, and rose to prominence in the 1970s as their lead vocalist. He performed on the band's first eight studio albums, including Black Sabbath, Paranoid (both 1970) and Master of Reality (1971), before he was fired in 1979 due to his problems with alcohol and other drugs.\nAfter being replaced by Ronnie James Dio, Osbourne began a solo career in the 1980s and formed his band with Randy Rhoads and Bob Daisley, with whom he recorded the albums Blizzard of Ozz (1980) and Diary of a Madman (1981). Throughout the decade, he drew controversy for his antics both onstage and offstage, and was accused of promoting Satanism by the Christian right. Overall, Osbourne released thirteen solo studio albums, the first seven of which were certified multi-platinum in the United States. He reunited with Black Sabbath on several occasions. He rejoined from 1997 to 2005, and again in 2012; during this second reunion, he sang on the band's last studio album, 13 (2013), before they embarked on a farewell tour that ended in 2017. On 5 July 2025, Osbourne performed his final show at the Back to the Beginning concert in Birmingham, having announced that it would be his last due to health issues. Although he intended to continue recording music as a solo artist, he died 17 days later.\nOsbourne sold more than 100 million albums, including his solo work and Black Sabbath releases. He was inducted into the Rock and Roll Hall of Fame as a member of Black Sabbath in 2006 and as a solo artist in 2024. He was also inducted into the UK Music Hall of Fame both solo and with Black Sabbath in 2005. He was honoured with stars on the Hollywood Walk of Fame on 12 April 2002 and Birmingham Walk of Stars on 6 July 2007. At the 2014 MTV Europe Music Awards, he received the Global Icon Award. In 2015, he received the Ivor Novello Award for Lifetime Achievement from the British Academy of Songwriters, Composers and Authors.\nOsbourne's wife and manager Sharon founded the heavy metal touring festival Ozzfest, which was held yearly from 1996 to 2010. In the early 2000s, he became a reality television star when he appeared in the MTV reality show The Osbournes (2002\u20132005) alongside Sharon and two of their children, Kelly and Jack. He co-starred with some of his family in the television series Ozzy & Jack's World Detour (2016\u20132018) as well as The Osbournes Want to Believe (2020\u20132021).",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "purple background field"
+    },
+    {
+      "index": 1,
+      "element": "long black hair frame"
+    },
+    {
+      "index": 2,
+      "element": "white face mask"
+    },
+    {
+      "index": 3,
+      "element": "skull shape at the center"
+    },
+    {
+      "index": 4,
+      "element": "red crossbones"
+    },
+    {
+      "index": 5,
+      "element": "pointed hair spike"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "performance crown"
+    },
+    {
+      "index": 1,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 2,
+      "element": "vinyl record"
+    },
+    {
+      "index": 3,
+      "element": "stage lights"
+    },
+    {
+      "index": 4,
+      "element": "soundwave ribbon"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "purple background field",
+      "long black hair frame",
+      "white face mask",
+      "skull shape at the center",
+      "red crossbones",
+      "pointed hair spike"
+    ],
+    "values": [
+      [
+        0.07512301951646805,
+        0.11182282865047455,
+        0.07117258012294769,
+        -0.012271745130419731,
+        0.0532766655087471,
+        0.004625061526894569
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "performance crown",
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights",
+      "soundwave ribbon"
+    ],
+    "column_labels": [
+      "purple background field",
+      "long black hair frame",
+      "white face mask",
+      "skull shape at the center",
+      "red crossbones",
+      "pointed hair spike"
+    ],
+    "values": [
+      [
+        0.1687786728143692,
+        0.16095274686813354,
+        0.24429702758789062,
+        0.22623464465141296,
+        0.22250638902187347,
+        0.23387396335601807
+      ],
+      [
+        0.29438114166259766,
+        0.19950968027114868,
+        0.2984156906604767,
+        0.23696692287921906,
+        0.13455331325531006,
+        0.20239409804344177
+      ],
+      [
+        0.16980430483818054,
+        0.0824618861079216,
+        0.04940689727663994,
+        0.03981834277510643,
+        0.11369024217128754,
+        0.05793587863445282
+      ],
+      [
+        0.21516431868076324,
+        0.11131374537944794,
+        0.19796845316886902,
+        0.055456869304180145,
+        0.161263108253479,
+        0.16775473952293396
+      ],
+      [
+        0.2554062604904175,
+        0.09779244661331177,
+        0.05499371513724327,
+        0.06675894558429718,
+        0.171287402510643,
+        0.13931109011173248
+      ]
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "pope john paul ii",
+  "bio": "Pope John Paul II (born Karol Józef Wojtyła; 18 May 1920 – 2 April 2005) was head of the Catholic Church and sovereign of Vatican City from 16 October 1978 until his death in 2005. He was the first non-Italian pope since Adrian VI in the 16th century, as well as the third-longest-serving pope in history, after St. Peter and Pius IX.\nIn his youth, Wojtyła dabbled in stage acting. He graduated with excellent grades from an all-boys high school in Wadowice, Poland, in 1938, soon after which World War II broke out. During the war, to avoid being kidnapped and sent to a German forced labour camp, he signed up for work in harsh conditions in a quarry. Wojtyła eventually took up acting and developed a love for the profession and participated at a local theatre. The linguistically skilled Wojtyła wanted to study Polish in university. During his studies, he was encouraged by a conversation with Adam Stefan Sapieha to study theology and become a priest. Eventually, Wojtyła rose to the position of Archbishop of Kraków and then a cardinal, both positions held by his mentor. Wojtyła was elected pope on the third day of the October 1978 conclave, becoming one of the youngest popes in history. The conclave was called after the death of John Paul I, who served only 33 days as pope. Wojtyła adopted the name of his predecessor in tribute to him.\nPope John Paul II attempted to improve the Catholic Church's relations with Judaism, Islam, and the Eastern Orthodox Church in the spirit of ecumenism, holding atheism as the greatest threat. He maintained the Church's previous positions on such matters as abortion, artificial contraception, the ordination of women, and a celibate clergy, and although he supported the reforms of the Second Vatican Council, he was seen as generally conservative in their interpretation. He put emphasis on family and identity, while questioning consumerism, hedonism and the pursuit of wealth. He was one of the most-travelled world leaders in history, visiting 129 countries during his pontificate. As part of his special emphasis on the universal call to holiness, Pope John Paul II beatified 1,344 people, and canonised 483 saints, more than the combined tally of his predecessors during the preceding five centuries. By the time of his death, he had named most of the College of Cardinals, consecrated or co-consecrated many of the world's bishops, and ordained many priests. Pope John Paul II died on 2 April 2005, and was succeeded by Pope Benedict XVI. \nPope John Paul II has been credited with fighting against dictatorships and with helping to end communist rule in his native Poland and the rest of Europe. Under John Paul II, the Catholic Church greatly expanded its influence in Africa and Latin America and retained its influence in Europe and the rest of the world. He was proclaimed venerable by Pope Benedict XVI on 19 December 2009, and on 1 May 2011 (Divine Mercy Sunday) he was beatified. On 27 April 2014, Pope John Paul II was canonised by Pope Francis, alongside Pope John XXIII. He has been criticised for allegedly, as archbishop under Communist Poland, having been insufficiently harsh in acting against the sexual abuse of children by priests. After his canonisation, he has been referred to by some Catholics as Pope Saint John Paul the Great, though that title is not official. Changing the first word of the school name from pope to saint upon his being made a saint, Saint John Paul the Great High School was named for him in the Diocese of Arlington, Virginia, United States.\nUnder Pope John Paul II, two of the most important documents of the contemporary Catholic Church were drafted and promulgated: the 1983 Code of Canon Law, which revised and updated the 1917 Code of Canon Law, and the Catechism of the Catholic Church, the first universal catechism to be issued since the Roman Catechism.",
+  "bio_sources": [
+    {
+      "subject": "pope john paul ii",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Pope_John_Paul_II"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "modeling clay",
+      "shape_type": "moldable material",
+      "meaning": "makes the face feel deliberately shaped and managed, reinforcing pope john paul ii's religious authority and pastoral symbolism."
+    },
+    {
+      "element": "leather pieces",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing pope john paul ii's religious authority and pastoral symbolism."
+    },
+    {
+      "element": "chain",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing pope john paul ii's religious authority and pastoral symbolism."
+    },
+    {
+      "element": "cross pendant",
+      "shape_type": "symbolic accessory",
+      "meaning": "centers christian leadership and spiritual authority."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "dome silhouette",
+      "visual_representation": "a rounded dome rising above a simple base",
+      "category": "place",
+      "relevance": "The biography explicitly mentions Vatican leadership.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "cross emblem",
+      "visual_representation": "a simple cross form with strong vertical and horizontal arms",
+      "category": "symbol",
+      "relevance": "Church leadership and Christian symbolism belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "cathedral arch",
+      "visual_representation": "a tall rounded arch suggesting sacred architecture",
+      "category": "place",
+      "relevance": "Religious institutions and ceremony are central to the subject’s environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "rosary chain",
+      "visual_representation": "a linked bead-like chain dropping in a gentle curve",
+      "category": "object",
+      "relevance": "Catholic devotional imagery belongs to the subject’s broader domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "halo ring",
+      "visual_representation": "a thin glowing circular ring",
+      "category": "shape",
+      "relevance": "The biography supports a strongly spiritual public image.",
+      "grounding": "inferred"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/piven/data/sara_netanyahu",
+  "meta_path": "/workspace/input/piven/data/sara_netanyahu/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Sara Netanyahu (Hebrew: \u05e9\u05e8\u05d4 \u05e0\u05ea\u05e0\u05d9\u05d4\u05d5; n\u00e9e Ben-Artzi [\u05d1\u05df \u05d0\u05e8\u05e6\u05d9]; born November 1958) is the spouse of the prime minister of Israel by marriage to Benjamin Netanyahu, holding the role for her third time. By profession, she is an educational and career psychologist.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "broom"
+    },
+    {
+      "index": 1,
+      "element": "blue gem"
+    },
+    {
+      "index": 2,
+      "element": "badge"
+    },
+    {
+      "index": 3,
+      "element": "denture teeth"
+    },
+    {
+      "index": 4,
+      "element": "pearl necklace"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "therapy couch"
+    },
+    {
+      "index": 1,
+      "element": "spiral coil"
+    },
+    {
+      "index": 2,
+      "element": "podium block"
+    },
+    {
+      "index": 3,
+      "element": "dream mist"
+    },
+    {
+      "index": 4,
+      "element": "layered mask"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "broom",
+      "blue gem",
+      "badge",
+      "denture teeth",
+      "pearl necklace"
+    ],
+    "values": [
+      [
+        -0.03813867270946503,
+        0.018741127103567123,
+        0.026457177475094795,
+        -0.01735927164554596,
+        0.12865495681762695
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "therapy couch",
+      "spiral coil",
+      "podium block",
+      "dream mist",
+      "layered mask"
+    ],
+    "column_labels": [
+      "broom",
+      "blue gem",
+      "badge",
+      "denture teeth",
+      "pearl necklace"
+    ],
+    "values": [
+      [
+        0.1676071286201477,
+        0.11831916868686676,
+        0.13596414029598236,
+        0.12825584411621094,
+        0.1087876409292221
+      ],
+      [
+        0.2654140591621399,
+        0.18939931690692902,
+        0.1333567500114441,
+        0.008615732192993164,
+        0.2744617462158203
+      ],
+      [
+        0.2001427561044693,
+        0.12803126871585846,
+        0.24215717613697052,
+        0.21962766349315643,
+        0.0722283273935318
+      ],
+      [
+        0.19277235865592957,
+        0.24795986711978912,
+        0.17064419388771057,
+        -0.08944185078144073,
+        0.18610379099845886
+      ],
+      [
+        0.10785815119743347,
+        0.15873116254806519,
+        0.18146488070487976,
+        0.09165816009044647,
+        0.1544981449842453
+      ]
+    ]
+  }
+}

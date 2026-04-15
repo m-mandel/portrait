@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/bruce_lee",
+  "meta_path": "/workspace/input/noma_bar/data/bruce_lee/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Bruce Lee (born Lee Jun-fan; November 27, 1940 \u2013 July 20, 1973) was a Hong Kong and American martial artist, actor, and filmmaker. He was the founder of Jeet Kune Do, a hybrid martial arts philosophy, which was formed from his experiences in unarmed fighting and self-defense\u2014as well as eclectic, Zen Buddhist, and Taoist philosophies\u2014as a new school of martial arts thought. With a career spanning Hong Kong and the United States, Lee is regarded as the first global Chinese film star and one of the most influential martial artists in the history of cinema. Known for his roles in five feature-length martial arts films, he is credited with helping to popularize martial arts films in the 1970s and promoting Hong Kong action cinema.\nBorn in San Francisco and raised in Hong Kong, Lee was introduced to the Hong Kong film industry as a child actor by his father, Lee Hoi-chuen. Lee's early martial arts experience included Wing Chun (trained under Ip Man), tai chi, boxing (winning a Hong Kong boxing tournament), and frequent street fighting (neighborhood and rooftop fights). He moved to Seattle in 1959, enrolling at the University of Washington in 1961. It was during this time that Lee began to consider making money by teaching martial arts, even though he aspired to have a career in acting. He opened his first martial arts school, operated out of his home in Seattle. After later adding a second school in Oakland, California, Lee once drew significant attention at the 1964 Long Beach International Karate Championships of California by making demonstrations and speaking. He subsequently moved to Los Angeles to teach, where his students included Chuck Norris, Sharon Tate, and Kareem Abdul-Jabbar.\nLee's roles in the United States, including Kato in the ABC action television series The Green Hornet (1966\u20131967), introduced him to American audiences. After returning to Hong Kong in 1971, he landed his first leading role in The Big Boss (1971), directed by Lo Wei. A year later, Lee starred in Fist of Fury (1972), in which he portrayed Chen Zhen, and The Way of the Dragon (1972), which he directed and wrote. Lee went on to star in the American-Hong Kong co-production Enter the Dragon (1973) and The Game of Death (1978). His Hong Kong- and Hollywood-produced films, all of which were commercially successful, elevated Hong Kong martial arts films to a new level of popularity and acclaim, sparking a surge of Western interest in Chinese martial arts. The direction and tone of Lee's films, including their fight choreography and diversification, dramatically influenced and changed martial arts and martial arts films worldwide. With his influence, kung fu films began to displace the wuxia film genre\u2014fights were choreographed more realistically, fantasy elements were discarded for real-world conflicts, and the characterisation of the male lead went from simply being a chivalrous hero to one that embodied the notion of masculinity.\nLee's career was cut short by his sudden death at the age of 32 from brain edema, the causes of which remain a matter of dispute. Nevertheless, Lee's films remained popular, gained a large cult following, and became widely imitated and exploited. He became an iconic figure known throughout the world, particularly among the Chinese, based upon his portrayal of Cantonese culture in his films, and among Asian Americans for defying Asian stereotypes in the United States. Even after his death, Lee has continued to be a prominent influence on modern combat sports, including judo, karate, mixed martial arts, and boxing, as well as modern popular culture, including film, television, comics, animation, and video games. Time magazine named him one of the 100 most important people of the 20th century.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "black background field"
+    },
+    {
+      "index": 1,
+      "element": "black head silhouette"
+    },
+    {
+      "index": 2,
+      "element": "wood plank fragments"
+    },
+    {
+      "index": 3,
+      "element": "central wood face block"
+    },
+    {
+      "index": 4,
+      "element": "small tan triangle above the face"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "kicking arc"
+    },
+    {
+      "index": 1,
+      "element": "dojo mat"
+    },
+    {
+      "index": 2,
+      "element": "target ring"
+    },
+    {
+      "index": 3,
+      "element": "discipline line"
+    },
+    {
+      "index": 4,
+      "element": "camera body"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "black background field",
+      "black head silhouette",
+      "wood plank fragments",
+      "central wood face block",
+      "small tan triangle above the face"
+    ],
+    "values": [
+      [
+        0.012568293139338493,
+        0.07194443047046661,
+        -0.04473473131656647,
+        -0.015058368444442749,
+        -0.024323780089616776
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "kicking arc",
+      "dojo mat",
+      "target ring",
+      "discipline line",
+      "camera body"
+    ],
+    "column_labels": [
+      "black background field",
+      "black head silhouette",
+      "wood plank fragments",
+      "central wood face block",
+      "small tan triangle above the face"
+    ],
+    "values": [
+      [
+        0.13205920159816742,
+        0.12144593894481659,
+        0.11082939803600311,
+        0.0273558609187603,
+        0.15310901403427124
+      ],
+      [
+        0.14029370248317719,
+        0.19492152333259583,
+        0.13801021873950958,
+        0.10207867622375488,
+        0.047831255942583084
+      ],
+      [
+        0.24475489556789398,
+        0.2337234914302826,
+        0.01830355077981949,
+        0.08358322829008102,
+        0.0744023323059082
+      ],
+      [
+        0.142343208193779,
+        0.1697198748588562,
+        0.08868765830993652,
+        0.13809549808502197,
+        0.04285908862948418
+      ],
+      [
+        0.2822945713996887,
+        0.3735957145690918,
+        0.17775604128837585,
+        0.18526330590248108,
+        0.1533219814300537
+      ]
+    ]
+  }
+}

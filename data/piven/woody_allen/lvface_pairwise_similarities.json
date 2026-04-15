@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/woody_allen",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/woody_allen/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+        "path": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+        "similarity": 0.00668378546833992
+      },
+      {
+        "index": 1,
+        "name": "02_woody-allen-hs-yearbook-jpeg.jpg",
+        "path": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+        "similarity": -0.03957768902182579
+      },
+      {
+        "index": 2,
+        "name": "03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+        "path": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+        "similarity": 0.004108462482690811
+      },
+      {
+        "index": 3,
+        "name": "04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+        "path": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+        "similarity": -0.017960358411073685
+      },
+      {
+        "index": 4,
+        "name": "05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+        "path": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+        "similarity": -0.008706117048859596
+      },
+      {
+        "index": 5,
+        "name": "06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+        "path": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+        "similarity": 0.014396561309695244
+      },
+      {
+        "index": 6,
+        "name": "07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+        "path": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+        "similarity": -0.0331093892455101
+      },
+      {
+        "index": 7,
+        "name": "08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+        "path": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+        "similarity": 0.012296739034354687
+      },
+      {
+        "index": 8,
+        "name": "09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+        "path": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+        "similarity": 0.03635777160525322
+      },
+      {
+        "index": 9,
+        "name": "10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+        "similarity": 0.013213160447776318
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.00668378546833992,
+          -0.03957768902182579,
+          0.004108462482690811,
+          -0.017960358411073685,
+          -0.008706117048859596,
+          0.014396561309695244,
+          -0.0331093892455101,
+          0.012296739034354687,
+          0.03635777160525322,
+          0.013213160447776318
+        ],
+        [
+          0.00668378546833992,
+          1.0,
+          0.06967514008283615,
+          0.049649208784103394,
+          0.036919981241226196,
+          0.08871864527463913,
+          0.002976158168166876,
+          0.04594229906797409,
+          0.07861346006393433,
+          0.061674363911151886,
+          0.05299657955765724
+        ],
+        [
+          -0.03957768902182579,
+          0.06967514008283615,
+          1.0,
+          0.2438281625509262,
+          0.38914698362350464,
+          0.43952351808547974,
+          0.3134881556034088,
+          0.45222342014312744,
+          0.40113016963005066,
+          0.4578249752521515,
+          0.3769286274909973
+        ],
+        [
+          0.004108462482690811,
+          0.049649208784103394,
+          0.2438281625509262,
+          1.0,
+          0.3691662847995758,
+          0.40834805369377136,
+          0.3451521098613739,
+          0.44918549060821533,
+          0.4117678701877594,
+          0.40004265308380127,
+          0.47373896837234497
+        ],
+        [
+          -0.017960358411073685,
+          0.036919981241226196,
+          0.38914698362350464,
+          0.3691662847995758,
+          1.0,
+          0.6455873847007751,
+          0.5130571722984314,
+          0.5250443816184998,
+          0.5066408514976501,
+          0.6359133124351501,
+          0.5207810997962952
+        ],
+        [
+          -0.008706117048859596,
+          0.08871864527463913,
+          0.43952351808547974,
+          0.40834805369377136,
+          0.6455873847007751,
+          1.0,
+          0.5858764052391052,
+          0.5640071630477905,
+          0.6284541487693787,
+          0.6409486532211304,
+          0.6274495124816895
+        ],
+        [
+          0.014396561309695244,
+          0.002976158168166876,
+          0.3134881556034088,
+          0.3451521098613739,
+          0.5130571722984314,
+          0.5858764052391052,
+          1.0,
+          0.5047857761383057,
+          0.4631568193435669,
+          0.5129494667053223,
+          0.45190730690956116
+        ],
+        [
+          -0.0331093892455101,
+          0.04594229906797409,
+          0.45222342014312744,
+          0.44918549060821533,
+          0.5250443816184998,
+          0.5640071630477905,
+          0.5047857761383057,
+          1.0,
+          0.5401026010513306,
+          0.5895667672157288,
+          0.5232285857200623
+        ],
+        [
+          0.012296739034354687,
+          0.07861346006393433,
+          0.40113016963005066,
+          0.4117678701877594,
+          0.5066408514976501,
+          0.6284541487693787,
+          0.4631568193435669,
+          0.5401026010513306,
+          1.0,
+          0.5808360576629639,
+          0.5415832996368408
+        ],
+        [
+          0.03635777160525322,
+          0.061674363911151886,
+          0.4578249752521515,
+          0.40004265308380127,
+          0.6359133124351501,
+          0.6409486532211304,
+          0.5129494667053223,
+          0.5895667672157288,
+          0.5808360576629639,
+          1.0,
+          0.5427637100219727
+        ],
+        [
+          0.013213160447776318,
+          0.05299657955765724,
+          0.3769286274909973,
+          0.47373896837234497,
+          0.5207810997962952,
+          0.6274495124816895,
+          0.45190730690956116,
+          0.5232285857200623,
+          0.5415832996368408,
+          0.5427637100219727,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "path": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg"
+    },
+    {
+      "name": "02_woody-allen-hs-yearbook-jpeg.jpg",
+      "path": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg"
+    },
+    {
+      "name": "03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "path": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg"
+    },
+    {
+      "name": "04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "path": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg"
+    },
+    {
+      "name": "05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "path": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg"
+    },
+    {
+      "name": "06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "path": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg"
+    },
+    {
+      "name": "07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "path": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg"
+    },
+    {
+      "name": "08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "path": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg"
+    },
+    {
+      "name": "09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "path": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png"
+    },
+    {
+      "name": "10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+      "similarity": 0.06967514008283615
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "similarity": 0.049649208784103394
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.036919981241226196
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "similarity": 0.08871864527463913
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "similarity": 0.002976158168166876
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "similarity": 0.04594229906797409
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "similarity": 0.07861346006393433
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "similarity": 0.061674363911151886
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.05299657955765724
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "similarity": 0.2438281625509262
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.38914698362350464
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "similarity": 0.43952351808547974
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "similarity": 0.3134881556034088
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "similarity": 0.45222342014312744
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "similarity": 0.40113016963005066
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "similarity": 0.4578249752521515
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/02_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.3769286274909973
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.3691662847995758
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "similarity": 0.40834805369377136
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "similarity": 0.3451521098613739
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "similarity": 0.44918549060821533
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "similarity": 0.4117678701877594
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "similarity": 0.40004265308380127
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.47373896837234497
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "similarity": 0.6455873847007751
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "similarity": 0.5130571722984314
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "similarity": 0.5250443816184998
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "similarity": 0.5066408514976501
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "similarity": 0.6359133124351501
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.5207810997962952
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "similarity": 0.5858764052391052
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "similarity": 0.5640071630477905
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "similarity": 0.6284541487693787
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "similarity": 0.6409486532211304
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.6274495124816895
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "similarity": 0.5047857761383057
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "similarity": 0.4631568193435669
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "similarity": 0.5129494667053223
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.45190730690956116
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "similarity": 0.5401026010513306
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "similarity": 0.5895667672157288
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.5232285857200623
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "similarity": 0.5808360576629639
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "right": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.5415832996368408
+    },
+    {
+      "left": "/workspace/input/piven/data/woody_allen/images/09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "right": "/workspace/input/piven/data/woody_allen/images/10_allen-at-black-and-white-stock-photos-images-alamy.jpg",
+      "similarity": 0.5427637100219727
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_woody-allen-soon-yi-previn-in-venice-gianangelo-pistoia-jpg.jpg",
+      "02_woody-allen-hs-yearbook-jpeg.jpg",
+      "03_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "04_woody-allen-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "05_woody-allen-portrait-9121-20-abcdvdvideo.jpg",
+      "06_woody-allen-au-crayon-graphite-sur-papier-dessin-a4-portrait-male.jpg",
+      "07_download-american-director-and-actor-woody-allen-1965-portrait.jpg",
+      "08_woody-allen-poses-for-a-portrait-circa-1960-in-new-york-city-new.jpg",
+      "09_woody-allen-portrait-d-un-antimoderne-cnrs-editions.png",
+      "10_allen-at-black-and-white-stock-photos-images-alamy.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.06967514008283615,
+        0.049649208784103394,
+        0.036919981241226196,
+        0.08871864527463913,
+        0.002976158168166876,
+        0.04594229906797409,
+        0.07861346006393433,
+        0.061674363911151886,
+        0.05299657955765724
+      ],
+      [
+        0.06967514008283615,
+        1.0,
+        0.2438281625509262,
+        0.38914698362350464,
+        0.43952351808547974,
+        0.3134881556034088,
+        0.45222342014312744,
+        0.40113016963005066,
+        0.4578249752521515,
+        0.3769286274909973
+      ],
+      [
+        0.049649208784103394,
+        0.2438281625509262,
+        1.0,
+        0.3691662847995758,
+        0.40834805369377136,
+        0.3451521098613739,
+        0.44918549060821533,
+        0.4117678701877594,
+        0.40004265308380127,
+        0.47373896837234497
+      ],
+      [
+        0.036919981241226196,
+        0.38914698362350464,
+        0.3691662847995758,
+        1.0,
+        0.6455873847007751,
+        0.5130571722984314,
+        0.5250443816184998,
+        0.5066408514976501,
+        0.6359133124351501,
+        0.5207810997962952
+      ],
+      [
+        0.08871864527463913,
+        0.43952351808547974,
+        0.40834805369377136,
+        0.6455873847007751,
+        1.0,
+        0.5858764052391052,
+        0.5640071630477905,
+        0.6284541487693787,
+        0.6409486532211304,
+        0.6274495124816895
+      ],
+      [
+        0.002976158168166876,
+        0.3134881556034088,
+        0.3451521098613739,
+        0.5130571722984314,
+        0.5858764052391052,
+        1.0,
+        0.5047857761383057,
+        0.4631568193435669,
+        0.5129494667053223,
+        0.45190730690956116
+      ],
+      [
+        0.04594229906797409,
+        0.45222342014312744,
+        0.44918549060821533,
+        0.5250443816184998,
+        0.5640071630477905,
+        0.5047857761383057,
+        1.0,
+        0.5401026010513306,
+        0.5895667672157288,
+        0.5232285857200623
+      ],
+      [
+        0.07861346006393433,
+        0.40113016963005066,
+        0.4117678701877594,
+        0.5066408514976501,
+        0.6284541487693787,
+        0.4631568193435669,
+        0.5401026010513306,
+        1.0,
+        0.5808360576629639,
+        0.5415832996368408
+      ],
+      [
+        0.061674363911151886,
+        0.4578249752521515,
+        0.40004265308380127,
+        0.6359133124351501,
+        0.6409486532211304,
+        0.5129494667053223,
+        0.5895667672157288,
+        0.5808360576629639,
+        1.0,
+        0.5427637100219727
+      ],
+      [
+        0.05299657955765724,
+        0.3769286274909973,
+        0.47373896837234497,
+        0.5207810997962952,
+        0.6274495124816895,
+        0.45190730690956116,
+        0.5232285857200623,
+        0.5415832996368408,
+        0.5427637100219727,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/woody_allen/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/woody_allen/portrait.jpg"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/golda_meir",
+  "meta_path": "/workspace/input/piven/data/golda_meir/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Golda Meir (previously Meyerson; n\u00e9e Mabovitch; 3 May 1898 \u2013 8 December 1978) was the prime minister of Israel from 1969 to 1974. She was Israel's first and, to date, only female head of government.\nBorn into a Jewish family in Kiev (within present-day Ukraine), Russian Empire, Meir immigrated with her family to the United States in 1906. She graduated from the Milwaukee State Normal School and found work as a teacher. While in Milwaukee, she embraced the Labor Zionist movement. In 1921, Meir and her husband immigrated to Mandatory Palestine, settling in Merhavia, later becoming the kibbutz's representative to the Histadrut. In 1934, she was elevated to the executive committee of the trade union. Meir held several key roles in the Jewish Agency during and after World War II. She was a signatory of the Israeli Declaration of Independence, in 1948. Meir was elected to the Knesset, in 1949, and served as Labor Minister until 1956, when she was appointed Foreign Minister by Prime Minister David Ben-Gurion. She retired from the ministry in 1966 due to ill health.\nIn 1969, Meir assumed the role of prime minister following the death of Levi Eshkol. Early in her tenure, she made multiple diplomatic visits to western leaders to promote her vision of peace in the region. The outbreak of the Yom Kippur War in 1973 caught Israel off guard and inflicted severe early losses on the army. The resulting public anger damaged Meir's reputation and led to an inquiry into the failings. Her Alignment coalition was denied a majority in the subsequent legislative election; she resigned the following year and was succeeded as prime minister by Yitzhak Rabin. Meir died in 1978 of lymphoma and was buried on Mount Herzl.\nA controversial figure in Israel, Meir has been lionized as a founder of the state and described as the \"Iron Lady\" of Israeli politics, but also widely blamed for the country being caught by surprise during the war of 1973. In addition, her dismissive statements towards the Palestinians have been described as the most famous example of Israeli denial of Palestinian identity. Most historians believe Meir was more successful as Minister of Labour and Housing than as Premier.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "knit cap"
+    },
+    {
+      "index": 1,
+      "element": "bread dough"
+    },
+    {
+      "index": 2,
+      "element": "chicken drumstick"
+    },
+    {
+      "index": 3,
+      "element": "shoe"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "olive branch"
+    },
+    {
+      "index": 1,
+      "element": "protest banner"
+    },
+    {
+      "index": 2,
+      "element": "march line"
+    },
+    {
+      "index": 3,
+      "element": "podium block"
+    },
+    {
+      "index": 4,
+      "element": "medal bar"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "knit cap",
+      "bread dough",
+      "chicken drumstick",
+      "shoe"
+    ],
+    "values": [
+      [
+        0.06037655472755432,
+        -0.0034921541810035706,
+        -0.0014787428081035614,
+        -0.0026878248900175095
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "olive branch",
+      "protest banner",
+      "march line",
+      "podium block",
+      "medal bar"
+    ],
+    "column_labels": [
+      "knit cap",
+      "bread dough",
+      "chicken drumstick",
+      "shoe"
+    ],
+    "values": [
+      [
+        0.11305899918079376,
+        0.20376423001289368,
+        0.17272885143756866,
+        0.2215864062309265
+      ],
+      [
+        0.15746885538101196,
+        0.08956384658813477,
+        0.21711739897727966,
+        0.1081869974732399
+      ],
+      [
+        0.09856776893138885,
+        0.15321385860443115,
+        0.14042183756828308,
+        0.2813299000263214
+      ],
+      [
+        0.13352207839488983,
+        0.12082358449697495,
+        0.09713014215230942,
+        0.18932205438613892
+      ],
+      [
+        0.11957906931638718,
+        0.08503146469593048,
+        0.16925930976867676,
+        0.22729837894439697
+      ]
+    ]
+  }
+}

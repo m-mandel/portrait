@@ -1,0 +1,85 @@
+{
+  "name": "jamie oliver",
+  "bio": "Jamie Trevor Oliver   (born 27 May 1975) is an English celebrity chef, restaurateur and cookbook author. He is known for his casual approach to cuisine, and he has fronted many television shows and opened numerous restaurants.\nOliver reached the public eye when his BBC Two series The Naked Chef premiered in 1999. In 2005, he started a campaign, Feed Me Better, to introduce schoolchildren to healthier foods, which was later backed by the government. He was the owner of a restaurant chain, Jamie Oliver Restaurant Group, which opened its first restaurant, Jamie's Italian, in 2008. The chain went into administration in May 2019.\nOliver is a best-selling British non-fiction author. As of February 2019, Oliver had sold more than 14.55 million books. His TED Talk won him the 2010 TED Prize. In June 2003, Oliver was made a Member of the Order of the British Empire for \"services to the hospitality industry\".",
+  "bio_sources": [
+    {
+      "subject": "jamie oliver",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Jamie_Oliver"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "yellow background field",
+      "shape_type": "rectangle",
+      "meaning": "feels bright, domestic, and kitchen-friendly"
+    },
+    {
+      "element": "jagged blond hair",
+      "shape_type": "organic shape",
+      "meaning": "captures youthful energy and TV informality"
+    },
+    {
+      "element": "white face silhouette",
+      "shape_type": "organic shape",
+      "meaning": "keeps the portrait open and friendly"
+    },
+    {
+      "element": "red nose shape",
+      "shape_type": "teardrop",
+      "meaning": "adds clownish play and cheeky exuberance"
+    },
+    {
+      "element": "red smiling mouth with visible tongue",
+      "shape_type": "crescent",
+      "meaning": "emphasizes his extroverted television persona"
+    },
+    {
+      "element": "blue shirt block",
+      "shape_type": "geometric shape",
+      "meaning": "grounds the cheerful face in casual everyday life"
+    },
+    {
+      "element": "thin eyebrow arcs",
+      "shape_type": "line",
+      "meaning": "animate the expression with easy confidence"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "plate ring",
+      "visual_representation": "a clean round dinner plate seen from above",
+      "category": "object",
+      "relevance": "The biography explicitly centers on cooking, restaurants, or food writing.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "book stack",
+      "visual_representation": "stacked books with staggered page edges",
+      "category": "object",
+      "relevance": "The biography explicitly describes literary work.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "chef knife",
+      "visual_representation": "a broad kitchen knife with a smooth tapered blade",
+      "category": "object",
+      "relevance": "Cooking and professional food preparation define the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "frying pan",
+      "visual_representation": "a shallow round pan with a straight handle",
+      "category": "object",
+      "relevance": "Kitchen practice is central to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "cookbook pages",
+      "visual_representation": "open pages with short recipe-like line blocks",
+      "category": "object",
+      "relevance": "Cookbooks and food writing belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

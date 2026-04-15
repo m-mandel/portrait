@@ -1,0 +1,75 @@
+{
+  "name": "Barbara Bush",
+  "bio": "Barbara Bush (née Pierce; June 8, 1925 – April 17, 2018) was the first lady of the United States from 1989 to 1993, as the wife of George H. W. Bush, the 41st president of the United States. She was previously second lady of the United States from 1981 to 1989, when her husband was vice president under President Ronald Reagan, and founded the Barbara Bush Foundation for Family Literacy. Among her children are George W. Bush, the 43rd president of the United States, and Jeb Bush, the 43rd governor of Florida. Bush and Abigail Adams are the only two women to be the wife of one U.S. president and the mother of another. At the time she became first lady, she was the second oldest woman to hold the position, behind only Anna Harrison, who never lived in the capital. Bush was generally popular as first lady, recognized for her apolitical grandmotherly image.\nBarbara Pierce was born in New York City and grew up in Rye, New York. She met George H. W. Bush at the age of 16, and the two married in 1945. They moved to Texas in 1948, where George was successful in the oil industry and later began his political career. The couple had six children between 1946 and 1959, and endured the loss of their three-year-old daughter Robin to leukemia in 1953. Bush lived in Washington, D.C., New York, and China while accompanying her husband in his various political roles in the 1960s and 1970s. She became an active campaigner for her husband whenever he stood for election. Bush became second lady after her husband became vice president in 1981. She took on the role of a social hostess as second lady, holding frequent events at the vice president's residence, and she traveled to many countries with her husband on his diplomatic missions.\nBush became First Lady in 1989 after her husband was inaugurated as president. She enjoyed the role and life in the White House, though her experience as first lady was complicated by her protectiveness over her family and her diagnosis of Graves' disease in 1989. She frequently carried out charity work, including her projects to promote literacy and her support for people with AIDS. Among the most prominent of her actions as first lady was the commencement speech she gave at Wellesley College; it saw considerable publicity and her selection was controversial, but it was widely regarded as a success. She remained active in political campaigning after leaving the White House, as two of her sons ran for office in both gubernatorial and presidential campaigns.",
+  "bio_sources": [
+    {
+      "subject": "Barbara Bush",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Barbara_Bush"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "cotton",
+      "shape_type": "organic object",
+      "meaning": "adds an earthy, bodily note that keeps Barbara Bush's matriarchal warmth and establishment poise tactile and human."
+    },
+    {
+      "element": "patterned fabric",
+      "shape_type": "textile object",
+      "meaning": "builds the portrait's costume and surface while reinforcing Barbara Bush's matriarchal warmth and establishment poise."
+    },
+    {
+      "element": "bead necklace",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen Barbara Bush's matriarchal warmth and establishment poise."
+    },
+    {
+      "element": "earring bead",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen Barbara Bush's matriarchal warmth and establishment poise."
+    },
+    {
+      "element": "buttons",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen Barbara Bush's matriarchal warmth and establishment poise."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "olive branch",
+      "visual_representation": "a slim stem with small paired leaves",
+      "category": "symbol",
+      "relevance": "The biography explicitly includes diplomacy, peace work, or negotiation.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "city skyline",
+      "visual_representation": "a row of narrow vertical blocks like tall buildings",
+      "category": "place",
+      "relevance": "The biography explicitly ties the subject to New York City.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

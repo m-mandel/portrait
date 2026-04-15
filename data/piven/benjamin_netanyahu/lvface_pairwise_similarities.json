@@ -1,0 +1,749 @@
+{
+  "folder": "/workspace/input/piven/data/benjamin_netanyahu",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "portrait.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+        "similarity": 0.13888297975063324
+      },
+      {
+        "index": 1,
+        "name": "01_benjamin-netanyahu-1996-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+        "similarity": 0.004191416781395674
+      },
+      {
+        "index": 2,
+        "name": "02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+        "similarity": -0.02289813943207264
+      },
+      {
+        "index": 3,
+        "name": "03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+        "similarity": 0.00019434283603914082
+      },
+      {
+        "index": 4,
+        "name": "04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+        "similarity": -0.012455224990844727
+      },
+      {
+        "index": 5,
+        "name": "06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+        "similarity": -0.010750407353043556
+      },
+      {
+        "index": 6,
+        "name": "07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+        "similarity": -0.012502627447247505
+      },
+      {
+        "index": 7,
+        "name": "08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+        "similarity": -0.0156357754021883
+      },
+      {
+        "index": 8,
+        "name": "09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+        "similarity": -0.008641225285828114
+      },
+      {
+        "index": 9,
+        "name": "10_benjamin-netanyahu-2012-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+        "similarity": 0.03219103068113327
+      },
+      {
+        "index": 10,
+        "name": "11_benjamin-netanyahu-portrait-jpg.jpg",
+        "path": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+        "similarity": -0.020369255915284157
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "values": [
+        [
+          1.0,
+          0.13888297975063324,
+          0.004191416781395674,
+          -0.02289813943207264,
+          0.00019434283603914082,
+          -0.012455224990844727,
+          -0.010750407353043556,
+          -0.012502627447247505,
+          -0.0156357754021883,
+          -0.008641225285828114,
+          0.03219103068113327,
+          -0.020369255915284157
+        ],
+        [
+          0.13888297975063324,
+          1.0,
+          -0.007825850509107113,
+          -0.00844565313309431,
+          0.018185632303357124,
+          -0.010554339736700058,
+          -0.02321360819041729,
+          -0.01481954287737608,
+          -0.0022389397490769625,
+          -0.007196920458227396,
+          -0.030453026294708252,
+          -0.022454624995589256
+        ],
+        [
+          0.004191416781395674,
+          -0.007825850509107113,
+          1.0000001192092896,
+          0.6410430669784546,
+          0.40677449107170105,
+          0.5035322904586792,
+          0.47835853695869446,
+          0.49463558197021484,
+          0.48832038044929504,
+          0.8784897923469543,
+          0.5261922478675842,
+          0.46186962723731995
+        ],
+        [
+          -0.02289813943207264,
+          -0.00844565313309431,
+          0.6410430669784546,
+          1.0,
+          0.5239973664283752,
+          0.46095895767211914,
+          0.4589102864265442,
+          0.4510483145713806,
+          0.45295250415802,
+          0.7044139504432678,
+          0.42363590002059937,
+          0.4883032739162445
+        ],
+        [
+          0.00019434283603914082,
+          0.018185632303357124,
+          0.40677449107170105,
+          0.5239973664283752,
+          1.0000001192092896,
+          0.47196629643440247,
+          0.5529667139053345,
+          0.5407867431640625,
+          0.48482757806777954,
+          0.46542325615882874,
+          0.4853946566581726,
+          0.5234593152999878
+        ],
+        [
+          -0.012455224990844727,
+          -0.010554339736700058,
+          0.5035322904586792,
+          0.46095895767211914,
+          0.47196629643440247,
+          1.0000001192092896,
+          0.8283765912055969,
+          0.7945364713668823,
+          0.8432983756065369,
+          0.48096221685409546,
+          0.40377405285835266,
+          0.4774656891822815
+        ],
+        [
+          -0.010750407353043556,
+          -0.02321360819041729,
+          0.47835853695869446,
+          0.4589102864265442,
+          0.5529667139053345,
+          0.8283765912055969,
+          1.0000001192092896,
+          0.7135230898857117,
+          0.7377250790596008,
+          0.44027113914489746,
+          0.413518488407135,
+          0.49771595001220703
+        ],
+        [
+          -0.012502627447247505,
+          -0.01481954287737608,
+          0.49463558197021484,
+          0.4510483145713806,
+          0.5407867431640625,
+          0.7945364713668823,
+          0.7135230898857117,
+          1.0000001192092896,
+          0.8924899101257324,
+          0.5076841711997986,
+          0.41202643513679504,
+          0.38989540934562683
+        ],
+        [
+          -0.0156357754021883,
+          -0.0022389397490769625,
+          0.48832038044929504,
+          0.45295250415802,
+          0.48482757806777954,
+          0.8432983756065369,
+          0.7377250790596008,
+          0.8924899101257324,
+          1.0,
+          0.49204668402671814,
+          0.40466633439064026,
+          0.39729344844818115
+        ],
+        [
+          -0.008641225285828114,
+          -0.007196920458227396,
+          0.8784897923469543,
+          0.7044139504432678,
+          0.46542325615882874,
+          0.48096221685409546,
+          0.44027113914489746,
+          0.5076841711997986,
+          0.49204668402671814,
+          1.0,
+          0.5119079947471619,
+          0.48906344175338745
+        ],
+        [
+          0.03219103068113327,
+          -0.030453026294708252,
+          0.5261922478675842,
+          0.42363590002059937,
+          0.4853946566581726,
+          0.40377405285835266,
+          0.413518488407135,
+          0.41202643513679504,
+          0.40466633439064026,
+          0.5119079947471619,
+          1.0,
+          0.43587544560432434
+        ],
+        [
+          -0.020369255915284157,
+          -0.022454624995589256,
+          0.46186962723731995,
+          0.4883032739162445,
+          0.5234593152999878,
+          0.4774656891822815,
+          0.49771595001220703,
+          0.38989540934562683,
+          0.39729344844818115,
+          0.48906344175338745,
+          0.43587544560432434,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "portrait.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg"
+    },
+    {
+      "name": "01_benjamin-netanyahu-1996-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg"
+    },
+    {
+      "name": "02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg"
+    },
+    {
+      "name": "03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_benjamin-netanyahu-2012-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg"
+    },
+    {
+      "name": "11_benjamin-netanyahu-portrait-jpg.jpg",
+      "path": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "similarity": -0.007825850509107113
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "similarity": -0.00844565313309431
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "similarity": 0.018185632303357124
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "similarity": -0.010554339736700058
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "similarity": -0.02321360819041729
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "similarity": -0.01481954287737608
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "similarity": -0.0022389397490769625
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "similarity": -0.007196920458227396
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "similarity": -0.030453026294708252
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/portrait.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": -0.022454624995589256
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "similarity": 0.6410430669784546
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "similarity": 0.40677449107170105
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "similarity": 0.5035322904586792
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "similarity": 0.47835853695869446
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "similarity": 0.49463558197021484
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "similarity": 0.48832038044929504
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "similarity": 0.8784897923469543
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "similarity": 0.5261922478675842
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/01_benjamin-netanyahu-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": 0.46186962723731995
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "similarity": 0.5239973664283752
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "similarity": 0.46095895767211914
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "similarity": 0.4589102864265442
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "similarity": 0.4510483145713806
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "similarity": 0.45295250415802
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "similarity": 0.7044139504432678
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "similarity": 0.42363590002059937
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": 0.4883032739162445
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "similarity": 0.47196629643440247
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "similarity": 0.5529667139053345
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "similarity": 0.5407867431640625
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "similarity": 0.48482757806777954
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "similarity": 0.46542325615882874
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "similarity": 0.4853946566581726
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": 0.5234593152999878
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "similarity": 0.8283765912055969
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "similarity": 0.7945364713668823
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "similarity": 0.8432983756065369
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "similarity": 0.48096221685409546
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "similarity": 0.40377405285835266
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": 0.4774656891822815
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "similarity": 0.7135230898857117
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "similarity": 0.7377250790596008
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "similarity": 0.44027113914489746
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "similarity": 0.413518488407135
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": 0.49771595001220703
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "similarity": 0.8924899101257324
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "similarity": 0.5076841711997986
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "similarity": 0.41202643513679504
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": 0.38989540934562683
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "similarity": 0.49204668402671814
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "similarity": 0.40466633439064026
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": 0.39729344844818115
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "similarity": 0.5119079947471619
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": 0.48906344175338745
+    },
+    {
+      "left": "/workspace/input/piven/data/benjamin_netanyahu/images/10_benjamin-netanyahu-2012-jpg.jpg",
+      "right": "/workspace/input/piven/data/benjamin_netanyahu/images/11_benjamin-netanyahu-portrait-jpg.jpg",
+      "similarity": 0.43587544560432434
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "portrait.jpg",
+      "01_benjamin-netanyahu-1996-jpg.jpg",
+      "02_benjamin-netanyahu-official-portrait-1996-jpg.jpg",
+      "03_benjamin-netanyahu-2019-cropped-jpg.jpg",
+      "04_benjamin-netanyahu-portrait-february-2023-3x4-cropped-jpg.jpg",
+      "06_benjamin-netanyahu-february-2023-3x4-close-cropped-jpg.jpg",
+      "07_benjamin-netanyahu-february-2023-cropped-jpg.jpg",
+      "08_benjamin-netanyahu-february-2023-3x4-farther-cropped-jpg.jpg",
+      "09_benjamin-netanyahu-1996-cropped-jpg.jpg",
+      "10_benjamin-netanyahu-2012-jpg.jpg",
+      "11_benjamin-netanyahu-portrait-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        -0.007825850509107113,
+        -0.00844565313309431,
+        0.018185632303357124,
+        -0.010554339736700058,
+        -0.02321360819041729,
+        -0.01481954287737608,
+        -0.0022389397490769625,
+        -0.007196920458227396,
+        -0.030453026294708252,
+        -0.022454624995589256
+      ],
+      [
+        -0.007825850509107113,
+        1.0000001192092896,
+        0.6410430669784546,
+        0.40677449107170105,
+        0.5035322904586792,
+        0.47835853695869446,
+        0.49463558197021484,
+        0.48832038044929504,
+        0.8784897923469543,
+        0.5261922478675842,
+        0.46186962723731995
+      ],
+      [
+        -0.00844565313309431,
+        0.6410430669784546,
+        1.0,
+        0.5239973664283752,
+        0.46095895767211914,
+        0.4589102864265442,
+        0.4510483145713806,
+        0.45295250415802,
+        0.7044139504432678,
+        0.42363590002059937,
+        0.4883032739162445
+      ],
+      [
+        0.018185632303357124,
+        0.40677449107170105,
+        0.5239973664283752,
+        1.0000001192092896,
+        0.47196629643440247,
+        0.5529667139053345,
+        0.5407867431640625,
+        0.48482757806777954,
+        0.46542325615882874,
+        0.4853946566581726,
+        0.5234593152999878
+      ],
+      [
+        -0.010554339736700058,
+        0.5035322904586792,
+        0.46095895767211914,
+        0.47196629643440247,
+        1.0000001192092896,
+        0.8283765912055969,
+        0.7945364713668823,
+        0.8432983756065369,
+        0.48096221685409546,
+        0.40377405285835266,
+        0.4774656891822815
+      ],
+      [
+        -0.02321360819041729,
+        0.47835853695869446,
+        0.4589102864265442,
+        0.5529667139053345,
+        0.8283765912055969,
+        1.0000001192092896,
+        0.7135230898857117,
+        0.7377250790596008,
+        0.44027113914489746,
+        0.413518488407135,
+        0.49771595001220703
+      ],
+      [
+        -0.01481954287737608,
+        0.49463558197021484,
+        0.4510483145713806,
+        0.5407867431640625,
+        0.7945364713668823,
+        0.7135230898857117,
+        1.0000001192092896,
+        0.8924899101257324,
+        0.5076841711997986,
+        0.41202643513679504,
+        0.38989540934562683
+      ],
+      [
+        -0.0022389397490769625,
+        0.48832038044929504,
+        0.45295250415802,
+        0.48482757806777954,
+        0.8432983756065369,
+        0.7377250790596008,
+        0.8924899101257324,
+        1.0,
+        0.49204668402671814,
+        0.40466633439064026,
+        0.39729344844818115
+      ],
+      [
+        -0.007196920458227396,
+        0.8784897923469543,
+        0.7044139504432678,
+        0.46542325615882874,
+        0.48096221685409546,
+        0.44027113914489746,
+        0.5076841711997986,
+        0.49204668402671814,
+        1.0,
+        0.5119079947471619,
+        0.48906344175338745
+      ],
+      [
+        -0.030453026294708252,
+        0.5261922478675842,
+        0.42363590002059937,
+        0.4853946566581726,
+        0.40377405285835266,
+        0.413518488407135,
+        0.41202643513679504,
+        0.40466633439064026,
+        0.5119079947471619,
+        1.0,
+        0.43587544560432434
+      ],
+      [
+        -0.022454624995589256,
+        0.46186962723731995,
+        0.4883032739162445,
+        0.5234593152999878,
+        0.4774656891822815,
+        0.49771595001220703,
+        0.38989540934562683,
+        0.39729344844818115,
+        0.48906344175338745,
+        0.43587544560432434,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": []
+}

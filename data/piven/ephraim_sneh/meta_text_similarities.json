@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/piven/data/ephraim_sneh",
+  "meta_path": "/workspace/input/piven/data/ephraim_sneh/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Ephraim Sneh (Hebrew: \u05d0\u05e4\u05e8\u05d9\u05dd \u05e1\u05e0\u05d4, romanized: Efraim Sneh, born 19 September 1944) is an Israeli politician, physician, and a retired brigadier general in the Israel Defense Forces. He was a member of the Knesset for the Labor Party between 1992 and 2008 and served in several ministerial posts. He headed the Yisrael Hazaka party, which he established in May 2008 but failed to pass the electoral threshold in the 2009 Israeli legislative election and has been inactive since then.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "hairbrush"
+    },
+    {
+      "index": 1,
+      "element": "cutting board"
+    },
+    {
+      "index": 2,
+      "element": "springs"
+    },
+    {
+      "index": 3,
+      "element": "wood slices"
+    },
+    {
+      "index": 4,
+      "element": "screws"
+    },
+    {
+      "index": 5,
+      "element": "nail"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "podium block"
+    },
+    {
+      "index": 1,
+      "element": "ballot box"
+    },
+    {
+      "index": 2,
+      "element": "medal bar"
+    },
+    {
+      "index": 3,
+      "element": "state seal"
+    },
+    {
+      "index": 4,
+      "element": "campaign current"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "hairbrush",
+      "cutting board",
+      "springs",
+      "wood slices",
+      "screws",
+      "nail"
+    ],
+    "values": [
+      [
+        0.002240891568362713,
+        -0.008564218878746033,
+        -0.016911350190639496,
+        -0.04774937778711319,
+        0.0743381679058075,
+        0.051667023450136185
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "podium block",
+      "ballot box",
+      "medal bar",
+      "state seal",
+      "campaign current"
+    ],
+    "column_labels": [
+      "hairbrush",
+      "cutting board",
+      "springs",
+      "wood slices",
+      "screws",
+      "nail"
+    ],
+    "values": [
+      [
+        0.1334346979856491,
+        0.28575724363327026,
+        0.1282581388950348,
+        0.24836358428001404,
+        0.21263965964317322,
+        0.22957588732242584
+      ],
+      [
+        0.0441085621714592,
+        0.32750403881073,
+        0.1717110127210617,
+        0.25857841968536377,
+        0.2630147933959961,
+        0.19224780797958374
+      ],
+      [
+        0.11744627356529236,
+        0.20933890342712402,
+        0.22886323928833008,
+        0.143412783741951,
+        0.24570780992507935,
+        0.2752617597579956
+      ],
+      [
+        0.17557747662067413,
+        0.0720532014966011,
+        0.18870165944099426,
+        0.07788201421499252,
+        0.13423120975494385,
+        0.19648128747940063
+      ],
+      [
+        0.1571481078863144,
+        0.09005052596330643,
+        0.2319900244474411,
+        0.08157138526439667,
+        0.12140393257141113,
+        0.17265763878822327
+      ]
+    ]
+  }
+}

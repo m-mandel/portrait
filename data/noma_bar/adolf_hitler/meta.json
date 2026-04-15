@@ -1,0 +1,75 @@
+{
+  "name": "adolf hitler",
+  "bio": "Adolf Hitler (20 April 1889 – 30 April 1945) was an Austrian-born  German politician who was the dictator of Germany during the Nazi era from 1933 until his suicide in 1945. He rose to power as the leader of the Nazi Party, becoming the chancellor of Germany in 1933 and then taking the title of Führer und Reichskanzler in 1934. Germany's invasion of Poland on 1 September 1939 under his leadership marked the outbreak of the Second World War. Throughout the ensuing conflict, Hitler was closely involved in the direction of German military operations and was central to the perpetration of the Holocaust, the genocide of about six million Jews and millions of other victims.\nHitler was born in Braunau am Inn in Austria-Hungary and moved to Germany in 1913. He was decorated during his service in the German Army in the First World War, receiving the Iron Cross. In 1919, he joined the German Workers' Party (DAP), the precursor of the Nazi Party, and in 1921, was appointed the leader of the Nazi Party. In 1923, he attempted to seize governmental power in a failed coup in Munich and was sentenced to five years in prison, serving just over a year. While there, he dictated the first volume of his autobiography and political manifesto Mein Kampf (lit. 'My Struggle'). After his early release in 1924, he gained popular support by attacking the Treaty of Versailles as well as promoting pan-Germanism, antisemitism, and anti-communism with charismatic oratory and Nazi propaganda. He frequently denounced communism as being part of an international Jewish conspiracy. By November 1932, the Nazi Party held the most seats in the Reichstag, but not a majority. Former chancellor Franz von Papen and other conservative politicians convinced President Paul von Hindenburg to appoint Hitler as chancellor on 30 January 1933. Shortly thereafter on 23 March, the Reichstag passed the Enabling Act of 1933, which ultimately began the Weimar Republic's transformation into Nazi Germany.\nUpon Hindenburg's death on 2 August 1934, Hitler replaced him as head of state and thereafter transformed Germany into a totalitarian dictatorship. Domestically, Hitler implemented numerous racist policies and sought to deport or kill German Jews. His first six years in power resulted in rapid economic recovery from the Great Depression, the abrogation of restrictions imposed on Germany after the First World War, and the annexation of territories inhabited by millions of ethnic Germans, which initially gave him significant popular support. One of Hitler's key goals was Lebensraum (lit. 'living space') for the German people in Eastern Europe, and his aggressive, expansionist foreign policy is considered the primary cause of World War II in Europe. On 1 September 1939, Hitler oversaw the German invasion of Poland, thereby causing Britain and France to declare war on Germany. After ordering an invasion of the Soviet Union in June 1941, he declared war on the United States in December of the same year. By the end of 1941, German forces and the European Axis powers occupied most of Europe and North Africa. These gains were gradually reversed after 1941 until the Allied forces defeated the German military in 1945. On 29 April 1945, Hitler married his longtime partner, Eva Braun, in the Führerbunker in Berlin. They committed suicide the next day to avoid capture by the Soviet Red Army.\nThe historian and biographer Ian Kershaw described Hitler as \"the embodiment of modern political evil\". Under Hitler's leadership and racist ideology, the Nazi regime was responsible for the genocide of an estimated six million Jews and millions of other victims, whom he and his followers deemed Untermenschen (lit. 'subhumans') or socially undesirable. Hitler and the Nazis were also responsible for the deliberate killing of an estimated 19.3 million civilians and prisoners of war. In addition, 28.7 million soldiers and civilians died as a result of military action in the European theatre. The number of civilians killed during World War II was unprecedented in warfare, and the casualties make it the deadliest conflict in history.",
+  "bio_sources": [
+    {
+      "subject": "adolf hitler",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Adolf_Hitler"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "red background field",
+      "shape_type": "rectangle",
+      "meaning": "evokes aggression and the visual language of authoritarian power"
+    },
+    {
+      "element": "side-parted black hair",
+      "shape_type": "silhouette",
+      "meaning": "marks his instantly recognizable public iconography"
+    },
+    {
+      "element": "white faceless head",
+      "shape_type": "organic shape",
+      "meaning": "reduces him to a depersonalized emblem rather than a humanized likeness"
+    },
+    {
+      "element": "barcode over the mouth",
+      "shape_type": "symbol",
+      "meaning": "suggests dehumanization, commodified evil, and moral reduction to a code"
+    },
+    {
+      "element": "black pointed collar",
+      "shape_type": "triangle",
+      "meaning": "reinforces a rigid militaristic presence"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "barbed wire line",
+      "visual_representation": "a thin wire-like line interrupted by sharp barbs",
+      "category": "event",
+      "relevance": "The biography explicitly mentions persecution, imprisonment, or oppressive regimes.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "cell door",
+      "visual_representation": "a heavy rectangular door with a small viewing slot",
+      "category": "place",
+      "relevance": "The biography explicitly refers to prison or confinement.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

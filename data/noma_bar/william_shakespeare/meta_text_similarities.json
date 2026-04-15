@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/william_shakespeare",
+  "meta_path": "/workspace/input/noma_bar/data/william_shakespeare/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "William Shakespeare (c. 23 April 1564 \u2013 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the \"Bard of Avon\" or simply \"the Bard\". His extant works, including collaborations, consist of some 39 plays, 154 sonnets, three long narrative poems and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare remains arguably the most influential writer in the English language, and his works continue to be studied and reinterpreted.\nShakespeare was born and raised in Stratford-upon-Avon, Warwickshire. At the age of 18, he married Anne Hathaway, with whom he had three children: Susanna, and twins Hamnet and Judith. Sometime between 1585 and 1592 he began a successful career in London as an actor, writer, and part-owner (\"sharer\") of a playing company called the Lord Chamberlain's Men, later known as the King's Men after the ascension of King James VI of Scotland to the English throne. At age 49 (around 1613) he appears to have retired to Stratford, where he died three years later. Few records of Shakespeare's private life survive; this has stimulated considerable speculation about such matters as his physical appearance, his sexuality, his religious beliefs and even certain fringe theories as to whether the works attributed to him were written by others.\nShakespeare produced most of his known works between 1589 and 1613. His early plays were primarily comedies and histories and are regarded as some of the best works produced in these genres. He then wrote mainly tragedies until 1608, among them Hamlet, Othello, King Lear and Macbeth, which are considered to be among the finest works in English. In the last phase of his career, he wrote tragicomedies (also known as romances), such as The Winter's Tale and The Tempest, and collaborated with other playwrights.\nMany of Shakespeare's plays were published in editions of varying quality and accuracy during his lifetime. However, in 1623 John Heminges and Henry Condell, two fellow actors and friends of Shakespeare's, published a more definitive text known as the First Folio, a posthumous collected edition of Shakespeare's dramatic works that includes 36 of his plays. Its preface includes a prescient poem by Ben Jonson, a former rival of Shakespeare, who hailed Shakespeare with the now-famous epithet: \"not of an age, but for all time\".",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "light blue background field"
+    },
+    {
+      "index": 1,
+      "element": "black pointed beard shape"
+    },
+    {
+      "index": 2,
+      "element": "curled question-mark nose with dot"
+    },
+    {
+      "index": 3,
+      "element": "black hair-wing shape"
+    },
+    {
+      "index": 4,
+      "element": "white collar ruff"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "book stack"
+    },
+    {
+      "index": 1,
+      "element": "typewriter keys"
+    },
+    {
+      "index": 2,
+      "element": "open book"
+    },
+    {
+      "index": 3,
+      "element": "ink pen"
+    },
+    {
+      "index": 4,
+      "element": "page margin"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "light blue background field",
+      "black pointed beard shape",
+      "curled question-mark nose with dot",
+      "black hair-wing shape",
+      "white collar ruff"
+    ],
+    "values": [
+      [
+        -0.16505785286426544,
+        -0.14588633179664612,
+        -0.02629610151052475,
+        -0.21290893852710724,
+        -0.15579064190387726
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "book stack",
+      "typewriter keys",
+      "open book",
+      "ink pen",
+      "page margin"
+    ],
+    "column_labels": [
+      "light blue background field",
+      "black pointed beard shape",
+      "curled question-mark nose with dot",
+      "black hair-wing shape",
+      "white collar ruff"
+    ],
+    "values": [
+      [
+        0.041205327957868576,
+        0.031021837145090103,
+        -0.02881961688399315,
+        0.10680142045021057,
+        0.0653223991394043
+      ],
+      [
+        0.08382931351661682,
+        0.016569290310144424,
+        0.12135186791419983,
+        0.09144039452075958,
+        -0.04097484052181244
+      ],
+      [
+        0.07202328741550446,
+        0.0210257600992918,
+        0.02538459561765194,
+        0.09753547608852386,
+        0.1582154929637909
+      ],
+      [
+        0.16026727855205536,
+        0.1466721147298813,
+        0.33607885241508484,
+        0.21189841628074646,
+        0.1525401622056961
+      ],
+      [
+        0.13474348187446594,
+        0.11610323935747147,
+        0.021955113857984543,
+        0.16386426985263824,
+        0.03659844771027565
+      ]
+    ]
+  }
+}

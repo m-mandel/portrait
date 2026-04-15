@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/madonna_louise_ciccone",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/madonna_louise_ciccone/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+        "similarity": 0.0031791275832802057
+      },
+      {
+        "index": 1,
+        "name": "02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+        "similarity": 0.06922223418951035
+      },
+      {
+        "index": 2,
+        "name": "03_edvard-munch-madonna-google-art-project-jpg.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+        "similarity": -0.006455088034272194
+      },
+      {
+        "index": 3,
+        "name": "04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+        "similarity": -0.030504165217280388
+      },
+      {
+        "index": 4,
+        "name": "05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+        "similarity": 0.051848266273736954
+      },
+      {
+        "index": 5,
+        "name": "06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+        "similarity": 0.013794148340821266
+      },
+      {
+        "index": 6,
+        "name": "07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+        "similarity": 0.044383466243743896
+      },
+      {
+        "index": 7,
+        "name": "08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+        "similarity": -0.0745524913072586
+      },
+      {
+        "index": 8,
+        "name": "09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+        "similarity": 0.038863178342580795
+      },
+      {
+        "index": 9,
+        "name": "10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+        "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+        "similarity": 0.03805721178650856
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.0031791275832802057,
+          0.06922223418951035,
+          -0.006455088034272194,
+          -0.030504165217280388,
+          0.051848266273736954,
+          0.013794148340821266,
+          0.044383466243743896,
+          -0.0745524913072586,
+          0.038863178342580795,
+          0.03805721178650856
+        ],
+        [
+          0.0031791275832802057,
+          1.0,
+          0.13445092737674713,
+          -0.00044229463674128056,
+          0.40213820338249207,
+          0.43665429949760437,
+          0.49298858642578125,
+          0.42755550146102905,
+          0.040167491883039474,
+          0.4273304343223572,
+          0.4003556966781616
+        ],
+        [
+          0.06922223418951035,
+          0.13445092737674713,
+          1.0,
+          -0.020946502685546875,
+          0.08453449606895447,
+          0.18517738580703735,
+          0.16045357286930084,
+          0.12172339856624603,
+          -0.0403113029897213,
+          0.10329622775316238,
+          0.123372383415699
+        ],
+        [
+          -0.006455088034272194,
+          -0.00044229463674128056,
+          -0.020946502685546875,
+          0.9999999403953552,
+          0.05951988697052002,
+          -0.0072341132909059525,
+          -0.002039019949734211,
+          -0.003000353928655386,
+          0.06204283609986305,
+          0.002761806594207883,
+          0.05078338086605072
+        ],
+        [
+          -0.030504165217280388,
+          0.40213820338249207,
+          0.08453449606895447,
+          0.05951988697052002,
+          1.0,
+          0.49688035249710083,
+          0.4875337481498718,
+          0.4602975845336914,
+          -0.007143765222281218,
+          0.47031840682029724,
+          0.5219462513923645
+        ],
+        [
+          0.051848266273736954,
+          0.43665429949760437,
+          0.18517738580703735,
+          -0.0072341132909059525,
+          0.49688035249710083,
+          1.0000001192092896,
+          0.6093508005142212,
+          0.4746760427951813,
+          -0.05069125071167946,
+          0.6096583008766174,
+          0.5736894607543945
+        ],
+        [
+          0.013794148340821266,
+          0.49298858642578125,
+          0.16045357286930084,
+          -0.002039019949734211,
+          0.4875337481498718,
+          0.6093508005142212,
+          1.0,
+          0.4954100549221039,
+          0.006501361262053251,
+          0.5013895034790039,
+          0.5081294775009155
+        ],
+        [
+          0.044383466243743896,
+          0.42755550146102905,
+          0.12172339856624603,
+          -0.003000353928655386,
+          0.4602975845336914,
+          0.4746760427951813,
+          0.4954100549221039,
+          1.0000001192092896,
+          -0.017400214448571205,
+          0.30583593249320984,
+          0.4575899541378021
+        ],
+        [
+          -0.0745524913072586,
+          0.040167491883039474,
+          -0.0403113029897213,
+          0.06204283609986305,
+          -0.007143765222281218,
+          -0.05069125071167946,
+          0.006501361262053251,
+          -0.017400214448571205,
+          1.0,
+          -0.04774879291653633,
+          -0.004226492252200842
+        ],
+        [
+          0.038863178342580795,
+          0.4273304343223572,
+          0.10329622775316238,
+          0.002761806594207883,
+          0.47031840682029724,
+          0.6096583008766174,
+          0.5013895034790039,
+          0.30583593249320984,
+          -0.04774879291653633,
+          0.9999999403953552,
+          0.6298955678939819
+        ],
+        [
+          0.03805721178650856,
+          0.4003556966781616,
+          0.123372383415699,
+          0.05078338086605072,
+          0.5219462513923645,
+          0.5736894607543945,
+          0.5081294775009155,
+          0.4575899541378021,
+          -0.004226492252200842,
+          0.6298955678939819,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg"
+    },
+    {
+      "name": "03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg"
+    },
+    {
+      "name": "04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg"
+    },
+    {
+      "name": "05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg"
+    },
+    {
+      "name": "06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg"
+    },
+    {
+      "name": "07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg"
+    },
+    {
+      "name": "08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg"
+    },
+    {
+      "name": "09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg"
+    },
+    {
+      "name": "10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "similarity": 0.13445092737674713
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "similarity": -0.00044229463674128056
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "similarity": 0.40213820338249207
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "similarity": 0.43665429949760437
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "similarity": 0.49298858642578125
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "similarity": 0.42755550146102905
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "similarity": 0.040167491883039474
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "similarity": 0.4273304343223572
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "similarity": 0.4003556966781616
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "similarity": -0.020946502685546875
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "similarity": 0.08453449606895447
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "similarity": 0.18517738580703735
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "similarity": 0.16045357286930084
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "similarity": 0.12172339856624603
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "similarity": -0.0403113029897213
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "similarity": 0.10329622775316238
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "similarity": 0.123372383415699
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "similarity": 0.05951988697052002
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "similarity": -0.0072341132909059525
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "similarity": -0.002039019949734211
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "similarity": -0.003000353928655386
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "similarity": 0.06204283609986305
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "similarity": 0.002761806594207883
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "similarity": 0.05078338086605072
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "similarity": 0.49688035249710083
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "similarity": 0.4875337481498718
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "similarity": 0.4602975845336914
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "similarity": -0.007143765222281218
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "similarity": 0.47031840682029724
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "similarity": 0.5219462513923645
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "similarity": 0.6093508005142212
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "similarity": 0.4746760427951813
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "similarity": -0.05069125071167946
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "similarity": 0.6096583008766174
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "similarity": 0.5736894607543945
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "similarity": 0.4954100549221039
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "similarity": 0.006501361262053251
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "similarity": 0.5013895034790039
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "similarity": 0.5081294775009155
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "similarity": -0.017400214448571205
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "similarity": 0.30583593249320984
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "similarity": 0.4575899541378021
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "similarity": -0.04774879291653633
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "similarity": -0.004226492252200842
+    },
+    {
+      "left": "/workspace/input/piven/data/madonna_louise_ciccone/images/09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "right": "/workspace/input/piven/data/madonna_louise_ciccone/images/10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg",
+      "similarity": 0.6298955678939819
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_madonna-rebel-heart-tour-2015-stockholm-23051472299-cropped-jpg.jpg",
+      "02_madonna-rebel-heart-tour-cologne-2-22617182314-jpg.jpg",
+      "03_edvard-munch-madonna-google-art-project-jpg.jpg",
+      "04_madonna-music-artist-print-worldwide-shipping-free-postage.jpg",
+      "05_review-of-madonna-true-blue-portrait-madonna-madonna-true-blue.jpg",
+      "06_the-madonna-portraits-by-kenji-wakasugi-on-show-in-nyc-madonnatribe.jpg",
+      "07_27-madonna-red-carpet-looks-2024-see-iconic-photos-here.jpg",
+      "08_spanish-renaissance-madonna-portrait-for-sale-at-1stdibs.jpg",
+      "09_madonna-photo-by-steven-miesel-madonna-portrait-black-and-white.jpg",
+      "10_madonna-madonna-photos-lady-madonna-madonna-vogue.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.13445092737674713,
+        -0.00044229463674128056,
+        0.40213820338249207,
+        0.43665429949760437,
+        0.49298858642578125,
+        0.42755550146102905,
+        0.040167491883039474,
+        0.4273304343223572,
+        0.4003556966781616
+      ],
+      [
+        0.13445092737674713,
+        1.0,
+        -0.020946502685546875,
+        0.08453449606895447,
+        0.18517738580703735,
+        0.16045357286930084,
+        0.12172339856624603,
+        -0.0403113029897213,
+        0.10329622775316238,
+        0.123372383415699
+      ],
+      [
+        -0.00044229463674128056,
+        -0.020946502685546875,
+        0.9999999403953552,
+        0.05951988697052002,
+        -0.0072341132909059525,
+        -0.002039019949734211,
+        -0.003000353928655386,
+        0.06204283609986305,
+        0.002761806594207883,
+        0.05078338086605072
+      ],
+      [
+        0.40213820338249207,
+        0.08453449606895447,
+        0.05951988697052002,
+        1.0,
+        0.49688035249710083,
+        0.4875337481498718,
+        0.4602975845336914,
+        -0.007143765222281218,
+        0.47031840682029724,
+        0.5219462513923645
+      ],
+      [
+        0.43665429949760437,
+        0.18517738580703735,
+        -0.0072341132909059525,
+        0.49688035249710083,
+        1.0000001192092896,
+        0.6093508005142212,
+        0.4746760427951813,
+        -0.05069125071167946,
+        0.6096583008766174,
+        0.5736894607543945
+      ],
+      [
+        0.49298858642578125,
+        0.16045357286930084,
+        -0.002039019949734211,
+        0.4875337481498718,
+        0.6093508005142212,
+        1.0,
+        0.4954100549221039,
+        0.006501361262053251,
+        0.5013895034790039,
+        0.5081294775009155
+      ],
+      [
+        0.42755550146102905,
+        0.12172339856624603,
+        -0.003000353928655386,
+        0.4602975845336914,
+        0.4746760427951813,
+        0.4954100549221039,
+        1.0000001192092896,
+        -0.017400214448571205,
+        0.30583593249320984,
+        0.4575899541378021
+      ],
+      [
+        0.040167491883039474,
+        -0.0403113029897213,
+        0.06204283609986305,
+        -0.007143765222281218,
+        -0.05069125071167946,
+        0.006501361262053251,
+        -0.017400214448571205,
+        1.0,
+        -0.04774879291653633,
+        -0.004226492252200842
+      ],
+      [
+        0.4273304343223572,
+        0.10329622775316238,
+        0.002761806594207883,
+        0.47031840682029724,
+        0.6096583008766174,
+        0.5013895034790039,
+        0.30583593249320984,
+        -0.04774879291653633,
+        0.9999999403953552,
+        0.6298955678939819
+      ],
+      [
+        0.4003556966781616,
+        0.123372383415699,
+        0.05078338086605072,
+        0.5219462513923645,
+        0.5736894607543945,
+        0.5081294775009155,
+        0.4575899541378021,
+        -0.004226492252200842,
+        0.6298955678939819,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/madonna_louise_ciccone/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/madonna_louise_ciccone/portrait.jpg"
+    }
+  ]
+}

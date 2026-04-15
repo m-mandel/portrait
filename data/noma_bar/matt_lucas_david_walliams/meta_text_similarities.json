@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/matt_lucas_david_walliams",
+  "meta_path": "/workspace/input/noma_bar/data/matt_lucas_david_walliams/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Matthew Richard Lucas (born 5 March 1974) is an English actor, comedian, writer and television host. He is best known for his work with David Walliams on the BBC sketch comedy series Little Britain (2003\u20132006) and Come Fly with Me (2010\u20132011).\nLucas first came to prominence on the comedy panel show Shooting Stars, in which he portrayed scorekeeper George Dawes from 1995 to 2009. From 2015 to 2017, he portrayed the role of Nardole in the BBC series Doctor Who. He has also appeared in films, including Astro Boy (2009), Alice in Wonderland (2010), Bridesmaids, Gnomeo & Juliet (both 2011), Small Apartments (2012), Paddington (2014), Wonka (2023) and Gladiator II (2024). Lucas presented the baking competition show The Great British Bake Off, alongside Noel Fielding from 2020 to 2023.. In 2026 Matt Lucas was revealed as the Masked Band lead singer, 'Emperor Penguin' and joined as a guest panellist in Series 7 Episode 2, of The Masked Singer, UK.\n\nDavid Edward Williams (born 20 August 1971), known professionally as David Walliams (), is an English actor, comedian, writer and television personality. He is best known for his work with Matt Lucas on the BBC sketch shows Little Britain (2003\u20132006) and Come Fly with Me (2010\u20132011), and for serving as a judge on Britain's Got Talent from 2012 to 2022. Walliams is also a successful children's author, with his books selling more than 50 million copies worldwide and being translated into 53 languages. Several have been adapted for television, in which he has also appeared.\nWalliams has written and starred in various television projects, including the sitcom Big School and the drama Partners in Crime. He has received multiple National Television Awards for his work on Britain's Got Talent. He was appointed Officer of the Order of the British Empire (OBE) in the 2017 Birthday Honours for services to charity and the arts, and his charity work includes long\u2011distance swims for Sport Relief that raised millions of pounds.\nWalliams has faced allegations of inappropriate behaviour. In 2022, reports emerged that he had made sexually explicit and derogatory remarks about contestants on Britain's Got Talent, leading to his departure from the programme and a subsequent legal dispute that was settled in 2023. In 2025, HarperCollins ended their publishing contract with him following an internal investigation into his behaviour towards junior female staff at the company.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "red and white background fields"
+    },
+    {
+      "index": 1,
+      "element": "large white side profile with red hair strip"
+    },
+    {
+      "index": 2,
+      "element": "blue curly-haired smaller profile"
+    },
+    {
+      "index": 3,
+      "element": "wheelchair-shaped glasses frame"
+    },
+    {
+      "index": 4,
+      "element": "plug-like small figures used as eyes"
+    },
+    {
+      "index": 5,
+      "element": "blue neck ring"
+    },
+    {
+      "index": 6,
+      "element": "small white hand shape"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "book stack"
+    },
+    {
+      "index": 1,
+      "element": "spotlight cone"
+    },
+    {
+      "index": 2,
+      "element": "theater mask"
+    },
+    {
+      "index": 3,
+      "element": "comic microphone"
+    },
+    {
+      "index": 4,
+      "element": "laughter lines"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "red and white background fields",
+      "large white side profile with red hair strip",
+      "blue curly-haired smaller profile",
+      "wheelchair-shaped glasses frame",
+      "plug-like small figures used as eyes",
+      "blue neck ring",
+      "small white hand shape"
+    ],
+    "values": [
+      [
+        0.044075701385736465,
+        0.08843715488910675,
+        0.09925851225852966,
+        0.10703948140144348,
+        0.1277136504650116,
+        -0.022453229874372482,
+        0.07600332051515579
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "book stack",
+      "spotlight cone",
+      "theater mask",
+      "comic microphone",
+      "laughter lines"
+    ],
+    "column_labels": [
+      "red and white background fields",
+      "large white side profile with red hair strip",
+      "blue curly-haired smaller profile",
+      "wheelchair-shaped glasses frame",
+      "plug-like small figures used as eyes",
+      "blue neck ring",
+      "small white hand shape"
+    ],
+    "values": [
+      [
+        0.07629050314426422,
+        0.08309584110975266,
+        0.10000786185264587,
+        0.09277759492397308,
+        0.048430971801280975,
+        0.11005353927612305,
+        0.05316893756389618
+      ],
+      [
+        0.20316365361213684,
+        0.13226373493671417,
+        0.1213320791721344,
+        0.2247813194990158,
+        0.2782139778137207,
+        0.18257051706314087,
+        0.14161956310272217
+      ],
+      [
+        0.09727437794208527,
+        0.1842489242553711,
+        0.08084427565336227,
+        0.3036668300628662,
+        0.34957563877105713,
+        0.2455284595489502,
+        0.14142224192619324
+      ],
+      [
+        0.04197153449058533,
+        0.13192793726921082,
+        0.11104366183280945,
+        0.17415305972099304,
+        0.29491469264030457,
+        0.3853064179420471,
+        0.1790945827960968
+      ],
+      [
+        0.04977605864405632,
+        0.06323857605457306,
+        0.07986074686050415,
+        0.0377725288271904,
+        0.18081791698932648,
+        0.131934255361557,
+        0.034908100962638855
+      ]
+    ]
+  }
+}

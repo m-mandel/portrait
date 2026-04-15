@@ -1,0 +1,459 @@
+{
+  "folder": "/workspace/input/piven/data/pope_john_paul_ii",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/pope_john_paul_ii/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "03_pope-john-paul-ii-smile-jpg.jpg",
+        "path": "/workspace/input/piven/data/pope_john_paul_ii/images/03_pope-john-paul-ii-smile-jpg.jpg",
+        "similarity": 0.005038783885538578
+      },
+      {
+        "index": 1,
+        "name": "04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+        "path": "/workspace/input/piven/data/pope_john_paul_ii/images/04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+        "similarity": 0.022947974503040314
+      },
+      {
+        "index": 2,
+        "name": "05_pope-john-paul-ii-framed-portrait.jpg",
+        "path": "/workspace/input/piven/data/pope_john_paul_ii/images/05_pope-john-paul-ii-framed-portrait.jpg",
+        "similarity": 0.012727351859211922
+      },
+      {
+        "index": 3,
+        "name": "06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+        "path": "/workspace/input/piven/data/pope_john_paul_ii/images/06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+        "similarity": -0.034828830510377884
+      },
+      {
+        "index": 4,
+        "name": "07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+        "path": "/workspace/input/piven/data/pope_john_paul_ii/images/07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+        "similarity": -0.0023033241741359234
+      },
+      {
+        "index": 5,
+        "name": "08_pope-john-paul-ii.jpg",
+        "path": "/workspace/input/piven/data/pope_john_paul_ii/images/08_pope-john-paul-ii.jpg",
+        "similarity": -0.042821869254112244
+      },
+      {
+        "index": 6,
+        "name": "09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+        "path": "/workspace/input/piven/data/pope_john_paul_ii/images/09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+        "similarity": 0.07741720974445343
+      },
+      {
+        "index": 7,
+        "name": "10_pope-john-paul-ii-god-pictures.jpg",
+        "path": "/workspace/input/piven/data/pope_john_paul_ii/images/10_pope-john-paul-ii-god-pictures.jpg",
+        "similarity": 0.0034871960524469614
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "values": [
+        [
+          1.0,
+          0.005038783885538578,
+          0.022947974503040314,
+          0.012727351859211922,
+          -0.034828830510377884,
+          -0.0023033241741359234,
+          -0.042821869254112244,
+          0.07741720974445343,
+          0.0034871960524469614
+        ],
+        [
+          0.005038783885538578,
+          1.0,
+          0.4488241374492645,
+          0.4953220784664154,
+          0.5345475673675537,
+          0.5006497502326965,
+          0.48612573742866516,
+          0.23720203340053558,
+          0.36260655522346497
+        ],
+        [
+          0.022947974503040314,
+          0.4488241374492645,
+          0.9999999403953552,
+          0.9201038479804993,
+          0.6029254794120789,
+          0.47593677043914795,
+          0.5215433835983276,
+          0.2212476134300232,
+          0.4149402379989624
+        ],
+        [
+          0.012727351859211922,
+          0.4953220784664154,
+          0.9201038479804993,
+          1.0000001192092896,
+          0.6239401698112488,
+          0.4674144387245178,
+          0.4778803884983063,
+          0.22241495549678802,
+          0.3768464922904968
+        ],
+        [
+          -0.034828830510377884,
+          0.5345475673675537,
+          0.6029254794120789,
+          0.6239401698112488,
+          1.0,
+          0.49631747603416443,
+          0.47207462787628174,
+          0.2161567062139511,
+          0.38719454407691956
+        ],
+        [
+          -0.0023033241741359234,
+          0.5006497502326965,
+          0.47593677043914795,
+          0.4674144387245178,
+          0.49631747603416443,
+          0.9999999403953552,
+          0.45826300978660583,
+          0.3199959099292755,
+          0.408246785402298
+        ],
+        [
+          -0.042821869254112244,
+          0.48612573742866516,
+          0.5215433835983276,
+          0.4778803884983063,
+          0.47207462787628174,
+          0.45826300978660583,
+          1.0,
+          0.23352620005607605,
+          0.33621418476104736
+        ],
+        [
+          0.07741720974445343,
+          0.23720203340053558,
+          0.2212476134300232,
+          0.22241495549678802,
+          0.2161567062139511,
+          0.3199959099292755,
+          0.23352620005607605,
+          0.9999998807907104,
+          0.16869783401489258
+        ],
+        [
+          0.0034871960524469614,
+          0.36260655522346497,
+          0.4149402379989624,
+          0.3768464922904968,
+          0.38719454407691956,
+          0.408246785402298,
+          0.33621418476104736,
+          0.16869783401489258,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "03_pope-john-paul-ii-smile-jpg.jpg",
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/03_pope-john-paul-ii-smile-jpg.jpg"
+    },
+    {
+      "name": "04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg"
+    },
+    {
+      "name": "05_pope-john-paul-ii-framed-portrait.jpg",
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/05_pope-john-paul-ii-framed-portrait.jpg"
+    },
+    {
+      "name": "06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg"
+    },
+    {
+      "name": "07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg"
+    },
+    {
+      "name": "08_pope-john-paul-ii.jpg",
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/08_pope-john-paul-ii.jpg"
+    },
+    {
+      "name": "09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg"
+    },
+    {
+      "name": "10_pope-john-paul-ii-god-pictures.jpg",
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/10_pope-john-paul-ii-god-pictures.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/03_pope-john-paul-ii-smile-jpg.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+      "similarity": 0.4488241374492645
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/03_pope-john-paul-ii-smile-jpg.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/05_pope-john-paul-ii-framed-portrait.jpg",
+      "similarity": 0.4953220784664154
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/03_pope-john-paul-ii-smile-jpg.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.5345475673675537
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/03_pope-john-paul-ii-smile-jpg.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.5006497502326965
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/03_pope-john-paul-ii-smile-jpg.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/08_pope-john-paul-ii.jpg",
+      "similarity": 0.48612573742866516
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/03_pope-john-paul-ii-smile-jpg.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+      "similarity": 0.23720203340053558
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/03_pope-john-paul-ii-smile-jpg.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/10_pope-john-paul-ii-god-pictures.jpg",
+      "similarity": 0.36260655522346497
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/05_pope-john-paul-ii-framed-portrait.jpg",
+      "similarity": 0.9201038479804993
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.6029254794120789
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.47593677043914795
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/08_pope-john-paul-ii.jpg",
+      "similarity": 0.5215433835983276
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+      "similarity": 0.2212476134300232
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/10_pope-john-paul-ii-god-pictures.jpg",
+      "similarity": 0.4149402379989624
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/05_pope-john-paul-ii-framed-portrait.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.6239401698112488
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/05_pope-john-paul-ii-framed-portrait.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.4674144387245178
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/05_pope-john-paul-ii-framed-portrait.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/08_pope-john-paul-ii.jpg",
+      "similarity": 0.4778803884983063
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/05_pope-john-paul-ii-framed-portrait.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+      "similarity": 0.22241495549678802
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/05_pope-john-paul-ii-framed-portrait.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/10_pope-john-paul-ii-god-pictures.jpg",
+      "similarity": 0.3768464922904968
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+      "similarity": 0.49631747603416443
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/08_pope-john-paul-ii.jpg",
+      "similarity": 0.47207462787628174
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+      "similarity": 0.2161567062139511
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/10_pope-john-paul-ii-god-pictures.jpg",
+      "similarity": 0.38719454407691956
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/08_pope-john-paul-ii.jpg",
+      "similarity": 0.45826300978660583
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+      "similarity": 0.3199959099292755
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/10_pope-john-paul-ii-god-pictures.jpg",
+      "similarity": 0.408246785402298
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/08_pope-john-paul-ii.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+      "similarity": 0.23352620005607605
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/08_pope-john-paul-ii.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/10_pope-john-paul-ii-god-pictures.jpg",
+      "similarity": 0.33621418476104736
+    },
+    {
+      "left": "/workspace/input/piven/data/pope_john_paul_ii/images/09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/pope_john_paul_ii/images/10_pope-john-paul-ii-god-pictures.jpg",
+      "similarity": 0.16869783401489258
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "03_pope-john-paul-ii-smile-jpg.jpg",
+      "04_pope-john-paul-ii-sainthood-canonization-official-portrait-fine-art.jpg",
+      "05_pope-john-paul-ii-framed-portrait.jpg",
+      "06_2-662-portrait-pope-john-paul-ii-stock-photos-high-res-pictures-and.jpg",
+      "07_2-640-pope-john-paul-ii-portrait-stock-photos-high-res-pictures-and.jpg",
+      "08_pope-john-paul-ii.jpg",
+      "09_pope-john-paul-ii-portrait-from-polish-money-stock-photo-alamy.jpg",
+      "10_pope-john-paul-ii-god-pictures.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.4488241374492645,
+        0.4953220784664154,
+        0.5345475673675537,
+        0.5006497502326965,
+        0.48612573742866516,
+        0.23720203340053558,
+        0.36260655522346497
+      ],
+      [
+        0.4488241374492645,
+        0.9999999403953552,
+        0.9201038479804993,
+        0.6029254794120789,
+        0.47593677043914795,
+        0.5215433835983276,
+        0.2212476134300232,
+        0.4149402379989624
+      ],
+      [
+        0.4953220784664154,
+        0.9201038479804993,
+        1.0000001192092896,
+        0.6239401698112488,
+        0.4674144387245178,
+        0.4778803884983063,
+        0.22241495549678802,
+        0.3768464922904968
+      ],
+      [
+        0.5345475673675537,
+        0.6029254794120789,
+        0.6239401698112488,
+        1.0,
+        0.49631747603416443,
+        0.47207462787628174,
+        0.2161567062139511,
+        0.38719454407691956
+      ],
+      [
+        0.5006497502326965,
+        0.47593677043914795,
+        0.4674144387245178,
+        0.49631747603416443,
+        0.9999999403953552,
+        0.45826300978660583,
+        0.3199959099292755,
+        0.408246785402298
+      ],
+      [
+        0.48612573742866516,
+        0.5215433835983276,
+        0.4778803884983063,
+        0.47207462787628174,
+        0.45826300978660583,
+        1.0,
+        0.23352620005607605,
+        0.33621418476104736
+      ],
+      [
+        0.23720203340053558,
+        0.2212476134300232,
+        0.22241495549678802,
+        0.2161567062139511,
+        0.3199959099292755,
+        0.23352620005607605,
+        0.9999998807907104,
+        0.16869783401489258
+      ],
+      [
+        0.36260655522346497,
+        0.4149402379989624,
+        0.3768464922904968,
+        0.38719454407691956,
+        0.408246785402298,
+        0.33621418476104736,
+        0.16869783401489258,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/pope_john_paul_ii/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/01_rose-pope-john-paul-ii-2-15832498751-jpg.jpg",
+      "error": "No face detected in /workspace/input/piven/data/pope_john_paul_ii/images/01_rose-pope-john-paul-ii-2-15832498751-jpg.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/pope_john_paul_ii/images/02_rosa-pope-john-paul-ii-jpg.jpg",
+      "error": "No face detected in /workspace/input/piven/data/pope_john_paul_ii/images/02_rosa-pope-john-paul-ii-jpg.jpg"
+    }
+  ]
+}

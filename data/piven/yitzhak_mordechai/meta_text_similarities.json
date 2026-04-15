@@ -1,0 +1,100 @@
+{
+  "folder": "/workspace/input/piven/data/yitzhak_mordechai",
+  "meta_path": "/workspace/input/piven/data/yitzhak_mordechai/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Yitzhak \"Itzik\" Mordechai (Hebrew: \u05d9\u05e6\u05d7\u05e7 \u05de\u05e8\u05d3\u05db\u05d9; born 22 November 1944) is an Israeli former general and politician. He served as a member of the Knesset between 1996 and 2001, and as Minister of Defense and Minister of Transport. He retired from political life after being indicted for sexual assaults during his military service and later periods.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "shoe"
+    },
+    {
+      "index": 1,
+      "element": "shoelaces"
+    },
+    {
+      "index": 2,
+      "element": "black strips"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "medal bar"
+    },
+    {
+      "index": 1,
+      "element": "campaign map"
+    },
+    {
+      "index": 2,
+      "element": "podium block"
+    },
+    {
+      "index": 3,
+      "element": "shield plate"
+    },
+    {
+      "index": 4,
+      "element": "command shadow"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "shoe",
+      "shoelaces",
+      "black strips"
+    ],
+    "values": [
+      [
+        0.16005386412143707,
+        0.09426447004079819,
+        -0.06944523751735687
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "medal bar",
+      "campaign map",
+      "podium block",
+      "shield plate",
+      "command shadow"
+    ],
+    "column_labels": [
+      "shoe",
+      "shoelaces",
+      "black strips"
+    ],
+    "values": [
+      [
+        0.2272983342409134,
+        0.21516814827919006,
+        0.22667112946510315
+      ],
+      [
+        0.1781807392835617,
+        0.08613481372594833,
+        0.142231747508049
+      ],
+      [
+        0.18932202458381653,
+        0.22955648601055145,
+        0.19196349382400513
+      ],
+      [
+        0.12684646248817444,
+        0.20410986244678497,
+        0.35188689827919006
+      ],
+      [
+        0.14751866459846497,
+        0.12970006465911865,
+        0.2215852439403534
+      ]
+    ]
+  }
+}

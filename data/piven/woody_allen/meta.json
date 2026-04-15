@@ -1,0 +1,60 @@
+{
+  "name": "woody allen",
+  "bio": "Heywood \"Woody\" Allen (born Allan Stewart Konigsberg; November 30, 1935) is an American filmmaker, actor, writer, and comedian. In a career spanning eight decades, he has written for film, television, and theater. Allen has received many accolades, including the most wins and nominations for the Academy Award for Best Original Screenplay. He has won four Academy Awards, ten BAFTA Awards, two Golden Globe Awards and a Grammy Award, as well as nominations for an Emmy Award and a Tony Award. Allen has also received numerous honors, including an Honorary Golden Lion in 1995, the BAFTA Fellowship in 1997, an Honorary Palme d'Or in 2002, and the Golden Globe Cecil B. DeMille Award in 2014. Two of his films have been inducted into the National Film Registry by the Library of Congress.\nAllen began his career as part of a team of comedy writers for several Sid Caesar specials, and later wrote numerous humor pieces for The New Yorker as well as several Broadway plays, such as Don't Drink the Water (1966) and Play It Again, Sam (1969). He transitioned to working as a stand-up comedian in Greenwich Village, where he developed a monologue style and the persona of an insecure, intellectual, fretful nebbish. He released three comedy albums, earning a Grammy Award for Best Comedy Album nomination for Woody Allen (1964). Allen also published several books of short stories, such as Getting Even (1971), Without Feathers (1975), and Side Effects (1980).\nAllen then established himself as prominent director of the New Hollywood era of auteur filmmakers. After writing, directing, and starring in a string of slapstick comedies, such as Take the Money and Run (1969), Bananas (1971), Sleeper (1973), and Love and Death (1975), he directed his seminal work Annie Hall (1977), a romantic comedy-drama featuring Allen and his frequent collaborator Diane Keaton. The film received widespread acclaim and won four Academy Awards: Best Picture, Best Director and Best Original Screenplay, and Best Actress for Keaton. Allen has since directed many films set in New York City, including Manhattan (1979), Hannah and Her Sisters (1986), and Crimes and Misdemeanors (1989).\nSince becoming a filmmaker, Allen has made one almost every year. They include Interiors (1978), Stardust Memories (1980), Zelig (1983), Broadway Danny Rose (1984), The Purple Rose of Cairo (1985), Radio Days (1987), Husbands and Wives (1992), Bullets Over Broadway (1994), Deconstructing Harry (1997), Match Point (2005), Vicky Cristina Barcelona (2008), Midnight in Paris (2011), and Blue Jasmine (2013). In 2014, he returned to Broadway, adapting his 1994 film into the musical Bullets Over Broadway. He wrote the Amazon Prime Video series Crisis in Six Scenes (2016), and released a memoir, Apropos of Nothing (2020), and a novel, What's With Baum? (2025).\nFrom 1980 to 1992, Allen had a professional and personal relationship with actress Mia Farrow. They collaborated on 13 films. The couple separated after he began a relationship in 1991 with Farrow's and Andre Previn's 21-year-old adopted daughter Soon-Yi Previn. In 1992, Farrow publicly accused him of sexually abusing their adopted daughter, Dylan Farrow. The allegation gained substantial media attention, but Allen was never charged with a crime and has denied the allegation. Allen married Previn in 1997 and they have adopted two children.",
+  "bio_sources": [
+    {
+      "subject": "woody allen",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Woody_Allen"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "banana",
+      "shape_type": "organic object",
+      "meaning": "nods to Bananas and to woody allen's absurd, self-mocking comic persona."
+    },
+    {
+      "element": "glasses",
+      "shape_type": "wearable object",
+      "meaning": "helps anchor the gaze and reinforces woody allen's neurotic comedy and self-conscious intellectualism."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "city skyline",
+      "visual_representation": "a row of narrow vertical blocks like tall buildings",
+      "category": "place",
+      "relevance": "The biography explicitly ties the subject to New York City.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen production define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "film strip",
+      "visual_representation": "a narrow strip with evenly spaced rectangular frames",
+      "category": "object",
+      "relevance": "Cinema and edited moving images belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Prince",
+  "bio": "A prince is a male ruler (ranked below a king, grand prince, and grand duke) or a male member of a monarch's or former monarch's family. Prince is also a title of nobility (often highest), often hereditary, in some European states. The female equivalent is a princess. The English word derives, via the French word prince, from the Latin noun prīnceps, from primus (first) and caput (head), meaning \"the first, foremost, the chief, most distinguished, noble ruler, prince\".\nIn a related sense, now not commonly used, all more or less sovereign rulers over a state, including kings, were \"princes\" in the language of international politics. They normally had another title, for example king or duke. Many of these were Princes of the Holy Roman Empire.",
+  "bio_sources": [
+    {
+      "subject": "Prince",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Prince"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "fabric",
+      "shape_type": "textile object",
+      "meaning": "builds the portrait's costume and surface while reinforcing Prince's sensual performance and tactile style."
+    },
+    {
+      "element": "sandpaper",
+      "shape_type": "paper object",
+      "meaning": "adds a documentary or constructed layer to Prince's sensual performance and tactile style."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "crown arc",
+      "visual_representation": "a pointed crown-like band with small peaks",
+      "category": "symbol",
+      "relevance": "The biography is about princely rank and nobility.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "heraldic shield",
+      "visual_representation": "a formal shield divided into simple heraldic sections",
+      "category": "symbol",
+      "relevance": "Nobility and hereditary title are central to the text.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "palace columns",
+      "visual_representation": "ceremonial columns framing an official entrance",
+      "category": "place",
+      "relevance": "The biography describes monarchy, court life, and ruling households.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "royal seal",
+      "visual_representation": "a stamped circular emblem with a formal border",
+      "category": "domain",
+      "relevance": "The world around the subject is monarchy, title, and court symbolism.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "lineage ribbon",
+      "visual_representation": "a flowing band linking one formal marker to another",
+      "category": "identity",
+      "relevance": "The text emphasizes inherited title and family line.",
+      "grounding": "explicit"
+    }
+  ]
+}

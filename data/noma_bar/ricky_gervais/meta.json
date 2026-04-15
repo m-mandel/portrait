@@ -1,0 +1,80 @@
+{
+  "name": "ricky gervais",
+  "bio": "Ricky Dene Gervais ( jər-VAYZ; born 25 June 1961) is an English comedian, actor, writer, television producer and filmmaker. He co-created, co-wrote, and acted in the British television sitcoms The Office (2001–2003), Extras (2005–2007), and Life's Too Short (2011–2013) with Stephen Merchant. He also created, wrote, and starred in Derek (2012–2014) and After Life (2019–2022). Gervais was also executive producer of and had cameos in the American rendition of The Office (2005–2013).\nGervais has won seven British Academy Television Awards, five National Comedy Awards, two Primetime Emmy Awards, five Golden Globe Awards, and the Rose d'Or twice (2006 and 2019). In 2003, The Observer named Gervais one of the 50 funniest performers in British comedy. In 2007, he was placed at No. 11 on Channel 4's 100 Greatest Stand-Ups, and at No. 3 in their 2010 list. In 2010, he was included in the Time 100 list of World's Most Influential People.\nGervais initially worked in the music industry. He attempted a career as a pop star in the 1980s as the singer of the new-wave act Seona Dancing, who were successful in the Philippines with the song \"More to Lose\", but were dropped by their label, London Records, following their second single, \"Bitter Heart\", due to a lack of success in the UK singles chart. He also managed the then-unknown band Suede before turning to comedy in the mid-late 1990s. He appeared on The 11 O'Clock Show on Channel 4 between 1998 and 2000, garnering a reputation as an outspoken and sharp-witted social provocateur. In 2000, he was given a Channel 4 spoof talk show, Meet Ricky Gervais. He achieved greater mainstream fame the following year with his BBC television mock documentary series The Office, followed by Extras in 2005. He also wrote the Flanimals book series.\nGervais began his stand-up career in the late 1990s. He has performed five multi-national stand-up comedy tours. Gervais, Stephen Merchant and Karl Pilkington created the podcast The Ricky Gervais Show, which has spawned various spin-offs including An Idiot Abroad (2010–2012), starring Pilkington and produced by Gervais and Merchant. In 2016, he wrote, directed and starred in the comedy film David Brent: Life on the Road. Gervais has also starred in the Hollywood films For Your Consideration (2006), the Night at the Museum film series trilogy (2006–2014), Ghost Town (2008), and Muppets Most Wanted (2014). He wrote, directed, and starred in the 2009 romantic comedy film The Invention of Lying and the 2016 Netflix-released comedy film Special Correspondents. He hosted the Golden Globe Awards five times, in 2010, 2011, 2012, 2016, and 2020.",
+  "bio_sources": [
+    {
+      "subject": "ricky gervais",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Ricky_Gervais"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "white background field",
+      "shape_type": "rectangle",
+      "meaning": "keeps the joke visually dry and spare"
+    },
+    {
+      "element": "black hair cap",
+      "shape_type": "silhouette",
+      "meaning": "identifies his face with minimal detail"
+    },
+    {
+      "element": "white face shape",
+      "shape_type": "organic shape",
+      "meaning": "makes the central symbol the punchline"
+    },
+    {
+      "element": "pig-snout circle with nostrils",
+      "shape_type": "symbol",
+      "meaning": "suggests deliberately coarse and mocking comedy"
+    },
+    {
+      "element": "arched mouth line above the snout",
+      "shape_type": "arc",
+      "meaning": "creates a self-amused smirk"
+    },
+    {
+      "element": "simple eye and nose arcs",
+      "shape_type": "line",
+      "meaning": "keep the portrait deadpan and economical"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "book stack",
+      "visual_representation": "stacked books with staggered page edges",
+      "category": "object",
+      "relevance": "The biography explicitly describes literary work.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

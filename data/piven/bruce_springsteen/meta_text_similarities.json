@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/bruce_springsteen",
+  "meta_path": "/workspace/input/piven/data/bruce_springsteen/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Bruce Frederick Joseph Springsteen (born September 23, 1949) is an American singer, songwriter, and musician. Nicknamed \"the Boss\", Springsteen has released 21 studio albums spanning six decades; most of his albums feature the E Street Band, his backing band since 1972.\nSpringsteen released his first two albums, Greetings from Asbury Park, N.J. and The Wild, the Innocent & the E Street Shuffle, in 1973. He achieved worldwide popularity with Born to Run (1975). Springsteen followed with Darkness on the Edge of Town (1978) and The River (1980), Springsteen's first album to top the Billboard 200 chart. After the solo acoustic album Nebraska (1982), he recorded Born in the U.S.A. (1984) with the E Street Band, which became his most commercially successful album and the 23rd-best-selling album ever as of 2024. Springsteen mostly hired session musicians for the recording of his next three albums, Tunnel of Love (1987), Human Touch (1992), and Lucky Town (1992). He reassembled the E Street Band for Greatest Hits (1995), and recorded the acoustic album The Ghost of Tom Joad (1995) and the EP Blood Brothers (1996) solo.\nFollowing the Bruce Springsteen and the E Street Band Reunion Tour in 1999 and 2000, Springsteen released The Rising (2002), which was dedicated to the victims of the September 11 attacks. This was followed by two folk albums, Devils & Dust (2005) and We Shall Overcome: The Seeger Sessions (2006), his first cover album. Springsteen followed with Magic (2007), Working on a Dream (2009), Wrecking Ball (2012), and High Hopes (2014). From 2017 and 2021, Springsteen performed Springsteen on Broadway, performing songs and telling stories from his 2016 autobiography. He released the solo album Western Stars in 2019, Letter to You with the E Street Band in 2020, and a solo cover album Only the Strong Survive in 2022. With Letter to You, Springsteen became the first artist to release a top-five album in six consecutive decades. He released the politically charged \"Streets of Minneapolis\" in 2026, which quickly rose to the iTunes Top Songs chart.\nA prominent musician from the album era, Springsteen has sold more than 140 million records worldwide, making him one of the best-selling music artists of all time. His accolades include 20 Grammy Awards, two Golden Globes, an Academy Award, and a Special Tony Award. He was inducted into the Songwriters Hall of Fame and the Rock and Roll Hall of Fame in 1999, received the Kennedy Center Honors in 2009, was named MusiCares person of the year in 2013, and was awarded the Presidential Medal of Freedom in 2016 and the National Medal of Arts in 2023. In 2010, Rolling Stone ranked Springsteen 23rd on its list of the \"100 Greatest Artists of All Time\", describing him as \"the embodiment of rock and roll\". In 2025, Springsteen became one of only five artists to gross over $2.3 billion in touring thanks to his 2023\u20132025 Tour with the E Street Band.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "denim fabric"
+    },
+    {
+      "index": 1,
+      "element": "cassette tape ribbon"
+    },
+    {
+      "index": 2,
+      "element": "bandanna"
+    },
+    {
+      "index": 3,
+      "element": "belt"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 2,
+      "element": "vinyl record"
+    },
+    {
+      "index": 3,
+      "element": "stage lights"
+    },
+    {
+      "index": 4,
+      "element": "spotlight oval"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "denim fabric",
+      "cassette tape ribbon",
+      "bandanna",
+      "belt"
+    ],
+    "values": [
+      [
+        0.03497857600450516,
+        0.07586518675088882,
+        0.09826275706291199,
+        0.04380543529987335
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights",
+      "spotlight oval"
+    ],
+    "column_labels": [
+      "denim fabric",
+      "cassette tape ribbon",
+      "bandanna",
+      "belt"
+    ],
+    "values": [
+      [
+        0.2943984866142273,
+        0.10437285900115967,
+        0.2857729196548462,
+        0.18809962272644043
+      ],
+      [
+        0.21964284777641296,
+        0.2589998245239258,
+        0.20852485299110413,
+        0.17401760816574097
+      ],
+      [
+        0.17502287030220032,
+        0.47828084230422974,
+        0.20066998898983002,
+        0.19840240478515625
+      ],
+      [
+        0.09477636218070984,
+        0.10207650065422058,
+        0.10200449079275131,
+        0.08535616099834442
+      ],
+      [
+        0.12754741311073303,
+        0.15268567204475403,
+        0.19143354892730713,
+        0.24478238821029663
+      ]
+    ]
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/william_shakespeare",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/william_shakespeare/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+        "similarity": 0.09404554218053818
+      },
+      {
+        "index": 1,
+        "name": "02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+        "similarity": 0.012949996627867222
+      },
+      {
+        "index": 2,
+        "name": "03_william-shakespeare-met-dp858184-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg",
+        "similarity": -0.062138527631759644
+      },
+      {
+        "index": 3,
+        "name": "04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+        "similarity": -0.015176177956163883
+      },
+      {
+        "index": 4,
+        "name": "07_william-shakespeare-met-dp858194-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg",
+        "similarity": 0.01579676754772663
+      },
+      {
+        "index": 5,
+        "name": "09_william-shakespeare-met-dp858188-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg",
+        "similarity": 0.018370190635323524
+      },
+      {
+        "index": 6,
+        "name": "10_william-shakespeare-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg",
+        "similarity": -0.01339809037744999
+      },
+      {
+        "index": 7,
+        "name": "11_william-shakespeare-met-dp860174-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg",
+        "similarity": 0.01826425828039646
+      },
+      {
+        "index": 8,
+        "name": "12_william-shakespeare-met-dp857111-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg",
+        "similarity": 0.05205786973237991
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.09404554218053818,
+          0.012949996627867222,
+          -0.062138527631759644,
+          -0.015176177956163883,
+          0.01579676754772663,
+          0.018370190635323524,
+          -0.01339809037744999,
+          0.01826425828039646,
+          0.05205786973237991
+        ],
+        [
+          0.09404554218053818,
+          1.0,
+          0.007620479445904493,
+          -0.09582290053367615,
+          0.06954114139080048,
+          0.23069627583026886,
+          0.12164372205734253,
+          0.03978913277387619,
+          0.46395525336265564,
+          0.6904681324958801
+        ],
+        [
+          0.012949996627867222,
+          0.007620479445904493,
+          0.9999998807907104,
+          0.01736091636121273,
+          -0.02063099853694439,
+          0.039273668080568314,
+          -0.017369821667671204,
+          -0.03682940825819969,
+          -0.07477900385856628,
+          0.08546014875173569
+        ],
+        [
+          -0.062138527631759644,
+          -0.09582290053367615,
+          0.01736091636121273,
+          0.9999999403953552,
+          0.2481812983751297,
+          0.051559269428253174,
+          0.14119213819503784,
+          0.10343195497989655,
+          -0.024486813694238663,
+          0.04232005402445793
+        ],
+        [
+          -0.015176177956163883,
+          0.06954114139080048,
+          -0.02063099853694439,
+          0.2481812983751297,
+          1.0000001192092896,
+          0.19366854429244995,
+          0.47252514958381653,
+          -0.05106924846768379,
+          0.10608920454978943,
+          0.1198127418756485
+        ],
+        [
+          0.01579676754772663,
+          0.23069627583026886,
+          0.039273668080568314,
+          0.051559269428253174,
+          0.19366854429244995,
+          0.9999999403953552,
+          0.14848726987838745,
+          0.030723528936505318,
+          0.12151806801557541,
+          0.2530049979686737
+        ],
+        [
+          0.018370190635323524,
+          0.12164372205734253,
+          -0.017369821667671204,
+          0.14119213819503784,
+          0.47252514958381653,
+          0.14848726987838745,
+          1.0,
+          -0.031140359118580818,
+          0.08577023446559906,
+          0.13455024361610413
+        ],
+        [
+          -0.01339809037744999,
+          0.03978913277387619,
+          -0.03682940825819969,
+          0.10343195497989655,
+          -0.05106924846768379,
+          0.030723528936505318,
+          -0.031140359118580818,
+          1.0,
+          0.008597536943852901,
+          0.09193366765975952
+        ],
+        [
+          0.01826425828039646,
+          0.46395525336265564,
+          -0.07477900385856628,
+          -0.024486813694238663,
+          0.10608920454978943,
+          0.12151806801557541,
+          0.08577023446559906,
+          0.008597536943852901,
+          1.0,
+          0.4119613468647003
+        ],
+        [
+          0.05205786973237991,
+          0.6904681324958801,
+          0.08546014875173569,
+          0.04232005402445793,
+          0.1198127418756485,
+          0.2530049979686737,
+          0.13455024361610413,
+          0.09193366765975952,
+          0.4119613468647003,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg"
+    },
+    {
+      "name": "02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg"
+    },
+    {
+      "name": "03_william-shakespeare-met-dp858184-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg"
+    },
+    {
+      "name": "04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg"
+    },
+    {
+      "name": "07_william-shakespeare-met-dp858194-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg"
+    },
+    {
+      "name": "09_william-shakespeare-met-dp858188-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg"
+    },
+    {
+      "name": "10_william-shakespeare-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg"
+    },
+    {
+      "name": "11_william-shakespeare-met-dp860174-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg"
+    },
+    {
+      "name": "12_william-shakespeare-met-dp857111-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "similarity": 0.007620479445904493
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg",
+      "similarity": -0.09582290053367615
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "similarity": 0.06954114139080048
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg",
+      "similarity": 0.23069627583026886
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg",
+      "similarity": 0.12164372205734253
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg",
+      "similarity": 0.03978913277387619
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg",
+      "similarity": 0.46395525336265564
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg",
+      "similarity": 0.6904681324958801
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg",
+      "similarity": 0.01736091636121273
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "similarity": -0.02063099853694439
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg",
+      "similarity": 0.039273668080568314
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg",
+      "similarity": -0.017369821667671204
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg",
+      "similarity": -0.03682940825819969
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg",
+      "similarity": -0.07477900385856628
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg",
+      "similarity": 0.08546014875173569
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "similarity": 0.2481812983751297
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg",
+      "similarity": 0.051559269428253174
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg",
+      "similarity": 0.14119213819503784
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg",
+      "similarity": 0.10343195497989655
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg",
+      "similarity": -0.024486813694238663
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/03_william-shakespeare-met-dp858184-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg",
+      "similarity": 0.04232005402445793
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg",
+      "similarity": 0.19366854429244995
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg",
+      "similarity": 0.47252514958381653
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg",
+      "similarity": -0.05106924846768379
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg",
+      "similarity": 0.10608920454978943
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg",
+      "similarity": 0.1198127418756485
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg",
+      "similarity": 0.14848726987838745
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg",
+      "similarity": 0.030723528936505318
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg",
+      "similarity": 0.12151806801557541
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/07_william-shakespeare-met-dp858194-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg",
+      "similarity": 0.2530049979686737
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg",
+      "similarity": -0.031140359118580818
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg",
+      "similarity": 0.08577023446559906
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/09_william-shakespeare-met-dp858188-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg",
+      "similarity": 0.13455024361610413
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg",
+      "similarity": 0.008597536943852901
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/10_william-shakespeare-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg",
+      "similarity": 0.09193366765975952
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/william_shakespeare/images/11_william-shakespeare-met-dp860174-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/william_shakespeare/images/12_william-shakespeare-met-dp857111-jpg.jpg",
+      "similarity": 0.4119613468647003
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_william-shakespeare-by-john-taylor-edited-jpg.jpg",
+      "02_george-romney-william-shakespeare-the-tempest-act-i-scene-1-jpg.jpg",
+      "03_william-shakespeare-met-dp858184-jpg.jpg",
+      "04_portrait-of-an-unknown-gentleman-previously-identified-as-william-shakespeare-met-dp858196-jpg.jpg",
+      "07_william-shakespeare-met-dp858194-jpg.jpg",
+      "09_william-shakespeare-met-dp858188-jpg.jpg",
+      "10_william-shakespeare-jpg.jpg",
+      "11_william-shakespeare-met-dp860174-jpg.jpg",
+      "12_william-shakespeare-met-dp857111-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.007620479445904493,
+        -0.09582290053367615,
+        0.06954114139080048,
+        0.23069627583026886,
+        0.12164372205734253,
+        0.03978913277387619,
+        0.46395525336265564,
+        0.6904681324958801
+      ],
+      [
+        0.007620479445904493,
+        0.9999998807907104,
+        0.01736091636121273,
+        -0.02063099853694439,
+        0.039273668080568314,
+        -0.017369821667671204,
+        -0.03682940825819969,
+        -0.07477900385856628,
+        0.08546014875173569
+      ],
+      [
+        -0.09582290053367615,
+        0.01736091636121273,
+        0.9999999403953552,
+        0.2481812983751297,
+        0.051559269428253174,
+        0.14119213819503784,
+        0.10343195497989655,
+        -0.024486813694238663,
+        0.04232005402445793
+      ],
+      [
+        0.06954114139080048,
+        -0.02063099853694439,
+        0.2481812983751297,
+        1.0000001192092896,
+        0.19366854429244995,
+        0.47252514958381653,
+        -0.05106924846768379,
+        0.10608920454978943,
+        0.1198127418756485
+      ],
+      [
+        0.23069627583026886,
+        0.039273668080568314,
+        0.051559269428253174,
+        0.19366854429244995,
+        0.9999999403953552,
+        0.14848726987838745,
+        0.030723528936505318,
+        0.12151806801557541,
+        0.2530049979686737
+      ],
+      [
+        0.12164372205734253,
+        -0.017369821667671204,
+        0.14119213819503784,
+        0.47252514958381653,
+        0.14848726987838745,
+        1.0,
+        -0.031140359118580818,
+        0.08577023446559906,
+        0.13455024361610413
+      ],
+      [
+        0.03978913277387619,
+        -0.03682940825819969,
+        0.10343195497989655,
+        -0.05106924846768379,
+        0.030723528936505318,
+        -0.031140359118580818,
+        1.0,
+        0.008597536943852901,
+        0.09193366765975952
+      ],
+      [
+        0.46395525336265564,
+        -0.07477900385856628,
+        -0.024486813694238663,
+        0.10608920454978943,
+        0.12151806801557541,
+        0.08577023446559906,
+        0.008597536943852901,
+        1.0,
+        0.4119613468647003
+      ],
+      [
+        0.6904681324958801,
+        0.08546014875173569,
+        0.04232005402445793,
+        0.1198127418756485,
+        0.2530049979686737,
+        0.13455024361610413,
+        0.09193366765975952,
+        0.4119613468647003,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/william_shakespeare/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/william_shakespeare/images/05_william-shakespeare-hall-portrait-verso-png.png",
+      "error": "No face detected in /workspace/input/noma_bar/data/william_shakespeare/images/05_william-shakespeare-hall-portrait-verso-png.png"
+    }
+  ]
+}

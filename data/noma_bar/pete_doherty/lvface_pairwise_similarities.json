@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/pete_doherty",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/pete_doherty/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+        "similarity": 0.04198295623064041
+      },
+      {
+        "index": 1,
+        "name": "02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+        "similarity": 0.09288417547941208
+      },
+      {
+        "index": 2,
+        "name": "03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+        "similarity": 0.07244963198900223
+      },
+      {
+        "index": 3,
+        "name": "06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+        "similarity": 0.06744873523712158
+      },
+      {
+        "index": 4,
+        "name": "08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+        "similarity": 0.05052604526281357
+      },
+      {
+        "index": 5,
+        "name": "09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+        "similarity": 0.0741356834769249
+      },
+      {
+        "index": 6,
+        "name": "13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+        "similarity": 0.04720732197165489
+      },
+      {
+        "index": 7,
+        "name": "14_pete-doherty-55208426-jpeg.jpg",
+        "path": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg",
+        "similarity": 0.033960435539484024
+      },
+      {
+        "index": 8,
+        "name": "16_pete-doherty-flickr-kris-krug-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg",
+        "similarity": 0.0624137744307518
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.04198295623064041,
+          0.09288417547941208,
+          0.07244963198900223,
+          0.06744873523712158,
+          0.05052604526281357,
+          0.0741356834769249,
+          0.04720732197165489,
+          0.033960435539484024,
+          0.0624137744307518
+        ],
+        [
+          0.04198295623064041,
+          0.9999999403953552,
+          0.5178471803665161,
+          0.5693449378013611,
+          0.5122849941253662,
+          0.44280320405960083,
+          0.4905826449394226,
+          0.5817558765411377,
+          0.5185280442237854,
+          0.4958440959453583
+        ],
+        [
+          0.09288417547941208,
+          0.5178471803665161,
+          1.0,
+          0.5199882388114929,
+          0.42806097865104675,
+          0.48287996649742126,
+          0.48668307065963745,
+          0.5371424555778503,
+          0.49889227747917175,
+          0.4752417206764221
+        ],
+        [
+          0.07244963198900223,
+          0.5693449378013611,
+          0.5199882388114929,
+          0.9999999403953552,
+          0.42634117603302,
+          0.5785929560661316,
+          0.5598157048225403,
+          0.5817944407463074,
+          0.4635595381259918,
+          0.5644152164459229
+        ],
+        [
+          0.06744873523712158,
+          0.5122849941253662,
+          0.42806097865104675,
+          0.42634117603302,
+          1.0000001192092896,
+          0.48710355162620544,
+          0.5367622375488281,
+          0.4944092631340027,
+          0.5283215045928955,
+          0.4952933192253113
+        ],
+        [
+          0.05052604526281357,
+          0.44280320405960083,
+          0.48287996649742126,
+          0.5785929560661316,
+          0.48710355162620544,
+          1.0,
+          0.6023994088172913,
+          0.5328255295753479,
+          0.5088751912117004,
+          0.48729386925697327
+        ],
+        [
+          0.0741356834769249,
+          0.4905826449394226,
+          0.48668307065963745,
+          0.5598157048225403,
+          0.5367622375488281,
+          0.6023994088172913,
+          1.0,
+          0.5384275317192078,
+          0.4446542263031006,
+          0.40239253640174866
+        ],
+        [
+          0.04720732197165489,
+          0.5817558765411377,
+          0.5371424555778503,
+          0.5817944407463074,
+          0.4944092631340027,
+          0.5328255295753479,
+          0.5384275317192078,
+          1.0,
+          0.5818796753883362,
+          0.47387781739234924
+        ],
+        [
+          0.033960435539484024,
+          0.5185280442237854,
+          0.49889227747917175,
+          0.4635595381259918,
+          0.5283215045928955,
+          0.5088751912117004,
+          0.4446542263031006,
+          0.5818796753883362,
+          0.9999999403953552,
+          0.4944964349269867
+        ],
+        [
+          0.0624137744307518,
+          0.4958440959453583,
+          0.4752417206764221,
+          0.5644152164459229,
+          0.4952933192253113,
+          0.48729386925697327,
+          0.40239253640174866,
+          0.47387781739234924,
+          0.4944964349269867,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg"
+    },
+    {
+      "name": "02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg"
+    },
+    {
+      "name": "03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg"
+    },
+    {
+      "name": "06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg"
+    },
+    {
+      "name": "08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg"
+    },
+    {
+      "name": "09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg"
+    },
+    {
+      "name": "13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg"
+    },
+    {
+      "name": "14_pete-doherty-55208426-jpeg.jpg",
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg"
+    },
+    {
+      "name": "16_pete-doherty-flickr-kris-krug-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "similarity": 0.5178471803665161
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "similarity": 0.5693449378013611
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "similarity": 0.5122849941253662
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "similarity": 0.44280320405960083
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "similarity": 0.4905826449394226
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "similarity": 0.5817558765411377
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg",
+      "similarity": 0.5185280442237854
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg",
+      "similarity": 0.4958440959453583
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "similarity": 0.5199882388114929
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "similarity": 0.42806097865104675
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "similarity": 0.48287996649742126
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "similarity": 0.48668307065963745
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "similarity": 0.5371424555778503
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg",
+      "similarity": 0.49889227747917175
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg",
+      "similarity": 0.4752417206764221
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "similarity": 0.42634117603302
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "similarity": 0.5785929560661316
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "similarity": 0.5598157048225403
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "similarity": 0.5817944407463074
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg",
+      "similarity": 0.4635595381259918
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg",
+      "similarity": 0.5644152164459229
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "similarity": 0.48710355162620544
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "similarity": 0.5367622375488281
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "similarity": 0.4944092631340027
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg",
+      "similarity": 0.5283215045928955
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg",
+      "similarity": 0.4952933192253113
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "similarity": 0.6023994088172913
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "similarity": 0.5328255295753479
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg",
+      "similarity": 0.5088751912117004
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg",
+      "similarity": 0.48729386925697327
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "similarity": 0.5384275317192078
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg",
+      "similarity": 0.4446542263031006
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg",
+      "similarity": 0.40239253640174866
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg",
+      "similarity": 0.5818796753883362
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg",
+      "similarity": 0.47387781739234924
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pete_doherty/images/14_pete-doherty-55208426-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/pete_doherty/images/16_pete-doherty-flickr-kris-krug-jpg.jpg",
+      "similarity": 0.4944964349269867
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_pete-doherty-festival-we-love-green-photo-f-loock-3-jpg.jpg",
+      "02_pete-doherty-festival-we-love-green-photo-f-loock-4-jpg.jpg",
+      "03_pete-doherty-festival-we-love-green-photo-f-loock-1-jpg.jpg",
+      "06_pete-doherty-festival-we-love-green-photo-f-loock-0-jpg.jpg",
+      "08_pete-doherty-festival-we-love-green-photo-f-loock-6-jpg.jpg",
+      "09_pete-doherty-festival-we-love-green-photo-f-loock-2-jpg.jpg",
+      "13_pete-doherty-festival-we-love-green-photo-f-loock-5-jpg.jpg",
+      "14_pete-doherty-55208426-jpeg.jpg",
+      "16_pete-doherty-flickr-kris-krug-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.5178471803665161,
+        0.5693449378013611,
+        0.5122849941253662,
+        0.44280320405960083,
+        0.4905826449394226,
+        0.5817558765411377,
+        0.5185280442237854,
+        0.4958440959453583
+      ],
+      [
+        0.5178471803665161,
+        1.0,
+        0.5199882388114929,
+        0.42806097865104675,
+        0.48287996649742126,
+        0.48668307065963745,
+        0.5371424555778503,
+        0.49889227747917175,
+        0.4752417206764221
+      ],
+      [
+        0.5693449378013611,
+        0.5199882388114929,
+        0.9999999403953552,
+        0.42634117603302,
+        0.5785929560661316,
+        0.5598157048225403,
+        0.5817944407463074,
+        0.4635595381259918,
+        0.5644152164459229
+      ],
+      [
+        0.5122849941253662,
+        0.42806097865104675,
+        0.42634117603302,
+        1.0000001192092896,
+        0.48710355162620544,
+        0.5367622375488281,
+        0.4944092631340027,
+        0.5283215045928955,
+        0.4952933192253113
+      ],
+      [
+        0.44280320405960083,
+        0.48287996649742126,
+        0.5785929560661316,
+        0.48710355162620544,
+        1.0,
+        0.6023994088172913,
+        0.5328255295753479,
+        0.5088751912117004,
+        0.48729386925697327
+      ],
+      [
+        0.4905826449394226,
+        0.48668307065963745,
+        0.5598157048225403,
+        0.5367622375488281,
+        0.6023994088172913,
+        1.0,
+        0.5384275317192078,
+        0.4446542263031006,
+        0.40239253640174866
+      ],
+      [
+        0.5817558765411377,
+        0.5371424555778503,
+        0.5817944407463074,
+        0.4944092631340027,
+        0.5328255295753479,
+        0.5384275317192078,
+        1.0,
+        0.5818796753883362,
+        0.47387781739234924
+      ],
+      [
+        0.5185280442237854,
+        0.49889227747917175,
+        0.4635595381259918,
+        0.5283215045928955,
+        0.5088751912117004,
+        0.4446542263031006,
+        0.5818796753883362,
+        0.9999999403953552,
+        0.4944964349269867
+      ],
+      [
+        0.4958440959453583,
+        0.4752417206764221,
+        0.5644152164459229,
+        0.4952933192253113,
+        0.48729386925697327,
+        0.40239253640174866,
+        0.47387781739234924,
+        0.4944964349269867,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/pete_doherty/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/pete_doherty/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/pete_doherty/images/15_pete-doherty-2007-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/pete_doherty/images/15_pete-doherty-2007-jpg.jpg"
+    }
+  ]
+}

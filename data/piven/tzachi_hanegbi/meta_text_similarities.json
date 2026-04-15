@@ -1,0 +1,76 @@
+{
+  "folder": "/workspace/input/piven/data/tzachi_hanegbi",
+  "meta_path": "/workspace/input/piven/data/tzachi_hanegbi/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Tzachi Hanegbi (Hebrew: \u05e6\u05d7\u05d9 \u05d4\u05e0\u05d2\u05d1\u05d9\u200e; born 26 February 1957) is an Israeli politician and national security expert who served as Israel's National Security Advisor from 2023 to 2025. A member of Likud, Hanegbi previously served as Minister of Agriculture and Rural Development, Minister of Regional Cooperation and Minister of Community Affairs.\nHe served as Minister of Justice, Minister of Internal Security, Minister of Intelligence and Nuclear Affairs, and Minister in the Prime Minister's office supervising Israel's intelligence agencies Mossad and Shin Bet. He was also responsible for overseeing Israel's Atomic Energy Agency and served as the minister in charge of Israel's strategic relationship and security dialogue with the United States. He also served as Deputy Minister of Foreign Affairs and as the Chairman of the Knesset Foreign Affairs and Defense Committee and Majority Leader of the Knesset.\nHanegbi was appointed by Prime Minister Benjamin Netanyahu to serve as acting prime minister of Israel, from 10 to 17 September 2017, while the prime minister traveled abroad.\nHe lost his seat in the Knesset in the 2022 Israeli legislative election. In January 2023, Hanegbi was appointed head of the National Security Council. On 21 October 2025, Prime Minister Netanyahu fired Hanegbi, effective immediately, from heading the National Security Council.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "stones"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "podium block"
+    },
+    {
+      "index": 1,
+      "element": "ballot box"
+    },
+    {
+      "index": 2,
+      "element": "medal bar"
+    },
+    {
+      "index": 3,
+      "element": "state seal"
+    },
+    {
+      "index": 4,
+      "element": "campaign current"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "stones"
+    ],
+    "values": [
+      [
+        -0.00300662312656641
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "podium block",
+      "ballot box",
+      "medal bar",
+      "state seal",
+      "campaign current"
+    ],
+    "column_labels": [
+      "stones"
+    ],
+    "values": [
+      [
+        0.1204446479678154
+      ],
+      [
+        0.1960802525281906
+      ],
+      [
+        0.24628281593322754
+      ],
+      [
+        0.2207162082195282
+      ],
+      [
+        0.15364018082618713
+      ]
+    ]
+  }
+}

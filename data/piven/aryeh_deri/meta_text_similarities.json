@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/aryeh_deri",
+  "meta_path": "/workspace/input/piven/data/aryeh_deri/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Aryeh Makhlouf Deri (Hebrew: \u05d0\u05e8\u05d9\u05d4 \u05de\u05db\u05dc\u05d5\u05e3 \u05d3\u05e8\u05e2\u05d9; Arabic: \u0623\u0631\u064a\u0647 \u0645\u062e\u0644\u0648\u0641 \u062f\u0631\u0639\u064a), also Arie Deri, Arye Deri, or Arieh Deri (born 17 February 1959), is an Israeli politician and one of the founders of the Shas political party who served as the Vice Prime Minister, Minister of Health, and Minister of the Interior and Periphery under Prime Minister Benjamin Netanyahu from December 2022 to January 2023. Previously he served as the Minister of the Interior, Minister of the Development of the Negev and Galilee, Minister of the Economy, as well as a member in the Security Cabinet of Israel.\nIn 1999, Deri was convicted of bribery, fraud, and breach of trust; he was given a three-year jail sentence. At the end of 2012, ahead of the elections for the nineteenth Knesset, he returned to lead the Shas party. He was placed in second position on the list, thus being re-elected to the Knesset. In May 2013, he was re-appointed to the role of Shas chairman. In December 2021, it was reported that Deri would resign from the Knesset as part of a plea deal for tax offenses. After re-entering the Knesset in the 2022 elections, he was appointed as Vice Prime Minister, Interior Minister, and Health Minister in the thirty-seventh government in December 2022. However, due to a January 2023 ruling by the Supreme Court of Israel that Deri was not eligible for a ministerial position due to his criminal convictions and the terms of his plea deal, he was dismissed from his official posts in the Israeli cabinet.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "soap bars"
+    },
+    {
+      "index": 1,
+      "element": "hamsa charms"
+    },
+    {
+      "index": 2,
+      "element": "coffee beans"
+    },
+    {
+      "index": 3,
+      "element": "coffee bean shell"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "court bench"
+    },
+    {
+      "index": 1,
+      "element": "podium block"
+    },
+    {
+      "index": 2,
+      "element": "ballot box"
+    },
+    {
+      "index": 3,
+      "element": "gavel block"
+    },
+    {
+      "index": 4,
+      "element": "state seal"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "soap bars",
+      "hamsa charms",
+      "coffee beans",
+      "coffee bean shell"
+    ],
+    "values": [
+      [
+        0.038071371614933014,
+        0.016189202666282654,
+        0.012469855137169361,
+        -0.003530038520693779
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "court bench",
+      "podium block",
+      "ballot box",
+      "gavel block",
+      "state seal"
+    ],
+    "column_labels": [
+      "soap bars",
+      "hamsa charms",
+      "coffee beans",
+      "coffee bean shell"
+    ],
+    "values": [
+      [
+        0.11777829378843307,
+        0.05680330842733383,
+        0.16010114550590515,
+        0.19251370429992676
+      ],
+      [
+        0.07297738641500473,
+        0.02223227731883526,
+        0.0704532340168953,
+        0.10515038669109344
+      ],
+      [
+        0.09790810942649841,
+        0.14190180599689484,
+        0.17921827733516693,
+        0.18727067112922668
+      ],
+      [
+        0.10628855228424072,
+        0.10455530881881714,
+        0.07625148445367813,
+        0.05106821656227112
+      ],
+      [
+        0.21952223777770996,
+        0.14081333577632904,
+        0.1378694474697113,
+        0.16896888613700867
+      ]
+    ]
+  }
+}

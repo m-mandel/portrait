@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/albert_einstein",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/albert_einstein/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_albert-einstein-head-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+        "similarity": 0.011136936955153942
+      },
+      {
+        "index": 1,
+        "name": "02_albert-einstein-photo-1920-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+        "similarity": -0.006306511349976063
+      },
+      {
+        "index": 2,
+        "name": "03_albert-einstein-head-cleaned-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+        "similarity": -0.010356500744819641
+      },
+      {
+        "index": 3,
+        "name": "06_albert-einstein-photo-1921-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+        "similarity": 0.03549015149474144
+      },
+      {
+        "index": 4,
+        "name": "09_albert-einstein-head-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+        "similarity": 0.008064069785177708
+      },
+      {
+        "index": 5,
+        "name": "11_albert-einstein-sticks-his-tongue-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+        "similarity": -0.033094845712184906
+      },
+      {
+        "index": 6,
+        "name": "11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+        "similarity": 0.04575520381331444
+      },
+      {
+        "index": 7,
+        "name": "14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+        "similarity": 0.04354865476489067
+      },
+      {
+        "index": 8,
+        "name": "15_albert-einstein-nobel-png.png",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+        "similarity": 0.015599348582327366
+      },
+      {
+        "index": 9,
+        "name": "16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+        "similarity": 0.01852760836482048
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.011136936955153942,
+          -0.006306511349976063,
+          -0.010356500744819641,
+          0.03549015149474144,
+          0.008064069785177708,
+          -0.033094845712184906,
+          0.04575520381331444,
+          0.04354865476489067,
+          0.015599348582327366,
+          0.01852760836482048
+        ],
+        [
+          0.011136936955153942,
+          1.0000001192092896,
+          0.41064706444740295,
+          0.8868657350540161,
+          0.45927274227142334,
+          0.8885146975517273,
+          0.5806338787078857,
+          0.41249585151672363,
+          0.44135263562202454,
+          0.4584932029247284,
+          0.42173445224761963
+        ],
+        [
+          -0.006306511349976063,
+          0.41064706444740295,
+          1.0000001192092896,
+          0.3804042637348175,
+          0.4611227810382843,
+          0.29717254638671875,
+          0.449502557516098,
+          0.47666651010513306,
+          0.6596983075141907,
+          0.47908586263656616,
+          0.44012290239334106
+        ],
+        [
+          -0.010356500744819641,
+          0.8868657350540161,
+          0.3804042637348175,
+          1.0,
+          0.4653318226337433,
+          0.8813534379005432,
+          0.5304093956947327,
+          0.47381168603897095,
+          0.447526216506958,
+          0.39763662219047546,
+          0.44716793298721313
+        ],
+        [
+          0.03549015149474144,
+          0.45927274227142334,
+          0.4611227810382843,
+          0.4653318226337433,
+          0.9999998807907104,
+          0.4951915144920349,
+          0.4509795010089874,
+          0.4389866590499878,
+          0.5934906005859375,
+          0.5295215845108032,
+          0.4738848805427551
+        ],
+        [
+          0.008064069785177708,
+          0.8885146975517273,
+          0.29717254638671875,
+          0.8813534379005432,
+          0.4951915144920349,
+          1.0,
+          0.5157079696655273,
+          0.46308112144470215,
+          0.4306007921695709,
+          0.4658558666706085,
+          0.4342179000377655
+        ],
+        [
+          -0.033094845712184906,
+          0.5806338787078857,
+          0.449502557516098,
+          0.5304093956947327,
+          0.4509795010089874,
+          0.5157079696655273,
+          1.0000001192092896,
+          0.4706405997276306,
+          0.4789254367351532,
+          0.41497987508773804,
+          0.4765765070915222
+        ],
+        [
+          0.04575520381331444,
+          0.41249585151672363,
+          0.47666651010513306,
+          0.47381168603897095,
+          0.4389866590499878,
+          0.46308112144470215,
+          0.4706405997276306,
+          0.9999999403953552,
+          0.4523843824863434,
+          0.40396764874458313,
+          0.45071908831596375
+        ],
+        [
+          0.04354865476489067,
+          0.44135263562202454,
+          0.6596983075141907,
+          0.447526216506958,
+          0.5934906005859375,
+          0.4306007921695709,
+          0.4789254367351532,
+          0.4523843824863434,
+          1.0,
+          0.4486766755580902,
+          0.5598133206367493
+        ],
+        [
+          0.015599348582327366,
+          0.4584932029247284,
+          0.47908586263656616,
+          0.39763662219047546,
+          0.5295215845108032,
+          0.4658558666706085,
+          0.41497987508773804,
+          0.40396764874458313,
+          0.4486766755580902,
+          0.9999998807907104,
+          0.4153573215007782
+        ],
+        [
+          0.01852760836482048,
+          0.42173445224761963,
+          0.44012290239334106,
+          0.44716793298721313,
+          0.4738848805427551,
+          0.4342179000377655,
+          0.4765765070915222,
+          0.45071908831596375,
+          0.5598133206367493,
+          0.4153573215007782,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_albert-einstein-head-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_albert-einstein-photo-1920-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg"
+    },
+    {
+      "name": "03_albert-einstein-head-cleaned-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg"
+    },
+    {
+      "name": "06_albert-einstein-photo-1921-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg"
+    },
+    {
+      "name": "09_albert-einstein-head-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg"
+    },
+    {
+      "name": "11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg"
+    },
+    {
+      "name": "11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg"
+    },
+    {
+      "name": "14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg"
+    },
+    {
+      "name": "15_albert-einstein-nobel-png.png",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png"
+    },
+    {
+      "name": "16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+      "similarity": 0.41064706444740295
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+      "similarity": 0.8868657350540161
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.45927274227142334
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+      "similarity": 0.8885146975517273
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "similarity": 0.5806338787078857
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "similarity": 0.41249585151672363
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "similarity": 0.44135263562202454
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+      "similarity": 0.4584932029247284
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "similarity": 0.42173445224761963
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+      "similarity": 0.3804042637348175
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.4611227810382843
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+      "similarity": 0.29717254638671875
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "similarity": 0.449502557516098
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "similarity": 0.47666651010513306
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "similarity": 0.6596983075141907
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+      "similarity": 0.47908586263656616
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/02_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "similarity": 0.44012290239334106
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.4653318226337433
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+      "similarity": 0.8813534379005432
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "similarity": 0.5304093956947327
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "similarity": 0.47381168603897095
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "similarity": 0.447526216506958
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+      "similarity": 0.39763662219047546
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/03_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "similarity": 0.44716793298721313
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+      "similarity": 0.4951915144920349
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "similarity": 0.4509795010089874
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "similarity": 0.4389866590499878
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "similarity": 0.5934906005859375
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+      "similarity": 0.5295215845108032
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/06_albert-einstein-photo-1921-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "similarity": 0.4738848805427551
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "similarity": 0.5157079696655273
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "similarity": 0.46308112144470215
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "similarity": 0.4306007921695709
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+      "similarity": 0.4658558666706085
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/09_albert-einstein-head-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "similarity": 0.4342179000377655
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "similarity": 0.4706405997276306
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "similarity": 0.4789254367351532
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+      "similarity": 0.41497987508773804
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "similarity": 0.4765765070915222
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "similarity": 0.4523843824863434
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+      "similarity": 0.40396764874458313
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "similarity": 0.45071908831596375
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+      "similarity": 0.4486766755580902
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "similarity": 0.5598133206367493
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/albert_einstein/images/15_albert-einstein-nobel-png.png",
+      "right": "/workspace/input/noma_bar/data/albert_einstein/images/16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg",
+      "similarity": 0.4153573215007782
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_albert-einstein-head-cropped-jpg.jpg",
+      "02_albert-einstein-photo-1920-jpg.jpg",
+      "03_albert-einstein-head-cleaned-jpg.jpg",
+      "06_albert-einstein-photo-1921-jpg.jpg",
+      "09_albert-einstein-head-jpg.jpg",
+      "11_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "11_prof-albert-einstein-photo-by-kadel-herbert-jpg.jpg",
+      "14_albert-einstein-1921-by-f-schmutzer-jpg.jpg",
+      "15_albert-einstein-nobel-png.png",
+      "16_albert-einstein-met-paul-en-galinka-ehrenfest-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.41064706444740295,
+        0.8868657350540161,
+        0.45927274227142334,
+        0.8885146975517273,
+        0.5806338787078857,
+        0.41249585151672363,
+        0.44135263562202454,
+        0.4584932029247284,
+        0.42173445224761963
+      ],
+      [
+        0.41064706444740295,
+        1.0000001192092896,
+        0.3804042637348175,
+        0.4611227810382843,
+        0.29717254638671875,
+        0.449502557516098,
+        0.47666651010513306,
+        0.6596983075141907,
+        0.47908586263656616,
+        0.44012290239334106
+      ],
+      [
+        0.8868657350540161,
+        0.3804042637348175,
+        1.0,
+        0.4653318226337433,
+        0.8813534379005432,
+        0.5304093956947327,
+        0.47381168603897095,
+        0.447526216506958,
+        0.39763662219047546,
+        0.44716793298721313
+      ],
+      [
+        0.45927274227142334,
+        0.4611227810382843,
+        0.4653318226337433,
+        0.9999998807907104,
+        0.4951915144920349,
+        0.4509795010089874,
+        0.4389866590499878,
+        0.5934906005859375,
+        0.5295215845108032,
+        0.4738848805427551
+      ],
+      [
+        0.8885146975517273,
+        0.29717254638671875,
+        0.8813534379005432,
+        0.4951915144920349,
+        1.0,
+        0.5157079696655273,
+        0.46308112144470215,
+        0.4306007921695709,
+        0.4658558666706085,
+        0.4342179000377655
+      ],
+      [
+        0.5806338787078857,
+        0.449502557516098,
+        0.5304093956947327,
+        0.4509795010089874,
+        0.5157079696655273,
+        1.0000001192092896,
+        0.4706405997276306,
+        0.4789254367351532,
+        0.41497987508773804,
+        0.4765765070915222
+      ],
+      [
+        0.41249585151672363,
+        0.47666651010513306,
+        0.47381168603897095,
+        0.4389866590499878,
+        0.46308112144470215,
+        0.4706405997276306,
+        0.9999999403953552,
+        0.4523843824863434,
+        0.40396764874458313,
+        0.45071908831596375
+      ],
+      [
+        0.44135263562202454,
+        0.6596983075141907,
+        0.447526216506958,
+        0.5934906005859375,
+        0.4306007921695709,
+        0.4789254367351532,
+        0.4523843824863434,
+        1.0,
+        0.4486766755580902,
+        0.5598133206367493
+      ],
+      [
+        0.4584932029247284,
+        0.47908586263656616,
+        0.39763662219047546,
+        0.5295215845108032,
+        0.4658558666706085,
+        0.41497987508773804,
+        0.40396764874458313,
+        0.4486766755580902,
+        0.9999998807907104,
+        0.4153573215007782
+      ],
+      [
+        0.42173445224761963,
+        0.44012290239334106,
+        0.44716793298721313,
+        0.4738848805427551,
+        0.4342179000377655,
+        0.4765765070915222,
+        0.45071908831596375,
+        0.5598133206367493,
+        0.4153573215007782,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/albert_einstein/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/albert_einstein/portrait.jpg"
+    }
+  ]
+}

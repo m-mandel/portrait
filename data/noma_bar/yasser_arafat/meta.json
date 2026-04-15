@@ -1,0 +1,90 @@
+{
+  "name": "yasser arafat",
+  "bio": "Yasser Arafat (c. August 1929 – 11 November 2004), also popularly known by his kunya Abu Ammar, was a Palestinian political leader. He was chairman of the Palestine Liberation Organization (PLO) from 1969 to 2004, President of Palestine from 1989 to 2004 and President of the Palestinian Authority (PNA) from 1994 to 2004. Ideologically an Arab nationalist and a socialist, Arafat was a founding member of the Fatah political party, which he led from 1959 until 2004.\nArafat was born to Palestinian parents in Cairo, Egypt, where he spent most of his youth. He studied at the University of King Fuad I. While a student, he embraced Arab nationalist and anti-Zionist ideas. Opposed to the 1948 creation of the State of Israel, he fought alongside the Muslim Brotherhood during the 1948 Arab–Israeli War. Following the defeat of Arab forces, Arafat returned to Cairo and served as president of the General Union of Palestinian Students from 1952 to 1956.\nIn the latter part of the 1950s, Arafat co-founded Fatah, a paramilitary organization which sought Israel's replacement with a Palestinian state. Fatah operated within several Arab countries, from where it launched attacks on Israeli targets. In the latter part of the 1960s Arafat's profile grew; in 1967 he joined the Palestinian Liberation Organization (PLO) and in 1969 was elected chair of the Palestinian National Council (PNC). Fatah's growing presence in Jordan resulted in military clashes with King Hussein's Jordanian government and in the early 1970s it relocated to Lebanon. There, Fatah assisted the Lebanese National Movement during the Lebanese Civil War and continued its attacks on Israel, resulting in the organization becoming a major target of Israeli invasions during the 1978 South Lebanon conflict and 1982 Lebanon War.\nFrom 1983 to 1993, Arafat based himself in Tunisia, and began to shift his approach from open conflict with the Israelis to negotiation. In 1988, he acknowledged Israel's right to exist and sought a two-state solution to the Israeli–Palestinian conflict. In 1994, he returned to Palestine, settling in Gaza City and promoting self-governance for the Palestinian territories. He engaged in a series of negotiations with the Israeli government to end the conflict between it and the PLO. These included the Madrid Conference of 1991, the 1993 Oslo Accords and the 2000 Camp David Summit. The success of the negotiations in Oslo led to Arafat being awarded the Nobel Peace Prize, alongside Israeli prime ministers Yitzhak Rabin and Shimon Peres, in 1994. At the time, Fatah's support among the Palestinians declined with the growth of Hamas and other militant rivals. In late 2004, after effectively being confined within his Ramallah compound for over two years by the Israeli army, Arafat fell into a coma and died. The cause of Arafat's death remains the subject of speculation. Investigations by Russian and French teams determined no foul play was involved, while a Swiss team determined he was radiologically poisoned.\nArafat remains a controversial figure. Palestinians generally view him as a martyr who symbolized the national aspirations of his people, while many Israelis regarded him as a terrorist. Palestinian rivals, including Islamists and several PLO radicals, frequently denounced him as corrupt or too submissive in his concessions to the Israeli government.",
+  "bio_sources": [
+    {
+      "subject": "yasser arafat",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Yasser_Arafat"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "green background field",
+      "shape_type": "rectangle",
+      "meaning": "references a political and territorial frame"
+    },
+    {
+      "element": "patterned keffiyeh",
+      "shape_type": "textured shape",
+      "meaning": "identifies him through Palestinian visual symbolism"
+    },
+    {
+      "element": "curved black headband stripes",
+      "shape_type": "line",
+      "meaning": "complete the headdress and its authority"
+    },
+    {
+      "element": "black ornamental nose symbol",
+      "shape_type": "symbol",
+      "meaning": "stylizes political authority and public persona"
+    },
+    {
+      "element": "red geometric lips",
+      "shape_type": "geometric shape",
+      "meaning": "create a strong rhetorical focal point"
+    },
+    {
+      "element": "white arrow field across the cheek",
+      "shape_type": "repeated arrow",
+      "meaning": "suggest movement, struggle, and contested direction"
+    },
+    {
+      "element": "black jacket blocks with green arrow accents",
+      "shape_type": "geometric shape",
+      "meaning": "extend the political symbolism into the clothing"
+    },
+    {
+      "element": "small black diamond at the chin",
+      "shape_type": "diamond",
+      "meaning": "anchors the face with a final emblematic mark"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "flag field",
+      "visual_representation": "a folded field of striped or blocked civic color bands",
+      "category": "symbol",
+      "relevance": "The biography supports a public identity tied to state ceremony and leadership.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

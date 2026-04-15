@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/john_cleese",
+  "meta_path": "/workspace/input/noma_bar/data/john_cleese/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "John Marwood Cleese ( KLEEZ; born 27 October 1939) is an English actor, comedian, screenwriter, producer, and presenter. Emerging from the Cambridge Footlights in the 1960s, he first achieved success at the Edinburgh Festival Fringe and as a scriptwriter and performer on The Frost Report. In the late 1960s, he cofounded Monty Python, the comedy troupe responsible for the sketch show Monty Python's Flying Circus. Along with his Python costars Graham Chapman, Terry Gilliam, Eric Idle, Terry Jones and Michael Palin, Cleese starred in Monty Python films, which include Monty Python and the Holy Grail (1975), Life of Brian (1979), and The Meaning of Life (1983).\nIn the mid-1970s, Cleese and first wife Connie Booth cowrote the sitcom Fawlty Towers, in which he starred as hotel owner Basil Fawlty, for which he won the 1980 British Academy Television Award for Best Entertainment Performance. In 2000, the show topped the British Film Institute's list of the 100 Greatest British Television Programmes, and in a 2001 Channel 4 poll, Basil was ranked second on its list of the 100 Greatest TV Characters.\nCleese starred in and wrote the comedy film A Fish Called Wanda (1988), for which he received Academy Award, BAFTA Award, and Golden Globe Award nominations, and its quasi-sequel Fierce Creatures (1997). He has also starred in Time Bandits (1981), Silverado (1985), Clockwise (1986), Mary Shelley's Frankenstein (1994), George of the Jungle (1997), Rat Race (2001), Charlie's Angels: Full Throttle (2003), and The Day the Earth Stood Still (2008). Prominent franchise film roles of his included R and Q in the James Bond films The World Is Not Enough (1999) and Die Another Day (2002), Nearly Headless Nick in Harry Potter and the Philosopher's Stone (2001) and Harry Potter and the Chamber of Secrets (2002), and the last three Shrek films (2004\u20132010). He received a Primetime Emmy Award for Outstanding Guest Actor in a Comedy Series for Cheers (1987) and was nominated for 3rd Rock from the Sun (1998) and Will & Grace (2004).\nCleese has specialised in political and religious satire, black comedy, sketch comedy, and surreal humour. He was ranked the second best comedian ever in a 2005 Channel 4 poll of fellow comedians. He cofounded Video Arts, a production company making entertaining training films as well as The Secret Policeman's Ball benefit shows to raise funds for the human rights organisation Amnesty International. Formerly a staunch supporter of the Liberal Democrats, in 1999, he turned down an offer from the party to nominate him for a life peerage.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "light blue background field"
+    },
+    {
+      "index": 1,
+      "element": "dark hair shape"
+    },
+    {
+      "index": 2,
+      "element": "oversized white jaw block"
+    },
+    {
+      "index": 3,
+      "element": "arched eyebrow"
+    },
+    {
+      "index": 4,
+      "element": "stylized eye motif"
+    },
+    {
+      "index": 5,
+      "element": "dark moustache and lips"
+    },
+    {
+      "index": 6,
+      "element": "collar triangles"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "spotlight cone"
+    },
+    {
+      "index": 2,
+      "element": "theater mask"
+    },
+    {
+      "index": 3,
+      "element": "comic microphone"
+    },
+    {
+      "index": 4,
+      "element": "laughter lines"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "light blue background field",
+      "dark hair shape",
+      "oversized white jaw block",
+      "arched eyebrow",
+      "stylized eye motif",
+      "dark moustache and lips",
+      "collar triangles"
+    ],
+    "values": [
+      [
+        0.01470276154577732,
+        -0.08777759969234467,
+        -0.005751807242631912,
+        -0.024975884705781937,
+        0.06312832236289978,
+        -0.02531740628182888,
+        -0.016594301909208298
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "spotlight cone",
+      "theater mask",
+      "comic microphone",
+      "laughter lines"
+    ],
+    "column_labels": [
+      "light blue background field",
+      "dark hair shape",
+      "oversized white jaw block",
+      "arched eyebrow",
+      "stylized eye motif",
+      "dark moustache and lips",
+      "collar triangles"
+    ],
+    "values": [
+      [
+        0.2795233428478241,
+        0.3036731481552124,
+        0.17287370562553406,
+        0.24094314873218536,
+        0.34048977494239807,
+        0.19113031029701233,
+        0.13024097681045532
+      ],
+      [
+        0.34020960330963135,
+        0.25217586755752563,
+        0.060906507074832916,
+        0.2926766276359558,
+        0.2517701983451843,
+        0.11970441043376923,
+        0.15394940972328186
+      ],
+      [
+        0.14942803978919983,
+        0.22843080759048462,
+        0.2177240252494812,
+        0.32243549823760986,
+        0.3055378794670105,
+        0.3281402587890625,
+        0.1128176897764206
+      ],
+      [
+        0.11868675798177719,
+        0.18372462689876556,
+        0.0961059182882309,
+        0.2704326808452606,
+        0.27987000346183777,
+        0.3123997449874878,
+        0.13348793983459473
+      ],
+      [
+        0.02581855282187462,
+        0.14409133791923523,
+        0.010738839395344257,
+        0.3055243492126465,
+        0.25727954506874084,
+        0.27880722284317017,
+        0.18770858645439148
+      ]
+    ]
+  }
+}

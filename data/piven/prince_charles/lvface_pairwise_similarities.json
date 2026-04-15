@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/prince_charles",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/prince_charles/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+        "path": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+        "similarity": 0.016215605661273003
+      },
+      {
+        "index": 1,
+        "name": "02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+        "path": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+        "similarity": -0.01628972589969635
+      },
+      {
+        "index": 2,
+        "name": "03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+        "path": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+        "similarity": 0.011954745277762413
+      },
+      {
+        "index": 3,
+        "name": "04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+        "path": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+        "similarity": -0.00037609596620313823
+      },
+      {
+        "index": 4,
+        "name": "05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+        "path": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+        "similarity": 0.07020027935504913
+      },
+      {
+        "index": 5,
+        "name": "06_young-prince-charles-portrait.jpg",
+        "path": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+        "similarity": 0.06229615584015846
+      },
+      {
+        "index": 6,
+        "name": "07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+        "path": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+        "similarity": 0.06357581913471222
+      },
+      {
+        "index": 7,
+        "name": "08_king-charles-new-portrait-red-controversy-explained.jpg",
+        "path": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+        "similarity": 0.01717759668827057
+      },
+      {
+        "index": 8,
+        "name": "09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+        "path": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+        "similarity": 0.013378222472965717
+      },
+      {
+        "index": 9,
+        "name": "10_regele-charles-nfuriat-de-turi-ti.webp",
+        "path": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+        "similarity": 0.04534240812063217
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.016215605661273003,
+          -0.01628972589969635,
+          0.011954745277762413,
+          -0.00037609596620313823,
+          0.07020027935504913,
+          0.06229615584015846,
+          0.06357581913471222,
+          0.01717759668827057,
+          0.013378222472965717,
+          0.04534240812063217
+        ],
+        [
+          0.016215605661273003,
+          0.9999999403953552,
+          -0.016553670167922974,
+          0.016467340290546417,
+          0.02868436649441719,
+          -0.006341166328638792,
+          0.015817368403077126,
+          0.004832593258470297,
+          0.025649234652519226,
+          0.03375798091292381,
+          0.0005074756918475032
+        ],
+        [
+          -0.01628972589969635,
+          -0.016553670167922974,
+          1.0,
+          0.720054030418396,
+          0.012946216389536858,
+          0.03396705910563469,
+          0.033272795379161835,
+          0.022770464420318604,
+          0.0375751294195652,
+          0.03050222061574459,
+          0.06921479105949402
+        ],
+        [
+          0.011954745277762413,
+          0.016467340290546417,
+          0.720054030418396,
+          1.0,
+          0.039756178855895996,
+          0.02450936660170555,
+          -0.02706037648022175,
+          0.04934167116880417,
+          0.07441561669111252,
+          0.04037847742438316,
+          0.0827694982290268
+        ],
+        [
+          -0.00037609596620313823,
+          0.02868436649441719,
+          0.012946216389536858,
+          0.039756178855895996,
+          0.9999998807907104,
+          0.3901039958000183,
+          0.29579970240592957,
+          0.44659218192100525,
+          0.8854226469993591,
+          0.7698048949241638,
+          0.3902283310890198
+        ],
+        [
+          0.07020027935504913,
+          -0.006341166328638792,
+          0.03396705910563469,
+          0.02450936660170555,
+          0.3901039958000183,
+          0.9999999403953552,
+          0.4511599540710449,
+          0.360880047082901,
+          0.4023071229457855,
+          0.5381098389625549,
+          0.3586093783378601
+        ],
+        [
+          0.06229615584015846,
+          0.015817368403077126,
+          0.033272795379161835,
+          -0.02706037648022175,
+          0.29579970240592957,
+          0.4511599540710449,
+          1.0000001192092896,
+          0.469113290309906,
+          0.3001303970813751,
+          0.4356595277786255,
+          0.5587502121925354
+        ],
+        [
+          0.06357581913471222,
+          0.004832593258470297,
+          0.022770464420318604,
+          0.04934167116880417,
+          0.44659218192100525,
+          0.360880047082901,
+          0.469113290309906,
+          0.9999999403953552,
+          0.4640362858772278,
+          0.4368293285369873,
+          0.6189042925834656
+        ],
+        [
+          0.01717759668827057,
+          0.025649234652519226,
+          0.0375751294195652,
+          0.07441561669111252,
+          0.8854226469993591,
+          0.4023071229457855,
+          0.3001303970813751,
+          0.4640362858772278,
+          0.9999998807907104,
+          0.7675723433494568,
+          0.41077369451522827
+        ],
+        [
+          0.013378222472965717,
+          0.03375798091292381,
+          0.03050222061574459,
+          0.04037847742438316,
+          0.7698048949241638,
+          0.5381098389625549,
+          0.4356595277786255,
+          0.4368293285369873,
+          0.7675723433494568,
+          0.9999999403953552,
+          0.5125559568405151
+        ],
+        [
+          0.04534240812063217,
+          0.0005074756918475032,
+          0.06921479105949402,
+          0.0827694982290268,
+          0.3902283310890198,
+          0.3586093783378601,
+          0.5587502121925354,
+          0.6189042925834656,
+          0.41077369451522827,
+          0.5125559568405151,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "path": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg"
+    },
+    {
+      "name": "02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "path": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg"
+    },
+    {
+      "name": "03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "path": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg"
+    },
+    {
+      "name": "04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "path": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg"
+    },
+    {
+      "name": "05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "path": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg"
+    },
+    {
+      "name": "06_young-prince-charles-portrait.jpg",
+      "path": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg"
+    },
+    {
+      "name": "07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "path": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg"
+    },
+    {
+      "name": "08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "path": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg"
+    },
+    {
+      "name": "09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "path": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg"
+    },
+    {
+      "name": "10_regele-charles-nfuriat-de-turi-ti.webp",
+      "path": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "similarity": -0.016553670167922974
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "similarity": 0.016467340290546417
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "similarity": 0.02868436649441719
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "similarity": -0.006341166328638792
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+      "similarity": 0.015817368403077126
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "similarity": 0.004832593258470297
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "similarity": 0.025649234652519226
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "similarity": 0.03375798091292381
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+      "similarity": 0.0005074756918475032
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "similarity": 0.720054030418396
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "similarity": 0.012946216389536858
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "similarity": 0.03396705910563469
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+      "similarity": 0.033272795379161835
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "similarity": 0.022770464420318604
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "similarity": 0.0375751294195652
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "similarity": 0.03050222061574459
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+      "similarity": 0.06921479105949402
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "similarity": 0.039756178855895996
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "similarity": 0.02450936660170555
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+      "similarity": -0.02706037648022175
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "similarity": 0.04934167116880417
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "similarity": 0.07441561669111252
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "similarity": 0.04037847742438316
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+      "similarity": 0.0827694982290268
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "similarity": 0.3901039958000183
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+      "similarity": 0.29579970240592957
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "similarity": 0.44659218192100525
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "similarity": 0.8854226469993591
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "similarity": 0.7698048949241638
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+      "similarity": 0.3902283310890198
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+      "similarity": 0.4511599540710449
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "similarity": 0.360880047082901
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "similarity": 0.4023071229457855
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "similarity": 0.5381098389625549
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+      "similarity": 0.3586093783378601
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "similarity": 0.469113290309906
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "similarity": 0.3001303970813751
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "similarity": 0.4356595277786255
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/06_young-prince-charles-portrait.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+      "similarity": 0.5587502121925354
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "similarity": 0.4640362858772278
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "similarity": 0.4368293285369873
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+      "similarity": 0.6189042925834656
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "similarity": 0.7675723433494568
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+      "similarity": 0.41077369451522827
+    },
+    {
+      "left": "/workspace/input/piven/data/prince_charles/images/09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "right": "/workspace/input/piven/data/prince_charles/images/10_regele-charles-nfuriat-de-turi-ti.webp",
+      "similarity": 0.5125559568405151
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_fijian-independence-picture-including-keith-holyoake-prince-charles-10044808304-jpg.jpg",
+      "02_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1872-1012-1811-jpg.jpg",
+      "03_key-to-mr-duncan-s-picture-of-prince-charles-edward-bm-1926-0331-64-jpg.jpg",
+      "04_king-charles-started-sitting-for-new-official-portrait-when-he-was.jpg",
+      "05_king-charles-3rd-print-prince-charles-print-king-charles-iii-etsy-uk.jpg",
+      "06_young-prince-charles-portrait.jpg",
+      "07_king-charles-iii-portrait-is-vandalized-by-animal-rights-activists.jpg",
+      "08_king-charles-new-portrait-red-controversy-explained.jpg",
+      "09_artist-behind-king-charles-iii-s-controversial-portrait-shares-why-he.jpg",
+      "10_regele-charles-nfuriat-de-turi-ti.webp"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        -0.016553670167922974,
+        0.016467340290546417,
+        0.02868436649441719,
+        -0.006341166328638792,
+        0.015817368403077126,
+        0.004832593258470297,
+        0.025649234652519226,
+        0.03375798091292381,
+        0.0005074756918475032
+      ],
+      [
+        -0.016553670167922974,
+        1.0,
+        0.720054030418396,
+        0.012946216389536858,
+        0.03396705910563469,
+        0.033272795379161835,
+        0.022770464420318604,
+        0.0375751294195652,
+        0.03050222061574459,
+        0.06921479105949402
+      ],
+      [
+        0.016467340290546417,
+        0.720054030418396,
+        1.0,
+        0.039756178855895996,
+        0.02450936660170555,
+        -0.02706037648022175,
+        0.04934167116880417,
+        0.07441561669111252,
+        0.04037847742438316,
+        0.0827694982290268
+      ],
+      [
+        0.02868436649441719,
+        0.012946216389536858,
+        0.039756178855895996,
+        0.9999998807907104,
+        0.3901039958000183,
+        0.29579970240592957,
+        0.44659218192100525,
+        0.8854226469993591,
+        0.7698048949241638,
+        0.3902283310890198
+      ],
+      [
+        -0.006341166328638792,
+        0.03396705910563469,
+        0.02450936660170555,
+        0.3901039958000183,
+        0.9999999403953552,
+        0.4511599540710449,
+        0.360880047082901,
+        0.4023071229457855,
+        0.5381098389625549,
+        0.3586093783378601
+      ],
+      [
+        0.015817368403077126,
+        0.033272795379161835,
+        -0.02706037648022175,
+        0.29579970240592957,
+        0.4511599540710449,
+        1.0000001192092896,
+        0.469113290309906,
+        0.3001303970813751,
+        0.4356595277786255,
+        0.5587502121925354
+      ],
+      [
+        0.004832593258470297,
+        0.022770464420318604,
+        0.04934167116880417,
+        0.44659218192100525,
+        0.360880047082901,
+        0.469113290309906,
+        0.9999999403953552,
+        0.4640362858772278,
+        0.4368293285369873,
+        0.6189042925834656
+      ],
+      [
+        0.025649234652519226,
+        0.0375751294195652,
+        0.07441561669111252,
+        0.8854226469993591,
+        0.4023071229457855,
+        0.3001303970813751,
+        0.4640362858772278,
+        0.9999998807907104,
+        0.7675723433494568,
+        0.41077369451522827
+      ],
+      [
+        0.03375798091292381,
+        0.03050222061574459,
+        0.04037847742438316,
+        0.7698048949241638,
+        0.5381098389625549,
+        0.4356595277786255,
+        0.4368293285369873,
+        0.7675723433494568,
+        0.9999999403953552,
+        0.5125559568405151
+      ],
+      [
+        0.0005074756918475032,
+        0.06921479105949402,
+        0.0827694982290268,
+        0.3902283310890198,
+        0.3586093783378601,
+        0.5587502121925354,
+        0.6189042925834656,
+        0.41077369451522827,
+        0.5125559568405151,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/prince_charles/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/prince_charles/portrait.jpg"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "david cross",
+  "bio": "David Cross (born April 4, 1964) is an American stand-up comedian, actor, writer, and television producer. Cross is best known for his stand-up performances, the HBO sketch comedy series Mr. Show with Bob and David (1995–1998), his role as Ian Hawke in the first three Alvin and the Chipmunks movies, and his role as Tobias Fünke in the Fox/Netflix sitcom Arrested Development (2003–2006, 2013–2019). He has been described as \"one of the defining figures of cult Gen X comedy\".\nCross created, wrote, executive produced, and starred in The Increasingly Poor Decisions of Todd Margaret (2010–2016); developed and had a prominent role in Freak Show (2006); appeared on Modern Family (2011–2012); and portrayed Ian Hawke in Alvin and the Chipmunks (2007), Alvin and the Chipmunks: The Squeakquel (2009), and Alvin and the Chipmunks: Chipwrecked (2011). Cross has also done voice work for the sitcom Oliver Beene (2003–2004), and has had lead voice-over roles in Curious George (2006), Battle for Terra (2007), the Kung Fu Panda film franchise (2008–2016), Megamind (2010), and Next Gen (2018).\nIn 1993, he won a Primetime Emmy Award for Outstanding Writing for a Variety Series for his work on The Ben Stiller Show. For Mr. Show with Bob and David, he gained three Primetime Emmy Award nominations, and for Arrested Development, Cross was nominated for a Satellite Award for Best Supporting Actor – Television Series, and, along with his cast, for three Screen Actors Guild Award for Outstanding Performance by an Ensemble in a Comedy Series. For his stand-up specials, he was nominated for several Grammy Awards.",
+  "bio_sources": [
+    {
+      "subject": "david cross",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/David_Cross"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "blue background field",
+      "shape_type": "rectangle",
+      "meaning": "keeps the portrait clean and cerebral"
+    },
+    {
+      "element": "bald white head silhouette",
+      "shape_type": "organic shape",
+      "meaning": "exaggerates his recognizable look for comic effect"
+    },
+    {
+      "element": "round glasses arcs",
+      "shape_type": "circle",
+      "meaning": "signal intellectual and neurotic comedy"
+    },
+    {
+      "element": "large blue lens",
+      "shape_type": "circle",
+      "meaning": "adds nerdy magnification and awkwardness"
+    },
+    {
+      "element": "denim moustache and goatee",
+      "shape_type": "textured shape",
+      "meaning": "suggest scruffy irreverence and anti-polish"
+    },
+    {
+      "element": "single hair flick",
+      "shape_type": "line",
+      "meaning": "heightens the minimalist comic tone"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "book stack",
+      "visual_representation": "stacked books with staggered page edges",
+      "category": "object",
+      "relevance": "The biography explicitly describes literary work.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "spotlight cone",
+      "visual_representation": "a bright cone of light angled toward a stage-like area",
+      "category": "domain",
+      "relevance": "Stage performance and comic presentation are central to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "theater mask",
+      "visual_representation": "a simplified theatrical mask shape with exaggerated contours",
+      "category": "symbol",
+      "relevance": "Comedy and performed persona are central to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "comic microphone",
+      "visual_representation": "a handheld microphone with a round gridded top",
+      "category": "object",
+      "relevance": "Stand-up and comic performance are strongly associated with the subject’s domain.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

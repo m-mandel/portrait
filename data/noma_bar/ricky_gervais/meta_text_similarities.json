@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/ricky_gervais",
+  "meta_path": "/workspace/input/noma_bar/data/ricky_gervais/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Ricky Dene Gervais ( j\u0259r-VAYZ; born 25 June 1961) is an English comedian, actor, writer, television producer and filmmaker. He co-created, co-wrote, and acted in the British television sitcoms The Office (2001\u20132003), Extras (2005\u20132007), and Life's Too Short (2011\u20132013) with Stephen Merchant. He also created, wrote, and starred in Derek (2012\u20132014) and After Life (2019\u20132022). Gervais was also executive producer of and had cameos in the American rendition of The Office (2005\u20132013).\nGervais has won seven British Academy Television Awards, five National Comedy Awards, two Primetime Emmy Awards, five Golden Globe Awards, and the Rose d'Or twice (2006 and 2019). In 2003, The Observer named Gervais one of the 50 funniest performers in British comedy. In 2007, he was placed at No. 11 on Channel 4's 100 Greatest Stand-Ups, and at No. 3 in their 2010 list. In 2010, he was included in the Time 100 list of World's Most Influential People.\nGervais initially worked in the music industry. He attempted a career as a pop star in the 1980s as the singer of the new-wave act Seona Dancing, who were successful in the Philippines with the song \"More to Lose\", but were dropped by their label, London Records, following their second single, \"Bitter Heart\", due to a lack of success in the UK singles chart. He also managed the then-unknown band Suede before turning to comedy in the mid-late 1990s. He appeared on The 11 O'Clock Show on Channel 4 between 1998 and 2000, garnering a reputation as an outspoken and sharp-witted social provocateur. In 2000, he was given a Channel 4 spoof talk show, Meet Ricky Gervais. He achieved greater mainstream fame the following year with his BBC television mock documentary series The Office, followed by Extras in 2005. He also wrote the Flanimals book series.\nGervais began his stand-up career in the late 1990s. He has performed five multi-national stand-up comedy tours. Gervais, Stephen Merchant and Karl Pilkington created the podcast The Ricky Gervais Show, which has spawned various spin-offs including An Idiot Abroad (2010\u20132012), starring Pilkington and produced by Gervais and Merchant. In 2016, he wrote, directed and starred in the comedy film David Brent: Life on the Road. Gervais has also starred in the Hollywood films For Your Consideration (2006), the Night at the Museum film series trilogy (2006\u20132014), Ghost Town (2008), and Muppets Most Wanted (2014). He wrote, directed, and starred in the 2009 romantic comedy film The Invention of Lying and the 2016 Netflix-released comedy film Special Correspondents. He hosted the Golden Globe Awards five times, in 2010, 2011, 2012, 2016, and 2020.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "white background field"
+    },
+    {
+      "index": 1,
+      "element": "black hair cap"
+    },
+    {
+      "index": 2,
+      "element": "white face shape"
+    },
+    {
+      "index": 3,
+      "element": "pig-snout circle with nostrils"
+    },
+    {
+      "index": 4,
+      "element": "arched mouth line above the snout"
+    },
+    {
+      "index": 5,
+      "element": "simple eye and nose arcs"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "book stack"
+    },
+    {
+      "index": 2,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 3,
+      "element": "vinyl record"
+    },
+    {
+      "index": 4,
+      "element": "stage lights"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "white background field",
+      "black hair cap",
+      "white face shape",
+      "pig-snout circle with nostrils",
+      "arched mouth line above the snout",
+      "simple eye and nose arcs"
+    ],
+    "values": [
+      [
+        -0.07018856704235077,
+        -0.029653411358594894,
+        0.060893937945365906,
+        -0.010055181570351124,
+        0.03786523640155792,
+        0.05223829299211502
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "book stack",
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights"
+    ],
+    "column_labels": [
+      "white background field",
+      "black hair cap",
+      "white face shape",
+      "pig-snout circle with nostrils",
+      "arched mouth line above the snout",
+      "simple eye and nose arcs"
+    ],
+    "values": [
+      [
+        0.2906287610530853,
+        0.2510088384151459,
+        0.351223886013031,
+        0.1771235466003418,
+        0.13257519900798798,
+        0.22803598642349243
+      ],
+      [
+        0.05123145133256912,
+        0.21060693264007568,
+        0.04632648825645447,
+        0.09741923213005066,
+        0.08396870642900467,
+        0.051560286432504654
+      ],
+      [
+        0.3227623701095581,
+        0.24521863460540771,
+        0.2845951020717621,
+        0.12200981378555298,
+        0.1915375292301178,
+        0.1573411226272583
+      ],
+      [
+        0.09493513405323029,
+        0.08859989047050476,
+        0.045383378863334656,
+        -0.06458006799221039,
+        -0.030984025448560715,
+        -0.003274597693234682
+      ],
+      [
+        0.22052818536758423,
+        0.17206482589244843,
+        0.13210447132587433,
+        0.016026049852371216,
+        0.02362600527703762,
+        0.1774696707725525
+      ]
+    ]
+  }
+}

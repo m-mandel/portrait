@@ -1,0 +1,65 @@
+{
+  "name": "jesse jackson",
+  "bio": "Jesse Louis Jackson Sr. (né Burns; October 8, 1941 – February 17, 2026) was an American civil rights activist, LGBTQ rights activist, politician, and ordained Baptist minister. A protégé of Martin Luther King Jr. and James Bevel during the civil rights movement, he became one of the most prominent civil rights leaders of the late 20th and early 21st centuries, and an ardent advocate and early supporter of LGBTQ rights in the United States. From 1991 to 1997, he served as a shadow United States senator for the District of Columbia.\nBorn in Greenville, South Carolina, Jackson began his activism in the 1960s and founded the organizations that later merged to form the Rainbow/PUSH Coalition. Expanding his work into international affairs in the 1980s, he became a vocal critic of the Reagan administration and launched a presidential campaign in 1984. Initially viewed as a fringe candidate, he finished third for the Democratic nomination behind former vice president Walter Mondale and Senator Gary Hart. He continued his activism and mounted a second presidential bid in 1988, finishing as the runner‑up for the Democratic nomination to Massachusetts governor Michael Dukakis.\nJackson did not seek the presidency again, but in 1990, he was elected as the District of Columbia's shadow senator, serving one term during the H. W. Bush and Clinton administrations. Although initially critical of President Bill Clinton, he later became a supporter and friend. Jackson hosted Both Sides with Jesse Jackson on CNN from 1992 to 2000. A critic of police brutality, the Republican Party, and conservative policies, he was widely regarded as one of the most influential African‑American activists of his era.",
+  "bio_sources": [
+    {
+      "subject": "jesse jackson",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Jesse_Jackson"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "fabric",
+      "shape_type": "textile object",
+      "meaning": "builds the portrait's costume and surface while reinforcing jesse jackson's oratory, activism, and public address."
+    },
+    {
+      "element": "speaker",
+      "shape_type": "sound object",
+      "meaning": "turns public speech into the central engine of the portrait."
+    },
+    {
+      "element": "knobs",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing jesse jackson's oratory, activism, and public address."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "rainbow band",
+      "visual_representation": "parallel bands of contrasting color-like stripes",
+      "category": "symbol",
+      "relevance": "The biography explicitly places the subject in civil-rights activism and coalition politics.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "protest banner",
+      "visual_representation": "a broad cloth banner stretched across a straight support",
+      "category": "object",
+      "relevance": "Advocacy and public campaigning are central to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "march line",
+      "visual_representation": "repeating forward-moving marks arranged in a steady path",
+      "category": "pattern",
+      "relevance": "Demonstration and collective action belong to the subject’s public environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "cross emblem",
+      "visual_representation": "a simple cross form with strong vertical and horizontal arms",
+      "category": "symbol",
+      "relevance": "Church leadership and Christian symbolism belong to the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

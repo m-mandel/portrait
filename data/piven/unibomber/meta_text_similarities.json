@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/piven/data/unibomber",
+  "meta_path": "/workspace/input/piven/data/unibomber/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Theodore John Kaczynski (  k\u0259-ZIN-skee; May 22, 1942 \u2013 June 10, 2023), also known as the Unabomber (  YOO-n\u0259-bom-\u0259r), was an American mathematician and domestic terrorist. A mathematics prodigy, he abandoned his academic career in 1969 to pursue a reclusive primitive lifestyle and lone wolf terrorism campaign.\nKaczynski murdered 3 people and injured 23 others between 1978 and 1995 in a nationwide mail bombing campaign against people he believed to be advancing modern technology and the destruction of the natural environment. He authored a roughly 35,000-word manifesto and social critique, Industrial Society and Its Future (1995), which opposes all forms of technology, rejects leftism and fascism, advocates cultural primitivism, and ultimately suggests violent revolution.\nIn 1971, Kaczynski moved to a remote cabin without electricity or running water near Lincoln, Montana, where he lived as a recluse while learning survival skills to become self-sufficient. After witnessing the destruction of the wilderness surrounding his cabin, he concluded that living in nature was becoming impossible and resolved to fight industrialization and its destruction of nature through terrorism. In 1979, Kaczynski became the subject of what was, by the time of his arrest in 1996, the longest and most expensive investigation in the history of the Federal Bureau of Investigation (FBI). The FBI used the case identifier UNABOM (University and Airline Bombing) before his identity was known, resulting in the media naming him the \"Unabomber\".\nIn 1995, Kaczynski sent a letter to The New York Times promising to \"desist from terrorism\" if the Times or The Washington Post published his manifesto, in which he argued that his bombings were extreme but necessary in attracting attention to the erosion of human freedom and dignity by modern technologies. The FBI and U.S. attorney general Janet Reno pushed for the publication of the essay, which appeared in The Washington Post in September 1995. Upon reading it, Kaczynski's brother, David, recognized the prose style and reported his suspicions to the FBI. After his arrest in 1996, Kaczynski\u2014maintaining that he was sane\u2014tried and failed to dismiss his court-appointed lawyers because they wished him to plead insanity to avoid the death penalty. He pleaded guilty to all charges in 1998 and was sentenced to several consecutive life terms in prison without the possibility of parole. In 2021, he received a cancer diagnosis and stopped treatment in March 2023. Kaczynski hanged himself in prison in June 2023.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "nails"
+    },
+    {
+      "index": 1,
+      "element": "screws"
+    },
+    {
+      "index": 2,
+      "element": "light bulb"
+    },
+    {
+      "index": 3,
+      "element": "knob"
+    },
+    {
+      "index": 4,
+      "element": "wire hooks"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "equation lattice"
+    },
+    {
+      "index": 1,
+      "element": "parcel box"
+    },
+    {
+      "index": 2,
+      "element": "fractured wire"
+    },
+    {
+      "index": 3,
+      "element": "sealed cell"
+    },
+    {
+      "index": 4,
+      "element": "manifesto pages"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "nails",
+      "screws",
+      "light bulb",
+      "knob",
+      "wire hooks"
+    ],
+    "values": [
+      [
+        0.032735854387283325,
+        -0.003869248554110527,
+        0.05612437427043915,
+        0.04734605550765991,
+        -0.03411126509308815
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "equation lattice",
+      "parcel box",
+      "fractured wire",
+      "sealed cell",
+      "manifesto pages"
+    ],
+    "column_labels": [
+      "nails",
+      "screws",
+      "light bulb",
+      "knob",
+      "wire hooks"
+    ],
+    "values": [
+      [
+        0.0260779932141304,
+        0.1467442363500595,
+        0.1407472789287567,
+        0.1033921167254448,
+        0.18407365679740906
+      ],
+      [
+        0.13672499358654022,
+        0.15579217672348022,
+        0.1446588635444641,
+        0.08221490681171417,
+        0.08565717935562134
+      ],
+      [
+        0.24732869863510132,
+        0.28358933329582214,
+        0.23972010612487793,
+        0.19876040518283844,
+        0.38785701990127563
+      ],
+      [
+        0.1209283322095871,
+        0.1436028778553009,
+        0.2224031686782837,
+        0.17328780889511108,
+        0.10704339295625687
+      ],
+      [
+        0.17783795297145844,
+        0.11105340719223022,
+        0.04969703406095505,
+        0.19872599840164185,
+        0.016185956075787544
+      ]
+    ]
+  }
+}

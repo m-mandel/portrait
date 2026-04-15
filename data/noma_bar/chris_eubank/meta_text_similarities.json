@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/chris_eubank",
+  "meta_path": "/workspace/input/noma_bar/data/chris_eubank/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Christopher Livingstone Eubank (also Christopher Livingstone Eubank Sr. born 8 August 1966) is a British former professional boxer who competed from 1985 to 1998. He held the World Boxing Organization (WBO) middleweight and super-middleweight titles between 1990 and 1995, and is ranked by BoxRec as the third best British super-middleweight boxer of all time.\nHe reigned as world champion for over five years, was undefeated in his first 10 years as a professional, and remained undefeated at middleweight. His world title contests against fellow Britons Nigel Benn and Michael Watson helped British boxing ride a peak of popularity in the 1990s, with Eubank's eccentric personality making him one of the most recognisable celebrities of the period.\nIn his final two years of boxing he challenged then-up and coming contender Joe Calzaghe in a bid to reclaim his WBO super-middleweight title, with a victorious Calzaghe later claiming that it was the toughest fight of his whole career. Eubank's last two fights were against WBO junior-heavyweight champion Carl Thompson, both of which were brutal encounters. In the rematch, Eubank was stopped for the first and only time in his career.\nEubank is credited for his bravery in the ring, in which he was able to take considerable amounts of punishment from power punchers en route to his victories and defeats, and for this he is said to have a \"granite\" chin. He is also known for his heel-like elitist persona: Speaking and dressing like an upper-class elite, vaulting over the ring ropes as an entrance, but also the art of mental warfare, notably against Nigel Benn for their first bout. His son, Chris Eubank Jr., is also a professional boxer.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "beige background field"
+    },
+    {
+      "index": 1,
+      "element": "angular brown face"
+    },
+    {
+      "index": 2,
+      "element": "flat black hair block"
+    },
+    {
+      "index": 3,
+      "element": "small curled eye motifs"
+    },
+    {
+      "index": 4,
+      "element": "long yellow collar"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "championship medallion"
+    },
+    {
+      "index": 1,
+      "element": "boxing gloves"
+    },
+    {
+      "index": 2,
+      "element": "ring ropes"
+    },
+    {
+      "index": 3,
+      "element": "championship belt"
+    },
+    {
+      "index": 4,
+      "element": "bell circle"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "beige background field",
+      "angular brown face",
+      "flat black hair block",
+      "small curled eye motifs",
+      "long yellow collar"
+    ],
+    "values": [
+      [
+        -0.013174604624509811,
+        -0.04029794782400131,
+        0.03185933083295822,
+        -0.07287611067295074,
+        0.06474105268716812
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "championship medallion",
+      "boxing gloves",
+      "ring ropes",
+      "championship belt",
+      "bell circle"
+    ],
+    "column_labels": [
+      "beige background field",
+      "angular brown face",
+      "flat black hair block",
+      "small curled eye motifs",
+      "long yellow collar"
+    ],
+    "values": [
+      [
+        0.12075254321098328,
+        0.11109958589076996,
+        0.1287292242050171,
+        0.10304650664329529,
+        0.2095789760351181
+      ],
+      [
+        0.12220880389213562,
+        0.06874518096446991,
+        0.12418659031391144,
+        0.17980912327766418,
+        0.20581823587417603
+      ],
+      [
+        0.1303473860025406,
+        -0.03170226514339447,
+        0.19397178292274475,
+        0.2186051607131958,
+        0.21919885277748108
+      ],
+      [
+        0.11555106192827225,
+        0.016256455332040787,
+        0.16150733828544617,
+        0.02845294028520584,
+        0.20235034823417664
+      ],
+      [
+        0.22561317682266235,
+        0.1682911515235901,
+        0.154982790350914,
+        0.24771730601787567,
+        0.27030667662620544
+      ]
+    ]
+  }
+}

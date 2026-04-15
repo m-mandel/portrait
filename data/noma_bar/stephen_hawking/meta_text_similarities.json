@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/stephen_hawking",
+  "meta_path": "/workspace/input/noma_bar/data/stephen_hawking/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Stephen William Hawking (8 January 1942 \u2013 14 March 2018) was an English theoretical astrophysicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge. Between 1979 and 2009, he was the Lucasian Professor of Mathematics at Cambridge, widely viewed as one of the most prestigious academic posts in the world.\nHawking was born in Oxford into a family of physicians. In 1959, at the age of 17, he began his university education at University College, Oxford, where he received a first-class BA degree in physics. In 1962, he began his graduate work at Trinity Hall, Cambridge, where, in 1966, he obtained his PhD in applied mathematics and theoretical physics, specialising in general relativity and cosmology. In 1963, at age 21, Hawking was diagnosed with an early-onset slow-progressing form of motor neurone disease that gradually, over decades, paralysed him. After the loss of his speech, he communicated through a speech-generating device, initially through use of a handheld switch, and eventually by using a single cheek muscle.\nHawking's scientific works included a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity, and the theoretical prediction that black holes emit radiation, often called Hawking radiation. Initially, Hawking radiation was controversial. By the late 1970s, and following the publication of further research, the discovery was widely accepted as a major breakthrough in theoretical physics. Hawking was the first to set out a theory of cosmology explained by a union of the general theory of relativity and quantum mechanics. Hawking was a vigorous supporter of the many-worlds interpretation of quantum mechanics. He also introduced the notion of a micro black hole.\nHawking achieved commercial success with several works of popular science in which he discussed his theories and cosmology in general. His book A Brief History of Time appeared on the Sunday Times bestseller list for a record-breaking 237 weeks. Hawking was a Fellow of the Royal Society, a lifetime member of the Pontifical Academy of Sciences, and a recipient of the Presidential Medal of Freedom, the highest civilian award in the United States. In 2002, Hawking was ranked number 25 in the BBC's poll of the 100 Greatest Britons. He died in 2018 at the age of 76, having lived more than 50 years following his diagnosis of motor neurone disease.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "yellow background field"
+    },
+    {
+      "index": 1,
+      "element": "black wheelchair-like side profile"
+    },
+    {
+      "index": 2,
+      "element": "white face shape"
+    },
+    {
+      "index": 3,
+      "element": "atomic orbit eye"
+    },
+    {
+      "index": 4,
+      "element": "ringed planet mouth"
+    },
+    {
+      "index": 5,
+      "element": "jagged white hair fringe"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "equation marks"
+    },
+    {
+      "index": 1,
+      "element": "book stack"
+    },
+    {
+      "index": 2,
+      "element": "atom emblem"
+    },
+    {
+      "index": 3,
+      "element": "equation lattice"
+    },
+    {
+      "index": 4,
+      "element": "laboratory glassware"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "yellow background field",
+      "black wheelchair-like side profile",
+      "white face shape",
+      "atomic orbit eye",
+      "ringed planet mouth",
+      "jagged white hair fringe"
+    ],
+    "values": [
+      [
+        -0.07604028284549713,
+        0.1281144917011261,
+        0.04081728309392929,
+        0.004661824554204941,
+        0.12601590156555176,
+        -0.023895278573036194
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "equation marks",
+      "book stack",
+      "atom emblem",
+      "equation lattice",
+      "laboratory glassware"
+    ],
+    "column_labels": [
+      "yellow background field",
+      "black wheelchair-like side profile",
+      "white face shape",
+      "atomic orbit eye",
+      "ringed planet mouth",
+      "jagged white hair fringe"
+    ],
+    "values": [
+      [
+        0.0348329171538353,
+        0.016105543822050095,
+        0.1301380842924118,
+        0.13526608049869537,
+        -0.1100667417049408,
+        0.06408470869064331
+      ],
+      [
+        0.06050015985965729,
+        0.11361084878444672,
+        0.04632648825645447,
+        0.03998703509569168,
+        0.029889320954680443,
+        0.009113958105444908
+      ],
+      [
+        0.1318313330411911,
+        0.10550856590270996,
+        0.18440675735473633,
+        0.4559479057788849,
+        0.22630348801612854,
+        0.1140563115477562
+      ],
+      [
+        0.028005125001072884,
+        -0.024256456643342972,
+        0.01559542492032051,
+        0.09834407269954681,
+        -0.06115077808499336,
+        -0.021715562790632248
+      ],
+      [
+        0.14907586574554443,
+        0.0310687068849802,
+        0.10302354395389557,
+        0.10366019606590271,
+        0.14776840806007385,
+        0.0680149495601654
+      ]
+    ]
+  }
+}

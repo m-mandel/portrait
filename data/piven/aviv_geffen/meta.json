@@ -1,0 +1,60 @@
+{
+  "name": "aviv geffen",
+  "bio": "Aviv Geffen (Hebrew: אביב גפן; born 10 May 1973) is an Israeli rock musician, singer-songwriter, music producer and author. In addition to his solo career, Geffen performs with his band HaTauyot (the \"Mistakes\"). He is the co-founding member of the band Blackfield along with Steven Wilson                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           . He was also the global music director for WeWork.\nGeffen was popular among Israeli youth who were known during the 1990s as the \"Moonlight Children\" (ילדי אור הירח). Politically, he associates with the Israeli left. His music deals with subjects such as love, peace, death, suicide, politics, and the army (in particular, the IDF). He is often criticized for singing about the IDF while not having served, though he was discharged for medical reasons.",
+  "bio_sources": [
+    {
+      "subject": "aviv geffen",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Aviv_Geffen"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "eyeglass frames",
+      "shape_type": "wearable object",
+      "meaning": "helps anchor the gaze and reinforces aviv geffen's rebellious rock-star energy."
+    },
+    {
+      "element": "ketchup bottle",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing aviv geffen's rebellious rock-star energy."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "spotlight oval",
+      "visual_representation": "a soft illuminated oval like a stage light pool",
+      "category": "shape",
+      "relevance": "The biography supports a public image built around performance and attention.",
+      "grounding": "inferred"
+    }
+  ]
+}

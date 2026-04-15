@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/robert_dole",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/robert_dole/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+        "similarity": -0.004768176469951868
+      },
+      {
+        "index": 1,
+        "name": "02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": 0.035026680678129196
+      },
+      {
+        "index": 2,
+        "name": "03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+        "similarity": -0.0027874354273080826
+      },
+      {
+        "index": 3,
+        "name": "04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "similarity": -0.018661415204405785
+      },
+      {
+        "index": 4,
+        "name": "05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+        "similarity": 0.032986484467983246
+      },
+      {
+        "index": 5,
+        "name": "06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": 0.07578440755605698
+      },
+      {
+        "index": 6,
+        "name": "07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+        "similarity": 0.008983654901385307
+      },
+      {
+        "index": 7,
+        "name": "08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "similarity": 0.034262076020240784
+      },
+      {
+        "index": 8,
+        "name": "09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "similarity": 0.011653314344584942
+      },
+      {
+        "index": 9,
+        "name": "10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+        "path": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+        "similarity": 0.018528908491134644
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.004768176469951868,
+          0.035026680678129196,
+          -0.0027874354273080826,
+          -0.018661415204405785,
+          0.032986484467983246,
+          0.07578440755605698,
+          0.008983654901385307,
+          0.034262076020240784,
+          0.011653314344584942,
+          0.018528908491134644
+        ],
+        [
+          -0.004768176469951868,
+          0.9999998807907104,
+          0.6419318914413452,
+          0.542387068271637,
+          0.556013822555542,
+          0.5504934787750244,
+          0.4249134957790375,
+          0.5319667458534241,
+          0.5935394167900085,
+          0.25539037585258484,
+          0.5996636748313904
+        ],
+        [
+          0.035026680678129196,
+          0.6419318914413452,
+          1.0,
+          0.5569894909858704,
+          0.5696566700935364,
+          0.49841538071632385,
+          0.44659924507141113,
+          0.505299985408783,
+          0.9013848900794983,
+          0.2833499312400818,
+          0.4946059286594391
+        ],
+        [
+          -0.0027874354273080826,
+          0.542387068271637,
+          0.5569894909858704,
+          1.0,
+          0.47007206082344055,
+          0.657768726348877,
+          0.6052457690238953,
+          0.5981231331825256,
+          0.5238056182861328,
+          0.3109881579875946,
+          0.6197623610496521
+        ],
+        [
+          -0.018661415204405785,
+          0.556013822555542,
+          0.5696566700935364,
+          0.47007206082344055,
+          1.0,
+          0.4923222064971924,
+          0.45315778255462646,
+          0.49741441011428833,
+          0.5989605188369751,
+          0.3118816614151001,
+          0.5953140258789062
+        ],
+        [
+          0.032986484467983246,
+          0.5504934787750244,
+          0.49841538071632385,
+          0.657768726348877,
+          0.4923222064971924,
+          0.9999998807907104,
+          0.5774672627449036,
+          0.5694891810417175,
+          0.504364013671875,
+          0.29935184121131897,
+          0.6857995390892029
+        ],
+        [
+          0.07578440755605698,
+          0.4249134957790375,
+          0.44659924507141113,
+          0.6052457690238953,
+          0.45315778255462646,
+          0.5774672627449036,
+          0.9999998807907104,
+          0.5370520353317261,
+          0.4470270276069641,
+          0.3558453619480133,
+          0.5416849255561829
+        ],
+        [
+          0.008983654901385307,
+          0.5319667458534241,
+          0.505299985408783,
+          0.5981231331825256,
+          0.49741441011428833,
+          0.5694891810417175,
+          0.5370520353317261,
+          1.0,
+          0.5265191197395325,
+          0.37260380387306213,
+          0.6018369793891907
+        ],
+        [
+          0.034262076020240784,
+          0.5935394167900085,
+          0.9013848900794983,
+          0.5238056182861328,
+          0.5989605188369751,
+          0.504364013671875,
+          0.4470270276069641,
+          0.5265191197395325,
+          1.0,
+          0.28032565116882324,
+          0.5054196715354919
+        ],
+        [
+          0.011653314344584942,
+          0.25539037585258484,
+          0.2833499312400818,
+          0.3109881579875946,
+          0.3118816614151001,
+          0.29935184121131897,
+          0.3558453619480133,
+          0.37260380387306213,
+          0.28032565116882324,
+          1.0000001192092896,
+          0.3353635370731354
+        ],
+        [
+          0.018528908491134644,
+          0.5996636748313904,
+          0.4946059286594391,
+          0.6197623610496521,
+          0.5953140258789062,
+          0.6857995390892029,
+          0.5416849255561829,
+          0.6018369793891907,
+          0.5054196715354919,
+          0.3353635370731354,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg"
+    },
+    {
+      "name": "02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg"
+    },
+    {
+      "name": "04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg"
+    },
+    {
+      "name": "06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg"
+    },
+    {
+      "name": "08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "path": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.6419318914413452
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "similarity": 0.542387068271637
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.556013822555542
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "similarity": 0.5504934787750244
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4249134957790375
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "similarity": 0.5319667458534241
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5935394167900085
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.25539037585258484
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "similarity": 0.5996636748313904
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "similarity": 0.5569894909858704
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5696566700935364
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "similarity": 0.49841538071632385
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.44659924507141113
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "similarity": 0.505299985408783
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.9013848900794983
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.2833499312400818
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "similarity": 0.4946059286594391
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.47007206082344055
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "similarity": 0.657768726348877
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.6052457690238953
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "similarity": 0.5981231331825256
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5238056182861328
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3109881579875946
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "similarity": 0.6197623610496521
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "similarity": 0.4923222064971924
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.45315778255462646
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "similarity": 0.49741441011428833
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5989605188369751
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3118816614151001
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "similarity": 0.5953140258789062
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5774672627449036
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "similarity": 0.5694891810417175
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.504364013671875
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.29935184121131897
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "similarity": 0.6857995390892029
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "similarity": 0.5370520353317261
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4470270276069641
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3558453619480133
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "similarity": 0.5416849255561829
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5265191197395325
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.37260380387306213
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "similarity": 0.6018369793891907
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.28032565116882324
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "similarity": 0.5054196715354919
+    },
+    {
+      "left": "/workspace/input/piven/data/robert_dole/images/09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/robert_dole/images/10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg",
+      "similarity": 0.3353635370731354
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_300-bob-dole-portrait-stock-photos-high-res-pictures-and-images.jpg",
+      "02_1973-photo-hi-res-stock-photography-and-images-alamy.jpg",
+      "03_republican-senator-robert-dole-of-kansas-portrait-washington-dc-1992.jpg",
+      "04_bob-dole-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "05_senator-robert-dole-republican-of-kansas-portrait-washington-dc-1993.jpg",
+      "06_republican-adminstration-hi-res-stock-photography-and-images-alamy.jpg",
+      "07_gallery-remembering-former-kansas-sen-bob-dole.jpg",
+      "08_senator-bob-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "09_bob-elizabeth-dole-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "10_a-1980-portrait-of-senator-robert-dole-a-republican-from-kansas.jpg"
+    ],
+    "values": [
+      [
+        0.9999998807907104,
+        0.6419318914413452,
+        0.542387068271637,
+        0.556013822555542,
+        0.5504934787750244,
+        0.4249134957790375,
+        0.5319667458534241,
+        0.5935394167900085,
+        0.25539037585258484,
+        0.5996636748313904
+      ],
+      [
+        0.6419318914413452,
+        1.0,
+        0.5569894909858704,
+        0.5696566700935364,
+        0.49841538071632385,
+        0.44659924507141113,
+        0.505299985408783,
+        0.9013848900794983,
+        0.2833499312400818,
+        0.4946059286594391
+      ],
+      [
+        0.542387068271637,
+        0.5569894909858704,
+        1.0,
+        0.47007206082344055,
+        0.657768726348877,
+        0.6052457690238953,
+        0.5981231331825256,
+        0.5238056182861328,
+        0.3109881579875946,
+        0.6197623610496521
+      ],
+      [
+        0.556013822555542,
+        0.5696566700935364,
+        0.47007206082344055,
+        1.0,
+        0.4923222064971924,
+        0.45315778255462646,
+        0.49741441011428833,
+        0.5989605188369751,
+        0.3118816614151001,
+        0.5953140258789062
+      ],
+      [
+        0.5504934787750244,
+        0.49841538071632385,
+        0.657768726348877,
+        0.4923222064971924,
+        0.9999998807907104,
+        0.5774672627449036,
+        0.5694891810417175,
+        0.504364013671875,
+        0.29935184121131897,
+        0.6857995390892029
+      ],
+      [
+        0.4249134957790375,
+        0.44659924507141113,
+        0.6052457690238953,
+        0.45315778255462646,
+        0.5774672627449036,
+        0.9999998807907104,
+        0.5370520353317261,
+        0.4470270276069641,
+        0.3558453619480133,
+        0.5416849255561829
+      ],
+      [
+        0.5319667458534241,
+        0.505299985408783,
+        0.5981231331825256,
+        0.49741441011428833,
+        0.5694891810417175,
+        0.5370520353317261,
+        1.0,
+        0.5265191197395325,
+        0.37260380387306213,
+        0.6018369793891907
+      ],
+      [
+        0.5935394167900085,
+        0.9013848900794983,
+        0.5238056182861328,
+        0.5989605188369751,
+        0.504364013671875,
+        0.4470270276069641,
+        0.5265191197395325,
+        1.0,
+        0.28032565116882324,
+        0.5054196715354919
+      ],
+      [
+        0.25539037585258484,
+        0.2833499312400818,
+        0.3109881579875946,
+        0.3118816614151001,
+        0.29935184121131897,
+        0.3558453619480133,
+        0.37260380387306213,
+        0.28032565116882324,
+        1.0000001192092896,
+        0.3353635370731354
+      ],
+      [
+        0.5996636748313904,
+        0.4946059286594391,
+        0.6197623610496521,
+        0.5953140258789062,
+        0.6857995390892029,
+        0.5416849255561829,
+        0.6018369793891907,
+        0.5054196715354919,
+        0.3353635370731354,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/robert_dole/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/robert_dole/portrait.jpg"
+    }
+  ]
+}

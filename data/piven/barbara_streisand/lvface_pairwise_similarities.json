@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/barbara_streisand",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/barbara_streisand/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_barbra-streisand-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+        "similarity": -0.006583136972039938
+      },
+      {
+        "index": 1,
+        "name": "02_barbra-streisand-in-hello-dolly-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+        "similarity": 0.08660118281841278
+      },
+      {
+        "index": 2,
+        "name": "03_barbra-streisand-1962-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+        "similarity": 0.01395714282989502
+      },
+      {
+        "index": 3,
+        "name": "04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+        "similarity": 0.06995224207639694
+      },
+      {
+        "index": 4,
+        "name": "05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+        "similarity": 0.025243457406759262
+      },
+      {
+        "index": 5,
+        "name": "07_barbra-streisand-allan-warren-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+        "similarity": 0.036143556237220764
+      },
+      {
+        "index": 6,
+        "name": "08_barbra-streisand07-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+        "similarity": -0.005693906918168068
+      },
+      {
+        "index": 7,
+        "name": "10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+        "similarity": 0.06824059784412384
+      },
+      {
+        "index": 8,
+        "name": "11_hello-dolly-barbra-streisand-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+        "similarity": 0.08181414753198624
+      },
+      {
+        "index": 9,
+        "name": "12_barbra-streisand-hello-dolly-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+        "similarity": 0.08025512844324112
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.006583136972039938,
+          0.08660118281841278,
+          0.01395714282989502,
+          0.06995224207639694,
+          0.025243457406759262,
+          0.036143556237220764,
+          -0.005693906918168068,
+          0.06824059784412384,
+          0.08181414753198624,
+          0.08025512844324112
+        ],
+        [
+          -0.006583136972039938,
+          0.9999999403953552,
+          0.4041885435581207,
+          0.4610653221607208,
+          0.5053220391273499,
+          0.4967886209487915,
+          0.5180981755256653,
+          0.5169851183891296,
+          0.44954007863998413,
+          0.4601529538631439,
+          0.37775489687919617
+        ],
+        [
+          0.08660118281841278,
+          0.4041885435581207,
+          1.0,
+          0.44902896881103516,
+          0.36119338870048523,
+          0.5364177227020264,
+          0.4491878151893616,
+          0.4074820578098297,
+          0.4340786635875702,
+          0.5010480880737305,
+          0.38364991545677185
+        ],
+        [
+          0.01395714282989502,
+          0.4610653221607208,
+          0.44902896881103516,
+          1.0000001192092896,
+          0.38978320360183716,
+          0.48896336555480957,
+          0.4729793071746826,
+          0.41245004534721375,
+          0.45561540126800537,
+          0.35516002774238586,
+          0.3849325478076935
+        ],
+        [
+          0.06995224207639694,
+          0.5053220391273499,
+          0.36119338870048523,
+          0.38978320360183716,
+          1.0,
+          0.49550947546958923,
+          0.48431870341300964,
+          0.46052849292755127,
+          0.8876665830612183,
+          0.4457373321056366,
+          0.33598363399505615
+        ],
+        [
+          0.025243457406759262,
+          0.4967886209487915,
+          0.5364177227020264,
+          0.48896336555480957,
+          0.49550947546958923,
+          1.0,
+          0.5655416250228882,
+          0.5719091892242432,
+          0.46750718355178833,
+          0.4377240538597107,
+          0.3287501931190491
+        ],
+        [
+          0.036143556237220764,
+          0.5180981755256653,
+          0.4491878151893616,
+          0.4729793071746826,
+          0.48431870341300964,
+          0.5655416250228882,
+          0.9999999403953552,
+          0.4695751368999481,
+          0.5218979716300964,
+          0.542664647102356,
+          0.4435989558696747
+        ],
+        [
+          -0.005693906918168068,
+          0.5169851183891296,
+          0.4074820578098297,
+          0.41245004534721375,
+          0.46052849292755127,
+          0.5719091892242432,
+          0.4695751368999481,
+          0.9999999403953552,
+          0.4253515303134918,
+          0.354471892118454,
+          0.31287816166877747
+        ],
+        [
+          0.06824059784412384,
+          0.44954007863998413,
+          0.4340786635875702,
+          0.45561540126800537,
+          0.8876665830612183,
+          0.46750718355178833,
+          0.5218979716300964,
+          0.4253515303134918,
+          1.0000001192092896,
+          0.442531019449234,
+          0.3052433431148529
+        ],
+        [
+          0.08181414753198624,
+          0.4601529538631439,
+          0.5010480880737305,
+          0.35516002774238586,
+          0.4457373321056366,
+          0.4377240538597107,
+          0.542664647102356,
+          0.354471892118454,
+          0.442531019449234,
+          1.0000001192092896,
+          0.6229450702667236
+        ],
+        [
+          0.08025512844324112,
+          0.37775489687919617,
+          0.38364991545677185,
+          0.3849325478076935,
+          0.33598363399505615,
+          0.3287501931190491,
+          0.4435989558696747,
+          0.31287816166877747,
+          0.3052433431148529,
+          0.6229450702667236,
+          0.9999998807907104
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_barbra-streisand-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg"
+    },
+    {
+      "name": "02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg"
+    },
+    {
+      "name": "03_barbra-streisand-1962-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg"
+    },
+    {
+      "name": "04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_barbra-streisand-allan-warren-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg"
+    },
+    {
+      "name": "08_barbra-streisand07-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg"
+    },
+    {
+      "name": "11_hello-dolly-barbra-streisand-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg"
+    },
+    {
+      "name": "12_barbra-streisand-hello-dolly-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "similarity": 0.4041885435581207
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+      "similarity": 0.4610653221607208
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "similarity": 0.5053220391273499
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "similarity": 0.4967886209487915
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+      "similarity": 0.5180981755256653
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+      "similarity": 0.5169851183891296
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "similarity": 0.44954007863998413
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+      "similarity": 0.4601529538631439
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/01_barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+      "similarity": 0.37775489687919617
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+      "similarity": 0.44902896881103516
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "similarity": 0.36119338870048523
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "similarity": 0.5364177227020264
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+      "similarity": 0.4491878151893616
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+      "similarity": 0.4074820578098297
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "similarity": 0.4340786635875702
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+      "similarity": 0.5010480880737305
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+      "similarity": 0.38364991545677185
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "similarity": 0.38978320360183716
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "similarity": 0.48896336555480957
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+      "similarity": 0.4729793071746826
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+      "similarity": 0.41245004534721375
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "similarity": 0.45561540126800537
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+      "similarity": 0.35516002774238586
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/03_barbra-streisand-1962-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+      "similarity": 0.3849325478076935
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "similarity": 0.49550947546958923
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+      "similarity": 0.48431870341300964
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+      "similarity": 0.46052849292755127
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "similarity": 0.8876665830612183
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+      "similarity": 0.4457373321056366
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+      "similarity": 0.33598363399505615
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+      "similarity": 0.5655416250228882
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+      "similarity": 0.5719091892242432
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "similarity": 0.46750718355178833
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+      "similarity": 0.4377240538597107
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+      "similarity": 0.3287501931190491
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+      "similarity": 0.4695751368999481
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "similarity": 0.5218979716300964
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+      "similarity": 0.542664647102356
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/07_barbra-streisand-allan-warren-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+      "similarity": 0.4435989558696747
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "similarity": 0.4253515303134918
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+      "similarity": 0.354471892118454
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/08_barbra-streisand07-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+      "similarity": 0.31287816166877747
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+      "similarity": 0.442531019449234
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+      "similarity": 0.3052433431148529
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_streisand/images/11_hello-dolly-barbra-streisand-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_streisand/images/12_barbra-streisand-hello-dolly-jpg.jpg",
+      "similarity": 0.6229450702667236
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_barbra-streisand-jpg.jpg",
+      "02_barbra-streisand-in-hello-dolly-jpg.jpg",
+      "03_barbra-streisand-1962-jpg.jpg",
+      "04_barbra-streisand-and-james-brolin-cropped-jpg.jpg",
+      "05_barbra-streisand-2-allan-warren-cropped-jpg.jpg",
+      "07_barbra-streisand-allan-warren-jpg.jpg",
+      "08_barbra-streisand07-cropped-jpg.jpg",
+      "10_barbra-streisand-at-health-matters-conference-jpg.jpg",
+      "11_hello-dolly-barbra-streisand-jpg.jpg",
+      "12_barbra-streisand-hello-dolly-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.4041885435581207,
+        0.4610653221607208,
+        0.5053220391273499,
+        0.4967886209487915,
+        0.5180981755256653,
+        0.5169851183891296,
+        0.44954007863998413,
+        0.4601529538631439,
+        0.37775489687919617
+      ],
+      [
+        0.4041885435581207,
+        1.0,
+        0.44902896881103516,
+        0.36119338870048523,
+        0.5364177227020264,
+        0.4491878151893616,
+        0.4074820578098297,
+        0.4340786635875702,
+        0.5010480880737305,
+        0.38364991545677185
+      ],
+      [
+        0.4610653221607208,
+        0.44902896881103516,
+        1.0000001192092896,
+        0.38978320360183716,
+        0.48896336555480957,
+        0.4729793071746826,
+        0.41245004534721375,
+        0.45561540126800537,
+        0.35516002774238586,
+        0.3849325478076935
+      ],
+      [
+        0.5053220391273499,
+        0.36119338870048523,
+        0.38978320360183716,
+        1.0,
+        0.49550947546958923,
+        0.48431870341300964,
+        0.46052849292755127,
+        0.8876665830612183,
+        0.4457373321056366,
+        0.33598363399505615
+      ],
+      [
+        0.4967886209487915,
+        0.5364177227020264,
+        0.48896336555480957,
+        0.49550947546958923,
+        1.0,
+        0.5655416250228882,
+        0.5719091892242432,
+        0.46750718355178833,
+        0.4377240538597107,
+        0.3287501931190491
+      ],
+      [
+        0.5180981755256653,
+        0.4491878151893616,
+        0.4729793071746826,
+        0.48431870341300964,
+        0.5655416250228882,
+        0.9999999403953552,
+        0.4695751368999481,
+        0.5218979716300964,
+        0.542664647102356,
+        0.4435989558696747
+      ],
+      [
+        0.5169851183891296,
+        0.4074820578098297,
+        0.41245004534721375,
+        0.46052849292755127,
+        0.5719091892242432,
+        0.4695751368999481,
+        0.9999999403953552,
+        0.4253515303134918,
+        0.354471892118454,
+        0.31287816166877747
+      ],
+      [
+        0.44954007863998413,
+        0.4340786635875702,
+        0.45561540126800537,
+        0.8876665830612183,
+        0.46750718355178833,
+        0.5218979716300964,
+        0.4253515303134918,
+        1.0000001192092896,
+        0.442531019449234,
+        0.3052433431148529
+      ],
+      [
+        0.4601529538631439,
+        0.5010480880737305,
+        0.35516002774238586,
+        0.4457373321056366,
+        0.4377240538597107,
+        0.542664647102356,
+        0.354471892118454,
+        0.442531019449234,
+        1.0000001192092896,
+        0.6229450702667236
+      ],
+      [
+        0.37775489687919617,
+        0.38364991545677185,
+        0.3849325478076935,
+        0.33598363399505615,
+        0.3287501931190491,
+        0.4435989558696747,
+        0.31287816166877747,
+        0.3052433431148529,
+        0.6229450702667236,
+        0.9999998807907104
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/barbara_streisand/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/barbara_streisand/portrait.jpg"
+    }
+  ]
+}

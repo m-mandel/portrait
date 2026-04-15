@@ -1,0 +1,75 @@
+{
+  "name": "ehud barak",
+  "bio": "Ehud Barak (Hebrew: אֵהוּד בָּרָק [eˈhud baˈʁak] ; born Ehud Brog; 12 February 1942) is an Israeli former general and politician who served as the prime minister and Minister of Defense from 1999 to 2001. He was leader of the Labor Party between 1997 and 2001 and between 2007 and 2011. He was also Minister of Defense from 2007 to 2013.\nBorn in kibbutz Mishmar Hasharon, Barak is the eldest of four sons; his maternal grandparents were murdered in the Holocaust. He graduated in physics and mathematics from the Hebrew University of Jerusalem and later obtained a master's in engineering-economic systems from Stanford University.\nBarak's military career in the Israel Defense Forces (IDF) began in 1959, spanning 35 years and culminating in his appointment as Chief of the General Staff in 1991, serving until 1995. His military tenure is noted for his leadership in several operations, including \"Operation Isotope\" in 1972, the covert 1973 Israeli raid in Lebanon, and the 1976 Entebbe raid. A lieutenant general, Barak shares with two others the honor of being the most highly decorated soldier in Israel's history.\nIn politics, his career began with his appointment as interior minister in 1995 under Prime Minister Yitzhak Rabin. Following Rabin's assassination, he served as Minister of Foreign Affairs in Shimon Peres' government. Barak was elected to the Knesset on the Labor Party list in 1996 and subsequently was elected Labor Party leader in 1997. Barak served as Israel's most recent left-wing Prime Minister from 1999 to 2001. His tenure was marked by significant events, including the decision to form a coalition with the Orthodox party Shas, the withdrawal of Israeli forces from Southern Lebanon in 2000, and participation in the 2000 Camp David Summit aimed at resolving the Israeli–Palestinian conflict. Barak's government faced challenges, notably the protests in October 2000.\nAfter defeat in the 2001 Israeli prime ministerial election, he left politics and engaged in international business and advisory roles. He made a political comeback in 2005, attempting to regain leadership in the Labor Party, and later served as defense minister − where he led Operation Cast Lead in 2008–09 − and deputy prime minister under Ehud Olmert and then in Benjamin Netanyahu's second government between 2007 and 2013. His decision to form the Independence party in 2011 marked a shift in his politics, influencing the dynamics within the Netanyahu government. Despite retiring from politics in 2012, he attempted another comeback, running in the September 2019 Israeli legislative election as the leader of Israel Democratic Party − a new party he formed. His party merged with others to form an alliance called the Democratic Union, but it did not win enough seats for him to become a member of the Knesset. Outside of his political and military career, Barak has accumulated wealth through business endeavors and investments; his net worth is estimated to be $10–15 million.",
+  "bio_sources": [
+    {
+      "subject": "ehud barak",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Ehud_Barak"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "keys",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing ehud barak's military intelligence and technological strategy."
+    },
+    {
+      "element": "circuit board",
+      "shape_type": "technology object",
+      "meaning": "connects ehud barak to high-tech strategy and military intelligence."
+    },
+    {
+      "element": "microchip",
+      "shape_type": "technology object",
+      "meaning": "compresses strategy and technological control into a single facial detail."
+    },
+    {
+      "element": "wire",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing ehud barak's military intelligence and technological strategy."
+    },
+    {
+      "element": "pin",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing ehud barak's military intelligence and technological strategy."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "barbed wire line",
+      "visual_representation": "a thin wire-like line interrupted by sharp barbs",
+      "category": "event",
+      "relevance": "The biography explicitly mentions Holocaust survival or its aftermath.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "medal bar",
+      "visual_representation": "a neat row of small rectangular service ribbons",
+      "category": "object",
+      "relevance": "Military rank and command are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "campaign map",
+      "visual_representation": "directional arrows moving over a gridded field",
+      "category": "structure",
+      "relevance": "Strategy, operations, and command planning belong to the subject’s military world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "protest banner",
+      "visual_representation": "a broad cloth banner stretched across a straight support",
+      "category": "object",
+      "relevance": "Advocacy and public campaigning are central to the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

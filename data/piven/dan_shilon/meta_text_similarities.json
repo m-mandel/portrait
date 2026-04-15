@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/piven/data/dan_shilon",
+  "meta_path": "/workspace/input/piven/data/dan_shilon/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Dan Shilon (Hebrew: \u05d3\u05df \u05e9\u05d9\u05dc\u05d5\u05df; born 24 October 1940) is an Israeli television host, director, and producer.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "plate"
+    },
+    {
+      "index": 1,
+      "element": "licorice strips"
+    },
+    {
+      "index": 2,
+      "element": "ring candies"
+    },
+    {
+      "index": 3,
+      "element": "candy"
+    },
+    {
+      "index": 4,
+      "element": "striped candy"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "studio microphone"
+    },
+    {
+      "index": 1,
+      "element": "signal waves"
+    },
+    {
+      "index": 2,
+      "element": "screen frame"
+    },
+    {
+      "index": 3,
+      "element": "headline band"
+    },
+    {
+      "index": 4,
+      "element": "control panel"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "plate",
+      "licorice strips",
+      "ring candies",
+      "candy",
+      "striped candy"
+    ],
+    "values": [
+      [
+        0.10134542733430862,
+        -0.039218686521053314,
+        0.06267145276069641,
+        0.08047457039356232,
+        0.07504315674304962
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "studio microphone",
+      "signal waves",
+      "screen frame",
+      "headline band",
+      "control panel"
+    ],
+    "column_labels": [
+      "plate",
+      "licorice strips",
+      "ring candies",
+      "candy",
+      "striped candy"
+    ],
+    "values": [
+      [
+        0.0767088234424591,
+        0.032416921108961105,
+        0.0738770067691803,
+        -0.015075644478201866,
+        -0.04405701532959938
+      ],
+      [
+        0.126099094748497,
+        0.06489461660385132,
+        0.07988156378269196,
+        0.13946279883384705,
+        0.20576974749565125
+      ],
+      [
+        0.23852035403251648,
+        0.009051114320755005,
+        0.03376094251871109,
+        0.06538110226392746,
+        0.06350181996822357
+      ],
+      [
+        0.23901712894439697,
+        0.042422253638505936,
+        0.07929172366857529,
+        0.11420556902885437,
+        0.11962077021598816
+      ],
+      [
+        0.26929304003715515,
+        0.0666860044002533,
+        0.03992120176553726,
+        0.0976216048002243,
+        0.11306855827569962
+      ]
+    ]
+  }
+}

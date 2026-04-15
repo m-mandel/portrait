@@ -1,0 +1,310 @@
+{
+  "folder": "/workspace/input/noma_bar/data/nick_hornby",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/nick_hornby/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_nick-hornby-01-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nick_hornby/images/01_nick-hornby-01-cropped-jpg.jpg",
+        "similarity": -0.03166038915514946
+      },
+      {
+        "index": 1,
+        "name": "02_nick-hornby-03-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nick_hornby/images/02_nick-hornby-03-jpg.jpg",
+        "similarity": -0.00930304266512394
+      },
+      {
+        "index": 2,
+        "name": "03_nick-hornby-02-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nick_hornby/images/03_nick-hornby-02-jpg.jpg",
+        "similarity": -0.006002661772072315
+      },
+      {
+        "index": 3,
+        "name": "07_nick-hornby-01-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nick_hornby/images/07_nick-hornby-01-jpg.jpg",
+        "similarity": -0.017935657873749733
+      },
+      {
+        "index": 4,
+        "name": "08_nick-hornby-05-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nick_hornby/images/08_nick-hornby-05-jpg.jpg",
+        "similarity": -0.014936891384422779
+      },
+      {
+        "index": 5,
+        "name": "09_nick-hornby-04-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/nick_hornby/images/09_nick-hornby-04-jpg.jpg",
+        "similarity": 0.00824015960097313
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.03166038915514946,
+          -0.00930304266512394,
+          -0.006002661772072315,
+          -0.017935657873749733,
+          -0.014936891384422779,
+          0.00824015960097313
+        ],
+        [
+          -0.03166038915514946,
+          1.0,
+          0.6145027279853821,
+          0.6306129097938538,
+          0.8832205533981323,
+          0.5999221205711365,
+          0.5729285478591919
+        ],
+        [
+          -0.00930304266512394,
+          0.6145027279853821,
+          1.0000001192092896,
+          0.5684233903884888,
+          0.5748275518417358,
+          0.5710569620132446,
+          0.6542605757713318
+        ],
+        [
+          -0.006002661772072315,
+          0.6306129097938538,
+          0.5684233903884888,
+          0.9999998807907104,
+          0.6095150709152222,
+          0.49367237091064453,
+          0.5216863751411438
+        ],
+        [
+          -0.017935657873749733,
+          0.8832205533981323,
+          0.5748275518417358,
+          0.6095150709152222,
+          1.0,
+          0.6225706934928894,
+          0.5666002631187439
+        ],
+        [
+          -0.014936891384422779,
+          0.5999221205711365,
+          0.5710569620132446,
+          0.49367237091064453,
+          0.6225706934928894,
+          0.9999999403953552,
+          0.6309212446212769
+        ],
+        [
+          0.00824015960097313,
+          0.5729285478591919,
+          0.6542605757713318,
+          0.5216863751411438,
+          0.5666002631187439,
+          0.6309212446212769,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_nick-hornby-01-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/01_nick-hornby-01-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_nick-hornby-03-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/02_nick-hornby-03-jpg.jpg"
+    },
+    {
+      "name": "03_nick-hornby-02-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/03_nick-hornby-02-jpg.jpg"
+    },
+    {
+      "name": "07_nick-hornby-01-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/07_nick-hornby-01-jpg.jpg"
+    },
+    {
+      "name": "08_nick-hornby-05-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/08_nick-hornby-05-jpg.jpg"
+    },
+    {
+      "name": "09_nick-hornby-04-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/09_nick-hornby-04-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/01_nick-hornby-01-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/02_nick-hornby-03-jpg.jpg",
+      "similarity": 0.6145027279853821
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/01_nick-hornby-01-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/03_nick-hornby-02-jpg.jpg",
+      "similarity": 0.6306129097938538
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/01_nick-hornby-01-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/07_nick-hornby-01-jpg.jpg",
+      "similarity": 0.8832205533981323
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/01_nick-hornby-01-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/08_nick-hornby-05-jpg.jpg",
+      "similarity": 0.5999221205711365
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/01_nick-hornby-01-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/09_nick-hornby-04-jpg.jpg",
+      "similarity": 0.5729285478591919
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/02_nick-hornby-03-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/03_nick-hornby-02-jpg.jpg",
+      "similarity": 0.5684233903884888
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/02_nick-hornby-03-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/07_nick-hornby-01-jpg.jpg",
+      "similarity": 0.5748275518417358
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/02_nick-hornby-03-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/08_nick-hornby-05-jpg.jpg",
+      "similarity": 0.5710569620132446
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/02_nick-hornby-03-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/09_nick-hornby-04-jpg.jpg",
+      "similarity": 0.6542605757713318
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/03_nick-hornby-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/07_nick-hornby-01-jpg.jpg",
+      "similarity": 0.6095150709152222
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/03_nick-hornby-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/08_nick-hornby-05-jpg.jpg",
+      "similarity": 0.49367237091064453
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/03_nick-hornby-02-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/09_nick-hornby-04-jpg.jpg",
+      "similarity": 0.5216863751411438
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/07_nick-hornby-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/08_nick-hornby-05-jpg.jpg",
+      "similarity": 0.6225706934928894
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/07_nick-hornby-01-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/09_nick-hornby-04-jpg.jpg",
+      "similarity": 0.5666002631187439
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/nick_hornby/images/08_nick-hornby-05-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/nick_hornby/images/09_nick-hornby-04-jpg.jpg",
+      "similarity": 0.6309212446212769
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_nick-hornby-01-cropped-jpg.jpg",
+      "02_nick-hornby-03-jpg.jpg",
+      "03_nick-hornby-02-jpg.jpg",
+      "07_nick-hornby-01-jpg.jpg",
+      "08_nick-hornby-05-jpg.jpg",
+      "09_nick-hornby-04-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.6145027279853821,
+        0.6306129097938538,
+        0.8832205533981323,
+        0.5999221205711365,
+        0.5729285478591919
+      ],
+      [
+        0.6145027279853821,
+        1.0000001192092896,
+        0.5684233903884888,
+        0.5748275518417358,
+        0.5710569620132446,
+        0.6542605757713318
+      ],
+      [
+        0.6306129097938538,
+        0.5684233903884888,
+        0.9999998807907104,
+        0.6095150709152222,
+        0.49367237091064453,
+        0.5216863751411438
+      ],
+      [
+        0.8832205533981323,
+        0.5748275518417358,
+        0.6095150709152222,
+        1.0,
+        0.6225706934928894,
+        0.5666002631187439
+      ],
+      [
+        0.5999221205711365,
+        0.5710569620132446,
+        0.49367237091064453,
+        0.6225706934928894,
+        0.9999999403953552,
+        0.6309212446212769
+      ],
+      [
+        0.5729285478591919,
+        0.6542605757713318,
+        0.5216863751411438,
+        0.5666002631187439,
+        0.6309212446212769,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/nick_hornby/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/nick_hornby/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/13_here-and-there-by-nick-hornby-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/nick_hornby/images/13_here-and-there-by-nick-hornby-jpg.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/14_do-it-all-by-nick-hornby-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/nick_hornby/images/14_do-it-all-by-nick-hornby-jpg.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/15_power-over-others-is-weakness-disguised-as-strength-by-nick-hornby-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/nick_hornby/images/15_power-over-others-is-weakness-disguised-as-strength-by-nick-hornby-jpg.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/nick_hornby/images/16_power-over-others-is-weakness-disguised-as-strength-nick-hornby-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/nick_hornby/images/16_power-over-others-is-weakness-disguised-as-strength-nick-hornby-jpg.jpg"
+    }
+  ]
+}

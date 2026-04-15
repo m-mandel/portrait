@@ -1,0 +1,90 @@
+{
+  "name": "Matt Lucas and David Walliams",
+  "bio": "Matthew Richard Lucas (born 5 March 1974) is an English actor, comedian, writer and television host. He is best known for his work with David Walliams on the BBC sketch comedy series Little Britain (2003–2006) and Come Fly with Me (2010–2011).\nLucas first came to prominence on the comedy panel show Shooting Stars, in which he portrayed scorekeeper George Dawes from 1995 to 2009. From 2015 to 2017, he portrayed the role of Nardole in the BBC series Doctor Who. He has also appeared in films, including Astro Boy (2009), Alice in Wonderland (2010), Bridesmaids, Gnomeo & Juliet (both 2011), Small Apartments (2012), Paddington (2014), Wonka (2023) and Gladiator II (2024). Lucas presented the baking competition show The Great British Bake Off, alongside Noel Fielding from 2020 to 2023.. In 2026 Matt Lucas was revealed as the Masked Band lead singer, 'Emperor Penguin' and joined as a guest panellist in Series 7 Episode 2, of The Masked Singer, UK.\n\nDavid Edward Williams (born 20 August 1971), known professionally as David Walliams (), is an English actor, comedian, writer and television personality. He is best known for his work with Matt Lucas on the BBC sketch shows Little Britain (2003–2006) and Come Fly with Me (2010–2011), and for serving as a judge on Britain's Got Talent from 2012 to 2022. Walliams is also a successful children's author, with his books selling more than 50 million copies worldwide and being translated into 53 languages. Several have been adapted for television, in which he has also appeared.\nWalliams has written and starred in various television projects, including the sitcom Big School and the drama Partners in Crime. He has received multiple National Television Awards for his work on Britain's Got Talent. He was appointed Officer of the Order of the British Empire (OBE) in the 2017 Birthday Honours for services to charity and the arts, and his charity work includes long‑distance swims for Sport Relief that raised millions of pounds.\nWalliams has faced allegations of inappropriate behaviour. In 2022, reports emerged that he had made sexually explicit and derogatory remarks about contestants on Britain's Got Talent, leading to his departure from the programme and a subsequent legal dispute that was settled in 2023. In 2025, HarperCollins ended their publishing contract with him following an internal investigation into his behaviour towards junior female staff at the company.",
+  "bio_sources": [
+    {
+      "subject": "Matt Lucas",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Matt_Lucas"
+    },
+    {
+      "subject": "David Walliams",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/David_Walliams"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "red and white background fields",
+      "shape_type": "rectangle",
+      "meaning": "create a loud comic stage"
+    },
+    {
+      "element": "large white side profile with red hair strip",
+      "shape_type": "organic shape",
+      "meaning": "establishes one performer as the dominant face"
+    },
+    {
+      "element": "blue curly-haired smaller profile",
+      "shape_type": "organic shape",
+      "meaning": "inserts the second performer inside the composition"
+    },
+    {
+      "element": "wheelchair-shaped glasses frame",
+      "shape_type": "symbol",
+      "meaning": "evokes transgressive costume comedy and sketch characters"
+    },
+    {
+      "element": "plug-like small figures used as eyes",
+      "shape_type": "symbol",
+      "meaning": "suggest absurd character fragments and visual gags"
+    },
+    {
+      "element": "blue neck ring",
+      "shape_type": "curved line",
+      "meaning": "gives the larger face a toy-like cartoon finish"
+    },
+    {
+      "element": "small white hand shape",
+      "shape_type": "organic shape",
+      "meaning": "extends the nested character into slapstick action"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "book stack",
+      "visual_representation": "stacked books with staggered page edges",
+      "category": "object",
+      "relevance": "The biography explicitly describes literary work.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "spotlight cone",
+      "visual_representation": "a bright cone of light angled toward a stage-like area",
+      "category": "domain",
+      "relevance": "Stage performance and comic presentation are central to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "theater mask",
+      "visual_representation": "a simplified theatrical mask shape with exaggerated contours",
+      "category": "symbol",
+      "relevance": "Comedy and performed persona are central to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "comic microphone",
+      "visual_representation": "a handheld microphone with a round gridded top",
+      "category": "object",
+      "relevance": "Stand-up and comic performance are strongly associated with the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "laughter lines",
+      "visual_representation": "short repeated curved marks spreading outward",
+      "category": "pattern",
+      "relevance": "The biography supports an image of comic timing and public amusement.",
+      "grounding": "inferred"
+    }
+  ]
+}

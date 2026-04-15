@@ -1,0 +1,80 @@
+{
+  "name": "kevin bacon",
+  "bio": "Kevin Norwood Bacon (born July 8, 1958) is an American actor. Known for various roles, including leading man characters, Bacon has received numerous accolades such as a Golden Globe Award and a Actor Award.\nBacon made his feature film debut in National Lampoon's Animal House (1978) and performed in Diner (1982) before his breakthrough role in the musical-drama film Footloose (1984). Since then, he has starred in critically acclaimed films such as JFK (1991), A Few Good Men (1992), Apollo 13 (1995), Mystic River (2003), and Frost/Nixon (2008). Other credits include Friday the 13th (1980), Tremors (1990), The River Wild (1994), Balto (1995), The Woodsman (2004), Crazy, Stupid, Love (2011), X-Men: First Class (2011), and Patriots Day (2016). Bacon has also directed the films Losing Chase (1996) and Loverboy (2005).\nOn television, Bacon received a Golden Globe Award and a Screen Actors Guild Award for his role as Michael Strobl in the HBO original film Taking Chance (2009). He starred in the Fox drama series The Following from 2013 to 2015. Bacon played the title role in Amazon Prime Video series I Love Dick from 2016 to 2017. From 2019 to 2022, he starred in the Showtime series City on a Hill.\nIn 2003, Bacon received a star on the Hollywood Walk of Fame. His prolific career in a variety of genres has led him to become associated with the concept of interconnectedness among people, as evidenced by the trivia game \"Six Degrees of Kevin Bacon\". He is a brand ambassador for British mobile network operator EE and has been featured in advertisements for the company. Bacon is married to actress Kyra Sedgwick.",
+  "bio_sources": [
+    {
+      "subject": "kevin bacon",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Kevin_Bacon"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "white background field",
+      "shape_type": "rectangle",
+      "meaning": "leaves the network motif exposed and airy"
+    },
+    {
+      "element": "cascading dotted and dashed arcs forming the hair",
+      "shape_type": "line",
+      "meaning": "suggest expanding connections and degrees of separation"
+    },
+    {
+      "element": "tiny arrowheads throughout the arcs",
+      "shape_type": "symbol",
+      "meaning": "imply movement through a social network"
+    },
+    {
+      "element": "small human pictograms at the ends",
+      "shape_type": "symbol",
+      "meaning": "stand for the many people connected through him"
+    },
+    {
+      "element": "minimal eye nose and mouth marks",
+      "shape_type": "line",
+      "meaning": "anchor the abstract network into a recognizable face"
+    },
+    {
+      "element": "dotted shoulder outline",
+      "shape_type": "dashed line",
+      "meaning": "keeps the whole portrait built from connections"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen performance define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "film strip",
+      "visual_representation": "a narrow strip with evenly spaced rectangular frames",
+      "category": "object",
+      "relevance": "Cinema and edited moving images belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "clapboard",
+      "visual_representation": "a hinged slate with diagonal stripes on its top edge",
+      "category": "object",
+      "relevance": "Film sets and screen production are strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "projector beam",
+      "visual_representation": "a clean triangular beam of projected light",
+      "category": "shape",
+      "relevance": "The biography supports a public identity centered on image-making and spectacle.",
+      "grounding": "inferred"
+    }
+  ]
+}

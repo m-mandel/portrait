@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/aryeh_deri",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/aryeh_deri/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_aryeh-deri-hc-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+        "similarity": -0.015306437388062477
+      },
+      {
+        "index": 1,
+        "name": "02_aryeh-deri-00370329-jpg.jpg",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+        "similarity": -0.025388389825820923
+      },
+      {
+        "index": 2,
+        "name": "03_aryeh-deri-e32j1375-jpg.jpg",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+        "similarity": 0.0038498020730912685
+      },
+      {
+        "index": 3,
+        "name": "05_aryeh-deri-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+        "similarity": 0.02753663808107376
+      },
+      {
+        "index": 4,
+        "name": "06_aryeh-deri-jpg.jpg",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+        "similarity": -0.0623948834836483
+      },
+      {
+        "index": 5,
+        "name": "07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+        "similarity": -0.05782390758395195
+      },
+      {
+        "index": 6,
+        "name": "10_aryeh-deri-img-5609-jpg.jpg",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+        "similarity": 0.07856275141239166
+      },
+      {
+        "index": 7,
+        "name": "11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+        "similarity": -0.005990869365632534
+      },
+      {
+        "index": 8,
+        "name": "12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+        "similarity": -0.019494736567139626
+      },
+      {
+        "index": 9,
+        "name": "13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+        "path": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+        "similarity": 0.03338055685162544
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.015306437388062477,
+          -0.025388389825820923,
+          0.0038498020730912685,
+          0.02753663808107376,
+          -0.0623948834836483,
+          -0.05782390758395195,
+          0.07856275141239166,
+          -0.005990869365632534,
+          -0.019494736567139626,
+          0.03338055685162544
+        ],
+        [
+          -0.015306437388062477,
+          0.9999999403953552,
+          0.3175950050354004,
+          0.4731863737106323,
+          0.45123788714408875,
+          0.5388692021369934,
+          0.04660598933696747,
+          0.4724295139312744,
+          0.5816684365272522,
+          0.409054160118103,
+          0.08530986309051514
+        ],
+        [
+          -0.025388389825820923,
+          0.3175950050354004,
+          1.0,
+          0.5623586177825928,
+          0.40366867184638977,
+          0.4907119572162628,
+          0.041076790541410446,
+          0.40455949306488037,
+          0.3824313282966614,
+          0.4310374855995178,
+          0.08866055309772491
+        ],
+        [
+          0.0038498020730912685,
+          0.4731863737106323,
+          0.5623586177825928,
+          1.0,
+          0.5485623478889465,
+          0.539711594581604,
+          0.011122484691441059,
+          0.4620400667190552,
+          0.5211568474769592,
+          0.40436384081840515,
+          0.08362160623073578
+        ],
+        [
+          0.02753663808107376,
+          0.45123788714408875,
+          0.40366867184638977,
+          0.5485623478889465,
+          0.9999999403953552,
+          0.4838913083076477,
+          0.040404561907052994,
+          0.5737226009368896,
+          0.4688545763492584,
+          0.37718549370765686,
+          0.09116429835557938
+        ],
+        [
+          -0.0623948834836483,
+          0.5388692021369934,
+          0.4907119572162628,
+          0.539711594581604,
+          0.4838913083076477,
+          1.0000001192092896,
+          0.0008649313822388649,
+          0.3186934292316437,
+          0.4195869266986847,
+          0.46284082531929016,
+          0.08772177994251251
+        ],
+        [
+          -0.05782390758395195,
+          0.04660598933696747,
+          0.041076790541410446,
+          0.011122484691441059,
+          0.040404561907052994,
+          0.0008649313822388649,
+          1.0000001192092896,
+          -0.002664073370397091,
+          0.04649003967642784,
+          0.06344515085220337,
+          0.05067647248506546
+        ],
+        [
+          0.07856275141239166,
+          0.4724295139312744,
+          0.40455949306488037,
+          0.4620400667190552,
+          0.5737226009368896,
+          0.3186934292316437,
+          -0.002664073370397091,
+          1.0,
+          0.39689716696739197,
+          0.28353068232536316,
+          0.10759824514389038
+        ],
+        [
+          -0.005990869365632534,
+          0.5816684365272522,
+          0.3824313282966614,
+          0.5211568474769592,
+          0.4688545763492584,
+          0.4195869266986847,
+          0.04649003967642784,
+          0.39689716696739197,
+          1.0,
+          0.5126023888587952,
+          0.18000410497188568
+        ],
+        [
+          -0.019494736567139626,
+          0.409054160118103,
+          0.4310374855995178,
+          0.40436384081840515,
+          0.37718549370765686,
+          0.46284082531929016,
+          0.06344515085220337,
+          0.28353068232536316,
+          0.5126023888587952,
+          0.9999999403953552,
+          0.15435554087162018
+        ],
+        [
+          0.03338055685162544,
+          0.08530986309051514,
+          0.08866055309772491,
+          0.08362160623073578,
+          0.09116429835557938,
+          0.08772177994251251,
+          0.05067647248506546,
+          0.10759824514389038,
+          0.18000410497188568,
+          0.15435554087162018,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_aryeh-deri-hc-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_aryeh-deri-00370329-jpg.jpg",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg"
+    },
+    {
+      "name": "03_aryeh-deri-e32j1375-jpg.jpg",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg"
+    },
+    {
+      "name": "05_aryeh-deri-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_aryeh-deri-jpg.jpg",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg"
+    },
+    {
+      "name": "07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg"
+    },
+    {
+      "name": "10_aryeh-deri-img-5609-jpg.jpg",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg"
+    },
+    {
+      "name": "11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg"
+    },
+    {
+      "name": "12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp"
+    },
+    {
+      "name": "13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "path": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+      "similarity": 0.3175950050354004
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+      "similarity": 0.4731863737106323
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+      "similarity": 0.45123788714408875
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+      "similarity": 0.5388692021369934
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "similarity": 0.04660598933696747
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+      "similarity": 0.4724295139312744
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "similarity": 0.5816684365272522
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "similarity": 0.409054160118103
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/01_aryeh-deri-hc-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "similarity": 0.08530986309051514
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+      "similarity": 0.5623586177825928
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+      "similarity": 0.40366867184638977
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+      "similarity": 0.4907119572162628
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "similarity": 0.041076790541410446
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+      "similarity": 0.40455949306488037
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "similarity": 0.3824313282966614
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "similarity": 0.4310374855995178
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/02_aryeh-deri-00370329-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "similarity": 0.08866055309772491
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+      "similarity": 0.5485623478889465
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+      "similarity": 0.539711594581604
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "similarity": 0.011122484691441059
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+      "similarity": 0.4620400667190552
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "similarity": 0.5211568474769592
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "similarity": 0.40436384081840515
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/03_aryeh-deri-e32j1375-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "similarity": 0.08362160623073578
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+      "similarity": 0.4838913083076477
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "similarity": 0.040404561907052994
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+      "similarity": 0.5737226009368896
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "similarity": 0.4688545763492584
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "similarity": 0.37718549370765686
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/05_aryeh-deri-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "similarity": 0.09116429835557938
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "similarity": 0.0008649313822388649
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+      "similarity": 0.3186934292316437
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "similarity": 0.4195869266986847
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "similarity": 0.46284082531929016
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/06_aryeh-deri-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "similarity": 0.08772177994251251
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+      "similarity": -0.002664073370397091
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "similarity": 0.04649003967642784
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "similarity": 0.06344515085220337
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "similarity": 0.05067647248506546
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "similarity": 0.39689716696739197
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "similarity": 0.28353068232536316
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/10_aryeh-deri-img-5609-jpg.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "similarity": 0.10759824514389038
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "similarity": 0.5126023888587952
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "similarity": 0.18000410497188568
+    },
+    {
+      "left": "/workspace/input/piven/data/aryeh_deri/images/12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "right": "/workspace/input/piven/data/aryeh_deri/images/13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg",
+      "similarity": 0.15435554087162018
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_aryeh-deri-hc-cropped-jpg.jpg",
+      "02_aryeh-deri-00370329-jpg.jpg",
+      "03_aryeh-deri-e32j1375-jpg.jpg",
+      "05_aryeh-deri-cropped-jpg.jpg",
+      "06_aryeh-deri-jpg.jpg",
+      "07_reuven-rivlin-and-aryeh-deri-hosting-the-leaders-of-the-christian-community-in-israel-december-2017-9507-jpg.jpg",
+      "10_aryeh-deri-img-5609-jpg.jpg",
+      "11_in-bombshell-ruling-high-court-nixes-shas-head-deri-from-serving-as.jpg",
+      "12_aryeh-deri-dice-que-el-7-de-octubre-salv-a-la-naci-n-de-israel.webp",
+      "13_aryeh-deri-was-sworn-in-as-a-minister-in-israel-s-gov-t-but-the-courts.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.3175950050354004,
+        0.4731863737106323,
+        0.45123788714408875,
+        0.5388692021369934,
+        0.04660598933696747,
+        0.4724295139312744,
+        0.5816684365272522,
+        0.409054160118103,
+        0.08530986309051514
+      ],
+      [
+        0.3175950050354004,
+        1.0,
+        0.5623586177825928,
+        0.40366867184638977,
+        0.4907119572162628,
+        0.041076790541410446,
+        0.40455949306488037,
+        0.3824313282966614,
+        0.4310374855995178,
+        0.08866055309772491
+      ],
+      [
+        0.4731863737106323,
+        0.5623586177825928,
+        1.0,
+        0.5485623478889465,
+        0.539711594581604,
+        0.011122484691441059,
+        0.4620400667190552,
+        0.5211568474769592,
+        0.40436384081840515,
+        0.08362160623073578
+      ],
+      [
+        0.45123788714408875,
+        0.40366867184638977,
+        0.5485623478889465,
+        0.9999999403953552,
+        0.4838913083076477,
+        0.040404561907052994,
+        0.5737226009368896,
+        0.4688545763492584,
+        0.37718549370765686,
+        0.09116429835557938
+      ],
+      [
+        0.5388692021369934,
+        0.4907119572162628,
+        0.539711594581604,
+        0.4838913083076477,
+        1.0000001192092896,
+        0.0008649313822388649,
+        0.3186934292316437,
+        0.4195869266986847,
+        0.46284082531929016,
+        0.08772177994251251
+      ],
+      [
+        0.04660598933696747,
+        0.041076790541410446,
+        0.011122484691441059,
+        0.040404561907052994,
+        0.0008649313822388649,
+        1.0000001192092896,
+        -0.002664073370397091,
+        0.04649003967642784,
+        0.06344515085220337,
+        0.05067647248506546
+      ],
+      [
+        0.4724295139312744,
+        0.40455949306488037,
+        0.4620400667190552,
+        0.5737226009368896,
+        0.3186934292316437,
+        -0.002664073370397091,
+        1.0,
+        0.39689716696739197,
+        0.28353068232536316,
+        0.10759824514389038
+      ],
+      [
+        0.5816684365272522,
+        0.3824313282966614,
+        0.5211568474769592,
+        0.4688545763492584,
+        0.4195869266986847,
+        0.04649003967642784,
+        0.39689716696739197,
+        1.0,
+        0.5126023888587952,
+        0.18000410497188568
+      ],
+      [
+        0.409054160118103,
+        0.4310374855995178,
+        0.40436384081840515,
+        0.37718549370765686,
+        0.46284082531929016,
+        0.06344515085220337,
+        0.28353068232536316,
+        0.5126023888587952,
+        0.9999999403953552,
+        0.15435554087162018
+      ],
+      [
+        0.08530986309051514,
+        0.08866055309772491,
+        0.08362160623073578,
+        0.09116429835557938,
+        0.08772177994251251,
+        0.05067647248506546,
+        0.10759824514389038,
+        0.18000410497188568,
+        0.15435554087162018,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/aryeh_deri/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/aryeh_deri/portrait.jpg"
+    }
+  ]
+}

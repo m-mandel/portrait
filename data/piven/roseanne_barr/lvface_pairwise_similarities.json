@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/roseanne_barr",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/roseanne_barr/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+        "similarity": 0.028689328581094742
+      },
+      {
+        "index": 1,
+        "name": "02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+        "similarity": 0.13272932171821594
+      },
+      {
+        "index": 2,
+        "name": "03_roseanne-barr-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+        "similarity": 0.023880865424871445
+      },
+      {
+        "index": 3,
+        "name": "04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+        "similarity": 0.05532700940966606
+      },
+      {
+        "index": 4,
+        "name": "05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+        "similarity": 0.02273075468838215
+      },
+      {
+        "index": 5,
+        "name": "06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+        "similarity": 0.03816927969455719
+      },
+      {
+        "index": 6,
+        "name": "07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+        "similarity": 0.007484714034944773
+      },
+      {
+        "index": 7,
+        "name": "08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "similarity": -0.02722775563597679
+      },
+      {
+        "index": 8,
+        "name": "09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+        "similarity": 0.03593095764517784
+      },
+      {
+        "index": 9,
+        "name": "10_roseanne-barr-imdb.jpg",
+        "path": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+        "similarity": -0.013089848682284355
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.028689328581094742,
+          0.13272932171821594,
+          0.023880865424871445,
+          0.05532700940966606,
+          0.02273075468838215,
+          0.03816927969455719,
+          0.007484714034944773,
+          -0.02722775563597679,
+          0.03593095764517784,
+          -0.013089848682284355
+        ],
+        [
+          0.028689328581094742,
+          1.0,
+          0.13195769488811493,
+          0.40996119379997253,
+          0.45246580243110657,
+          0.46881452202796936,
+          0.4683336913585663,
+          0.3741109371185303,
+          0.3662291169166565,
+          0.4358784258365631,
+          0.3294678330421448
+        ],
+        [
+          0.13272932171821594,
+          0.13195769488811493,
+          1.0,
+          0.004330519586801529,
+          0.04046067222952843,
+          0.0002870437747333199,
+          0.05482729896903038,
+          0.027553942054510117,
+          -0.024599798023700714,
+          0.004208508878946304,
+          -0.0417390801012516
+        ],
+        [
+          0.023880865424871445,
+          0.40996119379997253,
+          0.004330519586801529,
+          1.0,
+          0.45438453555107117,
+          0.46591371297836304,
+          0.4570581316947937,
+          0.5063981413841248,
+          0.35323700308799744,
+          0.469107061624527,
+          0.4071522057056427
+        ],
+        [
+          0.05532700940966606,
+          0.45246580243110657,
+          0.04046067222952843,
+          0.45438453555107117,
+          1.0000001192092896,
+          0.6443596482276917,
+          0.4873213768005371,
+          0.45537200570106506,
+          0.5304538011550903,
+          0.5452093482017517,
+          0.5268735289573669
+        ],
+        [
+          0.02273075468838215,
+          0.46881452202796936,
+          0.0002870437747333199,
+          0.46591371297836304,
+          0.6443596482276917,
+          1.0000001192092896,
+          0.6867157220840454,
+          0.4479941129684448,
+          0.5459043979644775,
+          0.5851017236709595,
+          0.46977218985557556
+        ],
+        [
+          0.03816927969455719,
+          0.4683336913585663,
+          0.05482729896903038,
+          0.4570581316947937,
+          0.4873213768005371,
+          0.6867157220840454,
+          1.0,
+          0.5304361581802368,
+          0.5226751565933228,
+          0.4741661250591278,
+          0.4504583775997162
+        ],
+        [
+          0.007484714034944773,
+          0.3741109371185303,
+          0.027553942054510117,
+          0.5063981413841248,
+          0.45537200570106506,
+          0.4479941129684448,
+          0.5304361581802368,
+          1.0000001192092896,
+          0.36647406220436096,
+          0.4285100996494293,
+          0.4899977147579193
+        ],
+        [
+          -0.02722775563597679,
+          0.3662291169166565,
+          -0.024599798023700714,
+          0.35323700308799744,
+          0.5304538011550903,
+          0.5459043979644775,
+          0.5226751565933228,
+          0.36647406220436096,
+          0.9999998807907104,
+          0.48092058300971985,
+          0.4968738555908203
+        ],
+        [
+          0.03593095764517784,
+          0.4358784258365631,
+          0.004208508878946304,
+          0.469107061624527,
+          0.5452093482017517,
+          0.5851017236709595,
+          0.4741661250591278,
+          0.4285100996494293,
+          0.48092058300971985,
+          1.0,
+          0.37669819593429565
+        ],
+        [
+          -0.013089848682284355,
+          0.3294678330421448,
+          -0.0417390801012516,
+          0.4071522057056427,
+          0.5268735289573669,
+          0.46977218985557556,
+          0.4504583775997162,
+          0.4899977147579193,
+          0.4968738555908203,
+          0.37669819593429565,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg"
+    },
+    {
+      "name": "03_roseanne-barr-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg"
+    },
+    {
+      "name": "05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg"
+    },
+    {
+      "name": "06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg"
+    },
+    {
+      "name": "07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg"
+    },
+    {
+      "name": "08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "10_roseanne-barr-imdb.jpg",
+      "path": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "similarity": 0.13195769488811493
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+      "similarity": 0.40996119379997253
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "similarity": 0.45246580243110657
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.46881452202796936
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.4683336913585663
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "similarity": 0.3741109371185303
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3662291169166565
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4358784258365631
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+      "similarity": 0.3294678330421448
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+      "similarity": 0.004330519586801529
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "similarity": 0.04046067222952843
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.0002870437747333199
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.05482729896903038
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "similarity": 0.027553942054510117
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": -0.024599798023700714
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.004208508878946304
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+      "similarity": -0.0417390801012516
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "similarity": 0.45438453555107117
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.46591371297836304
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.4570581316947937
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "similarity": 0.5063981413841248
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.35323700308799744
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.469107061624527
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/03_roseanne-barr-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+      "similarity": 0.4071522057056427
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.6443596482276917
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.4873213768005371
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "similarity": 0.45537200570106506
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5304538011550903
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5452093482017517
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+      "similarity": 0.5268735289573669
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.6867157220840454
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "similarity": 0.4479941129684448
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5459043979644775
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5851017236709595
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+      "similarity": 0.46977218985557556
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "similarity": 0.5304361581802368
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5226751565933228
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4741661250591278
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+      "similarity": 0.4504583775997162
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.36647406220436096
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4285100996494293
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+      "similarity": 0.4899977147579193
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.48092058300971985
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+      "similarity": 0.4968738555908203
+    },
+    {
+      "left": "/workspace/input/piven/data/roseanne_barr/images/09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/roseanne_barr/images/10_roseanne-barr-imdb.jpg",
+      "similarity": 0.37669819593429565
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_roseanne-barr-at-the-1992-emmy-awards-cropped-jpg.jpg",
+      "02_roseanne-barr-at-the-1992-emmy-awards-jpg.jpg",
+      "03_roseanne-barr-cropped-jpg.jpg",
+      "04_actress-and-comedienne-roseanne-barr-poses-for-a-portrait-in-1993-in.jpg",
+      "05_993-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "06_999-comedian-roseanne-barr-stock-photos-high-res-pictures-and-images.jpg",
+      "07_portrait-of-roseanne-barr-at-an-event-honoring-comedian-dick-gregory.jpg",
+      "08_comedian-roseanne-barr-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "09_roseanne-barr-high-resolution-stock-photography-and-images-alamy.jpg",
+      "10_roseanne-barr-imdb.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.13195769488811493,
+        0.40996119379997253,
+        0.45246580243110657,
+        0.46881452202796936,
+        0.4683336913585663,
+        0.3741109371185303,
+        0.3662291169166565,
+        0.4358784258365631,
+        0.3294678330421448
+      ],
+      [
+        0.13195769488811493,
+        1.0,
+        0.004330519586801529,
+        0.04046067222952843,
+        0.0002870437747333199,
+        0.05482729896903038,
+        0.027553942054510117,
+        -0.024599798023700714,
+        0.004208508878946304,
+        -0.0417390801012516
+      ],
+      [
+        0.40996119379997253,
+        0.004330519586801529,
+        1.0,
+        0.45438453555107117,
+        0.46591371297836304,
+        0.4570581316947937,
+        0.5063981413841248,
+        0.35323700308799744,
+        0.469107061624527,
+        0.4071522057056427
+      ],
+      [
+        0.45246580243110657,
+        0.04046067222952843,
+        0.45438453555107117,
+        1.0000001192092896,
+        0.6443596482276917,
+        0.4873213768005371,
+        0.45537200570106506,
+        0.5304538011550903,
+        0.5452093482017517,
+        0.5268735289573669
+      ],
+      [
+        0.46881452202796936,
+        0.0002870437747333199,
+        0.46591371297836304,
+        0.6443596482276917,
+        1.0000001192092896,
+        0.6867157220840454,
+        0.4479941129684448,
+        0.5459043979644775,
+        0.5851017236709595,
+        0.46977218985557556
+      ],
+      [
+        0.4683336913585663,
+        0.05482729896903038,
+        0.4570581316947937,
+        0.4873213768005371,
+        0.6867157220840454,
+        1.0,
+        0.5304361581802368,
+        0.5226751565933228,
+        0.4741661250591278,
+        0.4504583775997162
+      ],
+      [
+        0.3741109371185303,
+        0.027553942054510117,
+        0.5063981413841248,
+        0.45537200570106506,
+        0.4479941129684448,
+        0.5304361581802368,
+        1.0000001192092896,
+        0.36647406220436096,
+        0.4285100996494293,
+        0.4899977147579193
+      ],
+      [
+        0.3662291169166565,
+        -0.024599798023700714,
+        0.35323700308799744,
+        0.5304538011550903,
+        0.5459043979644775,
+        0.5226751565933228,
+        0.36647406220436096,
+        0.9999998807907104,
+        0.48092058300971985,
+        0.4968738555908203
+      ],
+      [
+        0.4358784258365631,
+        0.004208508878946304,
+        0.469107061624527,
+        0.5452093482017517,
+        0.5851017236709595,
+        0.4741661250591278,
+        0.4285100996494293,
+        0.48092058300971985,
+        1.0,
+        0.37669819593429565
+      ],
+      [
+        0.3294678330421448,
+        -0.0417390801012516,
+        0.4071522057056427,
+        0.5268735289573669,
+        0.46977218985557556,
+        0.4504583775997162,
+        0.4899977147579193,
+        0.4968738555908203,
+        0.37669819593429565,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/roseanne_barr/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/roseanne_barr/portrait.jpg"
+    }
+  ]
+}

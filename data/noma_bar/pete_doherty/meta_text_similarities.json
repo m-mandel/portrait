@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/pete_doherty",
+  "meta_path": "/workspace/input/noma_bar/data/pete_doherty/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Peter Doherty (born 12 March 1979) is an English musician. He is best known for being co-frontman of the Libertines, which he formed with Carl Bar\u00e2t in 1997. His other musical projects are indie bands Babyshambles and Peter Doherty and the Puta Madres.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "magenta square field"
+    },
+    {
+      "index": 1,
+      "element": "black hat and hair silhouette"
+    },
+    {
+      "index": 2,
+      "element": "white face profile"
+    },
+    {
+      "index": 3,
+      "element": "syringe-like bar at the eye with a hanging line"
+    },
+    {
+      "index": 4,
+      "element": "dark round eye disk"
+    },
+    {
+      "index": 5,
+      "element": "cigarette at the mouth"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 1,
+      "element": "vinyl record"
+    },
+    {
+      "index": 2,
+      "element": "stage lights"
+    },
+    {
+      "index": 3,
+      "element": "soundwave ribbon"
+    },
+    {
+      "index": 4,
+      "element": "timeline bar"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "magenta square field",
+      "black hat and hair silhouette",
+      "white face profile",
+      "syringe-like bar at the eye with a hanging line",
+      "dark round eye disk",
+      "cigarette at the mouth"
+    ],
+    "values": [
+      [
+        -0.03939680755138397,
+        0.03884461894631386,
+        0.05388576537370682,
+        0.02655225247144699,
+        0.014592567458748817,
+        0.07786422222852707
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights",
+      "soundwave ribbon",
+      "timeline bar"
+    ],
+    "column_labels": [
+      "magenta square field",
+      "black hat and hair silhouette",
+      "white face profile",
+      "syringe-like bar at the eye with a hanging line",
+      "dark round eye disk",
+      "cigarette at the mouth"
+    ],
+    "values": [
+      [
+        0.1124986857175827,
+        0.45799702405929565,
+        0.297318696975708,
+        0.11438184976577759,
+        0.19263306260108948,
+        0.16823475062847137
+      ],
+      [
+        0.09303106367588043,
+        0.05847569555044174,
+        -0.0013736039400100708,
+        0.049361757934093475,
+        0.1431179791688919,
+        0.1821611523628235
+      ],
+      [
+        0.12280792742967606,
+        0.16583983600139618,
+        0.13610303401947021,
+        0.08811862021684647,
+        0.2474195659160614,
+        0.03512372449040413
+      ],
+      [
+        0.06363988667726517,
+        0.01721649058163166,
+        0.06387099623680115,
+        0.2428501844406128,
+        0.07665108889341354,
+        0.17945078015327454
+      ],
+      [
+        0.06596368551254272,
+        0.11043192446231842,
+        0.16258737444877625,
+        0.15943500399589539,
+        0.034237515181303024,
+        0.029604364186525345
+      ]
+    ]
+  }
+}

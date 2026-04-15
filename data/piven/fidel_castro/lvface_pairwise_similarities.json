@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/fidel_castro",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/fidel_castro/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+        "similarity": 0.09953473508358002
+      },
+      {
+        "index": 1,
+        "name": "03_fidel-castro-1970.jpg",
+        "path": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg",
+        "similarity": -0.008069838397204876
+      },
+      {
+        "index": 2,
+        "name": "04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+        "path": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+        "similarity": 0.041554227471351624
+      },
+      {
+        "index": 3,
+        "name": "05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+        "path": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+        "similarity": 0.03142818436026573
+      },
+      {
+        "index": 4,
+        "name": "06_fidel-castro-picture-in-color.jpg",
+        "path": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg",
+        "similarity": 0.05937659367918968
+      },
+      {
+        "index": 5,
+        "name": "07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+        "path": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+        "similarity": 0.0199514701962471
+      },
+      {
+        "index": 6,
+        "name": "08_fidel-castro-portrait-stable-diffusion-online.jpg",
+        "path": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg",
+        "similarity": 0.028489340096712112
+      },
+      {
+        "index": 7,
+        "name": "09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+        "path": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+        "similarity": 0.00858068186789751
+      },
+      {
+        "index": 8,
+        "name": "10_fidel-castro-tale.jpg",
+        "path": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg",
+        "similarity": 0.014291723258793354
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.09953473508358002,
+          -0.008069838397204876,
+          0.041554227471351624,
+          0.03142818436026573,
+          0.05937659367918968,
+          0.0199514701962471,
+          0.028489340096712112,
+          0.00858068186789751,
+          0.014291723258793354
+        ],
+        [
+          0.09953473508358002,
+          0.9999999403953552,
+          0.47102227807044983,
+          0.4959561228752136,
+          0.3947652280330658,
+          0.5547066926956177,
+          0.4899628758430481,
+          0.1751478761434555,
+          0.06725955009460449,
+          0.36546790599823
+        ],
+        [
+          -0.008069838397204876,
+          0.47102227807044983,
+          1.0,
+          0.40035170316696167,
+          0.48278671503067017,
+          0.5307255983352661,
+          0.5574612617492676,
+          0.220852330327034,
+          0.015176983550190926,
+          0.6381514072418213
+        ],
+        [
+          0.041554227471351624,
+          0.4959561228752136,
+          0.40035170316696167,
+          0.9999999403953552,
+          0.5223857164382935,
+          0.44774821400642395,
+          0.5877871513366699,
+          0.23345495760440826,
+          0.06377328187227249,
+          0.3186822831630707
+        ],
+        [
+          0.03142818436026573,
+          0.3947652280330658,
+          0.48278671503067017,
+          0.5223857164382935,
+          0.9999999403953552,
+          0.49110734462738037,
+          0.5491987466812134,
+          0.24997802078723907,
+          0.061444494873285294,
+          0.3689740300178528
+        ],
+        [
+          0.05937659367918968,
+          0.5547066926956177,
+          0.5307255983352661,
+          0.44774821400642395,
+          0.49110734462738037,
+          1.0,
+          0.5461023449897766,
+          0.1557808667421341,
+          0.09988091140985489,
+          0.4472268521785736
+        ],
+        [
+          0.0199514701962471,
+          0.4899628758430481,
+          0.5574612617492676,
+          0.5877871513366699,
+          0.5491987466812134,
+          0.5461023449897766,
+          1.0000001192092896,
+          0.2865009605884552,
+          0.025947587564587593,
+          0.4397716224193573
+        ],
+        [
+          0.028489340096712112,
+          0.1751478761434555,
+          0.220852330327034,
+          0.23345495760440826,
+          0.24997802078723907,
+          0.1557808667421341,
+          0.2865009605884552,
+          0.9999999403953552,
+          0.04671517014503479,
+          0.1748732030391693
+        ],
+        [
+          0.00858068186789751,
+          0.06725955009460449,
+          0.015176983550190926,
+          0.06377328187227249,
+          0.061444494873285294,
+          0.09988091140985489,
+          0.025947587564587593,
+          0.04671517014503479,
+          1.0,
+          0.0343305766582489
+        ],
+        [
+          0.014291723258793354,
+          0.36546790599823,
+          0.6381514072418213,
+          0.3186822831630707,
+          0.3689740300178528,
+          0.4472268521785736,
+          0.4397716224193573,
+          0.1748732030391693,
+          0.0343305766582489,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg"
+    },
+    {
+      "name": "03_fidel-castro-1970.jpg",
+      "path": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg"
+    },
+    {
+      "name": "04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "path": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg"
+    },
+    {
+      "name": "05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "path": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg"
+    },
+    {
+      "name": "06_fidel-castro-picture-in-color.jpg",
+      "path": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg"
+    },
+    {
+      "name": "07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "path": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg"
+    },
+    {
+      "name": "08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "path": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg"
+    },
+    {
+      "name": "09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "path": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg"
+    },
+    {
+      "name": "10_fidel-castro-tale.jpg",
+      "path": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg",
+      "similarity": 0.47102227807044983
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "similarity": 0.4959561228752136
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "similarity": 0.3947652280330658
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg",
+      "similarity": 0.5547066926956177
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "similarity": 0.4899628758430481
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.1751478761434555
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "similarity": 0.06725955009460449
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg",
+      "similarity": 0.36546790599823
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "similarity": 0.40035170316696167
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "similarity": 0.48278671503067017
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg",
+      "similarity": 0.5307255983352661
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "similarity": 0.5574612617492676
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.220852330327034
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "similarity": 0.015176983550190926
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/03_fidel-castro-1970.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg",
+      "similarity": 0.6381514072418213
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "similarity": 0.5223857164382935
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg",
+      "similarity": 0.44774821400642395
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "similarity": 0.5877871513366699
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.23345495760440826
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "similarity": 0.06377328187227249
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg",
+      "similarity": 0.3186822831630707
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg",
+      "similarity": 0.49110734462738037
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "similarity": 0.5491987466812134
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.24997802078723907
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "similarity": 0.061444494873285294
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg",
+      "similarity": 0.3689740300178528
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "similarity": 0.5461023449897766
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.1557808667421341
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "similarity": 0.09988091140985489
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/06_fidel-castro-picture-in-color.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg",
+      "similarity": 0.4472268521785736
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "similarity": 0.2865009605884552
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "similarity": 0.025947587564587593
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg",
+      "similarity": 0.4397716224193573
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "similarity": 0.04671517014503479
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg",
+      "similarity": 0.1748732030391693
+    },
+    {
+      "left": "/workspace/input/piven/data/fidel_castro/images/09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "right": "/workspace/input/piven/data/fidel_castro/images/10_fidel-castro-tale.jpg",
+      "similarity": 0.0343305766582489
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "02_fidel-castro-portrait-black-and-white-stock-photos-images-alamy.jpg",
+      "03_fidel-castro-1970.jpg",
+      "04_pin-by-ebony-creative-spirit-3-3-63-on-fidel-castro-pop-art-portraits.jpg",
+      "05_fidel-castro-portrait-vers-le-milieu-des-ann-es-1950-photo-stock-alamy.jpg",
+      "06_fidel-castro-picture-in-color.jpg",
+      "07_fidel-castro-liborio-noval-vintage-fotografie-catawiki.jpg",
+      "08_fidel-castro-portrait-stable-diffusion-online.jpg",
+      "09_fidel-castro-portrait-image-stable-diffusion-online.jpg",
+      "10_fidel-castro-tale.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.47102227807044983,
+        0.4959561228752136,
+        0.3947652280330658,
+        0.5547066926956177,
+        0.4899628758430481,
+        0.1751478761434555,
+        0.06725955009460449,
+        0.36546790599823
+      ],
+      [
+        0.47102227807044983,
+        1.0,
+        0.40035170316696167,
+        0.48278671503067017,
+        0.5307255983352661,
+        0.5574612617492676,
+        0.220852330327034,
+        0.015176983550190926,
+        0.6381514072418213
+      ],
+      [
+        0.4959561228752136,
+        0.40035170316696167,
+        0.9999999403953552,
+        0.5223857164382935,
+        0.44774821400642395,
+        0.5877871513366699,
+        0.23345495760440826,
+        0.06377328187227249,
+        0.3186822831630707
+      ],
+      [
+        0.3947652280330658,
+        0.48278671503067017,
+        0.5223857164382935,
+        0.9999999403953552,
+        0.49110734462738037,
+        0.5491987466812134,
+        0.24997802078723907,
+        0.061444494873285294,
+        0.3689740300178528
+      ],
+      [
+        0.5547066926956177,
+        0.5307255983352661,
+        0.44774821400642395,
+        0.49110734462738037,
+        1.0,
+        0.5461023449897766,
+        0.1557808667421341,
+        0.09988091140985489,
+        0.4472268521785736
+      ],
+      [
+        0.4899628758430481,
+        0.5574612617492676,
+        0.5877871513366699,
+        0.5491987466812134,
+        0.5461023449897766,
+        1.0000001192092896,
+        0.2865009605884552,
+        0.025947587564587593,
+        0.4397716224193573
+      ],
+      [
+        0.1751478761434555,
+        0.220852330327034,
+        0.23345495760440826,
+        0.24997802078723907,
+        0.1557808667421341,
+        0.2865009605884552,
+        0.9999999403953552,
+        0.04671517014503479,
+        0.1748732030391693
+      ],
+      [
+        0.06725955009460449,
+        0.015176983550190926,
+        0.06377328187227249,
+        0.061444494873285294,
+        0.09988091140985489,
+        0.025947587564587593,
+        0.04671517014503479,
+        1.0,
+        0.0343305766582489
+      ],
+      [
+        0.36546790599823,
+        0.6381514072418213,
+        0.3186822831630707,
+        0.3689740300178528,
+        0.4472268521785736,
+        0.4397716224193573,
+        0.1748732030391693,
+        0.0343305766582489,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/fidel_castro/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/fidel_castro/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/fidel_castro/images/01_fidel-castro-portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/fidel_castro/images/01_fidel-castro-portrait.jpg"
+    }
+  ]
+}

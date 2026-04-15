@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/steven_spielberg",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/steven_spielberg/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+        "similarity": 0.03470608964562416
+      },
+      {
+        "index": 1,
+        "name": "02_steven-spielberg-1999-jpg.jpg",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+        "similarity": 0.054377757012844086
+      },
+      {
+        "index": 2,
+        "name": "03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+        "similarity": 0.03127457946538925
+      },
+      {
+        "index": 3,
+        "name": "04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+        "similarity": 0.039460763335227966
+      },
+      {
+        "index": 4,
+        "name": "05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+        "similarity": -0.0580747053027153
+      },
+      {
+        "index": 5,
+        "name": "06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+        "similarity": 0.05281243845820427
+      },
+      {
+        "index": 6,
+        "name": "07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+        "similarity": 0.05319121479988098
+      },
+      {
+        "index": 7,
+        "name": "08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+        "similarity": 0.06606460362672806
+      },
+      {
+        "index": 8,
+        "name": "09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+        "similarity": 0.07523955404758453
+      },
+      {
+        "index": 9,
+        "name": "10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+        "path": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+        "similarity": 0.048680052161216736
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.03470608964562416,
+          0.054377757012844086,
+          0.03127457946538925,
+          0.039460763335227966,
+          -0.0580747053027153,
+          0.05281243845820427,
+          0.05319121479988098,
+          0.06606460362672806,
+          0.07523955404758453,
+          0.048680052161216736
+        ],
+        [
+          0.03470608964562416,
+          1.0000001192092896,
+          0.4548386335372925,
+          0.3232366442680359,
+          0.24106091260910034,
+          0.21840989589691162,
+          0.39874979853630066,
+          0.3449063301086426,
+          0.48644956946372986,
+          0.4880601763725281,
+          0.3922748267650604
+        ],
+        [
+          0.054377757012844086,
+          0.4548386335372925,
+          0.9999999403953552,
+          0.39961549639701843,
+          0.39018502831459045,
+          0.2611933946609497,
+          0.4954173266887665,
+          0.35803425312042236,
+          0.4586174190044403,
+          0.4486069977283478,
+          0.41728445887565613
+        ],
+        [
+          0.03127457946538925,
+          0.3232366442680359,
+          0.39961549639701843,
+          1.0,
+          0.5157532095909119,
+          0.2560049891471863,
+          0.4329055845737457,
+          0.4981500208377838,
+          0.4522501826286316,
+          0.47752872109413147,
+          0.49722665548324585
+        ],
+        [
+          0.039460763335227966,
+          0.24106091260910034,
+          0.39018502831459045,
+          0.5157532095909119,
+          1.0000001192092896,
+          0.26369407773017883,
+          0.42345330119132996,
+          0.44594457745552063,
+          0.4657779633998871,
+          0.33599555492401123,
+          0.5348488092422485
+        ],
+        [
+          -0.0580747053027153,
+          0.21840989589691162,
+          0.2611933946609497,
+          0.2560049891471863,
+          0.26369407773017883,
+          1.0000001192092896,
+          0.32204145193099976,
+          0.36476457118988037,
+          0.357450008392334,
+          0.21291913092136383,
+          0.27797046303749084
+        ],
+        [
+          0.05281243845820427,
+          0.39874979853630066,
+          0.4954173266887665,
+          0.4329055845737457,
+          0.42345330119132996,
+          0.32204145193099976,
+          1.0000001192092896,
+          0.4478212594985962,
+          0.5908359885215759,
+          0.48385438323020935,
+          0.4407499134540558
+        ],
+        [
+          0.05319121479988098,
+          0.3449063301086426,
+          0.35803425312042236,
+          0.4981500208377838,
+          0.44594457745552063,
+          0.36476457118988037,
+          0.4478212594985962,
+          1.0,
+          0.5761078000068665,
+          0.3711872398853302,
+          0.5133354663848877
+        ],
+        [
+          0.06606460362672806,
+          0.48644956946372986,
+          0.4586174190044403,
+          0.4522501826286316,
+          0.4657779633998871,
+          0.357450008392334,
+          0.5908359885215759,
+          0.5761078000068665,
+          0.9999998807907104,
+          0.46771013736724854,
+          0.49982309341430664
+        ],
+        [
+          0.07523955404758453,
+          0.4880601763725281,
+          0.4486069977283478,
+          0.47752872109413147,
+          0.33599555492401123,
+          0.21291913092136383,
+          0.48385438323020935,
+          0.3711872398853302,
+          0.46771013736724854,
+          1.0,
+          0.40435612201690674
+        ],
+        [
+          0.048680052161216736,
+          0.3922748267650604,
+          0.41728445887565613,
+          0.49722665548324585,
+          0.5348488092422485,
+          0.27797046303749084,
+          0.4407499134540558,
+          0.5133354663848877,
+          0.49982309341430664,
+          0.40435612201690674,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg"
+    },
+    {
+      "name": "02_steven-spielberg-1999-jpg.jpg",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg"
+    },
+    {
+      "name": "03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg"
+    },
+    {
+      "name": "05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg"
+    },
+    {
+      "name": "06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg"
+    },
+    {
+      "name": "07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg"
+    },
+    {
+      "name": "08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg"
+    },
+    {
+      "name": "09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg"
+    },
+    {
+      "name": "10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "path": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+      "similarity": 0.4548386335372925
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "similarity": 0.3232366442680359
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "similarity": 0.24106091260910034
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "similarity": 0.21840989589691162
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "similarity": 0.39874979853630066
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "similarity": 0.3449063301086426
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "similarity": 0.48644956946372986
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "similarity": 0.4880601763725281
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "similarity": 0.3922748267650604
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "similarity": 0.39961549639701843
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "similarity": 0.39018502831459045
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "similarity": 0.2611933946609497
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "similarity": 0.4954173266887665
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "similarity": 0.35803425312042236
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "similarity": 0.4586174190044403
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "similarity": 0.4486069977283478
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/02_steven-spielberg-1999-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "similarity": 0.41728445887565613
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "similarity": 0.5157532095909119
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "similarity": 0.2560049891471863
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "similarity": 0.4329055845737457
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "similarity": 0.4981500208377838
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "similarity": 0.4522501826286316
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "similarity": 0.47752872109413147
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "similarity": 0.49722665548324585
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "similarity": 0.26369407773017883
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "similarity": 0.42345330119132996
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "similarity": 0.44594457745552063
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "similarity": 0.4657779633998871
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "similarity": 0.33599555492401123
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "similarity": 0.5348488092422485
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "similarity": 0.32204145193099976
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "similarity": 0.36476457118988037
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "similarity": 0.357450008392334
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "similarity": 0.21291913092136383
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "similarity": 0.27797046303749084
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "similarity": 0.4478212594985962
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "similarity": 0.5908359885215759
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "similarity": 0.48385438323020935
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "similarity": 0.4407499134540558
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "similarity": 0.5761078000068665
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "similarity": 0.3711872398853302
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "similarity": 0.5133354663848877
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "similarity": 0.46771013736724854
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "similarity": 0.49982309341430664
+    },
+    {
+      "left": "/workspace/input/piven/data/steven_spielberg/images/09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "right": "/workspace/input/piven/data/steven_spielberg/images/10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png",
+      "similarity": 0.40435612201690674
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "02_steven-spielberg-1999-jpg.jpg",
+      "03_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "04_steven-spielberg-director-photos-and-premium-high-res-pictures-getty.jpg",
+      "05_steven-spielberg-portrait-print-steven-spielberg-print-steven.jpg",
+      "06_steven-spielberg-portrait-digital-art-by-yury-malkov-fine-art-america.jpg",
+      "07_portrait-steven-spielberg-by-marco-grob-website-marcogrob-com.jpg",
+      "08_steven-spielberg-photographed-by-joe-pugliese-movie-directors-steven.jpg",
+      "09_director-steven-spielberg-poses-for-a-portrait-at-his-office-the.jpg",
+      "10_congratulations-the-png-image-has-been-downloaded-steven-spielberg.png"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.4548386335372925,
+        0.3232366442680359,
+        0.24106091260910034,
+        0.21840989589691162,
+        0.39874979853630066,
+        0.3449063301086426,
+        0.48644956946372986,
+        0.4880601763725281,
+        0.3922748267650604
+      ],
+      [
+        0.4548386335372925,
+        0.9999999403953552,
+        0.39961549639701843,
+        0.39018502831459045,
+        0.2611933946609497,
+        0.4954173266887665,
+        0.35803425312042236,
+        0.4586174190044403,
+        0.4486069977283478,
+        0.41728445887565613
+      ],
+      [
+        0.3232366442680359,
+        0.39961549639701843,
+        1.0,
+        0.5157532095909119,
+        0.2560049891471863,
+        0.4329055845737457,
+        0.4981500208377838,
+        0.4522501826286316,
+        0.47752872109413147,
+        0.49722665548324585
+      ],
+      [
+        0.24106091260910034,
+        0.39018502831459045,
+        0.5157532095909119,
+        1.0000001192092896,
+        0.26369407773017883,
+        0.42345330119132996,
+        0.44594457745552063,
+        0.4657779633998871,
+        0.33599555492401123,
+        0.5348488092422485
+      ],
+      [
+        0.21840989589691162,
+        0.2611933946609497,
+        0.2560049891471863,
+        0.26369407773017883,
+        1.0000001192092896,
+        0.32204145193099976,
+        0.36476457118988037,
+        0.357450008392334,
+        0.21291913092136383,
+        0.27797046303749084
+      ],
+      [
+        0.39874979853630066,
+        0.4954173266887665,
+        0.4329055845737457,
+        0.42345330119132996,
+        0.32204145193099976,
+        1.0000001192092896,
+        0.4478212594985962,
+        0.5908359885215759,
+        0.48385438323020935,
+        0.4407499134540558
+      ],
+      [
+        0.3449063301086426,
+        0.35803425312042236,
+        0.4981500208377838,
+        0.44594457745552063,
+        0.36476457118988037,
+        0.4478212594985962,
+        1.0,
+        0.5761078000068665,
+        0.3711872398853302,
+        0.5133354663848877
+      ],
+      [
+        0.48644956946372986,
+        0.4586174190044403,
+        0.4522501826286316,
+        0.4657779633998871,
+        0.357450008392334,
+        0.5908359885215759,
+        0.5761078000068665,
+        0.9999998807907104,
+        0.46771013736724854,
+        0.49982309341430664
+      ],
+      [
+        0.4880601763725281,
+        0.4486069977283478,
+        0.47752872109413147,
+        0.33599555492401123,
+        0.21291913092136383,
+        0.48385438323020935,
+        0.3711872398853302,
+        0.46771013736724854,
+        1.0,
+        0.40435612201690674
+      ],
+      [
+        0.3922748267650604,
+        0.41728445887565613,
+        0.49722665548324585,
+        0.5348488092422485,
+        0.27797046303749084,
+        0.4407499134540558,
+        0.5133354663848877,
+        0.49982309341430664,
+        0.40435612201690674,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/steven_spielberg/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/steven_spielberg/portrait.jpg"
+    }
+  ]
+}

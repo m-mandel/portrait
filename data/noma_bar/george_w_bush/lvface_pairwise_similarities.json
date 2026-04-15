@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/george_w_bush",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/george_w_bush/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_george-w-bush-cropped-jpeg.jpg",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+        "similarity": -0.07497250288724899
+      },
+      {
+        "index": 1,
+        "name": "03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+        "similarity": -0.01468371506780386
+      },
+      {
+        "index": 2,
+        "name": "04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+        "similarity": -0.002630020724609494
+      },
+      {
+        "index": 3,
+        "name": "06_georgewbush1947-png.png",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+        "similarity": 0.005900371819734573
+      },
+      {
+        "index": 4,
+        "name": "08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+        "similarity": -0.032248035073280334
+      },
+      {
+        "index": 5,
+        "name": "08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+        "similarity": -0.06103603169322014
+      },
+      {
+        "index": 6,
+        "name": "09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+        "similarity": 0.03375989943742752
+      },
+      {
+        "index": 7,
+        "name": "10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+        "similarity": 0.017010163515806198
+      },
+      {
+        "index": 8,
+        "name": "11_george-h-w-bush-presidential-portrait-cropped-png.png",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+        "similarity": 0.014919367618858814
+      },
+      {
+        "index": 9,
+        "name": "14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+        "similarity": 0.023602090775966644
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.07497250288724899,
+          -0.01468371506780386,
+          -0.002630020724609494,
+          0.005900371819734573,
+          -0.032248035073280334,
+          -0.06103603169322014,
+          0.03375989943742752,
+          0.017010163515806198,
+          0.014919367618858814,
+          0.023602090775966644
+        ],
+        [
+          -0.07497250288724899,
+          1.0,
+          0.4552440643310547,
+          0.4528668224811554,
+          0.053905267268419266,
+          0.3777284026145935,
+          0.46301737427711487,
+          0.16076090931892395,
+          0.10971319675445557,
+          0.1204644963145256,
+          0.1275537610054016
+        ],
+        [
+          -0.01468371506780386,
+          0.4552440643310547,
+          1.0000001192092896,
+          0.4272327125072479,
+          0.08434627205133438,
+          0.41200700402259827,
+          0.3685606122016907,
+          0.1760735809803009,
+          0.17323648929595947,
+          0.12650230526924133,
+          0.1728784739971161
+        ],
+        [
+          -0.002630020724609494,
+          0.4528668224811554,
+          0.4272327125072479,
+          0.9999998807907104,
+          0.09651195257902145,
+          0.5361673831939697,
+          0.46397143602371216,
+          0.17031222581863403,
+          0.12127181887626648,
+          0.11052506417036057,
+          0.16545747220516205
+        ],
+        [
+          0.005900371819734573,
+          0.053905267268419266,
+          0.08434627205133438,
+          0.09651195257902145,
+          1.0,
+          0.051135625690221786,
+          0.07331554591655731,
+          0.1860012412071228,
+          0.15579211711883545,
+          0.17146307229995728,
+          0.16336771845817566
+        ],
+        [
+          -0.032248035073280334,
+          0.3777284026145935,
+          0.41200700402259827,
+          0.5361673831939697,
+          0.051135625690221786,
+          1.0,
+          0.5118023753166199,
+          0.05676194652915001,
+          0.09637262672185898,
+          0.12068585306406021,
+          0.18317881226539612
+        ],
+        [
+          -0.06103603169322014,
+          0.46301737427711487,
+          0.3685606122016907,
+          0.46397143602371216,
+          0.07331554591655731,
+          0.5118023753166199,
+          1.0000001192092896,
+          0.25424596667289734,
+          0.2874086797237396,
+          0.3012577295303345,
+          0.1774616837501526
+        ],
+        [
+          0.03375989943742752,
+          0.16076090931892395,
+          0.1760735809803009,
+          0.17031222581863403,
+          0.1860012412071228,
+          0.05676194652915001,
+          0.25424596667289734,
+          0.9999998807907104,
+          0.8246867656707764,
+          0.8290281295776367,
+          0.454404354095459
+        ],
+        [
+          0.017010163515806198,
+          0.10971319675445557,
+          0.17323648929595947,
+          0.12127181887626648,
+          0.15579211711883545,
+          0.09637262672185898,
+          0.2874086797237396,
+          0.8246867656707764,
+          1.0,
+          0.8400996923446655,
+          0.4943479895591736
+        ],
+        [
+          0.014919367618858814,
+          0.1204644963145256,
+          0.12650230526924133,
+          0.11052506417036057,
+          0.17146307229995728,
+          0.12068585306406021,
+          0.3012577295303345,
+          0.8290281295776367,
+          0.8400996923446655,
+          1.0,
+          0.4771219789981842
+        ],
+        [
+          0.023602090775966644,
+          0.1275537610054016,
+          0.1728784739971161,
+          0.16545747220516205,
+          0.16336771845817566,
+          0.18317881226539612,
+          0.1774616837501526,
+          0.454404354095459,
+          0.4943479895591736,
+          0.4771219789981842,
+          0.9999999403953552
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_george-w-bush-cropped-jpeg.jpg",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg"
+    },
+    {
+      "name": "03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_georgewbush1947-png.png",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png"
+    },
+    {
+      "name": "08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg"
+    },
+    {
+      "name": "08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg"
+    },
+    {
+      "name": "09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg"
+    },
+    {
+      "name": "10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg"
+    },
+    {
+      "name": "11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png"
+    },
+    {
+      "name": "14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "similarity": 0.4552440643310547
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "similarity": 0.4528668224811554
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+      "similarity": 0.053905267268419266
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "similarity": 0.3777284026145935
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "similarity": 0.46301737427711487
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "similarity": 0.16076090931892395
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "similarity": 0.10971319675445557
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "similarity": 0.1204644963145256
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/01_george-w-bush-cropped-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "similarity": 0.1275537610054016
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "similarity": 0.4272327125072479
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+      "similarity": 0.08434627205133438
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "similarity": 0.41200700402259827
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "similarity": 0.3685606122016907
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "similarity": 0.1760735809803009
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "similarity": 0.17323648929595947
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "similarity": 0.12650230526924133
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "similarity": 0.1728784739971161
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+      "similarity": 0.09651195257902145
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "similarity": 0.5361673831939697
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "similarity": 0.46397143602371216
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "similarity": 0.17031222581863403
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "similarity": 0.12127181887626648
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "similarity": 0.11052506417036057
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "similarity": 0.16545747220516205
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "similarity": 0.051135625690221786
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "similarity": 0.07331554591655731
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "similarity": 0.1860012412071228
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "similarity": 0.15579211711883545
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "similarity": 0.17146307229995728
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/06_georgewbush1947-png.png",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "similarity": 0.16336771845817566
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "similarity": 0.5118023753166199
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "similarity": 0.05676194652915001
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "similarity": 0.09637262672185898
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "similarity": 0.12068585306406021
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "similarity": 0.18317881226539612
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "similarity": 0.25424596667289734
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "similarity": 0.2874086797237396
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "similarity": 0.3012577295303345
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "similarity": 0.1774616837501526
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "similarity": 0.8246867656707764
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "similarity": 0.8290281295776367
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "similarity": 0.454404354095459
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "similarity": 0.8400996923446655
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "similarity": 0.4943479895591736
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/george_w_bush/images/11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "right": "/workspace/input/noma_bar/data/george_w_bush/images/14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg",
+      "similarity": 0.4771219789981842
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_george-w-bush-cropped-jpeg.jpg",
+      "03_minni-minnawi-and-george-w-bush-cropped-jpg.jpg",
+      "04_george-w-bush-portrait-3x4-close-cropped-jpg.jpg",
+      "06_georgewbush1947-png.png",
+      "08_official-portrait-president-george-walker-bush-43rd-president-of-the-united-states-republican-dpla-7482eac0e113bf03014d1686a3733f97-jpeg.jpg",
+      "08_president-george-w-bush-and-mrs-laura-bush-portrait-p49-11-jpg.jpg",
+      "09_george-h-w-bush-presidential-portrait-cropped-headshot-jpg.jpg",
+      "10_george-h-w-bush-presidential-portrait-cropped-jpg.jpg",
+      "11_george-h-w-bush-presidential-portrait-cropped-png.png",
+      "14_official-portrait-of-vice-president-george-h-w-bush-1985-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.4552440643310547,
+        0.4528668224811554,
+        0.053905267268419266,
+        0.3777284026145935,
+        0.46301737427711487,
+        0.16076090931892395,
+        0.10971319675445557,
+        0.1204644963145256,
+        0.1275537610054016
+      ],
+      [
+        0.4552440643310547,
+        1.0000001192092896,
+        0.4272327125072479,
+        0.08434627205133438,
+        0.41200700402259827,
+        0.3685606122016907,
+        0.1760735809803009,
+        0.17323648929595947,
+        0.12650230526924133,
+        0.1728784739971161
+      ],
+      [
+        0.4528668224811554,
+        0.4272327125072479,
+        0.9999998807907104,
+        0.09651195257902145,
+        0.5361673831939697,
+        0.46397143602371216,
+        0.17031222581863403,
+        0.12127181887626648,
+        0.11052506417036057,
+        0.16545747220516205
+      ],
+      [
+        0.053905267268419266,
+        0.08434627205133438,
+        0.09651195257902145,
+        1.0,
+        0.051135625690221786,
+        0.07331554591655731,
+        0.1860012412071228,
+        0.15579211711883545,
+        0.17146307229995728,
+        0.16336771845817566
+      ],
+      [
+        0.3777284026145935,
+        0.41200700402259827,
+        0.5361673831939697,
+        0.051135625690221786,
+        1.0,
+        0.5118023753166199,
+        0.05676194652915001,
+        0.09637262672185898,
+        0.12068585306406021,
+        0.18317881226539612
+      ],
+      [
+        0.46301737427711487,
+        0.3685606122016907,
+        0.46397143602371216,
+        0.07331554591655731,
+        0.5118023753166199,
+        1.0000001192092896,
+        0.25424596667289734,
+        0.2874086797237396,
+        0.3012577295303345,
+        0.1774616837501526
+      ],
+      [
+        0.16076090931892395,
+        0.1760735809803009,
+        0.17031222581863403,
+        0.1860012412071228,
+        0.05676194652915001,
+        0.25424596667289734,
+        0.9999998807907104,
+        0.8246867656707764,
+        0.8290281295776367,
+        0.454404354095459
+      ],
+      [
+        0.10971319675445557,
+        0.17323648929595947,
+        0.12127181887626648,
+        0.15579211711883545,
+        0.09637262672185898,
+        0.2874086797237396,
+        0.8246867656707764,
+        1.0,
+        0.8400996923446655,
+        0.4943479895591736
+      ],
+      [
+        0.1204644963145256,
+        0.12650230526924133,
+        0.11052506417036057,
+        0.17146307229995728,
+        0.12068585306406021,
+        0.3012577295303345,
+        0.8290281295776367,
+        0.8400996923446655,
+        1.0,
+        0.4771219789981842
+      ],
+      [
+        0.1275537610054016,
+        0.1728784739971161,
+        0.16545747220516205,
+        0.16336771845817566,
+        0.18317881226539612,
+        0.1774616837501526,
+        0.454404354095459,
+        0.4943479895591736,
+        0.4771219789981842,
+        0.9999999403953552
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/george_w_bush/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/george_w_bush/portrait.jpg"
+    }
+  ]
+}

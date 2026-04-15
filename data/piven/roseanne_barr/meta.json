@@ -1,0 +1,55 @@
+{
+  "name": "roseanne barr",
+  "bio": "Roseanne Cherrie Barr (born November 3, 1952), also known mononymously as Roseanne, is an American actress, comedian, writer, and producer. She began her career in stand-up comedy, going on to achieve widespread recognition for her work as the eponymous lead character on the ABC sitcom Roseanne (1988–1997; 2018), for which she received an Emmy and a Golden Globe.\nHaving been revived in 2018 to strong ratings, plans for further seasons of Roseanne were dropped after Barr made a tweet condemned as racist by many commentators, with Barr later referring to the tweet as a \"bad joke.\" Her comeback comedy special, Cancel This!, was released on Fox Nation in 2023.",
+  "bio_sources": [
+    {
+      "subject": "roseanne barr",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Roseanne_Barr"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "black-and-white disc",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing roseanne barr's brash stripped-down comic bluntness."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen production define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "film strip",
+      "visual_representation": "a narrow strip with evenly spaced rectangular frames",
+      "category": "object",
+      "relevance": "Cinema and edited moving images belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "clapboard",
+      "visual_representation": "a hinged slate with diagonal stripes on its top edge",
+      "category": "object",
+      "relevance": "Film sets and screen production are strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "projector beam",
+      "visual_representation": "a clean triangular beam of projected light",
+      "category": "shape",
+      "relevance": "The biography supports a public identity centered on image-making and spectacle.",
+      "grounding": "inferred"
+    }
+  ]
+}

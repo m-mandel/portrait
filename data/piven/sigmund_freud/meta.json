@@ -1,0 +1,70 @@
+{
+  "name": "Sigmund Freud",
+  "bio": "Sigmund Freud (born Sigismund Schlomo Freud; 6 May 1856 – 23 September 1939) was an Austrian neurologist and the founder of psychoanalysis, a clinical method for evaluating and treating pathologies arising from conflicts in the psyche through dialogue between patient and psychoanalyst, and the distinctive theory of mind and human agency derived from it. \nIn creating psychoanalysis Freud introduced therapeutic methods such as free association, the interpretation of dreams, and the analysis of  transference phenomena that arise in the clinical setting. Freud's redefinition of sexuality to include infantile stages led him to formulate the Oedipus complex as the central tenet of psychoanalytical theory. His analysis of dreams as wish fulfillments provided him with models for the clinical analysis of symptom formation and the underlying mechanisms of repression. Accordingly, on this basis, Freud elaborated his theory of the unconscious and went on to develop a model of psychic structure comprising id, ego, and superego (a tripartite model of the mind). Freud postulated the existence of libido (sexualised psychic energy), with which mental processes and structures are invested and that generates erotic attachments and a death drive, the source of compulsive repetition, hate, aggression, and neurotic guilt. In his later work, Freud developed a wide-ranging interpretation and critique of religion and culture.\nThough in overall decline as diagnostic and clinical practice, psychoanalysis remains influential within psychology, psychiatry, psychotherapy, and across the humanities. It thus continues to generate extensive and highly contested debate \nconcerning its therapeutic efficacy, its scientific status, and whether it advances or hinders the feminist cause. Nonetheless, Freud's work has suffused contemporary Western thought and popular culture. W. H. Auden's 1940 poetic tribute to Freud describes him as having created \"a whole climate of opinion / under whom we conduct our different lives\".",
+  "bio_sources": [
+    {
+      "subject": "Sigmund Freud",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Sigmund_Freud"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "beaded glasses",
+      "shape_type": "wearable object",
+      "meaning": "helps anchor the gaze and reinforces Sigmund Freud's psychoanalysis, desire, and interpretive insight."
+    },
+    {
+      "element": "brooches",
+      "shape_type": "symbolic accessory",
+      "meaning": "points to identity, allegiance, or belief within Sigmund Freud's psychoanalysis, desire, and interpretive insight."
+    },
+    {
+      "element": "lipstick",
+      "shape_type": "cosmetic object",
+      "meaning": "pulls sexuality and desire into the center of freud's face."
+    },
+    {
+      "element": "lace",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing Sigmund Freud's psychoanalysis, desire, and interpretive insight."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "therapy couch",
+      "visual_representation": "a long cushioned chaise-like form with a raised end",
+      "category": "object",
+      "relevance": "Psychoanalysis and therapeutic practice are associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "spiral coil",
+      "visual_representation": "a tight inward-turning spiral",
+      "category": "shape",
+      "relevance": "Inner life and mental analysis belong to the subject’s intellectual world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "dream mist",
+      "visual_representation": "a soft clouded field with blurred edges",
+      "category": "material",
+      "relevance": "Dreams and the unconscious are strongly associated with the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "layered mask",
+      "visual_representation": "overlapping contour-like masks stacked one over another",
+      "category": "symbol",
+      "relevance": "The biography supports an interpretive world of hidden motives and layered identity.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "inkblot card",
+      "visual_representation": "a mirrored blot-like shape on a rectangular card",
+      "category": "object",
+      "relevance": "Interpretation and symbolic testing belong to the subject’s psychological world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

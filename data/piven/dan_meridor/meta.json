@@ -1,0 +1,65 @@
+{
+  "name": "dan meridor",
+  "bio": "Dan Meridor (Hebrew: דן מרידור; born 23 April 1947) is an Israeli politician and minister. A longtime member of the Likud party, in the late 1990s he became one of the founders of the Center Party. He rejoined Likud a decade later, and returned to the Knesset following the 2009 elections. Meridor served at various times as Deputy Prime Minister, Minister of Finance, Minister of Justice and Minister of Intelligence and Atomic Energy in the Israeli Cabinet. In 2014, Meridor succeeded Avi Primor as president of the Israel Council on Foreign Relations, an institute of international affairs which operates under the auspices of the World Jewish Congress.",
+  "bio_sources": [
+    {
+      "subject": "dan meridor",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Dan_Meridor"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "feathers",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing dan meridor's measured political seriousness."
+    },
+    {
+      "element": "egg halves",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing dan meridor's measured political seriousness."
+    },
+    {
+      "element": "olives",
+      "shape_type": "organic object",
+      "meaning": "adds an earthy, bodily note that keeps dan meridor's measured political seriousness tactile and human."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "campaign current",
+      "visual_representation": "a directional sweep that suggests momentum through public space",
+      "category": "personality",
+      "relevance": "The biography supports a highly public, strategic civic persona.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "flag field",
+      "visual_representation": "a folded field of striped or blocked civic color bands",
+      "category": "symbol",
+      "relevance": "State ceremony and official representation are part of the subject’s political world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

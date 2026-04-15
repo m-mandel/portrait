@@ -1,0 +1,70 @@
+{
+  "name": "michael jackson",
+  "bio": "Michael Joseph Jackson (August 29, 1958 – June 25, 2009) was an American singer, songwriter, dancer, and philanthropist. Dubbed the \"King of Pop\", he is widely regarded as one of the most culturally significant figures of the 20th century. Over a four-decade career, his musical achievements broke American racial barriers and made him a dominant figure worldwide. Through his songs, concerts, and fashion, he proliferated visual performance for artists in popular music, popularizing street dance moves such as the moonwalk, the robot, and the anti-gravity lean. Jackson is often deemed the greatest entertainer of all time.\nThe eighth child of the Jackson family, Jackson made his public debut at age six as the lead singer of the Jackson 5, one of Motown's most successful acts. He rose to solo stardom with the album Off the Wall (1979) and achieved unprecedented global success with Thriller (1982), the best-selling album in history. Its short film-style music videos for \"Thriller\", \"Beat It\", and \"Billie Jean\" redefined the medium as an art form. Jackson followed it with Bad (1987), the first album to produce five US Billboard Hot 100 number-one singles: \"I Just Can't Stop Loving You\", \"Bad\", \"The Way You Make Me Feel\", \"Man in the Mirror\", and \"Dirty Diana\". His albums Dangerous (1991) and HIStory (1995) spawned the respective US number-one singles \"Black or White\" and \"You Are Not Alone\"; the latter was the first song to debut atop the Hot 100. Jackson's final album, Invincible (2001), is the most expensive album ever made.\nFrom the mid-1980s, Jackson came under public scrutiny due to changes in his appearance, relationships, behavior, and lifestyle. He was accused of sexually abusing the child of a family friend in 1993. In 2005, Jackson was tried and acquitted of further such allegations and other charges. In 2009, while preparing for This Is It, a series of comeback concerts, he died from an overdose of propofol administered by his personal physician Conrad Murray, who was convicted of involuntary manslaughter in 2011. Jackson's death triggered global reactions, creating unprecedented surges of internet traffic and a spike in his music sales. His televised memorial service, held at the Staples Center in Los Angeles, is estimated to have been viewed by more than 2.5 billion people.\nJackson is one of the best-selling music artists of all time, with estimated sales of over 500 million records. He is one of only three recording artists, along with Paul McCartney and Phil Collins, who have sold over 100 million records both as solo artists and separately as principal members of a band. He holds a joint-record for a male solo artist with 13 Billboard Hot 100 number-one singles and is the only artist to have a top-ten single in six decades. One of the most-awarded music artists in history, Jackson received 13 Grammy Awards, the Grammy Legend Award, and the Grammy Lifetime Achievement Award; 26 American Music Awards; 12 World Music Awards; 8 MTV Video Music Awards; 6 Brit Awards; and 3 presidential honors. He was inducted into numerous halls of fame, including the Rock and Roll Hall of Fame twice, the Songwriters Hall of Fame, and the Dance Hall of Fame. Having donated an estimated $500 million, Jackson is credited with setting a standard for celebrity charity. In 2024, half of his music catalogue was sold to Sony for $600 million, the largest music acquisition for a single artist.",
+  "bio_sources": [
+    {
+      "subject": "michael jackson",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Michael_Jackson"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "hat",
+      "shape_type": "textile object",
+      "meaning": "signals a stage costume instantly associated with michael jackson."
+    },
+    {
+      "element": "glove",
+      "shape_type": "textile object",
+      "meaning": "references his most iconic performance accessory."
+    },
+    {
+      "element": "cords",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing michael jackson's performance, dance, and iconic stage style."
+    },
+    {
+      "element": "shirt",
+      "shape_type": "textile object",
+      "meaning": "builds the portrait's costume and surface while reinforcing michael jackson's performance, dance, and iconic stage style."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ball seam",
+      "visual_representation": "curved stitched seams across a rounded surface",
+      "category": "object",
+      "relevance": "Competitive sport defines the subject’s professional world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

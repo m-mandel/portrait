@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/piven/data/prince_charles",
+  "meta_path": "/workspace/input/piven/data/prince_charles/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Charles III (Charles Philip Arthur George; born 14 November 1948) is King of the United Kingdom and 14 other Commonwealth realms.\nCharles was born during the reign of his maternal grandfather, King George VI, and became heir apparent when his mother, Queen Elizabeth II, acceded to the throne in 1952. He was created Prince of Wales in 1958 and his investiture was held in 1969. Charles was educated at Cheam School and Gordonstoun, and later spent six months at the Timbertop campus of Geelong Grammar School in Victoria, Australia. After completing a history degree at the University of Cambridge, he served in the Royal Air Force and the Royal Navy from 1971 to 1976. He married Lady Diana Spencer in 1981 and they had two sons, William and Harry. Charles and Diana divorced in 1996 after years of estrangement and well-publicised extramarital affairs. Diana died the following year from injuries sustained in a car crash. In 2005, Charles married his long-time partner, Camilla Parker Bowles.\nAs heir apparent, Charles undertook official duties and engagements on behalf of his mother and represented the United Kingdom on visits abroad. He founded the Prince's Trust in 1976, sponsored the Prince's Charities and became patron or president of more than 800 other charities and organisations. He advocated for the conservation of historic buildings and the importance of traditional architecture in society, and in that vein generated the experimental new town of Poundbury. An environmentalist, Charles supported organic farming and action to address climate change during his time as manager of the Duchy of Cornwall estates, earning him awards and recognition. He has also been a prominent critic of genetically modified food, and has drawn scrutiny for his support of alternative medicine. He has authored or co-authored 17 books.\nCharles became king upon his mother's death in 2022. At the age of 73 he was the oldest person to accede to the British throne, after having been the longest-serving heir apparent and Prince of Wales in British history. Significant events in his reign have included his coronation in 2023; his cancer diagnosis in 2024, which temporarily suspended planned public engagements; and the removal of his brother Andrew's remaining titles, styles, and honours in 2025.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "seeds"
+    },
+    {
+      "index": 1,
+      "element": "buttons"
+    },
+    {
+      "index": 2,
+      "element": "googly eyes"
+    },
+    {
+      "index": 3,
+      "element": "nose piece"
+    },
+    {
+      "index": 4,
+      "element": "beads"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "crown arc"
+    },
+    {
+      "index": 1,
+      "element": "heraldic shield"
+    },
+    {
+      "index": 2,
+      "element": "palace facade"
+    },
+    {
+      "index": 3,
+      "element": "ceremonial sash"
+    },
+    {
+      "index": 4,
+      "element": "royal seal"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "seeds",
+      "buttons",
+      "googly eyes",
+      "nose piece",
+      "beads"
+    ],
+    "values": [
+      [
+        -0.02843036688864231,
+        -0.042433001101017,
+        0.014703179709613323,
+        -0.04374288395047188,
+        -0.03030586615204811
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "crown arc",
+      "heraldic shield",
+      "palace facade",
+      "ceremonial sash",
+      "royal seal"
+    ],
+    "column_labels": [
+      "seeds",
+      "buttons",
+      "googly eyes",
+      "nose piece",
+      "beads"
+    ],
+    "values": [
+      [
+        0.12891052663326263,
+        0.16049250960350037,
+        0.07675124704837799,
+        0.2610323429107666,
+        0.325848251581192
+      ],
+      [
+        0.042129382491111755,
+        0.15878140926361084,
+        0.160576730966568,
+        0.287000447511673,
+        0.24170953035354614
+      ],
+      [
+        0.08936208486557007,
+        0.09175224602222443,
+        0.16394451260566711,
+        0.11912979185581207,
+        0.07191638648509979
+      ],
+      [
+        0.15570172667503357,
+        0.20555651187896729,
+        0.12463689595460892,
+        0.28029704093933105,
+        0.290776789188385
+      ],
+      [
+        0.18484818935394287,
+        0.13697929680347443,
+        0.25573045015335083,
+        0.2808588445186615,
+        0.18859775364398956
+      ]
+    ]
+  }
+}

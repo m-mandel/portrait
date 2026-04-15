@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/macaulay_culkin",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/macaulay_culkin/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_macaulay-culkin-home-alone-35th-jpg.jpg",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+        "similarity": 0.02296469546854496
+      },
+      {
+        "index": 1,
+        "name": "02_macaulay-culkin-2075857757-jpg.jpg",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+        "similarity": -0.013077355921268463
+      },
+      {
+        "index": 2,
+        "name": "03_macaulay-culkin-2076597658-jpg.jpg",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+        "similarity": 0.08376454561948776
+      },
+      {
+        "index": 3,
+        "name": "04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+        "similarity": -0.016293128952383995
+      },
+      {
+        "index": 4,
+        "name": "05_macaulay-culkin-movies.jpg",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+        "similarity": -0.04582800343632698
+      },
+      {
+        "index": 5,
+        "name": "06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+        "similarity": -0.007823826745152473
+      },
+      {
+        "index": 6,
+        "name": "07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+        "similarity": -0.039640143513679504
+      },
+      {
+        "index": 7,
+        "name": "08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+        "similarity": -0.007413710001856089
+      },
+      {
+        "index": 8,
+        "name": "09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+        "similarity": 0.042779214680194855
+      },
+      {
+        "index": 9,
+        "name": "10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+        "path": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+        "similarity": -0.016905179247260094
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.02296469546854496,
+          -0.013077355921268463,
+          0.08376454561948776,
+          -0.016293128952383995,
+          -0.04582800343632698,
+          -0.007823826745152473,
+          -0.039640143513679504,
+          -0.007413710001856089,
+          0.042779214680194855,
+          -0.016905179247260094
+        ],
+        [
+          0.02296469546854496,
+          1.0,
+          0.007456265389919281,
+          0.36670345067977905,
+          0.34817835688591003,
+          0.4286816418170929,
+          0.3469110131263733,
+          0.42617732286453247,
+          0.4681338369846344,
+          0.31636616587638855,
+          0.38890090584754944
+        ],
+        [
+          -0.013077355921268463,
+          0.007456265389919281,
+          1.0000001192092896,
+          -0.03713886812329292,
+          -0.014100712724030018,
+          -0.03451021760702133,
+          -0.00913057941943407,
+          -0.05650749430060387,
+          -0.019725503399968147,
+          -0.03684519976377487,
+          -0.01922030746936798
+        ],
+        [
+          0.08376454561948776,
+          0.36670345067977905,
+          -0.03713886812329292,
+          0.9999998807907104,
+          0.4491126835346222,
+          0.42675915360450745,
+          0.4268941581249237,
+          0.5321279764175415,
+          0.3987919092178345,
+          0.5110385417938232,
+          0.3902699649333954
+        ],
+        [
+          -0.016293128952383995,
+          0.34817835688591003,
+          -0.014100712724030018,
+          0.4491126835346222,
+          1.0,
+          0.5918868184089661,
+          0.8179231286048889,
+          0.5930230617523193,
+          0.48676595091819763,
+          0.5383741855621338,
+          0.5106977820396423
+        ],
+        [
+          -0.04582800343632698,
+          0.4286816418170929,
+          -0.03451021760702133,
+          0.42675915360450745,
+          0.5918868184089661,
+          0.9999999403953552,
+          0.5521458387374878,
+          0.6367750763893127,
+          0.4707690477371216,
+          0.5339145064353943,
+          0.5279691815376282
+        ],
+        [
+          -0.007823826745152473,
+          0.3469110131263733,
+          -0.00913057941943407,
+          0.4268941581249237,
+          0.8179231286048889,
+          0.5521458387374878,
+          1.0,
+          0.5393822193145752,
+          0.5083321928977966,
+          0.6080014705657959,
+          0.5048436522483826
+        ],
+        [
+          -0.039640143513679504,
+          0.42617732286453247,
+          -0.05650749430060387,
+          0.5321279764175415,
+          0.5930230617523193,
+          0.6367750763893127,
+          0.5393822193145752,
+          1.0,
+          0.44813793897628784,
+          0.4855519235134125,
+          0.5013353824615479
+        ],
+        [
+          -0.007413710001856089,
+          0.4681338369846344,
+          -0.019725503399968147,
+          0.3987919092178345,
+          0.48676595091819763,
+          0.4707690477371216,
+          0.5083321928977966,
+          0.44813793897628784,
+          1.0,
+          0.38969388604164124,
+          0.44660472869873047
+        ],
+        [
+          0.042779214680194855,
+          0.31636616587638855,
+          -0.03684519976377487,
+          0.5110385417938232,
+          0.5383741855621338,
+          0.5339145064353943,
+          0.6080014705657959,
+          0.4855519235134125,
+          0.38969388604164124,
+          1.0,
+          0.42603442072868347
+        ],
+        [
+          -0.016905179247260094,
+          0.38890090584754944,
+          -0.01922030746936798,
+          0.3902699649333954,
+          0.5106977820396423,
+          0.5279691815376282,
+          0.5048436522483826,
+          0.5013353824615479,
+          0.44660472869873047,
+          0.42603442072868347,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg"
+    },
+    {
+      "name": "02_macaulay-culkin-2075857757-jpg.jpg",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg"
+    },
+    {
+      "name": "03_macaulay-culkin-2076597658-jpg.jpg",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg"
+    },
+    {
+      "name": "04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg"
+    },
+    {
+      "name": "05_macaulay-culkin-movies.jpg",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg"
+    },
+    {
+      "name": "06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg"
+    },
+    {
+      "name": "07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg"
+    },
+    {
+      "name": "08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp"
+    },
+    {
+      "name": "09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg"
+    },
+    {
+      "name": "10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "path": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+      "similarity": 0.007456265389919281
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+      "similarity": 0.36670345067977905
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "similarity": 0.34817835688591003
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+      "similarity": 0.4286816418170929
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "similarity": 0.3469110131263733
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "similarity": 0.42617732286453247
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "similarity": 0.4681338369846344
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "similarity": 0.31636616587638855
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "similarity": 0.38890090584754944
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+      "similarity": -0.03713886812329292
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "similarity": -0.014100712724030018
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+      "similarity": -0.03451021760702133
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "similarity": -0.00913057941943407
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "similarity": -0.05650749430060387
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "similarity": -0.019725503399968147
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "similarity": -0.03684519976377487
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/02_macaulay-culkin-2075857757-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "similarity": -0.01922030746936798
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "similarity": 0.4491126835346222
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+      "similarity": 0.42675915360450745
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "similarity": 0.4268941581249237
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "similarity": 0.5321279764175415
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "similarity": 0.3987919092178345
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "similarity": 0.5110385417938232
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/03_macaulay-culkin-2076597658-jpg.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "similarity": 0.3902699649333954
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+      "similarity": 0.5918868184089661
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "similarity": 0.8179231286048889
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "similarity": 0.5930230617523193
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "similarity": 0.48676595091819763
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "similarity": 0.5383741855621338
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "similarity": 0.5106977820396423
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "similarity": 0.5521458387374878
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "similarity": 0.6367750763893127
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "similarity": 0.4707690477371216
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "similarity": 0.5339145064353943
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/05_macaulay-culkin-movies.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "similarity": 0.5279691815376282
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "similarity": 0.5393822193145752
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "similarity": 0.5083321928977966
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "similarity": 0.6080014705657959
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "similarity": 0.5048436522483826
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "similarity": 0.44813793897628784
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "similarity": 0.4855519235134125
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "similarity": 0.5013353824615479
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "similarity": 0.38969388604164124
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "similarity": 0.44660472869873047
+    },
+    {
+      "left": "/workspace/input/piven/data/macaulay_culkin/images/09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "right": "/workspace/input/piven/data/macaulay_culkin/images/10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg",
+      "similarity": 0.42603442072868347
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_macaulay-culkin-home-alone-35th-jpg.jpg",
+      "02_macaulay-culkin-2075857757-jpg.jpg",
+      "03_macaulay-culkin-2076597658-jpg.jpg",
+      "04_was-rejecting-wes-anderson-the-biggest-mistake-of-macaulay-culkin-s-career.jpg",
+      "05_macaulay-culkin-movies.jpg",
+      "06_portrait-of-macaulay-culkin-circa-2007-jrc-the-hollywood-archive.jpg",
+      "07_macaulay-culkin-tumblr-macaulay-culkin-teen-celebrities-celebrity.jpg",
+      "08_macaulay-culkin-meets-his-mother-again-in-home-alone-here-s-the-portrait.webp",
+      "09_macaulay-culkin-publicity-portrait-for-the-film-the-good-son-1993.jpg",
+      "10_macaulay-culkin-wallpapers-34-images-wallpapercat.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.007456265389919281,
+        0.36670345067977905,
+        0.34817835688591003,
+        0.4286816418170929,
+        0.3469110131263733,
+        0.42617732286453247,
+        0.4681338369846344,
+        0.31636616587638855,
+        0.38890090584754944
+      ],
+      [
+        0.007456265389919281,
+        1.0000001192092896,
+        -0.03713886812329292,
+        -0.014100712724030018,
+        -0.03451021760702133,
+        -0.00913057941943407,
+        -0.05650749430060387,
+        -0.019725503399968147,
+        -0.03684519976377487,
+        -0.01922030746936798
+      ],
+      [
+        0.36670345067977905,
+        -0.03713886812329292,
+        0.9999998807907104,
+        0.4491126835346222,
+        0.42675915360450745,
+        0.4268941581249237,
+        0.5321279764175415,
+        0.3987919092178345,
+        0.5110385417938232,
+        0.3902699649333954
+      ],
+      [
+        0.34817835688591003,
+        -0.014100712724030018,
+        0.4491126835346222,
+        1.0,
+        0.5918868184089661,
+        0.8179231286048889,
+        0.5930230617523193,
+        0.48676595091819763,
+        0.5383741855621338,
+        0.5106977820396423
+      ],
+      [
+        0.4286816418170929,
+        -0.03451021760702133,
+        0.42675915360450745,
+        0.5918868184089661,
+        0.9999999403953552,
+        0.5521458387374878,
+        0.6367750763893127,
+        0.4707690477371216,
+        0.5339145064353943,
+        0.5279691815376282
+      ],
+      [
+        0.3469110131263733,
+        -0.00913057941943407,
+        0.4268941581249237,
+        0.8179231286048889,
+        0.5521458387374878,
+        1.0,
+        0.5393822193145752,
+        0.5083321928977966,
+        0.6080014705657959,
+        0.5048436522483826
+      ],
+      [
+        0.42617732286453247,
+        -0.05650749430060387,
+        0.5321279764175415,
+        0.5930230617523193,
+        0.6367750763893127,
+        0.5393822193145752,
+        1.0,
+        0.44813793897628784,
+        0.4855519235134125,
+        0.5013353824615479
+      ],
+      [
+        0.4681338369846344,
+        -0.019725503399968147,
+        0.3987919092178345,
+        0.48676595091819763,
+        0.4707690477371216,
+        0.5083321928977966,
+        0.44813793897628784,
+        1.0,
+        0.38969388604164124,
+        0.44660472869873047
+      ],
+      [
+        0.31636616587638855,
+        -0.03684519976377487,
+        0.5110385417938232,
+        0.5383741855621338,
+        0.5339145064353943,
+        0.6080014705657959,
+        0.4855519235134125,
+        0.38969388604164124,
+        1.0,
+        0.42603442072868347
+      ],
+      [
+        0.38890090584754944,
+        -0.01922030746936798,
+        0.3902699649333954,
+        0.5106977820396423,
+        0.5279691815376282,
+        0.5048436522483826,
+        0.5013353824615479,
+        0.44660472869873047,
+        0.42603442072868347,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/macaulay_culkin/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/macaulay_culkin/portrait.jpg"
+    }
+  ]
+}

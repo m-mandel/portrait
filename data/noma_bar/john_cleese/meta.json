@@ -1,0 +1,85 @@
+{
+  "name": "john cleese",
+  "bio": "John Marwood Cleese ( KLEEZ; born 27 October 1939) is an English actor, comedian, screenwriter, producer, and presenter. Emerging from the Cambridge Footlights in the 1960s, he first achieved success at the Edinburgh Festival Fringe and as a scriptwriter and performer on The Frost Report. In the late 1960s, he cofounded Monty Python, the comedy troupe responsible for the sketch show Monty Python's Flying Circus. Along with his Python costars Graham Chapman, Terry Gilliam, Eric Idle, Terry Jones and Michael Palin, Cleese starred in Monty Python films, which include Monty Python and the Holy Grail (1975), Life of Brian (1979), and The Meaning of Life (1983).\nIn the mid-1970s, Cleese and first wife Connie Booth cowrote the sitcom Fawlty Towers, in which he starred as hotel owner Basil Fawlty, for which he won the 1980 British Academy Television Award for Best Entertainment Performance. In 2000, the show topped the British Film Institute's list of the 100 Greatest British Television Programmes, and in a 2001 Channel 4 poll, Basil was ranked second on its list of the 100 Greatest TV Characters.\nCleese starred in and wrote the comedy film A Fish Called Wanda (1988), for which he received Academy Award, BAFTA Award, and Golden Globe Award nominations, and its quasi-sequel Fierce Creatures (1997). He has also starred in Time Bandits (1981), Silverado (1985), Clockwise (1986), Mary Shelley's Frankenstein (1994), George of the Jungle (1997), Rat Race (2001), Charlie's Angels: Full Throttle (2003), and The Day the Earth Stood Still (2008). Prominent franchise film roles of his included R and Q in the James Bond films The World Is Not Enough (1999) and Die Another Day (2002), Nearly Headless Nick in Harry Potter and the Philosopher's Stone (2001) and Harry Potter and the Chamber of Secrets (2002), and the last three Shrek films (2004–2010). He received a Primetime Emmy Award for Outstanding Guest Actor in a Comedy Series for Cheers (1987) and was nominated for 3rd Rock from the Sun (1998) and Will & Grace (2004).\nCleese has specialised in political and religious satire, black comedy, sketch comedy, and surreal humour. He was ranked the second best comedian ever in a 2005 Channel 4 poll of fellow comedians. He cofounded Video Arts, a production company making entertaining training films as well as The Secret Policeman's Ball benefit shows to raise funds for the human rights organisation Amnesty International. Formerly a staunch supporter of the Liberal Democrats, in 1999, he turned down an offer from the party to nominate him for a life peerage.",
+  "bio_sources": [
+    {
+      "subject": "john cleese",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/John_Cleese"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "light blue background field",
+      "shape_type": "rectangle",
+      "meaning": "keeps the portrait airy and theatrical"
+    },
+    {
+      "element": "dark hair shape",
+      "shape_type": "silhouette",
+      "meaning": "establishes his elongated profile"
+    },
+    {
+      "element": "oversized white jaw block",
+      "shape_type": "geometric shape",
+      "meaning": "exaggerates his comic facial architecture"
+    },
+    {
+      "element": "arched eyebrow",
+      "shape_type": "line",
+      "meaning": "gives a dry, skeptical expression"
+    },
+    {
+      "element": "stylized eye motif",
+      "shape_type": "symbol",
+      "meaning": "feels absurd and performative in a Monty Python spirit"
+    },
+    {
+      "element": "dark moustache and lips",
+      "shape_type": "organic shape",
+      "meaning": "preserve his unmistakable facial signature"
+    },
+    {
+      "element": "collar triangles",
+      "shape_type": "triangle",
+      "meaning": "suggest formal British stage costume"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "spotlight cone",
+      "visual_representation": "a bright cone of light angled toward a stage-like area",
+      "category": "domain",
+      "relevance": "Stage performance and comic presentation are central to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "theater mask",
+      "visual_representation": "a simplified theatrical mask shape with exaggerated contours",
+      "category": "symbol",
+      "relevance": "Comedy and performed persona are central to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "comic microphone",
+      "visual_representation": "a handheld microphone with a round gridded top",
+      "category": "object",
+      "relevance": "Stand-up and comic performance are strongly associated with the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "laughter lines",
+      "visual_representation": "short repeated curved marks spreading outward",
+      "category": "pattern",
+      "relevance": "The biography supports an image of comic timing and public amusement.",
+      "grounding": "inferred"
+    }
+  ]
+}

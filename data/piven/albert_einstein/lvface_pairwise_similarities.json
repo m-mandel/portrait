@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/albert_einstein",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/albert_einstein/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_albert-einstein-head-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+        "similarity": 0.03448356315493584
+      },
+      {
+        "index": 1,
+        "name": "02_albert-einstein-head-cleaned-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+        "similarity": 0.026870882138609886
+      },
+      {
+        "index": 2,
+        "name": "03_albert-einstein-sticks-his-tongue-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+        "similarity": 0.06294754147529602
+      },
+      {
+        "index": 3,
+        "name": "05_albert-einstein-1921-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+        "similarity": 0.07147283852100372
+      },
+      {
+        "index": 4,
+        "name": "06_albert-einstein-1921-re-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+        "similarity": 0.04915492609143257
+      },
+      {
+        "index": 5,
+        "name": "07_albert-einstein-photo-1920-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+        "similarity": 0.06518916040658951
+      },
+      {
+        "index": 6,
+        "name": "08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+        "similarity": 0.08931556344032288
+      },
+      {
+        "index": 7,
+        "name": "09_albert-einstein-photo-1921-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+        "similarity": 0.05989004299044609
+      },
+      {
+        "index": 8,
+        "name": "10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+        "similarity": 0.056558892130851746
+      },
+      {
+        "index": 9,
+        "name": "11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+        "path": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+        "similarity": 0.04608181118965149
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.03448356315493584,
+          0.026870882138609886,
+          0.06294754147529602,
+          0.07147283852100372,
+          0.04915492609143257,
+          0.06518916040658951,
+          0.08931556344032288,
+          0.05989004299044609,
+          0.056558892130851746,
+          0.04608181118965149
+        ],
+        [
+          0.03448356315493584,
+          0.9999999403953552,
+          0.898758590221405,
+          0.576016902923584,
+          0.510158360004425,
+          0.5005988478660583,
+          0.40817221999168396,
+          0.47919586300849915,
+          0.4641646146774292,
+          0.03521736338734627,
+          0.023779241368174553
+        ],
+        [
+          0.026870882138609886,
+          0.898758590221405,
+          0.9999999403953552,
+          0.49614354968070984,
+          0.47342029213905334,
+          0.460231214761734,
+          0.3532160520553589,
+          0.432849645614624,
+          0.49371659755706787,
+          0.04380529001355171,
+          0.04098859429359436
+        ],
+        [
+          0.06294754147529602,
+          0.576016902923584,
+          0.49614354968070984,
+          1.0,
+          0.493636816740036,
+          0.5307676196098328,
+          0.45020827651023865,
+          0.5809676647186279,
+          0.46342360973358154,
+          0.0636068731546402,
+          0.056245218962430954
+        ],
+        [
+          0.07147283852100372,
+          0.510158360004425,
+          0.47342029213905334,
+          0.493636816740036,
+          1.0,
+          0.8869352340698242,
+          0.5671372413635254,
+          0.46495720744132996,
+          0.4595560133457184,
+          0.061475057154893875,
+          0.060629405081272125
+        ],
+        [
+          0.04915492609143257,
+          0.5005988478660583,
+          0.460231214761734,
+          0.5307676196098328,
+          0.8869352340698242,
+          1.0,
+          0.58199143409729,
+          0.3793458640575409,
+          0.5052769184112549,
+          0.036070097237825394,
+          0.06098296865820885
+        ],
+        [
+          0.06518916040658951,
+          0.40817221999168396,
+          0.3532160520553589,
+          0.45020827651023865,
+          0.5671372413635254,
+          0.58199143409729,
+          1.0,
+          0.3437018096446991,
+          0.44762566685676575,
+          0.0030645146034657955,
+          -0.029216613620519638
+        ],
+        [
+          0.08931556344032288,
+          0.47919586300849915,
+          0.432849645614624,
+          0.5809676647186279,
+          0.46495720744132996,
+          0.3793458640575409,
+          0.3437018096446991,
+          1.0,
+          0.4076988995075226,
+          0.09045833349227905,
+          0.10456410050392151
+        ],
+        [
+          0.05989004299044609,
+          0.4641646146774292,
+          0.49371659755706787,
+          0.46342360973358154,
+          0.4595560133457184,
+          0.5052769184112549,
+          0.44762566685676575,
+          0.4076988995075226,
+          1.0,
+          -0.008140421472489834,
+          0.006071598269045353
+        ],
+        [
+          0.056558892130851746,
+          0.03521736338734627,
+          0.04380529001355171,
+          0.0636068731546402,
+          0.061475057154893875,
+          0.036070097237825394,
+          0.0030645146034657955,
+          0.09045833349227905,
+          -0.008140421472489834,
+          0.9999999403953552,
+          0.8984664082527161
+        ],
+        [
+          0.04608181118965149,
+          0.023779241368174553,
+          0.04098859429359436,
+          0.056245218962430954,
+          0.060629405081272125,
+          0.06098296865820885,
+          -0.029216613620519638,
+          0.10456410050392151,
+          0.006071598269045353,
+          0.8984664082527161,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_albert-einstein-head-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_albert-einstein-head-cleaned-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg"
+    },
+    {
+      "name": "03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg"
+    },
+    {
+      "name": "05_albert-einstein-1921-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_albert-einstein-photo-1920-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg"
+    },
+    {
+      "name": "08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_albert-einstein-photo-1921-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg"
+    },
+    {
+      "name": "10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg"
+    },
+    {
+      "name": "11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "path": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+      "similarity": 0.898758590221405
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "similarity": 0.576016902923584
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+      "similarity": 0.510158360004425
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "similarity": 0.5005988478660583
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+      "similarity": 0.40817221999168396
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "similarity": 0.47919586300849915
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.4641646146774292
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "similarity": 0.03521736338734627
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/01_albert-einstein-head-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "similarity": 0.023779241368174553
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "similarity": 0.49614354968070984
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+      "similarity": 0.47342029213905334
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "similarity": 0.460231214761734
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+      "similarity": 0.3532160520553589
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "similarity": 0.432849645614624
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.49371659755706787
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "similarity": 0.04380529001355171
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/02_albert-einstein-head-cleaned-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "similarity": 0.04098859429359436
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+      "similarity": 0.493636816740036
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "similarity": 0.5307676196098328
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+      "similarity": 0.45020827651023865
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "similarity": 0.5809676647186279
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.46342360973358154
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "similarity": 0.0636068731546402
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "similarity": 0.056245218962430954
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "similarity": 0.8869352340698242
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+      "similarity": 0.5671372413635254
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "similarity": 0.46495720744132996
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.4595560133457184
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "similarity": 0.061475057154893875
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/05_albert-einstein-1921-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "similarity": 0.060629405081272125
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+      "similarity": 0.58199143409729
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "similarity": 0.3793458640575409
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.5052769184112549
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "similarity": 0.036070097237825394
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "similarity": 0.06098296865820885
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "similarity": 0.3437018096446991
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.44762566685676575
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "similarity": 0.0030645146034657955
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/07_albert-einstein-photo-1920-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "similarity": -0.029216613620519638
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+      "similarity": 0.4076988995075226
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "similarity": 0.09045833349227905
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "similarity": 0.10456410050392151
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "similarity": -0.008140421472489834
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/09_albert-einstein-photo-1921-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "similarity": 0.006071598269045353
+    },
+    {
+      "left": "/workspace/input/piven/data/albert_einstein/images/10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "right": "/workspace/input/piven/data/albert_einstein/images/11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg",
+      "similarity": 0.8984664082527161
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_albert-einstein-head-cropped-jpg.jpg",
+      "02_albert-einstein-head-cleaned-jpg.jpg",
+      "03_albert-einstein-sticks-his-tongue-jpg.jpg",
+      "05_albert-einstein-1921-cropped-jpg.jpg",
+      "06_albert-einstein-1921-re-cropped-jpg.jpg",
+      "07_albert-einstein-photo-1920-jpg.jpg",
+      "08_albert-einstein-in-1949-3x4-cropped-jpg.jpg",
+      "09_albert-einstein-photo-1921-jpg.jpg",
+      "10_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration1-jpg.jpg",
+      "11_portrait-of-albert-einstein-and-others-1879-1955-physicist-restoration-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.898758590221405,
+        0.576016902923584,
+        0.510158360004425,
+        0.5005988478660583,
+        0.40817221999168396,
+        0.47919586300849915,
+        0.4641646146774292,
+        0.03521736338734627,
+        0.023779241368174553
+      ],
+      [
+        0.898758590221405,
+        0.9999999403953552,
+        0.49614354968070984,
+        0.47342029213905334,
+        0.460231214761734,
+        0.3532160520553589,
+        0.432849645614624,
+        0.49371659755706787,
+        0.04380529001355171,
+        0.04098859429359436
+      ],
+      [
+        0.576016902923584,
+        0.49614354968070984,
+        1.0,
+        0.493636816740036,
+        0.5307676196098328,
+        0.45020827651023865,
+        0.5809676647186279,
+        0.46342360973358154,
+        0.0636068731546402,
+        0.056245218962430954
+      ],
+      [
+        0.510158360004425,
+        0.47342029213905334,
+        0.493636816740036,
+        1.0,
+        0.8869352340698242,
+        0.5671372413635254,
+        0.46495720744132996,
+        0.4595560133457184,
+        0.061475057154893875,
+        0.060629405081272125
+      ],
+      [
+        0.5005988478660583,
+        0.460231214761734,
+        0.5307676196098328,
+        0.8869352340698242,
+        1.0,
+        0.58199143409729,
+        0.3793458640575409,
+        0.5052769184112549,
+        0.036070097237825394,
+        0.06098296865820885
+      ],
+      [
+        0.40817221999168396,
+        0.3532160520553589,
+        0.45020827651023865,
+        0.5671372413635254,
+        0.58199143409729,
+        1.0,
+        0.3437018096446991,
+        0.44762566685676575,
+        0.0030645146034657955,
+        -0.029216613620519638
+      ],
+      [
+        0.47919586300849915,
+        0.432849645614624,
+        0.5809676647186279,
+        0.46495720744132996,
+        0.3793458640575409,
+        0.3437018096446991,
+        1.0,
+        0.4076988995075226,
+        0.09045833349227905,
+        0.10456410050392151
+      ],
+      [
+        0.4641646146774292,
+        0.49371659755706787,
+        0.46342360973358154,
+        0.4595560133457184,
+        0.5052769184112549,
+        0.44762566685676575,
+        0.4076988995075226,
+        1.0,
+        -0.008140421472489834,
+        0.006071598269045353
+      ],
+      [
+        0.03521736338734627,
+        0.04380529001355171,
+        0.0636068731546402,
+        0.061475057154893875,
+        0.036070097237825394,
+        0.0030645146034657955,
+        0.09045833349227905,
+        -0.008140421472489834,
+        0.9999999403953552,
+        0.8984664082527161
+      ],
+      [
+        0.023779241368174553,
+        0.04098859429359436,
+        0.056245218962430954,
+        0.060629405081272125,
+        0.06098296865820885,
+        -0.029216613620519638,
+        0.10456410050392151,
+        0.006071598269045353,
+        0.8984664082527161,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/albert_einstein/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/albert_einstein/portrait.jpg"
+    }
+  ]
+}

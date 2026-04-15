@@ -1,0 +1,80 @@
+{
+  "name": "pete doherty",
+  "bio": "Peter Doherty (born 12 March 1979) is an English musician. He is best known for being co-frontman of the Libertines, which he formed with Carl Barât in 1997. His other musical projects are indie bands Babyshambles and Peter Doherty and the Puta Madres.",
+  "bio_sources": [
+    {
+      "subject": "pete doherty",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Pete_Doherty"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "magenta square field",
+      "shape_type": "rectangle",
+      "meaning": "gives the portrait tabloid intensity"
+    },
+    {
+      "element": "black hat and hair silhouette",
+      "shape_type": "silhouette",
+      "meaning": "suggests rakish indie style"
+    },
+    {
+      "element": "white face profile",
+      "shape_type": "organic shape",
+      "meaning": "keeps the expression blank and detached"
+    },
+    {
+      "element": "syringe-like bar at the eye with a hanging line",
+      "shape_type": "symbol",
+      "meaning": "points to addiction and self-destruction"
+    },
+    {
+      "element": "dark round eye disk",
+      "shape_type": "circle",
+      "meaning": "makes the gaze feel bruised and hollow"
+    },
+    {
+      "element": "cigarette at the mouth",
+      "shape_type": "line",
+      "meaning": "reinforces decadent, self-sabotaging cool"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "soundwave ribbon",
+      "visual_representation": "a flowing band of rising and falling wave peaks",
+      "category": "pattern",
+      "relevance": "The biography supports a public identity built around sound and performance.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "timeline bar",
+      "visual_representation": "a long horizontal band punctuated by marked intervals",
+      "category": "structure",
+      "relevance": "The biography presents a public life shaped by milestones and phases.",
+      "grounding": "explicit"
+    }
+  ]
+}

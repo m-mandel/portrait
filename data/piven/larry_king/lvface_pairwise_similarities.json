@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/larry_king",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/larry_king/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "02_larry-king-by-gage-skidmore-2-jpg.jpg",
+        "path": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg",
+        "similarity": 0.1035722866654396
+      },
+      {
+        "index": 1,
+        "name": "03_larry-king-8162132850-jpg.jpg",
+        "path": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg",
+        "similarity": 0.08094748109579086
+      },
+      {
+        "index": 2,
+        "name": "04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+        "path": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+        "similarity": 0.10354090481996536
+      },
+      {
+        "index": 3,
+        "name": "05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+        "path": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+        "similarity": 0.044800568372011185
+      },
+      {
+        "index": 4,
+        "name": "06_larry-king-sharon-lepore.jpg",
+        "path": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg",
+        "similarity": 0.05463007837533951
+      },
+      {
+        "index": 5,
+        "name": "07_young-larry-king.jpg",
+        "path": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg",
+        "similarity": 0.048556841909885406
+      },
+      {
+        "index": 6,
+        "name": "08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+        "path": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+        "similarity": 0.061704859137535095
+      },
+      {
+        "index": 7,
+        "name": "09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+        "path": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+        "similarity": 0.027346428483724594
+      },
+      {
+        "index": 8,
+        "name": "10_marylebone-hair-salon-larry-king-london.jpg",
+        "path": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg",
+        "similarity": 0.15293559432029724
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.1035722866654396,
+          0.08094748109579086,
+          0.10354090481996536,
+          0.044800568372011185,
+          0.05463007837533951,
+          0.048556841909885406,
+          0.061704859137535095,
+          0.027346428483724594,
+          0.15293559432029724
+        ],
+        [
+          0.1035722866654396,
+          0.9999999403953552,
+          0.5142983794212341,
+          0.5953580737113953,
+          0.48102113604545593,
+          0.47292250394821167,
+          -0.10726284980773926,
+          0.6342435479164124,
+          0.030612008646130562,
+          0.034738197922706604
+        ],
+        [
+          0.08094748109579086,
+          0.5142983794212341,
+          1.0,
+          0.5607302188873291,
+          0.5892536044120789,
+          0.4293399155139923,
+          -0.0023715218994766474,
+          0.49223846197128296,
+          -0.04775655269622803,
+          0.010360862128436565
+        ],
+        [
+          0.10354090481996536,
+          0.5953580737113953,
+          0.5607302188873291,
+          0.9999999403953552,
+          0.48656466603279114,
+          0.4146932065486908,
+          -0.04426967725157738,
+          0.4087792634963989,
+          0.05488467961549759,
+          0.1237119808793068
+        ],
+        [
+          0.044800568372011185,
+          0.48102113604545593,
+          0.5892536044120789,
+          0.48656466603279114,
+          0.9999999403953552,
+          0.45982617139816284,
+          -0.014585882425308228,
+          0.3698582649230957,
+          0.06996259838342667,
+          0.02790408581495285
+        ],
+        [
+          0.05463007837533951,
+          0.47292250394821167,
+          0.4293399155139923,
+          0.4146932065486908,
+          0.45982617139816284,
+          1.0,
+          -0.010096214711666107,
+          0.4450714588165283,
+          0.031894128769636154,
+          -0.03208870440721512
+        ],
+        [
+          0.048556841909885406,
+          -0.10726284980773926,
+          -0.0023715218994766474,
+          -0.04426967725157738,
+          -0.014585882425308228,
+          -0.010096214711666107,
+          0.9999999403953552,
+          -0.060366131365299225,
+          0.05848124250769615,
+          -0.036071717739105225
+        ],
+        [
+          0.061704859137535095,
+          0.6342435479164124,
+          0.49223846197128296,
+          0.4087792634963989,
+          0.3698582649230957,
+          0.4450714588165283,
+          -0.060366131365299225,
+          1.0,
+          -0.0006287393625825644,
+          -0.012084882706403732
+        ],
+        [
+          0.027346428483724594,
+          0.030612008646130562,
+          -0.04775655269622803,
+          0.05488467961549759,
+          0.06996259838342667,
+          0.031894128769636154,
+          0.05848124250769615,
+          -0.0006287393625825644,
+          1.0000001192092896,
+          0.030093323439359665
+        ],
+        [
+          0.15293559432029724,
+          0.034738197922706604,
+          0.010360862128436565,
+          0.1237119808793068,
+          0.02790408581495285,
+          -0.03208870440721512,
+          -0.036071717739105225,
+          -0.012084882706403732,
+          0.030093323439359665,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "path": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg"
+    },
+    {
+      "name": "03_larry-king-8162132850-jpg.jpg",
+      "path": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg"
+    },
+    {
+      "name": "04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "path": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp"
+    },
+    {
+      "name": "05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "path": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg"
+    },
+    {
+      "name": "06_larry-king-sharon-lepore.jpg",
+      "path": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg"
+    },
+    {
+      "name": "07_young-larry-king.jpg",
+      "path": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg"
+    },
+    {
+      "name": "08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "path": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg"
+    },
+    {
+      "name": "09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "path": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg"
+    },
+    {
+      "name": "10_marylebone-hair-salon-larry-king-london.jpg",
+      "path": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg",
+      "similarity": 0.5142983794212341
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "similarity": 0.5953580737113953
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "similarity": 0.48102113604545593
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg",
+      "similarity": 0.47292250394821167
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg",
+      "similarity": -0.10726284980773926
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "similarity": 0.6342435479164124
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "similarity": 0.030612008646130562
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg",
+      "similarity": 0.034738197922706604
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "similarity": 0.5607302188873291
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "similarity": 0.5892536044120789
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg",
+      "similarity": 0.4293399155139923
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg",
+      "similarity": -0.0023715218994766474
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "similarity": 0.49223846197128296
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "similarity": -0.04775655269622803
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/03_larry-king-8162132850-jpg.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg",
+      "similarity": 0.010360862128436565
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "right": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "similarity": 0.48656466603279114
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "right": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg",
+      "similarity": 0.4146932065486908
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "right": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg",
+      "similarity": -0.04426967725157738
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "right": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "similarity": 0.4087792634963989
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "right": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "similarity": 0.05488467961549759
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "right": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg",
+      "similarity": 0.1237119808793068
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg",
+      "similarity": 0.45982617139816284
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg",
+      "similarity": -0.014585882425308228
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "similarity": 0.3698582649230957
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "similarity": 0.06996259838342667
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg",
+      "similarity": 0.02790408581495285
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg",
+      "similarity": -0.010096214711666107
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "similarity": 0.4450714588165283
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "similarity": 0.031894128769636154
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/06_larry-king-sharon-lepore.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg",
+      "similarity": -0.03208870440721512
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "similarity": -0.060366131365299225
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "similarity": 0.05848124250769615
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/07_young-larry-king.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg",
+      "similarity": -0.036071717739105225
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "similarity": -0.0006287393625825644
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg",
+      "similarity": -0.012084882706403732
+    },
+    {
+      "left": "/workspace/input/piven/data/larry_king/images/09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "right": "/workspace/input/piven/data/larry_king/images/10_marylebone-hair-salon-larry-king-london.jpg",
+      "similarity": 0.030093323439359665
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "02_larry-king-by-gage-skidmore-2-jpg.jpg",
+      "03_larry-king-8162132850-jpg.jpg",
+      "04_robert-downey-jr-net-worth-2024-how-he-made-300-million.webp",
+      "05_larry-king-had-a-completely-different-experience-than-kevin-bacon-to.jpg",
+      "06_larry-king-sharon-lepore.jpg",
+      "07_young-larry-king.jpg",
+      "08_who-is-olivia-cheng-age-height-boyfriend-net-worth-more.jpg",
+      "09_newport-news-car-accident-lawyers-larry-king-law.jpg",
+      "10_marylebone-hair-salon-larry-king-london.jpg"
+    ],
+    "values": [
+      [
+        0.9999999403953552,
+        0.5142983794212341,
+        0.5953580737113953,
+        0.48102113604545593,
+        0.47292250394821167,
+        -0.10726284980773926,
+        0.6342435479164124,
+        0.030612008646130562,
+        0.034738197922706604
+      ],
+      [
+        0.5142983794212341,
+        1.0,
+        0.5607302188873291,
+        0.5892536044120789,
+        0.4293399155139923,
+        -0.0023715218994766474,
+        0.49223846197128296,
+        -0.04775655269622803,
+        0.010360862128436565
+      ],
+      [
+        0.5953580737113953,
+        0.5607302188873291,
+        0.9999999403953552,
+        0.48656466603279114,
+        0.4146932065486908,
+        -0.04426967725157738,
+        0.4087792634963989,
+        0.05488467961549759,
+        0.1237119808793068
+      ],
+      [
+        0.48102113604545593,
+        0.5892536044120789,
+        0.48656466603279114,
+        0.9999999403953552,
+        0.45982617139816284,
+        -0.014585882425308228,
+        0.3698582649230957,
+        0.06996259838342667,
+        0.02790408581495285
+      ],
+      [
+        0.47292250394821167,
+        0.4293399155139923,
+        0.4146932065486908,
+        0.45982617139816284,
+        1.0,
+        -0.010096214711666107,
+        0.4450714588165283,
+        0.031894128769636154,
+        -0.03208870440721512
+      ],
+      [
+        -0.10726284980773926,
+        -0.0023715218994766474,
+        -0.04426967725157738,
+        -0.014585882425308228,
+        -0.010096214711666107,
+        0.9999999403953552,
+        -0.060366131365299225,
+        0.05848124250769615,
+        -0.036071717739105225
+      ],
+      [
+        0.6342435479164124,
+        0.49223846197128296,
+        0.4087792634963989,
+        0.3698582649230957,
+        0.4450714588165283,
+        -0.060366131365299225,
+        1.0,
+        -0.0006287393625825644,
+        -0.012084882706403732
+      ],
+      [
+        0.030612008646130562,
+        -0.04775655269622803,
+        0.05488467961549759,
+        0.06996259838342667,
+        0.031894128769636154,
+        0.05848124250769615,
+        -0.0006287393625825644,
+        1.0000001192092896,
+        0.030093323439359665
+      ],
+      [
+        0.034738197922706604,
+        0.010360862128436565,
+        0.1237119808793068,
+        0.02790408581495285,
+        -0.03208870440721512,
+        -0.036071717739105225,
+        -0.012084882706403732,
+        0.030093323439359665,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/larry_king/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/larry_king/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/larry_king/images/01_larry-king-33397773861-headshot-jpg.jpg",
+      "error": "No face detected in /workspace/input/piven/data/larry_king/images/01_larry-king-33397773861-headshot-jpg.jpg"
+    }
+  ]
+}

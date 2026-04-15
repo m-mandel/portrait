@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portrait Similarity Explorer</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/app.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="top-nav">
+      <div>
+        <p class="eyebrow">Interactive Explorer</p>
+        <h1 class="page-title">Portrait Similarity Explorer</h1>
+      </div>
+      <p class="page-subtitle">Face similarity, portrait alignment, and text-element similarity across `piven` and `noma_bar`.</p>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="dataset-tabs" id="datasetTabs" aria-label="Datasets"></section>
+
+    <section class="carousel-shell">
+      <div class="carousel-toolbar">
+        <button class="nav-button" id="prevSubject" type="button">Previous</button>
+        <div class="subject-status" id="subjectStatus"></div>
+        <button class="nav-button" id="nextSubject" type="button">Next</button>
+      </div>
+      <div class="subject-track" id="subjectTrack" aria-label="Subjects"></div>
+    </section>
+
+    <section class="subject-card" id="subjectCard">
+      <div class="subject-overview">
+        <div class="portrait-panel">
+          <img id="portraitImage" class="portrait-image" alt="Subject portrait">
+          <div class="portrait-meta">
+            <h2 id="subjectName" class="subject-name"></h2>
+            <p id="subjectSlug" class="subject-slug"></p>
+          </div>
+        </div>
+        <div class="bio-panel">
+          <h3 class="section-title">Biography</h3>
+          <p id="subjectBio" class="subject-bio"></p>
+          <div class="element-columns">
+            <div>
+              <h4 class="list-title">Portrait Elements</h4>
+              <ul id="portraitElementsList" class="element-list"></ul>
+            </div>
+            <div>
+              <h4 class="list-title">Bio Elements</h4>
+              <ul id="bioElementsList" class="element-list"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cropped-strip-section">
+        <div class="section-heading">
+          <h3 class="section-title">Cropped Images</h3>
+          <p class="section-note">Indices match the image similarity matrix.</p>
+        </div>
+        <div id="croppedStrip" class="cropped-strip"></div>
+      </div>
+
+      <div class="matrices-grid">
+        <section class="matrix-card">
+          <div class="section-heading">
+            <h3 class="section-title">Portrait + Image Similarity</h3>
+            <p class="section-note">Hover any cell to preview the corresponding pair.</p>
+          </div>
+          <div class="matrix-layout">
+            <div id="imageMatrix" class="matrix-scroll"></div>
+            <div id="imageHoverPanel" class="hover-panel"></div>
+          </div>
+        </section>
+
+        <section class="matrix-card">
+          <div class="section-heading">
+            <h3 class="section-title">Bio vs Portrait Elements</h3>
+            <p class="section-note">Text embeddings over the full biography and portrait element strings.</p>
+          </div>
+          <div class="matrix-layout">
+            <div id="bioTextMatrix" class="matrix-scroll"></div>
+            <div id="bioTextHoverPanel" class="hover-panel"></div>
+          </div>
+        </section>
+
+        <section class="matrix-card">
+          <div class="section-heading">
+            <h3 class="section-title">Bio Elements vs Portrait Elements</h3>
+            <p class="section-note">Text embeddings over extracted bio elements and portrait elements.</p>
+          </div>
+          <div class="matrix-layout">
+            <div id="bioElementsMatrix" class="matrix-scroll"></div>
+            <div id="bioElementsHoverPanel" class="hover-panel"></div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="static/js/app-data.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+</html>

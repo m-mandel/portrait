@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/jack_nickolson",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/jack_nickolson/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+        "path": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+        "similarity": -0.0949784368276596
+      },
+      {
+        "index": 1,
+        "name": "02_jack-nicholson-cropped-2010-jpg.jpg",
+        "path": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg",
+        "similarity": -0.0714530423283577
+      },
+      {
+        "index": 2,
+        "name": "03_jack-nicholson-2002-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg",
+        "similarity": -0.05458752438426018
+      },
+      {
+        "index": 3,
+        "name": "05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+        "path": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+        "similarity": -0.03908485174179077
+      },
+      {
+        "index": 4,
+        "name": "06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+        "path": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+        "similarity": -0.024724073708057404
+      },
+      {
+        "index": 5,
+        "name": "07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+        "path": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+        "similarity": -0.0792824923992157
+      },
+      {
+        "index": 6,
+        "name": "08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+        "path": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+        "similarity": 0.002356047509238124
+      },
+      {
+        "index": 7,
+        "name": "09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+        "path": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+        "similarity": -0.011095298454165459
+      },
+      {
+        "index": 8,
+        "name": "10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+        "similarity": -0.0919034481048584
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.0949784368276596,
+          -0.0714530423283577,
+          -0.05458752438426018,
+          -0.03908485174179077,
+          -0.024724073708057404,
+          -0.0792824923992157,
+          0.002356047509238124,
+          -0.011095298454165459,
+          -0.0919034481048584
+        ],
+        [
+          -0.0949784368276596,
+          1.0000001192092896,
+          0.4458850622177124,
+          0.572343647480011,
+          0.46261468529701233,
+          0.6160308718681335,
+          0.5265071392059326,
+          0.5873560309410095,
+          0.3662320375442505,
+          0.6095626950263977
+        ],
+        [
+          -0.0714530423283577,
+          0.4458850622177124,
+          0.9999998807907104,
+          0.47613784670829773,
+          0.49278688430786133,
+          0.4304121732711792,
+          0.40021833777427673,
+          0.4285503923892975,
+          0.22514352202415466,
+          0.41627129912376404
+        ],
+        [
+          -0.05458752438426018,
+          0.572343647480011,
+          0.47613784670829773,
+          1.0,
+          0.48292288184165955,
+          0.5282508730888367,
+          0.5548446178436279,
+          0.5076836347579956,
+          0.2674858570098877,
+          0.4616430401802063
+        ],
+        [
+          -0.03908485174179077,
+          0.46261468529701233,
+          0.49278688430786133,
+          0.48292288184165955,
+          1.0,
+          0.4597627520561218,
+          0.5169796943664551,
+          0.47820189595222473,
+          0.26353347301483154,
+          0.4264616370201111
+        ],
+        [
+          -0.024724073708057404,
+          0.6160308718681335,
+          0.4304121732711792,
+          0.5282508730888367,
+          0.4597627520561218,
+          1.0000001192092896,
+          0.5593634247779846,
+          0.5609791278839111,
+          0.37915587425231934,
+          0.5005685091018677
+        ],
+        [
+          -0.0792824923992157,
+          0.5265071392059326,
+          0.40021833777427673,
+          0.5548446178436279,
+          0.5169796943664551,
+          0.5593634247779846,
+          1.0000001192092896,
+          0.46007323265075684,
+          0.32948869466781616,
+          0.4237060844898224
+        ],
+        [
+          0.002356047509238124,
+          0.5873560309410095,
+          0.4285503923892975,
+          0.5076836347579956,
+          0.47820189595222473,
+          0.5609791278839111,
+          0.46007323265075684,
+          1.0000001192092896,
+          0.3378748893737793,
+          0.45885857939720154
+        ],
+        [
+          -0.011095298454165459,
+          0.3662320375442505,
+          0.22514352202415466,
+          0.2674858570098877,
+          0.26353347301483154,
+          0.37915587425231934,
+          0.32948869466781616,
+          0.3378748893737793,
+          0.9999998807907104,
+          0.3639969825744629
+        ],
+        [
+          -0.0919034481048584,
+          0.6095626950263977,
+          0.41627129912376404,
+          0.4616430401802063,
+          0.4264616370201111,
+          0.5005685091018677,
+          0.4237060844898224,
+          0.45885857939720154,
+          0.3639969825744629,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "path": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png"
+    },
+    {
+      "name": "02_jack-nicholson-cropped-2010-jpg.jpg",
+      "path": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg"
+    },
+    {
+      "name": "03_jack-nicholson-2002-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "path": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg"
+    },
+    {
+      "name": "06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "path": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg"
+    },
+    {
+      "name": "07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "path": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg"
+    },
+    {
+      "name": "08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "path": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg"
+    },
+    {
+      "name": "09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "path": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg"
+    },
+    {
+      "name": "10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg",
+      "similarity": 0.4458850622177124
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg",
+      "similarity": 0.572343647480011
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "similarity": 0.46261468529701233
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.6160308718681335
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.5265071392059326
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "similarity": 0.5873560309410095
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "similarity": 0.3662320375442505
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.6095626950263977
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg",
+      "similarity": 0.47613784670829773
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "similarity": 0.49278688430786133
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.4304121732711792
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.40021833777427673
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "similarity": 0.4285503923892975
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "similarity": 0.22514352202415466
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/02_jack-nicholson-cropped-2010-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.41627129912376404
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "similarity": 0.48292288184165955
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.5282508730888367
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.5548446178436279
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "similarity": 0.5076836347579956
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "similarity": 0.2674858570098877
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/03_jack-nicholson-2002-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4616430401802063
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.4597627520561218
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.5169796943664551
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "similarity": 0.47820189595222473
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "similarity": 0.26353347301483154
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4264616370201111
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "similarity": 0.5593634247779846
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "similarity": 0.5609791278839111
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "similarity": 0.37915587425231934
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5005685091018677
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "similarity": 0.46007323265075684
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "similarity": 0.32948869466781616
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4237060844898224
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "similarity": 0.3378748893737793
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.45885857939720154
+    },
+    {
+      "left": "/workspace/input/piven/data/jack_nickolson/images/09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "right": "/workspace/input/piven/data/jack_nickolson/images/10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3639969825744629
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_jack-nicholson-photograph-by-alma-prime-c-1970s-png.png",
+      "02_jack-nicholson-cropped-2010-jpg.jpg",
+      "03_jack-nicholson-2002-cropped-jpg.jpg",
+      "05_download-jack-nicholson-sunglass-portrait-wallpaper-wallpapers-com.jpg",
+      "06_jack-nicholson-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "07_jack-nicholson-portrait-stock-photo-alamy.jpg",
+      "08_jack-nicholson-portrait-d-une-l-gende-du-cin-ma-photo-et-tableau.jpg",
+      "09_jack-nicholson-s-instagram-twitter-facebook-on-idcrawl.jpg",
+      "10_jack-nicholson-portrait-photos-and-premium-high-res-pictures-getty-images.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.4458850622177124,
+        0.572343647480011,
+        0.46261468529701233,
+        0.6160308718681335,
+        0.5265071392059326,
+        0.5873560309410095,
+        0.3662320375442505,
+        0.6095626950263977
+      ],
+      [
+        0.4458850622177124,
+        0.9999998807907104,
+        0.47613784670829773,
+        0.49278688430786133,
+        0.4304121732711792,
+        0.40021833777427673,
+        0.4285503923892975,
+        0.22514352202415466,
+        0.41627129912376404
+      ],
+      [
+        0.572343647480011,
+        0.47613784670829773,
+        1.0,
+        0.48292288184165955,
+        0.5282508730888367,
+        0.5548446178436279,
+        0.5076836347579956,
+        0.2674858570098877,
+        0.4616430401802063
+      ],
+      [
+        0.46261468529701233,
+        0.49278688430786133,
+        0.48292288184165955,
+        1.0,
+        0.4597627520561218,
+        0.5169796943664551,
+        0.47820189595222473,
+        0.26353347301483154,
+        0.4264616370201111
+      ],
+      [
+        0.6160308718681335,
+        0.4304121732711792,
+        0.5282508730888367,
+        0.4597627520561218,
+        1.0000001192092896,
+        0.5593634247779846,
+        0.5609791278839111,
+        0.37915587425231934,
+        0.5005685091018677
+      ],
+      [
+        0.5265071392059326,
+        0.40021833777427673,
+        0.5548446178436279,
+        0.5169796943664551,
+        0.5593634247779846,
+        1.0000001192092896,
+        0.46007323265075684,
+        0.32948869466781616,
+        0.4237060844898224
+      ],
+      [
+        0.5873560309410095,
+        0.4285503923892975,
+        0.5076836347579956,
+        0.47820189595222473,
+        0.5609791278839111,
+        0.46007323265075684,
+        1.0000001192092896,
+        0.3378748893737793,
+        0.45885857939720154
+      ],
+      [
+        0.3662320375442505,
+        0.22514352202415466,
+        0.2674858570098877,
+        0.26353347301483154,
+        0.37915587425231934,
+        0.32948869466781616,
+        0.3378748893737793,
+        0.9999998807907104,
+        0.3639969825744629
+      ],
+      [
+        0.6095626950263977,
+        0.41627129912376404,
+        0.4616430401802063,
+        0.4264616370201111,
+        0.5005685091018677,
+        0.4237060844898224,
+        0.45885857939720154,
+        0.3639969825744629,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/jack_nickolson/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/jack_nickolson/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/jack_nickolson/images/04_jack-nicholson-jack-nicholson-portrait-nicholson.jpg",
+      "error": "No face detected in /workspace/input/piven/data/jack_nickolson/images/04_jack-nicholson-jack-nicholson-portrait-nicholson.jpg"
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "folder": "/workspace/input/piven/data/michael_jackson",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/michael_jackson/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_michael-jackson-1992-jpg.jpg",
+        "path": "/workspace/input/piven/data/michael_jackson/images/01_michael-jackson-1992-jpg.jpg",
+        "similarity": -0.032216642051935196
+      },
+      {
+        "index": 1,
+        "name": "02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+        "path": "/workspace/input/piven/data/michael_jackson/images/02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+        "similarity": 0.28976163268089294
+      },
+      {
+        "index": 2,
+        "name": "03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+        "path": "/workspace/input/piven/data/michael_jackson/images/03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+        "similarity": -0.005339943803846836
+      },
+      {
+        "index": 3,
+        "name": "04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+        "path": "/workspace/input/piven/data/michael_jackson/images/04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+        "similarity": 0.016980091109871864
+      },
+      {
+        "index": 4,
+        "name": "05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+        "path": "/workspace/input/piven/data/michael_jackson/images/05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+        "similarity": 0.026395482942461967
+      },
+      {
+        "index": 5,
+        "name": "06_portrait-of-michael-jackson-on-craiyon.webp",
+        "path": "/workspace/input/piven/data/michael_jackson/images/06_portrait-of-michael-jackson-on-craiyon.webp",
+        "similarity": -0.013895904645323753
+      },
+      {
+        "index": 6,
+        "name": "07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+        "path": "/workspace/input/piven/data/michael_jackson/images/07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+        "similarity": 0.010242917574942112
+      },
+      {
+        "index": 7,
+        "name": "10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+        "path": "/workspace/input/piven/data/michael_jackson/images/10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+        "similarity": -0.03181114047765732
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.032216642051935196,
+          0.28976163268089294,
+          -0.005339943803846836,
+          0.016980091109871864,
+          0.026395482942461967,
+          -0.013895904645323753,
+          0.010242917574942112,
+          -0.03181114047765732
+        ],
+        [
+          -0.032216642051935196,
+          1.0000001192092896,
+          -0.02692309208214283,
+          0.025903576985001564,
+          0.1765754520893097,
+          0.19212491810321808,
+          0.25567299127578735,
+          0.24813799560070038,
+          0.14988353848457336
+        ],
+        [
+          0.28976163268089294,
+          -0.02692309208214283,
+          0.9999998807907104,
+          -0.08371123671531677,
+          -0.015278920531272888,
+          0.042290885001420975,
+          0.002572068478912115,
+          -0.0001869694679044187,
+          -0.06362501531839371
+        ],
+        [
+          -0.005339943803846836,
+          0.025903576985001564,
+          -0.08371123671531677,
+          1.0,
+          0.04896385967731476,
+          0.03934449702501297,
+          0.006123020313680172,
+          -0.01789514161646366,
+          0.06868959218263626
+        ],
+        [
+          0.016980091109871864,
+          0.1765754520893097,
+          -0.015278920531272888,
+          0.04896385967731476,
+          1.0,
+          0.5504459738731384,
+          0.4607963562011719,
+          0.33167949318885803,
+          0.2355549931526184
+        ],
+        [
+          0.026395482942461967,
+          0.19212491810321808,
+          0.042290885001420975,
+          0.03934449702501297,
+          0.5504459738731384,
+          1.0000001192092896,
+          0.5160863399505615,
+          0.4148447513580322,
+          0.1858905404806137
+        ],
+        [
+          -0.013895904645323753,
+          0.25567299127578735,
+          0.002572068478912115,
+          0.006123020313680172,
+          0.4607963562011719,
+          0.5160863399505615,
+          0.9999998807907104,
+          0.34859880805015564,
+          0.12519338726997375
+        ],
+        [
+          0.010242917574942112,
+          0.24813799560070038,
+          -0.0001869694679044187,
+          -0.01789514161646366,
+          0.33167949318885803,
+          0.4148447513580322,
+          0.34859880805015564,
+          1.0,
+          0.11231251060962677
+        ],
+        [
+          -0.03181114047765732,
+          0.14988353848457336,
+          -0.06362501531839371,
+          0.06868959218263626,
+          0.2355549931526184,
+          0.1858905404806137,
+          0.12519338726997375,
+          0.11231251060962677,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_michael-jackson-1992-jpg.jpg",
+      "path": "/workspace/input/piven/data/michael_jackson/images/01_michael-jackson-1992-jpg.jpg"
+    },
+    {
+      "name": "02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "path": "/workspace/input/piven/data/michael_jackson/images/02_michael-jackson-taking-a-photo-3662754746-jpg.jpg"
+    },
+    {
+      "name": "03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "path": "/workspace/input/piven/data/michael_jackson/images/03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg"
+    },
+    {
+      "name": "04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+      "path": "/workspace/input/piven/data/michael_jackson/images/04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg"
+    },
+    {
+      "name": "05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+      "path": "/workspace/input/piven/data/michael_jackson/images/05_pin-on-i-am-michael-joseph-jackson-world.jpg"
+    },
+    {
+      "name": "06_portrait-of-michael-jackson-on-craiyon.webp",
+      "path": "/workspace/input/piven/data/michael_jackson/images/06_portrait-of-michael-jackson-on-craiyon.webp"
+    },
+    {
+      "name": "07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+      "path": "/workspace/input/piven/data/michael_jackson/images/07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp"
+    },
+    {
+      "name": "10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+      "path": "/workspace/input/piven/data/michael_jackson/images/10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/01_michael-jackson-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "similarity": -0.02692309208214283
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/01_michael-jackson-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "similarity": 0.025903576985001564
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/01_michael-jackson-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+      "similarity": 0.1765754520893097
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/01_michael-jackson-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+      "similarity": 0.19212491810321808
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/01_michael-jackson-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/06_portrait-of-michael-jackson-on-craiyon.webp",
+      "similarity": 0.25567299127578735
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/01_michael-jackson-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+      "similarity": 0.24813799560070038
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/01_michael-jackson-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+      "similarity": 0.14988353848457336
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "similarity": -0.08371123671531677
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+      "similarity": -0.015278920531272888
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+      "similarity": 0.042290885001420975
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/06_portrait-of-michael-jackson-on-craiyon.webp",
+      "similarity": 0.002572068478912115
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+      "similarity": -0.0001869694679044187
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+      "similarity": -0.06362501531839371
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+      "similarity": 0.04896385967731476
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+      "similarity": 0.03934449702501297
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/06_portrait-of-michael-jackson-on-craiyon.webp",
+      "similarity": 0.006123020313680172
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+      "similarity": -0.01789514161646366
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+      "similarity": 0.06868959218263626
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+      "similarity": 0.5504459738731384
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/06_portrait-of-michael-jackson-on-craiyon.webp",
+      "similarity": 0.4607963562011719
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+      "similarity": 0.33167949318885803
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+      "similarity": 0.2355549931526184
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/06_portrait-of-michael-jackson-on-craiyon.webp",
+      "similarity": 0.5160863399505615
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+      "similarity": 0.4148447513580322
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+      "right": "/workspace/input/piven/data/michael_jackson/images/10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+      "similarity": 0.1858905404806137
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/06_portrait-of-michael-jackson-on-craiyon.webp",
+      "right": "/workspace/input/piven/data/michael_jackson/images/07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+      "similarity": 0.34859880805015564
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/06_portrait-of-michael-jackson-on-craiyon.webp",
+      "right": "/workspace/input/piven/data/michael_jackson/images/10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+      "similarity": 0.12519338726997375
+    },
+    {
+      "left": "/workspace/input/piven/data/michael_jackson/images/07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+      "right": "/workspace/input/piven/data/michael_jackson/images/10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg",
+      "similarity": 0.11231251060962677
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_michael-jackson-1992-jpg.jpg",
+      "02_michael-jackson-taking-a-photo-3662754746-jpg.jpg",
+      "03_michael-jackson-diana-ross-quincy-jones-diana-1981-cbs-press-photo-jpg.jpg",
+      "04_michael-jackson-portrait-1984-photos-of-michael-jackson-michael.jpg",
+      "05_pin-on-i-am-michael-joseph-jackson-world.jpg",
+      "06_portrait-of-michael-jackson-on-craiyon.webp",
+      "07_michael-jackson-s-detailed-portrait-in-studio-lighting-stable.webp",
+      "10_michael-jackson-portrait-session-1970s-michael-jackson-official-site.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        -0.02692309208214283,
+        0.025903576985001564,
+        0.1765754520893097,
+        0.19212491810321808,
+        0.25567299127578735,
+        0.24813799560070038,
+        0.14988353848457336
+      ],
+      [
+        -0.02692309208214283,
+        0.9999998807907104,
+        -0.08371123671531677,
+        -0.015278920531272888,
+        0.042290885001420975,
+        0.002572068478912115,
+        -0.0001869694679044187,
+        -0.06362501531839371
+      ],
+      [
+        0.025903576985001564,
+        -0.08371123671531677,
+        1.0,
+        0.04896385967731476,
+        0.03934449702501297,
+        0.006123020313680172,
+        -0.01789514161646366,
+        0.06868959218263626
+      ],
+      [
+        0.1765754520893097,
+        -0.015278920531272888,
+        0.04896385967731476,
+        1.0,
+        0.5504459738731384,
+        0.4607963562011719,
+        0.33167949318885803,
+        0.2355549931526184
+      ],
+      [
+        0.19212491810321808,
+        0.042290885001420975,
+        0.03934449702501297,
+        0.5504459738731384,
+        1.0000001192092896,
+        0.5160863399505615,
+        0.4148447513580322,
+        0.1858905404806137
+      ],
+      [
+        0.25567299127578735,
+        0.002572068478912115,
+        0.006123020313680172,
+        0.4607963562011719,
+        0.5160863399505615,
+        0.9999998807907104,
+        0.34859880805015564,
+        0.12519338726997375
+      ],
+      [
+        0.24813799560070038,
+        -0.0001869694679044187,
+        -0.01789514161646366,
+        0.33167949318885803,
+        0.4148447513580322,
+        0.34859880805015564,
+        1.0,
+        0.11231251060962677
+      ],
+      [
+        0.14988353848457336,
+        -0.06362501531839371,
+        0.06868959218263626,
+        0.2355549931526184,
+        0.1858905404806137,
+        0.12519338726997375,
+        0.11231251060962677,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/michael_jackson/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/michael_jackson/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/michael_jackson/images/08_download-michael-jackson-wallpaper.jpg",
+      "error": "No face detected in /workspace/input/piven/data/michael_jackson/images/08_download-michael-jackson-wallpaper.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/michael_jackson/images/09_michael-jackson-vector-portrait-digital-download-dgitalco-s-ko-fi.jpg",
+      "error": "No face detected in /workspace/input/piven/data/michael_jackson/images/09_michael-jackson-vector-portrait-digital-download-dgitalco-s-ko-fi.jpg"
+    }
+  ]
+}

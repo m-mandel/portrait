@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/ricky_gervais",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/ricky_gervais/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_ricky-gervais-2010-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+        "similarity": 0.04877807945013046
+      },
+      {
+        "index": 1,
+        "name": "03_ricky-gervais-performing-2007-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+        "similarity": 0.08017756789922714
+      },
+      {
+        "index": 2,
+        "name": "04_jonathanrossrickygervais-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+        "similarity": 0.039617910981178284
+      },
+      {
+        "index": 3,
+        "name": "05_jonathanrossrickygervais-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+        "similarity": 0.029995422810316086
+      },
+      {
+        "index": 4,
+        "name": "05_ricky-gervais-performing-2007-1-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+        "similarity": 0.06618834286928177
+      },
+      {
+        "index": 5,
+        "name": "06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+        "similarity": 0.031057050451636314
+      },
+      {
+        "index": 6,
+        "name": "07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+        "similarity": 0.05520912632346153
+      },
+      {
+        "index": 7,
+        "name": "08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+        "similarity": 0.08281566202640533
+      },
+      {
+        "index": 8,
+        "name": "09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+        "similarity": 0.055338114500045776
+      },
+      {
+        "index": 9,
+        "name": "10_gervaisblooms021218-23-46107511732-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+        "similarity": 0.051871925592422485
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.04877807945013046,
+          0.08017756789922714,
+          0.039617910981178284,
+          0.029995422810316086,
+          0.06618834286928177,
+          0.031057050451636314,
+          0.05520912632346153,
+          0.08281566202640533,
+          0.055338114500045776,
+          0.051871925592422485
+        ],
+        [
+          0.04877807945013046,
+          0.9999998807907104,
+          0.5301997065544128,
+          0.5830634832382202,
+          0.6223752498626709,
+          0.5228050947189331,
+          0.41467323899269104,
+          0.48373305797576904,
+          0.5503312945365906,
+          0.4134923815727234,
+          0.43832334876060486
+        ],
+        [
+          0.08017756789922714,
+          0.5301997065544128,
+          0.9999999403953552,
+          0.5096635818481445,
+          0.48231467604637146,
+          0.6114080548286438,
+          0.5920237898826599,
+          0.4808414578437805,
+          0.4507386386394501,
+          0.3984682261943817,
+          0.5147166848182678
+        ],
+        [
+          0.039617910981178284,
+          0.5830634832382202,
+          0.5096635818481445,
+          1.0000001192092896,
+          0.7649359703063965,
+          0.5465559363365173,
+          0.3910941183567047,
+          0.539226770401001,
+          0.5016364455223083,
+          0.4288572371006012,
+          0.40873512625694275
+        ],
+        [
+          0.029995422810316086,
+          0.6223752498626709,
+          0.48231467604637146,
+          0.7649359703063965,
+          1.0,
+          0.46418872475624084,
+          0.36344829201698303,
+          0.48474812507629395,
+          0.3532882630825043,
+          0.44100499153137207,
+          0.5049400329589844
+        ],
+        [
+          0.06618834286928177,
+          0.5228050947189331,
+          0.6114080548286438,
+          0.5465559363365173,
+          0.46418872475624084,
+          1.0,
+          0.47581303119659424,
+          0.44908857345581055,
+          0.5912336111068726,
+          0.4820440411567688,
+          0.41861799359321594
+        ],
+        [
+          0.031057050451636314,
+          0.41467323899269104,
+          0.5920237898826599,
+          0.3910941183567047,
+          0.36344829201698303,
+          0.47581303119659424,
+          1.0,
+          0.6367301940917969,
+          0.36730191111564636,
+          0.4360297918319702,
+          0.5239855647087097
+        ],
+        [
+          0.05520912632346153,
+          0.48373305797576904,
+          0.4808414578437805,
+          0.539226770401001,
+          0.48474812507629395,
+          0.44908857345581055,
+          0.6367301940917969,
+          1.0,
+          0.5805485844612122,
+          0.5491145849227905,
+          0.5173295736312866
+        ],
+        [
+          0.08281566202640533,
+          0.5503312945365906,
+          0.4507386386394501,
+          0.5016364455223083,
+          0.3532882630825043,
+          0.5912336111068726,
+          0.36730191111564636,
+          0.5805485844612122,
+          1.0,
+          0.5896593928337097,
+          0.44018951058387756
+        ],
+        [
+          0.055338114500045776,
+          0.4134923815727234,
+          0.3984682261943817,
+          0.4288572371006012,
+          0.44100499153137207,
+          0.4820440411567688,
+          0.4360297918319702,
+          0.5491145849227905,
+          0.5896593928337097,
+          1.0,
+          0.4743737578392029
+        ],
+        [
+          0.051871925592422485,
+          0.43832334876060486,
+          0.5147166848182678,
+          0.40873512625694275,
+          0.5049400329589844,
+          0.41861799359321594,
+          0.5239855647087097,
+          0.5173295736312866,
+          0.44018951058387756,
+          0.4743737578392029,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_ricky-gervais-2010-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg"
+    },
+    {
+      "name": "03_ricky-gervais-performing-2007-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg"
+    },
+    {
+      "name": "04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg"
+    },
+    {
+      "name": "06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+      "similarity": 0.5301997065544128
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "similarity": 0.5830634832382202
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "similarity": 0.6223752498626709
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "similarity": 0.5228050947189331
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "similarity": 0.41467323899269104
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "similarity": 0.48373305797576904
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "similarity": 0.5503312945365906
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "similarity": 0.4134923815727234
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/01_ricky-gervais-2010-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "similarity": 0.43832334876060486
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "similarity": 0.5096635818481445
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "similarity": 0.48231467604637146
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "similarity": 0.6114080548286438
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "similarity": 0.5920237898826599
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "similarity": 0.4808414578437805
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "similarity": 0.4507386386394501
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "similarity": 0.3984682261943817
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/03_ricky-gervais-performing-2007-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "similarity": 0.5147166848182678
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "similarity": 0.7649359703063965
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "similarity": 0.5465559363365173
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "similarity": 0.3910941183567047
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "similarity": 0.539226770401001
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "similarity": 0.5016364455223083
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "similarity": 0.4288572371006012
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "similarity": 0.40873512625694275
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "similarity": 0.46418872475624084
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "similarity": 0.36344829201698303
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "similarity": 0.48474812507629395
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "similarity": 0.3532882630825043
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "similarity": 0.44100499153137207
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "similarity": 0.5049400329589844
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "similarity": 0.47581303119659424
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "similarity": 0.44908857345581055
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "similarity": 0.5912336111068726
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "similarity": 0.4820440411567688
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "similarity": 0.41861799359321594
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "similarity": 0.6367301940917969
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "similarity": 0.36730191111564636
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "similarity": 0.4360297918319702
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "similarity": 0.5239855647087097
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "similarity": 0.5805485844612122
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "similarity": 0.5491145849227905
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "similarity": 0.5173295736312866
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "similarity": 0.5896593928337097
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "similarity": 0.44018951058387756
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/ricky_gervais/images/09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/ricky_gervais/images/10_gervaisblooms021218-23-46107511732-jpg.jpg",
+      "similarity": 0.4743737578392029
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_ricky-gervais-2010-jpg.jpg",
+      "03_ricky-gervais-performing-2007-jpg.jpg",
+      "04_jonathanrossrickygervais-cropped-jpg.jpg",
+      "05_jonathanrossrickygervais-cropped-jpg.jpg",
+      "05_ricky-gervais-performing-2007-1-jpg.jpg",
+      "06_gervaisblooms021218-21-44341159690-cropped-jpg.jpg",
+      "07_gervaisblooms021218-22-46107510992-cropped-jpg.jpg",
+      "08_gervaispall230921-15-of-17-51527411486-cropped-jpg.jpg",
+      "09_gervaispall230921-5-of-17-51528328440-cropped-jpg.jpg",
+      "10_gervaisblooms021218-23-46107511732-jpg.jpg"
+    ],
+    "values": [
+      [
+        0.9999998807907104,
+        0.5301997065544128,
+        0.5830634832382202,
+        0.6223752498626709,
+        0.5228050947189331,
+        0.41467323899269104,
+        0.48373305797576904,
+        0.5503312945365906,
+        0.4134923815727234,
+        0.43832334876060486
+      ],
+      [
+        0.5301997065544128,
+        0.9999999403953552,
+        0.5096635818481445,
+        0.48231467604637146,
+        0.6114080548286438,
+        0.5920237898826599,
+        0.4808414578437805,
+        0.4507386386394501,
+        0.3984682261943817,
+        0.5147166848182678
+      ],
+      [
+        0.5830634832382202,
+        0.5096635818481445,
+        1.0000001192092896,
+        0.7649359703063965,
+        0.5465559363365173,
+        0.3910941183567047,
+        0.539226770401001,
+        0.5016364455223083,
+        0.4288572371006012,
+        0.40873512625694275
+      ],
+      [
+        0.6223752498626709,
+        0.48231467604637146,
+        0.7649359703063965,
+        1.0,
+        0.46418872475624084,
+        0.36344829201698303,
+        0.48474812507629395,
+        0.3532882630825043,
+        0.44100499153137207,
+        0.5049400329589844
+      ],
+      [
+        0.5228050947189331,
+        0.6114080548286438,
+        0.5465559363365173,
+        0.46418872475624084,
+        1.0,
+        0.47581303119659424,
+        0.44908857345581055,
+        0.5912336111068726,
+        0.4820440411567688,
+        0.41861799359321594
+      ],
+      [
+        0.41467323899269104,
+        0.5920237898826599,
+        0.3910941183567047,
+        0.36344829201698303,
+        0.47581303119659424,
+        1.0,
+        0.6367301940917969,
+        0.36730191111564636,
+        0.4360297918319702,
+        0.5239855647087097
+      ],
+      [
+        0.48373305797576904,
+        0.4808414578437805,
+        0.539226770401001,
+        0.48474812507629395,
+        0.44908857345581055,
+        0.6367301940917969,
+        1.0,
+        0.5805485844612122,
+        0.5491145849227905,
+        0.5173295736312866
+      ],
+      [
+        0.5503312945365906,
+        0.4507386386394501,
+        0.5016364455223083,
+        0.3532882630825043,
+        0.5912336111068726,
+        0.36730191111564636,
+        0.5805485844612122,
+        1.0,
+        0.5896593928337097,
+        0.44018951058387756
+      ],
+      [
+        0.4134923815727234,
+        0.3984682261943817,
+        0.4288572371006012,
+        0.44100499153137207,
+        0.4820440411567688,
+        0.4360297918319702,
+        0.5491145849227905,
+        0.5896593928337097,
+        1.0,
+        0.4743737578392029
+      ],
+      [
+        0.43832334876060486,
+        0.5147166848182678,
+        0.40873512625694275,
+        0.5049400329589844,
+        0.41861799359321594,
+        0.5239855647087097,
+        0.5173295736312866,
+        0.44018951058387756,
+        0.4743737578392029,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/ricky_gervais/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/ricky_gervais/portrait.jpg"
+    }
+  ]
+}

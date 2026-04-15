@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/woody_allen",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/woody_allen/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_woody-allen-hs-yearbook-jpeg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+        "similarity": 0.05776851251721382
+      },
+      {
+        "index": 1,
+        "name": "02_woody-allen-2006-jpeg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+        "similarity": 0.029742851853370667
+      },
+      {
+        "index": 2,
+        "name": "03_woody-allen-cannes-2011-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+        "similarity": 0.026699626818299294
+      },
+      {
+        "index": 3,
+        "name": "05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+        "similarity": -0.004764061886817217
+      },
+      {
+        "index": 4,
+        "name": "06_woody-allen-kup-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+        "similarity": 0.03560023382306099
+      },
+      {
+        "index": 5,
+        "name": "07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+        "similarity": 0.0327795185148716
+      },
+      {
+        "index": 6,
+        "name": "07_woody-allen-kup-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+        "similarity": -0.0017323845531791449
+      },
+      {
+        "index": 7,
+        "name": "08_woody-allen-cannes-2016-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+        "similarity": 0.02544376626610756
+      },
+      {
+        "index": 8,
+        "name": "09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+        "similarity": 0.05383536219596863
+      },
+      {
+        "index": 9,
+        "name": "11_woody-allen-portrait-2009-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+        "similarity": 0.005007213447242975
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.05776851251721382,
+          0.029742851853370667,
+          0.026699626818299294,
+          -0.004764061886817217,
+          0.03560023382306099,
+          0.0327795185148716,
+          -0.0017323845531791449,
+          0.02544376626610756,
+          0.05383536219596863,
+          0.005007213447242975
+        ],
+        [
+          0.05776851251721382,
+          1.0,
+          0.3074192404747009,
+          0.33496472239494324,
+          0.24369710683822632,
+          0.46456751227378845,
+          0.2850083112716675,
+          0.4444158971309662,
+          0.32778042554855347,
+          0.1582580953836441,
+          0.26917117834091187
+        ],
+        [
+          0.029742851853370667,
+          0.3074192404747009,
+          1.0,
+          0.5273931622505188,
+          0.5383233428001404,
+          0.43095070123672485,
+          0.52851802110672,
+          0.4106540083885193,
+          0.5155232548713684,
+          0.2398688942193985,
+          0.5058961510658264
+        ],
+        [
+          0.026699626818299294,
+          0.33496472239494324,
+          0.5273931622505188,
+          1.0,
+          0.4822603464126587,
+          0.4136870205402374,
+          0.5098550319671631,
+          0.3933666944503784,
+          0.5359767079353333,
+          0.21877241134643555,
+          0.494698703289032
+        ],
+        [
+          -0.004764061886817217,
+          0.24369710683822632,
+          0.5383233428001404,
+          0.4822603464126587,
+          1.0000001192092896,
+          0.41506701707839966,
+          0.7265971302986145,
+          0.428026407957077,
+          0.4142954349517822,
+          0.1987989842891693,
+          0.7046782970428467
+        ],
+        [
+          0.03560023382306099,
+          0.46456751227378845,
+          0.43095070123672485,
+          0.4136870205402374,
+          0.41506701707839966,
+          1.0,
+          0.41713207960128784,
+          0.9068113565444946,
+          0.4247758984565735,
+          0.17345735430717468,
+          0.4264321029186249
+        ],
+        [
+          0.0327795185148716,
+          0.2850083112716675,
+          0.52851802110672,
+          0.5098550319671631,
+          0.7265971302986145,
+          0.41713207960128784,
+          0.9999999403953552,
+          0.42101508378982544,
+          0.32919740676879883,
+          0.2101214975118637,
+          0.6417461633682251
+        ],
+        [
+          -0.0017323845531791449,
+          0.4444158971309662,
+          0.4106540083885193,
+          0.3933666944503784,
+          0.428026407957077,
+          0.9068113565444946,
+          0.42101508378982544,
+          1.0000001192092896,
+          0.4175127446651459,
+          0.2002916783094406,
+          0.41425755620002747
+        ],
+        [
+          0.02544376626610756,
+          0.32778042554855347,
+          0.5155232548713684,
+          0.5359767079353333,
+          0.4142954349517822,
+          0.4247758984565735,
+          0.32919740676879883,
+          0.4175127446651459,
+          1.0,
+          0.2729074954986572,
+          0.49254727363586426
+        ],
+        [
+          0.05383536219596863,
+          0.1582580953836441,
+          0.2398688942193985,
+          0.21877241134643555,
+          0.1987989842891693,
+          0.17345735430717468,
+          0.2101214975118637,
+          0.2002916783094406,
+          0.2729074954986572,
+          1.0,
+          0.19657976925373077
+        ],
+        [
+          0.005007213447242975,
+          0.26917117834091187,
+          0.5058961510658264,
+          0.494698703289032,
+          0.7046782970428467,
+          0.4264321029186249,
+          0.6417461633682251,
+          0.41425755620002747,
+          0.49254727363586426,
+          0.19657976925373077,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_woody-allen-hs-yearbook-jpeg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg"
+    },
+    {
+      "name": "02_woody-allen-2006-jpeg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg"
+    },
+    {
+      "name": "03_woody-allen-cannes-2011-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg"
+    },
+    {
+      "name": "05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg"
+    },
+    {
+      "name": "06_woody-allen-kup-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg"
+    },
+    {
+      "name": "07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg"
+    },
+    {
+      "name": "07_woody-allen-kup-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg"
+    },
+    {
+      "name": "11_woody-allen-portrait-2009-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+      "similarity": 0.3074192404747009
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+      "similarity": 0.33496472239494324
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "similarity": 0.24369710683822632
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+      "similarity": 0.46456751227378845
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "similarity": 0.2850083112716675
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+      "similarity": 0.4444158971309662
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "similarity": 0.32778042554855347
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "similarity": 0.1582580953836441
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/01_woody-allen-hs-yearbook-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+      "similarity": 0.26917117834091187
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+      "similarity": 0.5273931622505188
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "similarity": 0.5383233428001404
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+      "similarity": 0.43095070123672485
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "similarity": 0.52851802110672
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+      "similarity": 0.4106540083885193
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "similarity": 0.5155232548713684
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "similarity": 0.2398688942193985
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/02_woody-allen-2006-jpeg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+      "similarity": 0.5058961510658264
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "similarity": 0.4822603464126587
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+      "similarity": 0.4136870205402374
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "similarity": 0.5098550319671631
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+      "similarity": 0.3933666944503784
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "similarity": 0.5359767079353333
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "similarity": 0.21877241134643555
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/03_woody-allen-cannes-2011-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+      "similarity": 0.494698703289032
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+      "similarity": 0.41506701707839966
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "similarity": 0.7265971302986145
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+      "similarity": 0.428026407957077
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "similarity": 0.4142954349517822
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "similarity": 0.1987989842891693
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+      "similarity": 0.7046782970428467
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "similarity": 0.41713207960128784
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+      "similarity": 0.9068113565444946
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "similarity": 0.4247758984565735
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "similarity": 0.17345735430717468
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/06_woody-allen-kup-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+      "similarity": 0.4264321029186249
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+      "similarity": 0.42101508378982544
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "similarity": 0.32919740676879883
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "similarity": 0.2101214975118637
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+      "similarity": 0.6417461633682251
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "similarity": 0.4175127446651459
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "similarity": 0.2002916783094406
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/07_woody-allen-kup-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+      "similarity": 0.41425755620002747
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "similarity": 0.2729074954986572
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+      "similarity": 0.49254727363586426
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/woody_allen/images/09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/woody_allen/images/11_woody-allen-portrait-2009-jpg.jpg",
+      "similarity": 0.19657976925373077
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_woody-allen-hs-yearbook-jpeg.jpg",
+      "02_woody-allen-2006-jpeg.jpg",
+      "03_woody-allen-cannes-2011-jpg.jpg",
+      "05_woody-allen-at-the-premiere-of-whatever-works-jpg.jpg",
+      "06_woody-allen-kup-jpg.jpg",
+      "07_woody-allen-at-the-tribeca-film-festival-jpg.jpg",
+      "07_woody-allen-kup-cropped-jpg.jpg",
+      "08_woody-allen-cannes-2016-cropped-jpg.jpg",
+      "09_estatua-woody-allen-en-oviedo-cropped-jpg.jpg",
+      "11_woody-allen-portrait-2009-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.3074192404747009,
+        0.33496472239494324,
+        0.24369710683822632,
+        0.46456751227378845,
+        0.2850083112716675,
+        0.4444158971309662,
+        0.32778042554855347,
+        0.1582580953836441,
+        0.26917117834091187
+      ],
+      [
+        0.3074192404747009,
+        1.0,
+        0.5273931622505188,
+        0.5383233428001404,
+        0.43095070123672485,
+        0.52851802110672,
+        0.4106540083885193,
+        0.5155232548713684,
+        0.2398688942193985,
+        0.5058961510658264
+      ],
+      [
+        0.33496472239494324,
+        0.5273931622505188,
+        1.0,
+        0.4822603464126587,
+        0.4136870205402374,
+        0.5098550319671631,
+        0.3933666944503784,
+        0.5359767079353333,
+        0.21877241134643555,
+        0.494698703289032
+      ],
+      [
+        0.24369710683822632,
+        0.5383233428001404,
+        0.4822603464126587,
+        1.0000001192092896,
+        0.41506701707839966,
+        0.7265971302986145,
+        0.428026407957077,
+        0.4142954349517822,
+        0.1987989842891693,
+        0.7046782970428467
+      ],
+      [
+        0.46456751227378845,
+        0.43095070123672485,
+        0.4136870205402374,
+        0.41506701707839966,
+        1.0,
+        0.41713207960128784,
+        0.9068113565444946,
+        0.4247758984565735,
+        0.17345735430717468,
+        0.4264321029186249
+      ],
+      [
+        0.2850083112716675,
+        0.52851802110672,
+        0.5098550319671631,
+        0.7265971302986145,
+        0.41713207960128784,
+        0.9999999403953552,
+        0.42101508378982544,
+        0.32919740676879883,
+        0.2101214975118637,
+        0.6417461633682251
+      ],
+      [
+        0.4444158971309662,
+        0.4106540083885193,
+        0.3933666944503784,
+        0.428026407957077,
+        0.9068113565444946,
+        0.42101508378982544,
+        1.0000001192092896,
+        0.4175127446651459,
+        0.2002916783094406,
+        0.41425755620002747
+      ],
+      [
+        0.32778042554855347,
+        0.5155232548713684,
+        0.5359767079353333,
+        0.4142954349517822,
+        0.4247758984565735,
+        0.32919740676879883,
+        0.4175127446651459,
+        1.0,
+        0.2729074954986572,
+        0.49254727363586426
+      ],
+      [
+        0.1582580953836441,
+        0.2398688942193985,
+        0.21877241134643555,
+        0.1987989842891693,
+        0.17345735430717468,
+        0.2101214975118637,
+        0.2002916783094406,
+        0.2729074954986572,
+        1.0,
+        0.19657976925373077
+      ],
+      [
+        0.26917117834091187,
+        0.5058961510658264,
+        0.494698703289032,
+        0.7046782970428467,
+        0.4264321029186249,
+        0.6417461633682251,
+        0.41425755620002747,
+        0.49254727363586426,
+        0.19657976925373077,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/woody_allen/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/woody_allen/portrait.jpg"
+    }
+  ]
+}

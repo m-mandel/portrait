@@ -1,0 +1,65 @@
+{
+  "name": "yitzhak shamir",
+  "bio": "Yitzhak Shamir (Hebrew: יצחק שמיר, ; born Yitzhak Yezernitsky; 22 October 1915 – 30 June 2012) was an Israeli politician who served as the seventh prime minister of Israel, serving two terms (1983–1984, 1986–1992). Before the establishment of the State of Israel, Shamir was a leader of the Zionist terrorist group Lehi, also known as the Stern Gang.\nYitzhak Shamir grew up in interwar Poland. Shamir joined Betar, the paramilitary wing of Revisionist Zionist Ze'ev Jabotinsky's Hatzohar political party. In 1935, Shamir emigrated from Białystok to British Palestine, where he worked in an accountant's office. Shamir joined the Revisionist Zionist Irgun paramilitary group led by Menachem Begin. During World War II the Irgun split over the question of whether to support the Axis powers against the British Empire. Avraham Stern  and Shamir sought an alliance with Fascist Italy and Nazi Germany and formed the breakaway militia group Lehi. Lehi was unable to persuade the Axis powers to lend it support. Shamir led Lehi after Stern's assassination in 1942. In 1944 Shamir married Lehi member Shulamit Levy. During the 1948 Palestine war, Lehi and the Irgun committed the Deir Yassin massacre of over 100 Palestinians.\nAfter the establishment of the Israeli state Shamir served in Mossad between 1955 and 1965. Shamir directed Operation Damocles and resigned from Mossad after Prime Minister David Ben-Gurion ordered an end to the program. In 1969 Shamir joined Menachem Begin's Herut Party. Shamir was first elected to the Knesset in 1973 as a member of the Likud alliance of parties. Shamir served as Speaker of the Knesset after Likud became the first right-wing Israeli government after winning the 1977 Israeli legislative election against Prime Minister Shimon Peres' Alignment. Shamir was named Foreign Minister by Prime Minister Begin in 1980 and would serve in this post until 1986. Shamir was Foreign Minister during the 1982 Israel invasion of Lebanon.\nShamir won the 1983 Herut leadership election to succeed Begin as party leader, which made him Prime Minister and leader of the Likud after a merger. Prime Minister Yitzhak Shamir lost the 1984 election to Peres. Peres and Shamir entered into a grand coalition deal where Peres became prime minister while Shamir remained foreign minister until 1986, when Peres and Shamir traded jobs. The First Intifada began in 1987 and Shamir resisted a two-state solution to the Israeli–Palestinian conflict. Shamir unified the Likud alliance into one party in 1988. Shamir reluctantly restarted the Israeli–Palestinian peace process at the behest of the United States and Soviet Union which culminated in the Madrid Conference of 1991. Shamir lost the 1992 Israeli legislative election to Yitzhak Rabin and in 1993 Benjamin Netanyahu replaced him as Likud leader.",
+  "bio_sources": [
+    {
+      "subject": "yitzhak shamir",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Yitzhak_Shamir"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "barbed wire",
+      "shape_type": "linear object",
+      "meaning": "turns siege, conflict, and hard-line militancy into the portrait's main structure."
+    },
+    {
+      "element": "striped fabric",
+      "shape_type": "textile object",
+      "meaning": "evokes historical trauma while softening the face with a cloth surface."
+    },
+    {
+      "element": "star charms",
+      "shape_type": "symbolic accessory",
+      "meaning": "add an explicit jewish-national symbol inside the portrait."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "protest banner",
+      "visual_representation": "a broad cloth banner stretched across a straight support",
+      "category": "object",
+      "relevance": "Advocacy and public campaigning are central to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "warning ring",
+      "visual_representation": "a hard circular warning sign with sharp internal divisions",
+      "category": "symbol",
+      "relevance": "Danger, explosive violence, or weapons culture belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

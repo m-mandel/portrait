@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/joseph_stalin",
+  "meta_path": "/workspace/input/noma_bar/data/joseph_stalin/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Joseph Vissarionovich Stalin (n\u00e9 Dzhugashvili; 18 December [O.S. 6 December] 1878 \u2013 5 March 1953) was a Soviet revolutionary and politician who led the Soviet Union from 1924 until his death in 1953. He held office as general secretary of the Communist Party from 1922 to 1952 and as premier from 1941 until his death. Despite initially governing the country as part of a collective leadership, he eventually consolidated power to become a dictator by the 1930s. Stalin codified the Communist Party's official interpretation of Marxism as Marxism\u2013Leninism, and his version of it is referred to as Stalinism.\nBorn into a poor Georgian family in Gori, Russian Empire, Stalin attended the Tiflis Theological Seminary before joining the Marxist Russian Social Democratic Labour Party. He raised funds for Vladimir Lenin's Bolshevik faction through bank robberies and other crimes, and edited the party's newspaper, Pravda. He was repeatedly arrested and underwent several exiles to Siberia. After the Bolsheviks seized power in the October Revolution of 1917, Stalin served as a member of the Politburo, and from 1922 used his position as General Secretary to gain control over the party bureaucracy. After Lenin's death in 1924, Stalin won the leadership struggle over rivals including Leon Trotsky. Stalin's doctrine of socialism in one country became central to the party's ideology, and his five-year plans starting in 1928 led to forced agricultural collectivisation, rapid industrialisation, and a centralised command economy. His policies contributed to a famine in 1932\u20131933 which killed millions, including in the Holodomor in Ukraine. Between 1936 and 1938, Stalin executed hundreds of thousands of his real and perceived political opponents in the Great Purge. During his rule, an estimated 18 million people passed through the Gulag system of forced labour camps, and more than six million people, including kulaks and entire ethnic groups, were deported to remote areas of the country.\nStalin promoted Marxism\u2013Leninism abroad through the Communist International and supported European anti-fascist movements. In 1939, his government signed the Molotov\u2013Ribbentrop Pact with Germany, enabling the Soviet invasion of Poland at the start of World War II. Germany broke the pact by invading the Soviet Union in 1941, leading Stalin to join the Allies. The Red Army, with Stalin as its commander-in-chief, repelled the German invasion and captured Berlin in 1945, ending the war in Europe. The Soviet Union established Soviet-aligned states in Eastern Europe, and with the United States emerged as a superpower, with the two countries entering a period of rivalry known as the Cold War. Stalin presided over post-war reconstruction and the first Soviet atomic bomb test in 1949. During these years, the country experienced another famine and a state-sponsored antisemitic campaign culminating in the \"doctors' plot\". In 1953, Stalin died after a stroke. He was succeeded as leader by Georgy Malenkov and eventually Nikita Khrushchev, who in 1956 denounced Stalin's rule and began a campaign of \"de-Stalinisation\".\nOne of the 20th century's most significant figures, Stalin has a deeply contested legacy. During his rule, he was the subject of a pervasive personality cult within the international Marxist\u2013Leninist movement, which revered him as a champion of socialism and the working class. Since the dissolution of the Soviet Union in 1991, Stalin has retained a degree of popularity in some of the post-Soviet states (particularly Russia and Georgia) as an economic moderniser and victorious wartime leader who transformed the Soviet Union into an industrialised superpower. Conversely, his leadership has been widely condemned for overseeing mass repression and man-made famine which resulted in the deaths of millions of Soviet citizens.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "white background field"
+    },
+    {
+      "index": 1,
+      "element": "red hair and jacket mass"
+    },
+    {
+      "index": 2,
+      "element": "white face silhouette"
+    },
+    {
+      "index": 3,
+      "element": "black hammer-like bar"
+    },
+    {
+      "index": 4,
+      "element": "black sickle arc"
+    },
+    {
+      "index": 5,
+      "element": "small black mouth line"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "podium block"
+    },
+    {
+      "index": 1,
+      "element": "ballot box"
+    },
+    {
+      "index": 2,
+      "element": "state seal"
+    },
+    {
+      "index": 3,
+      "element": "flag field"
+    },
+    {
+      "index": 4,
+      "element": "medal bar"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "white background field",
+      "red hair and jacket mass",
+      "white face silhouette",
+      "black hammer-like bar",
+      "black sickle arc",
+      "small black mouth line"
+    ],
+    "values": [
+      [
+        -0.021183356642723083,
+        0.01565636321902275,
+        -0.027620021253824234,
+        -0.06497123092412949,
+        -0.1272110939025879,
+        -0.0006870031356811523
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "podium block",
+      "ballot box",
+      "state seal",
+      "flag field",
+      "medal bar"
+    ],
+    "column_labels": [
+      "white background field",
+      "red hair and jacket mass",
+      "white face silhouette",
+      "black hammer-like bar",
+      "black sickle arc",
+      "small black mouth line"
+    ],
+    "values": [
+      [
+        0.15733309090137482,
+        0.10114022344350815,
+        0.16724015772342682,
+        0.22539088129997253,
+        0.10671775043010712,
+        0.25600332021713257
+      ],
+      [
+        0.24025608599185944,
+        0.07502292841672897,
+        0.1670880913734436,
+        0.12199242413043976,
+        0.09571701288223267,
+        0.10258503258228302
+      ],
+      [
+        0.10880500078201294,
+        0.14374372363090515,
+        0.2220410704612732,
+        0.16364990174770355,
+        0.06347258388996124,
+        0.1739426851272583
+      ],
+      [
+        0.39439690113067627,
+        0.1278071105480194,
+        0.16252528131008148,
+        0.10046389698982239,
+        0.1475670039653778,
+        0.015502281486988068
+      ],
+      [
+        0.1448332965373993,
+        0.21222807466983795,
+        0.10423140227794647,
+        0.5558664202690125,
+        0.17287050187587738,
+        0.1076614111661911
+      ]
+    ]
+  }
+}

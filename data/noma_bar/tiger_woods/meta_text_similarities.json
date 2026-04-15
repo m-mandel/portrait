@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/tiger_woods",
+  "meta_path": "/workspace/input/noma_bar/data/tiger_woods/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Eldrick Tont \"Tiger\" Woods (born December 30, 1975) is an American professional golfer. He is tied for first in PGA Tour wins, ranks second in men's major championships, and holds numerous golf records. Woods is widely regarded as one of the greatest golfers of all time and as one of the most famous athletes in modern history. He is an inductee of the World Golf Hall of Fame.\nFollowing an outstanding junior, college, and amateur career, Woods turned professional in 1996 at age 20. By April 1997, he had won three PGA Tour events and his first major, the 1997 Masters, which he won by 12 strokes in a record-setting performance. He reached number one in the Official World Golf Ranking for the first time in June 1997, less than a year after turning professional. Woods dominated men's golf throughout the first decade of the 21st century, holding the world's top ranking from August 1999 to September 2004 (264 consecutive weeks) and again from June 2005 to October 2010 (281 consecutive weeks). The following decade was marked by comebacks from personal issues and injuries. He took a self\u2011imposed hiatus from professional golf from December 2009 to April 2010 to address marital problems. Woods fell to number 58 in the world rankings in November 2011 before returning to the number\u2011one position between March 2013 and May 2014. Injuries led to four back surgeries between 2014 and 2017, and he competed in only one tournament between August 2015 and January 2018, dropping out of the world's top 1,000 players. After returning to regular competition, he won the Tour Championship in September 2018\u2014his first victory in five years\u2014and the 2019 Masters, his first major in 11 years.\nWoods holds numerous golf records. He has spent the most consecutive weeks and the most total weeks as the world's number\u2011one player. He has been named PGA Player of the Year a record 11 times, and he led the PGA Tour money list in 10 seasons. He has won 15 major golf championships (second only to Jack Nicklaus's 18) and 82 PGA Tour events (tied with Sam Snead for the all-time record). Woods is one of six men to complete the career Grand Slam, along with Gene Sarazen, Ben Hogan, Gary Player, Nicklaus, and Rory McIlroy. He is the youngest to do so, and one of two golfers\u2014along with Nicklaus\u2014to achieve the career Grand Slam three times. He was a member of the winning United States team at the 1999 Ryder Cup and received the Presidential Medal of Freedom in May 2019.\nOn February 23, 2021, Woods was hospitalized after a single\u2011car collision and underwent emergency surgery for compound fractures in his right leg and a shattered ankle. In a November 2021 interview with Golf Digest, he stated that his full\u2011time professional career was over, though he intended to play a limited schedule. He returned to the PGA Tour at the 2022 Masters. In 2026, Woods was involved in another car crash and was charged with driving under the influence and causing property damage. As of April 2026, his net worth was estimated at US$1.5 billion by Forbes.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "green background field"
+    },
+    {
+      "index": 1,
+      "element": "blue cap with swoosh"
+    },
+    {
+      "index": 2,
+      "element": "brown face silhouette"
+    },
+    {
+      "index": 3,
+      "element": "black golf hole at the mouth"
+    },
+    {
+      "index": 4,
+      "element": "white golf ball inside the hole"
+    },
+    {
+      "index": 5,
+      "element": "black flagstick and flag rising from the mouth"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "golf ball"
+    },
+    {
+      "index": 1,
+      "element": "flag pin"
+    },
+    {
+      "index": 2,
+      "element": "fairway stripes"
+    },
+    {
+      "index": 3,
+      "element": "green jacket"
+    },
+    {
+      "index": 4,
+      "element": "trophy cup"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "green background field",
+      "blue cap with swoosh",
+      "brown face silhouette",
+      "black golf hole at the mouth",
+      "white golf ball inside the hole",
+      "black flagstick and flag rising from the mouth"
+    ],
+    "values": [
+      [
+        -0.04187728837132454,
+        -0.10381002724170685,
+        -0.01814936101436615,
+        0.1925620287656784,
+        0.18629790842533112,
+        -0.10663159936666489
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "golf ball",
+      "flag pin",
+      "fairway stripes",
+      "green jacket",
+      "trophy cup"
+    ],
+    "column_labels": [
+      "green background field",
+      "blue cap with swoosh",
+      "brown face silhouette",
+      "black golf hole at the mouth",
+      "white golf ball inside the hole",
+      "black flagstick and flag rising from the mouth"
+    ],
+    "values": [
+      [
+        0.22498273849487305,
+        0.20549386739730835,
+        0.15433603525161743,
+        0.4962395131587982,
+        0.7303048372268677,
+        0.16525864601135254
+      ],
+      [
+        0.22058163583278656,
+        0.24147529900074005,
+        0.05922853946685791,
+        0.11418361961841583,
+        0.26055219769477844,
+        0.41091084480285645
+      ],
+      [
+        0.1961309164762497,
+        0.2489522099494934,
+        0.1599007546901703,
+        0.07379701733589172,
+        0.18650902807712555,
+        0.2522856593132019
+      ],
+      [
+        0.46776869893074036,
+        0.25696688890457153,
+        0.40813058614730835,
+        -0.022528551518917084,
+        0.12248708307743073,
+        0.14021658897399902
+      ],
+      [
+        0.1217927485704422,
+        0.3222755789756775,
+        0.13938221335411072,
+        0.23400893807411194,
+        0.2569827139377594,
+        0.20838217437267303
+      ]
+    ]
+  }
+}

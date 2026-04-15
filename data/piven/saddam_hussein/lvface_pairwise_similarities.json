@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/saddam_hussein",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/saddam_hussein/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+        "path": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+        "similarity": 0.03275592625141144
+      },
+      {
+        "index": 1,
+        "name": "02_saddam-hussein-1979-jpg.jpg",
+        "path": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+        "similarity": 0.032793182879686356
+      },
+      {
+        "index": 2,
+        "name": "03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+        "path": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+        "similarity": 0.055613353848457336
+      },
+      {
+        "index": 3,
+        "name": "04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+        "path": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+        "similarity": 0.07665373384952545
+      },
+      {
+        "index": 4,
+        "name": "06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+        "path": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+        "similarity": 7.155607454478741e-05
+      },
+      {
+        "index": 5,
+        "name": "07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+        "path": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+        "similarity": 0.005318327806890011
+      },
+      {
+        "index": 6,
+        "name": "08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+        "path": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+        "similarity": 0.02920844592154026
+      },
+      {
+        "index": 7,
+        "name": "09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+        "path": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+        "similarity": 0.07374317944049835
+      },
+      {
+        "index": 8,
+        "name": "10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+        "path": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+        "similarity": 0.07154127955436707
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.03275592625141144,
+          0.032793182879686356,
+          0.055613353848457336,
+          0.07665373384952545,
+          7.155607454478741e-05,
+          0.005318327806890011,
+          0.02920844592154026,
+          0.07374317944049835,
+          0.07154127955436707
+        ],
+        [
+          0.03275592625141144,
+          1.0,
+          0.42829588055610657,
+          0.9166815876960754,
+          0.4127773344516754,
+          0.1564032882452011,
+          0.28344300389289856,
+          0.4393974840641022,
+          0.5366393327713013,
+          0.27156296372413635
+        ],
+        [
+          0.032793182879686356,
+          0.42829588055610657,
+          0.9999998807907104,
+          0.41311219334602356,
+          0.4685158431529999,
+          0.24006187915802002,
+          0.30293288826942444,
+          0.5669768452644348,
+          0.5468605756759644,
+          0.3597763478755951
+        ],
+        [
+          0.055613353848457336,
+          0.9166815876960754,
+          0.41311219334602356,
+          1.0,
+          0.42611727118492126,
+          0.17216715216636658,
+          0.3131396174430847,
+          0.4803207218647003,
+          0.5628028512001038,
+          0.28192585706710815
+        ],
+        [
+          0.07665373384952545,
+          0.4127773344516754,
+          0.4685158431529999,
+          0.42611727118492126,
+          1.0,
+          0.14524894952774048,
+          0.4066993296146393,
+          0.5464860796928406,
+          0.4881056249141693,
+          0.3349528908729553
+        ],
+        [
+          7.155607454478741e-05,
+          0.1564032882452011,
+          0.24006187915802002,
+          0.17216715216636658,
+          0.14524894952774048,
+          1.0,
+          0.2795402407646179,
+          0.21530191600322723,
+          0.12359344214200974,
+          0.2621019780635834
+        ],
+        [
+          0.005318327806890011,
+          0.28344300389289856,
+          0.30293288826942444,
+          0.3131396174430847,
+          0.4066993296146393,
+          0.2795402407646179,
+          1.0,
+          0.36110538244247437,
+          0.252141535282135,
+          0.3493290841579437
+        ],
+        [
+          0.02920844592154026,
+          0.4393974840641022,
+          0.5669768452644348,
+          0.4803207218647003,
+          0.5464860796928406,
+          0.21530191600322723,
+          0.36110538244247437,
+          1.0,
+          0.45103323459625244,
+          0.3001754879951477
+        ],
+        [
+          0.07374317944049835,
+          0.5366393327713013,
+          0.5468605756759644,
+          0.5628028512001038,
+          0.4881056249141693,
+          0.12359344214200974,
+          0.252141535282135,
+          0.45103323459625244,
+          1.0,
+          0.26034942269325256
+        ],
+        [
+          0.07154127955436707,
+          0.27156296372413635,
+          0.3597763478755951,
+          0.28192585706710815,
+          0.3349528908729553,
+          0.2621019780635834,
+          0.3493290841579437,
+          0.3001754879951477,
+          0.26034942269325256,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "path": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg"
+    },
+    {
+      "name": "02_saddam-hussein-1979-jpg.jpg",
+      "path": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg"
+    },
+    {
+      "name": "03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "path": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg"
+    },
+    {
+      "name": "04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "path": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg"
+    },
+    {
+      "name": "06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "path": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg"
+    },
+    {
+      "name": "07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "path": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg"
+    },
+    {
+      "name": "08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "path": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg"
+    },
+    {
+      "name": "09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "path": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg"
+    },
+    {
+      "name": "10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+      "path": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "similarity": 0.42829588055610657
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "similarity": 0.9166815876960754
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "similarity": 0.4127773344516754
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "similarity": 0.1564032882452011
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "similarity": 0.28344300389289856
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.4393974840641022
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5366393327713013
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+      "similarity": 0.27156296372413635
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "similarity": 0.41311219334602356
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "similarity": 0.4685158431529999
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "similarity": 0.24006187915802002
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "similarity": 0.30293288826942444
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.5669768452644348
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5468605756759644
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/02_saddam-hussein-1979-jpg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+      "similarity": 0.3597763478755951
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "similarity": 0.42611727118492126
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "similarity": 0.17216715216636658
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "similarity": 0.3131396174430847
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.4803207218647003
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.5628028512001038
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+      "similarity": 0.28192585706710815
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "similarity": 0.14524894952774048
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "similarity": 0.4066993296146393
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.5464860796928406
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.4881056249141693
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+      "similarity": 0.3349528908729553
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "similarity": 0.2795402407646179
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.21530191600322723
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.12359344214200974
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+      "similarity": 0.2621019780635834
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "similarity": 0.36110538244247437
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.252141535282135
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+      "similarity": 0.3493290841579437
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "similarity": 0.45103323459625244
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+      "similarity": 0.3001754879951477
+    },
+    {
+      "left": "/workspace/input/piven/data/saddam_hussein/images/09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "right": "/workspace/input/piven/data/saddam_hussein/images/10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg",
+      "similarity": 0.26034942269325256
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_saddam-hussein-at-trial-july-2004-jpeg.jpg",
+      "02_saddam-hussein-1979-jpg.jpg",
+      "03_saddam-hussein-at-trial-july-2004-edit1-jpeg.jpg",
+      "04_portrait-of-president-saddam-hussein-july-31-1983-news-photo-getty.jpg",
+      "06_22-nabuchodonosor-stock-photos-high-res-pictures-and-images-getty.jpg",
+      "07_saddam-hussein-portrait-baghdad-iraq-wearing-military-uniform-1984.jpg",
+      "08_saddam-hussein-portrait-banque-de-photographies-et-d-images-haute.jpg",
+      "09_saddam-hussein-portrait-hi-res-stock-photography-and-images-alamy.jpg",
+      "10_saddam-hussein-a-portrait-from-old-money-stock-photo-alamy.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.42829588055610657,
+        0.9166815876960754,
+        0.4127773344516754,
+        0.1564032882452011,
+        0.28344300389289856,
+        0.4393974840641022,
+        0.5366393327713013,
+        0.27156296372413635
+      ],
+      [
+        0.42829588055610657,
+        0.9999998807907104,
+        0.41311219334602356,
+        0.4685158431529999,
+        0.24006187915802002,
+        0.30293288826942444,
+        0.5669768452644348,
+        0.5468605756759644,
+        0.3597763478755951
+      ],
+      [
+        0.9166815876960754,
+        0.41311219334602356,
+        1.0,
+        0.42611727118492126,
+        0.17216715216636658,
+        0.3131396174430847,
+        0.4803207218647003,
+        0.5628028512001038,
+        0.28192585706710815
+      ],
+      [
+        0.4127773344516754,
+        0.4685158431529999,
+        0.42611727118492126,
+        1.0,
+        0.14524894952774048,
+        0.4066993296146393,
+        0.5464860796928406,
+        0.4881056249141693,
+        0.3349528908729553
+      ],
+      [
+        0.1564032882452011,
+        0.24006187915802002,
+        0.17216715216636658,
+        0.14524894952774048,
+        1.0,
+        0.2795402407646179,
+        0.21530191600322723,
+        0.12359344214200974,
+        0.2621019780635834
+      ],
+      [
+        0.28344300389289856,
+        0.30293288826942444,
+        0.3131396174430847,
+        0.4066993296146393,
+        0.2795402407646179,
+        1.0,
+        0.36110538244247437,
+        0.252141535282135,
+        0.3493290841579437
+      ],
+      [
+        0.4393974840641022,
+        0.5669768452644348,
+        0.4803207218647003,
+        0.5464860796928406,
+        0.21530191600322723,
+        0.36110538244247437,
+        1.0,
+        0.45103323459625244,
+        0.3001754879951477
+      ],
+      [
+        0.5366393327713013,
+        0.5468605756759644,
+        0.5628028512001038,
+        0.4881056249141693,
+        0.12359344214200974,
+        0.252141535282135,
+        0.45103323459625244,
+        1.0,
+        0.26034942269325256
+      ],
+      [
+        0.27156296372413635,
+        0.3597763478755951,
+        0.28192585706710815,
+        0.3349528908729553,
+        0.2621019780635834,
+        0.3493290841579437,
+        0.3001754879951477,
+        0.26034942269325256,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/saddam_hussein/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/saddam_hussein/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/saddam_hussein/images/05_portrait-of-saddam-hussein-stable-diffusion-online.jpg",
+      "error": "No face detected in /workspace/input/piven/data/saddam_hussein/images/05_portrait-of-saddam-hussein-stable-diffusion-online.jpg"
+    }
+  ]
+}

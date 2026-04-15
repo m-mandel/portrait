@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/shirley_maclaine",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/shirley_maclaine/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+        "similarity": 0.08416173607110977
+      },
+      {
+        "index": 1,
+        "name": "02_shirley-maclaine18-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+        "similarity": 0.0513475127518177
+      },
+      {
+        "index": 2,
+        "name": "03_shirley-maclaine-bat-png.png",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+        "similarity": -0.03534339368343353
+      },
+      {
+        "index": 3,
+        "name": "04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+        "similarity": -0.009259654209017754
+      },
+      {
+        "index": 4,
+        "name": "05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+        "similarity": 0.054164182394742966
+      },
+      {
+        "index": 5,
+        "name": "06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+        "similarity": 0.05140753462910652
+      },
+      {
+        "index": 6,
+        "name": "07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+        "similarity": 0.059630949050188065
+      },
+      {
+        "index": 7,
+        "name": "08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+        "similarity": 0.03626636415719986
+      },
+      {
+        "index": 8,
+        "name": "09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+        "similarity": 0.042596835643053055
+      },
+      {
+        "index": 9,
+        "name": "10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+        "similarity": 0.004789359401911497
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.08416173607110977,
+          0.0513475127518177,
+          -0.03534339368343353,
+          -0.009259654209017754,
+          0.054164182394742966,
+          0.05140753462910652,
+          0.059630949050188065,
+          0.03626636415719986,
+          0.042596835643053055,
+          0.004789359401911497
+        ],
+        [
+          0.08416173607110977,
+          1.0000001192092896,
+          0.03380830958485603,
+          -0.08014737814664841,
+          0.0187282282859087,
+          0.08124418556690216,
+          0.04056539386510849,
+          0.03525518998503685,
+          0.02680157497525215,
+          0.08231424540281296,
+          0.05062299594283104
+        ],
+        [
+          0.0513475127518177,
+          0.03380830958485603,
+          0.9999998807907104,
+          0.13705627620220184,
+          0.46306318044662476,
+          0.35752594470977783,
+          0.412101149559021,
+          0.4881543815135956,
+          0.43315330147743225,
+          0.38773801922798157,
+          0.4634787142276764
+        ],
+        [
+          -0.03534339368343353,
+          -0.08014737814664841,
+          0.13705627620220184,
+          1.0,
+          0.07843460887670517,
+          0.11183754354715347,
+          0.10046223551034927,
+          0.12248751521110535,
+          0.0920797660946846,
+          0.10870329290628433,
+          0.13684384524822235
+        ],
+        [
+          -0.009259654209017754,
+          0.0187282282859087,
+          0.46306318044662476,
+          0.07843460887670517,
+          1.0,
+          0.5509185791015625,
+          0.5582138895988464,
+          0.5251888036727905,
+          0.5060579180717468,
+          0.38143518567085266,
+          0.5780683755874634
+        ],
+        [
+          0.054164182394742966,
+          0.08124418556690216,
+          0.35752594470977783,
+          0.11183754354715347,
+          0.5509185791015625,
+          1.0,
+          0.5452264547348022,
+          0.5207901000976562,
+          0.4623762369155884,
+          0.3720673620700836,
+          0.4881807565689087
+        ],
+        [
+          0.05140753462910652,
+          0.04056539386510849,
+          0.412101149559021,
+          0.10046223551034927,
+          0.5582138895988464,
+          0.5452264547348022,
+          0.9999999403953552,
+          0.5631829500198364,
+          0.45852458477020264,
+          0.3697180449962616,
+          0.4572734534740448
+        ],
+        [
+          0.059630949050188065,
+          0.03525518998503685,
+          0.4881543815135956,
+          0.12248751521110535,
+          0.5251888036727905,
+          0.5207901000976562,
+          0.5631829500198364,
+          1.0,
+          0.5943931341171265,
+          0.5592343807220459,
+          0.4874630272388458
+        ],
+        [
+          0.03626636415719986,
+          0.02680157497525215,
+          0.43315330147743225,
+          0.0920797660946846,
+          0.5060579180717468,
+          0.4623762369155884,
+          0.45852458477020264,
+          0.5943931341171265,
+          1.0,
+          0.4462817907333374,
+          0.4753069579601288
+        ],
+        [
+          0.042596835643053055,
+          0.08231424540281296,
+          0.38773801922798157,
+          0.10870329290628433,
+          0.38143518567085266,
+          0.3720673620700836,
+          0.3697180449962616,
+          0.5592343807220459,
+          0.4462817907333374,
+          0.9999998807907104,
+          0.4224746525287628
+        ],
+        [
+          0.004789359401911497,
+          0.05062299594283104,
+          0.4634787142276764,
+          0.13684384524822235,
+          0.5780683755874634,
+          0.4881807565689087,
+          0.4572734534740448,
+          0.4874630272388458,
+          0.4753069579601288,
+          0.4224746525287628,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg"
+    },
+    {
+      "name": "02_shirley-maclaine18-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_shirley-maclaine-bat-png.png",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png"
+    },
+    {
+      "name": "04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg"
+    },
+    {
+      "name": "05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg"
+    },
+    {
+      "name": "06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg"
+    },
+    {
+      "name": "07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg"
+    },
+    {
+      "name": "08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg"
+    },
+    {
+      "name": "09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg"
+    },
+    {
+      "name": "10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+      "similarity": 0.03380830958485603
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+      "similarity": -0.08014737814664841
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "similarity": 0.0187282282859087
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "similarity": 0.08124418556690216
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "similarity": 0.04056539386510849
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "similarity": 0.03525518998503685
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "similarity": 0.02680157497525215
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "similarity": 0.08231424540281296
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.05062299594283104
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+      "similarity": 0.13705627620220184
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "similarity": 0.46306318044662476
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "similarity": 0.35752594470977783
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "similarity": 0.412101149559021
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "similarity": 0.4881543815135956
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "similarity": 0.43315330147743225
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "similarity": 0.38773801922798157
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/02_shirley-maclaine18-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4634787142276764
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "similarity": 0.07843460887670517
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "similarity": 0.11183754354715347
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "similarity": 0.10046223551034927
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "similarity": 0.12248751521110535
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "similarity": 0.0920797660946846
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "similarity": 0.10870329290628433
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/03_shirley-maclaine-bat-png.png",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.13684384524822235
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "similarity": 0.5509185791015625
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "similarity": 0.5582138895988464
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "similarity": 0.5251888036727905
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "similarity": 0.5060579180717468
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "similarity": 0.38143518567085266
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.5780683755874634
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "similarity": 0.5452264547348022
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "similarity": 0.5207901000976562
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "similarity": 0.4623762369155884
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "similarity": 0.3720673620700836
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4881807565689087
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "similarity": 0.5631829500198364
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "similarity": 0.45852458477020264
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "similarity": 0.3697180449962616
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4572734534740448
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "similarity": 0.5943931341171265
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "similarity": 0.5592343807220459
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4874630272388458
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "similarity": 0.4462817907333374
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4753069579601288
+    },
+    {
+      "left": "/workspace/input/piven/data/shirley_maclaine/images/09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "right": "/workspace/input/piven/data/shirley_maclaine/images/10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4224746525287628
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_beijoqueiro-beija-shirley-maclaine-caminhada-da-rio-92-1992-chiquito-chaves-jpeg.jpg",
+      "02_shirley-maclaine18-cropped-jpg.jpg",
+      "03_shirley-maclaine-bat-png.png",
+      "04_portrait-of-actress-shirley-maclaine-stock-photo-alamy.jpg",
+      "05_shirley-maclaine-poses-for-a-portrait-on-january-24-1956-news-photo.jpg",
+      "06_portraits-of-shirley-maclaine-from-the-1950s-vintage-everyday.jpg",
+      "07_actress-shirley-maclaine-poses-for-a-photo-on-march-12-1959-in-los.jpg",
+      "08_actress-shirley-maclaine-posing-for-a-portrait-on-november-20-1967-in.jpg",
+      "09_portrait-de-l-actrice-am-ricaine-shirley-maclaine-circa-1970-news.jpg",
+      "10_13-050-shirley-maclaine-photos-high-res-pictures-getty-images.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.03380830958485603,
+        -0.08014737814664841,
+        0.0187282282859087,
+        0.08124418556690216,
+        0.04056539386510849,
+        0.03525518998503685,
+        0.02680157497525215,
+        0.08231424540281296,
+        0.05062299594283104
+      ],
+      [
+        0.03380830958485603,
+        0.9999998807907104,
+        0.13705627620220184,
+        0.46306318044662476,
+        0.35752594470977783,
+        0.412101149559021,
+        0.4881543815135956,
+        0.43315330147743225,
+        0.38773801922798157,
+        0.4634787142276764
+      ],
+      [
+        -0.08014737814664841,
+        0.13705627620220184,
+        1.0,
+        0.07843460887670517,
+        0.11183754354715347,
+        0.10046223551034927,
+        0.12248751521110535,
+        0.0920797660946846,
+        0.10870329290628433,
+        0.13684384524822235
+      ],
+      [
+        0.0187282282859087,
+        0.46306318044662476,
+        0.07843460887670517,
+        1.0,
+        0.5509185791015625,
+        0.5582138895988464,
+        0.5251888036727905,
+        0.5060579180717468,
+        0.38143518567085266,
+        0.5780683755874634
+      ],
+      [
+        0.08124418556690216,
+        0.35752594470977783,
+        0.11183754354715347,
+        0.5509185791015625,
+        1.0,
+        0.5452264547348022,
+        0.5207901000976562,
+        0.4623762369155884,
+        0.3720673620700836,
+        0.4881807565689087
+      ],
+      [
+        0.04056539386510849,
+        0.412101149559021,
+        0.10046223551034927,
+        0.5582138895988464,
+        0.5452264547348022,
+        0.9999999403953552,
+        0.5631829500198364,
+        0.45852458477020264,
+        0.3697180449962616,
+        0.4572734534740448
+      ],
+      [
+        0.03525518998503685,
+        0.4881543815135956,
+        0.12248751521110535,
+        0.5251888036727905,
+        0.5207901000976562,
+        0.5631829500198364,
+        1.0,
+        0.5943931341171265,
+        0.5592343807220459,
+        0.4874630272388458
+      ],
+      [
+        0.02680157497525215,
+        0.43315330147743225,
+        0.0920797660946846,
+        0.5060579180717468,
+        0.4623762369155884,
+        0.45852458477020264,
+        0.5943931341171265,
+        1.0,
+        0.4462817907333374,
+        0.4753069579601288
+      ],
+      [
+        0.08231424540281296,
+        0.38773801922798157,
+        0.10870329290628433,
+        0.38143518567085266,
+        0.3720673620700836,
+        0.3697180449962616,
+        0.5592343807220459,
+        0.4462817907333374,
+        0.9999998807907104,
+        0.4224746525287628
+      ],
+      [
+        0.05062299594283104,
+        0.4634787142276764,
+        0.13684384524822235,
+        0.5780683755874634,
+        0.4881807565689087,
+        0.4572734534740448,
+        0.4874630272388458,
+        0.4753069579601288,
+        0.4224746525287628,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/shirley_maclaine/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/shirley_maclaine/portrait.jpg"
+    }
+  ]
+}

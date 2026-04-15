@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson",
+  "meta_path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "John Joseph Travolta (born February 18, 1954) is an American actor. He began acting in television before transitioning into a leading man in films. His accolades include a Primetime Emmy Award and three Golden Globe Awards, in addition to nominations for two Academy Awards, a British Academy Film Award, and three Screen Actors Guild Awards.\nTravolta came to prominence starring in the sitcom Welcome Back, Kotter (1975\u20131979), followed by a supporting performance in Carrie (1976) and then leading roles in Grease (1978), Urban Cowboy (1980), and Blow Out (1981). He earned nominations for the Academy Award for Best Actor for his roles in Saturday Night Fever (1977) and Pulp Fiction (1994). His other notable films include Get Shorty (1995), Broken Arrow (1996), Michael (1996), Face/Off (1997), A Civil Action (1998), Primary Colors (1998), The General's Daughter (1999), The Punisher (2004), Wild Hogs (2007), Hairspray (2007), Bolt (2008), and Savages (2012).\nTravolta returned to television portraying lawyer Robert Shapiro in the series The People v. O. J. Simpson: American Crime Story. He received an Emmy Award as a producer as well as nominations for a Primetime Emmy Award for Outstanding Supporting Actor in a Limited Series or Movie. He was also Emmy-nominated for his role in the action-comedy web series Die Hart (2021).\nOutside of acting, Travolta has released nine albums, including four singles that have charted on the Billboard Hot 100's Top 40. His albums have typically accompanied films he has starred in, such as Grease: The Original Soundtrack from the Motion Picture (1978), which topped the Billboard 200. Travolta is also a private pilot.\n\nSamuel Leroy Jackson (born December 21, 1948) is an American actor and film producer. He is one of the most widely recognized actors of his generation. The films in which he has appeared have collectively grossed more than $27 billion worldwide, making him the highest-grossing actor of all time. In 2022, he received the Academy Honorary Award as \"a cultural icon whose dynamic work has resonated across genres and generations and audiences worldwide\".\nJackson made his professional theater debut in Mother Courage and Her Children in 1980 at The Public Theater in New York City. From 1981 to 1983, he originated the role of Private Louis Henderson in Charles Fuller's A Soldier's Play off-Broadway. He also originated the role of Boy Willie in August Wilson's The Piano Lesson in 1987 at the Yale Repertory Theatre. He portrayed Martin Luther King Jr. in the Broadway play The Mountaintop (2011). He returned to Broadway in the 2022 revival of The Piano Lesson playing Doaker Charles, for which he received a Tony Award for Best Featured Actor in a Play nomination.\nJackson's early film roles include Coming to America (1988), Juice (1992), True Romance (1993), Jurassic Park (1993), Menace II Society (1993), and Fresh (1994). His early collaborations with Spike Lee led to greater prominence with films such as School Daze (1988), Do the Right Thing (1989), Mo' Better Blues (1990), and Jungle Fever (1991). Jackson's breakout performance was as Jules Winnfield in Quentin Tarantino's crime drama Pulp Fiction (1994), for which he won the BAFTA Award for Best Actor in a Supporting Role and received a nomination for the Academy Award for Best Supporting Actor. He has continued to collaborate with Lee (Oldboy in 2013, Chi-Raq in 2015, and Highest 2 Lowest in 2025) and Tarantino, with the latter including prominent roles in Jackie Brown (1997), Kill Bill: Volume 2 (2004), Django Unchained (2012), and The Hateful Eight (2015).\nHe also gained widespread recognition as the Jedi Mace Windu in the Star Wars prequel trilogy (1999\u20132005), and Nick Fury in 11 Marvel Cinematic Universe films, beginning with Iron Man (2008), as well as in the Disney+ series Secret Invasion (2023) and What If...? (2021\u20132024) and guest-starring in the ABC series Agents of S.H.I.E.L.D. (2013\u20132014). Jackson has provided his voice for Lucius Best / Frozone in the Pixar films The Incredibles (2004) and Incredibles 2 (2018). He has also acted in a number of big-budget films, including Die Hard with a Vengeance (1995), A Time to Kill (1996), Unbreakable (2000), Shaft (2000) and its reboot (2019), XXX (2002\u20132017), Coach Carter (2005), Snakes on a Plane (2006), Kingsman: The Secret Service (2014), Kong: Skull Island (2017), and Glass (2019).",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "yellow background field"
+    },
+    {
+      "index": 1,
+      "element": "long black pompadour hair"
+    },
+    {
+      "index": 2,
+      "element": "brown afro-backed second face"
+    },
+    {
+      "index": 3,
+      "element": "gun-shaped black bar across the center"
+    },
+    {
+      "index": 4,
+      "element": "small earring ring"
+    },
+    {
+      "index": 5,
+      "element": "sharp brown goatee triangle"
+    },
+    {
+      "index": 6,
+      "element": "merged double-face composition"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 2,
+      "element": "vinyl record"
+    },
+    {
+      "index": 3,
+      "element": "stage lights"
+    },
+    {
+      "index": 4,
+      "element": "soundwave ribbon"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "yellow background field",
+      "long black pompadour hair",
+      "brown afro-backed second face",
+      "gun-shaped black bar across the center",
+      "small earring ring",
+      "sharp brown goatee triangle",
+      "merged double-face composition"
+    ],
+    "values": [
+      [
+        -0.02639557048678398,
+        0.10299883782863617,
+        0.09603729099035263,
+        -0.10294413566589355,
+        -0.01911245472729206,
+        -0.11104138195514679,
+        0.0981249064207077
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights",
+      "soundwave ribbon"
+    ],
+    "column_labels": [
+      "yellow background field",
+      "long black pompadour hair",
+      "brown afro-backed second face",
+      "gun-shaped black bar across the center",
+      "small earring ring",
+      "sharp brown goatee triangle",
+      "merged double-face composition"
+    ],
+    "values": [
+      [
+        0.30863335728645325,
+        0.20935885608196259,
+        0.2918685972690582,
+        0.14391456544399261,
+        0.10794544965028763,
+        0.270140677690506,
+        0.28883206844329834
+      ],
+      [
+        0.2968943119049072,
+        0.17764124274253845,
+        0.26581940054893494,
+        0.1470457911491394,
+        0.2262263298034668,
+        0.21379858255386353,
+        0.222926527261734
+      ],
+      [
+        0.0909787118434906,
+        0.07763297110795975,
+        0.06210528686642647,
+        0.08072464168071747,
+        0.09311617165803909,
+        -0.03915237635374069,
+        0.07773356884717941
+      ],
+      [
+        0.2812102735042572,
+        0.030959580093622208,
+        0.022531211376190186,
+        0.068380206823349,
+        0.09734572470188141,
+        0.07772766053676605,
+        0.10286068916320801
+      ],
+      [
+        0.0984731912612915,
+        0.10012039542198181,
+        0.06663292646408081,
+        0.1955597996711731,
+        0.268428236246109,
+        0.14772559702396393,
+        0.10795086622238159
+      ]
+    ]
+  }
+}

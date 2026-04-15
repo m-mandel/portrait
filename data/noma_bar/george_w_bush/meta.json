@@ -1,0 +1,75 @@
+{
+  "name": "george w bush",
+  "bio": "George Walker Bush (born July 6, 1946) is an American politician, businessman, and former United States Air Force officer who was the 43rd president of the United States, serving from 2001 to 2009. The eldest son of George H. W. Bush, the 41st president of the United States, he was the governor of Texas from 1995 to 2000.\nBorn into the prominent Bush family in New Haven, Connecticut, Bush flew warplanes in the Texas Air National Guard in his twenties. After graduating from Harvard Business School in 1975, he worked in the oil industry. He later co-owned the Major League Baseball team Texas Rangers before being elected governor of Texas in 1994. As governor, Bush successfully sponsored legislation for tort reform, increased education funding, set higher standards for schools, and reformed the criminal justice system. He also helped make Texas the leading producer of wind-generated electricity in the United States. In the 2000 presidential election, he defeated Democratic incumbent vice president Al Gore while losing the popular vote after a narrow and contested United States Electoral College win, which involved the Supreme Court decision Bush v. Gore to stop a recount in Florida.\nIn his first term, Bush signed a major tax-cut program and an education-reform bill, the No Child Left Behind Act. He pushed for socially conservative efforts such as the Partial-Birth Abortion Ban Act, restrictions on same-sex marriage, and faith-based initiatives. He also initiated the President's Emergency Plan for AIDS Relief, in 2003, to address the global AIDS epidemic. The September 11 attacks during 2001 decisively reshaped his administration, resulting in the start of the war on terror and the creation of the Department of Homeland Security. Bush ordered the invasion of Afghanistan in an effort to overthrow the Taliban, destroy al-Qaeda, and capture Osama bin Laden. He signed the Patriot Act to authorize surveillance of suspected terrorists. He also ordered the 2003 invasion of Iraq to overthrow Saddam Hussein's regime, falsely claiming it possessed weapons of mass destruction (WMDs) and had ties with al-Qaeda. Bush later signed the Medicare Modernization Act, which created Medicare Part D. In 2004, Bush was re-elected president in a close race, beating Democratic opponent John Kerry and winning the popular vote.\nDuring his second term, Bush made various free trade agreements, appointed John Roberts and Samuel Alito to the Supreme Court, and sought major changes to Social Security and immigration laws, with both efforts failing in Congress. He was widely criticized for his administration's handling of Hurricane Katrina and revelations of torture against detainees at Abu Ghraib prison in Iraq. Amid his unpopularity, the Democrats regained control of Congress in the 2006 elections. Meanwhile, the Afghanistan and Iraq wars continued. In January 2007, Bush launched a surge of troops in Iraq. As his presidency came to a close, the country experienced a financial crisis, resulting the Great Recession, prompting his administration and Congress to push through economic programs intended to preserve the country's financial system, including the Troubled Asset Relief Program.\nAfter his second term, he returned to Texas, and has maintained a low public profile there. At various points in his presidency, Bush was among both the most popular and the most unpopular presidents in U.S. history. He received the highest recorded approval ratings in the wake of the September 11 attacks, and one of the lowest ratings during the 2008 financial crisis. Bush left office as one of the most unpopular U.S. presidents; however, public opinion of him has improved in his post-presidency. Scholars and historians rank Bush as a below-average president.",
+  "bio_sources": [
+    {
+      "subject": "george w bush",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/George_W._Bush"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "white background field",
+      "shape_type": "rectangle",
+      "meaning": "leaves the central symbol exposed and isolated"
+    },
+    {
+      "element": "single-line head outline",
+      "shape_type": "line",
+      "meaning": "reduces him to a simplified public persona"
+    },
+    {
+      "element": "broad rectangular hairline",
+      "shape_type": "geometric shape",
+      "meaning": "signals his familiar presidential silhouette"
+    },
+    {
+      "element": "black airplane shape at the center",
+      "shape_type": "symbol",
+      "meaning": "points to the aviation and war imagery defining his presidency"
+    },
+    {
+      "element": "curved ear loops",
+      "shape_type": "line",
+      "meaning": "make the face feel like a loose political caricature"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "cell door",
+      "visual_representation": "a heavy rectangular door with a small viewing slot",
+      "category": "place",
+      "relevance": "The biography explicitly refers to prison or confinement.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "ballot box",
+      "visual_representation": "a rectangular box with a narrow slot at the top",
+      "category": "object",
+      "relevance": "Elections and public mandate belong to the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "state seal",
+      "visual_representation": "a formal circular emblem with a crisp border",
+      "category": "symbol",
+      "relevance": "Government institutions and official authority are part of the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "flag field",
+      "visual_representation": "a folded field of striped or blocked civic color bands",
+      "category": "symbol",
+      "relevance": "The biography supports a public identity tied to state ceremony and leadership.",
+      "grounding": "inferred"
+    }
+  ]
+}

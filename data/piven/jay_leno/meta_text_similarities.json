@@ -1,0 +1,88 @@
+{
+  "folder": "/workspace/input/piven/data/jay_leno",
+  "meta_path": "/workspace/input/piven/data/jay_leno/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "James Douglas Muir Leno ( LEN-oh; born April 28, 1950) is an American television host,  comedian, and writer. After doing stand-up comedy for years, Leno was chosen in 1992 to replace Johnny Carson as the host of NBC's The Tonight Show; Leno hosted The Tonight Show until September 2009 when Conan O'Brien took over as host and Leno started a primetime talk show, The Jay Leno Show, which aired weeknights at 10:00 p.m. ET, also on NBC. O'Brien turned down NBC's offer to have Leno host a half hour monologue show before The Tonight Show to boost ratings amid reported viewership diminishing, which sparked the 2010 Tonight Show conflict that resulted in Leno's returning to hosting the show on March 1, 2010. He hosted his last episode of his second tenure on February 6, 2014. That year, he was inducted into the Television Hall of Fame. From 2014 to 2022, he hosted Jay Leno's Garage, and from 2021 to 2023, hosted the revival of You Bet Your Life.\nLeno writes a regular column in Popular Mechanics showcasing his car collection and giving automotive advice. He also writes occasional \"Motormouth\" articles for The Sunday Times.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "pillow"
+    },
+    {
+      "index": 1,
+      "element": "fabric"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "studio microphone"
+    },
+    {
+      "index": 1,
+      "element": "signal waves"
+    },
+    {
+      "index": 2,
+      "element": "camera body"
+    },
+    {
+      "index": 3,
+      "element": "screen frame"
+    },
+    {
+      "index": 4,
+      "element": "headline band"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "pillow",
+      "fabric"
+    ],
+    "values": [
+      [
+        0.06570738554000854,
+        0.012579601258039474
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "studio microphone",
+      "signal waves",
+      "camera body",
+      "screen frame",
+      "headline band"
+    ],
+    "column_labels": [
+      "pillow",
+      "fabric"
+    ],
+    "values": [
+      [
+        0.029948659241199493,
+        0.05454932153224945
+      ],
+      [
+        0.07663565129041672,
+        0.14869394898414612
+      ],
+      [
+        0.2368442416191101,
+        0.27391549944877625
+      ],
+      [
+        0.13318178057670593,
+        0.16596534848213196
+      ],
+      [
+        0.2300887107849121,
+        0.23445259034633636
+      ]
+    ]
+  }
+}

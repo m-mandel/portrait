@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/princess_diana_spencer",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/princess_diana_spencer/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+        "similarity": 0.05497699975967407
+      },
+      {
+        "index": 1,
+        "name": "03_princess-diana-sri-chinmoy-jpg.jpg",
+        "path": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg",
+        "similarity": 0.08386576175689697
+      },
+      {
+        "index": 2,
+        "name": "04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+        "path": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+        "similarity": 0.027377724647521973
+      },
+      {
+        "index": 3,
+        "name": "05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+        "path": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+        "similarity": 0.05047723650932312
+      },
+      {
+        "index": 4,
+        "name": "06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+        "path": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+        "similarity": 0.0623200424015522
+      },
+      {
+        "index": 5,
+        "name": "07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+        "path": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+        "similarity": 0.027832021936774254
+      },
+      {
+        "index": 6,
+        "name": "08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+        "path": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+        "similarity": 0.07115320861339569
+      },
+      {
+        "index": 7,
+        "name": "09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+        "path": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+        "similarity": -0.01675473339855671
+      },
+      {
+        "index": 8,
+        "name": "10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+        "path": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+        "similarity": 0.05181510001420975
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.05497699975967407,
+          0.08386576175689697,
+          0.027377724647521973,
+          0.05047723650932312,
+          0.0623200424015522,
+          0.027832021936774254,
+          0.07115320861339569,
+          -0.01675473339855671,
+          0.05181510001420975
+        ],
+        [
+          0.05497699975967407,
+          1.0,
+          0.023070398718118668,
+          0.3845164477825165,
+          0.39973700046539307,
+          0.43898820877075195,
+          0.5020720958709717,
+          -0.01893528923392296,
+          0.08543043583631516,
+          0.4157615900039673
+        ],
+        [
+          0.08386576175689697,
+          0.023070398718118668,
+          1.0,
+          0.02864936552941799,
+          0.0117568951100111,
+          0.048296719789505005,
+          0.022351277992129326,
+          0.011821621097624302,
+          -0.05177667364478111,
+          0.07076076418161392
+        ],
+        [
+          0.027377724647521973,
+          0.3845164477825165,
+          0.02864936552941799,
+          0.9999999403953552,
+          0.21731288731098175,
+          0.37140092253685,
+          0.36023202538490295,
+          0.07872384786605835,
+          -0.005618689581751823,
+          0.3933430314064026
+        ],
+        [
+          0.05047723650932312,
+          0.39973700046539307,
+          0.0117568951100111,
+          0.21731288731098175,
+          0.9999999403953552,
+          0.5129721760749817,
+          0.5372853875160217,
+          -0.029630333185195923,
+          0.12550213932991028,
+          0.5367535352706909
+        ],
+        [
+          0.0623200424015522,
+          0.43898820877075195,
+          0.048296719789505005,
+          0.37140092253685,
+          0.5129721760749817,
+          1.0000001192092896,
+          0.4543217122554779,
+          0.04700203239917755,
+          0.10435902327299118,
+          0.5163271427154541
+        ],
+        [
+          0.027832021936774254,
+          0.5020720958709717,
+          0.022351277992129326,
+          0.36023202538490295,
+          0.5372853875160217,
+          0.4543217122554779,
+          0.9999998807907104,
+          0.030318863689899445,
+          0.18126904964447021,
+          0.5169951915740967
+        ],
+        [
+          0.07115320861339569,
+          -0.01893528923392296,
+          0.011821621097624302,
+          0.07872384786605835,
+          -0.029630333185195923,
+          0.04700203239917755,
+          0.030318863689899445,
+          1.0000001192092896,
+          0.0830470621585846,
+          0.045537061989307404
+        ],
+        [
+          -0.01675473339855671,
+          0.08543043583631516,
+          -0.05177667364478111,
+          -0.005618689581751823,
+          0.12550213932991028,
+          0.10435902327299118,
+          0.18126904964447021,
+          0.0830470621585846,
+          1.0,
+          0.10128378123044968
+        ],
+        [
+          0.05181510001420975,
+          0.4157615900039673,
+          0.07076076418161392,
+          0.3933430314064026,
+          0.5367535352706909,
+          0.5163271427154541,
+          0.5169951915740967,
+          0.045537061989307404,
+          0.10128378123044968,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_princess-diana-sri-chinmoy-jpg.jpg",
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg"
+    },
+    {
+      "name": "04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg"
+    },
+    {
+      "name": "05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg"
+    },
+    {
+      "name": "06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg"
+    },
+    {
+      "name": "07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg"
+    },
+    {
+      "name": "08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg"
+    },
+    {
+      "name": "09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg"
+    },
+    {
+      "name": "10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg",
+      "similarity": 0.023070398718118668
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "similarity": 0.3845164477825165
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "similarity": 0.39973700046539307
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "similarity": 0.43898820877075195
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "similarity": 0.5020720958709717
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "similarity": -0.01893528923392296
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "similarity": 0.08543043583631516
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+      "similarity": 0.4157615900039673
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "similarity": 0.02864936552941799
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "similarity": 0.0117568951100111
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "similarity": 0.048296719789505005
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "similarity": 0.022351277992129326
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "similarity": 0.011821621097624302
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "similarity": -0.05177667364478111
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/03_princess-diana-sri-chinmoy-jpg.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+      "similarity": 0.07076076418161392
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "similarity": 0.21731288731098175
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "similarity": 0.37140092253685
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "similarity": 0.36023202538490295
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "similarity": 0.07872384786605835
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "similarity": -0.005618689581751823
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+      "similarity": 0.3933430314064026
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "similarity": 0.5129721760749817
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "similarity": 0.5372853875160217
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "similarity": -0.029630333185195923
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "similarity": 0.12550213932991028
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+      "similarity": 0.5367535352706909
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "similarity": 0.4543217122554779
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "similarity": 0.04700203239917755
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "similarity": 0.10435902327299118
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+      "similarity": 0.5163271427154541
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "similarity": 0.030318863689899445
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "similarity": 0.18126904964447021
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+      "similarity": 0.5169951915740967
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "similarity": 0.0830470621585846
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+      "similarity": 0.045537061989307404
+    },
+    {
+      "left": "/workspace/input/piven/data/princess_diana_spencer/images/09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "right": "/workspace/input/piven/data/princess_diana_spencer/images/10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg",
+      "similarity": 0.10128378123044968
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_diana-princess-of-wales-1997-2-cropped-jpg.jpg",
+      "03_princess-diana-sri-chinmoy-jpg.jpg",
+      "04_55-best-portrait-of-a-princess-images-on-pinterest-wales-diana.jpg",
+      "05_tbt-beautiful-women-of-history-princess-diana-princess-diana-photos.jpg",
+      "06_100-princess-diana-wallpapers-wallpapers-com.jpg",
+      "07_first-spencer-girl-born-since-princess-diana-s-death-named-after.jpg",
+      "08_charles-spencer-shares-portrait-of-grandmother-and-she-bears-a.jpg",
+      "09_princess-diana-s-twin-nieces-are-their-rarely-seen-mother-s-double-in.jpg",
+      "10_portrait-of-h-r-h-princess-diana-of-wales-n-e-spencer-of-the-earls.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.023070398718118668,
+        0.3845164477825165,
+        0.39973700046539307,
+        0.43898820877075195,
+        0.5020720958709717,
+        -0.01893528923392296,
+        0.08543043583631516,
+        0.4157615900039673
+      ],
+      [
+        0.023070398718118668,
+        1.0,
+        0.02864936552941799,
+        0.0117568951100111,
+        0.048296719789505005,
+        0.022351277992129326,
+        0.011821621097624302,
+        -0.05177667364478111,
+        0.07076076418161392
+      ],
+      [
+        0.3845164477825165,
+        0.02864936552941799,
+        0.9999999403953552,
+        0.21731288731098175,
+        0.37140092253685,
+        0.36023202538490295,
+        0.07872384786605835,
+        -0.005618689581751823,
+        0.3933430314064026
+      ],
+      [
+        0.39973700046539307,
+        0.0117568951100111,
+        0.21731288731098175,
+        0.9999999403953552,
+        0.5129721760749817,
+        0.5372853875160217,
+        -0.029630333185195923,
+        0.12550213932991028,
+        0.5367535352706909
+      ],
+      [
+        0.43898820877075195,
+        0.048296719789505005,
+        0.37140092253685,
+        0.5129721760749817,
+        1.0000001192092896,
+        0.4543217122554779,
+        0.04700203239917755,
+        0.10435902327299118,
+        0.5163271427154541
+      ],
+      [
+        0.5020720958709717,
+        0.022351277992129326,
+        0.36023202538490295,
+        0.5372853875160217,
+        0.4543217122554779,
+        0.9999998807907104,
+        0.030318863689899445,
+        0.18126904964447021,
+        0.5169951915740967
+      ],
+      [
+        -0.01893528923392296,
+        0.011821621097624302,
+        0.07872384786605835,
+        -0.029630333185195923,
+        0.04700203239917755,
+        0.030318863689899445,
+        1.0000001192092896,
+        0.0830470621585846,
+        0.045537061989307404
+      ],
+      [
+        0.08543043583631516,
+        -0.05177667364478111,
+        -0.005618689581751823,
+        0.12550213932991028,
+        0.10435902327299118,
+        0.18126904964447021,
+        0.0830470621585846,
+        1.0,
+        0.10128378123044968
+      ],
+      [
+        0.4157615900039673,
+        0.07076076418161392,
+        0.3933430314064026,
+        0.5367535352706909,
+        0.5163271427154541,
+        0.5169951915740967,
+        0.045537061989307404,
+        0.10128378123044968,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/princess_diana_spencer/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/princess_diana_spencer/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/princess_diana_spencer/images/02_lady-diana-spencer-later-princess-of-wales-1961-1997-lived-here-1979-1981-jpg.jpg",
+      "error": "No face detected in /workspace/input/piven/data/princess_diana_spencer/images/02_lady-diana-spencer-later-princess-of-wales-1961-1997-lived-here-1979-1981-jpg.jpg"
+    }
+  ]
+}

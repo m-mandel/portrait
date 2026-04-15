@@ -1,0 +1,80 @@
+{
+  "name": "Elizabeth Taylor",
+  "bio": "Dame Elizabeth Rosemond Taylor (February 27, 1932 – March 23, 2011) was a British and American actress. She began her career as a child actress in the early 1940s and was one of the most popular stars of classical Hollywood cinema in the 1950s. She then became the world's highest-paid movie star in the 1960s, remaining a well-known public figure for the rest of her life. In 1999, the American Film Institute ranked her seventh on its list of the greatest female screen legends.\nBorn in London to socially prominent American parents, Taylor moved with her family to Los Angeles in 1939 at the age of seven. She made her acting debut with a minor role in the Universal Pictures film There's One Born Every Minute (1942), but the studio ended her contract after a year. She was then signed by MGM and became a popular teen star after appearing in National Velvet (1944). She transitioned to mature roles in the 1950s, starring in the comedy Father of the Bride (1950) and receiving critical acclaim for her performance in the drama A Place in the Sun (1951). One of MGM's most bankable stars, she starred in the historical adventure epic Ivanhoe (1952) with Robert Taylor and Joan Fontaine. Taylor resented the studio's control and many casting choices. \nShe wished to end her career in the early 1950s but began receiving more enjoyable roles. The epic drama Giant (1956) followed. Taylor also starred in several critically and commercially successful films in the following years. These included two film adaptations of plays by Tennessee Williams: Cat on a Hot Tin Roof (1958) and Suddenly, Last Summer (1959); Taylor won a Golden Globe for Best Actress for the latter. Although she disliked her role as a call girl in BUtterfield 8 (1960), her last film for MGM, she won the Academy Award for Best Actress for the performance. \nHer best-known role was in Cleopatra (1963), which received multiple Oscar nominations and a lavish production budget and schedule. Taylor's acting career began to decline in the late 1960s, although she continued to star in films until the mid-1970s. Taylor married her Cleopatra co-star Richard Burton, together with whom she starred in 11 films, including The V.I.P.s (1963), The Sandpiper (1965), The Taming of the Shrew (1967), and Who's Afraid of Virginia Woolf? (1966). Taylor received the best reviews of her career for Woolf, winning her second Academy Award and several other awards for her performance. \nTaylor's tumultuous private life has been subject to intense media scrutiny and controversy, especially her marriages to Eddie Fisher and Richard Burton, with Taylor starting the relationship with the latter while both were married to other people. She and Burton, dubbed \"Liz and Dick\", divorced in 1974 but reconciled soon after, remarrying in 1975. The second marriage ended in divorce in 1976, after which she focused on supporting the career of her sixth husband, United States Senator John Warner. In the 1980s, she acted in her first substantial stage roles and in several television films and series. She became the second celebrity to launch a perfume brand after Sophia Loren. Taylor was one of the first celebrities to take part in HIV/AIDS activism. She co-founded the American Foundation for AIDS Research in 1985 and the Elizabeth Taylor AIDS Foundation in 1991. From the early 1990s until her death, she dedicated her time to philanthropy, for which she received several accolades, including the Presidential Citizens Medal in 2001.",
+  "bio_sources": [
+    {
+      "subject": "Elizabeth Taylor",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Elizabeth_Taylor"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "feathers",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing Elizabeth Taylor's old-Hollywood glamour and ornament."
+    },
+    {
+      "element": "buttons",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen Elizabeth Taylor's old-Hollywood glamour and ornament."
+    },
+    {
+      "element": "pearl earrings",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen Elizabeth Taylor's old-Hollywood glamour and ornament."
+    },
+    {
+      "element": "bead necklace",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen Elizabeth Taylor's old-Hollywood glamour and ornament."
+    },
+    {
+      "element": "flowers",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing Elizabeth Taylor's old-Hollywood glamour and ornament."
+    },
+    {
+      "element": "glitter",
+      "shape_type": "cosmetic object",
+      "meaning": "pushes the portrait toward glamour, performance, or persona in line with Elizabeth Taylor's old-Hollywood glamour and ornament."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen production define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "film strip",
+      "visual_representation": "a narrow strip with evenly spaced rectangular frames",
+      "category": "object",
+      "relevance": "Cinema and edited moving images belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "podium block",
+      "visual_representation": "a flat lectern-like rectangle or pedestal",
+      "category": "object",
+      "relevance": "Public office and leadership are associated with the subject’s political world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "clapboard",
+      "visual_representation": "a hinged slate with diagonal stripes on its top edge",
+      "category": "object",
+      "relevance": "Film sets and screen production are strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

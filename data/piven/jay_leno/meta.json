@@ -1,0 +1,60 @@
+{
+  "name": "jay leno",
+  "bio": "James Douglas Muir Leno ( LEN-oh; born April 28, 1950) is an American television host,  comedian, and writer. After doing stand-up comedy for years, Leno was chosen in 1992 to replace Johnny Carson as the host of NBC's The Tonight Show; Leno hosted The Tonight Show until September 2009 when Conan O'Brien took over as host and Leno started a primetime talk show, The Jay Leno Show, which aired weeknights at 10:00 p.m. ET, also on NBC. O'Brien turned down NBC's offer to have Leno host a half hour monologue show before The Tonight Show to boost ratings amid reported viewership diminishing, which sparked the 2010 Tonight Show conflict that resulted in Leno's returning to hosting the show on March 1, 2010. He hosted his last episode of his second tenure on February 6, 2014. That year, he was inducted into the Television Hall of Fame. From 2014 to 2022, he hosted Jay Leno's Garage, and from 2021 to 2023, hosted the revival of You Bet Your Life.\nLeno writes a regular column in Popular Mechanics showcasing his car collection and giving automotive advice. He also writes occasional \"Motormouth\" articles for The Sunday Times.",
+  "bio_sources": [
+    {
+      "subject": "jay leno",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Jay_Leno"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "pillow",
+      "shape_type": "medicine object",
+      "meaning": "introduces a medical or pharmaceutical association into jay leno's late-night affability and a signature chin-forward look."
+    },
+    {
+      "element": "fabric",
+      "shape_type": "textile object",
+      "meaning": "builds the portrait's costume and surface while reinforcing jay leno's late-night affability and a signature chin-forward look."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "studio microphone",
+      "visual_representation": "a suspended microphone with a visible cable or stand",
+      "category": "object",
+      "relevance": "Hosting, presenting, or broadcasting are central to the subject’s media world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "signal waves",
+      "visual_representation": "radiating curved lines spreading from a single point",
+      "category": "pattern",
+      "relevance": "Transmission and broadcast media belong to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen production define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "screen frame",
+      "visual_representation": "a bright rectangular frame with a clear border",
+      "category": "structure",
+      "relevance": "Television and mediated public communication are part of the subject’s environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "headline band",
+      "visual_representation": "stacked horizontal bands like captions or headline strips",
+      "category": "pattern",
+      "relevance": "The biography supports a media persona built around public communication.",
+      "grounding": "inferred"
+    }
+  ]
+}

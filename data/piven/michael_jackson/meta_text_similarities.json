@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/michael_jackson",
+  "meta_path": "/workspace/input/piven/data/michael_jackson/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Michael Joseph Jackson (August 29, 1958 \u2013 June 25, 2009) was an American singer, songwriter, dancer, and philanthropist. Dubbed the \"King of Pop\", he is widely regarded as one of the most culturally significant figures of the 20th century. Over a four-decade career, his musical achievements broke American racial barriers and made him a dominant figure worldwide. Through his songs, concerts, and fashion, he proliferated visual performance for artists in popular music, popularizing street dance moves such as the moonwalk, the robot, and the anti-gravity lean. Jackson is often deemed the greatest entertainer of all time.\nThe eighth child of the Jackson family, Jackson made his public debut at age six as the lead singer of the Jackson 5, one of Motown's most successful acts. He rose to solo stardom with the album Off the Wall (1979) and achieved unprecedented global success with Thriller (1982), the best-selling album in history. Its short film-style music videos for \"Thriller\", \"Beat It\", and \"Billie Jean\" redefined the medium as an art form. Jackson followed it with Bad (1987), the first album to produce five US Billboard Hot 100 number-one singles: \"I Just Can't Stop Loving You\", \"Bad\", \"The Way You Make Me Feel\", \"Man in the Mirror\", and \"Dirty Diana\". His albums Dangerous (1991) and HIStory (1995) spawned the respective US number-one singles \"Black or White\" and \"You Are Not Alone\"; the latter was the first song to debut atop the Hot 100. Jackson's final album, Invincible (2001), is the most expensive album ever made.\nFrom the mid-1980s, Jackson came under public scrutiny due to changes in his appearance, relationships, behavior, and lifestyle. He was accused of sexually abusing the child of a family friend in 1993. In 2005, Jackson was tried and acquitted of further such allegations and other charges. In 2009, while preparing for This Is It, a series of comeback concerts, he died from an overdose of propofol administered by his personal physician Conrad Murray, who was convicted of involuntary manslaughter in 2011. Jackson's death triggered global reactions, creating unprecedented surges of internet traffic and a spike in his music sales. His televised memorial service, held at the Staples Center in Los Angeles, is estimated to have been viewed by more than 2.5 billion people.\nJackson is one of the best-selling music artists of all time, with estimated sales of over 500 million records. He is one of only three recording artists, along with Paul McCartney and Phil Collins, who have sold over 100 million records both as solo artists and separately as principal members of a band. He holds a joint-record for a male solo artist with 13 Billboard Hot 100 number-one singles and is the only artist to have a top-ten single in six decades. One of the most-awarded music artists in history, Jackson received 13 Grammy Awards, the Grammy Legend Award, and the Grammy Lifetime Achievement Award; 26 American Music Awards; 12 World Music Awards; 8 MTV Video Music Awards; 6 Brit Awards; and 3 presidential honors. He was inducted into numerous halls of fame, including the Rock and Roll Hall of Fame twice, the Songwriters Hall of Fame, and the Dance Hall of Fame. Having donated an estimated $500 million, Jackson is credited with setting a standard for celebrity charity. In 2024, half of his music catalogue was sold to Sony for $600 million, the largest music acquisition for a single artist.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "hat"
+    },
+    {
+      "index": 1,
+      "element": "glove"
+    },
+    {
+      "index": 2,
+      "element": "cords"
+    },
+    {
+      "index": 3,
+      "element": "shirt"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 2,
+      "element": "vinyl record"
+    },
+    {
+      "index": 3,
+      "element": "ball seam"
+    },
+    {
+      "index": 4,
+      "element": "stage lights"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "hat",
+      "glove",
+      "cords",
+      "shirt"
+    ],
+    "values": [
+      [
+        -0.08277900516986847,
+        -0.01991036906838417,
+        0.048503972589969635,
+        0.026069816201925278
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "microphone silhouette",
+      "vinyl record",
+      "ball seam",
+      "stage lights"
+    ],
+    "column_labels": [
+      "hat",
+      "glove",
+      "cords",
+      "shirt"
+    ],
+    "values": [
+      [
+        0.2668572664260864,
+        0.10631318390369415,
+        0.11592048406600952,
+        0.2845800220966339
+      ],
+      [
+        0.21213597059249878,
+        0.09620034694671631,
+        0.17492620646953583,
+        0.1520644575357437
+      ],
+      [
+        -0.006349503993988037,
+        0.13686679303646088,
+        0.17767851054668427,
+        0.1687507927417755
+      ],
+      [
+        0.2716861963272095,
+        0.3970490097999573,
+        0.13958829641342163,
+        0.30230700969696045
+      ],
+      [
+        0.1453453153371811,
+        0.04322701320052147,
+        0.18463727831840515,
+        0.12031103670597076
+      ]
+    ]
+  }
+}

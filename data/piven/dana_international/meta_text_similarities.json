@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/piven/data/dana_international",
+  "meta_path": "/workspace/input/piven/data/dana_international/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Sharon Cohen (Hebrew: \u05e9\u05e8\u05d5\u05df \u05db\u05d4\u05df; born 2 February 1969), professionally known as Dana International (Hebrew: \u05d3\u05e0\u05d4 \u05d0\u05d9\u05e0\u05d8\u05e8\u05e0\u05e9\u05d9\u05d5\u05e0\u05dc), is an Israeli pop singer. She has released eight albums and three additional compilation albums. She was the winner of the Eurovision Song Contest 1998 in Birmingham with the song \"Diva\".\nAfter consolidating her initial commercial success with the albums Umpatampa (1994) and Maganuna (1996), she was selected in 1998 to represent Israel in the Eurovision Song Contest with her song \"Diva\". Placing first at the international competition, she came to public attention throughout Europe.\nDana following up this success with the albums Free (1999), Yoter VeYoter (2001), HaHalom HaEfshari (2002) and Hakol Ze Letova (2007), she represented Israel in Eurovision a second time in 2011, this time with the song \"Ding Dong\", which failed to make it into the final. The same year, she became a judge on the Israeli television music talent contest Kokhav Nolad.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "combs"
+    },
+    {
+      "index": 1,
+      "element": "lipstick"
+    },
+    {
+      "index": 2,
+      "element": "heart-shaped candy"
+    },
+    {
+      "index": 3,
+      "element": "plastic doll arms"
+    },
+    {
+      "index": 4,
+      "element": "feathers"
+    },
+    {
+      "index": 5,
+      "element": "beads"
+    },
+    {
+      "index": 6,
+      "element": "sequined fabric"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "star trophy"
+    },
+    {
+      "index": 1,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 2,
+      "element": "vinyl record"
+    },
+    {
+      "index": 3,
+      "element": "stage lights"
+    },
+    {
+      "index": 4,
+      "element": "spotlight oval"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "combs",
+      "lipstick",
+      "heart-shaped candy",
+      "plastic doll arms",
+      "feathers",
+      "beads",
+      "sequined fabric"
+    ],
+    "values": [
+      [
+        0.010346664115786552,
+        0.07153500616550446,
+        -0.011926006525754929,
+        0.13791275024414062,
+        0.03917285427451134,
+        0.06512583047151566,
+        -0.015832625329494476
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "star trophy",
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights",
+      "spotlight oval"
+    ],
+    "column_labels": [
+      "combs",
+      "lipstick",
+      "heart-shaped candy",
+      "plastic doll arms",
+      "feathers",
+      "beads",
+      "sequined fabric"
+    ],
+    "values": [
+      [
+        0.1486186981201172,
+        0.22096382081508636,
+        0.28782373666763306,
+        0.3432581424713135,
+        0.2885925769805908,
+        0.32323628664016724,
+        0.1827799379825592
+      ],
+      [
+        0.11822131276130676,
+        0.28808459639549255,
+        0.013483749702572823,
+        0.17728430032730103,
+        0.11214643716812134,
+        0.04901507496833801,
+        0.253459095954895
+      ],
+      [
+        0.03974157199263573,
+        0.06366731971502304,
+        0.05813195928931236,
+        0.18494290113449097,
+        0.03568129241466522,
+        0.19245998561382294,
+        0.1979098618030548
+      ],
+      [
+        0.06962075084447861,
+        0.15272119641304016,
+        0.06623554229736328,
+        0.2150927633047104,
+        0.0926022157073021,
+        0.1735481321811676,
+        0.08777742087841034
+      ],
+      [
+        0.10431303083896637,
+        0.28112250566482544,
+        0.2073364555835724,
+        0.019656004384160042,
+        0.18702049553394318,
+        0.1697257161140442,
+        0.11877439171075821
+      ]
+    ]
+  }
+}

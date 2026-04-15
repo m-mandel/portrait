@@ -1,0 +1,75 @@
+{
+  "name": "Luciano Pavarotti",
+  "bio": "Luciano Pavarotti (12 October 1935 – 6 September 2007) was an Italian operatic tenor who during the late part of his career crossed over into popular music, eventually becoming one of the most acclaimed tenors of all time. He made numerous recordings of complete operas and individual arias, gaining worldwide fame for his tone and the nickname \"King of the High Cs\".\nAs one of the Three Tenors, who performed their first concert during the 1990 FIFA World Cup before a global audience, Pavarotti became well known for his televised concerts and media appearances. From the beginning of his professional career as a tenor in 1961 in Italy to his final performance of \"Nessun dorma\" at the 2006 Winter Olympics in Turin, Pavarotti was at his best in bel canto operas, pre-Aida Verdi roles, and Puccini works such as La bohème, Tosca, Turandot and Madama Butterfly. He sold more than 100 million records, and the first Three Tenors recording became the best-selling classical album of all time. Pavarotti was also noted for his charity work on behalf of refugees and the Red Cross, amongst others. He was appointed a Knight Grand Cross of the Order of Merit of the Italian Republic in 1988, and died from pancreatic cancer on 6 September 2007.",
+  "bio_sources": [
+    {
+      "subject": "Luciano Pavarotti",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Luciano_Pavarotti"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "sky-blue background field",
+      "shape_type": "rectangle",
+      "meaning": "makes the black form read as open air and resonant space"
+    },
+    {
+      "element": "enormous black balloon-like oval",
+      "shape_type": "circle",
+      "meaning": "suggests the scale and fullness of his voice"
+    },
+    {
+      "element": "tiny singer face at the bottom",
+      "shape_type": "symbol",
+      "meaning": "turns him into a comic but affectionate performing figure"
+    },
+    {
+      "element": "white triangular collar",
+      "shape_type": "triangle",
+      "meaning": "references formal concert attire"
+    },
+    {
+      "element": "long hanging string line",
+      "shape_type": "line",
+      "meaning": "extends the note-like floating quality of the image"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "soundwave ribbon",
+      "visual_representation": "a flowing band of rising and falling wave peaks",
+      "category": "pattern",
+      "relevance": "The biography supports a public identity built around sound and performance.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "football",
+      "visual_representation": "a stitched ball marked by dark geometric panels",
+      "category": "object",
+      "relevance": "Professional football is central to the subject’s sporting world.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

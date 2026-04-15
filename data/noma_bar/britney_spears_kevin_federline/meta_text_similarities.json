@@ -1,0 +1,124 @@
+{
+  "folder": "/workspace/input/noma_bar/data/britney_spears_kevin_federline",
+  "meta_path": "/workspace/input/noma_bar/data/britney_spears_kevin_federline/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Britney Jean Spears (born December 2, 1981) is an American singer. Referred to as the \"Princess of Pop\", she is widely regarded as one of the most influential entertainers of the 21st century. Her impact on pop music\u2014particularly her role in reviving teen pop\u2014and energetic stage performances contributed to her widespread success.\nSpears began her professional career in 1992 as a cast member for the musical Ruthless! and the final two seasons of The All-New Mickey Mouse Club television series before signing with Jive Records in 1997. She rose to prominence with \"...Baby One More Time\", which became a global chart-topper and one of the best-selling singles in history. Her first two albums\u2014...Baby One More Time (1999) and Oops!... I Did It Again (2000)\u2014rank among the best-selling of all time. Her third album, Britney (2001), is one of the best-selling albums of the 21st century. After starring in the films Longshot (2001)  and Crossroads (2002), she released the albums In the Zone (2003) and Blackout (2007). The former spawned the top-ten single \"Toxic\", which won the Grammy Award for Best Dance/Electronic Recording.\nFacing lifelong public scrutiny and struggles with mental illness, Spears was placed under a controversial conservatorship in 2008. During this period, she recorded Circus (2008) and Femme Fatale (2011) for Jive, and Britney Jean (2013) and Glory (2016) for RCA Records. With the singles \"Womanizer\" (2008), \"3\" (2009), and \"Hold It Against Me\" (2011), she became the third woman to top the US Billboard Hot 100 in three decades. In 2019, Spears withdrew from regular concert touring to focus on her conservatorship case, leading to the #FreeBritney movement and the 2021 documentary Framing Britney Spears. Also in 2021, the conservatorship was dissolved after she publicly testified against her family and management for maltreatment. Her 2023 memoir, The Woman in Me, debuted atop The New York Times Best Seller list.\nSpears is one of the best-selling music artists of all time, with estimated sales of over 150 million records. Forbes named her as the world's highest-paid female musician in 2000 and 2012. She ranked among the 100 most influential people in the world by Time (2021) and the greatest pop stars of the 21st century by Billboard (2023). Her accolades include one Grammy Award, six MTV Video Music Awards (including the Michael Jackson Video Vanguard Award), seven Billboard Music Awards and a star on the Hollywood Walk of Fame. Outside of music, Spears has launched numerous products over the years, with her 2005 fragrance Fantasy with Elizabeth Arden, Inc. generating over $1.5 billion in sales by 2011.\n\nKevin Earl Federline (born March 21, 1978), also known as K-Fed, is an American dancer, actor, and DJ. He is known for being the ex husband of singer Britney Spears and the public child custody battle that followed their divorce. In 2006, Federline released a debut album, Playing with Fire, which was panned by critics as one of the worst albums ever released. He has since made a number of television and film appearances, and also worked as a DJ. His memoir, You Thought You Knew  was published on October 21, 2025.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "near-white background field"
+    },
+    {
+      "index": 1,
+      "element": "overlapping pale face silhouettes"
+    },
+    {
+      "index": 2,
+      "element": "faint round pacifier-like eye"
+    },
+    {
+      "index": 3,
+      "element": "pale hair masses"
+    },
+    {
+      "index": 4,
+      "element": "angular pale jaw and collar shapes"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "performance crown"
+    },
+    {
+      "index": 2,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 3,
+      "element": "vinyl record"
+    },
+    {
+      "index": 4,
+      "element": "stage lights"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "near-white background field",
+      "overlapping pale face silhouettes",
+      "faint round pacifier-like eye",
+      "pale hair masses",
+      "angular pale jaw and collar shapes"
+    ],
+    "values": [
+      [
+        -0.10945132374763489,
+        -0.015032503753900528,
+        0.07791399955749512,
+        -0.03710443526506424,
+        -0.08113572001457214
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "performance crown",
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights"
+    ],
+    "column_labels": [
+      "near-white background field",
+      "overlapping pale face silhouettes",
+      "faint round pacifier-like eye",
+      "pale hair masses",
+      "angular pale jaw and collar shapes"
+    ],
+    "values": [
+      [
+        0.310649037361145,
+        0.5242836475372314,
+        0.202449768781662,
+        0.2745744585990906,
+        0.2274596095085144
+      ],
+      [
+        0.11428907513618469,
+        0.106844961643219,
+        0.15872874855995178,
+        0.12848049402236938,
+        0.19169102609157562
+      ],
+      [
+        0.33497732877731323,
+        0.4628875255584717,
+        0.18107303977012634,
+        0.17370614409446716,
+        0.22788292169570923
+      ],
+      [
+        0.07348892837762833,
+        0.04331580922007561,
+        0.007141657639294863,
+        0.007403685711324215,
+        -0.021479129791259766
+      ],
+      [
+        0.2400549054145813,
+        0.13913866877555847,
+        0.07668192684650421,
+        0.05568443238735199,
+        -0.012319565750658512
+      ]
+    ]
+  }
+}

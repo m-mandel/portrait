@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/spike_lee",
+  "meta_path": "/workspace/input/noma_bar/data/spike_lee/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Shelton Jackson \"Spike\" Lee (born March 20, 1957) is an American filmmaker and actor. His work has continually explored race relations, issues within the black community, the role of media in contemporary life, urban crime and poverty, and other political issues. Lee received numerous accolades for his work, including an Academy Award, a British Academy Film Award, two Primetime Emmy Awards, and two Peabody Awards as well as nominations for three Golden Globe Awards and a Grammy Award.\nLee studied filmmaking at both Morehouse College and New York University Tisch School of the Arts, where he directed his student film Joe's Bed-Stuy Barbershop: We Cut Heads (1983), which won a Student Academy Award. He later started the production company, 40 Acres and a Mule Filmworks, where he has produced more than 35 films. He made his directorial debut with the comedy She's Gotta Have It (1986). He received widespread critical acclaim for the drama Do the Right Thing (1989), for which he was nominated for the Academy Award for Best Original Screenplay. He directed the historical epic Malcolm X (1992), which was nominated for the Berlin International Film Festival's Golden Bear. With the biographical crime dramedy BlacKkKlansman (2018), he won the Academy Award for Best Adapted Screenplay and the Cannes Film Festival Grand Prix Award.\nHe has also written and directed films such as School Daze (1988), Mo' Better Blues (1990), Jungle Fever (1991), Crooklyn (1994), Clockers (1995), Bamboozled (2000), 25th Hour (2002), Inside Man (2006), Chi-Raq (2015), Da 5 Bloods (2020), and Highest 2 Lowest (2025). Lee has also acted in eleven of his feature films. He is also known for directing numerous documentary projects including 4 Little Girls (1997), which was nominated for the Academy Award for Best Documentary Feature Film. He directed the HBO series When the Levees Broke (2006), which won two Primetime Emmy Awards for Outstanding Directing for a Documentary/Nonfiction Program and Exceptional Merit in Documentary Filmmaking. He also directed the HBO documentary If God Is Willing and da Creek Don't Rise (2010) and the David Byrne concert film American Utopia (2020).\nLee has received several honors including the Honorary BAFTA Award in 2002, an Honorary C\u00e9sar in 2003, the Academy Honorary Award in 2015, and the National Medal of Arts in 2023. Five of his films have been selected by the Library of Congress for preservation in the National Film Registry for being \"culturally, historically, or aesthetically significant\". He has received a Gala Tribute from the Film Society of Lincoln Center as well as the Dorothy and Lillian Gish Prize. His films have featured breakthrough performances from actors such as Denzel Washington, Laurence Fishburne, Samuel L. Jackson, Giancarlo Esposito, Rosie Perez, Delroy Lindo, John Turturro, and John David Washington.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "deep brown background field"
+    },
+    {
+      "index": 1,
+      "element": "film-strip hair"
+    },
+    {
+      "index": 2,
+      "element": "film-strip glasses"
+    },
+    {
+      "index": 3,
+      "element": "film-strip goatee and beard"
+    },
+    {
+      "index": 4,
+      "element": "slanted film-strip eyebrows"
+    },
+    {
+      "index": 5,
+      "element": "small white earring"
+    },
+    {
+      "index": 6,
+      "element": "brown face silhouette"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "camera body"
+    },
+    {
+      "index": 2,
+      "element": "film strip"
+    },
+    {
+      "index": 3,
+      "element": "clapboard"
+    },
+    {
+      "index": 4,
+      "element": "projector beam"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "deep brown background field",
+      "film-strip hair",
+      "film-strip glasses",
+      "film-strip goatee and beard",
+      "slanted film-strip eyebrows",
+      "small white earring",
+      "brown face silhouette"
+    ],
+    "values": [
+      [
+        0.19798165559768677,
+        0.35119983553886414,
+        0.1855277121067047,
+        0.35570910573005676,
+        0.2554647922515869,
+        0.022258449345827103,
+        0.1813182532787323
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "camera body",
+      "film strip",
+      "clapboard",
+      "projector beam"
+    ],
+    "column_labels": [
+      "deep brown background field",
+      "film-strip hair",
+      "film-strip glasses",
+      "film-strip goatee and beard",
+      "slanted film-strip eyebrows",
+      "small white earring",
+      "brown face silhouette"
+    ],
+    "values": [
+      [
+        0.2510707974433899,
+        0.3094285726547241,
+        0.310968279838562,
+        0.4159832000732422,
+        0.21253898739814758,
+        0.14439192414283752,
+        0.5319411158561707
+      ],
+      [
+        0.22604364156723022,
+        0.2353481650352478,
+        0.23330360651016235,
+        0.2887669503688812,
+        0.20132365822792053,
+        0.14653295278549194,
+        0.3510586619377136
+      ],
+      [
+        0.15158969163894653,
+        0.7077274918556213,
+        0.6970914602279663,
+        0.6211264133453369,
+        0.49476367235183716,
+        0.12265948951244354,
+        0.15560859441757202
+      ],
+      [
+        0.12522217631340027,
+        0.1194210797548294,
+        0.15425843000411987,
+        0.11045759916305542,
+        0.03898755833506584,
+        0.10671118646860123,
+        0.05602438375353813
+      ],
+      [
+        0.18234401941299438,
+        0.19090667366981506,
+        0.3552427291870117,
+        0.07679270952939987,
+        0.21198159456253052,
+        0.08799513429403305,
+        0.07416461408138275
+      ]
+    ]
+  }
+}

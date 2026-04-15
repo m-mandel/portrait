@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/kim_jong_il",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/kim_jong_il/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+        "similarity": -0.05837826803326607
+      },
+      {
+        "index": 1,
+        "name": "02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+        "similarity": -0.000602634041570127
+      },
+      {
+        "index": 2,
+        "name": "03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+        "similarity": -0.018509825691580772
+      },
+      {
+        "index": 3,
+        "name": "06_kim-jong-il-portrait-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+        "similarity": -0.05028347298502922
+      },
+      {
+        "index": 4,
+        "name": "07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+        "similarity": 0.14807145297527313
+      },
+      {
+        "index": 5,
+        "name": "08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+        "similarity": -0.07114490866661072
+      },
+      {
+        "index": 6,
+        "name": "08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+        "similarity": -0.010988006368279457
+      },
+      {
+        "index": 7,
+        "name": "09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+        "similarity": -0.03544698283076286
+      },
+      {
+        "index": 8,
+        "name": "10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+        "similarity": -0.04894392192363739
+      },
+      {
+        "index": 9,
+        "name": "19_kim-jong-il-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+        "similarity": -0.044319793581962585
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.05837826803326607,
+          -0.000602634041570127,
+          -0.018509825691580772,
+          -0.05028347298502922,
+          0.14807145297527313,
+          -0.07114490866661072,
+          -0.010988006368279457,
+          -0.03544698283076286,
+          -0.04894392192363739,
+          -0.044319793581962585
+        ],
+        [
+          -0.05837826803326607,
+          1.0,
+          0.5006035566329956,
+          0.6381472945213318,
+          0.5285096168518066,
+          0.03141186013817787,
+          0.460364431142807,
+          0.49139705300331116,
+          0.5915853977203369,
+          0.14452356100082397,
+          0.5800679326057434
+        ],
+        [
+          -0.000602634041570127,
+          0.5006035566329956,
+          1.0000001192092896,
+          0.6301553845405579,
+          0.49652421474456787,
+          0.05245191976428032,
+          0.3903525769710541,
+          0.37680986523628235,
+          0.48103630542755127,
+          0.0714467465877533,
+          0.4546189308166504
+        ],
+        [
+          -0.018509825691580772,
+          0.6381472945213318,
+          0.6301553845405579,
+          1.0,
+          0.5229323506355286,
+          0.023274917155504227,
+          0.46150803565979004,
+          0.428914338350296,
+          0.5389891862869263,
+          0.043162912130355835,
+          0.48387411236763
+        ],
+        [
+          -0.05028347298502922,
+          0.5285096168518066,
+          0.49652421474456787,
+          0.5229323506355286,
+          1.0000001192092896,
+          0.0019734762609004974,
+          0.5237149596214294,
+          0.49410462379455566,
+          0.8112733960151672,
+          0.1569584608078003,
+          0.489225298166275
+        ],
+        [
+          0.14807145297527313,
+          0.03141186013817787,
+          0.05245191976428032,
+          0.023274917155504227,
+          0.0019734762609004974,
+          0.9999999403953552,
+          0.04121389240026474,
+          0.031203825026750565,
+          0.0077648283913731575,
+          0.08424712717533112,
+          0.0243340115994215
+        ],
+        [
+          -0.07114490866661072,
+          0.460364431142807,
+          0.3903525769710541,
+          0.46150803565979004,
+          0.5237149596214294,
+          0.04121389240026474,
+          1.0,
+          0.3907701075077057,
+          0.5218524932861328,
+          0.18837949633598328,
+          0.39261916279792786
+        ],
+        [
+          -0.010988006368279457,
+          0.49139705300331116,
+          0.37680986523628235,
+          0.428914338350296,
+          0.49410462379455566,
+          0.031203825026750565,
+          0.3907701075077057,
+          1.0,
+          0.5300508141517639,
+          0.09120019525289536,
+          0.6003093123435974
+        ],
+        [
+          -0.03544698283076286,
+          0.5915853977203369,
+          0.48103630542755127,
+          0.5389891862869263,
+          0.8112733960151672,
+          0.0077648283913731575,
+          0.5218524932861328,
+          0.5300508141517639,
+          1.0,
+          0.1522747427225113,
+          0.4730508327484131
+        ],
+        [
+          -0.04894392192363739,
+          0.14452356100082397,
+          0.0714467465877533,
+          0.043162912130355835,
+          0.1569584608078003,
+          0.08424712717533112,
+          0.18837949633598328,
+          0.09120019525289536,
+          0.1522747427225113,
+          1.0,
+          0.1262243688106537
+        ],
+        [
+          -0.044319793581962585,
+          0.5800679326057434,
+          0.4546189308166504,
+          0.48387411236763,
+          0.489225298166275,
+          0.0243340115994215,
+          0.39261916279792786,
+          0.6003093123435974,
+          0.4730508327484131,
+          0.1262243688106537,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png"
+    },
+    {
+      "name": "02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png"
+    },
+    {
+      "name": "03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png"
+    },
+    {
+      "name": "06_kim-jong-il-portrait-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg"
+    },
+    {
+      "name": "07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png"
+    },
+    {
+      "name": "08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg"
+    },
+    {
+      "name": "08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg"
+    },
+    {
+      "name": "09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg"
+    },
+    {
+      "name": "10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg"
+    },
+    {
+      "name": "19_kim-jong-il-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "similarity": 0.5006035566329956
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "similarity": 0.6381472945213318
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+      "similarity": 0.5285096168518066
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "similarity": 0.03141186013817787
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "similarity": 0.460364431142807
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "similarity": 0.49139705300331116
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "similarity": 0.5915853977203369
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "similarity": 0.14452356100082397
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+      "similarity": 0.5800679326057434
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "similarity": 0.6301553845405579
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+      "similarity": 0.49652421474456787
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "similarity": 0.05245191976428032
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "similarity": 0.3903525769710541
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "similarity": 0.37680986523628235
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "similarity": 0.48103630542755127
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "similarity": 0.0714467465877533
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+      "similarity": 0.4546189308166504
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+      "similarity": 0.5229323506355286
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "similarity": 0.023274917155504227
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "similarity": 0.46150803565979004
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "similarity": 0.428914338350296
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "similarity": 0.5389891862869263
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "similarity": 0.043162912130355835
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+      "similarity": 0.48387411236763
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "similarity": 0.0019734762609004974
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "similarity": 0.5237149596214294
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "similarity": 0.49410462379455566
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "similarity": 0.8112733960151672
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "similarity": 0.1569584608078003
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/06_kim-jong-il-portrait-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+      "similarity": 0.489225298166275
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "similarity": 0.04121389240026474
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "similarity": 0.031203825026750565
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "similarity": 0.0077648283913731575
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "similarity": 0.08424712717533112
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+      "similarity": 0.0243340115994215
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "similarity": 0.3907701075077057
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "similarity": 0.5218524932861328
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "similarity": 0.18837949633598328
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+      "similarity": 0.39261916279792786
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "similarity": 0.5300508141517639
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "similarity": 0.09120019525289536
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+      "similarity": 0.6003093123435974
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "similarity": 0.1522747427225113
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+      "similarity": 0.4730508327484131
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/kim_jong_il/images/10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/kim_jong_il/images/19_kim-jong-il-jpg.jpg",
+      "similarity": 0.1262243688106537
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_kim-jong-il-sits-at-a-desk-in-his-study-room-png.png",
+      "02_kim-jong-il-in-the-fields-during-the-1995-1999-famine-png.png",
+      "03_kim-jong-il-wearing-glasses-at-a-factory-png.png",
+      "06_kim-jong-il-portrait-2-jpg.jpg",
+      "07_kim-jong-il-visits-the-home-of-local-residents-png.png",
+      "08_2007-07-30-portraits-of-kim-il-sung-and-kim-jong-il-in-a-room-at-north-korean-side-of-demilitarized-zone-of-korea-jpg.jpg",
+      "08_kim-jong-il-on-24-august-2011-cropped-jpg.jpg",
+      "09_2016-10-15-portraits-of-kim-il-sung-and-kim-jong-il-in-a-pyongyang-metro-train-jpg.jpg",
+      "10_portrait-of-kim-il-sung-made-by-the-crowd-holding-up-individual-cards-at-the-arirang-mass-games-jpg.jpg",
+      "19_kim-jong-il-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.5006035566329956,
+        0.6381472945213318,
+        0.5285096168518066,
+        0.03141186013817787,
+        0.460364431142807,
+        0.49139705300331116,
+        0.5915853977203369,
+        0.14452356100082397,
+        0.5800679326057434
+      ],
+      [
+        0.5006035566329956,
+        1.0000001192092896,
+        0.6301553845405579,
+        0.49652421474456787,
+        0.05245191976428032,
+        0.3903525769710541,
+        0.37680986523628235,
+        0.48103630542755127,
+        0.0714467465877533,
+        0.4546189308166504
+      ],
+      [
+        0.6381472945213318,
+        0.6301553845405579,
+        1.0,
+        0.5229323506355286,
+        0.023274917155504227,
+        0.46150803565979004,
+        0.428914338350296,
+        0.5389891862869263,
+        0.043162912130355835,
+        0.48387411236763
+      ],
+      [
+        0.5285096168518066,
+        0.49652421474456787,
+        0.5229323506355286,
+        1.0000001192092896,
+        0.0019734762609004974,
+        0.5237149596214294,
+        0.49410462379455566,
+        0.8112733960151672,
+        0.1569584608078003,
+        0.489225298166275
+      ],
+      [
+        0.03141186013817787,
+        0.05245191976428032,
+        0.023274917155504227,
+        0.0019734762609004974,
+        0.9999999403953552,
+        0.04121389240026474,
+        0.031203825026750565,
+        0.0077648283913731575,
+        0.08424712717533112,
+        0.0243340115994215
+      ],
+      [
+        0.460364431142807,
+        0.3903525769710541,
+        0.46150803565979004,
+        0.5237149596214294,
+        0.04121389240026474,
+        1.0,
+        0.3907701075077057,
+        0.5218524932861328,
+        0.18837949633598328,
+        0.39261916279792786
+      ],
+      [
+        0.49139705300331116,
+        0.37680986523628235,
+        0.428914338350296,
+        0.49410462379455566,
+        0.031203825026750565,
+        0.3907701075077057,
+        1.0,
+        0.5300508141517639,
+        0.09120019525289536,
+        0.6003093123435974
+      ],
+      [
+        0.5915853977203369,
+        0.48103630542755127,
+        0.5389891862869263,
+        0.8112733960151672,
+        0.0077648283913731575,
+        0.5218524932861328,
+        0.5300508141517639,
+        1.0,
+        0.1522747427225113,
+        0.4730508327484131
+      ],
+      [
+        0.14452356100082397,
+        0.0714467465877533,
+        0.043162912130355835,
+        0.1569584608078003,
+        0.08424712717533112,
+        0.18837949633598328,
+        0.09120019525289536,
+        0.1522747427225113,
+        1.0,
+        0.1262243688106537
+      ],
+      [
+        0.5800679326057434,
+        0.4546189308166504,
+        0.48387411236763,
+        0.489225298166275,
+        0.0243340115994215,
+        0.39261916279792786,
+        0.6003093123435974,
+        0.4730508327484131,
+        0.1262243688106537,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/kim_jong_il/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/kim_jong_il/portrait.jpg"
+    }
+  ]
+}

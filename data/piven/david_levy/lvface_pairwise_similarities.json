@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/piven/data/david_levy",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/david_levy/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_david-levy-26927184749-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+        "similarity": 0.0747653990983963
+      },
+      {
+        "index": 1,
+        "name": "02_david-levy-profile-photo-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+        "similarity": 0.03230053186416626
+      },
+      {
+        "index": 2,
+        "name": "03_david-levy-yulee-brady-handy-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+        "similarity": 0.08087426424026489
+      },
+      {
+        "index": 3,
+        "name": "07_david-levy-1969-d709-115-jpg.jpg",
+        "path": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+        "similarity": 0.01850270666182041
+      },
+      {
+        "index": 4,
+        "name": "08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+        "path": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+        "similarity": 0.03161580115556717
+      },
+      {
+        "index": 5,
+        "name": "09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+        "path": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+        "similarity": 0.08203192055225372
+      },
+      {
+        "index": 6,
+        "name": "10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+        "path": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+        "similarity": 0.07683014124631882
+      },
+      {
+        "index": 7,
+        "name": "11_david-julian-levi-2024.png",
+        "path": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+        "similarity": 0.02546241134405136
+      },
+      {
+        "index": 8,
+        "name": "12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+        "path": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+        "similarity": -0.074650339782238
+      },
+      {
+        "index": 9,
+        "name": "13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+        "path": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+        "similarity": 0.014987512491643429
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.0747653990983963,
+          0.03230053186416626,
+          0.08087426424026489,
+          0.01850270666182041,
+          0.03161580115556717,
+          0.08203192055225372,
+          0.07683014124631882,
+          0.02546241134405136,
+          -0.074650339782238,
+          0.014987512491643429
+        ],
+        [
+          0.0747653990983963,
+          1.0000001192092896,
+          -0.06450482457876205,
+          -0.02453344315290451,
+          0.31902724504470825,
+          0.350376158952713,
+          0.530181348323822,
+          -0.021338699385523796,
+          0.11562970280647278,
+          0.0009060468873940408,
+          -0.04068249464035034
+        ],
+        [
+          0.03230053186416626,
+          -0.06450482457876205,
+          0.9999999403953552,
+          -0.009550521150231361,
+          -0.0501580685377121,
+          -0.028557825833559036,
+          -0.12064206600189209,
+          0.022068679332733154,
+          -0.08596358448266983,
+          -0.02440970204770565,
+          -0.028894852846860886
+        ],
+        [
+          0.08087426424026489,
+          -0.02453344315290451,
+          -0.009550521150231361,
+          1.0,
+          -0.023654107004404068,
+          -0.021205684170126915,
+          -0.07396525889635086,
+          0.9548983573913574,
+          0.0357556976377964,
+          0.01779400184750557,
+          0.06988277286291122
+        ],
+        [
+          0.01850270666182041,
+          0.31902724504470825,
+          -0.0501580685377121,
+          -0.023654107004404068,
+          1.0,
+          0.3968098759651184,
+          0.3639305531978607,
+          -0.02645072340965271,
+          0.030519384890794754,
+          -0.009275654330849648,
+          -0.0001961483503691852
+        ],
+        [
+          0.03161580115556717,
+          0.350376158952713,
+          -0.028557825833559036,
+          -0.021205684170126915,
+          0.3968098759651184,
+          1.0,
+          0.4262125790119171,
+          -0.03162157163023949,
+          0.05213411524891853,
+          -0.04435976594686508,
+          0.03833894804120064
+        ],
+        [
+          0.08203192055225372,
+          0.530181348323822,
+          -0.12064206600189209,
+          -0.07396525889635086,
+          0.3639305531978607,
+          0.4262125790119171,
+          1.0,
+          -0.03795020282268524,
+          0.0401645228266716,
+          0.0633118599653244,
+          0.007158419582992792
+        ],
+        [
+          0.07683014124631882,
+          -0.021338699385523796,
+          0.022068679332733154,
+          0.9548983573913574,
+          -0.02645072340965271,
+          -0.03162157163023949,
+          -0.03795020282268524,
+          1.0,
+          0.033689942210912704,
+          0.03240356966853142,
+          0.09188330173492432
+        ],
+        [
+          0.02546241134405136,
+          0.11562970280647278,
+          -0.08596358448266983,
+          0.0357556976377964,
+          0.030519384890794754,
+          0.05213411524891853,
+          0.0401645228266716,
+          0.033689942210912704,
+          1.0000001192092896,
+          0.09488223493099213,
+          0.048151083290576935
+        ],
+        [
+          -0.074650339782238,
+          0.0009060468873940408,
+          -0.02440970204770565,
+          0.01779400184750557,
+          -0.009275654330849648,
+          -0.04435976594686508,
+          0.0633118599653244,
+          0.03240356966853142,
+          0.09488223493099213,
+          1.0000001192092896,
+          0.03452867642045021
+        ],
+        [
+          0.014987512491643429,
+          -0.04068249464035034,
+          -0.028894852846860886,
+          0.06988277286291122,
+          -0.0001961483503691852,
+          0.03833894804120064,
+          0.007158419582992792,
+          0.09188330173492432,
+          0.048151083290576935,
+          0.03452867642045021,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_david-levy-26927184749-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_david-levy-profile-photo-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg"
+    },
+    {
+      "name": "03_david-levy-yulee-brady-handy-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg"
+    },
+    {
+      "name": "07_david-levy-1969-d709-115-jpg.jpg",
+      "path": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg"
+    },
+    {
+      "name": "08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "path": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg"
+    },
+    {
+      "name": "09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "path": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg"
+    },
+    {
+      "name": "10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "path": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg"
+    },
+    {
+      "name": "11_david-julian-levi-2024.png",
+      "path": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png"
+    },
+    {
+      "name": "12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "path": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg"
+    },
+    {
+      "name": "13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "path": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+      "similarity": -0.06450482457876205
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+      "similarity": -0.02453344315290451
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+      "similarity": 0.31902724504470825
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "similarity": 0.350376158952713
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.530181348323822
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "similarity": -0.021338699385523796
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+      "similarity": 0.11562970280647278
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "similarity": 0.0009060468873940408
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/01_david-levy-26927184749-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "similarity": -0.04068249464035034
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+      "similarity": -0.009550521150231361
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+      "similarity": -0.0501580685377121
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "similarity": -0.028557825833559036
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.12064206600189209
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "similarity": 0.022068679332733154
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+      "similarity": -0.08596358448266983
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "similarity": -0.02440970204770565
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/02_david-levy-profile-photo-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "similarity": -0.028894852846860886
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+      "similarity": -0.023654107004404068
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "similarity": -0.021205684170126915
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "similarity": -0.07396525889635086
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "similarity": 0.9548983573913574
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+      "similarity": 0.0357556976377964
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "similarity": 0.01779400184750557
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/03_david-levy-yulee-brady-handy-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "similarity": 0.06988277286291122
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "similarity": 0.3968098759651184
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.3639305531978607
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "similarity": -0.02645072340965271
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+      "similarity": 0.030519384890794754
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "similarity": -0.009275654330849648
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/07_david-levy-1969-d709-115-jpg.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "similarity": -0.0001961483503691852
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "similarity": 0.4262125790119171
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "similarity": -0.03162157163023949
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+      "similarity": 0.05213411524891853
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "similarity": -0.04435976594686508
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "similarity": 0.03833894804120064
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "similarity": -0.03795020282268524
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+      "similarity": 0.0401645228266716
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "similarity": 0.0633118599653244
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "similarity": 0.007158419582992792
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+      "similarity": 0.033689942210912704
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "similarity": 0.03240356966853142
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "similarity": 0.09188330173492432
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+      "right": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "similarity": 0.09488223493099213
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/11_david-julian-levi-2024.png",
+      "right": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "similarity": 0.048151083290576935
+    },
+    {
+      "left": "/workspace/input/piven/data/david_levy/images/12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "right": "/workspace/input/piven/data/david_levy/images/13_david-cardoza-levy-loeb-jewish-portrait-database.jpg",
+      "similarity": 0.03452867642045021
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_david-levy-26927184749-cropped-jpg.jpg",
+      "02_david-levy-profile-photo-jpg.jpg",
+      "03_david-levy-yulee-brady-handy-jpg.jpg",
+      "07_david-levy-1969-d709-115-jpg.jpg",
+      "08_portrait-de-david-levy-le-6-octobre-1989-en-isra-l-news-photo-getty.jpg",
+      "09_3-937-david-a-levy-photos-high-res-pictures-getty-images.jpg",
+      "10_david-levy-yulee-loeb-jewish-portrait-database.jpg",
+      "11_david-julian-levi-2024.png",
+      "12_profiles-our-team-sport-medicine-and-rehabilitation-centre.jpg",
+      "13_david-cardoza-levy-loeb-jewish-portrait-database.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        -0.06450482457876205,
+        -0.02453344315290451,
+        0.31902724504470825,
+        0.350376158952713,
+        0.530181348323822,
+        -0.021338699385523796,
+        0.11562970280647278,
+        0.0009060468873940408,
+        -0.04068249464035034
+      ],
+      [
+        -0.06450482457876205,
+        0.9999999403953552,
+        -0.009550521150231361,
+        -0.0501580685377121,
+        -0.028557825833559036,
+        -0.12064206600189209,
+        0.022068679332733154,
+        -0.08596358448266983,
+        -0.02440970204770565,
+        -0.028894852846860886
+      ],
+      [
+        -0.02453344315290451,
+        -0.009550521150231361,
+        1.0,
+        -0.023654107004404068,
+        -0.021205684170126915,
+        -0.07396525889635086,
+        0.9548983573913574,
+        0.0357556976377964,
+        0.01779400184750557,
+        0.06988277286291122
+      ],
+      [
+        0.31902724504470825,
+        -0.0501580685377121,
+        -0.023654107004404068,
+        1.0,
+        0.3968098759651184,
+        0.3639305531978607,
+        -0.02645072340965271,
+        0.030519384890794754,
+        -0.009275654330849648,
+        -0.0001961483503691852
+      ],
+      [
+        0.350376158952713,
+        -0.028557825833559036,
+        -0.021205684170126915,
+        0.3968098759651184,
+        1.0,
+        0.4262125790119171,
+        -0.03162157163023949,
+        0.05213411524891853,
+        -0.04435976594686508,
+        0.03833894804120064
+      ],
+      [
+        0.530181348323822,
+        -0.12064206600189209,
+        -0.07396525889635086,
+        0.3639305531978607,
+        0.4262125790119171,
+        1.0,
+        -0.03795020282268524,
+        0.0401645228266716,
+        0.0633118599653244,
+        0.007158419582992792
+      ],
+      [
+        -0.021338699385523796,
+        0.022068679332733154,
+        0.9548983573913574,
+        -0.02645072340965271,
+        -0.03162157163023949,
+        -0.03795020282268524,
+        1.0,
+        0.033689942210912704,
+        0.03240356966853142,
+        0.09188330173492432
+      ],
+      [
+        0.11562970280647278,
+        -0.08596358448266983,
+        0.0357556976377964,
+        0.030519384890794754,
+        0.05213411524891853,
+        0.0401645228266716,
+        0.033689942210912704,
+        1.0000001192092896,
+        0.09488223493099213,
+        0.048151083290576935
+      ],
+      [
+        0.0009060468873940408,
+        -0.02440970204770565,
+        0.01779400184750557,
+        -0.009275654330849648,
+        -0.04435976594686508,
+        0.0633118599653244,
+        0.03240356966853142,
+        0.09488223493099213,
+        1.0000001192092896,
+        0.03452867642045021
+      ],
+      [
+        -0.04068249464035034,
+        -0.028894852846860886,
+        0.06988277286291122,
+        -0.0001961483503691852,
+        0.03833894804120064,
+        0.007158419582992792,
+        0.09188330173492432,
+        0.048151083290576935,
+        0.03452867642045021,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/david_levy/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/david_levy/portrait.jpg"
+    }
+  ]
+}

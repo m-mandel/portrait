@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/margeret_thatcher",
+  "meta_path": "/workspace/input/noma_bar/data/margeret_thatcher/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Margaret Hilda Thatcher, Baroness Thatcher (n\u00e9e Roberts; 13 October 1925 \u2013 8 April 2013), was a British stateswoman who served as Prime Minister of the United Kingdom from 1979 to 1990 and Leader of the Conservative Party from 1975 to 1990. She was the longest-serving British prime minister of the 20th century and the first woman to hold the office. As prime minister, she implemented policies that came to be known as Thatcherism. A Soviet journalist dubbed her the \"Iron Lady\", a nickname that became associated with her uncompromising politics and leadership style.\nThatcher studied chemistry at Somerville College, Oxford, and worked briefly as a research chemist before becoming a barrister. She was elected Member of Parliament for Finchley in 1959. Edward Heath appointed her Secretary of State for Education and Science in his 1970\u20131974 government. In 1975 she defeated Heath in the Conservative Party leadership election to become Leader of the Opposition and the first woman to lead a major British political party.\nOn becoming prime minister after winning the 1979 general election, Thatcher introduced a series of economic policies intended to reverse high inflation and Britain's struggles in the wake of the Winter of Discontent and an oncoming recession. Her political philosophy and economic policies emphasised greater individual liberty, the privatisation of state-owned companies, and reducing the power and influence of trade unions. Her popularity in her first years in office waned amid the recession and rising unemployment. Victory in the 1982 Falklands War and the recovering economy brought a resurgence of support, resulting in the Conservative Party being returned to government in a landslide victory in 1983. She survived an assassination attempt by the Provisional IRA in the 1984 Brighton hotel bombing and achieved a political victory against the National Union of Mineworkers in the 1984\u201385 miners' strike. In 1986 Thatcher oversaw the deregulation of UK financial markets, leading to an economic boom, in what came to be known as the Big Bang.\nThatcher was re-elected for a third term with another landslide in 1987, but her subsequent support for the Community Charge (also known as the \"poll tax\") was widely unpopular, and her increasingly Eurosceptic views on the European Community were not shared by others in her cabinet. She resigned as prime minister and party leader in 1990, after a challenge was launched to her leadership, and was succeeded by John Major, her Chancellor of the Exchequer. After retiring from the House of Commons in 1992, she was given a life peerage, which entitled her to sit in the House of Lords. In 2013 she died of a stroke at the Ritz Hotel, London, at the age of 87.\nA polarising figure in British politics, Thatcher is nonetheless viewed favourably in historical rankings and public opinion of British prime ministers. Her tenure constituted a realignment towards neoliberal policies in Britain; the complex legacy attributed to this shift continues to be debated into the 21st century.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "black background field"
+    },
+    {
+      "index": 1,
+      "element": "blond hair mass"
+    },
+    {
+      "index": 2,
+      "element": "white face shape"
+    },
+    {
+      "index": 3,
+      "element": "hammer-like eye motif with trailing stroke"
+    },
+    {
+      "index": 4,
+      "element": "red mouth line"
+    },
+    {
+      "index": 5,
+      "element": "blue shoulder block with pearl dots"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "studio microphone"
+    },
+    {
+      "index": 1,
+      "element": "screen frame"
+    },
+    {
+      "index": 2,
+      "element": "control panel"
+    },
+    {
+      "index": 3,
+      "element": "headline band"
+    },
+    {
+      "index": 4,
+      "element": "podium block"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "black background field",
+      "blond hair mass",
+      "white face shape",
+      "hammer-like eye motif with trailing stroke",
+      "red mouth line",
+      "blue shoulder block with pearl dots"
+    ],
+    "values": [
+      [
+        -0.0635833889245987,
+        0.09951095283031464,
+        -0.02565758116543293,
+        -0.02155444212257862,
+        -0.023945534601807594,
+        0.052251074463129044
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "studio microphone",
+      "screen frame",
+      "control panel",
+      "headline band",
+      "podium block"
+    ],
+    "column_labels": [
+      "black background field",
+      "blond hair mass",
+      "white face shape",
+      "hammer-like eye motif with trailing stroke",
+      "red mouth line",
+      "blue shoulder block with pearl dots"
+    ],
+    "values": [
+      [
+        0.1284930557012558,
+        0.1299152374267578,
+        0.10881902277469635,
+        0.1055351048707962,
+        0.20297828316688538,
+        -0.03286580741405487
+      ],
+      [
+        0.33883532881736755,
+        0.015241315588355064,
+        0.20592832565307617,
+        0.07018165290355682,
+        0.12589463591575623,
+        0.1327465921640396
+      ],
+      [
+        0.25661611557006836,
+        0.10607954859733582,
+        0.09813098609447479,
+        0.024144528433680534,
+        0.0858498364686966,
+        0.1209104061126709
+      ],
+      [
+        0.19893759489059448,
+        0.0865703821182251,
+        0.16151946783065796,
+        0.06527946889400482,
+        0.16704538464546204,
+        0.11748294532299042
+      ],
+      [
+        0.18845245242118835,
+        0.05259278044104576,
+        0.11990868300199509,
+        0.04861144348978996,
+        0.28728774189949036,
+        0.2285701036453247
+      ]
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "jeremy clarkson",
+  "bio": "Jeremy Charles Robert Clarkson is an English television presenter, journalist, farmer, and author who specialises in motoring. He is best known for hosting the motoring television programmes Top Gear and The Grand Tour alongside Richard Hammond and James May. He also currently writes weekly columns for The Sunday Times and The Sun. Clarkson hosts the ITV game show Who Wants to Be a Millionaire?, and stars in the farming documentary show Clarkson's Farm. From a career as a local journalist in northern England, Clarkson rose to public prominence as a presenter of the original format of Top Gear in 1988. Since the mid-1990s, he has become a recognised public personality, regularly appearing on British television presenting his own shows for the BBC and appearing as a guest on other shows. As well as motoring, Clarkson has produced programmes on subjects such as history and engineering; he has also written numerous books, primarily on cars.",
+  "bio_sources": [
+    {
+      "subject": "jeremy clarkson",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Jeremy_Clarkson"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "gray background field",
+      "shape_type": "rectangle",
+      "meaning": "makes the automotive symbols pop clearly"
+    },
+    {
+      "element": "diagonal black road with yellow lane markings",
+      "shape_type": "symbol",
+      "meaning": "represents motoring, roads, and car culture"
+    },
+    {
+      "element": "clustered tire-like circles in the hair",
+      "shape_type": "repeated circles",
+      "meaning": "evoke wheels and mechanical obsession"
+    },
+    {
+      "element": "gearshift diagram across the face",
+      "shape_type": "symbol",
+      "meaning": "stands for driving and mechanical talk"
+    },
+    {
+      "element": "yellow face silhouette",
+      "shape_type": "geometric shape",
+      "meaning": "reduces him to a brash motoring icon"
+    },
+    {
+      "element": "black field behind the head",
+      "shape_type": "geometric shape",
+      "meaning": "adds visual heft and road-sign contrast"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "book stack",
+      "visual_representation": "stacked books with staggered page edges",
+      "category": "object",
+      "relevance": "The biography explicitly describes literary work.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "speedometer dial",
+      "visual_representation": "a round gauge with dense speed markings",
+      "category": "object",
+      "relevance": "The biography explicitly centers on motoring culture.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "studio microphone",
+      "visual_representation": "a suspended microphone with a visible cable or stand",
+      "category": "object",
+      "relevance": "Hosting, presenting, or broadcasting are central to the subject’s media world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "screen frame",
+      "visual_representation": "a bright rectangular frame with a clear border",
+      "category": "structure",
+      "relevance": "Television and mediated public communication are part of the subject’s environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "control panel",
+      "visual_representation": "a row of sliders and small lit buttons",
+      "category": "object",
+      "relevance": "Studios and live production equipment belong to the subject’s broadcast environment.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/geula_even",
+  "meta_path": "/workspace/input/piven/data/geula_even/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Geula Even-Sa'ar (n\u00e9e Even, Hebrew: \u05d2\u05d0\u05d5\u05dc\u05d4 \u05d0\u05d1\u05df-\u05e1\u05e2\u05e8; born 15 June 1972) is an Israeli journalist, radio and television presenter. She hosted the programs \"The World This Morning\" on Channel 13; \"Good Morning Israel\" and \"Yoman\" on Channel 1. She later hosted the evening news bulletin, the news magazine \"The Week\" and the daily current affairs and interview program \"Evening Evening\" on Kan 11 until her retirement in December 2018.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "wire glasses"
+    },
+    {
+      "index": 1,
+      "element": "lego bricks"
+    },
+    {
+      "index": 2,
+      "element": "ring candy"
+    },
+    {
+      "index": 3,
+      "element": "brooch"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "studio microphone"
+    },
+    {
+      "index": 1,
+      "element": "signal waves"
+    },
+    {
+      "index": 2,
+      "element": "screen frame"
+    },
+    {
+      "index": 3,
+      "element": "headline band"
+    },
+    {
+      "index": 4,
+      "element": "control panel"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "wire glasses",
+      "lego bricks",
+      "ring candy",
+      "brooch"
+    ],
+    "values": [
+      [
+        0.06605011224746704,
+        0.038893841207027435,
+        0.029480591416358948,
+        0.031019050627946854
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "studio microphone",
+      "signal waves",
+      "screen frame",
+      "headline band",
+      "control panel"
+    ],
+    "column_labels": [
+      "wire glasses",
+      "lego bricks",
+      "ring candy",
+      "brooch"
+    ],
+    "values": [
+      [
+        0.13027231395244598,
+        0.04278717190027237,
+        0.06723608076572418,
+        0.08434777706861496
+      ],
+      [
+        0.18073830008506775,
+        0.09190912544727325,
+        0.08035650849342346,
+        0.086369588971138
+      ],
+      [
+        0.2816762328147888,
+        0.1370137631893158,
+        0.07968118786811829,
+        -0.013788913376629353
+      ],
+      [
+        0.15229810774326324,
+        0.15122701227664948,
+        0.11212056875228882,
+        0.12233057618141174
+      ],
+      [
+        0.1943565011024475,
+        0.10247574746608734,
+        0.06956896930932999,
+        0.10971175879240036
+      ]
+    ]
+  }
+}

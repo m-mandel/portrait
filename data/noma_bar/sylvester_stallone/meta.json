@@ -1,0 +1,80 @@
+{
+  "name": "sylvester stallone",
+  "bio": "Sylvester Gardenzio Stallone ( stə-LOHN; born July 6, 1946) is an American actor, painter, and filmmaker. In a film career spanning more than fifty years, Stallone has received numerous accolades, including a Golden Globe Award and a Critics' Choice Award, as well as nominations for three Academy Awards and two BAFTA Awards. Stallone is one of only two actors in history (alongside Harrison Ford) to have starred in a box-office No. 1 film across six consecutive decades. Films in which he has appeared have grossed over $7.5 billion worldwide.\nStruggling as an actor for a number of years upon moving to New York City in 1969, Stallone found gradual work in films such as The Lords of Flatbush (1974). He achieved his greatest critical and commercial success starting in 1976 with his iconic role as boxer Rocky Balboa in the first film of the successful Rocky franchise, which he also wrote. In 1977, he became the third actor in history to be nominated for two Academy Awards for Best Original Screenplay and Best Actor. He portrayed the PTSD-plagued soldier John Rambo in First Blood (1982), a role he would play across five Rambo films (1982–2019). From the mid-1980s to the late 1990s, Stallone would go on to become one of Hollywood's highest-paid actors acting in action films such as Cobra (1986), Tango and Cash (1989), Cliffhanger (1993), Demolition Man (1993), and The Specialist (1994). At the height of his career, Stallone was known for his rivalry with Arnold Schwarzenegger.\nStallone continued his established roles in Rocky Balboa (2006) and Rambo (2008) before launching The Expendables film franchise (2010–present), in which he starred as the mercenary Barney Ross. In 2013, he starred in the successful film Escape Plan and appeared in its sequels. In 2015, he returned to Rocky again with Creed, in which a retired Rocky mentors former rival Apollo Creed's son Adonis Creed. The film brought Stallone widespread praise and his first Golden Globe Award, as well as a third Academy Award nomination, having been first nominated for the same role 40 years prior. He also starred in the sequel Creed II (2018) and portrayed Stakar Ogord in the Marvel Cinematic Universe films Guardians of the Galaxy Vol. 2 (2017) and Guardians of the Galaxy Vol. 3 (2023).\nRegarded as an icon of action cinema, Stallone is credited with helping redefine the Hollywood action hero. He has occasionally ventured from the action genre, with mixed results. He starred in the comedies Oscar (1991) and Stop! Or My Mom Will Shoot (1992), the first film failed at box office but the second one had modest success. He also starred in the 1997 drama Cop Land, for which he temporarily shed his sculpted physique and gained weight for his role as a powerless sheriff. In television, he has starred in the Paramount+ crime series Tulsa King (2022–present). In addition to his film work, Stallone is a noted art collector and painter, and has written books on fitness.",
+  "bio_sources": [
+    {
+      "subject": "sylvester stallone",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Sylvester_Stallone"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "pale background field",
+      "shape_type": "rectangle",
+      "meaning": "spotlights the bruised red forms"
+    },
+    {
+      "element": "black hair mass",
+      "shape_type": "silhouette",
+      "meaning": "establishes his tough-action profile"
+    },
+    {
+      "element": "white face and torso block",
+      "shape_type": "geometric shape",
+      "meaning": "strips the fighter down to pure icon"
+    },
+    {
+      "element": "red boxing-glove eye",
+      "shape_type": "symbol",
+      "meaning": "equates identity with fighting"
+    },
+    {
+      "element": "red boxing-glove mouth",
+      "shape_type": "symbol",
+      "meaning": "repeats the combat motif in speech and expression"
+    },
+    {
+      "element": "thin tan contour lines",
+      "shape_type": "line",
+      "meaning": "preserve his chiselled facial structure"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "statuette silhouette",
+      "visual_representation": "a narrow standing trophy-like figure on a base",
+      "category": "symbol",
+      "relevance": "The biography explicitly mentions major awards.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "championship medallion",
+      "visual_representation": "a large circular medallion mounted on a broad plate",
+      "category": "symbol",
+      "relevance": "The biography explicitly describes championship boxing.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen performance define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "film strip",
+      "visual_representation": "a narrow strip with evenly spaced rectangular frames",
+      "category": "object",
+      "relevance": "Cinema and edited moving images belong to the subject’s world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "clapboard",
+      "visual_representation": "a hinged slate with diagonal stripes on its top edge",
+      "category": "object",
+      "relevance": "Film sets and screen production are strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

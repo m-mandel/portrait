@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/naomi_campbell",
+  "meta_path": "/workspace/input/noma_bar/data/naomi_campbell/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Naomi Elaine Campbell (born 22 May 1970) is a British model. Beginning her career at the age of eight, Campbell was one of six models of her generation declared supermodels by the fashion industry and the international press. She was the first black woman to appear as a model on the covers of Time and Vogue France.\nIn addition to her modelling career, Campbell has embarked on other ventures, including an R&B studio album and several acting appearances in film and television. She hosted the modelling-competition reality show The Face and its international offshoots. Campbell is also involved in charity work for various causes, although she was banned from being a trustee of any charity in the United Kingdom for five years in September 2024 following a financial misconduct investigation. She was also mentioned in the Epstein Files.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "yellow background field"
+    },
+    {
+      "index": 1,
+      "element": "sweeping black hair arc"
+    },
+    {
+      "index": 2,
+      "element": "brown face profile"
+    },
+    {
+      "index": 3,
+      "element": "scale-like eye structure with suspended lines"
+    },
+    {
+      "index": 4,
+      "element": "slim black nose line"
+    },
+    {
+      "index": 5,
+      "element": "white painted lip strokes"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "fabric fold"
+    },
+    {
+      "index": 1,
+      "element": "runway lights"
+    },
+    {
+      "index": 2,
+      "element": "catwalk line"
+    },
+    {
+      "index": 3,
+      "element": "fabric drape"
+    },
+    {
+      "index": 4,
+      "element": "pose silhouette"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "yellow background field",
+      "sweeping black hair arc",
+      "brown face profile",
+      "scale-like eye structure with suspended lines",
+      "slim black nose line",
+      "white painted lip strokes"
+    ],
+    "values": [
+      [
+        -0.08409126847982407,
+        0.04811663180589676,
+        0.26343846321105957,
+        0.049846746027469635,
+        0.09324962645769119,
+        0.023420166224241257
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "fabric fold",
+      "runway lights",
+      "catwalk line",
+      "fabric drape",
+      "pose silhouette"
+    ],
+    "column_labels": [
+      "yellow background field",
+      "sweeping black hair arc",
+      "brown face profile",
+      "scale-like eye structure with suspended lines",
+      "slim black nose line",
+      "white painted lip strokes"
+    ],
+    "values": [
+      [
+        0.12824448943138123,
+        0.13483166694641113,
+        0.012861644849181175,
+        0.18663477897644043,
+        0.10140856355428696,
+        0.08968284726142883
+      ],
+      [
+        0.29410701990127563,
+        0.16356998682022095,
+        0.11715565621852875,
+        0.21294844150543213,
+        0.13608905673027039,
+        0.11587357521057129
+      ],
+      [
+        0.15723916888237,
+        0.15178760886192322,
+        0.028642047196626663,
+        0.2472260296344757,
+        0.4206211566925049,
+        0.18364942073822021
+      ],
+      [
+        0.1387501060962677,
+        0.1852847784757614,
+        0.11065168678760529,
+        0.2112593799829483,
+        0.24993130564689636,
+        0.2554062008857727
+      ],
+      [
+        0.28906527161598206,
+        0.16697333753108978,
+        0.34261271357536316,
+        0.28738003969192505,
+        0.18078555166721344,
+        0.2409069836139679
+      ]
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/nelson_mandela",
+  "meta_path": "/workspace/input/noma_bar/data/nelson_mandela/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Nelson Rolihlahla Mandela ( man-DEL-\u0259, Xhosa: [xol\u00ed\u026ca\u026ca mand\u025b\u0302\u02d0la]; born Rolihlahla Mandela; 18 July 1918 \u2013 5 December 2013) was a South African anti-apartheid activist and statesman who was the first president of South Africa from 1994 to 1999. He was the country's first Black head of state and the first elected in a fully representative democratic election. His administration focused on dismantling the legacy of apartheid by fostering racial reconciliation, a  national peace accord and eventual multiracial democracy. Ideologically an African nationalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997.\nMandela was born into the Thembu royal family in Mvezo, South Africa. He studied law at the University of Fort Hare and the University of Witwatersrand before working as a lawyer in Johannesburg. There he became involved in anti-colonial and African nationalist politics, joining the ANC in 1943 and co-founding its Youth League in 1944. After the National Party's white-only government established apartheid, a system of racial segregation that privileged whites, Mandela and the ANC committed themselves to its overthrow. Rising to prominence for his involvement in the 1952 Defiance Campaign and the 1955 Congress of the People, he was repeatedly arrested for seditious activities and was unsuccessfully prosecuted in the 1956 Treason Trial. Influenced by Marxism, he secretly joined the banned South African Communist Party (SACP). Although initially committed to non-violent protest, in association with the SACP he co-founded the militant uMkhonto we Sizwe in 1961 that led a sabotage campaign against the apartheid government. Following the Rivonia Trial, he was sentenced to life imprisonment for conspiring to overthrow the state.\nMandela served 27 years in prison. Amid growing domestic and international pressure and fears of racial civil war, President F. W. de Klerk released him in 1990. Mandela and de Klerk led efforts to negotiate an end to apartheid, which resulted in the 1994 multiracial general election in which Mandela became president. Leading a broad coalition government which promulgated a new constitution, Mandela created the Truth and Reconciliation Commission to investigate past human rights abuses. Economically, his administration retained its predecessor's liberal framework despite his own socialist beliefs, also introducing measures to encourage land reform, combat poverty and expand healthcare services. Internationally, Mandela acted as mediator in the Pan Am Flight 103 bombing trial and served as secretary-general of the Non-Aligned Movement from 1998 to 1999. He declined a second presidential term and was succeeded by Thabo Mbeki. Mandela focused on combating poverty and HIV/AIDS through the charitable Nelson Mandela Foundation.\nMandela was a controversial figure for much of his life. Although critics on the right denounced him as a communist terrorist and those on the far left deemed him too eager to negotiate and reconcile with apartheid's supporters, he gained international acclaim for his activism. Globally regarded as an icon of moral leadership, peace, democracy and social justice, he received more than 250 honours, including the Nobel Peace Prize. He is held in deep respect within South Africa, where he is often referred to by his Thembu clan name, Madiba, and described as the \"Father of the Nation\". Mandela is widely considered one of the greatest and most admired figures of the 20th century.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "dark red background field"
+    },
+    {
+      "index": 1,
+      "element": "white hair cap"
+    },
+    {
+      "index": 2,
+      "element": "golden face shape"
+    },
+    {
+      "index": 3,
+      "element": "broken chain-like eye marks"
+    },
+    {
+      "index": 4,
+      "element": "open handcuff-like mouth"
+    },
+    {
+      "index": 5,
+      "element": "orange collar triangle"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "barbed wire line"
+    },
+    {
+      "index": 1,
+      "element": "cell door"
+    },
+    {
+      "index": 2,
+      "element": "raised fist"
+    },
+    {
+      "index": 3,
+      "element": "podium block"
+    },
+    {
+      "index": 4,
+      "element": "ballot box"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "dark red background field",
+      "white hair cap",
+      "golden face shape",
+      "broken chain-like eye marks",
+      "open handcuff-like mouth",
+      "orange collar triangle"
+    ],
+    "values": [
+      [
+        -0.04023931920528412,
+        0.09153519570827484,
+        -0.03260425105690956,
+        -0.06447006016969681,
+        0.06679771840572357,
+        0.025256726890802383
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "barbed wire line",
+      "cell door",
+      "raised fist",
+      "podium block",
+      "ballot box"
+    ],
+    "column_labels": [
+      "dark red background field",
+      "white hair cap",
+      "golden face shape",
+      "broken chain-like eye marks",
+      "open handcuff-like mouth",
+      "orange collar triangle"
+    ],
+    "values": [
+      [
+        0.12919330596923828,
+        0.1968352198600769,
+        0.13445520401000977,
+        0.20553526282310486,
+        0.19659288227558136,
+        0.37723061442375183
+      ],
+      [
+        0.15650473535060883,
+        0.07884050160646439,
+        0.1360080987215042,
+        0.07553969323635101,
+        0.25337889790534973,
+        0.11907946318387985
+      ],
+      [
+        0.1665564626455307,
+        0.1522015631198883,
+        0.12235677987337112,
+        0.1358383446931839,
+        0.32333052158355713,
+        0.21443921327590942
+      ],
+      [
+        0.13312005996704102,
+        0.10652399808168411,
+        0.13912546634674072,
+        0.0865233764052391,
+        0.20273569226264954,
+        0.11704432964324951
+      ],
+      [
+        0.2354579120874405,
+        0.16646745800971985,
+        0.16405273973941803,
+        0.03807590901851654,
+        0.11633865535259247,
+        0.19127605855464935
+      ]
+    ]
+  }
+}

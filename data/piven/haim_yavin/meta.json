@@ -1,0 +1,65 @@
+{
+  "name": "haim yavin",
+  "bio": "Haim Yavin (Hebrew: חיים יבין; born September 10, 1932) is an Israeli television anchor and documentary filmmaker. He was one of Israel's leading news presenters, associated with the job for so many decades that he was known as \"Mr. Television.\"",
+  "bio_sources": [
+    {
+      "subject": "haim yavin",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Haim_Yavin"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "wire glasses",
+      "shape_type": "wearable object",
+      "meaning": "helps anchor the gaze and reinforces haim yavin's news authority and broadcast credibility."
+    },
+    {
+      "element": "television",
+      "shape_type": "technology object",
+      "meaning": "makes broadcast media the literal face of haim yavin's authority."
+    },
+    {
+      "element": "newspaper clipping",
+      "shape_type": "linear object",
+      "meaning": "adds a journalistic, documentary layer to the portrait."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "studio microphone",
+      "visual_representation": "a suspended microphone with a visible cable or stand",
+      "category": "object",
+      "relevance": "Hosting, presenting, or broadcasting are central to the subject’s media world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "signal waves",
+      "visual_representation": "radiating curved lines spreading from a single point",
+      "category": "pattern",
+      "relevance": "Transmission and broadcast media belong to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "camera body",
+      "visual_representation": "a boxy camera shape with a protruding round lens",
+      "category": "object",
+      "relevance": "Filmmaking and screen production define the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "screen frame",
+      "visual_representation": "a bright rectangular frame with a clear border",
+      "category": "structure",
+      "relevance": "Television and mediated public communication are part of the subject’s environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "headline band",
+      "visual_representation": "stacked horizontal bands like captions or headline strips",
+      "category": "pattern",
+      "relevance": "The biography supports a media persona built around public communication.",
+      "grounding": "inferred"
+    }
+  ]
+}

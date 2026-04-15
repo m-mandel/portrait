@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/stephen_king",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/stephen_king/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+        "similarity": -0.03592151403427124
+      },
+      {
+        "index": 1,
+        "name": "02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+        "similarity": -0.025376183912158012
+      },
+      {
+        "index": 2,
+        "name": "03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+        "similarity": 0.010022151283919811
+      },
+      {
+        "index": 3,
+        "name": "07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+        "similarity": -0.010030507110059261
+      },
+      {
+        "index": 4,
+        "name": "07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+        "similarity": 0.00024290593864861876
+      },
+      {
+        "index": 5,
+        "name": "08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+        "similarity": 0.028276368975639343
+      },
+      {
+        "index": 6,
+        "name": "09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+        "similarity": -0.053163472563028336
+      },
+      {
+        "index": 7,
+        "name": "14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+        "similarity": -0.03701360896229744
+      },
+      {
+        "index": 8,
+        "name": "15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+        "similarity": 0.03150370717048645
+      },
+      {
+        "index": 9,
+        "name": "16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+        "similarity": 0.027866285294294357
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.03592151403427124,
+          -0.025376183912158012,
+          0.010022151283919811,
+          -0.010030507110059261,
+          0.00024290593864861876,
+          0.028276368975639343,
+          -0.053163472563028336,
+          -0.03701360896229744,
+          0.03150370717048645,
+          0.027866285294294357
+        ],
+        [
+          -0.03592151403427124,
+          1.0000001192092896,
+          0.3866059482097626,
+          0.26859885454177856,
+          0.38374897837638855,
+          0.3226298689842224,
+          0.37761449813842773,
+          0.4602649211883545,
+          0.18022160232067108,
+          0.3341326415538788,
+          -0.09634417295455933
+        ],
+        [
+          -0.025376183912158012,
+          0.3866059482097626,
+          1.0,
+          0.5587164163589478,
+          0.5209900140762329,
+          0.705993115901947,
+          0.4579007625579834,
+          0.46422404050827026,
+          0.27267611026763916,
+          0.5255265831947327,
+          -0.032610055059194565
+        ],
+        [
+          0.010022151283919811,
+          0.26859885454177856,
+          0.5587164163589478,
+          1.0,
+          0.3070547580718994,
+          0.5375281572341919,
+          0.34164485335350037,
+          0.4137178659439087,
+          0.30153894424438477,
+          0.4990443289279938,
+          -0.019571203738451004
+        ],
+        [
+          -0.010030507110059261,
+          0.38374897837638855,
+          0.5209900140762329,
+          0.3070547580718994,
+          1.0,
+          0.5543296933174133,
+          0.3910972774028778,
+          0.638235330581665,
+          0.3842158913612366,
+          0.3895677626132965,
+          -0.0864836722612381
+        ],
+        [
+          0.00024290593864861876,
+          0.3226298689842224,
+          0.705993115901947,
+          0.5375281572341919,
+          0.5543296933174133,
+          0.9999998807907104,
+          0.4308483302593231,
+          0.49733206629753113,
+          0.2672601640224457,
+          0.5144961476325989,
+          -0.001286536455154419
+        ],
+        [
+          0.028276368975639343,
+          0.37761449813842773,
+          0.4579007625579834,
+          0.34164485335350037,
+          0.3910972774028778,
+          0.4308483302593231,
+          1.0,
+          0.4196634292602539,
+          0.20462466776371002,
+          0.36590197682380676,
+          -0.029495390132069588
+        ],
+        [
+          -0.053163472563028336,
+          0.4602649211883545,
+          0.46422404050827026,
+          0.4137178659439087,
+          0.638235330581665,
+          0.49733206629753113,
+          0.4196634292602539,
+          1.0,
+          0.369061142206192,
+          0.4506314992904663,
+          -0.0673959031701088
+        ],
+        [
+          -0.03701360896229744,
+          0.18022160232067108,
+          0.27267611026763916,
+          0.30153894424438477,
+          0.3842158913612366,
+          0.2672601640224457,
+          0.20462466776371002,
+          0.369061142206192,
+          1.0,
+          0.20465174317359924,
+          -0.04373544827103615
+        ],
+        [
+          0.03150370717048645,
+          0.3341326415538788,
+          0.5255265831947327,
+          0.4990443289279938,
+          0.3895677626132965,
+          0.5144961476325989,
+          0.36590197682380676,
+          0.4506314992904663,
+          0.20465174317359924,
+          1.0,
+          -0.08494839817285538
+        ],
+        [
+          0.027866285294294357,
+          -0.09634417295455933,
+          -0.032610055059194565,
+          -0.019571203738451004,
+          -0.0864836722612381,
+          -0.001286536455154419,
+          -0.029495390132069588,
+          -0.0673959031701088,
+          -0.04373544827103615,
+          -0.08494839817285538,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg"
+    },
+    {
+      "name": "03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg"
+    },
+    {
+      "name": "07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg"
+    },
+    {
+      "name": "07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg"
+    },
+    {
+      "name": "08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg"
+    },
+    {
+      "name": "09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg"
+    },
+    {
+      "name": "14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg"
+    },
+    {
+      "name": "15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg"
+    },
+    {
+      "name": "16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "similarity": 0.3866059482097626
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "similarity": 0.26859885454177856
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "similarity": 0.38374897837638855
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "similarity": 0.3226298689842224
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "similarity": 0.37761449813842773
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "similarity": 0.4602649211883545
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "similarity": 0.18022160232067108
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "similarity": 0.3341326415538788
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "similarity": -0.09634417295455933
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "similarity": 0.5587164163589478
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "similarity": 0.5209900140762329
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "similarity": 0.705993115901947
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "similarity": 0.4579007625579834
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "similarity": 0.46422404050827026
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "similarity": 0.27267611026763916
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "similarity": 0.5255265831947327
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "similarity": -0.032610055059194565
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "similarity": 0.3070547580718994
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "similarity": 0.5375281572341919
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "similarity": 0.34164485335350037
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "similarity": 0.4137178659439087
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "similarity": 0.30153894424438477
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "similarity": 0.4990443289279938
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "similarity": -0.019571203738451004
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "similarity": 0.5543296933174133
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "similarity": 0.3910972774028778
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "similarity": 0.638235330581665
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "similarity": 0.3842158913612366
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "similarity": 0.3895677626132965
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "similarity": -0.0864836722612381
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "similarity": 0.4308483302593231
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "similarity": 0.49733206629753113
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "similarity": 0.2672601640224457
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "similarity": 0.5144961476325989
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "similarity": -0.001286536455154419
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "similarity": 0.4196634292602539
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "similarity": 0.20462466776371002
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "similarity": 0.36590197682380676
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "similarity": -0.029495390132069588
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "similarity": 0.369061142206192
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "similarity": 0.4506314992904663
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "similarity": -0.0673959031701088
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "similarity": 0.20465174317359924
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "similarity": -0.04373544827103615
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/stephen_king/images/15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/stephen_king/images/16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg",
+      "similarity": -0.08494839817285538
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_stephen-king-at-the-2024-toronto-international-film-festival-2-cropped-jpg.jpg",
+      "02_portrait-photograph-of-stephen-king-by-james-leonard-c-1980-jpg.jpg",
+      "03_portrait-photograph-of-stephen-king-by-james-leonard-c-1987-jpg.jpg",
+      "07_portrait-photograph-of-stephen-king-by-alex-gotfryd-c-1977-jpg.jpg",
+      "07_portrait-photograph-of-stephen-king-by-james-leonard-c-1979-jpg.jpg",
+      "08_portrait-photograph-of-stephen-king-by-andrew-unangst-c-1987-jpg.jpg",
+      "09_portrait-photograph-of-stephen-king-by-james-leonard-c-1985-jpg.jpg",
+      "14_portrait-photograph-of-owen-and-stephen-king-by-james-leonard-c-1982-jpg.jpg",
+      "15_gary-hart-and-stephen-king-1984-presidential-campaign-cropped-jpg.jpg",
+      "16_gary-hart-and-stephen-king-1984-presidential-campaign-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.3866059482097626,
+        0.26859885454177856,
+        0.38374897837638855,
+        0.3226298689842224,
+        0.37761449813842773,
+        0.4602649211883545,
+        0.18022160232067108,
+        0.3341326415538788,
+        -0.09634417295455933
+      ],
+      [
+        0.3866059482097626,
+        1.0,
+        0.5587164163589478,
+        0.5209900140762329,
+        0.705993115901947,
+        0.4579007625579834,
+        0.46422404050827026,
+        0.27267611026763916,
+        0.5255265831947327,
+        -0.032610055059194565
+      ],
+      [
+        0.26859885454177856,
+        0.5587164163589478,
+        1.0,
+        0.3070547580718994,
+        0.5375281572341919,
+        0.34164485335350037,
+        0.4137178659439087,
+        0.30153894424438477,
+        0.4990443289279938,
+        -0.019571203738451004
+      ],
+      [
+        0.38374897837638855,
+        0.5209900140762329,
+        0.3070547580718994,
+        1.0,
+        0.5543296933174133,
+        0.3910972774028778,
+        0.638235330581665,
+        0.3842158913612366,
+        0.3895677626132965,
+        -0.0864836722612381
+      ],
+      [
+        0.3226298689842224,
+        0.705993115901947,
+        0.5375281572341919,
+        0.5543296933174133,
+        0.9999998807907104,
+        0.4308483302593231,
+        0.49733206629753113,
+        0.2672601640224457,
+        0.5144961476325989,
+        -0.001286536455154419
+      ],
+      [
+        0.37761449813842773,
+        0.4579007625579834,
+        0.34164485335350037,
+        0.3910972774028778,
+        0.4308483302593231,
+        1.0,
+        0.4196634292602539,
+        0.20462466776371002,
+        0.36590197682380676,
+        -0.029495390132069588
+      ],
+      [
+        0.4602649211883545,
+        0.46422404050827026,
+        0.4137178659439087,
+        0.638235330581665,
+        0.49733206629753113,
+        0.4196634292602539,
+        1.0,
+        0.369061142206192,
+        0.4506314992904663,
+        -0.0673959031701088
+      ],
+      [
+        0.18022160232067108,
+        0.27267611026763916,
+        0.30153894424438477,
+        0.3842158913612366,
+        0.2672601640224457,
+        0.20462466776371002,
+        0.369061142206192,
+        1.0,
+        0.20465174317359924,
+        -0.04373544827103615
+      ],
+      [
+        0.3341326415538788,
+        0.5255265831947327,
+        0.4990443289279938,
+        0.3895677626132965,
+        0.5144961476325989,
+        0.36590197682380676,
+        0.4506314992904663,
+        0.20465174317359924,
+        1.0,
+        -0.08494839817285538
+      ],
+      [
+        -0.09634417295455933,
+        -0.032610055059194565,
+        -0.019571203738451004,
+        -0.0864836722612381,
+        -0.001286536455154419,
+        -0.029495390132069588,
+        -0.0673959031701088,
+        -0.04373544827103615,
+        -0.08494839817285538,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/stephen_king/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/stephen_king/portrait.jpg"
+    }
+  ]
+}

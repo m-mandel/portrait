@@ -1,0 +1,85 @@
+{
+  "name": "dana international",
+  "bio": "Sharon Cohen (Hebrew: שרון כהן; born 2 February 1969), professionally known as Dana International (Hebrew: דנה אינטרנשיונל), is an Israeli pop singer. She has released eight albums and three additional compilation albums. She was the winner of the Eurovision Song Contest 1998 in Birmingham with the song \"Diva\".\nAfter consolidating her initial commercial success with the albums Umpatampa (1994) and Maganuna (1996), she was selected in 1998 to represent Israel in the Eurovision Song Contest with her song \"Diva\". Placing first at the international competition, she came to public attention throughout Europe.\nDana following up this success with the albums Free (1999), Yoter VeYoter (2001), HaHalom HaEfshari (2002) and Hakol Ze Letova (2007), she represented Israel in Eurovision a second time in 2011, this time with the song \"Ding Dong\", which failed to make it into the final. The same year, she became a judge on the Israeli television music talent contest Kokhav Nolad.",
+  "bio_sources": [
+    {
+      "subject": "dana international",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Dana_International"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "combs",
+      "shape_type": "household object",
+      "meaning": "turns an everyday item into a facial feature, emphasizing the handmade reading of dana international's glamour, camp performance, and transformation."
+    },
+    {
+      "element": "lipstick",
+      "shape_type": "cosmetic object",
+      "meaning": "places glamour and performed femininity at the center of the image."
+    },
+    {
+      "element": "heart-shaped candy",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing dana international's glamour, camp performance, and transformation."
+    },
+    {
+      "element": "plastic doll arms",
+      "shape_type": "toy object",
+      "meaning": "adds camp theatricality and an intentionally artificial pop surface."
+    },
+    {
+      "element": "feathers",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing dana international's glamour, camp performance, and transformation."
+    },
+    {
+      "element": "beads",
+      "shape_type": "circular object",
+      "meaning": "creates visual focal points that strengthen dana international's glamour, camp performance, and transformation."
+    },
+    {
+      "element": "sequined fabric",
+      "shape_type": "textile object",
+      "meaning": "pushes the portrait toward stage sparkle and nightclub performance."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "star trophy",
+      "visual_representation": "a bright star-like badge with a small base",
+      "category": "symbol",
+      "relevance": "The biography explicitly includes Eurovision success.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "microphone silhouette",
+      "visual_representation": "an upright microphone form with a narrow stand",
+      "category": "object",
+      "relevance": "Performance and singing are central to the musical world around the subject.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "vinyl record",
+      "visual_representation": "a dark circular disc with a small center label",
+      "category": "object",
+      "relevance": "Recorded music belongs to the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "stage lights",
+      "visual_representation": "a row of bright circular lamps casting downward cones",
+      "category": "domain",
+      "relevance": "Concert staging and public performance are part of the subject’s professional environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "spotlight oval",
+      "visual_representation": "a soft illuminated oval like a stage light pool",
+      "category": "shape",
+      "relevance": "The biography supports a public image built around performance and attention.",
+      "grounding": "inferred"
+    }
+  ]
+}

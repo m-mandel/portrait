@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/steven_speilberg",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/steven_speilberg/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+        "similarity": -0.03571946918964386
+      },
+      {
+        "index": 1,
+        "name": "02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+        "similarity": 0.0002482241252437234
+      },
+      {
+        "index": 2,
+        "name": "03_steven-spielberg-36057844341-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+        "similarity": -0.052580825984478
+      },
+      {
+        "index": 3,
+        "name": "04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+        "similarity": -0.05331406742334366
+      },
+      {
+        "index": 4,
+        "name": "08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+        "similarity": 0.017985865473747253
+      },
+      {
+        "index": 5,
+        "name": "08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+        "similarity": -0.04724860191345215
+      },
+      {
+        "index": 6,
+        "name": "09_steven-spielberg-35387119193-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+        "similarity": -0.049982476979494095
+      },
+      {
+        "index": 7,
+        "name": "09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+        "similarity": -0.05365810543298721
+      },
+      {
+        "index": 8,
+        "name": "12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+        "similarity": 0.009800124913454056
+      },
+      {
+        "index": 9,
+        "name": "13_steven-spielberg-portrait-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+        "similarity": 0.013304254971444607
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          -0.03571946918964386,
+          0.0002482241252437234,
+          -0.052580825984478,
+          -0.05331406742334366,
+          0.017985865473747253,
+          -0.04724860191345215,
+          -0.049982476979494095,
+          -0.05365810543298721,
+          0.009800124913454056,
+          0.013304254971444607
+        ],
+        [
+          -0.03571946918964386,
+          1.0,
+          0.49418655037879944,
+          0.5520233511924744,
+          0.32218942046165466,
+          0.38373640179634094,
+          0.5493472218513489,
+          0.4771832823753357,
+          0.6084315180778503,
+          0.44268709421157837,
+          0.460117906332016
+        ],
+        [
+          0.0002482241252437234,
+          0.49418655037879944,
+          1.0000001192092896,
+          0.49779078364372253,
+          0.3409990966320038,
+          0.4215811789035797,
+          0.5019919872283936,
+          0.5391560792922974,
+          0.5263760089874268,
+          0.42763036489486694,
+          0.4096265137195587
+        ],
+        [
+          -0.052580825984478,
+          0.5520233511924744,
+          0.49779078364372253,
+          1.0,
+          0.36548638343811035,
+          0.35081061720848083,
+          0.8381465077400208,
+          0.7787368893623352,
+          0.8605765700340271,
+          0.4920750558376312,
+          0.4715486764907837
+        ],
+        [
+          -0.05331406742334366,
+          0.32218942046165466,
+          0.3409990966320038,
+          0.36548638343811035,
+          1.0,
+          0.45093169808387756,
+          0.3680284023284912,
+          0.3412744104862213,
+          0.37022367119789124,
+          0.46345776319503784,
+          0.47945573925971985
+        ],
+        [
+          0.017985865473747253,
+          0.38373640179634094,
+          0.4215811789035797,
+          0.35081061720848083,
+          0.45093169808387756,
+          1.0000001192092896,
+          0.39345765113830566,
+          0.441985160112381,
+          0.41586434841156006,
+          0.4709349274635315,
+          0.45927944779396057
+        ],
+        [
+          -0.04724860191345215,
+          0.5493472218513489,
+          0.5019919872283936,
+          0.8381465077400208,
+          0.3680284023284912,
+          0.39345765113830566,
+          1.0,
+          0.7837376594543457,
+          0.7621581554412842,
+          0.476775199174881,
+          0.4629449248313904
+        ],
+        [
+          -0.049982476979494095,
+          0.4771832823753357,
+          0.5391560792922974,
+          0.7787368893623352,
+          0.3412744104862213,
+          0.441985160112381,
+          0.7837376594543457,
+          0.9999999403953552,
+          0.7799821496009827,
+          0.4219626188278198,
+          0.41705453395843506
+        ],
+        [
+          -0.05365810543298721,
+          0.6084315180778503,
+          0.5263760089874268,
+          0.8605765700340271,
+          0.37022367119789124,
+          0.41586434841156006,
+          0.7621581554412842,
+          0.7799821496009827,
+          0.9999999403953552,
+          0.4764787554740906,
+          0.463981568813324
+        ],
+        [
+          0.009800124913454056,
+          0.44268709421157837,
+          0.42763036489486694,
+          0.4920750558376312,
+          0.46345776319503784,
+          0.4709349274635315,
+          0.476775199174881,
+          0.4219626188278198,
+          0.4764787554740906,
+          1.0,
+          0.9430099725723267
+        ],
+        [
+          0.013304254971444607,
+          0.460117906332016,
+          0.4096265137195587,
+          0.4715486764907837,
+          0.47945573925971985,
+          0.45927944779396057,
+          0.4629449248313904,
+          0.41705453395843506,
+          0.463981568813324,
+          0.9430099725723267,
+          1.0
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg"
+    },
+    {
+      "name": "08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg"
+    },
+    {
+      "name": "09_steven-spielberg-35387119193-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg"
+    },
+    {
+      "name": "09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg"
+    },
+    {
+      "name": "12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg"
+    },
+    {
+      "name": "13_steven-spielberg-portrait-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "similarity": 0.49418655037879944
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "similarity": 0.5520233511924744
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "similarity": 0.32218942046165466
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "similarity": 0.38373640179634094
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "similarity": 0.5493472218513489
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+      "similarity": 0.4771832823753357
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "similarity": 0.6084315180778503
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "similarity": 0.44268709421157837
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+      "similarity": 0.460117906332016
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "similarity": 0.49779078364372253
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "similarity": 0.3409990966320038
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "similarity": 0.4215811789035797
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "similarity": 0.5019919872283936
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+      "similarity": 0.5391560792922974
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "similarity": 0.5263760089874268
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "similarity": 0.42763036489486694
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+      "similarity": 0.4096265137195587
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "similarity": 0.36548638343811035
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "similarity": 0.35081061720848083
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "similarity": 0.8381465077400208
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+      "similarity": 0.7787368893623352
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "similarity": 0.8605765700340271
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "similarity": 0.4920750558376312
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+      "similarity": 0.4715486764907837
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "similarity": 0.45093169808387756
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "similarity": 0.3680284023284912
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+      "similarity": 0.3412744104862213
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "similarity": 0.37022367119789124
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "similarity": 0.46345776319503784
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+      "similarity": 0.47945573925971985
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "similarity": 0.39345765113830566
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+      "similarity": 0.441985160112381
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "similarity": 0.41586434841156006
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "similarity": 0.4709349274635315
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+      "similarity": 0.45927944779396057
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+      "similarity": 0.7837376594543457
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "similarity": 0.7621581554412842
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "similarity": 0.476775199174881
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+      "similarity": 0.4629449248313904
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "similarity": 0.7799821496009827
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "similarity": 0.4219626188278198
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-35387119193-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+      "similarity": 0.41705453395843506
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "similarity": 0.4764787554740906
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+      "similarity": 0.463981568813324
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/steven_speilberg/images/12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/steven_speilberg/images/13_steven-spielberg-portrait-jpg.jpg",
+      "similarity": 0.9430099725723267
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_ready-player-one-japan-premiere-red-carpet-steven-spielberg-26737406887-cropped-jpg.jpg",
+      "02_steven-spielberg-masterclass-cin-math-que-fran-aise-2-cropped-jpg.jpg",
+      "03_steven-spielberg-36057844341-cropped-jpg.jpg",
+      "04_steven-spielberg-kate-capshaw-2077795745-jpg.jpg",
+      "08_steven-spielberg-1999-4-5-cropped-jpg.jpg",
+      "08_steven-spielberg-by-gage-skidmore-jpg.jpg",
+      "09_steven-spielberg-35387119193-jpg.jpg",
+      "09_steven-spielberg-36057844341-cropped-cropped-jpg.jpg",
+      "12_steven-spielberg-gianangelo-pistoia-1-cropped-jpg.jpg",
+      "13_steven-spielberg-portrait-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.49418655037879944,
+        0.5520233511924744,
+        0.32218942046165466,
+        0.38373640179634094,
+        0.5493472218513489,
+        0.4771832823753357,
+        0.6084315180778503,
+        0.44268709421157837,
+        0.460117906332016
+      ],
+      [
+        0.49418655037879944,
+        1.0000001192092896,
+        0.49779078364372253,
+        0.3409990966320038,
+        0.4215811789035797,
+        0.5019919872283936,
+        0.5391560792922974,
+        0.5263760089874268,
+        0.42763036489486694,
+        0.4096265137195587
+      ],
+      [
+        0.5520233511924744,
+        0.49779078364372253,
+        1.0,
+        0.36548638343811035,
+        0.35081061720848083,
+        0.8381465077400208,
+        0.7787368893623352,
+        0.8605765700340271,
+        0.4920750558376312,
+        0.4715486764907837
+      ],
+      [
+        0.32218942046165466,
+        0.3409990966320038,
+        0.36548638343811035,
+        1.0,
+        0.45093169808387756,
+        0.3680284023284912,
+        0.3412744104862213,
+        0.37022367119789124,
+        0.46345776319503784,
+        0.47945573925971985
+      ],
+      [
+        0.38373640179634094,
+        0.4215811789035797,
+        0.35081061720848083,
+        0.45093169808387756,
+        1.0000001192092896,
+        0.39345765113830566,
+        0.441985160112381,
+        0.41586434841156006,
+        0.4709349274635315,
+        0.45927944779396057
+      ],
+      [
+        0.5493472218513489,
+        0.5019919872283936,
+        0.8381465077400208,
+        0.3680284023284912,
+        0.39345765113830566,
+        1.0,
+        0.7837376594543457,
+        0.7621581554412842,
+        0.476775199174881,
+        0.4629449248313904
+      ],
+      [
+        0.4771832823753357,
+        0.5391560792922974,
+        0.7787368893623352,
+        0.3412744104862213,
+        0.441985160112381,
+        0.7837376594543457,
+        0.9999999403953552,
+        0.7799821496009827,
+        0.4219626188278198,
+        0.41705453395843506
+      ],
+      [
+        0.6084315180778503,
+        0.5263760089874268,
+        0.8605765700340271,
+        0.37022367119789124,
+        0.41586434841156006,
+        0.7621581554412842,
+        0.7799821496009827,
+        0.9999999403953552,
+        0.4764787554740906,
+        0.463981568813324
+      ],
+      [
+        0.44268709421157837,
+        0.42763036489486694,
+        0.4920750558376312,
+        0.46345776319503784,
+        0.4709349274635315,
+        0.476775199174881,
+        0.4219626188278198,
+        0.4764787554740906,
+        1.0,
+        0.9430099725723267
+      ],
+      [
+        0.460117906332016,
+        0.4096265137195587,
+        0.4715486764907837,
+        0.47945573925971985,
+        0.45927944779396057,
+        0.4629449248313904,
+        0.41705453395843506,
+        0.463981568813324,
+        0.9430099725723267,
+        1.0
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/steven_speilberg/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/steven_speilberg/portrait.jpg"
+    }
+  ]
+}

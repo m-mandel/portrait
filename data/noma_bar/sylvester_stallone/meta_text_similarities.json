@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/sylvester_stallone",
+  "meta_path": "/workspace/input/noma_bar/data/sylvester_stallone/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Sylvester Gardenzio Stallone ( st\u0259-LOHN; born July 6, 1946) is an American actor, painter, and filmmaker. In a film career spanning more than fifty years, Stallone has received numerous accolades, including a Golden Globe Award and a Critics' Choice Award, as well as nominations for three Academy Awards and two BAFTA Awards. Stallone is one of only two actors in history (alongside Harrison Ford) to have starred in a box-office No. 1 film across six consecutive decades. Films in which he has appeared have grossed over $7.5 billion worldwide.\nStruggling as an actor for a number of years upon moving to New York City in 1969, Stallone found gradual work in films such as The Lords of Flatbush (1974). He achieved his greatest critical and commercial success starting in 1976 with his iconic role as boxer Rocky Balboa in the first film of the successful Rocky franchise, which he also wrote. In 1977, he became the third actor in history to be nominated for two Academy Awards for Best Original Screenplay and Best Actor. He portrayed the PTSD-plagued soldier John Rambo in First Blood (1982), a role he would play across five Rambo films (1982\u20132019). From the mid-1980s to the late 1990s, Stallone would go on to become one of Hollywood's highest-paid actors acting in action films such as Cobra (1986), Tango and Cash (1989), Cliffhanger (1993), Demolition Man (1993), and The Specialist (1994). At the height of his career, Stallone was known for his rivalry with Arnold Schwarzenegger.\nStallone continued his established roles in Rocky Balboa (2006) and Rambo (2008) before launching The Expendables film franchise (2010\u2013present), in which he starred as the mercenary Barney Ross. In 2013, he starred in the successful film Escape Plan and appeared in its sequels. In 2015, he returned to Rocky again with Creed, in which a retired Rocky mentors former rival Apollo Creed's son Adonis Creed. The film brought Stallone widespread praise and his first Golden Globe Award, as well as a third Academy Award nomination, having been first nominated for the same role 40 years prior. He also starred in the sequel Creed II (2018) and portrayed Stakar Ogord in the Marvel Cinematic Universe films Guardians of the Galaxy Vol. 2 (2017) and Guardians of the Galaxy Vol. 3 (2023).\nRegarded as an icon of action cinema, Stallone is credited with helping redefine the Hollywood action hero. He has occasionally ventured from the action genre, with mixed results. He starred in the comedies Oscar (1991) and Stop! Or My Mom Will Shoot (1992), the first film failed at box office but the second one had modest success. He also starred in the 1997 drama Cop Land, for which he temporarily shed his sculpted physique and gained weight for his role as a powerless sheriff. In television, he has starred in the Paramount+ crime series Tulsa King (2022\u2013present). In addition to his film work, Stallone is a noted art collector and painter, and has written books on fitness.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "pale background field"
+    },
+    {
+      "index": 1,
+      "element": "black hair mass"
+    },
+    {
+      "index": 2,
+      "element": "white face and torso block"
+    },
+    {
+      "index": 3,
+      "element": "red boxing-glove eye"
+    },
+    {
+      "index": 4,
+      "element": "red boxing-glove mouth"
+    },
+    {
+      "index": 5,
+      "element": "thin tan contour lines"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "championship medallion"
+    },
+    {
+      "index": 2,
+      "element": "camera body"
+    },
+    {
+      "index": 3,
+      "element": "film strip"
+    },
+    {
+      "index": 4,
+      "element": "clapboard"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "pale background field",
+      "black hair mass",
+      "white face and torso block",
+      "red boxing-glove eye",
+      "red boxing-glove mouth",
+      "thin tan contour lines"
+    ],
+    "values": [
+      [
+        0.05959483981132507,
+        0.004330986179411411,
+        0.11181347072124481,
+        0.1177259236574173,
+        0.17470508813858032,
+        -0.08334807306528091
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "championship medallion",
+      "camera body",
+      "film strip",
+      "clapboard"
+    ],
+    "column_labels": [
+      "pale background field",
+      "black hair mass",
+      "white face and torso block",
+      "red boxing-glove eye",
+      "red boxing-glove mouth",
+      "thin tan contour lines"
+    ],
+    "values": [
+      [
+        0.4451000988483429,
+        0.19262602925300598,
+        0.31370243430137634,
+        0.19009578227996826,
+        0.18810021877288818,
+        0.23021622002124786
+      ],
+      [
+        0.03622565045952797,
+        0.1466437578201294,
+        0.13226309418678284,
+        0.3524777293205261,
+        0.35416799783706665,
+        -0.0564899668097496
+      ],
+      [
+        0.2966110110282898,
+        0.15397021174430847,
+        0.3623236417770386,
+        0.3069194257259369,
+        0.30102115869522095,
+        0.07990357279777527
+      ],
+      [
+        0.2914186120033264,
+        0.0713910460472107,
+        0.2080329954624176,
+        0.038086362183094025,
+        0.03927895426750183,
+        0.22104008495807648
+      ],
+      [
+        0.12268950045108795,
+        0.03814974054694176,
+        0.05926079303026199,
+        0.2533193826675415,
+        0.30519920587539673,
+        0.046314939856529236
+      ]
+    ]
+  }
+}

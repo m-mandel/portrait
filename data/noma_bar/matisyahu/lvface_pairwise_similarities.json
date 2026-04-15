@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/noma_bar/data/matisyahu",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/matisyahu/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+        "similarity": 0.09992042928934097
+      },
+      {
+        "index": 1,
+        "name": "03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+        "similarity": 0.023105721920728683
+      },
+      {
+        "index": 2,
+        "name": "07_konzert-matisyahu-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg",
+        "similarity": 0.1231340765953064
+      },
+      {
+        "index": 3,
+        "name": "07_matisyahu-at-roskilde-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg",
+        "similarity": 0.1221846416592598
+      },
+      {
+        "index": 4,
+        "name": "08_matisyahu-at-a-concert-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg",
+        "similarity": -0.013811003416776657
+      },
+      {
+        "index": 5,
+        "name": "09_matisyahu-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg",
+        "similarity": 0.06401673704385757
+      },
+      {
+        "index": 6,
+        "name": "11_matisyahu-png.png",
+        "path": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png",
+        "similarity": 0.07907012850046158
+      },
+      {
+        "index": 7,
+        "name": "13_matisyahu-at-roskilde-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg",
+        "similarity": 0.12802109122276306
+      },
+      {
+        "index": 8,
+        "name": "14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+        "similarity": 0.08028855174779892
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.09992042928934097,
+          0.023105721920728683,
+          0.1231340765953064,
+          0.1221846416592598,
+          -0.013811003416776657,
+          0.06401673704385757,
+          0.07907012850046158,
+          0.12802109122276306,
+          0.08028855174779892
+        ],
+        [
+          0.09992042928934097,
+          1.0,
+          0.20171713829040527,
+          0.21877539157867432,
+          0.5241565704345703,
+          0.017849687486886978,
+          0.3390238881111145,
+          0.5367498993873596,
+          0.5894985795021057,
+          0.42767763137817383
+        ],
+        [
+          0.023105721920728683,
+          0.20171713829040527,
+          1.0,
+          0.15923495590686798,
+          0.1891648769378662,
+          0.019057700410485268,
+          0.16176284849643707,
+          0.22643904387950897,
+          0.17771141231060028,
+          0.2569005489349365
+        ],
+        [
+          0.1231340765953064,
+          0.21877539157867432,
+          0.15923495590686798,
+          1.0,
+          0.13888010382652283,
+          -0.006370175629854202,
+          0.20936058461666107,
+          0.23197275400161743,
+          0.17524650692939758,
+          0.28360477089881897
+        ],
+        [
+          0.1221846416592598,
+          0.5241565704345703,
+          0.1891648769378662,
+          0.13888010382652283,
+          1.0,
+          -0.006193508859723806,
+          0.34973299503326416,
+          0.4103447198867798,
+          0.929066002368927,
+          0.36507925391197205
+        ],
+        [
+          -0.013811003416776657,
+          0.017849687486886978,
+          0.019057700410485268,
+          -0.006370175629854202,
+          -0.006193508859723806,
+          1.0,
+          0.025279976427555084,
+          0.009037892334163189,
+          -0.02684791199862957,
+          -0.0423818938434124
+        ],
+        [
+          0.06401673704385757,
+          0.3390238881111145,
+          0.16176284849643707,
+          0.20936058461666107,
+          0.34973299503326416,
+          0.025279976427555084,
+          0.9999999403953552,
+          0.46081826090812683,
+          0.36312124133110046,
+          0.4465098977088928
+        ],
+        [
+          0.07907012850046158,
+          0.5367498993873596,
+          0.22643904387950897,
+          0.23197275400161743,
+          0.4103447198867798,
+          0.009037892334163189,
+          0.46081826090812683,
+          1.0,
+          0.4346761107444763,
+          0.48204487562179565
+        ],
+        [
+          0.12802109122276306,
+          0.5894985795021057,
+          0.17771141231060028,
+          0.17524650692939758,
+          0.929066002368927,
+          -0.02684791199862957,
+          0.36312124133110046,
+          0.4346761107444763,
+          1.0,
+          0.4017738103866577
+        ],
+        [
+          0.08028855174779892,
+          0.42767763137817383,
+          0.2569005489349365,
+          0.28360477089881897,
+          0.36507925391197205,
+          -0.0423818938434124,
+          0.4465098977088928,
+          0.48204487562179565,
+          0.4017738103866577,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg"
+    },
+    {
+      "name": "03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg"
+    },
+    {
+      "name": "07_konzert-matisyahu-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg"
+    },
+    {
+      "name": "07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_matisyahu-at-a-concert-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg"
+    },
+    {
+      "name": "09_matisyahu-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg"
+    },
+    {
+      "name": "11_matisyahu-png.png",
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png"
+    },
+    {
+      "name": "13_matisyahu-at-roskilde-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg"
+    },
+    {
+      "name": "14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "similarity": 0.20171713829040527
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg",
+      "similarity": 0.21877539157867432
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "similarity": 0.5241565704345703
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg",
+      "similarity": 0.017849687486886978
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg",
+      "similarity": 0.3390238881111145
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png",
+      "similarity": 0.5367498993873596
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg",
+      "similarity": 0.5894985795021057
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+      "similarity": 0.42767763137817383
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg",
+      "similarity": 0.15923495590686798
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "similarity": 0.1891648769378662
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg",
+      "similarity": 0.019057700410485268
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg",
+      "similarity": 0.16176284849643707
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png",
+      "similarity": 0.22643904387950897
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg",
+      "similarity": 0.17771141231060028
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+      "similarity": 0.2569005489349365
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "similarity": 0.13888010382652283
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg",
+      "similarity": -0.006370175629854202
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg",
+      "similarity": 0.20936058461666107
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png",
+      "similarity": 0.23197275400161743
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg",
+      "similarity": 0.17524650692939758
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_konzert-matisyahu-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+      "similarity": 0.28360477089881897
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg",
+      "similarity": -0.006193508859723806
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg",
+      "similarity": 0.34973299503326416
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png",
+      "similarity": 0.4103447198867798
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg",
+      "similarity": 0.929066002368927
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+      "similarity": 0.36507925391197205
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg",
+      "similarity": 0.025279976427555084
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png",
+      "similarity": 0.009037892334163189
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg",
+      "similarity": -0.02684791199862957
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/08_matisyahu-at-a-concert-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+      "similarity": -0.0423818938434124
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png",
+      "similarity": 0.46081826090812683
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg",
+      "similarity": 0.36312124133110046
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/09_matisyahu-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+      "similarity": 0.4465098977088928
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg",
+      "similarity": 0.4346761107444763
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/11_matisyahu-png.png",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+      "similarity": 0.48204487562179565
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/matisyahu/images/13_matisyahu-at-roskilde-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/matisyahu/images/14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg",
+      "similarity": 0.4017738103866577
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_matisyahu-performing-photograph-by-kris-krug-jpg.jpg",
+      "03_matisyahu-promo-photo-from-katz-cadenza-jpg.jpg",
+      "07_konzert-matisyahu-jpg.jpg",
+      "07_matisyahu-at-roskilde-cropped-jpg.jpg",
+      "08_matisyahu-at-a-concert-jpg.jpg",
+      "09_matisyahu-2-jpg.jpg",
+      "11_matisyahu-png.png",
+      "13_matisyahu-at-roskilde-jpg.jpg",
+      "14_summerjam-20130705-matisyahu-dsc-0012-by-emha-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.20171713829040527,
+        0.21877539157867432,
+        0.5241565704345703,
+        0.017849687486886978,
+        0.3390238881111145,
+        0.5367498993873596,
+        0.5894985795021057,
+        0.42767763137817383
+      ],
+      [
+        0.20171713829040527,
+        1.0,
+        0.15923495590686798,
+        0.1891648769378662,
+        0.019057700410485268,
+        0.16176284849643707,
+        0.22643904387950897,
+        0.17771141231060028,
+        0.2569005489349365
+      ],
+      [
+        0.21877539157867432,
+        0.15923495590686798,
+        1.0,
+        0.13888010382652283,
+        -0.006370175629854202,
+        0.20936058461666107,
+        0.23197275400161743,
+        0.17524650692939758,
+        0.28360477089881897
+      ],
+      [
+        0.5241565704345703,
+        0.1891648769378662,
+        0.13888010382652283,
+        1.0,
+        -0.006193508859723806,
+        0.34973299503326416,
+        0.4103447198867798,
+        0.929066002368927,
+        0.36507925391197205
+      ],
+      [
+        0.017849687486886978,
+        0.019057700410485268,
+        -0.006370175629854202,
+        -0.006193508859723806,
+        1.0,
+        0.025279976427555084,
+        0.009037892334163189,
+        -0.02684791199862957,
+        -0.0423818938434124
+      ],
+      [
+        0.3390238881111145,
+        0.16176284849643707,
+        0.20936058461666107,
+        0.34973299503326416,
+        0.025279976427555084,
+        0.9999999403953552,
+        0.46081826090812683,
+        0.36312124133110046,
+        0.4465098977088928
+      ],
+      [
+        0.5367498993873596,
+        0.22643904387950897,
+        0.23197275400161743,
+        0.4103447198867798,
+        0.009037892334163189,
+        0.46081826090812683,
+        1.0,
+        0.4346761107444763,
+        0.48204487562179565
+      ],
+      [
+        0.5894985795021057,
+        0.17771141231060028,
+        0.17524650692939758,
+        0.929066002368927,
+        -0.02684791199862957,
+        0.36312124133110046,
+        0.4346761107444763,
+        1.0,
+        0.4017738103866577
+      ],
+      [
+        0.42767763137817383,
+        0.2569005489349365,
+        0.28360477089881897,
+        0.36507925391197205,
+        -0.0423818938434124,
+        0.4465098977088928,
+        0.48204487562179565,
+        0.4017738103866577,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/matisyahu/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/matisyahu/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/noma_bar/data/matisyahu/images/02_matisyahupressshotofficial-jpg.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/matisyahu/images/02_matisyahupressshotofficial-jpg.jpg"
+    }
+  ]
+}

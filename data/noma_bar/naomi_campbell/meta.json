@@ -1,0 +1,80 @@
+{
+  "name": "naomi campbell",
+  "bio": "Naomi Elaine Campbell (born 22 May 1970) is a British model. Beginning her career at the age of eight, Campbell was one of six models of her generation declared supermodels by the fashion industry and the international press. She was the first black woman to appear as a model on the covers of Time and Vogue France.\nIn addition to her modelling career, Campbell has embarked on other ventures, including an R&B studio album and several acting appearances in film and television. She hosted the modelling-competition reality show The Face and its international offshoots. Campbell is also involved in charity work for various causes, although she was banned from being a trustee of any charity in the United Kingdom for five years in September 2024 following a financial misconduct investigation. She was also mentioned in the Epstein Files.",
+  "bio_sources": [
+    {
+      "subject": "naomi campbell",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Naomi_Campbell"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "yellow background field",
+      "shape_type": "rectangle",
+      "meaning": "makes the dark figure feel runway-bright"
+    },
+    {
+      "element": "sweeping black hair arc",
+      "shape_type": "organic shape",
+      "meaning": "conveys elegance and fashion drama"
+    },
+    {
+      "element": "brown face profile",
+      "shape_type": "organic shape",
+      "meaning": "creates a long sculpted runway pose"
+    },
+    {
+      "element": "scale-like eye structure with suspended lines",
+      "shape_type": "symbol",
+      "meaning": "suggests poise, balance, and the scrutiny of fashion"
+    },
+    {
+      "element": "slim black nose line",
+      "shape_type": "line",
+      "meaning": "sharpens the profile into a catwalk silhouette"
+    },
+    {
+      "element": "white painted lip strokes",
+      "shape_type": "brush mark",
+      "meaning": "add glossy editorial glamour"
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "fabric fold",
+      "visual_representation": "a clean folded swatch of cloth with a visible edge",
+      "category": "material",
+      "relevance": "The biography explicitly describes fashion or modeling.",
+      "grounding": "explicit"
+    },
+    {
+      "element": "runway lights",
+      "visual_representation": "a line of bright lamps flanking a narrow catwalk",
+      "category": "domain",
+      "relevance": "Fashion-show staging is part of the subject’s public world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "catwalk line",
+      "visual_representation": "a long narrow runway receding into space",
+      "category": "structure",
+      "relevance": "Runway presentation belongs to the modeling domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "fabric drape",
+      "visual_representation": "a long cloth fold hanging in clean vertical curves",
+      "category": "material",
+      "relevance": "Garment display is strongly associated with the subject’s field.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "pose silhouette",
+      "visual_representation": "a tall angled silhouette with one leg stepped forward",
+      "category": "shape",
+      "relevance": "The biography supports a public image built around posture and display.",
+      "grounding": "inferred"
+    }
+  ]
+}

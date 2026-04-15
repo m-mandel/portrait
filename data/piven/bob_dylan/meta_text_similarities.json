@@ -1,0 +1,88 @@
+{
+  "folder": "/workspace/input/piven/data/bob_dylan",
+  "meta_path": "/workspace/input/piven/data/bob_dylan/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Bob Dylan (legally Robert Dylan; born Robert Allen Zimmerman, May 24, 1941) is an American singer-songwriter. Described as one of the greatest songwriters of all time, Dylan has been a major figure in popular culture over his 69-year career. With an estimated 125 million records sold worldwide, he is one of the best-selling musicians. Dylan added increasingly sophisticated lyrical techniques to the folk music of the early 1960s, infusing it \"with the intellectualism of classic literature and poetry\". His lyrics incorporated political, social, and philosophical influences, defying pop music conventions and appealing to the burgeoning counterculture.\nDylan was born in St. Louis County, Minnesota. He moved to New York City in 1961 to pursue a music career. His 1962 debut album, Bob Dylan, containing traditional folk and blues material, was followed by his breakthrough album, The Freewheelin' Bob Dylan (1963), which included \"Girl from the North Country\" and \"A Hard Rain's a-Gonna Fall\", adapting older folk songs. His songs \"Blowin' in the Wind\" (1963) and \"The Times They Are a-Changin'\" (1964) became anthems for the civil rights and antiwar movements. In 1965 and 1966, Dylan created controversy when he used electrically amplified rock instrumentation for his albums Bringing It All Back Home, Highway 61 Revisited (both 1965), and Blonde on Blonde (1966). His six-minute single \"Like a Rolling Stone\" (1965) expanded commercial and creative boundaries in popular music.\nAfter a motorcycle crash in 1966, Dylan ceased touring for seven years. During this period, he recorded a large body of songs with members of the Band, which produced the album The Basement Tapes (1975). Dylan explored country music and rural themes on the albums John Wesley Harding (1967), Nashville Skyline (1969), and New Morning (1970). He gained acclaim for Blood on the Tracks (1975) and Time Out of Mind (1997), the latter of which earned him the Grammy Award for Album of the Year. Dylan still releases music and has toured continually since the late 1980s on what has become known as the Never Ending Tour. Since 1994, Dylan has published ten books of paintings and drawings, and his work has been exhibited in major art galleries. His life has been profiled in several films, including the biopic A Complete Unknown (2024).\nDylan's accolades include an Academy Award and ten Grammy Awards. He was honored with Kennedy Center Honors in 1997 and the Presidential Medal of Freedom in 2012. Dylan has been inducted into the Rock and Roll Hall of Fame and the Songwriters Hall of Fame. He was awarded a Pulitzer Prize special citation in 2008, and the 2016 Nobel Prize in Literature \"for having created new poetic expressions within the great American song tradition\".",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "light bulb"
+    },
+    {
+      "index": 1,
+      "element": "harmonica"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "medal disk"
+    },
+    {
+      "index": 1,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 2,
+      "element": "city skyline"
+    },
+    {
+      "index": 3,
+      "element": "rainbow band"
+    },
+    {
+      "index": 4,
+      "element": "microphone silhouette"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "light bulb",
+      "harmonica"
+    ],
+    "values": [
+      [
+        -0.044996779412031174,
+        0.29036349058151245
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "medal disk",
+      "statuette silhouette",
+      "city skyline",
+      "rainbow band",
+      "microphone silhouette"
+    ],
+    "column_labels": [
+      "light bulb",
+      "harmonica"
+    ],
+    "values": [
+      [
+        0.16063308715820312,
+        0.23976849019527435
+      ],
+      [
+        0.15543480217456818,
+        0.15022507309913635
+      ],
+      [
+        0.08483660221099854,
+        0.04608626291155815
+      ],
+      [
+        0.31862857937812805,
+        0.3556533455848694
+      ],
+      [
+        0.07647457718849182,
+        0.2488391101360321
+      ]
+    ]
+  }
+}

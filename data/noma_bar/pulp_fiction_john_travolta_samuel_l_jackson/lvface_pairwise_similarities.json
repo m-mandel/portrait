@@ -1,0 +1,644 @@
+{
+  "folder": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_carola-and-john-travolta-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+        "similarity": 0.043901607394218445
+      },
+      {
+        "index": 1,
+        "name": "02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+        "similarity": 0.024856820702552795
+      },
+      {
+        "index": 2,
+        "name": "03_john-travolta-2014-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+        "similarity": 0.030524974688887596
+      },
+      {
+        "index": 3,
+        "name": "04_john-travolta-cannes-2018-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+        "similarity": -0.01880694553256035
+      },
+      {
+        "index": 4,
+        "name": "05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+        "similarity": 0.013105912134051323
+      },
+      {
+        "index": 5,
+        "name": "06_john-travolta-1976-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+        "similarity": 0.015519003383815289
+      },
+      {
+        "index": 6,
+        "name": "07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+        "similarity": -0.013370818458497524
+      },
+      {
+        "index": 7,
+        "name": "08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+        "similarity": 0.019548853859305382
+      },
+      {
+        "index": 8,
+        "name": "09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+        "similarity": 0.028056621551513672
+      },
+      {
+        "index": 9,
+        "name": "10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+        "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+        "similarity": 0.018611015751957893
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "values": [
+        [
+          1.0,
+          0.043901607394218445,
+          0.024856820702552795,
+          0.030524974688887596,
+          -0.01880694553256035,
+          0.013105912134051323,
+          0.015519003383815289,
+          -0.013370818458497524,
+          0.019548853859305382,
+          0.028056621551513672,
+          0.018611015751957893
+        ],
+        [
+          0.043901607394218445,
+          1.0000001192092896,
+          0.005340108182281256,
+          0.4686596393585205,
+          0.3419171869754791,
+          0.003070797538384795,
+          0.4215272068977356,
+          0.4316401481628418,
+          0.03411775082349777,
+          0.07665537297725677,
+          0.009450630284845829
+        ],
+        [
+          0.024856820702552795,
+          0.005340108182281256,
+          1.0000001192092896,
+          0.09612029045820236,
+          -0.02402319200336933,
+          0.43859195709228516,
+          0.10380066931247711,
+          -0.0004471606225706637,
+          0.8996750712394714,
+          0.4201306104660034,
+          0.43059465289115906
+        ],
+        [
+          0.030524974688887596,
+          0.4686596393585205,
+          0.09612029045820236,
+          1.0,
+          0.5507063269615173,
+          -0.013712652958929539,
+          0.49258744716644287,
+          0.5480606555938721,
+          0.08945261687040329,
+          -0.010331141762435436,
+          0.06784418225288391
+        ],
+        [
+          -0.01880694553256035,
+          0.3419171869754791,
+          -0.02402319200336933,
+          0.5507063269615173,
+          1.0,
+          -0.08466093242168427,
+          0.40093088150024414,
+          0.558244526386261,
+          -0.009207694791257381,
+          0.1013701856136322,
+          0.12869097292423248
+        ],
+        [
+          0.013105912134051323,
+          0.003070797538384795,
+          0.43859195709228516,
+          -0.013712652958929539,
+          -0.08466093242168427,
+          1.0,
+          0.11867102235555649,
+          -0.014493640512228012,
+          0.42430418729782104,
+          0.42651891708374023,
+          0.5595165491104126
+        ],
+        [
+          0.015519003383815289,
+          0.4215272068977356,
+          0.10380066931247711,
+          0.49258744716644287,
+          0.40093088150024414,
+          0.11867102235555649,
+          0.9999998807907104,
+          0.4262746572494507,
+          0.0841883048415184,
+          0.09402977675199509,
+          -0.0021277335472404957
+        ],
+        [
+          -0.013370818458497524,
+          0.4316401481628418,
+          -0.0004471606225706637,
+          0.5480606555938721,
+          0.558244526386261,
+          -0.014493640512228012,
+          0.4262746572494507,
+          1.0,
+          0.019446054473519325,
+          0.08113949000835419,
+          0.10109078139066696
+        ],
+        [
+          0.019548853859305382,
+          0.03411775082349777,
+          0.8996750712394714,
+          0.08945261687040329,
+          -0.009207694791257381,
+          0.42430418729782104,
+          0.0841883048415184,
+          0.019446054473519325,
+          0.9999999403953552,
+          0.46856316924095154,
+          0.4439878463745117
+        ],
+        [
+          0.028056621551513672,
+          0.07665537297725677,
+          0.4201306104660034,
+          -0.010331141762435436,
+          0.1013701856136322,
+          0.42651891708374023,
+          0.09402977675199509,
+          0.08113949000835419,
+          0.46856316924095154,
+          0.9999999403953552,
+          0.4691987931728363
+        ],
+        [
+          0.018611015751957893,
+          0.009450630284845829,
+          0.43059465289115906,
+          0.06784418225288391,
+          0.12869097292423248,
+          0.5595165491104126,
+          -0.0021277335472404957,
+          0.10109078139066696,
+          0.4439878463745117,
+          0.4691987931728363,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_carola-and-john-travolta-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg"
+    },
+    {
+      "name": "02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg"
+    },
+    {
+      "name": "03_john-travolta-2014-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg"
+    },
+    {
+      "name": "04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg"
+    },
+    {
+      "name": "06_john-travolta-1976-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg"
+    },
+    {
+      "name": "07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg"
+    },
+    {
+      "name": "08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg"
+    },
+    {
+      "name": "09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg"
+    },
+    {
+      "name": "10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "similarity": 0.005340108182281256
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+      "similarity": 0.4686596393585205
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "similarity": 0.3419171869754791
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "similarity": 0.003070797538384795
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+      "similarity": 0.4215272068977356
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "similarity": 0.4316401481628418
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "similarity": 0.03411775082349777
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "similarity": 0.07665537297725677
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/01_carola-and-john-travolta-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "similarity": 0.009450630284845829
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+      "similarity": 0.09612029045820236
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "similarity": -0.02402319200336933
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "similarity": 0.43859195709228516
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+      "similarity": 0.10380066931247711
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "similarity": -0.0004471606225706637
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "similarity": 0.8996750712394714
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "similarity": 0.4201306104660034
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "similarity": 0.43059465289115906
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "similarity": 0.5507063269615173
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "similarity": -0.013712652958929539
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+      "similarity": 0.49258744716644287
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "similarity": 0.5480606555938721
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "similarity": 0.08945261687040329
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "similarity": -0.010331141762435436
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/03_john-travolta-2014-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "similarity": 0.06784418225288391
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "similarity": -0.08466093242168427
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+      "similarity": 0.40093088150024414
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "similarity": 0.558244526386261
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "similarity": -0.009207694791257381
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "similarity": 0.1013701856136322
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "similarity": 0.12869097292423248
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+      "similarity": 0.11867102235555649
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "similarity": -0.014493640512228012
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "similarity": 0.42430418729782104
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "similarity": 0.42651891708374023
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "similarity": 0.5595165491104126
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "similarity": 0.4262746572494507
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "similarity": 0.0841883048415184
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "similarity": 0.09402977675199509
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/06_john-travolta-1976-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "similarity": -0.0021277335472404957
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "similarity": 0.019446054473519325
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "similarity": 0.08113949000835419
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "similarity": 0.10109078139066696
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "similarity": 0.46856316924095154
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "similarity": 0.4439878463745117
+    },
+    {
+      "left": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "right": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/images/10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg",
+      "similarity": 0.4691987931728363
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_carola-and-john-travolta-cropped-jpg.jpg",
+      "02_samuel-l-jackson-sdcc-2014-cropped-jpg.jpg",
+      "03_john-travolta-2014-cropped-jpg.jpg",
+      "04_john-travolta-cannes-2018-cropped-jpg.jpg",
+      "05_samuel-l-jackson-cannes-cropped-jpg.jpg",
+      "06_john-travolta-1976-cropped-jpg.jpg",
+      "07_actors-michael-pena-and-john-travolta-enjoys-game-5-of-the-2016-world-series-30565637262-cropped-jpg.jpg",
+      "08_samuel-l-jackson-sdcc-2014-cropped-2-jpg.jpg",
+      "09_samuel-l-jackson-at-san-diego-comiccon-2008-cropped-jpg.jpg",
+      "10_samuel-l-jackson-captain-america-2-press-conference-jpg.jpg"
+    ],
+    "values": [
+      [
+        1.0000001192092896,
+        0.005340108182281256,
+        0.4686596393585205,
+        0.3419171869754791,
+        0.003070797538384795,
+        0.4215272068977356,
+        0.4316401481628418,
+        0.03411775082349777,
+        0.07665537297725677,
+        0.009450630284845829
+      ],
+      [
+        0.005340108182281256,
+        1.0000001192092896,
+        0.09612029045820236,
+        -0.02402319200336933,
+        0.43859195709228516,
+        0.10380066931247711,
+        -0.0004471606225706637,
+        0.8996750712394714,
+        0.4201306104660034,
+        0.43059465289115906
+      ],
+      [
+        0.4686596393585205,
+        0.09612029045820236,
+        1.0,
+        0.5507063269615173,
+        -0.013712652958929539,
+        0.49258744716644287,
+        0.5480606555938721,
+        0.08945261687040329,
+        -0.010331141762435436,
+        0.06784418225288391
+      ],
+      [
+        0.3419171869754791,
+        -0.02402319200336933,
+        0.5507063269615173,
+        1.0,
+        -0.08466093242168427,
+        0.40093088150024414,
+        0.558244526386261,
+        -0.009207694791257381,
+        0.1013701856136322,
+        0.12869097292423248
+      ],
+      [
+        0.003070797538384795,
+        0.43859195709228516,
+        -0.013712652958929539,
+        -0.08466093242168427,
+        1.0,
+        0.11867102235555649,
+        -0.014493640512228012,
+        0.42430418729782104,
+        0.42651891708374023,
+        0.5595165491104126
+      ],
+      [
+        0.4215272068977356,
+        0.10380066931247711,
+        0.49258744716644287,
+        0.40093088150024414,
+        0.11867102235555649,
+        0.9999998807907104,
+        0.4262746572494507,
+        0.0841883048415184,
+        0.09402977675199509,
+        -0.0021277335472404957
+      ],
+      [
+        0.4316401481628418,
+        -0.0004471606225706637,
+        0.5480606555938721,
+        0.558244526386261,
+        -0.014493640512228012,
+        0.4262746572494507,
+        1.0,
+        0.019446054473519325,
+        0.08113949000835419,
+        0.10109078139066696
+      ],
+      [
+        0.03411775082349777,
+        0.8996750712394714,
+        0.08945261687040329,
+        -0.009207694791257381,
+        0.42430418729782104,
+        0.0841883048415184,
+        0.019446054473519325,
+        0.9999999403953552,
+        0.46856316924095154,
+        0.4439878463745117
+      ],
+      [
+        0.07665537297725677,
+        0.4201306104660034,
+        -0.010331141762435436,
+        0.1013701856136322,
+        0.42651891708374023,
+        0.09402977675199509,
+        0.08113949000835419,
+        0.46856316924095154,
+        0.9999999403953552,
+        0.4691987931728363
+      ],
+      [
+        0.009450630284845829,
+        0.43059465289115906,
+        0.06784418225288391,
+        0.12869097292423248,
+        0.5595165491104126,
+        -0.0021277335472404957,
+        0.10109078139066696,
+        0.4439878463745117,
+        0.4691987931728363,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/portrait.jpg",
+      "error": "No face detected in /workspace/input/noma_bar/data/pulp_fiction_john_travolta_samuel_l_jackson/portrait.jpg"
+    }
+  ]
+}

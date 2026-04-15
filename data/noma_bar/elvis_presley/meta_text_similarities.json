@@ -1,0 +1,136 @@
+{
+  "folder": "/workspace/input/noma_bar/data/elvis_presley",
+  "meta_path": "/workspace/input/noma_bar/data/elvis_presley/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Elvis Aaron Presley (January 8, 1935 \u2013 August 16, 1977) was an American singer and actor. Referred to as the \"King of Rock and Roll\", he is widely regarded as one of the most culturally significant figures of the 20th century. Presley's energetic and sexually provocative performance style, combined with a mix of influences across color lines during a transformative era in race relations, brought both great success and initial controversy.\nPresley was born in Tupelo, Mississippi; his family moved to Memphis, Tennessee, when he was 13. He began his music career in 1954 at Sun Records with producer Sam Phillips, who wanted to bring the sound of African-American music to a wider audience. Presley, on guitar and accompanied by lead guitarist Scotty Moore and bassist Bill Black, was a pioneer of rockabilly, an uptempo, backbeat-driven fusion of country music and rhythm and blues. In 1955, drummer D. J. Fontana joined to complete the lineup of Presley's classic quartet and RCA Victor acquired his contract in a deal arranged by Colonel Tom Parker, who managed him for the rest of his career. Presley's first RCA Victor single, \"Heartbreak Hotel\", was released in January 1956 and became a number-one hit in the US. Within a year, RCA Victor sold ten million Presley singles. With a series of successful television appearances and chart-topping records, Presley became the leading figure of the newly popular rock and roll; though his performing style and promotion of the then-marginalized sound of African Americans led to him being widely considered a threat to the moral well-being of white American youth.\nIn November 1956, Presley made his film debut in Love Me Tender. Drafted into military service in 1958, he relaunched his recording career two years later with some of his most commercially successful work. Presley held few concerts, and, guided by Parker, devoted much of the 1960s to making Hollywood films and soundtrack albums, most of them critically derided. Some of Presley's most famous films included Jailhouse Rock (1957), Blue Hawaii (1961), and Viva Las Vegas (1964). In 1968, he returned to the stage in the acclaimed NBC television comeback special Elvis, which led to an extended Las Vegas concert residency and several highly profitable tours. In 1973, Presley gave the first concert by a solo artist to be broadcast around the world, Aloha from Hawaii. Years of substance abuse and unhealthy eating severely compromised his health, and Presley died in August 1977 at his Graceland estate at the age of 42.\nPresley is one of the best-selling music artists in history, having sold an estimated 500 million records worldwide. He was commercially successful in many genres, including pop, country, rock and roll, rockabilly, rhythm and blues, adult contemporary, and gospel. Presley won three Grammy Awards, received the Grammy Lifetime Achievement Award at age 36, and has been posthumously inducted into multiple music halls of fame. He holds several records, including the most Recording Industry Association of America (RIAA)-certified gold and platinum albums, the most albums charted on the Billboard 200, the most number-one albums by a solo artist on the UK Albums Chart, and the most number-one singles by any act on the UK Singles Chart. In 2018, Presley was posthumously awarded the Presidential Medal of Freedom.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "pink portrait field"
+    },
+    {
+      "index": 1,
+      "element": "dark pompadour hair"
+    },
+    {
+      "index": 2,
+      "element": "guitar fretboard with strings and dots across the eyes"
+    },
+    {
+      "index": 3,
+      "element": "oversized sunglass lens"
+    },
+    {
+      "index": 4,
+      "element": "dark circular mouth accent"
+    },
+    {
+      "index": 5,
+      "element": "pale jaw and collar shape"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "statuette silhouette"
+    },
+    {
+      "index": 1,
+      "element": "performance crown"
+    },
+    {
+      "index": 2,
+      "element": "microphone silhouette"
+    },
+    {
+      "index": 3,
+      "element": "vinyl record"
+    },
+    {
+      "index": 4,
+      "element": "stage lights"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "pink portrait field",
+      "dark pompadour hair",
+      "guitar fretboard with strings and dots across the eyes",
+      "oversized sunglass lens",
+      "dark circular mouth accent",
+      "pale jaw and collar shape"
+    ],
+    "values": [
+      [
+        0.003765322268009186,
+        0.039397284388542175,
+        0.12164449691772461,
+        -0.0551353320479393,
+        0.10956259071826935,
+        -0.04398126155138016
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "statuette silhouette",
+      "performance crown",
+      "microphone silhouette",
+      "vinyl record",
+      "stage lights"
+    ],
+    "column_labels": [
+      "pink portrait field",
+      "dark pompadour hair",
+      "guitar fretboard with strings and dots across the eyes",
+      "oversized sunglass lens",
+      "dark circular mouth accent",
+      "pale jaw and collar shape"
+    ],
+    "values": [
+      [
+        0.40338554978370667,
+        0.24896471202373505,
+        0.15505743026733398,
+        0.1990114152431488,
+        0.18661943078041077,
+        0.2415400743484497
+      ],
+      [
+        0.21965715289115906,
+        0.18455126881599426,
+        0.1610669195652008,
+        0.12647035717964172,
+        0.29406264424324036,
+        0.21583056449890137
+      ],
+      [
+        0.26995229721069336,
+        0.18182803690433502,
+        0.2664101719856262,
+        0.244125097990036,
+        0.2774350047111511,
+        0.2500968277454376
+      ],
+      [
+        0.12086240947246552,
+        0.05952811241149902,
+        0.056628696620464325,
+        0.09751339256763458,
+        0.03211933374404907,
+        0.012350648641586304
+      ],
+      [
+        0.1934099793434143,
+        0.09573060274124146,
+        0.21646207571029663,
+        0.2141532599925995,
+        0.002383790910243988,
+        -0.011204518377780914
+      ]
+    ]
+  }
+}

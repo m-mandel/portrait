@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/kim_jong_il",
+  "meta_path": "/workspace/input/noma_bar/data/kim_jong_il/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Kim Jong Il (16 February 1941 or 1942 \u2013 17 December 2011) was a North Korean politician and dictator who was the second supreme leader of North Korea from the death of his father Kim Il Sung in 1994 until his own death in 2011. Posthumously, Kim Jong Il was declared an Eternal Leader of the Workers' Party of Korea (WPK).\nBy the early 1980s, Kim had become the heir apparent for the leadership of North Korea, thus being established the Kim family, and he assumed important posts in party and army organizations. Kim succeeded his father and founder of North Korea, Kim Il Sung, following his death in 1994. Kim was the General Secretary of the WPK, Member of WPK Presidium , Chairman of the WPK Central Military Commission, Chairman of the National Defence Commission (NDC) of North Korea and the Supreme Commander of the Korean People's Army (KPA), the fourth-largest standing army in the world.\nLike his father, Kim ruled North Korea as a repressive and totalitarian dictatorship. Kim assumed leadership during a period of catastrophic economic crisis amidst the dissolution of the Soviet Union, on which it was heavily dependent for trade in food and other supplies, which brought a famine. While the famine had ended by the late 1990s, food scarcity continued to be a problem throughout his tenure. Kim strengthened the role of the military by his Songun (\"military-first\") policies, making the army the central organizer of civil society. Kim's rule also saw tentative economic reforms, including the opening of the Kaesong Industrial Park in 2003. Under his leadership, North Korea conducted its first nuclear test in October 2006, becoming the world's ninth nuclear-armed state. \nThe most common colloquial title given to Kim during his father's lifetime was \"Dear Leader\" (\uce5c\uc560\ud558\ub294 \uc9c0\ub3c4\uc790\ub3d9\uc9c0).  During his leadership,  he was referred to as \"Great Leader Comrade Kim Jong Il\" (\uc704\ub300\ud55c \ub839\ub3c4\uc790 \uae40\uc815\uc77c\ub3d9\uc9c0) or \"the General\" (\uc7a5\uad70\ub2d8). In April 2009, North Korea's constitution was amended to refer to him and his successors as the \"supreme leader of the DPRK\".\nFollowing Kim's failure to appear at important public events in 2008, foreign observers assumed that Kim had either fallen seriously ill or died. After this point, Kim made efforts to promote his third son, Kim Jong Un as his successor, promoting him to high ranking posts in the WPK in September 2010. \nOn 19 December 2011, the North Korean government announced that he had died two days earlier. After his death, alongside \"Eternal General Secretary\" of the WPK, Kim Jong Il was declared \"Eternal Chairman\" of the National Defence Commission, in keeping with the tradition of establishing eternal posts for the dead members of the Kim dynasty. Kim Jong Un in turn was proclaimed \"First Secretary of the Workers Party of Korea\" and \"First Chairman of the National Defence Commission\".",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "red background field"
+    },
+    {
+      "index": 1,
+      "element": "black bouffant hair block"
+    },
+    {
+      "index": 2,
+      "element": "amber face shape"
+    },
+    {
+      "index": 3,
+      "element": "large glasses with white lower rims"
+    },
+    {
+      "index": 4,
+      "element": "missile-like eyebrow bars"
+    },
+    {
+      "index": 5,
+      "element": "white korea-shaped moustache"
+    },
+    {
+      "index": 6,
+      "element": "dark green collar points"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "medal bar"
+    },
+    {
+      "index": 1,
+      "element": "campaign map"
+    },
+    {
+      "index": 2,
+      "element": "shield plate"
+    },
+    {
+      "index": 3,
+      "element": "command shadow"
+    },
+    {
+      "index": 4,
+      "element": "podium block"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "red background field",
+      "black bouffant hair block",
+      "amber face shape",
+      "large glasses with white lower rims",
+      "missile-like eyebrow bars",
+      "white korea-shaped moustache",
+      "dark green collar points"
+    ],
+    "values": [
+      [
+        0.022809647023677826,
+        -0.008361836895346642,
+        -0.11933372914791107,
+        -0.012463417835533619,
+        0.05691543221473694,
+        0.2435261458158493,
+        -0.02827661857008934
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "medal bar",
+      "campaign map",
+      "shield plate",
+      "command shadow",
+      "podium block"
+    ],
+    "column_labels": [
+      "red background field",
+      "black bouffant hair block",
+      "amber face shape",
+      "large glasses with white lower rims",
+      "missile-like eyebrow bars",
+      "white korea-shaped moustache",
+      "dark green collar points"
+    ],
+    "values": [
+      [
+        0.170535609126091,
+        0.10380779206752777,
+        0.10804367065429688,
+        0.03233879804611206,
+        0.3693866729736328,
+        0.041134338825941086,
+        0.24483713507652283
+      ],
+      [
+        0.16539227962493896,
+        0.04443807527422905,
+        0.15207038819789886,
+        0.029601367190480232,
+        0.13344985246658325,
+        0.06020624190568924,
+        0.17688453197479248
+      ],
+      [
+        0.2158873826265335,
+        0.27176064252853394,
+        0.2355741262435913,
+        0.1510886400938034,
+        0.2671546936035156,
+        0.18361982703208923,
+        0.2479749619960785
+      ],
+      [
+        0.3106396794319153,
+        0.22543960809707642,
+        0.11455683410167694,
+        0.03530865162611008,
+        0.1491556465625763,
+        0.13226750493049622,
+        0.2562495172023773
+      ],
+      [
+        0.16019511222839355,
+        0.24390293657779694,
+        0.01730179786682129,
+        0.17734578251838684,
+        0.17296987771987915,
+        0.10443708300590515,
+        0.15491928160190582
+      ]
+    ]
+  }
+}

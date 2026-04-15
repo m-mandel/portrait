@@ -1,0 +1,80 @@
+{
+  "name": "shlomo scharf",
+  "bio": "Shlomo Scharf (Hebrew: שלמה שרף; born 1 January 1943) is an Israeli former football coach and player who works as a commentator on Israeli Sport 5 TV channel. Scharf managed Maccabi Haifa to three championships, and was Israel national team manager from 1992 to 1999.",
+  "bio_sources": [
+    {
+      "subject": "shlomo scharf",
+      "source": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Shlomo_Scharf"
+    }
+  ],
+  "portrait_elements": [
+    {
+      "element": "burlap",
+      "shape_type": "textile object",
+      "meaning": "builds the portrait's costume and surface while reinforcing shlomo scharf's soccer commentary and national-sport energy."
+    },
+    {
+      "element": "steel wool",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing shlomo scharf's soccer commentary and national-sport energy."
+    },
+    {
+      "element": "soccer balls",
+      "shape_type": "found object",
+      "meaning": "make football culture the immediate subject of the portrait."
+    },
+    {
+      "element": "stamp",
+      "shape_type": "found object",
+      "meaning": "helps build the portrait while reinforcing shlomo scharf's soccer commentary and national-sport energy."
+    },
+    {
+      "element": "chain",
+      "shape_type": "linear object",
+      "meaning": "helps draw structure through the face while reinforcing shlomo scharf's soccer commentary and national-sport energy."
+    },
+    {
+      "element": "pendant",
+      "shape_type": "symbolic accessory",
+      "meaning": "points to identity, allegiance, or belief within shlomo scharf's soccer commentary and national-sport energy."
+    }
+  ],
+  "bio_elements": [
+    {
+      "element": "ball seam",
+      "visual_representation": "curved stitched seams across a rounded surface",
+      "category": "object",
+      "relevance": "Competitive sport defines the subject’s professional world.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "field stripes",
+      "visual_representation": "parallel bands cut by boundary lines",
+      "category": "pattern",
+      "relevance": "Playing fields and organized competition belong to the subject’s environment.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "trophy cup",
+      "visual_representation": "a handled cup silhouette standing on a small base",
+      "category": "object",
+      "relevance": "Victory and competitive success are associated with the subject’s domain.",
+      "grounding": "domain-associated"
+    },
+    {
+      "element": "motion arc",
+      "visual_representation": "a sweeping curve that suggests fast directional movement",
+      "category": "shape",
+      "relevance": "The biography supports a public image built around competition and physical action.",
+      "grounding": "inferred"
+    },
+    {
+      "element": "jersey stripes",
+      "visual_representation": "parallel fabric stripes wrapped across a broad band",
+      "category": "material",
+      "relevance": "Uniforms and team identity belong to the subject’s sporting environment.",
+      "grounding": "domain-associated"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "folder": "/workspace/input/piven/data/barbara_pierce_bush",
+  "model": "/workspace/src/LVFace/models/LVFace-L_Glint360K/LVFace-L_Glint360K.onnx",
+  "providers": [
+    "CUDAExecutionProvider",
+    "CPUExecutionProvider"
+  ],
+  "portrait": {
+    "path": "/workspace/input/piven/data/barbara_pierce_bush/portrait.jpg",
+    "pairs": [
+      {
+        "index": 0,
+        "name": "01_barbara-bush-official-portrait-1992-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg",
+        "similarity": 0.031034570187330246
+      },
+      {
+        "index": 1,
+        "name": "03_barbara-bush-portrait-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg",
+        "similarity": -0.007019043900072575
+      },
+      {
+        "index": 2,
+        "name": "04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+        "path": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+        "similarity": 0.04104262590408325
+      },
+      {
+        "index": 3,
+        "name": "05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+        "path": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+        "similarity": -0.0007976127089932561
+      },
+      {
+        "index": 4,
+        "name": "06_barbara-bush.jpg",
+        "path": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg",
+        "similarity": 0.0122795095667243
+      },
+      {
+        "index": 5,
+        "name": "07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+        "path": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+        "similarity": -0.0040238541550934315
+      },
+      {
+        "index": 6,
+        "name": "08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+        "path": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+        "similarity": 0.006433924660086632
+      },
+      {
+        "index": 7,
+        "name": "09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+        "path": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+        "similarity": 0.004383659455925226
+      },
+      {
+        "index": 8,
+        "name": "10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+        "path": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+        "similarity": 0.041299253702163696
+      }
+    ],
+    "matrix": {
+      "labels": [
+        "portrait",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "values": [
+        [
+          1.0,
+          0.031034570187330246,
+          -0.007019043900072575,
+          0.04104262590408325,
+          -0.0007976127089932561,
+          0.0122795095667243,
+          -0.0040238541550934315,
+          0.006433924660086632,
+          0.004383659455925226,
+          0.041299253702163696
+        ],
+        [
+          0.031034570187330246,
+          1.0,
+          0.5118638873100281,
+          0.7355636358261108,
+          0.4025672972202301,
+          0.6162854433059692,
+          0.5298071503639221,
+          0.5038115978240967,
+          0.4203115701675415,
+          0.4793350398540497
+        ],
+        [
+          -0.007019043900072575,
+          0.5118638873100281,
+          0.9999999403953552,
+          0.536520779132843,
+          0.3966445028781891,
+          0.6509946584701538,
+          0.9434645175933838,
+          0.4605928957462311,
+          0.5359893441200256,
+          0.551286518573761
+        ],
+        [
+          0.04104262590408325,
+          0.7355636358261108,
+          0.536520779132843,
+          1.0000001192092896,
+          0.38367992639541626,
+          0.6184446215629578,
+          0.5495752096176147,
+          0.45171022415161133,
+          0.4856484830379486,
+          0.4817137122154236
+        ],
+        [
+          -0.0007976127089932561,
+          0.4025672972202301,
+          0.3966445028781891,
+          0.38367992639541626,
+          1.0000001192092896,
+          0.37777572870254517,
+          0.3718577027320862,
+          0.38432997465133667,
+          0.2758773863315582,
+          0.38592520356178284
+        ],
+        [
+          0.0122795095667243,
+          0.6162854433059692,
+          0.6509946584701538,
+          0.6184446215629578,
+          0.37777572870254517,
+          1.0000001192092896,
+          0.6218862533569336,
+          0.5902373790740967,
+          0.5044142603874207,
+          0.636532187461853
+        ],
+        [
+          -0.0040238541550934315,
+          0.5298071503639221,
+          0.9434645175933838,
+          0.5495752096176147,
+          0.3718577027320862,
+          0.6218862533569336,
+          0.9999998807907104,
+          0.45789071917533875,
+          0.4991236627101898,
+          0.514057993888855
+        ],
+        [
+          0.006433924660086632,
+          0.5038115978240967,
+          0.4605928957462311,
+          0.45171022415161133,
+          0.38432997465133667,
+          0.5902373790740967,
+          0.45789071917533875,
+          1.0,
+          0.3685138523578644,
+          0.5298181772232056
+        ],
+        [
+          0.004383659455925226,
+          0.4203115701675415,
+          0.5359893441200256,
+          0.4856484830379486,
+          0.2758773863315582,
+          0.5044142603874207,
+          0.4991236627101898,
+          0.3685138523578644,
+          0.9999998807907104,
+          0.4010321795940399
+        ],
+        [
+          0.041299253702163696,
+          0.4793350398540497,
+          0.551286518573761,
+          0.4817137122154236,
+          0.38592520356178284,
+          0.636532187461853,
+          0.514057993888855,
+          0.5298181772232056,
+          0.4010321795940399,
+          1.0000001192092896
+        ]
+      ]
+    }
+  },
+  "images": [
+    {
+      "name": "01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg"
+    },
+    {
+      "name": "03_barbara-bush-portrait-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg"
+    },
+    {
+      "name": "04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg"
+    },
+    {
+      "name": "05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg"
+    },
+    {
+      "name": "06_barbara-bush.jpg",
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg"
+    },
+    {
+      "name": "07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg"
+    },
+    {
+      "name": "08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg"
+    },
+    {
+      "name": "09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg"
+    },
+    {
+      "name": "10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg"
+    }
+  ],
+  "pairs": [
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg",
+      "similarity": 0.5118638873100281
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "similarity": 0.7355636358261108
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "similarity": 0.4025672972202301
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg",
+      "similarity": 0.6162854433059692
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "similarity": 0.5298071503639221
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "similarity": 0.5038115978240967
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "similarity": 0.4203115701675415
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.4793350398540497
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "similarity": 0.536520779132843
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "similarity": 0.3966445028781891
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg",
+      "similarity": 0.6509946584701538
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "similarity": 0.9434645175933838
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "similarity": 0.4605928957462311
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "similarity": 0.5359893441200256
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/03_barbara-bush-portrait-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.551286518573761
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "similarity": 0.38367992639541626
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg",
+      "similarity": 0.6184446215629578
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "similarity": 0.5495752096176147
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "similarity": 0.45171022415161133
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "similarity": 0.4856484830379486
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.4817137122154236
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg",
+      "similarity": 0.37777572870254517
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "similarity": 0.3718577027320862
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "similarity": 0.38432997465133667
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "similarity": 0.2758773863315582
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.38592520356178284
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "similarity": 0.6218862533569336
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "similarity": 0.5902373790740967
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "similarity": 0.5044142603874207
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/06_barbara-bush.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.636532187461853
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "similarity": 0.45789071917533875
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "similarity": 0.4991236627101898
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.514057993888855
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "similarity": 0.3685138523578644
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.5298181772232056
+    },
+    {
+      "left": "/workspace/input/piven/data/barbara_pierce_bush/images/09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "right": "/workspace/input/piven/data/barbara_pierce_bush/images/10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg",
+      "similarity": 0.4010321795940399
+    }
+  ],
+  "matrix": {
+    "labels": [
+      "01_barbara-bush-official-portrait-1992-jpg.jpg",
+      "03_barbara-bush-portrait-jpg.jpg",
+      "04_barbara-bush-official-portrait-1992-cropped-jpg.jpg",
+      "05_barbara-bush-first-ladies-of-the-united-states-exhibition.jpg",
+      "06_barbara-bush.jpg",
+      "07_in-memoriam-barbara-bush-the-dartmouth-review.jpg",
+      "08_portrait-of-american-then-second-lady-of-the-united-states-barbara.jpg",
+      "09_barbara-bush-first-ladies-of-the-united-states-research-guides-at.jpg",
+      "10_708-barbara-bush-portraits-stock-photos-high-res-pictures-and-images.jpg"
+    ],
+    "values": [
+      [
+        1.0,
+        0.5118638873100281,
+        0.7355636358261108,
+        0.4025672972202301,
+        0.6162854433059692,
+        0.5298071503639221,
+        0.5038115978240967,
+        0.4203115701675415,
+        0.4793350398540497
+      ],
+      [
+        0.5118638873100281,
+        0.9999999403953552,
+        0.536520779132843,
+        0.3966445028781891,
+        0.6509946584701538,
+        0.9434645175933838,
+        0.4605928957462311,
+        0.5359893441200256,
+        0.551286518573761
+      ],
+      [
+        0.7355636358261108,
+        0.536520779132843,
+        1.0000001192092896,
+        0.38367992639541626,
+        0.6184446215629578,
+        0.5495752096176147,
+        0.45171022415161133,
+        0.4856484830379486,
+        0.4817137122154236
+      ],
+      [
+        0.4025672972202301,
+        0.3966445028781891,
+        0.38367992639541626,
+        1.0000001192092896,
+        0.37777572870254517,
+        0.3718577027320862,
+        0.38432997465133667,
+        0.2758773863315582,
+        0.38592520356178284
+      ],
+      [
+        0.6162854433059692,
+        0.6509946584701538,
+        0.6184446215629578,
+        0.37777572870254517,
+        1.0000001192092896,
+        0.6218862533569336,
+        0.5902373790740967,
+        0.5044142603874207,
+        0.636532187461853
+      ],
+      [
+        0.5298071503639221,
+        0.9434645175933838,
+        0.5495752096176147,
+        0.3718577027320862,
+        0.6218862533569336,
+        0.9999998807907104,
+        0.45789071917533875,
+        0.4991236627101898,
+        0.514057993888855
+      ],
+      [
+        0.5038115978240967,
+        0.4605928957462311,
+        0.45171022415161133,
+        0.38432997465133667,
+        0.5902373790740967,
+        0.45789071917533875,
+        1.0,
+        0.3685138523578644,
+        0.5298181772232056
+      ],
+      [
+        0.4203115701675415,
+        0.5359893441200256,
+        0.4856484830379486,
+        0.2758773863315582,
+        0.5044142603874207,
+        0.4991236627101898,
+        0.3685138523578644,
+        0.9999998807907104,
+        0.4010321795940399
+      ],
+      [
+        0.4793350398540497,
+        0.551286518573761,
+        0.4817137122154236,
+        0.38592520356178284,
+        0.636532187461853,
+        0.514057993888855,
+        0.5298181772232056,
+        0.4010321795940399,
+        1.0000001192092896
+      ]
+    ]
+  },
+  "errors": [
+    {
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/portrait.jpg",
+      "error": "No face detected in /workspace/input/piven/data/barbara_pierce_bush/portrait.jpg"
+    },
+    {
+      "path": "/workspace/input/piven/data/barbara_pierce_bush/images/02_barbara-bush-rose-214234945-jpg.jpg",
+      "error": "No face detected in /workspace/input/piven/data/barbara_pierce_bush/images/02_barbara-bush-rose-214234945-jpg.jpg"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "folder": "/workspace/input/noma_bar/data/the_blues_brothers",
+  "meta_path": "/workspace/input/noma_bar/data/the_blues_brothers/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "The Blues Brothers (known formally as \"The Fabulous Blues Brothers Show Band and Revue\") are an American blues and soul revue band founded in 1978 by comedians Dan Aykroyd and John Belushi, who met and began collaborating as original cast members of Saturday Night Live.\nThe Blues Brothers Musical Revue consisted of lead vocalist \"Joliet\" Jake Blues (Belushi) and his brother, Elwood (Aykroyd), who played a harmonica that he carried onstage in a briefcase handcuffed to his wrist. The duo were usually dressed in matching black suits, black pencil ties, black trilby hats and sunglasses. The band itself was carefully constructed, and made up of experienced musicians of the time, including Steve \"The Colonel\" Cropper, Donald \"Duck\" Dunn, Matt \"Guitar\" Murphy, \"Blue\" Lou Marini, Tom \"Bones\" Malone, and Alan \"Mr. Fabulous\" Rubin.\nThe act debuted as musical guest on the April 22, 1978, episode of Saturday Night Live, hosted by comedian Steve Martin. After recruiting a full band, the group opened for Martin during a residency at the Universal Amphitheatre in September 1978.  Recordings from that performance were released on November 28 as a live album, Briefcase Full of Blues. The album rose to the top of the charts and was a platinum seller. Several subsequent albums followed. The act opened for the Grateful Dead at the closing of Winterland Arena in San Francisco, and gained further fame after spawning the comedy film The Blues Brothers in 1980. They remain the most successful blues revue act ever.\nBelushi died in 1982, but the Blues Brothers continued to perform with a rotation of guest singers and other band members. The band re-formed in 1988 for a world tour and again in 1998 for the sequel film Blues Brothers 2000.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "white background field"
+    },
+    {
+      "index": 1,
+      "element": "two black hats"
+    },
+    {
+      "index": 2,
+      "element": "two dark suit blocks"
+    },
+    {
+      "index": 3,
+      "element": "microphone-shaped eye elements"
+    },
+    {
+      "index": 4,
+      "element": "thin squiggle mouth lines"
+    },
+    {
+      "index": 5,
+      "element": "paired white face silhouettes"
+    },
+    {
+      "index": 6,
+      "element": "skinny tie lines"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "briefcase"
+    },
+    {
+      "index": 1,
+      "element": "harmonica"
+    },
+    {
+      "index": 2,
+      "element": "black suit"
+    },
+    {
+      "index": 3,
+      "element": "trilby hat"
+    },
+    {
+      "index": 4,
+      "element": "sunglasses"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "white background field",
+      "two black hats",
+      "two dark suit blocks",
+      "microphone-shaped eye elements",
+      "thin squiggle mouth lines",
+      "paired white face silhouettes",
+      "skinny tie lines"
+    ],
+    "values": [
+      [
+        0.02507982775568962,
+        0.1649641990661621,
+        0.11975938826799393,
+        0.0893113762140274,
+        0.025465454906225204,
+        0.1543872058391571,
+        0.03139705955982208
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "briefcase",
+      "harmonica",
+      "black suit",
+      "trilby hat",
+      "sunglasses"
+    ],
+    "column_labels": [
+      "white background field",
+      "two black hats",
+      "two dark suit blocks",
+      "microphone-shaped eye elements",
+      "thin squiggle mouth lines",
+      "paired white face silhouettes",
+      "skinny tie lines"
+    ],
+    "values": [
+      [
+        0.1721414178609848,
+        0.17388544976711273,
+        0.24809585511684418,
+        0.031177379190921783,
+        -0.043614983558654785,
+        0.1356363147497177,
+        0.2042011022567749
+      ],
+      [
+        0.060529522597789764,
+        0.197408527135849,
+        0.058067768812179565,
+        0.18935859203338623,
+        0.1333240270614624,
+        0.07762233912944794,
+        0.14448577165603638
+      ],
+      [
+        0.23119550943374634,
+        0.4310837388038635,
+        0.5449732542037964,
+        0.10848972201347351,
+        -0.021566221490502357,
+        0.24577614665031433,
+        0.2536461651325226
+      ],
+      [
+        0.0488731749355793,
+        0.48635175824165344,
+        0.1718573272228241,
+        0.20047970116138458,
+        0.12532947957515717,
+        0.16553263366222382,
+        0.24201330542564392
+      ],
+      [
+        0.18349429965019226,
+        0.3322390615940094,
+        0.28531119227409363,
+        0.3877074122428894,
+        0.1682436764240265,
+        0.2768913507461548,
+        0.28593501448631287
+      ]
+    ]
+  }
+}

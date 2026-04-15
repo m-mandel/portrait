@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/menachem_begin",
+  "meta_path": "/workspace/input/piven/data/menachem_begin/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Menachem Begin (16 August 1913 \u2013 9 March 1992) was an Israeli politician who founded Herut and Likud and served as prime minister of Israel from 1977 to 1983.\nBefore the creation of the state of Israel, Begin was the leader of the Zionist militant group Irgun, the Revisionist breakaway from the larger Jewish paramilitary organization Haganah. He proclaimed a revolt, on 1 February 1944, against the British mandatory government, which was opposed by the Jewish Agency. As head of the Irgun, he targeted the British in Palestine, with a notable attack being the King David Hotel bombing. Later, the Irgun fought the Arabs during the 1947\u201348 civil war in Mandatory Palestine and, as its chief, Begin was described by the British government as the \"leader of the notorious terrorist organisation\". It declined him an entry visa to the United Kingdom between 1953 and 1955. However, Begin's overtures of friendship eventually paid off and he was granted a visa in 1972, five years prior to becoming prime minister.\nBegin was elected to the first Knesset, as head of Herut, the party he founded, and was at first on the political fringe, embodying the opposition to the Mapai-led government and Israeli establishment. He remained in opposition in the eight consecutive elections (except for a national unity government around the Six-Day War), but became more acceptable to the political center. His 1977 electoral victory and premiership ended three decades of Labor Party political dominance.\nBegin's most significant achievement as prime minister was the signing of a peace treaty with Egypt in 1979, for which he and Anwar Sadat shared the Nobel Peace Prize. In the wake of the Camp David Accords, the Israel Defense Forces (IDF) withdrew from the Sinai Peninsula, which had been captured from Egypt in the Six-Day War. Later, Begin's government promoted the construction of Israeli settlements in the West Bank and the Gaza Strip. Begin authorized the bombing of the Osirak nuclear plant in Iraq and the invasion of Lebanon in 1982 to fight Palestine Liberation Organization strongholds there, igniting the 1982 Lebanon War. As Israeli military involvement in Lebanon deepened, and the Sabra and Shatila massacre, carried out by Christian Phalangist militia allies of the Israelis, shocked world public opinion, Begin grew increasingly isolated. As IDF forces remained mired in Lebanon and the economy suffered from hyperinflation, the public pressure on Begin mounted. Depressed by the death of his wife Aliza in November 1982, he gradually withdrew from public life, until his resignation in October 1983.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "glasses"
+    },
+    {
+      "index": 1,
+      "element": "toy eyeballs"
+    },
+    {
+      "index": 2,
+      "element": "speaker grill"
+    },
+    {
+      "index": 3,
+      "element": "paper clips"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "olive branch"
+    },
+    {
+      "index": 1,
+      "element": "medal bar"
+    },
+    {
+      "index": 2,
+      "element": "campaign map"
+    },
+    {
+      "index": 3,
+      "element": "podium block"
+    },
+    {
+      "index": 4,
+      "element": "warning ring"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "glasses",
+      "toy eyeballs",
+      "speaker grill",
+      "paper clips"
+    ],
+    "values": [
+      [
+        0.0031745173037052155,
+        0.06389150023460388,
+        -0.0012754052877426147,
+        -0.0680164247751236
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "olive branch",
+      "medal bar",
+      "campaign map",
+      "podium block",
+      "warning ring"
+    ],
+    "column_labels": [
+      "glasses",
+      "toy eyeballs",
+      "speaker grill",
+      "paper clips"
+    ],
+    "values": [
+      [
+        0.13741432130336761,
+        0.0779753103852272,
+        0.1970599889755249,
+        0.15970435738563538
+      ],
+      [
+        0.18634475767612457,
+        0.08337319642305374,
+        0.17995792627334595,
+        0.21689605712890625
+      ],
+      [
+        0.10583600401878357,
+        0.16231657564640045,
+        0.05863611400127411,
+        0.18702957034111023
+      ],
+      [
+        0.21007396280765533,
+        0.0006963871419429779,
+        0.37357550859451294,
+        0.3484479784965515
+      ],
+      [
+        0.20553448796272278,
+        0.17255282402038574,
+        0.17420020699501038,
+        0.10285402834415436
+      ]
+    ]
+  }
+}

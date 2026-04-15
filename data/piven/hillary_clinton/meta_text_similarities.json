@@ -1,0 +1,112 @@
+{
+  "folder": "/workspace/input/piven/data/hillary_clinton",
+  "meta_path": "/workspace/input/piven/data/hillary_clinton/meta.json",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "bio": "Hillary Diane Rodham Clinton (n\u00e9e Rodham; born October 26, 1947) is an American politician, lawyer, and diplomat. She was the 67th United States secretary of state in the administration of Barack Obama from 2009 to 2013, a U.S. senator representing New York from 2001 to 2009, and the first lady of the United States from 1993 to 2001 as the wife of Bill Clinton. A member of the Democratic Party, she was the party's nominee in the 2016 presidential election, becoming the first woman to win a presidential nomination by a major U.S. political party and the only woman to win the popular vote for U.S. president. Clinton lost the United States Electoral College vote to Republican Party nominee Donald Trump. She is the only first lady of the United States to have run for elected office.\nBorn and raised in Chicago, Rodham graduated from Wellesley College in 1969 and from Yale Law School in 1973. After serving as a congressional legal counsel, she moved to Arkansas and, in 1975, married Bill Clinton. In 1977, Clinton co-founded Arkansas Advocates for Children and Families, and two years later became the first woman partner at Little Rock's Rose Law Firm. She was the first lady of Arkansas from 1979 to 1981 and again from 1983 to 1992. As the first lady of the U.S., Clinton advocated for healthcare reform. In 1994, her health care plan failed to gain approval from Congress. In 1997 and 1999, Clinton played a leading role in promoting the creation of the State Children's Health Insurance Program, the Adoption and Safe Families Act, and the Foster Care Independence Act. In 1998, Clinton's marital relationship came under public scrutiny during the Clinton\u2013Lewinsky scandal, which led her to publicly reaffirm her commitment to the marriage.\nClinton was first elected to the U.S. Senate in 2000, becoming the first female senator from New York. As a senator, she chaired the Senate Democratic Steering and Outreach Committee from 2003 to 2007. Clinton ran for president in 2008, and lost to Barack Obama in the Democratic primaries. During 2009, she resigned from the Senate to become Obama's secretary of state. She responded to the Arab Spring by advocating the 2011 military intervention in Libya, but was harshly criticized by Republicans for the failure to prevent or adequately respond to the 2012 Benghazi attack. Clinton helped to organize a regime of international sanctions against Iran in an effort to force it to curtail its nuclear program, which eventually led to the multinational Joint Comprehensive Plan of Action in 2015. The strategic pivot to Asia was a central aspect of her tenure. Her use of a private email server as secretary was the subject of intense scrutiny; while no charges were filed, the controversy was the single-most-covered topic during her second presidential run in 2016. \nFollowing her loss, Clinton wrote multiple books and launched Onward Together, a political action organization dedicated to fundraising for progressive political groups. In 2011, she was appointed the Honorary Founding Chair of the Institute for Women, Peace and Security at Georgetown University, and the awards named in her name has been awarded annually at the university. Since 2020, Clinton has served as Chancellor of Queen's University Belfast. During 2023, she joined Columbia University as a Professor of Practice at the School of International and Public Affairs.",
+  "portrait_elements": [
+    {
+      "index": 0,
+      "element": "button"
+    },
+    {
+      "index": 1,
+      "element": "pills"
+    },
+    {
+      "index": 2,
+      "element": "capsules"
+    },
+    {
+      "index": 3,
+      "element": "paper card"
+    }
+  ],
+  "bio_elements": [
+    {
+      "index": 0,
+      "element": "olive branch"
+    },
+    {
+      "index": 1,
+      "element": "podium block"
+    },
+    {
+      "index": 2,
+      "element": "ballot box"
+    },
+    {
+      "index": 3,
+      "element": "gavel block"
+    },
+    {
+      "index": 4,
+      "element": "microphone silhouette"
+    }
+  ],
+  "bio_vs_portrait": {
+    "row_labels": [
+      "bio"
+    ],
+    "column_labels": [
+      "button",
+      "pills",
+      "capsules",
+      "paper card"
+    ],
+    "values": [
+      [
+        0.059306684881448746,
+        0.029708899557590485,
+        0.04085671901702881,
+        0.06028401106595993
+      ]
+    ]
+  },
+  "bio_elements_vs_portrait": {
+    "row_labels": [
+      "olive branch",
+      "podium block",
+      "ballot box",
+      "gavel block",
+      "microphone silhouette"
+    ],
+    "column_labels": [
+      "button",
+      "pills",
+      "capsules",
+      "paper card"
+    ],
+    "values": [
+      [
+        0.15264393389225006,
+        0.155430406332016,
+        0.123862124979496,
+        0.22381487488746643
+      ],
+      [
+        0.2921936511993408,
+        0.16975413262844086,
+        0.14145827293395996,
+        0.2652316093444824
+      ],
+      [
+        0.27180665731430054,
+        0.19782036542892456,
+        0.15399622917175293,
+        0.39617419242858887
+      ],
+      [
+        0.20329394936561584,
+        0.25402992963790894,
+        0.17549467086791992,
+        0.2327847182750702
+      ],
+      [
+        0.13264113664627075,
+        -0.008355893194675446,
+        0.05579790472984314,
+        0.16645857691764832
+      ]
+    ]
+  }
+}
