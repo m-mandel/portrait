@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portrait Sketch Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="portrait-rail" aria-label="Portraits">
+        <div class="rail-header">
+          <h1>Portrait Sketch Explorer</h1>
+          <p id="portraitCount"></p>
+        </div>
+        <nav id="portraitNav" class="portrait-nav"></nav>
+      </aside>
+
+      <section class="workspace" aria-label="Sketch workspace">
+        <header class="workspace-header">
+          <div>
+            <p class="eyebrow">Active portrait</p>
+            <h2 id="portraitTitle">Loading</h2>
+          </div>
+          <div id="visibleStatus" class="visible-status" aria-live="polite"></div>
+        </header>
+
+        <div class="content-grid">
+          <section class="sketch-area" aria-labelledby="sketchHeading">
+            <div class="section-title">
+              <h3 id="sketchHeading">Sketch</h3>
+              <div class="quick-actions" aria-label="Sketch visibility controls">
+                <button id="undoButton" class="icon-action" type="button" aria-label="Undo" title="Undo" disabled>
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M9 14 4 9l5-5"></path>
+                    <path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"></path>
+                  </svg>
+                </button>
+                <button id="redoButton" class="icon-action" type="button" aria-label="Redo" title="Redo" disabled>
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m15 14 5-5-5-5"></path>
+                    <path d="M20 9H9.5a5.5 5.5 0 0 0 0 11H13"></path>
+                  </svg>
+                </button>
+                <button type="button" data-action="show-all">All on</button>
+                <button type="button" data-action="hide-all">All off</button>
+                <button type="button" data-action="show-strokes">Strokes on</button>
+                <button type="button" data-action="hide-strokes">Strokes off</button>
+                <button type="button" data-action="show-fills">Fills on</button>
+                <button type="button" data-action="hide-fills">Fills off</button>
+              </div>
+            </div>
+
+            <div id="svgMount" class="svg-stage" aria-live="polite"></div>
+          </section>
+
+          <aside class="component-panel" aria-labelledby="componentsHeading">
+            <div class="component-panel-header">
+              <h3 id="componentsHeading">SVG components</h3>
+              <div class="filter-tabs" aria-label="Component filters">
+                <button type="button" class="is-active" data-filter="all">All</button>
+                <button type="button" data-filter="stroke">Strokes</button>
+                <button type="button" data-filter="fill">Fills</button>
+                <button type="button" data-filter="hidden">Hidden</button>
+              </div>
+            </div>
+            <div id="componentList" class="component-list" aria-live="polite"></div>
+          </aside>
+        </div>
+
+        <section id="imageDrawer" class="image-drawer is-collapsed" aria-labelledby="referencesHeading">
+          <button
+            id="imageDrawerToggle"
+            class="image-drawer-handle"
+            type="button"
+            aria-controls="imageDrawerPanel"
+            aria-expanded="false"
+          >
+            Reveal images
+          </button>
+          <div id="imageDrawerPanel" class="image-drawer-panel">
+            <div class="section-title">
+              <h3 id="referencesHeading">JPG images</h3>
+              <span id="imageCount" class="image-count"></span>
+            </div>
+            <div id="referenceGrid" class="reference-grid"></div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
