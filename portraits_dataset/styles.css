@@ -122,6 +122,18 @@ button {
   letter-spacing: 0;
 }
 
+.title-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interaction-hint {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
 .visible-status,
 .image-count {
   color: var(--muted);

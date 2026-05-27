@@ -263,7 +263,7 @@ function registerComponents(svg) {
       index: index + 1,
       kind,
       tag: element.tagName.toLowerCase(),
-      visible: true,
+      visible: false,
     };
 
     group.components.push(component);
@@ -272,8 +272,9 @@ function registerComponents(svg) {
     element.dataset.kind = kind;
     element.setAttribute("tabindex", "0");
     element.setAttribute("role", "button");
-    element.setAttribute("aria-pressed", "true");
-    element.setAttribute("aria-label", `${componentLabel(component)}, hide`);
+    element.classList.add("is-hidden");
+    element.setAttribute("aria-pressed", "false");
+    element.setAttribute("aria-label", `${componentLabel(component)}, show`);
 
     element.addEventListener("click", (event) => {
       event.stopPropagation();
